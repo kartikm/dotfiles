@@ -1,0 +1,10 @@
+#!/bin/sh
+
+clear
+notify-send "Starting backup..."
+
+#Use .rsync-exclude.txt to files/dirs you don't want to backup
+rsync -avz --exclude-from '.rsync-exclude.txt' --delete /home/kartik/ /media/usb0/backup
+rsync -avz --delete /etc /media/usb0/backup/backup
+
+notify-send "Backup finished! Please check log for any failures.."
