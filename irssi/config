@@ -6,8 +6,6 @@ servers = (
     autoconnect = "yes";
   },
   {
-    #freenode+tor=pita
-    #address = "10.40.40.40";
     address = "irc.freenode.net";
     chatnet = "Freenode";
     port = "6667";
@@ -20,18 +18,19 @@ servers = (
 chatnets = {
   OFTC = {
     type = "IRC";
-    max_kicks = "4";
+    max_kicks = "5";
     max_msgs = "5";
-    max_whois = "4";
+    max_whois = "5";
     max_query_chans = "5";
-    autosendcmd = "/^msg NickServ identify ****";
+    autosendcmd = "/^msg NickServ identify SOMEPASSWORD";
   };
   Freenode = {
     type = "IRC";
-    max_kicks = "4";
+    max_kicks = "5";
     max_msgs = "5";
-    max_whois = "4";
+    max_whois = "5";
     max_query_chans = "5";
+    autosendcmd = "/^msg NickServ identify SOMEPASSWORD";
   };
 };
 
@@ -42,55 +41,27 @@ channels = (
   { name = "#debian-devel"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#debian-mentors"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#debian-i18n"; chatnet = "OFTC"; autojoin = "No"; },
+  { name = "#debian"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#debconf"; chatnet = "OFTC"; autojoin = "No"; },
   { name = "#debian-newmaint"; chatnet = "OFTC"; autojoin = "No"; },
+  { name = "#debian-nginx"; chatnet = "OFTC"; autojoin = "Yes"; },
+  { name = "#tor-dev"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#indlinux"; chatnet = "Freenode"; autojoin = "No"; },
-  { name = "##linux-india"; chatnet = "Freenode"; autojoin = "No"; },
-  { name = "#illumos"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#openindiana"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "##nexenta"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#nexentastor"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#kde-in"; chatnet = "Freenode"; autojoin = "No"; }
+  { name = "##linux-india"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#illumos"; chatnet = "Freenode"; autojoin = "No"; },
+  { name = "#kde-in"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#osdyson"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#hasgeek"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#falcon"; chatnet = "Freenode"; autojoin = "Yes"; }
 );
 
 aliases = {
   J = "join";
-  WJOIN = "join -window";
-  WQUERY = "query -window";
   LEAVE = "part";
   BYE = "quit";
-  EXIT = "quit";
-  SIGNOFF = "quit";
-  DESCRIBE = "action";
-  DATE = "time";
-  HOST = "userhost";
   LAST = "lastlog";
-  SAY = "msg *";
-  WI = "whois";
-  WII = "whois $0 $0";
-  WW = "whowas";
-  W = "who";
-  N = "names";
-  M = "msg";
-  T = "topic";
-  C = "clear";
-  CL = "clear";
-  K = "kick";
-  KB = "kickban";
-  KN = "knockout";
-  BANS = "ban";
-  B = "ban";
-  MUB = "unban *";
-  UB = "unban";
   IG = "ignore";
-  UNIG = "unignore";
-  SB = "scrollback";
-  UMODE = "mode $N";
   WC = "window close";
-  WN = "window new hide";
-  SV = "say Irssi $J ($V) - http://irssi.org/";
-  GOTO = "sb goto";
-  CHAT = "dcc chat";
   RUN = "SCRIPT LOAD";
   CALC = "exec - if command -v bc >/dev/null 2>&1\\; then printf '%s=' '$*'\\; echo '$*' | bc -l\\; else echo bc was not found\\; fi";
   SBAR = "STATUSBAR";
@@ -105,25 +76,17 @@ aliases = {
 };
 
 statusbar = {
-  # formats:
-  # when using {templates}, the template is shown only if it's argument isn't
-  # empty unless no argument is given. for example {sb} is printed always,
-  # but {sb $T} is printed only if $T isn't empty.
 
   items = {
-    # start/end text in statusbars
     barstart = "{sbstart}";
     barend = "{sbend}";
 
     topicbarstart = "{topicsbstart}";
     topicbarend = "{topicsbend}";
 
-    # treated "normally", you could change the time/user name to whatever
     time = "{sb $Z}";
     user = "{sb {sbnickmode $cumode}$N{sbmode $usermode}{sbaway $A}}";
 
-    # treated specially .. window is printed with non-empty windows,
-    # window_empty is printed with empty windows
     window = "{sb $winref:$tag/$itemname{sbmode $M}}";
     window_empty = "{sb $winref{sbservertag $tag}}";
     prompt = "{prompt $[.15]itemname}";
@@ -137,9 +100,6 @@ statusbar = {
     more = "-- more --";
   };
 
-  # there's two type of statusbars. root statusbars are either at the top
-  # of the screen or at the bottom of the screen. window statusbars are at
-  # the top/bottom of each split window in screen.
   default = {
     # the "default statusbar" to be displayed at the bottom of the window.
     # contains all the normal items.
@@ -231,104 +191,29 @@ statusbar = {
 settings = {
   core = {
     real_name = "Kartik Mistry";
-    user_name = "kartik";
+    user_name = "kartik_";
     nick = "kart_";
   };
   "fe-text" = { actlist_sort = "refnum"; scroll_page_count = "/2"; };
-  "fe-common/core" = { AUTOLOG = "yes"; theme = "brisbin"; };
+  "fe-common/core" = {
+    AUTOLOG = "yes";
+    autolog_path = "~/.irssi/irclogs/%Y/$tag/$0.%m-%d.log";
+    autolog_level = "ALL -CRAP -CLIENTCRAP -CTCPS";
+    autolog_ignore_targets = "Chanserv Nickserv auth av and` av_ and`_";
+    theme = "brisbin";
+  };
   "perl/core/scripts" = {
     awl_display_key = "= $N$H$C$S";
     awl_display_nokey = "= $N$H$C$S";
-    nicklist_width = "15";
+    nicklist_width = "10";
     nicklist_automode = "screen";
+    nicklist_height = "30";
   };
 };
 keyboard = ( 
   { key = "meta-[M"; id = "command"; data = "mouse_xterm "; }
 );
 logs = { };
-windows = {
-  1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
-  2 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#illumos";
-        tag = "Freenode";
-      }
-    );
-  };
-  3 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#openindiana";
-        tag = "Freenode";
-      }
-    );
-  };
-  4 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "##nexenta";
-        tag = "Freenode";
-      }
-    );
-  };
-  5 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#nexentastor";
-        tag = "Freenode";
-      }
-    );
-  };
-  6 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#debian-in";
-        tag = "OFTC";
-      }
-    );
-  };
-  7 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#debian-devel";
-        tag = "OFTC";
-      }
-    );
-  };
-  8 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#debian-mentors";
-        tag = "OFTC";
-      }
-    );
-  };
-  9 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#debian-in-mentors";
-        tag = "OFTC";
-      }
-    );
-  };
-  10 = { name = "highlite"; };
-};
-mainwindows = { 12 = { first_line = "1"; lines = "33"; }; };
+windows = { 1 = { immortal = "yes"; name = "(status)"; level = "ALL"; }; };
+mainwindows = { 1 = { first_line = "1"; lines = "33"; }; };
+ignores = ( { mask = "on"; level = "INVITES"; } );

@@ -3,12 +3,9 @@
 ### Baishampayan Ghose <http://github.com/ghoseb/zshrc>
 ### Mika <http://grml.org/zsh-pony/>
 
-# Load the completions stuff
+#Load the completions stuff
 autoload -U compinit
 compinit
-
-autoload -U promptinit
-promptinit
 
 # History settings
 HISTFILE=~/.zshistory
@@ -16,7 +13,7 @@ SAVEHIST=100000
 HISTSIZE=100000
 DIRSTACKSIZE=30
 
-# ZSH Options
+#ZSH Options
 setopt autopushd pushdminus pushdsilent pushdtohome pushdignoredups # push directories visited automatically onto stack
 setopt autocd
 setopt globdots # find dotfiles easier
@@ -49,14 +46,14 @@ setopt MARK_DIRS # adds slash to end of completed dirs
 setopt INC_APPEND_HISTORY     # append history as command are entered
 setopt HIST_NO_STORE          # don't save 'history' cmd in history
 
-# Useful pipe shortcuts
+#Useful pipe shortcuts
 bindkey -s '^|l' " | less\n"                   # c-| l  pipe to less
 bindkey -s '^|g' ' | grep ""^[OD'             # c-| g  pipe to grep
 bindkey -s '^|a' " | awk '{print $}'^[OD^[OD"  # c-| a  pipe to awk
 bindkey -s '^|s' ' | sed -e "s///g"^[OD^[OD^[OD^[OD' # c-| s  pipe to sed
 bindkey -s '^|w' " | wc -l\n"                   # c-| w  pipe to wc
 
-# Colours
+#Colours
 local red="%{"$'\e[1;31m'"%}"
 local RED="%{"$'\e[0;31m'"%}"
 local cyan="%{"$'\e[1;36m'"%}"
@@ -75,7 +72,7 @@ local white="%{"$'\e[1;37m'"%}"
 local NOCOLOR="%{"$'\e[0m'"%}"
 local NEWLINE="%{"$'\e[80D'"%}"
 
-# support colors in less
+#support colors in less
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
 export LESS_TERMCAP_me=$'\E[0m'
@@ -84,22 +81,21 @@ export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 
-# Prompt
+#Prompt
 export PS1="${GRAY}[${GREEN}%n@%m: %~/ ${GRAY}]${RED}%#$NOCOLOR "
 export PS2="%_> "
-export RPS1=""
 
-# Emacs key bindings
+#Emacs key bindings
 bindkey -e
 
-# For zsh to work well within Emacs
+#For zsh to work well within Emacs
 [[ $EMACS = t ]] && unsetopt zle
 
-# ENV
+#ENV
 export PAGER=/usr/bin/less
-export PATH=~/.bin:$PATH
+export PATH=$PATH:$HOME/.bin
 
-# Completion styles
+#Completion styles
 zstyle ':completion:*' completer _expand _complete _correct _approximate
 zstyle ':completion:*' expand prefix suffix
 zstyle ':completion:*' file-sort access
@@ -128,13 +124,13 @@ zstyle ':completion:*:warnings' format '%B%U---- no match for: %d%u%b' # Describ
 zstyle ':completion:*:options' description 'yes'
 zstyle ':completion:*:options' auto-description '%d'
 
-# Aliases
+#Aliases
 alias psaux='ps aux'
 alias cl='clear'
 alias c=cl
 alias cls=cl
-alias mv='nocorrect mv -i'      # no spelling correction on mv
 alias cp='nocorrect cp'         # no spelling correction on cp
+alias mv='nocorrect mv -i'      # no spelling correction on mv
 alias mkdir='nocorrect mkdir'   # no spelling correction on mkdir
 alias vi='vim'                  # Vi IMproved
 alias rm='nocorrect rm -i'      # interactive RM
@@ -159,37 +155,52 @@ alias aria2c='aria2c --file-allocation=none'
 alias copy='rsync -aP'
 alias spk='vim ~/.ssh/known_hosts'
 alias gu-check='for i in */gu.po; do echo -n "$i: "; msgfmt $i -cv -o /dev/null; done;'
+alias halt='sudo shutdown -h now'
+alias reboot='sudo reboot'
+alias dt='dmesg | tail'
+alias dh='df -h'
+alias dm='df -m'
+alias x='startx'
+alias wv='sudo wvdial'
+alias i3lock=' i3lock -c 151610'
 
-# useless stuffs
+#random stuffs
 alias nyan='nc -v miku.acm.uiuc.edu 23' # nyan cat
-alias debs-by-size='grep-status -FStatus -sInstalled-Size,Package -n "install ok installed" | paste -sd "  \n" | sort -rn'
 alias stardate='date "+%y%m.%d/%H%M"'   # from Joey
+alias rand='tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
+alias entertain='mplayer "$(find "." -type f -regextype posix-egrep -regex ".*\.(avi|mkv|flv|mpg|mpeg|mp4|wmv|3gp|mov|divx)" | shuf -n1)"'
+alias gdocs='google-chrome --app=http://docs.google.com'
 
-# Debian packaging
+#tor settings
+alias google-chrome-tor='google-chrome --proxy-server="socks://127.0.0.1:9050"'
+#export http_proxy="socks4://127.0.0.1:9050"
+#export https_proxy="socks4://127.0.0.1:9050"
+
+#Debian stuffs
+export EDITOR='vim'
+export DEBEMAIL="kartik@debian.org"
+export DEBFULLNAME="Kartik Mistry"
+
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 alias lintian='lintian -iIEcv --pedantic --color auto'
 
-export DEBEMAIL="kartik@debian.org"
-export DEBFULLNAME="Kartik Mistry"
+#via: http://www.reddit.com/r/linux/comments/m28g2/what_tiny_yet_awesome_hacks_do_you_use/c2xi1ke
+alias ae="sudo $EDITOR /etc/apt/sources.list"
+alias aL="dpkg -L"
+alias ag="dpkg -l|grep"
 
-# some stats
+#some stats
 alias debs-by-size='grep-status -FStatus -sInstalled-Size,Package -n "install ok installed" | paste -sd "  \n" | sort -rn'
 alias top10='print -l ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 
-# fortunes-debian-hints
+#fortunes-debian-hints
 if [ -x /usr/games/fortune ]; then
  /usr/games/fortune debian-hints
  echo ""
 fi
 
-# disables the bloody CapsLock button
-if [ "$PS1" ]; then
- xmodmap -e "remove lock = Caps_Lock"
-fi
-
 # utility functions
-
 # license check foo
 # By: Kartik Mistry
 lcheck() {
@@ -246,7 +257,6 @@ cdl () {
 }
 
 # misc
-source ~/.oh-my-zsh/plugins/deb/deb.plugin.zsh
 source ~/.oh-my-zsh/plugins/debian/debian.plugin.zsh
 
 umask 022

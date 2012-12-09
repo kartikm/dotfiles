@@ -4,8 +4,6 @@
 syntax on
 
 " get easier to use and more user friendly vim defaults
-" CAUTION: This option breaks some vi compatibility.
-"          Switch it off if you prefer real vi compatibility
 set nocompatible
 
 " display mode INSERT/REPLACE/...
@@ -26,7 +24,6 @@ set statusline+=%= " right align remainder
 set statusline+=0x%-8B " character value
 set statusline+=%-14(%l,%c%V%) " line, character
 set statusline+=%<%P " file position
-" set laststatus=2 set statusline=%F\ [%Y,\ %{&ff}]\ %=\ %l:%c\ (%p%%)\ \|\ %{strftime(\"%Y-%m-%d,\ %H:%M\")}
 
 " Disable the F1 help key
 map <F1> <Esc>
@@ -89,6 +86,9 @@ set autoindent
 set smartindent
 set showmatch        " Show matching bracket
 set hls              " Hightlight search
+
+" Deals with nasty ^M characters
+set fileformat=unix
 
 " Color
 colorscheme desert

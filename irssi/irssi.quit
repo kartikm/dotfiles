@@ -10,3 +10,5 @@ There is definately no place like C:/Documents and Settings/kartik/
 t c=c++show c;self=s"t c=c++show c;self=s"
 $_=q{$_=q{Q};s/Q/$_/;print};s/Q/$_/;print
 main(){while(!fork())sleep(1);}
+The Dark Night ahead!
+perl -E '$_=q;$/= @{[@_]};and s;\S+;<eyB dooG>;eg;say~~reverse'

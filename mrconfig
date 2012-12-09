@@ -14,9 +14,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/tasksel/tasksel.git' '
 [development/debian/release-notes]
 checkout = svn co svn+ssh://kartik@svn.debian.org/svn/ddp/manuals/trunk/release-notes
 
-[development/debian/NM/nm]
-checkout = svn co svn+ssh://kartikm@svn.debian.org/svn/nm
-
 [development/debian/in2011.mini]
 checkout = svn co svn+ssh://kartik@svn.debian.org/svn/debconf-data/in2011.mini
 
@@ -30,11 +27,17 @@ checkout = git clone git://github.com/apenwarr/bup.git
 [development/upstreams/CHMLib]
 checkout = git clone git://github.com/jedwing/CHMLib.git
 
+[development/upstreams/falcon]
+checkout = git clone 'http://git.falconpl.org/falcon.git' 'falcon'
+
 [development/upstreams/fontypython/SVN/trunk]
 checkout = svn co svn://svn.savannah.nongnu.org/fontypython/trunk
 
-[development/upstreams/yokadi]
-checkout = git clone git://github.com/agateau/yokadi
+[development/work/gujaratilexicon/projects/font-kalapi]
+checkout = git clone 'git@github.com:gujaratilexicon/font-kalapi.git' 'font-kalapi'
+
+[development/upstreams/lohit]
+checkout = git clone 'git://git.fedorahosted.org/lohit.git' 'lohit'
 
 [development/upstreams/mango-lassi]
 checkout = git clone 'git://github.com/herzi/mango-lassi.git' 'mango-lassi'
@@ -42,18 +45,33 @@ checkout = git clone 'git://github.com/herzi/mango-lassi.git' 'mango-lassi'
 [development/upstreams/xosview]
 checkout = git clone 'git@github.com:hills/xosview.git' 'xosview'
 
+[development/upstreams/yokadi]
+checkout = git clone git://github.com/agateau/yokadi
+
 #packages
 [development/debian/packages/aria2/aria2]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/aria2.git' 'aria2'
 
-[development/debian/packages/fortunes-debian-hints/git/fortunes-debian-hints]
-checkout = git clone git+ssh://kartik@git.debian.org/git/collab-maint/fortunes-debian-hints.git
-
 [development/debian/packages/falconpl/falcon]
 checkout = git clone 'git+ssh://git.debian.org/git/collab-maint/falconpl.git' 'falcon'
 
+[development/debian/packages/fortunes-debian-hints/git/fortunes-debian-hints]
+checkout = git clone git+ssh://kartik@git.debian.org/git/collab-maint/fortunes-debian-hints.git
+
+[development/debian/packages/gwibber/gwibber]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/gwibber.git' 'gwibber'
+
+[development/debian/packages/netsniff-ng/git/netsniff-ng]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/netsniff-ng.git' 'xosview'
+
 [development/debian/packages/nginx/git/nginx]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git' 'nginx'
+
+[development/debian/packages/recoll/git/recoll]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/recoll.git' 'recoll'
+
+[development/debian/packages/xosview/git/xosview]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.git' 'xosview'
 
 #l10n
 [development/l10n/KDE/l10n-kde4/gu]
@@ -70,12 +88,12 @@ checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint'
 CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
 checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint-stamps' 'tuxpaint-stamps'
 
-#nexenta/illumos
-[development/illumos-gate]
-checkout = hg clone 'ssh://anonhg@hg.illumos.org/illumos-gate' 'illumos-gate'
-
-[development/illumos-extra]
-checkout = git clone 'https://github.com/joyent/illumos-extra.git' 'illumos-extra'
+#illumos
+#[development/illumos-stuffs/illumian-userland]
+#checkout = git clone 'git@github.com:illumian/illumian-userland.git' 'illumian-userland'
+#
+#[development/illumos-stuffs/illumos-gate]
+#checkout = hg clone 'ssh://anonhg@hg.illumos.org/illumos-gate' 'illumos-gate'
 
 #local stuffs
 [wiki]
@@ -87,9 +105,6 @@ checkout = git clone 'git://gitorious.org/awesome-config/awesome-config.git' 'aw
 
 [development/configs/dotfiles]
 checkout = git clone 'http://git.sysphere.org/dotfiles' 'dotfiles'
-
-[development/configs/.dotfiles]
-checkout = git clone 'http://github.com/JackH79/.dotfiles.git' '.dotfiles'
 
 [development/configs/oh-my-zsh]
 checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' 'oh-my-zsh'
@@ -135,8 +150,14 @@ checkout = cvs -d ':pserver:anonymous@cvs.savannah.gnu.org:/sources/aspell' co -
 [development/misc/firegpg]
 checkout = git clone 'https://github.com/firegpg/firegpg.git' 'firegpg'
 
-[development/sixthsense/gitrepo/sixthsense]
+[development/oss/sixthsense/gitrepo/sixthsense]
 checkout = git clone 'git@github.com:sixthsense/sixthsense.git' 'sixthsense'
+
+[development/misc/ostinato]
+checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
+
+[development/misc/OpenChronos]
+checkout = git clone 'git://github.com/poelzi/OpenChronos.git' 'OpenChronos'
 
 #my gitorious repos
 [development/gitorious/aspell-gu]

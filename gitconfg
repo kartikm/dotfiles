@@ -8,7 +8,9 @@
 	status = auto
 	diff = 0
 	ui = auto
-
+	pager = true
+[core]
+	pager = less -FRSX
 [pack]
 	threads = 0
 [giggle]
@@ -17,5 +19,3 @@
 	file-view-vpane-position = 294
 	history-view-vpane-position = 154
 	main-window-view = FileView
-[dude]
-	interval = 30

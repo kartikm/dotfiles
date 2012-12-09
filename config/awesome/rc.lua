@@ -42,7 +42,7 @@ beautiful.init("/home/kartik/.config/awesome/themes/kartik/theme.lua")
 terminal = "konsole"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
-browser = "iceweasel"
+browser = "google-chrome"
 modkey = "Mod4"
 
 -- TAGS + TAG MATCHING
@@ -61,7 +61,7 @@ layouts = {
 shifty.config.tags = {
 	["1-Term"]  = { init = true, position = 1, layout = awful.layout.suit.max, spawn = "konsole" },
 	["2-Web"]   = { position = 2, layout = awful.layout.suit.max, spawn = "google-chrome"        },
-	["3-Talk"]  = { position = 3, layout = awful.layout.suit.tile.right, spawn = "skype"         },
+	["3-Talk"]  = { position = 3, layout = awful.layout.suit.max, spawn = "skype"                },
 	["4-VM"]    = { position = 4, layout = awful.layout.suit.max, spawn = "vmware"               },
 	["5-♫♪"]    = { position = 5, layout = awful.layout.suit.max                                 },
 	["6-Gimp"]  = { position = 6, layout = awful.layout.suit.floating, spawn = "gimp"            },
@@ -72,11 +72,11 @@ shifty.config.tags = {
 shifty.config.apps = {
 	{ match = { "konsole", "xterm", "st"      }, tag = "1-Term",                                              },
 	{ match = { "Iceweasel", "Google Chrome"  }, tag = "2-Web",                                               },
-	{ match = { "Skype", "Hotot", "Pidgin"    }, tag = "3-Talk",                                              },
+	{ match = { "Skype", "Pidgin"             }, tag = "3-Talk",                                              },
 	{ match = { "VirtualBox OSE", "vmware"    }, tag = "4-VM",                                                },
-	{ match = { "MPlayer", "Vlc", "minirok"   }, tag = "5-♫♪"   ,                                             },
+	{ match = { "MPlayer", "Vlc"              }, tag = "5-♫♪"   ,                                             },
 	{ match = { "Gimp"                        }, tag = "6-Gimp",                                              },
-	{ match = { "libreoffice", "xCHM", "xpad" }, tag = "7-Write",                                             },
+	{ match = { "libreoffice", "xCHM"         }, tag = "7-Write",                                             },
 	{ match = { "gimp%-image%-window"         }, geometry = {175,15,1100,770}, border_width = 0               },
 	{ match = { "^gimp%-toolbox$"             }, geometry = {0,15,175,770}, slave = true, border_width = 0    },
 	{ match = { "^gimp%-dock$"                }, geometry = {1105,15,175,770}, slave = true, border_width = 0 },
@@ -138,7 +138,7 @@ systemmenu = {
 }
 
 awesomemenu = {
-	{ "Lock",        terminal .. " -e xlock"    },
+	{ "Lock",        terminal .. " -e i3lock"   },
 	{ "Restart",     awesome.restart            },
 	{ "Quit",        awesome.quit               },
 	{ "Reboot",      terminal .. " -e reboot"   },
@@ -192,7 +192,7 @@ kbdcfg.widget.text = " " .. kbdcfg.layout[kbdcfg.current][1] .. " "
 kbdcfg.switch = function ()
 	kbdcfg.current = kbdcfg.current % #(kbdcfg.layout) + 1
 	local t = kbdcfg.layout[kbdcfg.current]
-	kbdcfg.widget.text = " " .. t[1] .. " "
+	kbdcfg.widget.text = " " .. colgre .. t[1] .. coldef .." "
 	os.execute( kbdcfg.cmd .. " " .. t[1] .. " " .. t[2] )
 end
 
@@ -274,51 +274,71 @@ clockwidget = widget({ type = "textbox" })
 
 -- End Clock widget
 
--- Weather widget
-weatherwidget = widget({ type = "textbox" })
-weatherwidget.text = awful.util.pread(
-	"weather -i VAAH --headers=Temperature --quiet -m | awk '{print $2, $3}'"
-)
-
-weathertimer = timer(
-	{ timeout = 900 } -- Update every 15 minutes. 
-)
-
-weathertimer:add_signal(
-	"timeout", function()
-	weatherwidget.text = awful.util.pread(
-	"weather -i VAAH --headers=Temperature --quiet -m | awk '{print $2, $3}' &"
-	)
-end)
-
-weathertimer:start() -- Start the timer
-weatherwidget:add_signal(
-	"mouse::enter", function()
-	weather = naughty.notify(
-	{title="Weather",text=awful.util.pread("weather -i VAAH -m")})
-end) -- this creates the hover feature
-
-weatherwidget:add_signal(
-	"mouse::leave", function()
-	naughty.destroy(weather)
-end)
-
--- Some spacing because on my computer it is right next to my clock.
-awful.widget.layout.margins[weatherwidget] = { left = 4 }
-
--- End Weather widget
-
 -- WIDGETS BOTTOM RIGHT
+
+-- Net icons
+dnicon = widget({ type = "imagebox" })
+upicon = widget({ type = "imagebox" })
+baticon = widget({ type = "imagebox" })
+wifiicon = widget({ type = "imagebox" })
+dnicon.image = image(beautiful.widget_net)
+upicon.image = image(beautiful.widget_netup)
+baticon.image = image(beautiful.widget_battery)
+wifiicon.image = image(beautiful.widget_wifi)
+
+-- Net widgets
+-- eth
+neteupwidget = widget({ type = "textbox" })
+vicious.cache(vicious.widgets.net)
+vicious.register(neteupwidget, vicious.widgets.net, "<span color='#60801f'></span><span color='#9acd32'>${eth0 up_kb} </span>")
+
+netedownwidget = widget({ type = "textbox" })
+vicious.register(netedownwidget, vicious.widgets.net, "<span color='#60801f'></span><span color='#9acd32'>${eth0 down_kb} </span>")
+
+netwidget = widget({ type = "textbox" })
+vicious.register(netwidget, vicious.widgets.net,
+function (widget, args)
+	if args["{name}"] == nil then
+		netedownwidget.visible = false
+		neteupwidget.visible = false
+		return ""
+	else
+		netedownwidget.visible = true
+		neteupwidget.visible = true
+		return "<span color='#60801f'> eth0 </span><span color='#9acd32'>" .. args["{name}"] .. " </span>"
+	end
+	end, refresh_delay, "eth0")
+
+-- wlan
+netwupwidget = widget({ type = "textbox" })
+vicious.register(netwupwidget, vicious.widgets.net, "<span color='#60801f'></span><span color='#9acd32'>${wlan0 up_kb} </span>")
+
+netwdownwidget = widget({ type = "textbox" })
+vicious.register(netwdownwidget, vicious.widgets.net, "<span color='#60801f'></span><span color='#9acd32'>${wlan0 down_kb} </span>")
+
+wifiwidget = widget({ type = "textbox" })
+vicious.register(wifiwidget, vicious.widgets.wifi,
+function (widget, args)
+	if args["{link}"] == 0 then
+	netwdownwidget.visible = false
+	netwupwidget.visible = false
+	return ""
+	else
+	netwdownwidget.visible = true
+	netwupwidget.visible = true
+	return "<span color='#60801f'></span><span color='#9acd32'>" .. string.format("%s [%i%%]", args["{ssid}"], args["{link}"]/70*100) .. " </span>"
+	end
+end, refresh_delay, "wlan0" )
 
 -- HDD temp
 hddtempwidget = widget({ type = "textbox" })
-	vicious.register(hddtempwidget, vicious.widgets.hddtemp, " <span color='#60801f'>hdd </span>${/dev/sda} C ", 19)
+	vicious.register(hddtempwidget, vicious.widgets.thermal, " <span color='#60802f'>hdd </span>%d  C ", 19)
 
 -- uptime widget
 uptimewidget = widget({ type = "textbox" })
 	vicious.register(uptimewidget, vicious.widgets.uptime,
 	function (widget, args)
-	return string.format("<span color='#be6e00'> uptime</span>%2dd %02d:%02d ", args[1], args[2], args[3]) end, 61)
+	return string.format("<span color='#60801f'> uptime</span><span color='#9acd32'> %2dd %02d:%02d </span>", args[1], args[2], args[3]) end, 61)
 
 -- CPU widget
 cputwidget = widget({ type = "textbox" })
@@ -356,19 +376,19 @@ fsrwidget = widget({ type = "textbox" })
 		end
 	end, 620)
 
--- macdata
-fsmacdatawidget = widget({ type = "textbox" })
-	vicious.register(fsmacdatawidget, vicious.widgets.fs,
+-- windata
+fswindatawidget = widget({ type = "textbox" })
+	vicious.register(fswindatawidget, vicious.widgets.fs,
 	function (widget, args)
-		if  args["{/media/macdata used_p}"] >= 93 and args["{/media/macdata used_p}"] < 97 then
-			return "<span color='#be6e00'>/mac </span><span color='#d79b1e'>" .. args["{/media/macdata used_p}"] .. "% (" .. args["{/media/macdata avail_gb}"] .. " GiB free) </span>"
-		elseif args["{/media/macdata used_p}"] >= 97 and args["{/media/macdata used_p}"] < 99 then
-			return "<span color='#b23535'>/mac </span><span color='#ff4b4b'>" .. args["{/media/macdata used_p}"] .. "% (" .. args["{/media/macdata avail_gb}"] .. " GiB free) </span>"
-		elseif args["{/media/macdata used_p}"] >= 99 and args["{/media/macdata used_p}"] <= 100 then
-			naughty.notify({ title = "Hard drive Warning", text = "No space left on root!\nMake some room.", timeout = 10, position = "top_right", fg = beautiful.fg_urgent, bg = beautiful.bg_urgent })
-			return "<span color='#b23535'>/mac </span><span color='#ff4b4b'>" .. args["{/media/macadata used_p}"] .. "% (" .. args["{/media/macdata avail_gb}"] .. " GiB free) </span>"
+		if  args["{/media/windows used_p}"] >= 93 and args["{/media/windows used_p}"] < 97 then
+			return "<span color='#be6e00'>/win </span><span color='#d79b1e'>" .. args["{/media/windows used_p}"] .. "% (" .. args["{/media/windows avail_gb}"] .. " GiB free) </span>"
+		elseif args["{/media/windows used_p}"] >= 97 and args["{/media/windows used_p}"] < 99 then
+			return "<span color='#b23535'>/win </span><span color='#ff4b4b'>" .. args["{/media/windows used_p}"] .. "% (" .. args["{/media/windows avail_gb}"] .. " GiB free) </span>"
+		elseif args["{/media/windows used_p}"] >= 99 and args["{/media/windows used_p}"] <= 100 then
+			naughty.notify({ title = "Hard drive Warning", text = "No space left on this drive!\nMake some room.", timeout = 10, position = "top_right", fg = beautiful.fg_urgent, bg = beautiful.bg_urgent })
+			return "<span color='#b23535'>/win </span><span color='#ff4b4b'>" .. args["{/media/windows used_p}"] .. "% (" .. args["{/media/windows avail_gb}"] .. " GiB free) </span>"
 		else
-			return "<span color='#60801f'>/mac </span><span color='#9acd32'>" .. args["{/media/macdata used_p}"] .. "% (" .. args["{/media/macdata avail_gb}"] .. " GiB free) </span>"
+			return "<span color='#60801f'>/win </span><span color='#9acd32'>" .. args["{/media/windows used_p}"] .. "% (" .. args["{/media/windows avail_gb}"] .. " GiB free) </span>"
 		end
 	end, 620)
 
@@ -475,7 +495,6 @@ for s = 1, screen.count() do
 	mywibox[s].widgets = { {
 		mytaglist[s], spacerwidget,
 		mypromptbox[s], layout = awful.widget.layout.horizontal.leftright },
-		weatherwidget,
 		clockwidget,
 		calwidget,
 		kbdcfg.widget,
@@ -487,11 +506,12 @@ for s = 1, screen.count() do
 	infobox[s].widgets = {
 		batbar.widget, batwidget, baticon,
 		spacerwidget,
-		fsmacdatawidget, fsrwidget,
+		neteupwidget, netedownwidget, netwidget,
+		netwupwidget, upicon, netwdownwidget, dnicon, wifiwidget,
+		wifiicon, spacerwidget,
+		fswindatawidget, fsrwidget,
 		spacerwidget,
 		memwidget,
-		spacerwidget,
-		hddtempwidget,
 		spacerwidget,
 		uptimewidget,
 		spacerwidget,
@@ -541,7 +561,7 @@ globalkeys = awful.util.table.join(
 	-- miscellaneous
 	awful.key({ modkey, "Shift"   }, "p",                    function () awful.util.spawn("scrot -b") end),
 	awful.key({ modkey, "Shift"   }, "k",                    function () awful.util.spawn("xkill") end),
-	awful.key({ modkey,           }, "x",                    function () awful.util.spawn("xlock") end),
+	awful.key({ modkey,           }, "x",                    function () awful.util.spawn("i3lock") end),
 
 	-- Keyboard switcher
 	-- z has no binding in Gujarati inscript, choosen one :)
