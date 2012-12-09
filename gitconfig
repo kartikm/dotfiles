@@ -8,7 +8,9 @@
 	status = auto
 	diff = 0
 	ui = auto
-
+	pager = true
+[core]
+	pager = less -FRSX
 [pack]
 	threads = 0
 [giggle]

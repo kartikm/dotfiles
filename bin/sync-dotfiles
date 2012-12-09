@@ -8,7 +8,7 @@ clear
 
 cp ~/.bashrc               $DOT/bashrc
 cp ~/.gbp.conf             $DOT/gbp.conf
-cp ~/.gitconfig            $DOT/gitconfg
+cp ~/.gitconfig            $DOT/gitconfig
 cp ~/.mrconfig             $DOT/mrconfig
 cp ~/.quiltrc              $DOT/quiltrc
 cp ~/.screenrc             $DOT/screenrc
