@@ -93,7 +93,7 @@ bindkey -e
 
 #ENV
 export PAGER=/usr/bin/less
-export PATH=$PATH:$HOME/.bin
+export PATH=$PATH:$HOME/.bin:/sbin
 
 #Completion styles
 zstyle ':completion:*' completer _expand _complete _correct _approximate
@@ -125,7 +125,6 @@ zstyle ':completion:*:options' description 'yes'
 zstyle ':completion:*:options' auto-description '%d'
 
 #Aliases
-alias psaux='ps aux'
 alias cl='clear'
 alias c=cl
 alias cls=cl
@@ -139,9 +138,7 @@ alias ls="ls --color=auto -Fh --group-directories-first"
 alias latest="ls -lct1"
 alias ltree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias clls="clear;ls -Glah --color"
-alias ping='ping -c 4 '
 alias pingg='ping -c 4 www.google.com'
-alias ff='iceweasel'
 alias psprunge="curl -s -F 'sprunge=<-' http://sprunge.us | xclip -i -selection clipboard"
 alias grep='grep --colour=auto'
 alias diff='colordiff'
@@ -163,6 +160,7 @@ alias dm='df -m'
 alias x='startx'
 alias wv='sudo wvdial'
 alias i3lock=' i3lock -c 151610'
+alias bc='bc -l'
 
 #random stuffs
 alias nyan='nc -v miku.acm.uiuc.edu 23' # nyan cat
@@ -258,6 +256,9 @@ cdl () {
 
 # misc
 source ~/.oh-my-zsh/plugins/debian/debian.plugin.zsh
+source ~/.oh-my-zsh/lib/git.zsh
+source ~/.oh-my-zsh/plugins/cp/cp.plugin.zsh
+source ~/.oh-my-zsh/themes/apple.zsh-theme
 
 umask 022
 

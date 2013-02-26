@@ -1,7 +1,7 @@
 #!/bin/sh
 # Author: Kartik Mistry <kartik.mistry@gmail.com>
 
-DOT='/home/kartik/development/gitorious/dotfiles'
+DOT='/home/kartik/development/github/dotfiles'
 echo $DOT
 
 clear
@@ -16,9 +16,8 @@ cp ~/.vimrc                $DOT/vimrc
 cp ~/.zshrc                $DOT/zshrc
 cp ~/.bin/sync-dotfiles    $DOT/bin/sync-dotfiles
 cp ~/.bin/make-tar         $DOT/bin/make-tar
-cp ~/.bin/whatip           $DOT/bin/whatip
 cp -r ~/.config/awesome/*  $DOT/config/awesome
-cp /etc/apt/sources.list   $DOT/sources.list.home
+cp /etc/apt/sources.list   $DOT/sources.list.olive2
 dpkg --get-selections  >   $DOT/packages.txt
 
 echo "Config files copied. Now commit!"

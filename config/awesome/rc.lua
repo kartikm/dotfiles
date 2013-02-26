@@ -49,12 +49,14 @@ modkey = "Mod4"
 -- layouts
 layouts = {
 	awful.layout.suit.fair,
+	awful.layout.suit.fair.horizontal,
 	awful.layout.suit.tile,
 	awful.layout.suit.tile.left,
 	awful.layout.suit.tile.bottom,
 	awful.layout.suit.tile.top,
 	awful.layout.suit.max,
-	awful.layout.suit.floating,
+	awful.layout.suit.max.fullscreen,
+	awful.layout.suit.floating
 }
 
 -- shifty: predefined tags
@@ -70,16 +72,16 @@ shifty.config.tags = {
 
 -- shifty: tags matching and client rules
 shifty.config.apps = {
-	{ match = { "konsole", "xterm", "st"      }, tag = "1-Term",                                              },
-	{ match = { "Iceweasel", "Google Chrome"  }, tag = "2-Web",                                               },
-	{ match = { "Skype", "Pidgin"             }, tag = "3-Talk",                                              },
-	{ match = { "VirtualBox OSE", "vmware"    }, tag = "4-VM",                                                },
-	{ match = { "MPlayer", "Vlc"              }, tag = "5-♫♪"   ,                                             },
-	{ match = { "Gimp"                        }, tag = "6-Gimp",                                              },
-	{ match = { "libreoffice", "xCHM"         }, tag = "7-Write",                                             },
-	{ match = { "gimp%-image%-window"         }, geometry = {175,15,1100,770}, border_width = 0               },
-	{ match = { "^gimp%-toolbox$"             }, geometry = {0,15,175,770}, slave = true, border_width = 0    },
-	{ match = { "^gimp%-dock$"                }, geometry = {1105,15,175,770}, slave = true, border_width = 0 },
+	{ match = { "konsole", "xterm", "st"                              }, tag = "1-Term",                                              },
+	{ match = { "Iceweasel", "Google Chrome"                          }, tag = "2-Web",                                               },
+	{ match = { "Skype", "Pidgin", "SFLphone VoIP Client", "sflphone" }, tag = "3-Talk",                                              },
+	{ match = { "VirtualBox OSE", "vmware"                            }, tag = "4-VM",                                                },
+	{ match = { "MPlayer", "Vlc"                                      }, tag = "5-♫♪"   ,                                             },
+	{ match = { "Gimp"                                                }, tag = "6-Gimp",                                              },
+	{ match = { "libreoffice", "xCHM"                                 }, tag = "7-Write",                                             },
+	{ match = { "gimp%-image%-window"                                 }, geometry = {175,15,1100,770}, border_width = 0               },
+	{ match = { "^gimp%-toolbox$"                                     }, geometry = {0,15,175,770}, slave = true, border_width = 0    },
+	{ match = { "^gimp%-dock$"                                        }, geometry = {1105,15,175,770}, slave = true, border_width = 0 },
 
 -- client manipulation
 	{ match = { "" },
@@ -187,12 +189,12 @@ kbdcfg = {}
 kbdcfg.cmd = "setxkbmap"
 kbdcfg.layout = { { "us", "" }, { "guj", "" } }
 kbdcfg.current = 1  -- us is our default layout
-kbdcfg.widget = widget({ type = "textbox", align = "right" })
+kbdcfg.widget = widget({ type = "textbox", align = "left" })
 kbdcfg.widget.text = " " .. kbdcfg.layout[kbdcfg.current][1] .. " "
 kbdcfg.switch = function ()
 	kbdcfg.current = kbdcfg.current % #(kbdcfg.layout) + 1
 	local t = kbdcfg.layout[kbdcfg.current]
-	kbdcfg.widget.text = " " .. colgre .. t[1] .. coldef .." "
+	kbdcfg.widget.text = " " .. colred .. t[1] .. coldef .." "
 	os.execute( kbdcfg.cmd .. " " .. t[1] .. " " .. t[2] )
 end
 
@@ -243,25 +245,13 @@ clockwidget = widget({ type = "textbox" })
 	end
 	local function time_utc()
 		local time = os.time()
-		time2 = time - (9*3600)
-		local new_time = os.date("%a, %I:%M%P", time2)
-		return new_time
-	end
-	local function time_nzst()
-		local time = os.time()
-		time2 = time + (2*3600)
-		local new_time = os.date("%a, %I:%M%P", time2)
-		return new_time
-	end
-	local function time_ckt()
-		local time = os.time()
-		time2 = time - (20*3600)
+		time2 = time - (5.50*3600)
 		local new_time = os.date("%a, %I:%M%P", time2)
 		return new_time
 	end
 	local function time_pst()
 		local time = os.time()
-		time2 = time - (17*3600)
+		time2 = time - (13.5*3600)
 		local new_time = os.date("%a, %I:%M%P", time2)
 		return new_time
 	end
@@ -357,7 +347,7 @@ cputwidget:buttons(awful.util.table.join(awful.button({}, 1, function () awful.u
 -- Ram widget
 memwidget = widget({ type = "textbox" })
 	vicious.cache(vicious.widgets.mem)
-	vicious.register(memwidget, vicious.widgets.mem, "<span color='#60801f'> ram </span><span color='#9acd32'>$1% ($2 MiB) </span>", 13)
+	vicious.register(memwidget, vicious.widgets.mem, "<span color='#60801f'> ram </span><span color='#9acd32'>$1% </span>", 13)
 
 -- Filesystem widgets
 -- root
@@ -561,15 +551,15 @@ globalkeys = awful.util.table.join(
 	-- miscellaneous
 	awful.key({ modkey, "Shift"   }, "p",                    function () awful.util.spawn("scrot -b") end),
 	awful.key({ modkey, "Shift"   }, "k",                    function () awful.util.spawn("xkill") end),
-	awful.key({ modkey,           }, "x",                    function () awful.util.spawn("i3lock") end),
+	awful.key({ modkey,           }, "q",                    function () awful.util.spawn("i3lock") end),
 
 	-- Keyboard switcher
 	-- z has no binding in Gujarati inscript, choosen one :)
 	awful.key({ modkey,           }, "z",                    function () kbdcfg.switch() end),
 
 	-- timezone
-	awful.key({ modkey, "Control" }, "t",                    function ()
-	naughty.notify({ text = "<span color='#be6e00'>London    : </span><span color='#d79b1e'>" .. time_utc() .. "</span>\n<span color='#be6e00'>PST : </span><span color='#d79b1e'>" .. time_pst() .. "</span>\n<span color='#be6e00'>St. Petersburg: </span><span color='#d79b1e'>" .. time_est() .. "</span>", timeout = 20, hover_timeout = 0.5 }) end),
+	awful.key({ modkey,           }, "t",                    function ()
+	naughty.notify({ text = "<span color='#be6e00'>GMT    : </span><span color='#d79b1e'>" .. time_utc() .. "</span>\n<span color='#be6e00'>PST : </span><span color='#d79b1e'>" .. time_pst() .. "</span>\n<span color='#be6e00'>SPb: </span><span color='#d79b1e'>" .. time_est() .. "</span>", timeout = 20, hover_timeout = 0.5 }) end),
 
 	-- wicd
 	awful.key({ modkey,           }, "d",                    function () awful.util.spawn(terminal .. " -e wicd-curses") end),
