@@ -21,6 +21,9 @@ checkout = svn co svn+ssh://kartik@svn.debian.org/svn/debconf-data/in2011.mini
 [development/upstreams/ayttm]
 checkout = git clone ssh://kartik_m@ayttm.git.sourceforge.net/gitroot/ayttm/ayttm
 
+[development/upstreams/bup/bup]
+checkout = git clone git://github.com/apenwarr/bup.git
+
 [development/upstreams/CHMLib]
 checkout = git clone git://github.com/jedwing/CHMLib.git
 
@@ -63,9 +66,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/netsniff-
 
 [development/debian/packages/nginx/git/nginx]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git' 'nginx'
-
-[development/debian/packages/ostinato/git/ostinato]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/ostinato.git' 'ostinato'
 
 [development/debian/packages/recoll/git/recoll]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/recoll.git' 'recoll'
@@ -153,7 +153,7 @@ checkout = git clone 'https://github.com/firegpg/firegpg.git' 'firegpg'
 [development/oss/sixthsense/gitrepo/sixthsense]
 checkout = git clone 'git@github.com:sixthsense/sixthsense.git' 'sixthsense'
 
-[development/upstreams/ostinato]
+[development/misc/ostinato]
 checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
 
 [development/misc/OpenChronos]
@@ -174,16 +174,3 @@ checkout = git clone 'git@gitorious.org:gujarati-resources/gu-fonts.git' 'gu-fon
 
 [development/gitorious/cv]
 checkout = git clone 'git@gitorious.org:kartik/cv.git' 'cv'
-
-#my github forks/repos
-[development/github/tlsdate]
-checkout = git clone 'git@github.com:kartikm/tlsdate.git' 'tlsdate'
-
-[development/github/torbirdy]
-checkout = git clone 'git@github.com:kartikm/torbirdy.git' 'torbirdy'
-
-[development/github/jenkins-debian-glue]
-checkout = git clone 'git@github.com:kartikm/jenkins-debian-glue.git' 'jenkins-debian-glue'
-
-[development/github/fortunes-gu-kahevato]
-checkout = git clone 'git@github.com:kartikm/fortunes-gu-kahevato.git' 'fortunes-gu-kahevato'
