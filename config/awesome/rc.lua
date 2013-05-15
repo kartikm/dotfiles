@@ -549,7 +549,7 @@ globalkeys = awful.util.table.join(
 	awful.key({ modkey, "Shift"   }, "Tab",                  function () awful.util.spawn(terminal .. " -e su") end),
 
 	-- miscellaneous
-	awful.key({ modkey, "Shift"   }, "p",                    function () awful.util.spawn("scrot -b") end),
+	awful.key({ modkey, "Shift"   }, "s",                    function () awful.util.spawn("scrot -s") end),
 	awful.key({ modkey, "Shift"   }, "k",                    function () awful.util.spawn("xkill") end),
 	awful.key({ modkey,           }, "q",                    function () awful.util.spawn("i3lock") end),
 

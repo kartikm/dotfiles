@@ -91,4 +91,8 @@ set hls              " Hightlight search
 set fileformat=unix
 
 " Color
-colorscheme desert
+colorscheme slate
+
+" Git commit message formatting
+autocmd Filetype gitcommit setlocal spell textwidth=72
+

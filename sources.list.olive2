@@ -9,6 +9,9 @@ deb-src http://cdn.debian.net/debian experimental main contrib non-free
 #emacs-snapshots
 deb http://emacs.naquadah.org/ unstable/
 
+#jenkins
+deb http://pkg.jenkins-ci.org/debian-stable binary/
+
 #Google Chrome repo http://www.google.com/linuxrepositories/
 #deb http://dl.google.com/linux/chrome/deb/ stable main
 #Google Talk browser plugin http://www.google.com/chat/video

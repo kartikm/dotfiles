@@ -161,6 +161,8 @@ alias x='startx'
 alias wv='sudo wvdial'
 alias i3lock=' i3lock -c 151610'
 alias bc='bc -l'
+alias st='~/.bin/Sublime_Text/sublime_text'
+alias pdf='zathura'
 
 #random stuffs
 alias nyan='nc -v miku.acm.uiuc.edu 23' # nyan cat
@@ -176,6 +178,7 @@ alias google-chrome-tor='google-chrome --proxy-server="socks://127.0.0.1:9050"'
 
 #Debian stuffs
 export EDITOR='vim'
+export VISUAL='vim'
 export DEBEMAIL="kartik@debian.org"
 export DEBFULLNAME="Kartik Mistry"
 

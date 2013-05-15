@@ -1,3 +1,6 @@
+[DEFAULT]
+include = cat /usr/share/mr/vis
+
 #debian
 [/home/kartik/development/debian/debian-in-git]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-in/debian-in.git' 'debian-in-git'
@@ -30,7 +33,7 @@ checkout = git clone 'http://git.falconpl.org/falcon.git' 'falcon'
 [development/upstreams/fontypython/SVN/trunk]
 checkout = svn co svn://svn.savannah.nongnu.org/fontypython/trunk
 
-[development/work/gujaratilexicon/projects/font-kalapi]
+[development/github/font-kalapi]
 checkout = git clone 'git@github.com:gujaratilexicon/font-kalapi.git' 'font-kalapi'
 
 [development/upstreams/lohit]
@@ -88,13 +91,6 @@ checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint'
 CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
 checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint-stamps' 'tuxpaint-stamps'
 
-#illumos
-#[development/illumos-stuffs/illumian-userland]
-#checkout = git clone 'git@github.com:illumian/illumian-userland.git' 'illumian-userland'
-#
-#[development/illumos-stuffs/illumos-gate]
-#checkout = hg clone 'ssh://anonhg@hg.illumos.org/illumos-gate' 'illumos-gate'
-
 #local stuffs
 [wiki]
 checkout = git clone git://home/kartik/wiki.git
@@ -126,6 +122,9 @@ checkout = hg clone 'http://bitbucket.org/bos/hgbook' 'hgbook'
 checkout = git clone 'git://gitorious.org/learn-c-the-hard-way/learn-c-the-hard-way.git' 'learn-c-the-hard-way'
 
 #misc
+[development/debian/boxer]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/boxer.git' 'boxer'
+
 [development/misc/inception]
 checkout = git clone 'http://github.com/karthick18/inception.git' 'inception'
 
@@ -159,22 +158,6 @@ checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
 [development/misc/OpenChronos]
 checkout = git clone 'git://github.com/poelzi/OpenChronos.git' 'OpenChronos'
 
-#my gitorious repos
-[development/gitorious/aspell-gu]
-checkout = git clone 'git@gitorious.org:gujarati-resources/aspell-gu.git' 'aspell-gu'
-
-[development/gitorious/dotfiles]
-checkout = git clone 'git@gitorious.org:kartik/dotfiles.git' 'dotfiles'
-
-[development/gitorious/gu-wordlist]
-checkout = git clone 'git@gitorious.org:gujarati-resources/gu-wordlist.git' 'gu-wordlist'
-
-[development/gitorious/gu-fonts]
-checkout = git clone 'git@gitorious.org:gujarati-resources/gu-fonts.git' 'gu-fonts'
-
-[development/gitorious/cv]
-checkout = git clone 'git@gitorious.org:kartik/cv.git' 'cv'
-
 #my github forks/repos
 [development/github/tlsdate]
 checkout = git clone 'git@github.com:kartikm/tlsdate.git' 'tlsdate'
@@ -187,3 +170,36 @@ checkout = git clone 'git@github.com:kartikm/jenkins-debian-glue.git' 'jenkins-d
 
 [development/github/fortunes-gu-kahevato]
 checkout = git clone 'git@github.com:kartikm/fortunes-gu-kahevato.git' 'fortunes-gu-kahevato'
+
+[development/github/aspell-gu]
+checkout = git clone 'git@github.com:kartikm/aspell-gu.git' 'aspell-gu'
+
+[development/github/cv]
+checkout = git clone 'git@github.com:kartikm/cv.git' 'cv'
+
+[development/github/dictionary-bot]
+checkout = git clone 'git@github.com:kartikm/dictionary-bot.git' 'dictionary-bot'
+
+[development/github/dotfiles]
+checkout = git clone 'git@github.com:kartikm/dotfiles.git' 'dotfiles'
+
+[development/github/fonts-aakar]
+checkout = git clone 'git@github.com:kartikm/fonts-aakar.git' 'fonts-aakar'
+
+[development/github/fonts-rekha]
+checkout = git clone 'git@github.com:kartikm/fonts-rekha.git' 'fonts-rekha'
+
+[development/github/gu-wordlist]
+checkout = git clone 'git@github.com:kartikm/gu-wordlist.git' 'gu-wordlist'
+
+[development/github/ascii2unicode]
+checkout = git clone 'git@github.com:gujaratilexicon/ascii2unicode.git' 'ascii2unicode'
+
+[development/github/GujaratiLexicon-extension]
+checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
+
+[development/github/NewsBlur]
+checkout = git clone 'git@github.com:kartikm/NewsBlur.git' 'NewsBlur'
+
+[development/github/chhapkaam]
+checkout = git clone 'git@github.com:samyakbhuta/chhapkaam.git' 'chhapkaam'

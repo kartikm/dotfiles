@@ -21,3 +21,5 @@
 	main-window-view = FileView
 [push]
 	default = current
+[dude]
+	interval = 30
