@@ -8,8 +8,8 @@ servers = (
   {
     address = "irc.freenode.net";
     chatnet = "Freenode";
-    port = "6667";
-    use_ssl = "no";
+    port = "6697";
+    use_ssl = "yes";
     ssl_verify = "no";
     autoconnect = "yes";
   }
@@ -22,7 +22,7 @@ chatnets = {
     max_msgs = "5";
     max_whois = "5";
     max_query_chans = "5";
-    autosendcmd = "/^msg NickServ identify SOMEPASSWORD";
+    autosendcmd = "/^msg NickServ identify PASSWORD";
   };
   Freenode = {
     type = "IRC";
@@ -30,7 +30,7 @@ chatnets = {
     max_msgs = "5";
     max_whois = "5";
     max_query_chans = "5";
-    autosendcmd = "/^msg NickServ identify SOMEPASSWORD";
+    autosendcmd = "/^msg NickServ identify PASSWORD";
   };
 };
 
@@ -41,17 +41,17 @@ channels = (
   { name = "#debian-devel"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#debian-mentors"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#debian-i18n"; chatnet = "OFTC"; autojoin = "No"; },
-  { name = "#debian"; chatnet = "OFTC"; autojoin = "Yes"; },
-  { name = "#debconf"; chatnet = "OFTC"; autojoin = "No"; },
+  { name = "#debian"; chatnet = "OFTC"; autojoin = "No"; },
+  { name = "#debian-qa"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#debian-newmaint"; chatnet = "OFTC"; autojoin = "No"; },
   { name = "#debian-nginx"; chatnet = "OFTC"; autojoin = "Yes"; },
   { name = "#tor-dev"; chatnet = "OFTC"; autojoin = "Yes"; },
-  { name = "#indlinux"; chatnet = "Freenode"; autojoin = "No"; },
+  { name = "#indlinux"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "##linux-india"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#illumos"; chatnet = "Freenode"; autojoin = "No"; },
   { name = "#kde-in"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#osdyson"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#hasgeek"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#mediawiki-i18n"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#falcon"; chatnet = "Freenode"; autojoin = "Yes"; }
 );
 
@@ -59,20 +59,11 @@ aliases = {
   J = "join";
   LEAVE = "part";
   BYE = "quit";
-  LAST = "lastlog";
   IG = "ignore";
   WC = "window close";
   RUN = "SCRIPT LOAD";
-  CALC = "exec - if command -v bc >/dev/null 2>&1\\; then printf '%s=' '$*'\\; echo '$*' | bc -l\\; else echo bc was not found\\; fi";
-  SBAR = "STATUSBAR";
-  INVITELIST = "mode $C +I";
   Q = "QUERY";
-  "MANUAL-WINDOWS" = "set use_status_window off;set autocreate_windows off;set autocreate_query_level none;set autoclose_windows off;set reuse_unused_windows on;save";
-  EXEMPTLIST = "mode $C +e";
-  ATAG = "WINDOW SERVER";
-  UNSET = "set -clear";
-  RESET = "set -default";
-  "hidelevels.set" = "set activity_hide_level parts joins quits nicks modes";
+  SI = "set activity_hide_level parts joins quits nicks modes";
 };
 
 statusbar = {
@@ -201,6 +192,7 @@ settings = {
     autolog_level = "ALL -CRAP -CLIENTCRAP -CTCPS";
     autolog_ignore_targets = "Chanserv Nickserv auth av and` av_ and`_";
     theme = "brisbin";
+    activity_hide_level = "parts joins quits nicks modes";
   };
   "perl/core/scripts" = {
     awl_display_key = "= $N$H$C$S";
