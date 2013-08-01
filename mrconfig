@@ -73,6 +73,9 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/ostinato.
 [development/debian/packages/recoll/git/recoll]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/recoll.git' 'recoll'
 
+[development/debian/packages/xdaliclock/xdaliclock]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xdaliclock.git' 'xdaliclock'
+
 [development/debian/packages/xosview/git/xosview]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.git' 'xosview'
 
@@ -203,3 +206,9 @@ checkout = git clone 'git@github.com:kartikm/NewsBlur.git' 'NewsBlur'
 
 [development/github/chhapkaam]
 checkout = git clone 'git@github.com:samyakbhuta/chhapkaam.git' 'chhapkaam'
+
+[development/github/time-lapse-photography]
+checkout = git clone 'git@github.com:kartikm/time-lapse-photography.git' 'time-lapse-photography'
+
+[development/github/AutonymFont]
+checkout = git clone 'git@github.com:kartikm/AutonymFont.git' 'AutonymFont'

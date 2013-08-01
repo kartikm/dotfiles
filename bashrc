@@ -89,7 +89,7 @@ alias stardate='date "+%y%m.%d/%H%M"'
 export DEBEMAIL=kartik@debian.org
 
 #macbook right click hack
-xmodmap -e "keycode 115 = Pointer_Button3"
+#xmodmap -e "keycode 115 = Pointer_Button3"
 
 #fortunes-debian-hints
 if [ -x /usr/games/fortune ]; then
@@ -97,11 +97,8 @@ if [ -x /usr/games/fortune ]; then
   echo ""
 fi
 
-#Disables the bloody CapsLock button
-if [ "$PS1" ]; then
-  xmodmap -e "remove lock = Caps_Lock"
-fi
-
 #apt-cache function from LG
 ac () { /usr/bin/apt-cache search "$@"|LESS=FX /usr/bin/less; }
 export -f ac
+export NACL_INC_DIR=/home/kartik/nacl/build/include/x86
+export NACL_LIB_DIR=/home/kartik/nacl/build/lib/x86

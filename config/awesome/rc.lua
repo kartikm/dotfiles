@@ -62,23 +62,25 @@ layouts = {
 -- shifty: predefined tags
 shifty.config.tags = {
 	["1-Term"]  = { init = true, position = 1, layout = awful.layout.suit.max, spawn = "konsole" },
-	["2-Web"]   = { position = 2, layout = awful.layout.suit.max, spawn = "google-chrome"        },
+	["2-WWW1"]  = { position = 2, layout = awful.layout.suit.max, spawn = "google-chrome"        },
 	["3-Talk"]  = { position = 3, layout = awful.layout.suit.max, spawn = "skype"                },
-	["4-VM"]    = { position = 4, layout = awful.layout.suit.max, spawn = "vmware"               },
-	["5-♫♪"]    = { position = 5, layout = awful.layout.suit.max                                 },
-	["6-Gimp"]  = { position = 6, layout = awful.layout.suit.floating, spawn = "gimp"            },
-	["7-Write"] = { position = 7, layout = awful.layout.suit.floating, spawn = "xpad"            },
+	["4-WWW2"]  = { position = 4, layout = awful.layout.suit.max, spawn = "firefox"              },
+	["5-VM"]    = { position = 5, layout = awful.layout.suit.max, spawn = "vmware"               },
+	["6-♫♪"]    = { position = 6, layout = awful.layout.suit.max                                 },
+	["7-Gimp"]  = { position = 7, layout = awful.layout.suit.floating, spawn = "gimp"            },
+	["8-Write"] = { position = 8, layout = awful.layout.suit.floating, spawn = "xpad"            },
 }
 
 -- shifty: tags matching and client rules
 shifty.config.apps = {
 	{ match = { "konsole", "xterm", "st"                              }, tag = "1-Term",                                              },
-	{ match = { "Iceweasel", "Google Chrome"                          }, tag = "2-Web",                                               },
+	{ match = { "Google Chrome"                                       }, tag = "2-WWW1",                                              },
 	{ match = { "Skype", "Pidgin", "SFLphone VoIP Client", "sflphone" }, tag = "3-Talk",                                              },
-	{ match = { "VirtualBox OSE", "vmware"                            }, tag = "4-VM",                                                },
-	{ match = { "MPlayer", "Vlc"                                      }, tag = "5-♫♪"   ,                                             },
-	{ match = { "Gimp"                                                }, tag = "6-Gimp",                                              },
-	{ match = { "libreoffice", "xCHM"                                 }, tag = "7-Write",                                             },
+	{ match = { "Iceweasel", "Firefox"                                }, tag = "4-WWW2",                                              },
+	{ match = { "VirtualBox OSE", "vmware"                            }, tag = "5-VM",                                                },
+	{ match = { "MPlayer", "Vlc"                                      }, tag = "6-♫♪"   ,                                             },
+	{ match = { "Gimp"                                                }, tag = "7-Gimp",                                              },
+	{ match = { "libreoffice", "xCHM"                                 }, tag = "8-Write",                                             },
 	{ match = { "gimp%-image%-window"                                 }, geometry = {175,15,1100,770}, border_width = 0               },
 	{ match = { "^gimp%-toolbox$"                                     }, geometry = {0,15,175,770}, slave = true, border_width = 0    },
 	{ match = { "^gimp%-dock$"                                        }, geometry = {1105,15,175,770}, slave = true, border_width = 0 },
