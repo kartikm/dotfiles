@@ -14,6 +14,7 @@ cp ~/.quiltrc              $DOT/quiltrc
 cp ~/.screenrc             $DOT/screenrc
 cp ~/.vimrc                $DOT/vimrc
 cp ~/.zshrc                $DOT/zshrc
+cp ~/.bin/backup           $DOT/bin/backup
 cp ~/.bin/sync-dotfiles    $DOT/bin/sync-dotfiles
 cp ~/.bin/make-tar         $DOT/bin/make-tar
 cp -r ~/.config/awesome/*  $DOT/config/awesome

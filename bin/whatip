@@ -1,4 +1,0 @@
-#!/bin/bash
-
-curl -s http://whatismyip.org/
-echo " "
