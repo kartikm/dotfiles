@@ -163,6 +163,7 @@ alias i3lock=' i3lock -c 151610'
 alias bc='bc -l'
 alias st='~/.bin/Sublime_Text/sublime_text'
 alias pdf='zathura'
+alias git-st='git status -s .'
 
 #random stuffs
 alias nyan='nc -v miku.acm.uiuc.edu 23' # nyan cat
