@@ -189,7 +189,7 @@ calwidget = widget({ type = "textbox" })
 -- Keyboard map indicator and changer
 kbdcfg = {}
 kbdcfg.cmd = "setxkbmap"
-kbdcfg.layout = { { "us", "" }, { "guj", "" } }
+kbdcfg.layout = { { "us", "" }, { "guj", "" }, { "deva", ""} }
 kbdcfg.current = 1  -- us is our default layout
 kbdcfg.widget = widget({ type = "textbox", align = "left" })
 kbdcfg.widget.text = " " .. kbdcfg.layout[kbdcfg.current][1] .. " "

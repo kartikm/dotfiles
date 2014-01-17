@@ -93,7 +93,7 @@ bindkey -e
 
 #ENV
 export PAGER=/usr/bin/less
-export PATH=$PATH:$HOME/.bin:/sbin
+export PATH=$PATH:$HOME/.bin:/sbin:$HOME/.bin/PhpStrom/bin
 
 #Completion styles
 zstyle ':completion:*' completer _expand _complete _correct _approximate
@@ -164,6 +164,14 @@ alias bc='bc -l'
 alias st='~/.bin/Sublime_Text/sublime_text'
 alias pdf='zathura'
 alias git-st='git status -s .'
+
+#repo alias
+alias ct='cd ~/development/work/WP/repos/ContentTranslation'
+
+#WP
+alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
+alias pstrom='~/.bin/PhpStrom/bin/phpstorm.sh'
+alias review='git fetch gerrit; git review;'
 
 #random stuffs
 alias nyan='nc -v miku.acm.uiuc.edu 23' # nyan cat

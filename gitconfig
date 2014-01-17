@@ -3,23 +3,41 @@
 	email = kartik.mistry@gmail.com
 	signingkey = d1028c8d
 
+[alias]
+	ad = add
+	br = branch
+	co = checkout
+	di = diff
+	ds = diff --staged
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative
+	log-nice = log --graph --decorate --abbrev-commit --pretty=oneline
+	pul = pull
+	so = show
+	st = status
+
 [color]
 	branch = auto
 	status = auto
 	diff = 0
 	ui = auto
 	pager = true
+
 [core]
 	pager = less -FRSX
+	editor = vim
+
 [pack]
 	threads = 0
+
 [giggle]
 	main-window-maximized = false
 	main-window-geometry = 1278x384+0+14
 	file-view-vpane-position = 294
 	history-view-vpane-position = 154
 	main-window-view = FileView
+
 [push]
 	default = current
+
 [dude]
 	interval = 30
