@@ -163,15 +163,35 @@ alias i3lock=' i3lock -c 151610'
 alias bc='bc -l'
 alias st='~/.bin/Sublime_Text/sublime_text'
 alias pdf='zathura'
-alias git-st='git status -s .'
 
-#repo alias
-alias ct='cd ~/development/work/WP/repos/ContentTranslation'
+#MW specefic
+export MY_MW=/var/www/mw
 
-#WP
+localset() { vim $MY_MW/LocalSettings.php; }
+
 alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
 alias pstrom='~/.bin/PhpStrom/bin/phpstorm.sh'
+
+core_clone() {
+    git clone ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git $1;
+}
+
+ext_clone() {
+    git clone ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/$1;
+}
+
 alias review='git fetch gerrit; git review;'
+alias amend='git commit -a --amend'
+alias amendn='git commit -a --amend --no-edit'
+alias master='git checkout master'
+alias pull='git checkout master && git pull'
+alias gc='git gc'
+
+#cucumber
+kbo() { export KEEP_BROWSER_OPEN=true; }
+cuke() { bundle exec cucumber $1; }
+
+pshs() { python -m SimpleHTTPServer; }
 
 #random stuffs
 alias nyan='nc -v miku.acm.uiuc.edu 23' # nyan cat
@@ -185,7 +205,7 @@ alias google-chrome-tor='google-chrome --proxy-server="socks://127.0.0.1:9050"'
 #export http_proxy="socks4://127.0.0.1:9050"
 #export https_proxy="socks4://127.0.0.1:9050"
 
-#Debian stuffs
+#Debian
 export EDITOR='vim'
 export VISUAL='vim'
 export DEBEMAIL="kartik@debian.org"
@@ -203,6 +223,8 @@ alias ag="dpkg -l|grep"
 #some stats
 alias debs-by-size='grep-status -FStatus -sInstalled-Size,Package -n "install ok installed" | paste -sd "  \n" | sort -rn'
 alias top10='print -l ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
+
+alias tg=~/development/github/tg/telegram -k tg.pub
 
 #fortunes-debian-hints
 if [ -x /usr/games/fortune ]; then
