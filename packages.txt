@@ -173,6 +173,7 @@ dia-libs					install
 dia-shapes					install
 dialog						install
 dictionaries-common				install
+dictzip						install
 diffstat					install
 diffutils					install
 discover					install
@@ -194,7 +195,8 @@ doxygen						install
 doxygen-latex					install
 dpkg						install
 dpkg-dev					install
-dput						install
+dput						deinstall
+dput-ng						install
 dunst						install
 dvd+rw-tools					install
 dvipng						install
@@ -414,6 +416,9 @@ gnupg-agent					install
 gnupg2						install
 gnuplot						install
 gnuplot-nox					install
+gnustep-base-common				install
+gnustep-base-runtime				install
+gnustep-common					install
 google-chrome-stable				install
 google-talkplugin				install
 googlefontdirectory-tools			install
@@ -1155,6 +1160,7 @@ libgnomevfs2-extra:amd64			install
 libgnuinet-java					install
 libgnumail-java					install
 libgnupg-interface-perl				install
+libgnustep-base1.22				install
 libgnutls-dev					install
 libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
@@ -1506,6 +1512,7 @@ liblzma5:i386					install
 liblzo2-2:amd64					install
 liblzo2-2:i386					install
 libm17n-0					install
+libmaa3:amd64					install
 libmad0:amd64					install
 libmagic1:amd64					install
 libmagickcore5:amd64				install
@@ -1625,6 +1632,7 @@ libntdb1:amd64					install
 libntlm0:amd64					install
 libntrack-qt4-1					install
 libntrack0					install
+libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
@@ -1981,7 +1989,7 @@ libsoup2.4-dev					install
 libsp1c2					install
 libspandsp2					install
 libspectre1:amd64				install
-libspeechd2					install
+libspeechd2:amd64				install
 libspeex-dev:amd64				install
 libspeex1:amd64					install
 libspeexdsp-dev:amd64				install
@@ -2111,6 +2119,7 @@ libunique-3.0-0					install
 libunistring0:amd64				install
 libuniversal-require-perl			install
 libunwind7					install
+libunwind8					install
 libupnp6					install
 libupower-glib1:amd64				install
 liburcu-dev					install
@@ -2186,6 +2195,7 @@ libwind0-heimdal:amd64				install
 libwine:amd64					install
 libwine:i386					install
 libwine-gecko-1.4				install
+libwine-gecko-2.21				install
 libwireshark-data				install
 libwireshark3:amd64				install
 libwiretap3:amd64				install
@@ -2690,9 +2700,11 @@ python-debianbts				install
 python-decorator				install
 python-defer					install
 python-dev					install
+python-distro-info				install
 python-dns					install
 python-dnspython				install
 python-docutils					install
+python-dput					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-flickrapi				install
@@ -2760,6 +2772,7 @@ python-tk					install
 python-tweepy					install
 python-uno					install
 python-urwid					install
+python-validictory				install
 python-vte					install
 python-webunit					install
 python-wicd					install
@@ -2848,6 +2861,7 @@ rpcbind						install
 rsync						install
 rsyslog						install
 rtmpdump					install
+ruby						install
 ruby-childprocess				install
 ruby-erubis					install
 ruby-ffi					install
@@ -2899,6 +2913,7 @@ ssh-askpass					install
 ssh-askpass-gnome				install
 sshfs						install
 ssl-cert					install
+stardict-tools					install
 steam						install
 strace						install
 stterm						install
@@ -2972,6 +2987,7 @@ ucf						install
 udev						install
 udisks2						install
 ufraw-batch					install
+unar						install
 unattended-upgrades				install
 unclutter					install
 unixodbc					install

@@ -187,6 +187,9 @@ alias master='git checkout master'
 alias pull='git checkout master && git pull'
 alias gc='git gc'
 
+#Git graph
+alias git-graph='git log -n50 --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
+
 #cucumber
 kbo() { export KEEP_BROWSER_OPEN=true; }
 cuke() { bundle exec cucumber $1; }

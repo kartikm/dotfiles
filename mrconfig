@@ -21,6 +21,9 @@ checkout = svn co svn+ssh://kartik@svn.debian.org/svn/ddp/manuals/trunk/release-
 checkout = git clone 'git://git.debian.org/users/lucas/packaging-tutorial.git' 'packaging-tutorial'
 
 #upstreams
+[development/upstreams/aspell-lang]
+checkout = cvs -d ':pserver:anonymous@cvs.savannah.gnu.org:/sources/aspell' co -d 'aspell-lang' 'aspell-lang'
+
 [development/upstreams/ayttm]
 checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/ayttm/git' 'ayttm'
 
@@ -33,12 +36,6 @@ checkout = git clone 'http://git.falconpl.org/falcon.git' 'falcon'
 [development/upstreams/fontypython/SVN/trunk]
 checkout = svn co svn://svn.savannah.nongnu.org/fontypython/trunk
 
-[development/fonts/font-kalapi]
-checkout = git clone 'git@github.com:gujaratilexicon/font-kalapi.git' 'font-kalapi'
-
-[development/fonts/lohit]
-checkout = git clone 'git://git.fedorahosted.org/lohit.git' 'lohit'
-
 [development/upstreams/mango-lassi]
 checkout = git clone 'git://github.com/herzi/mango-lassi.git' 'mango-lassi'
 
@@ -50,6 +47,25 @@ checkout = git clone 'git@github.com:hills/xosview.git' 'xosview'
 
 [development/upstreams/yokadi]
 checkout = git clone git://github.com/agateau/yokadi
+
+#fonts
+[development/fonts/fonts-aakar]
+checkout = git clone 'git@github.com:kartikm/fonts-aakar.git' 'fonts-aakar'
+
+[development/fonts/fonts-rekha]
+checkout = git clone 'git@github.com:kartikm/fonts-rekha.git' 'fonts-rekha'
+
+[development/fonts/font-kalapi]
+checkout = git clone 'git@github.com:gujaratilexicon/font-kalapi.git' 'font-kalapi'
+
+[development/fonts/lohit]
+checkout = git clone 'git://git.fedorahosted.org/lohit.git' 'lohit'
+
+[development/fonts/tofudetector]
+checkout = git clone 'git@github.com:kartikm/tofudetector.git' 'tofudetector'
+
+[development/fonts/sfntly]
+checkout = svn co 'http://sfntly.googlecode.com/svn/trunk' 'sfntly'
 
 #packages
 [development/debian/packages/aria2/aria2]
@@ -97,6 +113,27 @@ checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint'
 CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
 checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint-stamps' 'tuxpaint-stamps'
 
+[development/l10n/inscript2]
+checkout = git clone 'git://git.fedorahosted.org/inscript2.git' 'inscript2'
+
+[development/l10n/silpa]
+checkout = git clone 'http://git.savannah.gnu.org/r/silpa.git' 'silpa'
+
+[development/l10n/fortunes-gu-kahevato]
+checkout = git clone 'git@github.com:kartikm/fortunes-gu-kahevato.git' 'fortunes-gu-kahevato'
+
+[development/l10n/aspell-gu]
+checkout = git clone 'git@github.com:kartikm/aspell-gu.git' 'aspell-gu'
+
+[development/l10n/fortunes-gu-kahevato]
+checkout = git clone 'git@github.com:kartikm/fortunes-gu-kahevato.git' 'fortunes-gu-kahevato'
+
+[development/l10n/chhapkaam]
+checkout = git clone 'git@github.com:samyakbhuta/chhapkaam.git' 'chhapkaam'
+
+[development/l10n/dictionary-bot]
+checkout = git clone 'git@github.com:kartikm/dictionary-bot.git' 'dictionary-bot'
+
 #local stuffs
 [wiki]
 checkout = git clone git://home/kartik/wiki.git
@@ -115,6 +152,9 @@ checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' 'oh-my-zsh'
 checkout = git clone 'git://gitorious.org/personal-configuration-files/conffiles.git' 'vasudev-conffiles'
 
 #books
+[development/books/penguin-can-fly]
+checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-fly'
+
 [development/books/svnbook/trunk]
 checkout = svn co 'http://svnbook.googlecode.com/svn/trunk' 'trunk'
 
@@ -128,103 +168,75 @@ checkout = hg clone 'http://bitbucket.org/bos/hgbook' 'hgbook'
 #[development/books/learn-c-the-hard-way]
 #checkout = git clone 'git://gitorious.org/learn-c-the-hard-way/learn-c-the-hard-way.git' 'learn-c-the-hard-way'
 
+[development/books/learnGitBranching]
+checkout = git clone 'git@github.com:kartikm/learnGitBranching.git' 'learnGitBranching'
+
 #misc
-[development/debian/boxer]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/boxer.git' 'boxer'
-
-[development/github/inception]
-checkout = git clone 'http://github.com/karthick18/inception.git' 'inception'
-
-[development/misc/showpdf]
-checkout = git clone 'git://github.com/sitaramc/showpdf.git' 'showpdf'
-
-[development/debian/talks/packaging-tutorial]
-checkout = git clone 'git://git.debian.org/users/lucas/packaging-tutorial.git' 'packaging-tutorial'
-
-[development/upstreams/aspell-lang]
-checkout = cvs -d ':pserver:anonymous@cvs.savannah.gnu.org:/sources/aspell' co -d 'aspell-lang' 'aspell-lang'
-
 [development/sixthsense/gitrepo/sixthsense]
 checkout = git clone 'git@github.com:sixthsense/sixthsense.git' 'sixthsense'
-
-[development/github/OpenChronos]
-checkout = git clone 'git://github.com/poelzi/OpenChronos.git' 'OpenChronos'
-
-[development/github/fpm]
-checkout = git clone 'git@github.com:kartikm/fpm.git' 'fpm'
-
-[development/fonts/sfntly]
-checkout = svn co 'http://sfntly.googlecode.com/svn/trunk' 'sfntly'
-
-#my github forks/repos
-[development/github/tlsdate]
-checkout = git clone 'git@github.com:kartikm/tlsdate.git' 'tlsdate'
-
-[development/github/torbirdy]
-checkout = git clone 'git@github.com:kartikm/torbirdy.git' 'torbirdy'
-
-[development/github/jenkins-debian-glue]
-checkout = git clone 'git@github.com:kartikm/jenkins-debian-glue.git' 'jenkins-debian-glue'
-
-[development/github/fortunes-gu-kahevato]
-checkout = git clone 'git@github.com:kartikm/fortunes-gu-kahevato.git' 'fortunes-gu-kahevato'
-
-[development/github/aspell-gu]
-checkout = git clone 'git@github.com:kartikm/aspell-gu.git' 'aspell-gu'
 
 [development/github/cv]
 checkout = git clone 'git@github.com:kartikm/cv.git' 'cv'
 
-[development/github/dictionary-bot]
-checkout = git clone 'git@github.com:kartikm/dictionary-bot.git' 'dictionary-bot'
-
 [development/github/dotfiles]
 checkout = git clone 'git@github.com:kartikm/dotfiles.git' 'dotfiles'
 
-[development/fonts/fonts-aakar]
-checkout = git clone 'git@github.com:kartikm/fonts-aakar.git' 'fonts-aakar'
-
-[development/fonts/fonts-rekha]
-checkout = git clone 'git@github.com:kartikm/fonts-rekha.git' 'fonts-rekha'
-
-[development/github/gu-wordlist]
-checkout = git clone 'git@github.com:kartikm/gu-wordlist.git' 'gu-wordlist'
-
-[development/github/ascii2unicode]
+#GL
+[development/github/GL/ascii2unicode]
 checkout = git clone 'git@github.com:gujaratilexicon/ascii2unicode.git' 'ascii2unicode'
 
-[development/github/GujaratiLexicon-extension]
+[development/github/GL/GujaratiLexicon-extension]
 checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
 
-[development/github/chhapkaam]
-checkout = git clone 'git@github.com:samyakbhuta/chhapkaam.git' 'chhapkaam'
-
-[development/github/time-lapse-photography]
-checkout = git clone 'git@github.com:kartikm/time-lapse-photography.git' 'time-lapse-photography'
-
-[development/books/penguin-can-fly]
-checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-fly'
-
-[development/debian/NM/nm]
-checkout = svn co 'svn+ssh://kartik@svn.debian.org/svn/nm' 'nm'
-
+#WP
 [development/wikipedia/puppet]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/operations/puppet' 'puppet'
 
 [development/wikipedia/mw-tools-cs]
 checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 'mw-tools-cs'
 
-[development/l10n/inscript2]
-checkout = git clone 'git://git.fedorahosted.org/inscript2.git' 'inscript2'
+[development/wikipedia/vagrant]
+checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
 
-[development/l10n/silpa]
-checkout = git clone 'http://git.savannah.gnu.org/r/silpa.git' 'silpa'
+#forks
+[development/github/forks/fpm]
+checkout = git clone 'git@github.com:kartikm/fpm.git' 'fpm'
 
-[development/github/hy]
+[development/github/forks/hy]
 checkout = git clone 'git@github.com:kartikm/hy.git' 'hy'
 
-[development/books/learnGitBranching]
-checkout = git clone 'git@github.com:kartikm/learnGitBranching.git' 'learnGitBranching'
+[development/github/forks/bapudi]
+checkout = git clone 'git@github.com:kartikm/bapudi.git' 'bapudi'
 
-[development/fonts/tofudetector]
-checkout = git clone 'git@github.com:kartikm/tofudetector.git' 'tofudetector'
+[development/github/forks/bhaukal]
+checkout = git clone 'git@github.com:kartikm/bhaukal.git' 'bhaukal'
+
+[development/github/forks/underscore.gu]
+checkout = git clone 'git@github.com:kartikm/underscore.gu.git' 'underscore.gu'
+
+[development/github/forks/debian-dict]
+checkout = git clone 'git@github.com:kartikm/debian-dict.git' 'debian-dict'
+
+[development/github/forks/jenkins-debian-glue]
+checkout = git clone 'git@github.com:kartikm/jenkins-debian-glue.git' 'jenkins-debian-glue'
+
+[development/github/forks/netsniff-ng]
+checkout = git clone 'git@github.com:kartikm/netsniff-ng.git' 'netsniff-ng'
+
+[development/github/forks/onion_pi]
+checkout = git clone 'git@github.com:kartikm/onion_pi.git' 'onion_pi'
+
+[development/github/forks/temporal-hex-dump]
+checkout = git clone 'git://github.com/scanlime/temporal-hex-dump.git' 'temporal-hex-dump'
+
+[development/github/forks/tlsdate]
+checkout = git clone 'git@github.com:kartikm/tlsdate.git' 'tlsdate'
+
+[development/github/forks/torbirdy]
+checkout = git clone 'git@github.com:kartikm/torbirdy.git' 'torbirdy'
+
+[development/github/forks/vertigo]
+checkout = git clone 'git@github.com:prtksxna/vertigo.git' 'vertigo'
+
+[development/node-code]
+checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
