@@ -53,25 +53,6 @@ bindkey -s '^|a' " | awk '{print $}'^[OD^[OD"  # c-| a  pipe to awk
 bindkey -s '^|s' ' | sed -e "s///g"^[OD^[OD^[OD^[OD' # c-| s  pipe to sed
 bindkey -s '^|w' " | wc -l\n"                   # c-| w  pipe to wc
 
-#Colours
-local red="%{"$'\e[1;31m'"%}"
-local RED="%{"$'\e[0;31m'"%}"
-local cyan="%{"$'\e[1;36m'"%}"
-local CYAN="%{"$'\e[0;36m'"%}"
-local blue="%{"$'\e[1;34m'"%}"
-local BLUE="%{"$'\e[0;34m'"%}"
-local green="%{"$'\e[1;32m'"%}"
-local GREEN="%{"$'\e[0;32m'"%}"
-local magenta="%{"$'\e[1;35m'"%}"
-local MAGENTA="%{"$'\e[0;35m'"%}"
-local yellow="%{"$'\e[1;33m'"%}"
-local YELLOW="%{"$'\e[0;33m'"%}"
-local gray="%{"$'\e[1;30m'"%}"
-local GRAY="%{"$'\e[0;37m'"%}"
-local white="%{"$'\e[1;37m'"%}"
-local NOCOLOR="%{"$'\e[0m'"%}"
-local NEWLINE="%{"$'\e[80D'"%}"
-
 #support colors in less
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
@@ -169,9 +150,6 @@ export MY_MW=/var/www/mw
 
 localset() { vim $MY_MW/LocalSettings.php; }
 
-alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
-alias pstrom='~/.bin/PhpStrom/bin/phpstorm.sh'
-
 core_clone() {
     git clone ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git $1;
 }
@@ -180,15 +158,17 @@ ext_clone() {
     git clone ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/$1;
 }
 
+alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
+alias pstrom='~/.bin/PhpStrom/bin/phpstorm.sh'
+
+#Git
+alias git-graph='git log -n50 --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 alias review='git fetch gerrit; git review;'
 alias amend='git commit -a --amend'
 alias amendn='git commit -a --amend --no-edit'
 alias master='git checkout master'
 alias pull='git checkout master && git pull'
 alias gc='git gc'
-
-#Git graph
-alias git-graph='git log -n50 --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 
 #cucumber
 kbo() { export KEEP_BROWSER_OPEN=true; }
@@ -227,7 +207,14 @@ alias ag="dpkg -l|grep"
 alias debs-by-size='grep-status -FStatus -sInstalled-Size,Package -n "install ok installed" | paste -sd "  \n" | sort -rn'
 alias top10='print -l ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 
-alias tg=~/development/github/tg/telegram -k tg.pub
+#telegram build
+alias tg=~/development/github/forks/tg/telegram -k tg.pub
+
+#dirs
+alias github=~/development/github
+alias cx=~/development/WP/repos/ContentTranslation
+alias tx=~/development/WP/repos/Translate
+alias ux=~/development/WP/repos/UniversalLanguageSelector
 
 #fortunes-debian-hints
 if [ -x /usr/games/fortune ]; then
@@ -240,9 +227,9 @@ fi
 # By: Kartik Mistry
 lcheck() {
  licensecheck -r --copyright . > ../license-report.txt
- echo "----------------------------------------------" >> ../license-report.txt
- echo "And, We've probably found some more things...." >> ../license-report.txt
- echo "----------------------------------------------" >> ../license-report.txt
+ echo "----------------------------------" >> ../license-report.txt
+ echo "We have probably found some more.." >> ../license-report.txt
+ echo "----------------------------------" >> ../license-report.txt
  grep -irn "License" * >> ../license-report.txt
 }
 

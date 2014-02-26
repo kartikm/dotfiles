@@ -770,7 +770,7 @@ libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2:i386					deinstall
 libcairo2-dev					install
-libcairomm-1.0-1				install
+libcairomm-1.0-1				deinstall
 libcalendarsupport4				install
 libcamd2.3.1:amd64				install
 libcanberra-gtk0:i386				deinstall
@@ -1224,7 +1224,7 @@ libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
 libgtkglext1					install
-libgtkmm-2.4-1c2a:amd64				install
+libgtkmm-2.4-1c2a:amd64				deinstall
 libgtkspell0					install
 libguard-perl					install
 libgucharmap-2-90-7				install
@@ -1282,7 +1282,7 @@ libical0					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
-libicu48:amd64					install
+libicu48:amd64					deinstall
 libicu4j-4.4-java				install
 libicu4j-java					install
 libicu52:amd64					install
@@ -1347,8 +1347,10 @@ libjbig2dec0					install
 libjcharts-java					install
 libjcommon-java					install
 libjdom1-java					install
+libjemalloc1					install
 libjetty8-java					install
-libjim0debian2:amd64				install
+libjim0.74:amd64				install
+libjim0debian2:amd64				deinstall
 libjline-java					install
 libjna-java					install
 libjpeg-progs					install
@@ -1367,6 +1369,7 @@ libjs-jquery-tablesorter			install
 libjs-jquery-ui					install
 libjs-node-uuid					install
 libjs-sphinxdoc					install
+libjs-twitter-bootstrap				install
 libjs-underscore				install
 libjsch-java					install
 libjson-c2:amd64				install
@@ -1570,7 +1573,7 @@ libmwaw-0.1-1					install
 libmysql-java					install
 libmysqlclient-dev				install
 libmysqlclient18:amd64				install
-libmysqlcppconn7				install
+libmysqlcppconn7				deinstall
 libmythes-1.2-0					install
 libnacl-dev					install
 libnautilus-extension1a				install
@@ -1709,7 +1712,7 @@ libpangocairo-1.0-0:amd64			install
 libpangocairo-1.0-0:i386			deinstall
 libpangoft2-1.0-0:amd64				install
 libpangoft2-1.0-0:i386				install
-libpangomm-1.4-1:amd64				install
+libpangomm-1.4-1:amd64				deinstall
 libpangox-1.0-0:amd64				install
 libpangox-1.0-0:i386				install
 libpangoxft-1.0-0:amd64				install
@@ -1872,7 +1875,7 @@ librcc0						install
 librcd0						install
 librdf0:amd64					install
 libreadline-dev:amd64				install
-libreadline5:amd64				install
+libreadline5:amd64				deinstall
 libreadline6:amd64				install
 libreadline6-dev:amd64				install
 librecode0:amd64				install
@@ -2052,10 +2055,10 @@ libtalloc2:amd64				install
 libtar0						install
 libtask-weaken-perl				install
 libtasn1-3:amd64				install
-libtasn1-3:i386					install
-libtasn1-3-dev					install
+libtasn1-3:i386					deinstall
 libtasn1-6:amd64				install
 libtasn1-6:i386					install
+libtasn1-6-dev					install
 libtbb2						install
 libtcltk-ruby1.9.1				install
 libtdb1:amd64					install
@@ -2118,7 +2121,7 @@ libuninameslist0				install
 libunique-3.0-0					install
 libunistring0:amd64				install
 libuniversal-require-perl			install
-libunwind7					install
+libunwind7					deinstall
 libunwind8					install
 libupnp6					install
 libupower-glib1:amd64				install
@@ -2170,7 +2173,7 @@ libvpb-dev					install
 libvpb0						install
 libvpx1:amd64					install
 libvpx1:i386					install
-libvsqlitepp3:amd64				install
+libvsqlitepp3:amd64				deinstall
 libvte-2.90-9					install
 libvte-2.90-common				install
 libvte-common					install
@@ -2178,6 +2181,7 @@ libvte9						install
 libwavpack1:amd64				install
 libwayland-client0:amd64			install
 libwayland-client0:i386				deinstall
+libwayland-cursor0:amd64			install
 libwayland-server0:amd64			install
 libwayland-server0:i386				deinstall
 libwbclient0:amd64				install
@@ -2185,8 +2189,10 @@ libwebkitgtk-1.0-0:amd64			install
 libwebkitgtk-1.0-common				install
 libwebkitgtk-3.0-0:amd64			install
 libwebkitgtk-3.0-common				install
-libwebp4:amd64					install
+libwebp4:amd64					deinstall
 libwebp5:amd64					install
+libwebpdemux1:amd64				install
+libwebpmux1:amd64				install
 libwebrtc-audio-processing-0:amd64		install
 libwerken.xpath-java				install
 libwildmidi-config				install
@@ -2194,7 +2200,6 @@ libwildmidi1:amd64				install
 libwind0-heimdal:amd64				install
 libwine:amd64					install
 libwine:i386					install
-libwine-gecko-1.4				install
 libwine-gecko-2.21				install
 libwireshark-data				install
 libwireshark3:amd64				install
@@ -2462,8 +2467,6 @@ mysql-client-5.5				install
 mysql-common					install
 mysql-server-5.5				install
 mysql-server-core-5.5				install
-mysql-utilities					install
-mysql-workbench					install
 mysql-workbench-data				install
 mytop						install
 nano						install
@@ -2585,7 +2588,6 @@ pbzip2						install
 pciutils					install
 pcmciautils					install
 pear-phpunit-channel				install
-pear-symfony-project-channel			install
 pepperflashplugin-nonfree			install
 perl						install
 perl-base					install
@@ -2601,7 +2603,8 @@ php-file-iterator				install
 php-gettext					install
 php-invoker					install
 php-pear					install
-php-symfony-yaml				install
+php-symfony2-yaml				install
+php-tcpdf					install
 php-text-template				install
 php-timer					install
 php-token-stream				install
@@ -2612,11 +2615,13 @@ php5-common					install
 php5-curl					install
 php5-dbg					install
 php5-dev					install
+php5-gd						install
 php5-imagick					install
 php5-json					install
 php5-mcrypt					install
 php5-mysql					install
 php5-pgsql					install
+php5-redis					install
 php5-xdebug					install
 phpmyadmin					install
 phpunit						install
@@ -2673,6 +2678,7 @@ pulseaudio-module-x11				install
 pulseaudio-utils				install
 pv						install
 pydb						install
+pylint						install
 python						install
 python-all					install
 python-all-dev					install
@@ -2683,6 +2689,7 @@ python-aptdaemon				install
 python-aptdaemon-gtk				install
 python-aptdaemon.gtk3widgets			install
 python-aptdaemon.gtkwidgets			install
+python-astroid					install
 python-beautifulsoup				install
 python-bson					install
 python-bson-ext					install
@@ -2725,11 +2732,11 @@ python-gtkspell					install
 python-gudev					install
 python-imaging					install
 python-librdf					install
+python-logilab-common				install
 python-lxml					install
 python-magic					install
 python-matplotlib-data				install
 python-minimal					install
-python-mysql.connector				install
 python-mysqldb					install
 python-nose					install
 python-notify					install
@@ -2747,9 +2754,7 @@ python-pyexiv2					install
 python-pygame					install
 python-pymongo					install
 python-pymongo-ext				install
-python-pyodbc					install
 python-pyorbit					install
-python-pysqlite2				install
 python-qrtools					install
 python-qt4					install
 python-recoll					install
@@ -2847,6 +2852,8 @@ readline-common					install
 realpath					install
 reaver						install
 recoll						install
+redis-server					install
+redis-tools					install
 remind						install
 reportbug					install
 reprepro					install
