@@ -106,6 +106,7 @@ zstyle ':completion:*:options' description 'yes'
 zstyle ':completion:*:options' auto-description '%d'
 
 #Aliases
+alias bc='bc -l'
 alias cl='clear'
 alias c=cl
 alias cls=cl
@@ -141,14 +142,10 @@ alias dm='df -m'
 alias x='startx'
 alias wv='sudo wvdial'
 alias i3lock=' i3lock -c 151610'
-alias bc='bc -l'
-alias st='~/.bin/Sublime_Text/sublime_text'
 alias pdf='zathura'
 
 #MW specefic
-export MY_MW=/var/www/mw
-
-localset() { vim $MY_MW/LocalSettings.php; }
+export MY_MW=/var/www/mw-master/core
 
 core_clone() {
     git clone ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git $1;
@@ -158,22 +155,25 @@ ext_clone() {
     git clone ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/$1;
 }
 
+localset() { vim $MY_MW/LocalSettings.php; }
+
 alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
 alias pstrom='~/.bin/PhpStrom/bin/phpstorm.sh'
 
 #Git
-alias git-graph='git log -n50 --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
-alias review='git fetch gerrit; git review;'
 alias amend='git commit -a --amend'
 alias amendn='git commit -a --amend --no-edit'
-alias master='git checkout master'
-alias pull='git checkout master && git pull'
 alias gc='git gc'
+alias master='git checkout master'
+alias mum='git fetch upstream; git merge upstream/master;'
+alias pull='git checkout master && git pull'
+alias review='git fetch gerrit; git review;'
 
-#cucumber
-kbo() { export KEEP_BROWSER_OPEN=true; }
+# Cucumber
 cuke() { bundle exec cucumber $1; }
+kbo() { export KEEP_BROWSER_OPEN=true; }
 
+# Simple Server
 pshs() { python -m SimpleHTTPServer; }
 
 #random stuffs
@@ -211,10 +211,13 @@ alias top10='print -l ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 alias tg=~/development/github/forks/tg/telegram -k tg.pub
 
 #dirs
-alias github=~/development/github
-alias cx=~/development/WP/repos/ContentTranslation
-alias tx=~/development/WP/repos/Translate
-alias ux=~/development/WP/repos/UniversalLanguageSelector
+alias cx=~/development/WP/repos/LE/ContentTranslation
+alias tx=~/development/WP/repos/LE/Translate
+alias ux=~/development/WP/repos/LE/UniversalLanguageSelector
+alias twn=~/development/WP/repos/LE/translatewiki
+
+alias gb=~/development/github/forks
+alias pkg=~/development/debian/packages
 
 #fortunes-debian-hints
 if [ -x /usr/games/fortune ]; then

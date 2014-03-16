@@ -81,7 +81,7 @@ checkout = git clone git+ssh://kartik@git.debian.org/git/collab-maint/fortunes-d
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/gwibber.git' 'gwibber'
 
 [development/debian/packages/netsniff-ng/git/netsniff-ng]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/netsniff-ng.git' 'xosview'
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/netsniff-ng.git' 'netsniff-ng'
 
 [development/debian/packages/nginx/git/nginx]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git' 'nginx'
@@ -133,10 +133,6 @@ checkout = git clone 'git@github.com:samyakbhuta/chhapkaam.git' 'chhapkaam'
 
 [development/l10n/dictionary-bot]
 checkout = git clone 'git@github.com:kartikm/dictionary-bot.git' 'dictionary-bot'
-
-#local stuffs
-[wiki]
-checkout = git clone git://home/kartik/wiki.git
 
 #configs
 [development/configs/awesome-config]
@@ -240,3 +236,10 @@ checkout = git clone 'git@github.com:prtksxna/vertigo.git' 'vertigo'
 
 [development/node-code]
 checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
+
+#local stuffs
+[wiki]
+checkout = git clone git://home/kartik/wiki.git
+
+[/var/www/mw-master/core]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git' 'core'

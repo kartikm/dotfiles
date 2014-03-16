@@ -25,6 +25,7 @@ apache2-utils					install
 apg						install
 apparmor-easyprof				install
 apt						install
+apt-cacher-ng					install
 apt-file					install
 apt-listchanges					install
 apt-utils					install
@@ -42,6 +43,7 @@ aspell-gu					install
 at						install
 at-spi2-core					install
 atool						install
+aufs-tools					install
 autoconf					install
 automake					install
 automake1.11					install
@@ -88,7 +90,6 @@ ca-certificates					install
 ca-certificates-java				install
 cabextract					install
 calendar-google-provider			install
-ccache						install
 cdbs						install
 cdparanoia					install
 cdrdao						install
@@ -187,6 +188,7 @@ doc-base					install
 doc-debian					install
 docbook-xml					install
 docbook-xsl					install
+docker.io					install
 docutils-common					install
 dolphin						install
 dosbox						install
@@ -201,7 +203,6 @@ dunst						install
 dvd+rw-tools					install
 dvipng						install
 dwdiff						install
-dwm						install
 e2fslibs:amd64					install
 e2fsprogs					install
 eclipse						install
@@ -349,6 +350,7 @@ fuse						install
 g++						install
 g++-4.8						install
 garmin-forerunner-tools				install
+garmin-plugin					install
 gawk						install
 gcc						install
 gcc-4.6						install
@@ -448,6 +450,11 @@ gstreamer0.10-plugins-base:amd64		install
 gstreamer0.10-plugins-good:amd64		install
 gstreamer0.10-pulseaudio:amd64			install
 gstreamer0.10-x:amd64				install
+gstreamer1.0-libav:amd64			install
+gstreamer1.0-plugins-base:amd64			install
+gstreamer1.0-plugins-good:amd64			install
+gstreamer1.0-plugins-ugly:amd64			install
+gstreamer1.0-x:amd64				install
 gtk2-engines-qtcurve:amd64			install
 gucharmap					install
 guile-1.8					install
@@ -567,6 +574,7 @@ kmix						install
 kmod						install
 konsole						install
 krb5-locales					install
+kscreen						install
 kturtle						install
 kvkbd						install
 kwin-style-qtcurve				install
@@ -615,6 +623,7 @@ libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
 libapm1						install
+libapparmor1:amd64				install
 libappindicator1				install
 libapr1:amd64					install
 libapr1-dev					install
@@ -734,15 +743,19 @@ libbonoboui2-common				install
 libboost-date-time1.54.0:amd64			install
 libboost-dev					install
 libboost-filesystem1.54.0:amd64			install
+libboost-filesystem1.55.0:amd64			install
 libboost-iostreams1.54.0:amd64			install
 libboost-program-options1.54.0:amd64		install
 libboost-python1.49.0				install
 libboost-python1.54.0				install
 libboost-regex1.54.0:amd64			install
-libboost-signals1.54.0:amd64			install
+libboost-regex1.55.0:amd64			install
+libboost-signals1.54.0:amd64			deinstall
 libboost-system1.49.0				install
 libboost-system1.54.0:amd64			install
+libboost-system1.55.0:amd64			install
 libboost-thread1.54.0:amd64			install
+libboost-thread1.55.0:amd64			install
 libboost1.54-dev				install
 libbrlapi0.6:amd64				install
 libbsd-dev					install
@@ -873,8 +886,8 @@ libcrypt-ssleay-perl				install
 libcrypt-unixcrypt-xs-perl			install
 libcrypt-x509-perl				install
 libcrypto++9					install
-libcryptsetup-dev				install
-libcryptsetup4					install
+libcryptsetup-dev:amd64				install
+libcryptsetup4:amd64				install
 libcrystalhd3:amd64				install
 libct4:amd64					install
 libctemplate-dev				install
@@ -887,7 +900,7 @@ libcurl3:amd64					install
 libcurl3:i386					deinstall
 libcurl3-gnutls:amd64				install
 libcurl3-nss:amd64				install
-libcwidget3					install
+libcwidget3:amd64				install
 libdaemon0					install
 libdata-entropy-perl				install
 libdata-float-perl				install
@@ -942,7 +955,8 @@ libdjvulibre21:amd64				install
 libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
-libdns99					install
+libdns100					install
+libdns99					deinstall
 libdom4j-java					install
 libdouble-conversion1:amd64			install
 libdpkg-perl					install
@@ -1230,6 +1244,8 @@ libguard-perl					install
 libgucharmap-2-90-7				install
 libgudev-1.0-0:amd64				install
 libgupnp-1.0-4					install
+libgupnp-av-1.0-2				install
+libgupnp-dlna-2.0-3				install
 libgupnp-igd-1.0-4:amd64			install
 libgusb2:amd64					install
 libgvc5						install
@@ -1358,9 +1374,11 @@ libjpeg8:amd64					install
 libjpeg8:i386					install
 libjpeg8-dev:amd64				install
 libjs-codemirror				install
+libjs-excanvas					install
 libjs-jquery					install
 libjs-jquery-cookie				install
 libjs-jquery-event-drag				install
+libjs-jquery-flot				install
 libjs-jquery-hotkeys				install
 libjs-jquery-isonscreen				install
 libjs-jquery-metadata				install
@@ -1456,6 +1474,7 @@ libkrb5support0:i386				install
 libkresources4					install
 libkrosscore4					install
 libksba8:amd64					install
+libkscreen1:amd64				install
 libktexteditor4					install
 libktnef4					install
 libkxml2-java					install
@@ -1649,8 +1668,8 @@ libonig2					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
-libopencore-amrnb0:amd64			deinstall
-libopencore-amrwb0:amd64			deinstall
+libopencore-amrnb0:amd64			install
+libopencore-amrwb0:amd64			install
 libopencv-calib3d2.4:amd64			install
 libopencv-contrib2.4:amd64			install
 libopencv-core2.3				install
@@ -1717,7 +1736,8 @@ libpangox-1.0-0:amd64				install
 libpangox-1.0-0:i386				install
 libpangoxft-1.0-0:amd64				install
 libpangoxft-1.0-0:i386				install
-libpano13-2:amd64				install
+libpano13-2:amd64				deinstall
+libpano13-3:amd64				install
 libpano13-bin					install
 libpaper-utils					install
 libpaper1:amd64					install
@@ -1914,6 +1934,9 @@ librtmp0:amd64					install
 libruby1.9.1					install
 libruby1.9.1-dbg				install
 librxtx-java					install
+librygel-core-2.0-1				install
+librygel-renderer-2.0-1				install
+librygel-server-2.0-1				install
 libsac-java					install
 libsac-java-gcj					install
 libsamplerate0:amd64				install
@@ -1961,7 +1984,7 @@ libservlet3.0-java				install
 libsgmls-perl					install
 libsgutils2-2					deinstall
 libshout3:amd64					install
-libsidplay1					deinstall
+libsidplay1					install
 libsidplay2					install
 libsidutils0					install
 libsigc++-2.0-0c2a:amd64			install
@@ -2066,6 +2089,7 @@ libtdb1:i386					install
 libtemplateparser4				install
 libterm-readkey-perl				install
 libterm-readline-gnu-perl			install
+libterm-readline-perl-perl			install
 libterm-ui-perl					install
 libtevent0:amd64				install
 libtext-aspell-perl				install
@@ -2221,6 +2245,7 @@ libwww-robotrules-perl				install
 libwxbase2.8-0:amd64				install
 libwxbase3.0-0:amd64				install
 libwxgtk2.8-0:amd64				install
+libwxgtk3.0-0:amd64				install
 libx11-6:amd64					install
 libx11-6:i386					install
 libx11-data					install
@@ -2390,6 +2415,7 @@ libzmq3:amd64					install
 libzthread-2.3-2:amd64				install
 libzvbi-common					install
 libzvbi0:amd64					install
+lighttpd					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
@@ -2419,6 +2445,7 @@ lsof						install
 ltrace						install
 lua5.2						install
 luatex						install
+lxc						install
 lynx-cur					install
 lzip						install
 m17n-contrib					install
@@ -2432,7 +2459,6 @@ mango-lassi					install
 manpages					install
 manpages-dev					install
 mawk						install
-memcached					install
 mencoder					install
 menu						install
 mercurial					install
@@ -2446,6 +2472,7 @@ moc						install
 module-init-tools				install
 molly-guard					install
 monkeysphere					install
+moreutils					install
 mosh						install
 mount						install
 mozilla-devscripts				install
@@ -2881,10 +2908,14 @@ ruby1.9.1-dev					install
 ruby1.9.1-examples				install
 ruby1.9.1-full					install
 ruby1.9.3					install
+rygel						install
+rygel-gst-launch				install
 s5						deinstall
 samba-common					install
 samba-libs:amd64				install
 sat4j						install
+schroot						install
+schroot-common					install
 scrot						install
 sdparm						install
 seabios						install
@@ -2912,6 +2943,7 @@ software-properties-common			install
 software-properties-gtk				install
 soprano-daemon					install
 sp						install
+spawn-fcgi					install
 spew						install
 sqlite3						install
 squashfs-tools					install
@@ -2970,7 +3002,6 @@ texlive-luatex					install
 texlive-pictures				install
 texlive-pstricks				install
 texlive-xetex					install
-thinkfan					install
 time						install
 tipa						install
 tix						install
