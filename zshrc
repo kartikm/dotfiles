@@ -211,10 +211,11 @@ alias top10='print -l ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 alias tg=~/development/github/forks/tg/telegram -k tg.pub
 
 #dirs
+alias core=/var/www/mw-master/core
 alias cx=~/development/WP/repos/LE/ContentTranslation
+alias twn=~/development/WP/repos/LE/translatewiki
 alias tx=~/development/WP/repos/LE/Translate
 alias ux=~/development/WP/repos/LE/UniversalLanguageSelector
-alias twn=~/development/WP/repos/LE/translatewiki
 
 alias gb=~/development/github/forks
 alias pkg=~/development/debian/packages
