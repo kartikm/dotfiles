@@ -213,6 +213,7 @@ alias tg=~/development/github/forks/tg/telegram -k tg.pub
 #dirs
 alias core=/var/www/mw-master/core
 alias cx=~/development/WP/repos/LE/ContentTranslation
+alias cxs=~/development/WP/repos/LE/cxserver
 alias twn=~/development/WP/repos/LE/translatewiki
 alias tx=~/development/WP/repos/LE/Translate
 alias ux=~/development/WP/repos/LE/UniversalLanguageSelector
