@@ -35,6 +35,7 @@ aptitude					install
 aptitude-common					install
 arduino						install
 arduino-core					install
+arduino-mk					install
 aria2						install
 aspectj						install
 aspell						install
@@ -60,6 +61,7 @@ base-files					install
 base-passwd					install
 bash						install
 bash-completion					install
+bb						install
 bc						install
 beep						install
 bind9-host					install
@@ -90,6 +92,8 @@ ca-certificates					install
 ca-certificates-java				install
 cabextract					install
 calendar-google-provider			install
+calibre						install
+calibre-bin					install
 cdbs						install
 cdparanoia					install
 cdrdao						install
@@ -98,6 +102,7 @@ chromium-inspector				install
 chrpath						install
 cmake						install
 cmake-data					install
+cmatrix						install
 cmus						install
 cmus-plugin-ffmpeg				install
 colord						install
@@ -248,6 +253,7 @@ festlex-cmu					install
 festlex-poslex					install
 festvox-kallpc16k				install
 ffmpeg						install
+figlet						install
 file						install
 findutils					install
 finger						install
@@ -302,6 +308,7 @@ fonts-lohit-orya				install
 fonts-lohit-taml				install
 fonts-lohit-telu				install
 fonts-lyx					install
+fonts-mathjax					install
 fonts-meera-taml				install
 fonts-mlym					install
 fonts-nakula					install
@@ -866,6 +873,7 @@ libconfig-doc					install
 libconfig-file-perl				install
 libconfig-general-perl				install
 libconfig-inifiles-perl				install
+libconfig-yaml-perl				install
 libconfig9:amd64				install
 libconfuse-common				install
 libconfuse0:amd64				install
@@ -939,6 +947,7 @@ libdc1394-22:amd64				install
 libdca0:amd64					install
 libdconf1:amd64					install
 libdebconfclient0:amd64				install
+libdevice-serialport-perl			install
 libdevmapper-event1.02.1:amd64			install
 libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
@@ -1385,6 +1394,7 @@ libjs-jquery-metadata				install
 libjs-jquery-mousewheel				install
 libjs-jquery-tablesorter			install
 libjs-jquery-ui					install
+libjs-mathjax					install
 libjs-node-uuid					install
 libjs-sphinxdoc					install
 libjs-twitter-bootstrap				install
@@ -1780,6 +1790,7 @@ libpng12-0:amd64				install
 libpng12-0:i386					install
 libpng12-dev					install
 libpod-latex-perl				install
+libpodofo0.9.0					install
 libpolkit-agent-1-0:amd64			install
 libpolkit-backend-1-0:amd64			install
 libpolkit-gobject-1-0:amd64			install
@@ -2106,6 +2117,7 @@ libthai0:amd64					install
 libthai0:i386					install
 libtheora0:amd64				install
 libthreadweaver4				install
+libtidy-0.99-0					install
 libtie-ixhash-perl				install
 libtiff4:amd64					install
 libtiff4:i386					install
@@ -2599,6 +2611,7 @@ openssl						install
 openssl-blacklist				install
 openssl-blacklist-extra				install
 os-prober					install
+oss-compat					install
 ostinato					install
 oxygen-icon-theme				install
 p11-kit						install
@@ -2710,6 +2723,7 @@ python						install
 python-all					install
 python-all-dev					install
 python-appindicator				install
+python-apsw					install
 python-apt					install
 python-apt-common				install
 python-aptdaemon				install
@@ -2722,10 +2736,12 @@ python-bson					install
 python-bson-ext					install
 python-cairo					install
 python-chardet					install
+python-cherrypy3				install
 python-configobj				install
 python-coverage					install
 python-crypto					install
 python-cssselect				install
+python-cssutils					install
 python-dateutil					install
 python-dbus					install
 python-dbus-dev					install
@@ -2741,6 +2757,7 @@ python-docutils					install
 python-dput					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
+python-feedparser				install
 python-flickrapi				install
 python-fontforge				install
 python-formencode				install
@@ -2759,12 +2776,16 @@ python-gtkspell					install
 python-gudev					install
 python-imaging					install
 python-librdf					install
+python-libxml2					install
 python-logilab-common				install
 python-lxml					install
 python-magic					install
+python-markdown					install
 python-matplotlib-data				install
+python-mechanize				install
 python-minimal					install
 python-mysqldb					install
+python-netifaces				install
 python-nose					install
 python-notify					install
 python-numpy					install
@@ -2779,15 +2800,18 @@ python-pip					install
 python-pkg-resources				install
 python-pyexiv2					install
 python-pygame					install
+python-pygments					install
 python-pymongo					install
 python-pymongo-ext				install
 python-pyorbit					install
+python-pyparsing				install
 python-qrtools					install
 python-qt4					install
 python-recoll					install
 python-reportbug				install
 python-repoze.lru				install
 python-roman					install
+python-routes					install
 python-setuptools				install
 python-simplegeneric				install
 python-simplejson				install
@@ -2804,8 +2828,10 @@ python-tk					install
 python-tweepy					install
 python-uno					install
 python-urwid					install
+python-utidylib					install
 python-validictory				install
 python-vte					install
+python-webob					install
 python-webunit					install
 python-wicd					install
 python-wxgtk2.8					install
@@ -3009,6 +3035,8 @@ tk						install
 tk8.5						install
 tmux						install
 tofrodos					install
+toilet						install
+toilet-fonts					install
 tpb						install
 traceroute					install
 tsconf						install
