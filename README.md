@@ -1,14 +1,16 @@
-README
-------
+Config files
+============
 
-This is my repository of dotfiles. Currently, I have following files in
-repository. There is no plan to put my password/login details ;)
+This is my repository of dotfiles.
 
-Please send your patch(es)!
+Currently, I have following files in repository. And, there is no plan to put
+my password/login details here ;)
+
+Please send your patch(es) as Github pull request or issue!
 
 * Awesome: config/awesome (~/.config/awesome)
-* IRSSI config, scripts: irssi/ (~/.irssi)
 * bashrc (~/.bashrc)
+* JS Beautifier (~/.jsbeautifyrc)
 * gitconfig (~/.gitconfig)
 * htoprc (~/.htoprc)
 * mrconfig (~/.mrconfig)
@@ -22,3 +24,4 @@ Please send your patch(es)!
 * xorg.conf.home (/etc/xorg/xorg.conf)
 * (old) xorg.conf.work.old (/etc/xorg/xorg.conf)
 * zshrc (~/.zshrc)
+
