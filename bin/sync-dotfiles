@@ -6,7 +6,9 @@ echo $DOT
 
 clear
 
+# configs
 cp ~/.bashrc               $DOT/bashrc
+cp ~/.jsbeautifyrc         $DOT/jsbeautifyrc
 cp ~/.gbp.conf             $DOT/gbp.conf
 cp ~/.gitconfig            $DOT/gitconfig
 cp ~/.mrconfig             $DOT/mrconfig
@@ -14,10 +16,14 @@ cp ~/.quiltrc              $DOT/quiltrc
 cp ~/.screenrc             $DOT/screenrc
 cp ~/.vimrc                $DOT/vimrc
 cp ~/.zshrc                $DOT/zshrc
+cp /etc/apt/sources.list   $DOT/sources.list.olive2
+cp -r ~/.config/awesome/*  $DOT/config/awesome
+
+# scripts
 cp ~/.bin/sync-dotfiles    $DOT/bin/sync-dotfiles
 cp ~/.bin/make-tar         $DOT/bin/make-tar
-cp -r ~/.config/awesome/*  $DOT/config/awesome
-cp /etc/apt/sources.list   $DOT/sources.list.olive2
+
+# list of installed packages
 dpkg --get-selections  >   $DOT/packages.txt
 
 cd $DOT
