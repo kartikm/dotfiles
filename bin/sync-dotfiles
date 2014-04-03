@@ -1,8 +1,8 @@
 #!/bin/sh
 # Author: Kartik Mistry <kartik.mistry@gmail.com>
 
+DATE=`date +"%B%d%Y"`
 DOT="/home/kartik/development/github/dotfiles"
-echo $DOT
 
 clear
 
@@ -31,8 +31,9 @@ cd $DOT
 # show what has been changed (and exit).
 git status
 
-echo "Config files copied. Now commit!"
+echo "Config files copied. Now committing!"
 
 # auto-commit, need smarter way here.
-git commit -a -m "Synced config files"
+git commit -a -m "Synced config files on $DATE"
 git push
+
