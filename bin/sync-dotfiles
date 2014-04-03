@@ -1,7 +1,7 @@
 #!/bin/sh
 # Author: Kartik Mistry <kartik.mistry@gmail.com>
 
-DATE=`date +"%B%d%Y"`
+DATE=`date +"%Y%m%d"`
 DOT="/home/kartik/development/github/dotfiles"
 
 clear
