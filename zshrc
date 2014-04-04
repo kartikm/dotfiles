@@ -291,3 +291,5 @@ source ~/.oh-my-zsh/themes/apple.zsh-theme
 
 umask 022
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
