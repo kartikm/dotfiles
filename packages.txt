@@ -99,6 +99,7 @@ calibre-bin					install
 cdbs						install
 cdparanoia					install
 cdrdao						install
+cgroupfs-mount					install
 chromium					install
 chromium-inspector				install
 chrpath						install
@@ -434,6 +435,12 @@ gnuplot-nox					install
 gnustep-base-common				install
 gnustep-base-runtime				install
 gnustep-common					install
+golang						install
+golang-doc					install
+golang-go					install
+golang-go-linux-amd64				install
+golang-go.tools					install
+golang-src					install
 google-chrome-stable				install
 google-talkplugin				install
 googlefontdirectory-tools			install
@@ -1712,6 +1719,8 @@ libnfnetlink-dev				install
 libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
 libnice10:amd64					install
+libnih-dbus1					install
+libnih1						install
 libnl-3-200:amd64				install
 libnl-3-dev					install
 libnl-genl-3-200:amd64				install
@@ -1875,6 +1884,7 @@ libpolkit-qt-1-1				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler37:amd64				install
+libpoppler44:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
@@ -2025,6 +2035,7 @@ librsvg2-2:amd64				install
 librsvg2-bin					install
 librsvg2-common:amd64				install
 librtmp0:amd64					install
+librtmp1:amd64					install
 libruby1.9.1					install
 libruby1.9.1-dbg				install
 libruby2.0:amd64				install
@@ -2385,8 +2396,9 @@ libx11-xcb-dev					install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-133:amd64				install
+libx264-142:amd64				install
 libx86-1:amd64					install
-libx86-1:i386					install
+libx86-1:i386					deinstall
 libxalan2-java					install
 libxapian-dev					install
 libxapian22					install
@@ -2429,6 +2441,7 @@ libxcb-sync-dev:amd64				install
 libxcb-sync1:amd64				install
 libxcb-sync1:i386				install
 libxcb-util0:amd64				install
+libxcb-xf86dri0:amd64				install
 libxcb-xfixes0:amd64				install
 libxcb-xfixes0:i386				deinstall
 libxcb-xinerama0:amd64				install
@@ -2599,6 +2612,7 @@ m4						install
 macchanger					install
 maint-guide					install
 make						install
+makedev						install
 man-db						install
 mango-lassi					install
 manpages					install
@@ -2622,6 +2636,7 @@ monkeysphere					install
 moreutils					install
 mosh						install
 mount						install
+mountall					install
 mozilla-devscripts				install
 mpg123						install
 mplayer						deinstall
@@ -2840,6 +2855,7 @@ plasma-widget-lancelot				install
 plasma-widget-networkmanagement			install
 plasma-widgets-addons				install
 plasma-widgets-workspace			install
+plymouth					install
 pm-utils					install
 po-debconf					install
 po4a						install
@@ -3162,6 +3178,7 @@ ssh-askpass-gnome				install
 sshfs						install
 ssl-cert					install
 stardict-tools					install
+startpar					install
 steam						install
 strace						install
 stterm						install
