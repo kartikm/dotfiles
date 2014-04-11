@@ -114,8 +114,6 @@ colortail					install
 comix						install
 command-not-found				install
 configure-debian				install
-conky						install
-conky-std					install
 console-setup					install
 console-setup-linux				install
 consolekit					install
@@ -208,7 +206,6 @@ doxygen-latex					install
 dpkg						install
 dpkg-dev					install
 dput-ng						install
-dragonplayer					install
 dunst						install
 dvd+rw-tools					install
 dvipng						install
@@ -583,7 +580,6 @@ kde-baseapps-data				install
 kde-plasma-desktop				install
 kde-runtime					install
 kde-runtime-data				install
-kde-standard					install
 kde-style-oxygen				install
 kde-style-qtcurve				install
 kde-wallpapers					install
@@ -639,7 +635,6 @@ kwin-style-qtcurve				install
 kwrite						install
 laptop-detect					install
 laptop-mode-tools				install
-latex-beamer					install
 latex-sanskrit					install
 latex-xcolor					install
 latex2html					install
@@ -732,7 +727,6 @@ libattica0.4:amd64				install
 libattr1:amd64					install
 libattr1:i386					install
 libattr1-dev:amd64				install
-libaudclient2:amd64				install
 libaudio2:amd64					install
 libaudio2:i386					install
 libaudiofile1:amd64				install
@@ -763,10 +757,8 @@ libavc1394-0:amd64				install
 libavcodec-dev					install
 libavcodec54:amd64				install
 libavdevice53:amd64				install
-libavfilter2:amd64				deinstall
 libavfilter3:amd64				install
 libavformat-dev					install
-libavformat53:amd64				deinstall
 libavformat54:amd64				install
 libavresample1:amd64				install
 libavutil-dev					install
@@ -1217,6 +1209,7 @@ libgmime-2.6-0:amd64				install
 libgmime-2.6-dev				install
 libgmp-dev:amd64				install
 libgmp10:amd64					install
+libgmp10:i386					install
 libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-keyring-common				install
@@ -1243,6 +1236,7 @@ libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
 libgnutls26:i386				install
 libgnutls28:amd64				install
+libgnutls28:i386				install
 libgnutlsxx27:amd64				install
 libgomp1:amd64					install
 libgpg-error-dev				install
@@ -1325,6 +1319,7 @@ libheap-perl					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
 libhogweed2:amd64				install
+libhogweed2:i386				install
 libhpdf-2.2.1					install
 libhpdf-dev					install
 libhsqldb-java					install
@@ -1575,7 +1570,6 @@ liblinux-inotify2-perl				install
 liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia23					install
-libllvm3.2:i386					deinstall
 libllvm3.3:amd64				install
 libllvm3.4:amd64				install
 libllvm3.4:i386					install
@@ -1712,6 +1706,7 @@ libnetfilter-conntrack-dev			install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle4:amd64				install
+libnettle4:i386					install
 libnetworkmanagerqt1:amd64			install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
@@ -1769,7 +1764,6 @@ libopencv-core2.4:amd64				install
 libopencv-features2d2.4:amd64			install
 libopencv-flann2.4:amd64			install
 libopencv-highgui2.4:amd64			install
-libopencv-imgproc2.3				deinstall
 libopencv-imgproc2.4:amd64			install
 libopencv-legacy2.4:amd64			install
 libopencv-ml2.4:amd64				install
@@ -2210,7 +2204,6 @@ libtalloc2:amd64				install
 libtar0						install
 libtask-weaken-perl				install
 libtaskmanager4abi4				install
-libtasn1-3:i386					deinstall
 libtasn1-6:amd64				install
 libtasn1-6:i386					install
 libtasn1-6-dev					install
@@ -2395,7 +2388,6 @@ libx11-protocol-perl				install
 libx11-xcb-dev					install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
-libx264-133:amd64				install
 libx264-142:amd64				install
 libx86-1:amd64					install
 libx86-1:i386					deinstall
@@ -2507,7 +2499,6 @@ libxml2-utils					install
 libxmlbeans-java				install
 libxmlgraphics-commons-java			install
 libxmlrpc-lite-perl				install
-libxmmsclient6					install
 libxmu6:amd64					install
 libxmu6:i386					install
 libxmuu1:amd64					install
@@ -2573,15 +2564,11 @@ lighttpd					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
-linux-headers-3.12-1-amd64			install
-linux-headers-3.12-1-common			install
 linux-headers-3.13-1-amd64			install
 linux-headers-3.13-1-common			install
 linux-headers-amd64				install
-linux-image-3.12-1-amd64			install
 linux-image-3.13-1-amd64			install
 linux-image-amd64				install
-linux-kbuild-3.12				install
 linux-kbuild-3.13				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
@@ -2639,7 +2626,6 @@ mount						install
 mountall					install
 mozilla-devscripts				install
 mpg123						install
-mplayer						deinstall
 mr						install
 mscompress					install
 msp430-libc					install
@@ -2792,7 +2778,6 @@ perl						install
 perl-base					install
 perl-doc					install
 perl-modules					install
-pgf						install
 phantomjs					install
 phonon:amd64					install
 phonon-backend-vlc:amd64			install
@@ -2865,7 +2850,6 @@ polkit-kde-1					install
 poppler-data					install
 poppler-utils					install
 popularity-contest				install
-postgresql-client-9.1				install
 postgresql-client-common			install
 powermgmt-base					install
 powertop					install
@@ -3181,9 +3165,7 @@ stardict-tools					install
 startpar					install
 steam						install
 strace						install
-stterm						install
 subversion					install
-suckless-tools					install
 sudo						install
 svn-buildpackage				install
 sweeper						install
@@ -3243,6 +3225,7 @@ toilet						install
 toilet-fonts					install
 tpb						install
 traceroute					install
+tree						install
 tsconf						install
 ttf-aenigma					install
 ttf-bitstream-vera				install
@@ -3346,7 +3329,6 @@ x11proto-render-dev				install
 x11proto-xext-dev				install
 x11proto-xf86vidmode-dev			install
 x11proto-xinerama-dev				install
-xarchiver					install
 xauth						install
 xaw3dg:i386					install
 xbitmaps					install

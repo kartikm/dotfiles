@@ -195,9 +195,6 @@ checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 
 checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
 
 #forks
-[development/github/forks/fpm]
-checkout = git clone 'git@github.com:kartikm/fpm.git' 'fpm'
-
 [development/github/forks/hy]
 checkout = git clone 'git@github.com:kartikm/hy.git' 'hy'
 
