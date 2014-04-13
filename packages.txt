@@ -2560,7 +2560,6 @@ libzmq3:amd64					install
 libzthread-2.3-2:amd64				install
 libzvbi-common					install
 libzvbi0:amd64					install
-lighttpd					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
@@ -3123,7 +3122,6 @@ rygel-gst-launch				install
 samba-common					install
 samba-libs:amd64				install
 sat4j						install
-schroot						install
 schroot-common					install
 scrot						install
 sdparm						install
@@ -3173,11 +3171,12 @@ synaptic					install
 synergy						install
 sysfsutils					install
 systemd						install
+systemd-sysv					install
 systemd-ui					install
 systemsettings					install
 sysv-rc						install
 sysvinit					install
-sysvinit-core					install
+sysvinit-core					deinstall
 sysvinit-utils					install
 t1utils						install
 tar						install
