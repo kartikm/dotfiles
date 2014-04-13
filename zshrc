@@ -1,5 +1,5 @@
 ### .zshrc Kartik's zshrc
-### Config is thanks to following:
+### Config is thanks to:
 ### Baishampayan Ghose <http://github.com/ghoseb/zshrc>
 ### Mika <http://grml.org/zsh-pony/>
 
@@ -74,7 +74,7 @@ bindkey -e
 
 #ENV
 export PAGER=/usr/bin/less
-export PATH=$PATH:$HOME/.bin:/sbin:$HOME/.bin/PhpStrom/bin
+export PATH=$PATH:$HOME/.bin:/sbin:$HOME/.bin/PhpStrom/bin:$HOME/.rvm/bin
 
 #Completion styles
 zstyle ':completion:*' completer _expand _complete _correct _approximate
@@ -290,6 +290,3 @@ source ~/.oh-my-zsh/plugins/cp/cp.plugin.zsh
 source ~/.oh-my-zsh/themes/apple.zsh-theme
 
 umask 022
-
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
