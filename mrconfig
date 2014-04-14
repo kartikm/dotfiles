@@ -144,9 +144,6 @@ checkout = git clone 'http://git.sysphere.org/dotfiles' 'dotfiles'
 [development/configs/oh-my-zsh]
 checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' 'oh-my-zsh'
 
-[development/configs/vasudev-conffiles]
-checkout = git clone 'git://gitorious.org/personal-configuration-files/conffiles.git' 'vasudev-conffiles'
-
 #books
 [development/books/penguin-can-fly]
 checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-fly'
