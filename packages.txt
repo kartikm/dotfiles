@@ -106,8 +106,6 @@ chrpath						install
 cmake						install
 cmake-data					install
 cmatrix						install
-cmus						install
-cmus-plugin-ffmpeg				install
 colord						install
 colordiff					install
 colortail					install
@@ -372,6 +370,8 @@ gcc-4.7-base:i386				install
 gcc-4.8						install
 gcc-4.8-base:amd64				install
 gcc-4.8-base:i386				install
+gcc-4.9-base:amd64				install
+gcc-4.9-base:i386				install
 gcc-avr						install
 gcc-msp430					install
 gcj-4.8-jre-lib					install
@@ -741,6 +741,7 @@ libauthen-passphrase-perl			install
 libauthen-sasl-perl				install
 libautodie-perl					install
 libav-tools					install
+libavahi-client-dev				install
 libavahi-client3:amd64				install
 libavahi-client3:i386				install
 libavahi-common-data:amd64			install
@@ -751,6 +752,7 @@ libavahi-common3:i386				install
 libavahi-core7:amd64				install
 libavahi-glib-dev				install
 libavahi-glib1:amd64				install
+libavahi-ui-dev					install
 libavahi-ui0:amd64				install
 libavalon-framework-java			install
 libavc1394-0:amd64				install
@@ -892,7 +894,6 @@ libcommon-sense-perl				install
 libcommons-beanutils-java			install
 libcommons-cli-java				install
 libcommons-codec-java				install
-libcommons-collections-java			install
 libcommons-collections3-java			install
 libcommons-compress-java			install
 libcommons-dbcp-java				install
@@ -915,7 +916,6 @@ libconfig-doc					install
 libconfig-file-perl				install
 libconfig-general-perl				install
 libconfig-inifiles-perl				install
-libconfig-yaml-perl				install
 libconfig9:amd64				install
 libconfuse-common				install
 libconfuse0:amd64				install
@@ -992,7 +992,6 @@ libdebconfclient0:amd64				install
 libdevel-caller-perl				install
 libdevel-globaldestruction-perl			install
 libdevel-lexalias-perl				install
-libdevice-serialport-perl			install
 libdevmapper-event1.02.1:amd64			install
 libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
@@ -1362,7 +1361,7 @@ libidn11-dev					install
 libiec61883-0					install
 libieee1284-3:amd64				install
 libieee1284-3:i386				install
-libijs-0.35					install
+libijs-0.35:amd64				install
 libiksemel-dev					install
 libiksemel3					install
 libilmbase6:amd64				install
@@ -1562,7 +1561,7 @@ libldap-2.4-2:i386				install
 libldb1:amd64					install
 liblensfun-data					install
 liblensfun0					install
-libleveldb1:amd64				install
+libleveldb1:amd64				deinstall
 liblexical-sealrequirehints-perl		install
 liblinear-tools					install
 liblinear1					install
@@ -1982,12 +1981,12 @@ libquvi-scripts					install
 libquvi7:amd64					install
 libradiusclient-ng-dev				install
 libradiusclient-ng2				install
-librados2					install
+librados2					deinstall
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
 libraw1394-11:amd64				install
-librbd1						install
+librbd1						deinstall
 librcc0						install
 librcd0						install
 librdf0:amd64					install
@@ -2123,7 +2122,7 @@ libsmokeqtwebkit4-3				install
 libsmokeqtxml4-3				install
 libsmokesolid3					install
 libsmpeg0:amd64					install
-libsnappy1					install
+libsnappy1					deinstall
 libsndfile1:amd64				install
 libsndfile1:i386				install
 libsoap-lite-perl				install
@@ -2981,6 +2980,7 @@ python-repoze.lru				install
 python-requests					install
 python-roman					install
 python-routes					install
+python-serial					install
 python-setuptools				install
 python-simplegeneric				install
 python-simplejson				install
@@ -3122,7 +3122,6 @@ rygel-gst-launch				install
 samba-common					install
 samba-libs:amd64				install
 sat4j						install
-schroot-common					install
 scrot						install
 sdparm						install
 seabios						install
@@ -3150,7 +3149,6 @@ software-properties-common			install
 software-properties-gtk				install
 soprano-daemon					install
 sp						install
-spawn-fcgi					install
 spew						install
 sqlite3						install
 squashfs-tools					install
