@@ -13,7 +13,7 @@ Please send your patch(es) as Github pull request or issue!
 * JS Beautifier (~/.jsbeautifyrc)
 * gitconfig (~/.gitconfig)
 * htoprc (~/.htoprc)
-* mrconfig (~/.mrconfig)
+* myrepos/ (~/.mrconfig and other mrconfigs)
 * packages.txt (dpkg --get-selections > packages.txt)
 * quiltrc (~/.quiltrc)
 * screenrc (~/.screenrc)
