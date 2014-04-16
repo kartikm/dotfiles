@@ -1102,6 +1102,7 @@ libfile-libmagic-perl				install
 libfile-listing-perl				install
 libfile-mimeinfo-perl				install
 libfile-which-perl				install
+libfl-dev:amd64					install
 libflac++6:amd64				install
 libflac8:amd64					install
 libflac8:i386					install
@@ -2742,6 +2743,7 @@ openjdk-7-jre:amd64				install
 openjdk-7-jre-headless:amd64			install
 openjdk-7-jre-lib				install
 opensc						install
+opensc-pkcs11:amd64				install
 openssh-blacklist				install
 openssh-blacklist-extra				install
 openssh-client					install
