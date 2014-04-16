@@ -1,0 +1,231 @@
+[DEFAULT]
+lib=
+      msg () {
+        echo "I: $1"
+      }
+      git_checkout () {
+        git clone git+ssh://git.debian.org/git/debian-in/$1.git &&
+        cd $1 &&
+        { git branch --track upstream remotes/origin/upstream || true; } &&
+        { git branch --track pristine-tar remotes/origin/pristine-tar || true; }
+      }
+      svn_checkout () {
+        svn co /$1
+      }
+
+[aspell-bn]
+checkout = git_checkout aspell-bn
+
+[aspell-gu]
+checkout = git_checkout aspell-gu
+
+[aspell-hi]
+checkout = git_checkout aspell-hi
+
+[aspell-kn]
+checkout = git_checkout aspell-kn
+
+[aspell-ml]
+checkout = git_checkout aspell-ml
+
+[aspell-mr]
+checkout = git_checkout aspell-mr
+
+[aspell-or]
+checkout = git_checkout aspell-or
+
+[aspell-pa]
+checkout = git_checkout aspell-pa
+
+[aspell-ta]
+checkout = git_checkout aspell-ta
+
+[aspell-te]
+checkout = git_checkout aspell-te
+
+[dh-make-font]
+checkout = git_checkout dh-make-font
+
+[festival-hi]
+checkout = git_checkout festival-hi
+
+[festival-mr]
+checkout = git_checkout festival-mr
+
+[festival-te]
+checkout = git_checkout festival-te
+
+[fonts-beng-extra]
+checkout = git_checkout fonts-beng-extra
+
+[fonts-beng]
+checkout = git_checkout fonts-beng
+
+[fonts-deva-extra]
+checkout = git_checkout fonts-deva-extra
+
+[fonts-deva]
+checkout = git_checkout fonts-deva
+
+[fonts-eeyek]
+checkout = git_checkout fonts-eeyek
+
+[fonts-gargi]
+checkout = git_checkout fonts-gargi
+
+[fonts-gubbi]
+checkout = git_checkout fonts-gubbi
+
+[fonts-gujr-extra]
+checkout = git_checkout fonts-gujr-extra
+
+[fonts-gujr]
+checkout = git_checkout fonts-gujr
+
+[fonts-guru-extra]
+checkout = git_checkout fonts-guru-extra
+
+[fonts-guru]
+checkout = git_checkout fonts-guru
+
+[fonts-indic]
+checkout = git_checkout fonts-indic
+
+[fonts-kalapi]
+checkout = git_checkout fonts-kalapi
+
+[fonts-knda-extra]
+checkout = git_checkout fonts-knda-extra
+
+[fonts-knda]
+checkout = git_checkout fonts-knda
+
+[fonts-lohit-beng-assamese]
+checkout = git_checkout fonts-lohit-beng-assamese
+
+[fonts-lohit-beng-bengali]
+checkout = git_checkout fonts-lohit-beng-bengali
+
+[fonts-lohit-devanagari]
+checkout = git_checkout fonts-lohit-devanagari
+
+[fonts-lohit-gu]
+checkout = git_checkout fonts-lohit-gu
+
+[fonts-lohit-kn]
+checkout = git_checkout fonts-lohit-kn
+
+[fonts-lohit-ml]
+checkout = git_checkout fonts-lohit-ml
+
+[fonts-lohit-orya]
+checkout = git_checkout fonts-lohit-orya
+
+[fonts-lohit-pa]
+checkout = git_checkout fonts-lohit-pa
+
+[fonts-lohit-ta]
+checkout = git_checkout fonts-lohit-ta
+
+[fonts-lohit-taml-classical]
+checkout = git_checkout fonts-lohit-taml-classical
+
+[fonts-lohit-te]
+checkout = git_checkout fonts-lohit-te
+
+[fonts-meera-taml]
+checkout = git_checkout fonts-meera-taml
+
+[fonts-mlym]
+checkout = git_checkout fonts-mlym
+
+[fonts-nakula]
+checkout = git_checkout fonts-nakula
+
+[fonts-navilu]
+checkout = git_checkout fonts-navilu
+
+[fonts-orya-extra]
+checkout = git_checkout fonts-orya-extra
+
+[fonts-orya]
+checkout = git_checkout fonts-orya
+
+[fonts-pagul]
+checkout = git_checkout fonts-pagul
+
+[fonts-sahadeva]
+checkout = git_checkout fonts-sahadeva
+
+[fonts-samyak]
+checkout = git_checkout fonts-samyak
+
+[fonts-sarai]
+checkout = git_checkout fonts-sarai
+
+[fonts-smc]
+checkout = git_checkout fonts-smc
+
+[fonts-taml]
+checkout = git_checkout fonts-taml
+
+[fonts-taml-tamu]
+checkout = git_checkout fonts-taml-tamu
+
+[fonts-taml-tscu]
+checkout = git_checkout fonts-taml-tscu
+
+[fonts-telu-extra]
+checkout = git_checkout fonts-telu-extra
+
+[fonts-telu]
+checkout = git_checkout fonts-telu
+
+[fonts-teluguvijayam]
+checkout = git_checkout fonts-teluguvijayam
+
+[hunspell-ml]
+checkout = git_checkout hunspell-ml
+
+[hyphen-as]
+checkout = git_checkout hyphen-as
+
+[hyphen-bn]
+checkout = git_checkout hyphen-bn
+
+[hyphen-gu]
+checkout = git_checkout hyphen-gu
+
+[hyphen-hi]
+checkout = git_checkout hyphen-hi
+
+[hyphen-kn]
+checkout = git_checkout hyphen-kn
+
+[hyphen-ml]
+checkout = git_checkout hyphen-ml
+
+[hyphen-mr]
+checkout = git_checkout hyphen-mr
+
+[hyphen-pa]
+checkout = git_checkout hyphen-pa
+
+[hyphen-ta]
+checkout = git_checkout hyphen-ta
+
+[hyphen-te]
+checkout = git_checkout hyphen-te
+
+[iok]
+checkout = git_checkout iok
+
+[itrans]
+checkout = git_checkout itrans
+
+[latex-sanskrit]
+checkout = git_checkout latex-sanskrit
+
+[pypdflib]
+checkout = git_checkout pypdflib
+
