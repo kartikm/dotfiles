@@ -847,6 +847,8 @@ libcap2-bin					install
 libcapture-tiny-perl				install
 libccolamd2.8.0:amd64				install
 libcdaudio1					install
+libcdb-dev					install
+libcdb1:amd64					install
 libcddb2					install
 libcdio-cdda1					install
 libcdio-paranoia1				install
@@ -3213,6 +3215,7 @@ texlive-pictures				install
 texlive-pstricks				install
 texlive-xetex					install
 time						install
+tinycdb						install
 tipa						install
 tix						install
 tk						install
