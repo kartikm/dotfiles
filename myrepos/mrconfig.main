@@ -2,8 +2,8 @@
 include = cat /usr/share/mr/vis
 
 #debian
-[/home/kartik/development/debian/debian-in-git]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-in/debian-in.git' 'debian-in-git'
+[/home/kartik/development/debian/debian-in]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-in/debian-in.git' 'debian-in'
 
 [development/debian/planet-debian]
 checkout = svn co svn+ssh://kartik@svn.debian.org/svn/planet-debian
@@ -134,6 +134,9 @@ checkout = git clone 'git@github.com:samyakbhuta/chhapkaam.git' 'chhapkaam'
 [development/l10n/dictionary-bot]
 checkout = git clone 'git@github.com:kartikm/dictionary-bot.git' 'dictionary-bot'
 
+[development/l10n/GujaratiLexicon-extension]
+checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
+
 #configs
 [development/configs/awesome-config]
 checkout = git clone 'git://gitorious.org/awesome-config/awesome-config.git' 'awesome-config'
@@ -231,12 +234,9 @@ checkout = git clone 'git@github.com:prtksxna/vertigo.git' 'vertigo'
 [development/node-code]
 checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
 
-#local stuffs
+#local wikis
 [wiki]
 checkout = git clone git://home/kartik/wiki.git
 
 [/var/www/mw-master/core]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git' 'core'
-
-[development/l10n/GujaratiLexicon-extension]
-checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
