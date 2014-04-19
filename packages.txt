@@ -2065,6 +2065,8 @@ libsdl-sound1.2:amd64				install
 libsdl-ttf2.0-0:amd64				install
 libsdl1.2debian:amd64				install
 libsdl1.2debian:i386				install
+libsdl2-2.0-0:amd64				install
+libsdl2-image-2.0-0:amd64			install
 libsearch-xapian-perl				install
 libseccomp2:amd64				install
 libsecret-1-0:amd64				install
@@ -2758,6 +2760,7 @@ openvpn						install
 os-prober					install
 oss-compat					install
 ostinato					install
+ovmf						install
 oxygen-icon-theme				install
 oxygencursors					install
 p11-kit						install
