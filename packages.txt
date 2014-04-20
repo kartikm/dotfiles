@@ -211,12 +211,6 @@ dwdiff						install
 e2fslibs:amd64					install
 e2fsprogs					install
 easy-rsa					install
-eclipse						install
-eclipse-jdt					install
-eclipse-pde					install
-eclipse-platform				install
-eclipse-platform-data				install
-eclipse-rcp					install
 ed						install
 eject						install
 elasticsearch					install
@@ -247,7 +241,6 @@ faketime					install
 falconpl					install
 falconpl-curl					install
 falconpl-dev					install
-fastjar						install
 feh						install
 festival					install
 festival-dev					install
@@ -549,7 +542,6 @@ iso-codes					install
 ispell						install
 iucode-tool					install
 iw						install
-jarwrapper					install
 java-common					install
 java-wrappers					install
 javahelper					install
@@ -893,13 +885,9 @@ libcolorhug1:amd64				install
 libcomerr2:amd64				install
 libcomerr2:i386					install
 libcommon-sense-perl				install
-libcommons-beanutils-java			install
-libcommons-cli-java				install
 libcommons-codec-java				install
 libcommons-collections3-java			install
-libcommons-compress-java			install
 libcommons-dbcp-java				install
-libcommons-digester-java			install
 libcommons-discovery-java			install
 libcommons-httpclient-java			install
 libcommons-io-java				install
@@ -969,7 +957,6 @@ libdatrie1:amd64				install
 libdatrie1:i386					install
 libdb-dev:amd64					install
 libdb-java					install
-libdb-je-java					install
 libdb5.1:i386					deinstall
 libdb5.3:amd64					install
 libdb5.3:i386					install
@@ -1027,7 +1014,6 @@ libdv4:amd64					install
 libdvbpsi9:amd64				install
 libdvdnav4:amd64				install
 libdvdread4:amd64				install
-libeasymock-java				install
 libebml4:amd64					install
 libecj-java					install
 libedit2:amd64					install
@@ -1049,7 +1035,6 @@ libenchant1c2a:amd64				install
 libencode-locale-perl				install
 libept1.4.12:amd64				install
 libepub0					install
-libequinox-osgi-java				install
 liberror-perl					install
 libesd0:amd64					install
 libesd0:i386					install
@@ -1081,13 +1066,6 @@ libfbclient2:amd64				install
 libfbembed2.5					install
 libfcgi-perl					install
 libfdt1:amd64					install
-libfelix-bundlerepository-java			install
-libfelix-gogo-command-java			install
-libfelix-gogo-runtime-java			install
-libfelix-gogo-shell-java			install
-libfelix-osgi-obr-java				install
-libfelix-shell-java				install
-libfelix-utils-java				install
 libffi-dev:amd64				install
 libffi6:amd64					install
 libffi6:i386					install
@@ -1353,8 +1331,6 @@ libical1					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
-libicu4j-4.4-java				install
-libicu4j-java					install
 libicu52:amd64					install
 libid3tag0					install
 libid3tag0-dev					install
@@ -1421,7 +1397,6 @@ libjcharts-java					install
 libjcommon-java					install
 libjdom1-java					install
 libjemalloc1					install
-libjetty8-java					install
 libjim0.74:amd64				install
 libjline-java					install
 libjna-java					install
@@ -1564,7 +1539,6 @@ libldap-2.4-2:i386				install
 libldb1:amd64					install
 liblensfun-data					install
 liblensfun0					install
-libleveldb1:amd64				deinstall
 liblexical-sealrequirehints-perl		install
 liblinear-tools					install
 liblinear1					install
@@ -1594,7 +1568,6 @@ liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.2-dev:amd64				install
-liblucene2-java					install
 liblvm2app2.2:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
@@ -1879,7 +1852,6 @@ libpolkit-gobject-1-0:amd64			install
 libpolkit-qt-1-1				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
-libpoppler37:amd64				install
 libpoppler44:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
@@ -1984,12 +1956,10 @@ libquvi-scripts					install
 libquvi7:amd64					install
 libradiusclient-ng-dev				install
 libradiusclient-ng2				install
-librados2					deinstall
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
 libraw1394-11:amd64				install
-librbd1						deinstall
 librcc0						install
 librcd0						install
 librdf0:amd64					install
@@ -2127,7 +2097,6 @@ libsmokeqtwebkit4-3				install
 libsmokeqtxml4-3				install
 libsmokesolid3					install
 libsmpeg0:amd64					install
-libsnappy1					deinstall
 libsndfile1:amd64				install
 libsndfile1:i386				install
 libsoap-lite-perl				install
@@ -2183,12 +2152,6 @@ libsvn-perl					install
 libsvn1:amd64					install
 libswitch-perl					install
 libswscale2:amd64				install
-libswt-cairo-gtk-3-jni				install
-libswt-glx-gtk-3-jni				install
-libswt-gnome-gtk-3-jni				install
-libswt-gtk-3-java				install
-libswt-gtk-3-jni				install
-libswt-webkit-gtk-3-jni				install
 libsybdb5:amd64					install
 libsyndication4					install
 libsyntax-highlight-engine-simple-languages-perl	install
@@ -2547,7 +2510,6 @@ libxxf86dga1:amd64				install
 libxxf86vm-dev:amd64				install
 libxxf86vm1:amd64				install
 libxxf86vm1:i386				install
-libxz-java					install
 libyahoo2-11					install
 libyahoo2-dev					install
 libyajl2:amd64					install
@@ -3128,7 +3090,6 @@ rygel						install
 rygel-gst-launch				install
 samba-common					install
 samba-libs:amd64				install
-sat4j						install
 scrot						install
 sdparm						install
 seabios						install
@@ -3181,7 +3142,6 @@ systemd-ui					install
 systemsettings					install
 sysv-rc						install
 sysvinit					install
-sysvinit-core					deinstall
 sysvinit-utils					install
 t1utils						install
 tar						install
