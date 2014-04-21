@@ -2000,7 +2000,7 @@ librpc-xml-perl					install
 librsvg2-2:amd64				install
 librsvg2-bin					install
 librsvg2-common:amd64				install
-librtmp0:amd64					install
+librtmp0:amd64					deinstall
 librtmp1:amd64					install
 libruby1.9.1					install
 libruby1.9.1-dbg				install
