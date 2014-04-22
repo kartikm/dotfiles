@@ -477,8 +477,6 @@ gvfs-libs:amd64					install
 gwenview					install
 gyp						install
 gzip						install
-hal						install
-hal-info					install
 hardening-includes				install
 hardening-wrapper				install
 hdparm						install
@@ -667,7 +665,6 @@ libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
-libapm1						install
 libapparmor1:amd64				install
 libappindicator1				install
 libapr1:amd64					install
@@ -1283,8 +1280,6 @@ libgupnp-igd-1.0-4:amd64			install
 libgusb2:amd64					install
 libgvc5						install
 libgvpr1					install
-libhal-storage1					install
-libhal1						install
 libhamcrest-java				install
 libharfbuzz-bin					install
 libharfbuzz-dev					install
@@ -2000,7 +1995,6 @@ librpc-xml-perl					install
 librsvg2-2:amd64				install
 librsvg2-bin					install
 librsvg2-common:amd64				install
-librtmp0:amd64					deinstall
 librtmp1:amd64					install
 libruby1.9.1					install
 libruby1.9.1-dbg				install
@@ -2697,6 +2691,7 @@ odbcinst					install
 odbcinst1debian2:amd64				install
 odbcinst1debian2:i386				install
 okular						install
+okular-extra-backends				install
 openbios-ppc					install
 openbios-sparc					install
 openhackware					install
@@ -3107,7 +3102,6 @@ shtool						install
 signing-party					install
 skype						install
 sl						install
-sleepd						install
 slim						install
 sm						install
 smart-notifier					install
