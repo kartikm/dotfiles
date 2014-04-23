@@ -1835,7 +1835,6 @@ libplasma3					install
 libplasmaclock4abi4				install
 libplasmagenericshell4				install
 libplist2:amd64					install
-libplrpc-perl					install
 libpng12-0:amd64				install
 libpng12-0:i386					install
 libpng12-dev					install
@@ -3354,6 +3353,7 @@ xsltproc					install
 xterm						install
 xtrans-dev					install
 xulrunner-24.0					install
+xulrunner-28					install
 xvt						install
 xz-utils					install
 yokadi						install
