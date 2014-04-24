@@ -1258,7 +1258,7 @@ libgstreamer-plugins-base1.0-0:amd64		install
 libgstreamer0.10-0:amd64			install
 libgstreamer0.10-0:i386				install
 libgstreamer1.0-0:amd64				install
-libgtest-dev					install
+libgtest-dev:amd64				install
 libgtk-3-0:amd64				install
 libgtk-3-bin					install
 libgtk-3-common					install
