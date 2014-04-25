@@ -615,6 +615,7 @@ kpart-webkit					install
 krb5-locales					install
 kscreen						install
 kscreensaver					install
+kscreensaver-xsavers				install
 ksnapshot					install
 ksysguard					install
 ksysguardd					install
@@ -1169,6 +1170,7 @@ libglade2-0:amd64				install
 libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
+libgle3						install
 libgles2-mesa:amd64				install
 libglew1.10:amd64				install
 libglib-perl					install
@@ -1620,7 +1622,6 @@ libmoox-late-perl				install
 libmotif-common					install
 libmount1					install
 libmouse-perl					install
-libmozjs24d					install
 libmp3lame0:amd64				install
 libmpc3:amd64					install
 libmpcdec6:amd64				install
@@ -3151,6 +3152,7 @@ tcl8.6						install
 tcpd						install
 tcpdump						install
 tcpwatch-httpproxy				install
+tdc						install
 telnet						install
 tex-common					install
 tex-gyre					install
@@ -3240,6 +3242,7 @@ vlc						install
 vlc-data					install
 vlc-nox						install
 vnstat						install
+vorbis-tools					install
 vpnc						install
 vpnc-scripts					install
 vrms						install
@@ -3317,6 +3320,7 @@ xscreensaver					install
 xscreensaver-data				install
 xscreensaver-data-extra				install
 xscreensaver-gl					install
+xscreensaver-gl-extra				install
 xscreensaver-screensaver-bsod			install
 xserver-common					install
 xserver-xephyr					install
@@ -3352,7 +3356,6 @@ xserver-xorg-video-vmware			install
 xsltproc					install
 xterm						install
 xtrans-dev					install
-xulrunner-24.0					install
 xulrunner-28					install
 xvt						install
 xz-utils					install
