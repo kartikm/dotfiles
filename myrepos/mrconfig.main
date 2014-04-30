@@ -1,5 +1,10 @@
 [DEFAULT]
 include = cat /usr/share/mr/vis
+lib =
+	fork_update() {
+		git fetch upstream &&
+		git merge upstream/master
+	}
 
 #debian
 [/home/kartik/development/debian/debian-in]
@@ -180,6 +185,7 @@ checkout = git clone 'git@github.com:kartikm/dotfiles.git' 'dotfiles'
 #GL
 [development/github/GL/ascii2unicode]
 checkout = git clone 'git@github.com:gujaratilexicon/ascii2unicode.git' 'ascii2unicode'
+update = fork_update
 
 [development/github/GL/GujaratiLexicon-extension]
 checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
@@ -197,39 +203,51 @@ checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
 #forks
 [development/github/forks/hy]
 checkout = git clone 'git@github.com:kartikm/hy.git' 'hy'
+update = fork_update
 
 [development/github/forks/bapudi]
 checkout = git clone 'git@github.com:kartikm/bapudi.git' 'bapudi'
+update = fork_update
 
 [development/github/forks/bhaukal]
 checkout = git clone 'git@github.com:kartikm/bhaukal.git' 'bhaukal'
+update = fork_update
 
 [development/github/forks/underscore.gu]
 checkout = git clone 'git@github.com:kartikm/underscore.gu.git' 'underscore.gu'
+update = fork_update
 
 [development/github/forks/debian-dict]
 checkout = git clone 'git@github.com:kartikm/debian-dict.git' 'debian-dict'
+update = fork_update
 
 [development/github/forks/jenkins-debian-glue]
 checkout = git clone 'git@github.com:kartikm/jenkins-debian-glue.git' 'jenkins-debian-glue'
+update = fork_update
 
 [development/github/forks/netsniff-ng]
 checkout = git clone 'git@github.com:kartikm/netsniff-ng.git' 'netsniff-ng'
+update = fork_update
 
 [development/github/forks/onion_pi]
 checkout = git clone 'git@github.com:kartikm/onion_pi.git' 'onion_pi'
+update = fork_update
 
 [development/github/forks/temporal-hex-dump]
 checkout = git clone 'git://github.com/scanlime/temporal-hex-dump.git' 'temporal-hex-dump'
+update = fork_update
 
 [development/github/forks/tlsdate]
 checkout = git clone 'git@github.com:kartikm/tlsdate.git' 'tlsdate'
+update = fork_update
 
 [development/github/forks/torbirdy]
 checkout = git clone 'git@github.com:kartikm/torbirdy.git' 'torbirdy'
+update = fork_update
 
 [development/github/forks/vertigo]
 checkout = git clone 'git@github.com:prtksxna/vertigo.git' 'vertigo'
+update = fork_update
 
 [development/node-code]
 checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
