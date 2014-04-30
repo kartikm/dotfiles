@@ -36,6 +36,6 @@ git status
 echo "Config files copied. Now committing!"
 
 # auto-commit, need smarter way here.
-git commit -a -m "Synced config files on $DATE"
+git commit -a -m "Updated `git diff --name-only` on $DATE"
 git push
 
