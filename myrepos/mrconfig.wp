@@ -1,17 +1,36 @@
+[DEFAULT]
+lib =
+	fork_update() {
+		git fetch upstream &&
+		git merge upstream/master
+	}
+
 [forks/AutonymFont]
 checkout = git clone 'git@github.com:kartikm/AutonymFont.git' 'AutonymFont'
+update = fork_update
 
 [forks/jquery.i18n]
 checkout = git clone 'git@github.com:kartikm/jquery.i18n.git' 'jquery.i18n'
+update = fork_update
 
 [forks/jquery.ime]
 checkout = git clone 'git@github.com:kartikm/jquery.ime.git' 'jquery.ime'
+update = fork_update
 
 [forks/jquery.uls]
 checkout = git clone 'git@github.com:kartikm/jquery.uls.git' 'jquery.uls'
+update = fork_update
 
 [forks/jquery.webfonts]
 checkout = git clone 'git@github.com:kartikm/jquery.webfonts.git' 'jquery.webfonts'
+update = fork_update
+
+[forks/CLDRPluralRuleParser]
+checkout = git clone 'git@github.com:kartikm/CLDRPluralRuleParser.git' 'CLDRPluralRuleParser'
+update = fork_update
+
+[forks/Elastica]
+checkout = git clone 'git@github.com:kartikm/Elastica.git' 'Elastica'
 
 [Misc/EventLogging]
 checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/p/mediawiki/extensions/EventLogging.git' 'EventLogging'
@@ -45,9 +64,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 
 [Misc/mediawiki-tools-codesniffer]
 checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 'mediawiki-tools-codesniffer'
-
-[forks/CLDRPluralRuleParser]
-checkout = git clone 'git@github.com:kartikm/CLDRPluralRuleParser.git' 'CLDRPluralRuleParser'
 
 [MLEB/cldr]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/cldr' 'cldr'
