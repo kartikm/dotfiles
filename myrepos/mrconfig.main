@@ -233,10 +233,6 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/onion_pi.git' 'onion_pi'
 update = fork_update
 
-[development/github/forks/temporal-hex-dump]
-checkout = git clone 'git://github.com/scanlime/temporal-hex-dump.git' 'temporal-hex-dump'
-update = fork_update
-
 [development/github/forks/tlsdate]
 checkout = git clone 'git@github.com:kartikm/tlsdate.git' 'tlsdate'
 update = fork_update
