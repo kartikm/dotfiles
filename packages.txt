@@ -134,7 +134,6 @@ curl						install
 cvs						install
 d-shlibs					install
 dash						install
-db5.1-util					install
 dbconfig-common					install
 dbus						install
 dbus-x11					install
@@ -210,7 +209,6 @@ dvipng						install
 dwdiff						install
 e2fslibs:amd64					install
 e2fsprogs					install
-easy-rsa					install
 ed						install
 eject						install
 elasticsearch					install
@@ -631,12 +629,8 @@ latex-xcolor					install
 latex2html					install
 lcdf-typetools					install
 less						install
-lib32bz2-1.0					install
-lib32gcc1					install
-lib32ncurses5					install
-lib32stdc++6					install
-lib32tinfo5					install
-lib32z1						install
+lib32gcc1					deinstall
+lib32tinfo5					deinstall
 liba52-0.7.4					install
 libaa1:amd64					install
 libaacs0:amd64					install
@@ -756,7 +750,6 @@ libavresample1:amd64				install
 libavutil-dev					install
 libavutil52:amd64				install
 libaxis-java					install
-libaxis2c-bin					install
 libaxis2c-dev					install
 libaxis2c0					install
 libb-hooks-op-check-perl			install
@@ -789,9 +782,7 @@ libboost-iostreams1.54.0:amd64			install
 libboost-program-options1.54.0:amd64		install
 libboost-python1.49.0				install
 libboost-python1.54.0				install
-libboost-regex1.54.0:amd64			install
 libboost-regex1.55.0:amd64			install
-libboost-system1.49.0				install
 libboost-system1.54.0:amd64			install
 libboost-system1.55.0:amd64			install
 libboost-thread1.54.0:amd64			install
@@ -813,7 +804,7 @@ libc6:amd64					install
 libc6:i386					install
 libc6-dbg:amd64					install
 libc6-dev:amd64					install
-libc6-i386					install
+libc6-i386					deinstall
 libc6-i686:i386					install
 libcaca0:amd64					install
 libcaca0:i386					install
@@ -1091,7 +1082,6 @@ libfont-afm-perl				install
 libfontconfig1:amd64				install
 libfontconfig1:i386				install
 libfontconfig1-dev:amd64			install
-libfontembed1:amd64				install
 libfontenc1:amd64				install
 libfontforge-dev				install
 libfontforge1					install
@@ -1106,7 +1096,6 @@ libfribidi0:amd64				install
 libftdi1:amd64					install
 libfuse2:amd64					install
 libgadu3					install
-libgail-3-0:amd64				install
 libgail18:amd64					install
 libgbm1:amd64					install
 libgbm1:i386					deinstall
@@ -1565,7 +1554,6 @@ liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.2-dev:amd64				install
-liblvm2app2.2:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
@@ -1611,7 +1599,7 @@ libmng1:amd64					install
 libmng1:i386					install
 libmnl0:amd64					install
 libmockito-java					install
-libmodemmanagerqt1:amd64			install
+libmodemmanagerqt1:amd64			deinstall
 libmodplug1					install
 libmodule-implementation-perl			install
 libmodule-pluggable-perl			install
@@ -1678,7 +1666,7 @@ libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle4:amd64				install
 libnettle4:i386					install
-libnetworkmanagerqt1:amd64			install
+libnetworkmanagerqt1:amd64			deinstall
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
@@ -1711,7 +1699,7 @@ libntdb1:amd64					install
 libntlm0:amd64					install
 libntrack-qt4-1					install
 libntrack0					install
-liboath0					install
+liboath0					deinstall
 libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
@@ -1726,7 +1714,7 @@ libonig2					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
-libopenconnect2:amd64				install
+libopenconnect2:amd64				deinstall
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
 libopencv-calib3d2.4:amd64			install
@@ -1830,7 +1818,7 @@ libpixie-java					install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				deinstall
 libpixman-1-dev					install
-libpkcs11-helper1:amd64				install
+libpkcs11-helper1:amd64				deinstall
 libplasma-geolocation-interface4		install
 libplasma3					install
 libplasmaclock4abi4				install
@@ -2196,9 +2184,6 @@ libtheora0:amd64				install
 libthreadweaver4				install
 libtidy-0.99-0					install
 libtie-ixhash-perl				install
-libtiff4:amd64					install
-libtiff4:i386					install
-libtiff4-dev:amd64				install
 libtiff5:amd64					install
 libtiff5:i386					install
 libtiff5-dev:amd64				install
@@ -2269,7 +2254,6 @@ libvala-0.24-0:amd64				install
 libvcdinfo0					install
 libvde0						install
 libvdeplug2					install
-libvdpau1:amd64					install
 libvigraimpex4					install
 libvisio-0.0-0					install
 libvisual-0.4-0:amd64				install
@@ -2304,7 +2288,6 @@ libwayland-server0:amd64			install
 libwayland-server0:i386				deinstall
 libwbclient0:amd64				install
 libweather-ion6					install
-libwebkitgtk-1.0-0:amd64			install
 libwebkitgtk-1.0-common				install
 libwebkitgtk-3.0-0:amd64			install
 libwebkitgtk-3.0-common				install
@@ -2466,7 +2449,6 @@ libxmuu1:amd64					install
 libxmuu1:i386					install
 libxom-java					install
 libxosd2					install
-libxp6:amd64					install
 libxp6:i386					deinstall
 libxpm-dev:amd64				install
 libxpm4:amd64					install
@@ -2618,9 +2600,9 @@ netdiag						install
 netpbm						install
 netsniff-ng					install
 network-manager					install
-network-manager-openvpn				install
-network-manager-pptp				install
-network-manager-vpnc				install
+network-manager-openvpn				deinstall
+network-manager-pptp				deinstall
+network-manager-vpnc				deinstall
 nfs-common					install
 nginx						install
 nginx-common					install
@@ -2713,7 +2695,7 @@ openssh-sftp-server				install
 openssl						install
 openssl-blacklist				install
 openssl-blacklist-extra				install
-openvpn						install
+openvpn						deinstall
 os-prober					install
 oss-compat					install
 ostinato					install
@@ -2788,7 +2770,7 @@ plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
 plasma-desktop					install
 plasma-desktopthemes-artwork			install
-plasma-nm					install
+plasma-nm					deinstall
 plasma-runners-addons				install
 plasma-scriptengine-javascript			install
 plasma-scriptengine-python			install
@@ -2799,7 +2781,6 @@ plasma-scriptengines				install
 plasma-wallpapers-addons			install
 plasma-widget-folderview			install
 plasma-widget-lancelot				install
-plasma-widget-networkmanagement			install
 plasma-widgets-addons				install
 plasma-widgets-workspace			install
 plymouth					install
@@ -2816,7 +2797,7 @@ postgresql-client-common			install
 powermgmt-base					install
 powertop					install
 ppp						install
-pptp-linux					install
+pptp-linux					deinstall
 preview-latex-style				install
 printer-driver-all				install
 printer-driver-c2050				install
@@ -3261,7 +3242,6 @@ wicd-daemon					install
 wicd-kde					install
 wine32						install
 wine64						install
-wine64-bin					install
 wireless-regdb					install
 wireless-tools					install
 wireshark					install
