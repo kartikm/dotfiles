@@ -209,6 +209,7 @@ dvipng						install
 dwdiff						install
 e2fslibs:amd64					install
 e2fsprogs					install
+easy-rsa					install
 ed						install
 eject						install
 elasticsearch					install
@@ -551,7 +552,6 @@ junit						install
 junit4						install
 k3b						install
 k3b-data					install
-kaddressbook					install
 kamera						install
 kamoso						install
 kate						install
@@ -598,7 +598,6 @@ kile						install
 kinfocenter					install
 klibc-utils					install
 klipper						install
-kmail						install
 kmenuedit					install
 kmix						install
 kmod						install
@@ -607,7 +606,6 @@ konq-plugins					install
 konqueror					install
 konqueror-nsplugins				install
 konsole						install
-kopete						install
 korganizer					install
 kpart-webkit					install
 krb5-locales					install
@@ -629,8 +627,6 @@ latex-xcolor					install
 latex2html					install
 lcdf-typetools					install
 less						install
-lib32gcc1					deinstall
-lib32tinfo5					deinstall
 liba52-0.7.4					install
 libaa1:amd64					install
 libaacs0:amd64					install
@@ -804,7 +800,6 @@ libc6:amd64					install
 libc6:i386					install
 libc6-dbg:amd64					install
 libc6-dev:amd64					install
-libc6-i386					deinstall
 libc6-i686:i386					install
 libcaca0:amd64					install
 libcaca0:i386					install
@@ -970,7 +965,6 @@ libdebconfclient0:amd64				install
 libdevel-caller-perl				install
 libdevel-globaldestruction-perl			install
 libdevel-lexalias-perl				install
-libdevmapper-event1.02.1:amd64			install
 libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
@@ -1078,6 +1072,7 @@ libflac8:i386					install
 libflite1:amd64					install
 libfluidsynth1:amd64				install
 libflute-java					install
+libfolderarchive4				deinstall
 libfont-afm-perl				install
 libfontconfig1:amd64				install
 libfontconfig1:i386				install
@@ -1095,7 +1090,6 @@ libfreetype6-dev				install
 libfribidi0:amd64				install
 libftdi1:amd64					install
 libfuse2:amd64					install
-libgadu3					install
 libgail18:amd64					install
 libgbm1:amd64					install
 libgbm1:i386					deinstall
@@ -1371,7 +1365,6 @@ libjack-jackd2-0:i386				deinstall
 libjasper-dev					install
 libjasper1:amd64				install
 libjasper1:i386					deinstall
-libjavascriptcoregtk-1.0-0:amd64		install
 libjavascriptcoregtk-3.0-0:amd64		install
 libjaxen-java					install
 libjaxp1.3-java					install
@@ -1462,7 +1455,7 @@ libkjsembed4					install
 libkldap4					install
 libkleo4					install
 libklibc					install
-libkmanagesieve4				install
+libkmanagesieve4				deinstall
 libkmbox4					install
 libkmediaplayer4				install
 libkmime4					install
@@ -1479,7 +1472,6 @@ libkonq5-templates				install
 libkonq5abi1					install
 libkonqsidebarplugin4a				install
 libkontactinterface4				install
-libkopete4					install
 libkparts4					install
 libkpathsea6					install
 libkpgp4					install
@@ -1499,8 +1491,8 @@ libksba8:amd64					install
 libkscreen1:amd64				install
 libkscreensaver5				install
 libksgrd4					install
-libksieve4					install
-libksieveui4					install
+libksieve4					deinstall
+libksieveui4					deinstall
 libksignalplotter4				install
 libktexteditor4					install
 libktnef4					install
@@ -1581,10 +1573,9 @@ libmatroska6:amd64				install
 libmbim-glib0:amd64				install
 libmcrypt4					install
 libmeanwhile1					install
-libmediastreamer-base3:amd64			install
 libmessagecomposer4				install
 libmessagecore4					install
-libmessagelist4					install
+libmessagelist4					deinstall
 libmessageviewer4				install
 libmhash-dev					install
 libmhash2:amd64					install
@@ -1599,7 +1590,7 @@ libmng1:amd64					install
 libmng1:i386					install
 libmnl0:amd64					install
 libmockito-java					install
-libmodemmanagerqt1:amd64			deinstall
+libmodemmanagerqt1:amd64			install
 libmodplug1					install
 libmodule-implementation-perl			install
 libmodule-pluggable-perl			install
@@ -1619,7 +1610,6 @@ libmpfr4:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
 libmrm4:amd64					install
-libmsn0.3					install
 libmspub-0.0-0					install
 libmsv-java					install
 libmtdev1:amd64					install
@@ -1666,7 +1656,7 @@ libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle4:amd64				install
 libnettle4:i386					install
-libnetworkmanagerqt1:amd64			deinstall
+libnetworkmanagerqt1:amd64			install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
@@ -1699,7 +1689,7 @@ libntdb1:amd64					install
 libntlm0:amd64					install
 libntrack-qt4-1					install
 libntrack0					install
-liboath0					deinstall
+liboath0					install
 libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
@@ -1714,7 +1704,7 @@ libonig2					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
-libopenconnect2:amd64				deinstall
+libopenconnect2:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
 libopencv-calib3d2.4:amd64			install
@@ -1744,7 +1734,6 @@ liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.6-0					install
 liboro-java					install
-libortp9:amd64					install
 libosgi-compendium-java				install
 libosgi-core-java				install
 libosgi-foundation-ee-java			install
@@ -1818,7 +1807,7 @@ libpixie-java					install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				deinstall
 libpixman-1-dev					install
-libpkcs11-helper1:amd64				deinstall
+libpkcs11-helper1:amd64				install
 libplasma-geolocation-interface4		install
 libplasma3					install
 libplasmaclock4abi4				install
@@ -1894,6 +1883,7 @@ libqgpgme1					install
 libqimageblitz4					install
 libqjson0:amd64					install
 libqmi-glib0:amd64				install
+libqmobipocket1					install
 libqoauth1					install
 libqrencode3:amd64				install
 libqt4-dbus:amd64				install
@@ -2226,7 +2216,6 @@ libunwind8					install
 libupnp6					install
 libupower-glib1:amd64				install
 liburcu-dev					install
-liburcu1					install
 liburcu2					install
 liburi-perl					install
 libusageenvironment1				install
@@ -2288,7 +2277,6 @@ libwayland-server0:amd64			install
 libwayland-server0:i386				deinstall
 libwbclient0:amd64				install
 libweather-ion6					install
-libwebkitgtk-1.0-common				install
 libwebkitgtk-3.0-0:amd64			install
 libwebkitgtk-3.0-common				install
 libwebp5:amd64					install
@@ -2507,10 +2495,14 @@ linux-base					install
 linux-compiler-gcc-4.8-x86			install
 linux-headers-3.13-1-amd64			install
 linux-headers-3.13-1-common			install
+linux-headers-3.14-1-amd64			install
+linux-headers-3.14-1-common			install
 linux-headers-amd64				install
 linux-image-3.13-1-amd64			install
+linux-image-3.14-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-3.13				install
+linux-kbuild-3.14				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -2600,9 +2592,9 @@ netdiag						install
 netpbm						install
 netsniff-ng					install
 network-manager					install
-network-manager-openvpn				deinstall
-network-manager-pptp				deinstall
-network-manager-vpnc				deinstall
+network-manager-openvpn				install
+network-manager-pptp				install
+network-manager-vpnc				install
 nfs-common					install
 nginx						install
 nginx-common					install
@@ -2695,7 +2687,7 @@ openssh-sftp-server				install
 openssl						install
 openssl-blacklist				install
 openssl-blacklist-extra				install
-openvpn						deinstall
+openvpn						install
 os-prober					install
 oss-compat					install
 ostinato					install
@@ -2770,7 +2762,7 @@ plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
 plasma-desktop					install
 plasma-desktopthemes-artwork			install
-plasma-nm					deinstall
+plasma-nm					install
 plasma-runners-addons				install
 plasma-scriptengine-javascript			install
 plasma-scriptengine-python			install
@@ -2797,7 +2789,7 @@ postgresql-client-common			install
 powermgmt-base					install
 powertop					install
 ppp						install
-pptp-linux					deinstall
+pptp-linux					install
 preview-latex-style				install
 printer-driver-all				install
 printer-driver-c2050				install
@@ -3336,7 +3328,7 @@ xserver-xorg-video-vmware			install
 xsltproc					install
 xterm						install
 xtrans-dev					install
-xulrunner-28					install
+xulrunner-29					install
 xvt						install
 xz-utils					install
 yokadi						install

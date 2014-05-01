@@ -3,7 +3,8 @@ include = cat /usr/share/mr/vis
 lib =
 	fork_update() {
 		git fetch upstream &&
-		git merge upstream/master
+		git merge upstream/master &&
+		git push
 	}
 
 #debian
@@ -104,11 +105,11 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xdalicloc
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.git' 'xosview'
 
 #l10n
-#[development/l10n/KDE/l10n-kde4/gu]
-#checkout = svn co svn+ssh://kartik@svn.kde.org/home/kde/trunk/l10n-kde4/gu
+[development/l10n/KDE/l10n-kde4/gu]
+checkout = svn co svn+ssh://kartik@svn.kde.org/home/kde/trunk/l10n-kde4/gu
 
-#[development/l10n/KDE/l10n-kde4/templates]
-#checkout = svn co svn+ssh://kartik@svn.kde.org/home/kde/trunk/l10n-kde4/templates
+[development/l10n/KDE/l10n-kde4/templates]
+checkout = svn co svn+ssh://kartik@svn.kde.org/home/kde/trunk/l10n-kde4/templates
 
 [development/l10n/tuxfamily/tuxpaint]
 CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
@@ -185,7 +186,6 @@ checkout = git clone 'git@github.com:kartikm/dotfiles.git' 'dotfiles'
 #GL
 [development/github/GL/ascii2unicode]
 checkout = git clone 'git@github.com:gujaratilexicon/ascii2unicode.git' 'ascii2unicode'
-update = fork_update
 
 [development/github/GL/GujaratiLexicon-extension]
 checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
@@ -203,10 +203,6 @@ checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
 #forks
 [development/github/forks/hy]
 checkout = git clone 'git@github.com:kartikm/hy.git' 'hy'
-update = fork_update
-
-[development/github/forks/bapudi]
-checkout = git clone 'git@github.com:kartikm/bapudi.git' 'bapudi'
 update = fork_update
 
 [development/github/forks/bhaukal]
@@ -241,9 +237,8 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/torbirdy.git' 'torbirdy'
 update = fork_update
 
-[development/github/forks/vertigo]
+[development/github/misc/vertigo]
 checkout = git clone 'git@github.com:prtksxna/vertigo.git' 'vertigo'
-update = fork_update
 
 [development/node-code]
 checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
