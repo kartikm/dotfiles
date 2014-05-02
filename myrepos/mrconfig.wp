@@ -2,7 +2,8 @@
 lib =
 	fork_update() {
 		git fetch upstream &&
-		git merge upstream/master
+		git merge upstream/master &&
+		git push
 	}
 
 [forks/AutonymFont]

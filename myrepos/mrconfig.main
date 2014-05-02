@@ -1,6 +1,6 @@
 [DEFAULT]
 include = cat /usr/share/mr/vis
-lib =
+lib = 
 	fork_update() {
 		git fetch upstream &&
 		git merge upstream/master &&
@@ -105,11 +105,11 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xdalicloc
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.git' 'xosview'
 
 #l10n
-[development/l10n/KDE/l10n-kde4/gu]
-checkout = svn co svn+ssh://kartik@svn.kde.org/home/kde/trunk/l10n-kde4/gu
+[development/l10n/KDE/gu]
+checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/gu' 'gu'
 
-[development/l10n/KDE/l10n-kde4/templates]
-checkout = svn co svn+ssh://kartik@svn.kde.org/home/kde/trunk/l10n-kde4/templates
+[development/l10n/KDE/templates]
+checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/templates' 'templates'
 
 [development/l10n/tuxfamily/tuxpaint]
 CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
