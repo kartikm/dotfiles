@@ -177,7 +177,6 @@ kbo() { export KEEP_BROWSER_OPEN=true; }
 pshs() { python -m SimpleHTTPServer; }
 
 #random stuffs
-alias nyan='nc -v miku.acm.uiuc.edu 23' # nyan cat
 alias stardate='date "+%y%m.%d/%H%M"'   # from Joey
 alias rand='tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
 alias entertain='mplayer "$(find "." -type f -regextype posix-egrep -regex ".*\.(avi|mkv|flv|mpg|mpeg|mp4|wmv|3gp|mov|divx)" | shuf -n1)"'
