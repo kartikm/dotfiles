@@ -73,6 +73,10 @@ checkout = git clone 'git@github.com:kartikm/tofudetector.git' 'tofudetector'
 [development/fonts/sfntly]
 checkout = svn co 'http://sfntly.googlecode.com/svn/trunk' 'sfntly'
 
+[development/fonts/fontforge]
+checkout = git clone 'git@github.com:kartikm/fontforge.git' 'fontforge'
+update = fork_update
+
 #packages
 [development/debian/packages/aria2/aria2]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/aria2.git' 'aria2'
@@ -173,6 +177,17 @@ checkout = hg clone 'http://bitbucket.org/bos/hgbook' 'hgbook'
 [development/books/learnGitBranching]
 checkout = git clone 'git@github.com:kartikm/learnGitBranching.git' 'learnGitBranching'
 
+[development/fonts/Fontbook]
+checkout = git clone 'git@github.com:IndicFontbook/Fontbook.git' 'Fontbook'
+
+[development/fonts/fontforge-python-cookbook]
+checkout = git clone 'git@github.com:kartikm/fontforge-python-cookbook.git' 'fontforge-python-cookbook'
+update = fork_update
+
+[development/fonts/designwithfontforge.com]
+checkout = git clone 'git@github.com:kartikm/designwithfontforge.com.git' 'designwithfontforge.com'
+update = fork_update
+
 #misc
 [development/sixthsense/gitrepo/sixthsense]
 checkout = git clone 'git@github.com:sixthsense/sixthsense.git' 'sixthsense'
@@ -249,3 +264,10 @@ checkout = git clone git://home/kartik/wiki.git
 
 [/var/www/mw-master/core]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git' 'core'
+
+[development/github/forks/brackets-phplint]
+checkout = git clone 'git@github.com:kartikm/brackets-phplint.git' 'brackets-phplint'
+update = fork_update
+
+[development/github/misc/brackets-phpcs]
+checkout = git clone 'git@github.com:kartikm/brackets-phpcs.git' 'brackets-phpcs'
