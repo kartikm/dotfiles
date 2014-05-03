@@ -2928,6 +2928,7 @@ python-soappy					install
 python-sqlalchemy				install
 python-sqlalchemy-ext				install
 python-sqlobject				install
+python-stevedore				install
 python-support					install
 python-talloc					install
 python-tk					install
@@ -2937,6 +2938,7 @@ python-urllib3					install
 python-urwid					install
 python-utidylib					install
 python-validictory				install
+python-virtualenv				install
 python-vte					install
 python-webob					install
 python-webunit					install
@@ -3211,6 +3213,8 @@ vim-scripts					install
 virtualbox					install
 virtualbox-dkms					install
 virtualbox-qt					install
+virtualenv-clone				install
+virtualenvwrapper				install
 vlc						install
 vlc-data					install
 vlc-nox						install
