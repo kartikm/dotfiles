@@ -1,5 +1,5 @@
 [DEFAULT]
-lib =
+lib = 
 	fork_update() {
 		git fetch upstream &&
 		git merge upstream/master &&
@@ -95,3 +95,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/integration/zuul-c
 
 [LE/cxserver]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/cxserver' 'cxserver'
+
+[Misc/VectorBeta]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VectorBeta' 'VectorBeta'

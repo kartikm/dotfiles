@@ -213,7 +213,7 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/operations/puppet' 'puppe
 checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 'mw-tools-cs'
 
 [development/wikipedia/vagrant]
-checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/vagrant.git' 'vagrant'
 
 #forks
 [development/github/forks/hy]
@@ -252,11 +252,18 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/torbirdy.git' 'torbirdy'
 update = fork_update
 
+[development/github/forks/brackets-phplint]
+checkout = git clone 'git@github.com:kartikm/brackets-phplint.git' 'brackets-phplint'
+update = fork_update
+
 [development/github/misc/vertigo]
 checkout = git clone 'git@github.com:prtksxna/vertigo.git' 'vertigo'
 
-[development/node-code]
+[development/github/node-code]
 checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
+
+[development/github/misc/brackets-phpcs]
+checkout = git clone 'git@github.com:kartikm/brackets-phpcs.git' 'brackets-phpcs'
 
 #local wikis
 [wiki]
@@ -264,10 +271,3 @@ checkout = git clone git://home/kartik/wiki.git
 
 [/var/www/mw-master/core]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git' 'core'
-
-[development/github/forks/brackets-phplint]
-checkout = git clone 'git@github.com:kartikm/brackets-phplint.git' 'brackets-phplint'
-update = fork_update
-
-[development/github/misc/brackets-phpcs]
-checkout = git clone 'git@github.com:kartikm/brackets-phpcs.git' 'brackets-phpcs'
