@@ -1,6 +1,7 @@
 [DEFAULT]
 lib = 
 	fork_update() {
+		git checkout master &&
 		git fetch upstream &&
 		git merge upstream/master &&
 		git push

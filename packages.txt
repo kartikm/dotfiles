@@ -3163,6 +3163,7 @@ traceroute					install
 tree						install
 tsconf						install
 ttf-aenigma					install
+ttf-ancient-fonts				install
 ttf-bitstream-vera				install
 ttf-dejavu					install
 ttf-dejavu-core					install
