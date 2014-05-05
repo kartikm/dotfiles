@@ -2,6 +2,7 @@
 include = cat /usr/share/mr/vis
 lib = 
 	fork_update() {
+		git checkout master &&
 		git fetch upstream &&
 		git merge upstream/master &&
 		git push
