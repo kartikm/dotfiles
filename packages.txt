@@ -1512,6 +1512,7 @@ liblcms1:amd64					install
 liblcms1:i386					install
 liblcms2-2:amd64				install
 liblcms2-2:i386					install
+liblcms2-dev:amd64				install
 libldap-2.4-2:amd64				install
 libldap-2.4-2:i386				install
 libldb1:amd64					install
