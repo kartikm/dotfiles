@@ -33,6 +33,7 @@ update = fork_update
 
 [forks/Elastica]
 checkout = git clone 'git@github.com:kartikm/Elastica.git' 'Elastica'
+update = fork_update
 
 [Misc/EventLogging]
 checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/p/mediawiki/extensions/EventLogging.git' 'EventLogging'
@@ -84,6 +85,7 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/mediawi
 
 [QA/jenkins-job-builder-config]
 checkout = git clone 'git@github.com:kartikm/jenkins-job-builder-config.git' 'jenkins-job-builder-config'
+update = fork_update
 
 [Misc/Popups]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Popups' 'Popups'
@@ -99,3 +101,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services
 
 [Misc/VectorBeta]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VectorBeta' 'VectorBeta'
+
+[GSoC/LUv2]
+checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
