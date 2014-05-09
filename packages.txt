@@ -263,7 +263,6 @@ fontconfig					install
 fontconfig-config				install
 fontforge					install
 fontforge-common				install
-fontforge-dbg					install
 fontforge-doc					install
 fontforge-extras				install
 fonts-beng					install
@@ -799,7 +798,6 @@ libc-bin					install
 libc-dev-bin					install
 libc6:amd64					install
 libc6:i386					install
-libc6-dbg:amd64					install
 libc6-dev:amd64					install
 libc6-i686:i386					install
 libcaca0:amd64					install
@@ -1910,6 +1908,7 @@ libqt4-sql-mysql:amd64				install
 libqt4-sql-sqlite:amd64				install
 libqt4-svg:amd64				install
 libqt4-test:amd64				install
+libqt4-webkit					install
 libqt4-xml:amd64				install
 libqt4-xml:i386					install
 libqt4-xmlpatterns:amd64			install
