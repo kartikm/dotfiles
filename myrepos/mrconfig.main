@@ -257,6 +257,10 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/brackets-phplint.git' 'brackets-phplint'
 update = fork_update
 
+[development/github/forks/tg]
+checkout = git clone 'git@github.com:kartikm/tg.git' 'tg'
+update = fork_update
+
 [development/github/misc/vertigo]
 checkout = git clone 'git@github.com:prtksxna/vertigo.git' 'vertigo'
 
