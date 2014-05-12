@@ -184,8 +184,6 @@ alias gdocs='google-chrome --app=http://docs.google.com'
 
 #tor settings
 alias google-chrome-tor='google-chrome --proxy-server="socks://127.0.0.1:9050"'
-#export http_proxy="socks4://127.0.0.1:9050"
-#export https_proxy="socks4://127.0.0.1:9050"
 
 #Debian
 export EDITOR='vim'
