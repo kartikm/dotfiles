@@ -27,6 +27,9 @@ checkout = svn co svn+ssh://kartik@svn.debian.org/svn/ddp/manuals/trunk/release-
 [development/debian/talks/packaging-tutorial]
 checkout = git clone 'git://git.debian.org/users/lucas/packaging-tutorial.git' 'packaging-tutorial'
 
+[development/debian/debci]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/debci.git' 'debci'
+
 #upstreams
 [development/upstreams/aspell-lang]
 checkout = cvs -d ':pserver:anonymous@cvs.savannah.gnu.org:/sources/aspell' co -d 'aspell-lang' 'aspell-lang'
@@ -51,9 +54,6 @@ checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
 
 [development/upstreams/xosview]
 checkout = git clone 'git@github.com:hills/xosview.git' 'xosview'
-
-[development/upstreams/yokadi]
-checkout = git clone git://github.com/agateau/yokadi
 
 #fonts
 [development/fonts/fonts-aakar]
@@ -216,6 +216,10 @@ checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 
 [development/wikipedia/vagrant]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/vagrant.git' 'vagrant'
 
+[development/wikipedia/lcm-dashboard]
+checkout = git clone 'git@github.com:kartikm/lcm-dashboard.git' 'lcm-dashboard'
+update = fork_update
+
 #forks
 [development/github/forks/hy]
 checkout = git clone 'git@github.com:kartikm/hy.git' 'hy'
@@ -272,6 +276,10 @@ checkout = git clone 'git@github.com:kartikm/brackets-phpcs.git' 'brackets-phpcs
 
 [development/wikipedia/huggle3-qt-lx]
 checkout = git clone 'git@github.com:kartikm/huggle3-qt-lx.git' 'huggle3-qt-lx'
+update = fork_update
+
+[development/github/forks/yokadi]
+checkout = git clone 'git@github.com:kartikm/yokadi.git' 'yokadi'
 update = fork_update
 
 #local wikis
