@@ -10,6 +10,7 @@ clear
 cp ~/.bashrc                                $DOT/bashrc
 cp ~/.jsbeautifyrc                          $DOT/jsbeautifyrc
 cp ~/.gbp.conf                              $DOT/gbp.conf
+cp ~/.hgrc                                  $DOT/hgrc
 cp ~/.gitconfig                             $DOT/gitconfig
 cp ~/.mrconfig                              $DOT/myrepos/mrconfig.main
 cp ~/development/WP/repos/.mrconfig         $DOT/myrepos/mrconfig.wp
