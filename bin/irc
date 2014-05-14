@@ -2,7 +2,7 @@
 
 cd ~/.irssi
 
-Date=`date +%a`
+Date=$(date +%a)
 clear
 echo Today is "$Date"day.
 
