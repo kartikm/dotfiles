@@ -2269,6 +2269,7 @@ libva-x11-1:amd64				install
 libva1:amd64					install
 libvala-0.20-0:amd64				install
 libvala-0.24-0:amd64				install
+libvarnishapi1					install
 libvcdinfo0					install
 libvde0						install
 libvdeplug2					install
@@ -3245,6 +3246,7 @@ valac-0.20					install
 valac-0.20-vapi					install
 valac-0.24					install
 valac-0.24-vapi					install
+varnish						install
 vbetool						install
 vcdimager					install
 vcsh						install
