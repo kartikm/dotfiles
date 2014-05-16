@@ -1926,6 +1926,8 @@ libqt5opengl5-dev				install
 libqt5printsupport5:amd64			install
 libqt5qml5:amd64				install
 libqt5quick5:amd64				install
+libqt5quickparticles5:amd64			install
+libqt5quicktest5:amd64				install
 libqt5script5:amd64				install
 libqt5sensors5:amd64				install
 libqt5sensors5-dev				install
@@ -3051,6 +3053,7 @@ qtbase5-dev					install
 qtbase5-dev-tools				install
 qtchooser					install
 qtcore4-l10n					install
+qtdeclarative5-dev				install
 qtquick1-5-dev					install
 quilt						install
 quvi						install
