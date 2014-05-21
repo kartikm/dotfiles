@@ -1346,7 +1346,7 @@ libio-socket-ip-perl				install
 libio-socket-ssl-perl				install
 libio-string-perl				install
 libio-stringy-perl				install
-libiodbc2					install
+libiodbc2:amd64					install
 libiodbc2-dev					install
 libipc-run-perl					install
 libipc-system-simple-perl			install
@@ -1703,7 +1703,7 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore3					install
-libonig2					install
+libonig2:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
@@ -2052,7 +2052,7 @@ libsemanage1:amd64				install
 libsendlater4					install
 libsensors4:amd64				install
 libsepol1:amd64					install
-libsepol1-dev					install
+libsepol1-dev:amd64				install
 libserf-1-1:amd64				install
 libserializer-java				install
 libservlet2.5-java				install
@@ -2349,7 +2349,7 @@ libx11-data					install
 libx11-dev:amd64				install
 libx11-doc					install
 libx11-protocol-perl				install
-libx11-xcb-dev					install
+libx11-xcb-dev:amd64				install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-142:amd64				install
