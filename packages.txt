@@ -815,7 +815,7 @@ libcanberra-gtk3-0:amd64			install
 libcanberra-gtk3-module:amd64			install
 libcanberra0:amd64				install
 libcap-dev:amd64				install
-libcap-ng0					install
+libcap-ng0:amd64				install
 libcap2:amd64					install
 libcap2:i386					install
 libcap2-bin					install
