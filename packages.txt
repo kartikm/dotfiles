@@ -738,13 +738,16 @@ libavalon-framework-java			install
 libavc1394-0:amd64				install
 libavcodec-dev					install
 libavcodec54:amd64				install
+libavcodec55:amd64				install
 libavdevice53:amd64				install
 libavfilter3:amd64				install
 libavformat-dev					install
 libavformat54:amd64				install
+libavformat55:amd64				install
 libavresample1:amd64				install
 libavutil-dev					install
 libavutil52:amd64				install
+libavutil53:amd64				install
 libaxis-java					install
 libaxis2c-dev					install
 libaxis2c0					install
@@ -775,7 +778,9 @@ libboost-dev					install
 libboost-filesystem1.54.0:amd64			install
 libboost-filesystem1.55.0:amd64			install
 libboost-iostreams1.54.0:amd64			install
+libboost-iostreams1.55.0:amd64			install
 libboost-program-options1.54.0:amd64		install
+libboost-program-options1.55.0:amd64		install
 libboost-python1.49.0				install
 libboost-python1.54.0				install
 libboost-regex1.55.0:amd64			install
@@ -1113,6 +1118,7 @@ libgcr-ui-3-1:amd64				install
 libgcrypt11:amd64				install
 libgcrypt11:i386				install
 libgcrypt11-dev					install
+libgcrypt20:amd64				install
 libgd-gd2-noxpm-perl				install
 libgd2-xpm:i386					deinstall
 libgd3:amd64					install
