@@ -763,7 +763,6 @@ libbcprov-java					install
 libbind9-90					install
 libbison-dev:amd64				install
 libblas3					install
-libblas3gf					install
 libblkid1:amd64					install
 libbluedevil1:amd64				install
 libbluetooth-dev				install
@@ -777,16 +776,13 @@ libboost-date-time1.54.0:amd64			install
 libboost-dev					install
 libboost-filesystem1.54.0:amd64			install
 libboost-filesystem1.55.0:amd64			install
-libboost-iostreams1.54.0:amd64			install
 libboost-iostreams1.55.0:amd64			install
-libboost-program-options1.54.0:amd64		install
 libboost-program-options1.55.0:amd64		install
 libboost-python1.49.0				install
 libboost-python1.54.0				install
 libboost-regex1.55.0:amd64			install
 libboost-system1.54.0:amd64			install
 libboost-system1.55.0:amd64			install
-libboost-thread1.54.0:amd64			install
 libboost-thread1.55.0:amd64			install
 libboost1.54-dev				install
 libbrlapi0.6:amd64				install
@@ -1842,7 +1838,7 @@ libportmidi0					install
 libpostproc52					install
 libppl-c4:amd64					install
 libppl13:amd64					install
-libpq5						install
+libpq5:amd64					install
 libpri-dev					install
 libpri1.4					install
 libprison0:amd64				install
@@ -2253,7 +2249,7 @@ libunwind8					install
 libupnp6					install
 libupower-glib1:amd64				install
 liburcu-dev					install
-liburcu2					install
+liburcu2:amd64					install
 liburi-perl					install
 libusageenvironment1				install
 libusb-0.1-4:amd64				install
