@@ -45,6 +45,8 @@ aspell-gu					install
 at						install
 at-spi2-core					install
 atool						install
+atril						install
+atril-common					install
 aufs-tools					install
 autoconf					install
 automake					install
@@ -93,6 +95,8 @@ ca-certificates					install
 ca-certificates-java				install
 cabal-install					install
 cabextract					install
+caja						install
+caja-common					install
 calendar-google-provider			install
 calibre						install
 calibre-bin					install
@@ -124,6 +128,7 @@ cpp						install
 cpp-4.6						install
 cpp-4.7						install
 cpp-4.8						install
+cpufrequtils					install
 crda						install
 creepy						install
 cron						install
@@ -161,6 +166,7 @@ debtree						install
 default-jdk					install
 default-jre					install
 default-jre-headless				install
+desktop-base					install
 desktop-file-utils				install
 developers-reference				install
 devscripts					install
@@ -187,6 +193,7 @@ distro-info-data				install
 dkms						install
 dmidecode					install
 dmsetup						install
+dmz-cursor-theme				install
 dnsmasq-base					install
 dnsutils					install
 doc-base					install
@@ -224,7 +231,11 @@ emdebian-archive-keyring			install
 enblend						install
 enchant						install
 enfuse						install
+engrampa					install
+engrampa-common					install
 enigmail					install
+eom						install
+eom-common					install
 equivs						install
 esound-common					install
 ethtool						install
@@ -246,6 +257,7 @@ festival-dev					install
 festlex-cmu					install
 festlex-poslex					install
 festvox-kallpc16k				install
+ffmpegthumbnailer				install
 figlet						install
 file						install
 findutils					install
@@ -349,6 +361,7 @@ funkload-doc					install
 fuse						install
 g++						install
 g++-4.8						install
+galculator					install
 garmin-forerunner-tools				install
 garmin-plugin					install
 gawk						install
@@ -392,6 +405,7 @@ gir1.2-gee-1.0					install
 gir1.2-glib-2.0					install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0					install
+gir1.2-mate-panel				install
 gir1.2-notify-0.7				install
 gir1.2-pango-1.0				install
 gir1.2-soup-2.4					install
@@ -452,6 +466,7 @@ grub2-splashimages				install
 gsettings-desktop-schemas			install
 gsfonts						install
 gsfonts-x11					install
+gstreamer0.10-alsa:amd64			install
 gstreamer0.10-gconf:amd64			install
 gstreamer0.10-nice:amd64			install
 gstreamer0.10-plugins-bad:amd64			install
@@ -464,12 +479,16 @@ gstreamer1.0-plugins-base:amd64			install
 gstreamer1.0-plugins-good:amd64			install
 gstreamer1.0-plugins-ugly:amd64			install
 gstreamer1.0-x:amd64				install
+gtk2-engines:amd64				install
+gtk2-engines-murrine:amd64			install
+gtk2-engines-pixbuf:amd64			install
 gtk2-engines-qtcurve:amd64			install
 gucharmap					install
 guile-1.8					install
 guile-1.8-dev					install
 guile-1.8-libs					install
 gvfs:amd64					install
+gvfs-bin					install
 gvfs-common					install
 gvfs-daemons					install
 gvfs-libs:amd64					install
@@ -702,6 +721,8 @@ libatkmm-1.6-1:amd64				install
 libatkmm-1.6-dev:amd64				install
 libatm1:amd64					install
 libatomic1:amd64				install
+libatrildocument3				install
+libatrilview3					install
 libatspi2.0-0:amd64				install
 libattica0.4:amd64				install
 libattr1:amd64					install
@@ -809,8 +830,12 @@ libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2:i386					deinstall
 libcairo2-dev					install
+libcairomm-1.0-1				install
+libcaja-extension1:amd64			install
 libcalendarsupport4				install
 libcamd2.3.1:amd64				install
+libcanberra-gtk-module:amd64			install
+libcanberra-gtk0:amd64				install
 libcanberra-gtk0:i386				deinstall
 libcanberra-gtk3-0:amd64			install
 libcanberra-gtk3-module:amd64			install
@@ -897,6 +922,7 @@ libconvert-asn1-perl				install
 libconvert-binhex-perl				install
 libcppunit-1.13-0:amd64				install
 libcppunit-dev					install
+libcpufreq0					install
 libcroco3:amd64					install
 libcrypt-des-perl				install
 libcrypt-dh-gmp-perl				install
@@ -965,6 +991,7 @@ libdebconfclient0:amd64				install
 libdevel-caller-perl				install
 libdevel-globaldestruction-perl			install
 libdevel-lexalias-perl				install
+libdevmapper-event1.02.1:amd64			install
 libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
@@ -1030,6 +1057,7 @@ libevent-2.0-5:amd64				install
 libeventviews4					install
 libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
+libexempi3:amd64				install
 libexif12:amd64					install
 libexif12:i386					install
 libexiv2-12					install
@@ -1053,6 +1081,7 @@ libfdt1:amd64					install
 libffi-dev:amd64				install
 libffi6:amd64					install
 libffi6:i386					install
+libffmpegthumbnailer4				install
 libfftw3-3:amd64				install
 libfftw3-double3:amd64				install
 libfftw3-long3:amd64				install
@@ -1147,6 +1176,7 @@ libgif4:amd64					install
 libgimp2.0					install
 libgirara-gtk3-1:amd64				install
 libgirepository-1.0-1				install
+libgksu2-0					install
 libgl1-mesa-dev					install
 libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
@@ -1258,7 +1288,12 @@ libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
 libgtkglext1					install
+libgtkmm-2.4-1c2a:amd64				install
+libgtksourceview2.0-0				install
+libgtksourceview2.0-common			install
 libgtkspell0					install
+libgtop2-7					install
+libgtop2-common					install
 libguard-perl					install
 libgucharmap-2-90-7				install
 libgudev-1.0-0:amd64				install
@@ -1269,6 +1304,7 @@ libgupnp-igd-1.0-4:amd64			install
 libgusb2:amd64					install
 libgvc5						install
 libgvpr1					install
+libgxps2:amd64					install
 libhamcrest-java				install
 libharfbuzz-bin					install
 libharfbuzz-dev					install
@@ -1384,6 +1420,7 @@ libjim0.74:amd64				install
 libjline-java					install
 libjna-java					install
 libjpeg-progs					install
+libjpeg62:amd64					install
 libjpeg8:amd64					install
 libjpeg8:i386					install
 libjpeg8-dev:amd64				install
@@ -1551,6 +1588,7 @@ liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.2-dev:amd64				install
+liblvm2app2.2:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
@@ -1573,7 +1611,18 @@ libmailimporter4				install
 libmailtools-perl				install
 libmailtransport4				install
 libmarblewidget16				install
+libmarco-private0:amd64				install
 libmarkdown2:amd64				install
+libmate-desktop-2-17:amd64			install
+libmate-menu2:amd64				install
+libmate-panel-applet-4-1			install
+libmate-slab0:amd64				install
+libmate-window-settings1:amd64			install
+libmatedict6					install
+libmatekbd-common				install
+libmatekbd4:amd64				install
+libmateweather-common				install
+libmateweather1:amd64				install
 libmatroska6:amd64				install
 libmbim-glib0:amd64				install
 libmcrypt4					install
@@ -1772,6 +1821,7 @@ libpangocairo-1.0-0:amd64			install
 libpangocairo-1.0-0:i386			deinstall
 libpangoft2-1.0-0:amd64				install
 libpangoft2-1.0-0:i386				install
+libpangomm-1.4-1:amd64				install
 libpangox-1.0-0:amd64				install
 libpangox-1.0-0:i386				install
 libpangoxft-1.0-0:amd64				install
@@ -2003,6 +2053,8 @@ librhino-java					install
 libroken18-heimdal:amd64			install
 librole-tiny-perl				install
 librpc-xml-perl					install
+librpm3						install
+librpmio3					install
 librsvg2-2:amd64				install
 librsvg2-bin					install
 librsvg2-common:amd64				install
@@ -2060,6 +2112,7 @@ libserializer-java				install
 libservlet2.5-java				install
 libservlet3.0-java				install
 libsgmls-perl					install
+libsgutils2-2					install
 libshout3:amd64					install
 libshp2:amd64					install
 libsidplay1					install
@@ -2242,6 +2295,7 @@ libunicode-linebreak-perl			install
 libuniconf4.6					install
 libuninameslist-dev				install
 libuninameslist0				install
+libunique-1.0-0					install
 libunique-3.0-0					install
 libunistring0:amd64				install
 libuniversal-require-perl			install
@@ -2330,6 +2384,8 @@ libwiretap3:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0					install
 libwnck-3-common				install
+libwnck-common					install
+libwnck22					install
 libwpd-0.9-9					install
 libwpg-0.2-2					install
 libwps-0.2-2					install
@@ -2446,6 +2502,7 @@ libxinerama1:amd64				install
 libxinerama1:i386				deinstall
 libxkbcommon0:amd64				install
 libxkbfile1:amd64				install
+libxklavier16					install
 libxm4:amd64					install
 libxml-commons-external-java			install
 libxml-commons-resolver1.1-java			install
@@ -2574,8 +2631,46 @@ manpages					install
 manpages-dev					install
 marble-data					install
 marble-plugins					install
+marco						install
+marco-common					install
+mate-applets					install
+mate-applets-common				install
+mate-backgrounds				install
+mate-control-center				install
+mate-control-center-common			install
+mate-desktop					install
+mate-desktop-common				install
+mate-desktop-environment			install
+mate-desktop-environment-core			install
+mate-icon-theme					install
+mate-icon-theme-faenza				install
+mate-media					install
+mate-media-common				install
+mate-media-gstreamer				install
+mate-menus					install
+mate-notification-daemon			install
+mate-panel					install
+mate-panel-common				install
+mate-polkit:amd64				install
+mate-polkit-common				install
+mate-power-manager				install
+mate-power-manager-common			install
+mate-screensaver				install
+mate-screensaver-common				install
+mate-session-manager				install
+mate-settings-daemon				install
+mate-settings-daemon-common			install
+mate-settings-daemon-gstreamer			install
+mate-system-monitor				install
+mate-system-monitor-common			install
+mate-terminal					install
+mate-terminal-common				install
+mate-themes					install
+mate-utils					install
+mate-utils-common				install
 mawk						install
 menu						install
+menu-xdg					install
 mercurial					install
 mercurial-common				install
 mesa-common-dev					install
@@ -2604,6 +2699,7 @@ mtpfs						install
 multiarch-support				install
 multistrap					install
 multitail					install
+murrine-themes					install
 mutt						install
 myrepos						install
 mysql-client-5.5				install
@@ -2810,6 +2906,8 @@ plasma-widget-folderview			install
 plasma-widget-lancelot				install
 plasma-widgets-addons				install
 plasma-widgets-workspace			install
+pluma						install
+pluma-common					install
 plymouth					install
 pm-utils					install
 po-debconf					install
@@ -2907,6 +3005,7 @@ python-gobject					install
 python-gobject-2				install
 python-gpgme					install
 python-gridfs					install
+python-gst0.10					install
 python-gtk2					install
 python-gtkspell					install
 python-gudev					install
@@ -3083,6 +3182,8 @@ ri1.9.1						install
 rig						install
 rlwrap						install
 rpcbind						install
+rpm-common					install
+rpm2cpio					install
 rsync						install
 rsyslog						install
 rtmpdump					install
@@ -3134,6 +3235,7 @@ smbclient					install
 software-properties-common			install
 software-properties-gtk				install
 soprano-daemon					install
+sound-theme-freedesktop				install
 sp						install
 spew						install
 sqlite3						install
@@ -3223,6 +3325,7 @@ tzdata						install
 tzdata-java					install
 ucf						install
 udev						install
+udisks						install
 udisks2						install
 ufraw-batch					install
 unar						install
