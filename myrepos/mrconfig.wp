@@ -45,6 +45,7 @@ checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/p/mediawiki/extensio
 
 [core]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'core'
+update = php /var/www/mw-master/core/maintenance/update.php
 
 [VE/Parsoid]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Parsoid.git' 'Parsoid'

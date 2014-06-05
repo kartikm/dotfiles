@@ -285,6 +285,3 @@ update = fork_update
 #local wikis
 [wiki]
 checkout = git clone git://home/kartik/wiki.git
-
-[/var/www/mw-master/core]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git' 'core'
