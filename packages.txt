@@ -2634,7 +2634,7 @@ netdiag						install
 netpbm						install
 netsniff-ng					install
 network-manager					install
-network-manager-openvpn				install
+network-manager-openvpn				deinstall
 network-manager-pptp				install
 network-manager-vpnc				install
 nfs-common					install
@@ -2729,7 +2729,7 @@ openssh-sftp-server				install
 openssl						install
 openssl-blacklist				install
 openssl-blacklist-extra				install
-openvpn						install
+openvpn						deinstall
 os-prober					install
 oss-compat					install
 ostinato					install
