@@ -285,3 +285,6 @@ update = fork_update
 #local wikis
 [wiki]
 checkout = git clone git://home/kartik/wiki.git
+
+[development/misc/end-to-end]
+checkout = git clone 'https://code.google.com/p/end-to-end/' 'end-to-end'
