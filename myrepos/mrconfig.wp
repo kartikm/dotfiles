@@ -110,3 +110,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 
 [GSoC/LUv2]
 checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
+
+[LE/deploy]
+checkout = git clone 'ssh://gerrit.wikimedia.org:29418/mediawiki/services/cxserver/deploy.git' 'deploy'
