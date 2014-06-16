@@ -3,7 +3,7 @@
 ### Baishampayan Ghose <http://github.com/ghoseb/zshrc>
 ### Mika <http://grml.org/zsh-pony/>
 
-#Load the completions stuff
+# Load the completions stuff
 autoload -U compinit
 compinit
 
@@ -13,7 +13,7 @@ SAVEHIST=100000
 HISTSIZE=100000
 DIRSTACKSIZE=30
 
-#ZSH Options
+# ZSH Options
 setopt autopushd pushdminus pushdsilent pushdtohome pushdignoredups # push directories visited automatically onto stack
 setopt autocd
 setopt globdots # find dotfiles easier
@@ -46,14 +46,14 @@ setopt MARK_DIRS # adds slash to end of completed dirs
 setopt INC_APPEND_HISTORY     # append history as command are entered
 setopt HIST_NO_STORE          # don't save 'history' cmd in history
 
-#Useful pipe shortcuts
+# Useful pipe shortcuts
 bindkey -s '^|l' " | less\n"                   # c-| l  pipe to less
 bindkey -s '^|g' ' | grep ""^[OD'             # c-| g  pipe to grep
 bindkey -s '^|a' " | awk '{print $}'^[OD^[OD"  # c-| a  pipe to awk
 bindkey -s '^|s' ' | sed -e "s///g"^[OD^[OD^[OD^[OD' # c-| s  pipe to sed
 bindkey -s '^|w' " | wc -l\n"                   # c-| w  pipe to wc
 
-#support colors in less
+# Support colors in less
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
 export LESS_TERMCAP_me=$'\E[0m'
@@ -62,21 +62,21 @@ export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 
-#Prompt
+# Prompts
 export PS1="${GRAY}[${GREEN}%n@%m: %~/ ${GRAY}]${RED}%#$NOCOLOR "
 export PS2="%_> "
 
-#Emacs key bindings
+# Emacs key bindings
 bindkey -e
 
-#For zsh to work well within Emacs
+# For zsh to work well within Emacs
 [[ $EMACS = t ]] && unsetopt zle
 
-#ENV
+# ENV
 export PAGER=/usr/bin/less
 export PATH=$PATH:$HOME/.bin:/sbin:$HOME/.bin/PhpStrom/bin:$HOME/.rvm/bin
 
-#Completion styles
+# Completion styles
 zstyle ':completion:*' completer _expand _complete _correct _approximate
 zstyle ':completion:*' expand prefix suffix
 zstyle ':completion:*' file-sort access
@@ -105,7 +105,7 @@ zstyle ':completion:*:warnings' format '%B%U---- no match for: %d%u%b' # Describ
 zstyle ':completion:*:options' description 'yes'
 zstyle ':completion:*:options' auto-description '%d'
 
-#Aliases
+# Aliases
 alias bc='bc -l'
 alias cl='clear'
 alias c=cl
@@ -144,7 +144,7 @@ alias wv='sudo wvdial'
 alias i3lock=' i3lock -c 151610'
 alias pdf='zathura'
 
-#MW specefic
+# MW specefic
 export MY_MW=/var/www/mw-master/core
 
 core_clone() {
@@ -160,7 +160,7 @@ localset() { vim $MY_MW/LocalSettings.php; }
 alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
 alias pstrom='~/.bin/PhpStrom/bin/phpstorm.sh'
 
-#Git
+# Git
 alias amend='git commit -a --amend'
 alias amendn='git commit -a --amend --no-edit'
 alias gc='git gc'
@@ -176,16 +176,16 @@ kbo() { export KEEP_BROWSER_OPEN=true; }
 # Simple Server
 pshs() { python -m SimpleHTTPServer; }
 
-#random stuffs
+# Random stuffs
 alias stardate='date "+%y%m.%d/%H%M"'   # from Joey
 alias rand='tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
 alias entertain='mplayer "$(find "." -type f -regextype posix-egrep -regex ".*\.(avi|mkv|flv|mpg|mpeg|mp4|wmv|3gp|mov|divx)" | shuf -n1)"'
 alias gdocs='google-chrome --app=http://docs.google.com'
 
-#tor settings
+# tor settings
 alias google-chrome-tor='google-chrome --proxy-server="socks://127.0.0.1:9050"'
 
-#Debian
+# Debian
 export EDITOR='vim'
 export VISUAL='vim'
 export DEBEMAIL="kartik@debian.org"
@@ -195,22 +195,23 @@ alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 alias lintian='lintian -iIEcv --pedantic --color auto'
 
-#via: http://www.reddit.com/r/linux/comments/m28g2/what_tiny_yet_awesome_hacks_do_you_use/c2xi1ke
+# via: http://www.reddit.com/r/linux/comments/m28g2/what_tiny_yet_awesome_hacks_do_you_use/c2xi1ke
 alias ae="sudo $EDITOR /etc/apt/sources.list"
 alias aL="dpkg -L"
 alias ag="dpkg -l|grep"
 
-#some stats
+# Some stats
 alias debs-by-size='grep-status -FStatus -sInstalled-Size,Package -n "install ok installed" | paste -sd "  \n" | sort -rn'
 alias top10='print -l ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 
-#telegram build
+# Telegram build
 alias tg=~/development/github/forks/tg/telegram -k tg.pub
 
-#dirs
+# Dirs
 alias core=/var/www/mw-master/core
-alias cx=~/development/WP/repos/LE/ContentTranslation
-alias cxs=~/development/WP/repos/LE/cxserver
+alias cx=~/development/WP/repos/LE/CX/ContentTranslation
+alias cxd=~/development/WP/repos/LE/CX/deploy
+alias cxs=~/development/WP/repos/LE/CX/cxserver
 alias twn=~/development/WP/repos/LE/translatewiki
 alias tmpe=~/development/WP/repos/LE/TwnMainPage
 alias tx=~/development/WP/repos/LE/Translate
@@ -219,13 +220,13 @@ alias ux=~/development/WP/repos/LE/UniversalLanguageSelector
 alias gb=~/development/github/forks
 alias pkg=~/development/debian/packages
 
-#fortunes-debian-hints
+# fortunes-debian-hints
 if [ -x /usr/games/fortune ]; then
  /usr/games/fortune debian-hints
  echo ""
 fi
 
-# utility functions
+# Utility functions
 # license check foo
 # By: Kartik Mistry
 lcheck() {
@@ -259,7 +260,7 @@ strace -q -ewrite cp -- "${1}" "${2}" 2>&1 \
          END { print "" }' total_size=$(stat -c '%s' "${1}") count=0
 }
 
-# only upgrade installed packages
+# Only upgrade installed packages
 # source: http://www.df7cb.de/blog/2010/Upgrading_only_installed_packages.html
 safe_upgrade () {
  if [ "$*" ] ; then
