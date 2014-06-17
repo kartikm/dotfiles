@@ -178,6 +178,8 @@ dia-common					install
 dia-libs					install
 dia-shapes					install
 dialog						install
+dict						install
+dictd						install
 dictionaries-common				install
 dictzip						install
 diffstat					install
@@ -1065,6 +1067,7 @@ libfftw3-double3:amd64				install
 libfftw3-long3:amd64				install
 libfftw3-single3:amd64				install
 libfile-basedir-perl				install
+libfile-copy-recursive-perl			install
 libfile-desktopentry-perl			install
 libfile-fcntllock-perl				install
 libfile-fnmatch-perl				install
@@ -3074,6 +3077,7 @@ readahead-fedora				install
 readline-common					install
 realpath					install
 reaver						install
+recode						install
 recoll						install
 redis-server					install
 redis-tools					install
@@ -3239,6 +3243,7 @@ uno-libs3					install
 unp						install
 unrar						install
 unzip						install
+update-inetd					install
 update-notifier-common				install
 update-notifier-kde				install
 upower						install

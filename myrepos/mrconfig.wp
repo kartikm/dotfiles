@@ -68,7 +68,7 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 [LE/TwnMainPage]
 checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/mediawiki/extensions/TwnMainPage' 'TwnMainPage'
 
-[LE/ContentTranslation]
+[LE/CX/ContentTranslation]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
 
 [Misc/mediawiki-tools-codesniffer]
@@ -102,7 +102,7 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/vagrant' 'vagrant
 [Config/zuul-config]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/integration/zuul-config' 'zuul-config'
 
-[LE/cxserver]
+[LE/CX/cxserver]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/cxserver' 'cxserver'
 
 [Misc/VectorBeta]
@@ -111,5 +111,8 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 [GSoC/LUv2]
 checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
 
-[LE/deploy]
+[LE/CX/deploy]
 checkout = git clone 'ssh://gerrit.wikimedia.org:29418/mediawiki/services/cxserver/deploy.git' 'deploy'
+
+[OPs/puppet]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'

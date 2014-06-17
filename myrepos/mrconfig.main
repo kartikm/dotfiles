@@ -207,9 +207,6 @@ checkout = git clone 'git@github.com:gujaratilexicon/ascii2unicode.git' 'ascii2u
 checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
 
 #WP
-[development/wikipedia/puppet]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/operations/puppet' 'puppet'
-
 [development/wikipedia/mw-tools-cs]
 checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 'mw-tools-cs'
 
@@ -288,3 +285,7 @@ checkout = git clone git://home/kartik/wiki.git
 
 [development/misc/end-to-end]
 checkout = git clone 'https://code.google.com/p/end-to-end/' 'end-to-end'
+
+[development/fonts/WikiFont]
+checkout = git clone 'git@github.com:kartikm/WikiFont.git' 'WikiFont'
+update = fork_update
