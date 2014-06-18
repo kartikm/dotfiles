@@ -3391,7 +3391,6 @@ xserver-xorg-video-vmware			install
 xsltproc					install
 xterm						install
 xtrans-dev					install
-xulrunner-29					install
 xvt						install
 xz-utils					install
 yokadi						install
