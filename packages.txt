@@ -22,6 +22,8 @@ apache2						install
 apache2-bin					install
 apache2-data					install
 apache2-utils					install
+apertium					install
+apertium-en-es					install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -46,6 +48,7 @@ at						install
 at-spi2-core					install
 atool						install
 aufs-tools					install
+augeas-lenses					install
 autoconf					install
 automake					install
 automake1.11					install
@@ -238,6 +241,7 @@ exim4-base					install
 exim4-config					install
 exim4-daemon-light				install
 extra-xdg-menus					install
+facter						install
 fai-client					install
 fakeroot					install
 faketime					install
@@ -510,6 +514,7 @@ icedtea-netx-common				install
 iceowl-extension				install
 iceweasel					install
 icoutils					install
+ieee-data					install
 ienglish-common					install
 ifupdown					install
 ikiwiki						install
@@ -662,6 +667,7 @@ libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
+libapertium3-3.1-0				install
 libapparmor1:amd64				install
 libappindicator1				install
 libapr1:amd64					install
@@ -721,6 +727,7 @@ libaudit-common					install
 libaudit-dev:amd64				install
 libaudit1:amd64					install
 libaudit1:i386					install
+libaugeas0					install
 libauparse0:amd64				install
 libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
@@ -1207,6 +1214,7 @@ libgnuinet-java					install
 libgnumail-java					install
 libgnupg-interface-perl				install
 libgnustep-base1.22				install
+libgnutls-deb0-28:amd64				install
 libgnutls-dev					install
 libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
@@ -1554,6 +1562,7 @@ liblqr-1-0:amd64				install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
+liblttoolbox3-3.1-0				install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -2022,6 +2031,7 @@ librtmp1:amd64					install
 libruby1.9.1					install
 libruby1.9.1-dbg				install
 libruby2.0:amd64				install
+libruby2.1:amd64				install
 librxtx-java					install
 librygel-core-2.2-2				install
 librygel-renderer-2.2-2				install
@@ -2564,6 +2574,7 @@ lsb-release					install
 lshw						install
 lsof						install
 ltrace						install
+lttoolbox					install
 lua5.2						install
 luatex						install
 lxc						install
@@ -2860,6 +2871,8 @@ pulseaudio					install
 pulseaudio-esound-compat			install
 pulseaudio-module-x11				install
 pulseaudio-utils				install
+puppet						install
+puppet-common					install
 pv						install
 pydb						install
 pylint						install
@@ -3097,10 +3110,13 @@ rsync						install
 rsyslog						install
 rtmpdump					install
 ruby						install
+ruby-augeas					install
 ruby-childprocess				install
 ruby-erubis					install
 ruby-ffi					install
+ruby-hiera					install
 ruby-i18n					install
+ruby-json					install
 ruby-kde4					install
 ruby-log4r					install
 ruby-net-scp					install
@@ -3108,12 +3124,17 @@ ruby-net-ssh					install
 ruby-plasma					install
 ruby-qt4					install
 ruby-qt4-webkit					install
+ruby-rgen					install
+ruby-safe-yaml					install
+ruby-selinux					install
+ruby-shadow					install
 ruby1.9.1					install
 ruby1.9.1-dev					install
 ruby1.9.1-examples				install
 ruby1.9.1-full					install
 ruby1.9.3					install
 ruby2.0						install
+ruby2.1						install
 rubygems-integration				install
 rygel						install
 rygel-gst-launch				install
@@ -3270,6 +3291,7 @@ vim						install
 vim-common					install
 vim-runtime					install
 vim-scripts					install
+virt-what					install
 virtualbox					install
 virtualbox-dkms					install
 virtualbox-qt					install
