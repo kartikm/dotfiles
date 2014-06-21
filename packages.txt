@@ -2111,7 +2111,7 @@ libsmokeknewstuff3-3				install
 libsmokekparts3					install
 libsmokektexteditor3				install
 libsmokekutils3					install
-libsmokenepomuk3				install
+libsmokenepomuk3				deinstall
 libsmokeplasma3					install
 libsmokeqtcore4-3				install
 libsmokeqtdbus4-3				install
