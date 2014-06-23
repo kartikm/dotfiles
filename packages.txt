@@ -110,6 +110,7 @@ cmake						install
 cmake-data					install
 cmatrix						install
 colord						install
+colord-data					install
 colordiff					install
 colortail					install
 comix						install
@@ -877,7 +878,9 @@ libclucene-core1:amd64				install
 libcmis-0.4-4					install
 libcolamd2.8.0:amd64				install
 libcolord1:amd64				install
+libcolord2:amd64				install
 libcolorhug1:amd64				install
+libcolorhug2:amd64				install
 libcomerr2:amd64				install
 libcomerr2:i386					install
 libcommon-sense-perl				install
@@ -2873,6 +2876,7 @@ pulseaudio-module-x11				install
 pulseaudio-utils				install
 puppet						install
 puppet-common					install
+puppet-lint					install
 pv						install
 pydb						install
 pylint						install
@@ -2893,8 +2897,10 @@ python-bson					install
 python-bson-ext					install
 python-cairo					install
 python-chardet					install
+python-chardet-whl				install
 python-cherrypy3				install
 python-colorama					install
+python-colorama-whl				install
 python-configobj				install
 python-coverage					install
 python-crypto					install
@@ -2909,6 +2915,7 @@ python-decorator				install
 python-defer					install
 python-dev					install
 python-distlib					install
+python-distlib-whl				install
 python-distro-info				install
 python-dns					install
 python-dnspython				install
@@ -2934,6 +2941,7 @@ python-gtk2					install
 python-gtkspell					install
 python-gudev					install
 python-html5lib					install
+python-html5lib-whl				install
 python-imaging					install
 python-kde4					install
 python-librdf					install
@@ -2958,6 +2966,7 @@ python-pexpect					install
 python-pexpect-doc				install
 python-pil					install
 python-pip					install
+python-pip-whl					install
 python-pkg-resources				install
 python-pyexiv2					install
 python-pygame					install
@@ -2972,14 +2981,17 @@ python-qt4-dbus					install
 python-reportbug				install
 python-repoze.lru				install
 python-requests					install
+python-requests-whl				install
 python-roman					install
 python-routes					install
 python-serial					install
 python-setuptools				install
+python-setuptools-whl				install
 python-simplegeneric				install
 python-simplejson				install
 python-sip					install
 python-six					install
+python-six-whl					install
 python-sleekxmpp				install
 python-soappy					install
 python-sqlalchemy				install
@@ -2992,6 +3004,7 @@ python-tk					install
 python-tweepy					install
 python-uno					install
 python-urllib3					install
+python-urllib3-whl				install
 python-urwid					install
 python-utidylib					install
 python-validictory				install
@@ -3045,6 +3058,7 @@ python3-tk					install
 python3-tornado					install
 python3-tz					install
 python3-urllib3					install
+python3-virtualenv				install
 python3.3					install
 python3.3-dev					install
 python3.3-minimal				install
@@ -3295,6 +3309,7 @@ virt-what					install
 virtualbox					install
 virtualbox-dkms					install
 virtualbox-qt					install
+virtualenv					install
 virtualenv-clone				install
 virtualenvwrapper				install
 vlc						install
