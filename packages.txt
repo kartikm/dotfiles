@@ -877,9 +877,7 @@ libclucene-contribs1:amd64			install
 libclucene-core1:amd64				install
 libcmis-0.4-4					install
 libcolamd2.8.0:amd64				install
-libcolord1:amd64				install
 libcolord2:amd64				install
-libcolorhug1:amd64				install
 libcolorhug2:amd64				install
 libcomerr2:amd64				install
 libcomerr2:i386					install

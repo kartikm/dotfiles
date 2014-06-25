@@ -8,7 +8,7 @@ lib =
 		git push
 	}
 
-#debian
+# Debian
 [/home/kartik/development/debian/debian-in]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-in/debian-in.git' 'debian-in'
 
@@ -24,13 +24,14 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/tasksel/tasksel.git' '
 [development/debian/release-notes]
 checkout = svn co svn+ssh://kartik@svn.debian.org/svn/ddp/manuals/trunk/release-notes
 
-[development/debian/talks/packaging-tutorial]
-checkout = git clone 'git://git.debian.org/users/lucas/packaging-tutorial.git' 'packaging-tutorial'
+# Disabled: 20140625
+#[development/debian/talks/packaging-tutorial]
+#checkout = git clone 'git://git.debian.org/users/lucas/packaging-tutorial.git' 'packaging-tutorial'
 
 [development/debian/debci]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/debci.git' 'debci'
 
-#upstreams
+# Upstreams
 [development/upstreams/aspell-lang]
 checkout = cvs -d ':pserver:anonymous@cvs.savannah.gnu.org:/sources/aspell' co -d 'aspell-lang' 'aspell-lang'
 
@@ -55,7 +56,7 @@ checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
 [development/upstreams/xosview]
 checkout = git clone 'git@github.com:hills/xosview.git' 'xosview'
 
-#fonts
+# Fonts
 [development/fonts/fonts-aakar]
 checkout = git clone 'git@github.com:kartikm/fonts-aakar.git' 'fonts-aakar'
 
@@ -70,6 +71,7 @@ checkout = git clone 'git://git.fedorahosted.org/lohit.git' 'lohit'
 
 [development/fonts/tofudetector]
 checkout = git clone 'git@github.com:kartikm/tofudetector.git' 'tofudetector'
+update = fork_update
 
 [development/fonts/sfntly]
 checkout = svn co 'http://sfntly.googlecode.com/svn/trunk' 'sfntly'
@@ -78,7 +80,11 @@ checkout = svn co 'http://sfntly.googlecode.com/svn/trunk' 'sfntly'
 checkout = git clone 'git@github.com:kartikm/fontforge.git' 'fontforge'
 update = fork_update
 
-#packages
+[development/fonts/WikiFont]
+checkout = git clone 'git@github.com:kartikm/WikiFont.git' 'WikiFont'
+update = fork_update
+
+# Packages
 [development/debian/packages/aria2/aria2]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/aria2.git' 'aria2'
 
@@ -109,7 +115,7 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xdalicloc
 [development/debian/packages/xosview/git/xosview]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.git' 'xosview'
 
-#l10n
+# l10n
 [development/l10n/KDE/gu]
 checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/gu' 'gu'
 
@@ -120,7 +126,7 @@ checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/templates'
 CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
 checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint' 'tuxpaint'
 
-#[development/l10n/tuxfamily/tuxpaint-stamps]
+[development/l10n/tuxfamily/tuxpaint-stamps]
 CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
 checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint-stamps' 'tuxpaint-stamps'
 
@@ -148,17 +154,17 @@ checkout = git clone 'git@github.com:kartikm/dictionary-bot.git' 'dictionary-bot
 [development/l10n/GujaratiLexicon-extension]
 checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
 
-#configs
+[development/l10n/gtts]
+checkout = git clone 'git@github.com:kartikm/gtts.git' 'gtts'
+
+# Configs
 [development/configs/awesome-config]
 checkout = git clone 'git://gitorious.org/awesome-config/awesome-config.git' 'awesome-config'
-
-[development/configs/dotfiles]
-checkout = git clone 'http://git.sysphere.org/dotfiles' 'dotfiles'
 
 [development/configs/oh-my-zsh]
 checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' 'oh-my-zsh'
 
-#books
+# Books
 [development/books/penguin-can-fly]
 checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-fly'
 
@@ -189,7 +195,7 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/designwithfontforge.com.git' 'designwithfontforge.com'
 update = fork_update
 
-#misc
+# Misc
 [development/sixthsense/gitrepo/sixthsense]
 checkout = git clone 'git@github.com:sixthsense/sixthsense.git' 'sixthsense'
 
@@ -199,14 +205,17 @@ checkout = git clone 'git@github.com:kartikm/cv.git' 'cv'
 [development/github/dotfiles]
 checkout = git clone 'git@github.com:kartikm/dotfiles.git' 'dotfiles'
 
-#GL
+[development/misc/end-to-end]
+checkout = git clone 'https://code.google.com/p/end-to-end/' 'end-to-end'
+
+# GL
 [development/github/GL/ascii2unicode]
 checkout = git clone 'git@github.com:gujaratilexicon/ascii2unicode.git' 'ascii2unicode'
 
 [development/github/GL/GujaratiLexicon-extension]
 checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
 
-#WP
+# WP
 [development/wikipedia/mw-tools-cs]
 checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 'mw-tools-cs'
 
@@ -283,9 +292,5 @@ update = fork_update
 [wiki]
 checkout = git clone git://home/kartik/wiki.git
 
-[development/misc/end-to-end]
-checkout = git clone 'https://code.google.com/p/end-to-end/' 'end-to-end'
-
-[development/fonts/WikiFont]
-checkout = git clone 'git@github.com:kartikm/WikiFont.git' 'WikiFont'
-update = fork_update
+[development/l10n/gtts]
+checkout = git clone 'git@github.com:kartikm/gtts.git' 'gtts'
