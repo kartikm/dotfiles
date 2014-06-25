@@ -1,0 +1,4 @@
+#LU
+@daily php /var/www/mw-master/core/extensions/LocalisationUpdate/update.php --quiet
+#Git test
+00 16 * * * /bin/bash /home/kartik/.bin/sync-dotfiles
