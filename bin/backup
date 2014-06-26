@@ -2,13 +2,8 @@
 
 clear
 
-if mountpoint -q /media/Transcend_; then
-    notify-send --expire-time=3000 --urgency=critical "Backup harddisk is not mounted, Please attach your external disk first"
-    exit;
-else
-    #Use .rsync-exclude.txt to files/dirs you don't want to backup
-    rsync -avz --exclude-from '.rsync-exclude.txt' --delete /home/kartik/ /media/Transcend_/backup
-    rsync -avz --delete /etc /media/Transcend_/backup/backup
+#Use .rsync-exclude.txt to files/dirs you don't want to backup
+rsync -avz --exclude-from '.rsync-exclude.txt' --delete /home/kartik/ /media/kartik/Transcend/backup
+rsync -avz --delete /etc /kartik/media/Transcend/backup/backup
 
-    notify-send --expire-time=5000 --urgency=critical "Backup finished! Please check log for any failures.."
-fi
+notify-send --expire-time=5000 --urgency=critical "Backup finished! Please check log for any failures.."

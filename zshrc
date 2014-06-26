@@ -157,14 +157,16 @@ ext_clone() {
 
 localset() { vim $MY_MW/LocalSettings.php; }
 
+mwupdate() { php $MY_MW/maintenance/update.php --quick; }
+
 alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
-alias pstrom='~/.bin/PhpStrom/bin/phpstorm.sh'
 
 # Git
 alias amend='git commit -a --amend'
 alias amendn='git commit -a --amend --no-edit'
 alias gc='git gc'
 alias master='git checkout master'
+alias prod='git checkout production'
 alias mum='git fetch upstream; git merge upstream/master;'
 alias pull='git checkout master && git pull'
 alias review='git fetch gerrit; git review;'

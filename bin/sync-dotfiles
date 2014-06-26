@@ -21,7 +21,6 @@ cp ~/.vimrc                                 $DOT/vimrc
 cp ~/.zshrc                                 $DOT/zshrc
 cp /etc/apt/sources.list                    $DOT/sources.list.olive2
 cp -r ~/.config/awesome/*                   $DOT/config/awesome
-crontab -l                               >> $DOT/crontab.txt
 
 # scripts
 cp ~/.bin/backup                            $DOT/bin/backup
