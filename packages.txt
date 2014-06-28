@@ -128,6 +128,7 @@ cpp						install
 cpp-4.6						install
 cpp-4.7						install
 cpp-4.8						install
+cpp-4.9						install
 cpufrequtils					install
 crda						install
 creepy						install
@@ -370,6 +371,7 @@ gcc-4.7-base:i386				install
 gcc-4.8						install
 gcc-4.8-base:amd64				install
 gcc-4.8-base:i386				install
+gcc-4.9						install
 gcc-4.9-base:amd64				install
 gcc-4.9-base:i386				install
 gcc-avr						install
@@ -685,6 +687,7 @@ libarchive13:amd64				install
 libarpack2					install
 libart-2.0-2:amd64				install
 libasan0:amd64					install
+libasan1:amd64					install
 libasm3-java					install
 libasn1-8-heimdal:amd64				install
 libasound2:amd64				install
@@ -854,6 +857,7 @@ libchm-dev					install
 libchm1						install
 libcholmod2.1.2:amd64				install
 libchromaprint0:amd64				install
+libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
@@ -1115,6 +1119,7 @@ libgbm1:i386					deinstall
 libgc1c2:amd64					install
 libgcc-4.7-dev:amd64				install
 libgcc-4.8-dev:amd64				install
+libgcc-4.9-dev:amd64				install
 libgcc1:amd64					install
 libgcc1:i386					install
 libgcj-bc:amd64					install
@@ -1137,9 +1142,8 @@ libgd-gd2-noxpm-perl				install
 libgd2-xpm:i386					deinstall
 libgd3:amd64					install
 libgd3:i386					install
-libgdbm-dev					install
 libgdbm3:amd64					install
-libgdbm3:i386					install
+libgdbm3:i386					deinstall
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-0:i386				deinstall
 libgdk-pixbuf2.0-common				install
@@ -1560,6 +1564,7 @@ liblognorm0					install
 libloudmouth1-0					install
 libloudmouth1-dev				install
 liblqr-1-0:amd64				install
+liblsan0:amd64					install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
@@ -2112,7 +2117,6 @@ libsmokeknewstuff3-3				install
 libsmokekparts3					install
 libsmokektexteditor3				install
 libsmokekutils3					install
-libsmokenepomuk3				deinstall
 libsmokeplasma3					install
 libsmokeqtcore4-3				install
 libsmokeqtdbus4-3				install
@@ -2255,6 +2259,7 @@ libtwolame0					install
 libtxc-dxtn-s2tc0:amd64				install
 libtxc-dxtn-s2tc0:i386				install
 libtype-tiny-perl				install
+libubsan0:amd64					install
 libudev-dev					install
 libudev1:amd64					install
 libudev1:i386					install
@@ -2649,7 +2654,6 @@ netdiag						install
 netpbm						install
 netsniff-ng					install
 network-manager					install
-network-manager-openvpn				deinstall
 network-manager-pptp				install
 network-manager-vpnc				install
 nfs-common					install
@@ -2744,7 +2748,7 @@ openssh-sftp-server				install
 openssl						install
 openssl-blacklist				install
 openssl-blacklist-extra				install
-openvpn						deinstall
+openvpn						install
 os-prober					install
 oss-compat					install
 ostinato					install
