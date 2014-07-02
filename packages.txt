@@ -24,6 +24,7 @@ apache2-data					install
 apache2-utils					install
 apertium					install
 apertium-en-es					install
+apertium-es-ca					install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -503,10 +504,8 @@ hugin-data					install
 hugin-tools					install
 hunspell-en-us					install
 hyphen-gu					install
-i3						install
 i3-wm						install
 i3lock						install
-i3status					install
 iamerican					install
 icedove						install
 icedtea-6-jre-cacao:amd64			install
@@ -908,8 +907,6 @@ libconfig-file-perl				install
 libconfig-general-perl				install
 libconfig-inifiles-perl				install
 libconfig9:amd64				install
-libconfuse-common				install
-libconfuse0:amd64				install
 libconvert-asn1-perl				install
 libconvert-binhex-perl				install
 libcppunit-1.13-0:amd64				install
@@ -2802,7 +2799,6 @@ php5-json					install
 php5-mcrypt					install
 php5-mysql					install
 php5-pgsql					install
-php5-redis					install
 php5-xdebug					install
 phpmyadmin					install
 phpunit						install
@@ -3108,8 +3104,6 @@ realpath					install
 reaver						install
 recode						install
 recoll						install
-redis-server					install
-redis-tools					install
 remind						install
 rename						install
 reportbug					install
