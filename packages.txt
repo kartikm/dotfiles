@@ -360,6 +360,7 @@ funkload-doc					install
 fuse						install
 g++						install
 g++-4.8						install
+g++-4.9						install
 garmin-forerunner-tools				install
 garmin-plugin					install
 gawk						install
@@ -387,6 +388,7 @@ gdb						install
 gdbserver					install
 gdisk						install
 genisoimage					install
+geoclue-2.0					install
 geoip-bin					install
 geoip-database					install
 gettext						install
@@ -506,6 +508,7 @@ hunspell-en-us					install
 hyphen-gu					install
 i3-wm						install
 i3lock						install
+i965-va-driver:amd64				install
 iamerican					install
 icedove						install
 icedtea-6-jre-cacao:amd64			install
@@ -700,8 +703,10 @@ libaspell15					install
 libasprintf-dev:amd64				install
 libasprintf0c2:amd64				install
 libass4:amd64					install
+libass5:amd64					install
 libassuan-dev					install
 libassuan0:amd64				install
+libastro1					install
 libasync-interrupt-perl				install
 libasyncns0:amd64				install
 libasyncns0:i386				install
@@ -786,18 +791,19 @@ libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.55.0:amd64			install
-libboost-dev					install
+libboost-dev:amd64				install
 libboost-filesystem1.54.0:amd64			install
 libboost-filesystem1.55.0:amd64			install
 libboost-iostreams1.55.0:amd64			install
 libboost-program-options1.55.0:amd64		install
 libboost-python1.49.0				install
 libboost-python1.54.0				install
+libboost-python1.55.0				install
 libboost-regex1.55.0:amd64			install
 libboost-system1.54.0:amd64			install
 libboost-system1.55.0:amd64			install
 libboost-thread1.55.0:amd64			install
-libboost1.54-dev				install
+libboost1.55-dev:amd64				install
 libbrlapi0.6:amd64				install
 libbsd-dev					install
 libbsd0:amd64					install
@@ -1217,6 +1223,7 @@ libgnumail-java					install
 libgnupg-interface-perl				install
 libgnustep-base1.22				install
 libgnutls-deb0-28:amd64				install
+libgnutls-deb0-28:i386				install
 libgnutls-dev					install
 libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
@@ -1545,6 +1552,7 @@ liblinear-tools					install
 liblinear1					install
 liblinux-inotify2-perl				install
 liblircclient0					install
+liblist-allutils-perl				install
 liblist-moreutils-perl				install
 liblivemedia23					install
 libllvm3.3:amd64				install
@@ -1554,10 +1562,12 @@ libloader-java					install
 liblocale-gettext-perl				install
 liblockfile-bin					install
 liblockfile1:amd64				install
+liblog-message-perl				install
 liblog-message-simple-perl			install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
-liblognorm0					install
+liblognorm0					deinstall
+liblognorm1					install
 libloudmouth1-0					install
 libloudmouth1-dev				install
 liblqr-1-0:amd64				install
@@ -1593,6 +1603,7 @@ libmailimporter4				install
 libmailtools-perl				install
 libmailtransport4				install
 libmarblewidget17				install
+libmarblewidget18				install
 libmarco-private0:amd64				install
 libmarkdown2:amd64				install
 libmatroska6:amd64				install
@@ -1725,6 +1736,7 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore3					install
+libokularcore4					install
 libonig2:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -1856,6 +1868,7 @@ libpopt0:i386					install
 libportaudio2:amd64				install
 libportmidi0					install
 libpostproc52					install
+libpotrace0					install
 libppl-c4:amd64					install
 libppl13:amd64					install
 libpq5:amd64					install
@@ -1896,6 +1909,8 @@ libpython3.3:amd64				install
 libpython3.3-dev:amd64				install
 libpython3.3-minimal:amd64			install
 libpython3.3-stdlib:amd64			install
+libpython3.4:amd64				install
+libpython3.4-dev:amd64				install
 libpython3.4-minimal:amd64			install
 libpython3.4-stdlib:amd64			install
 libqalculate5:amd64				install
@@ -1908,6 +1923,8 @@ libqgpgme1					install
 libqimageblitz4					install
 libqjson0:amd64					install
 libqmi-glib0:amd64				install
+libqmi-glib1:amd64				install
+libqmi-proxy					install
 libqmobipocket1					install
 libqoauth1					install
 libqrencode3:amd64				install
@@ -1944,20 +1961,20 @@ libqt5gui5:amd64				install
 libqt5help5:amd64				install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
-libqt5opengl5-dev				install
+libqt5opengl5-dev:amd64				install
 libqt5printsupport5:amd64			install
 libqt5qml5:amd64				install
 libqt5quick5:amd64				install
 libqt5quickparticles5:amd64			install
 libqt5quicktest5:amd64				install
+libqt5quickwidgets5:amd64			install
 libqt5script5:amd64				install
-libqt5sensors5:amd64				install
-libqt5sensors5-dev				install
+libqt5sensors5:amd64				deinstall
 libqt5sql5:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5test5:amd64				install
 libqt5webkit5:amd64				install
-libqt5webkit5-dev				install
+libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5xml5:amd64				install
 libqtassistantclient4:amd64			install
@@ -2166,6 +2183,7 @@ libssl1.0.0:amd64				install
 libssl1.0.0:i386				install
 libstartup-notification0:amd64			install
 libstdc++-4.8-dev:amd64				install
+libstdc++-4.9-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
 libstdc++6-4.7-dev:amd64			install
@@ -2182,6 +2200,7 @@ libsvn1:amd64					install
 libswitch-perl					install
 libswscale2:amd64				install
 libsybdb5:amd64					install
+libsynctex1					install
 libsyndication4					install
 libsyntax-highlight-engine-simple-languages-perl	install
 libsyntax-highlight-engine-simple-perl		install
@@ -2203,6 +2222,7 @@ libtaskmanager4abi4				install
 libtasn1-6:amd64				install
 libtasn1-6:i386					install
 libtasn1-6-dev					install
+libtasn1-doc					install
 libtbb2						install
 libtcl8.5:amd64					install
 libtcl8.6:amd64					install
@@ -2411,12 +2431,14 @@ libxcb-present-dev:amd64			install
 libxcb-present0:amd64				install
 libxcb-present0:i386				install
 libxcb-randr0:amd64				install
+libxcb-randr0-dev:amd64				install
 libxcb-render-util0:amd64			install
 libxcb-render0:amd64				install
 libxcb-render0:i386				deinstall
 libxcb-render0-dev:amd64			install
 libxcb-shape0:amd64				install
 libxcb-shape0:i386				deinstall
+libxcb-shape0-dev:amd64				install
 libxcb-shm0:amd64				install
 libxcb-shm0:i386				deinstall
 libxcb-shm0-dev:amd64				install
@@ -2427,6 +2449,7 @@ libxcb-util0:amd64				install
 libxcb-xf86dri0:amd64				install
 libxcb-xfixes0:amd64				install
 libxcb-xfixes0:i386				deinstall
+libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
 libxcb-xtest0:amd64				install
@@ -2550,6 +2573,7 @@ libzmq3:amd64					install
 libzthread-2.3-2:amd64				install
 libzvbi-common					install
 libzvbi0:amd64					install
+libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
@@ -2642,6 +2666,7 @@ ncftp						install
 ncurses-base					install
 ncurses-bin					install
 ncurses-term					install
+ndiff						install
 nepomuk-core-data				install
 nepomuk-core-runtime				install
 net-tools					install
@@ -2808,6 +2833,7 @@ pidgin						install
 pidgin-data					install
 pidgin-libnotify				install
 pidgin-otr					install
+pinentry-curses					install
 pinentry-gtk2					install
 piuparts					install
 piuparts-common					install
@@ -2847,6 +2873,7 @@ powermgmt-base					install
 powertop					install
 ppp						install
 pptp-linux					install
+prerex						install
 preview-latex-style				install
 printer-driver-all				install
 printer-driver-c2050				install
@@ -2919,6 +2946,7 @@ python-dns					install
 python-dnspython				install
 python-docutils					install
 python-dput					install
+python-ecdsa					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-feedparser				install
@@ -3042,9 +3070,6 @@ python3-numpy					install
 python3-pip					install
 python3-pkg-resources				install
 python3-pyparsing				install
-python3-pyqt5					install
-python3-pyqt5.qtsensors				install
-python3-recoll					install
 python3-requests				install
 python3-scipy					install
 python3-setuptools				install
@@ -3057,10 +3082,12 @@ python3-tornado					install
 python3-tz					install
 python3-urllib3					install
 python3-virtualenv				install
+python3-wheel					install
 python3.3					install
 python3.3-dev					install
 python3.3-minimal				install
 python3.4					install
+python3.4-dev					install
 python3.4-minimal				install
 qdbus						install
 qemu						install
@@ -3075,6 +3102,7 @@ qemu-system-ppc					install
 qemu-system-sparc				install
 qemu-system-x86					install
 qemu-user					install
+qemu-user-binfmt				install
 qemu-utils					install
 qprint						install
 qrencode					install
@@ -3084,13 +3112,13 @@ qt4-doc						install
 qt4-linguist-tools				install
 qt4-qmake					install
 qt5-default					install
-qt5-qmake					install
-qtbase5-dev					install
+qt5-qmake:amd64					install
+qtbase5-dev:amd64				install
 qtbase5-dev-tools				install
 qtchooser					install
 qtcore4-l10n					install
-qtdeclarative5-dev				install
-qtquick1-5-dev					install
+qtdeclarative5-dev:amd64			install
+qtquick1-5-dev:amd64				install
 quilt						install
 quvi						install
 racket						install
@@ -3149,6 +3177,7 @@ rubygems-integration				install
 rygel						install
 rygel-gst-launch				install
 samba-common					install
+samba-dsdb-modules				install
 samba-libs:amd64				install
 scrot						install
 sdparm						install
@@ -3287,6 +3316,7 @@ util-linux					install
 uuid						install
 uuid-dev					install
 uuid-runtime					install
+va-driver-all:amd64				install
 vagrant						install
 valac						install
 valac-0.24					install
@@ -3296,6 +3326,7 @@ vbetool						install
 vcdimager					install
 vcsh						install
 vde2						install
+vdpau-va-driver:amd64				install
 velocity					install
 vim						install
 vim-common					install
@@ -3315,6 +3346,7 @@ vnstat						install
 vorbis-tools					install
 vpnc						install
 vpnc-scripts					install
+vprerex						install
 vrms						install
 w3m						install
 wamerican					install
