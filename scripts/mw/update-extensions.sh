@@ -1,21 +1,21 @@
 #!/bin/bash
 
 if [ "$1" ]; then
- for dir in */extensions
+ for dir in /var/www/*/core/extensions
      do
-        cd $dir
+        cd "$dir"
         git checkout master
         git reset --hard origin/master
         git pull
-        git branch -D $1
-        git checkout -b $1 $1
+        git branch -D "$1"
+        git checkout -b "$1" "$1"
      done
  echo "Extensions are updated to '$1'"
 
 else
- for dir in master/extensions/*
+ for dir in core/extensions/*
      do
-        cd $dir
+        cd "$dir"
         git checkout master
         git reset --hard origin/master
         git pull
@@ -23,18 +23,19 @@ else
  echo "Extensions are updated to master"
 fi
 
-echo "Updating mwmaster to latest master"
+echo "Updating mw-master to latest master"
 
-cd core/mwmaster/core
+cd /var/www/mw-master/core
 git checkout master
 git reset --hard origin/master
 git pull
 
-echo "Updated mwmaster to latest master"
+echo "Updated mw-master to latest master"
 
-for dir in /var/www/mlebtest/*
+# Update each core repositories
+for dir in /var/www/*
     do
-        cd $dir
+        cd "$dir"
         php maintenance/update.php
     done
 
