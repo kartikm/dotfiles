@@ -89,9 +89,10 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/selenium
 [Config/mediawiki-config]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/mediawiki-config' 'mediawiki-config'
 
-[QA/jenkins-job-builder-config]
-checkout = git clone 'git@github.com:kartikm/jenkins-job-builder-config.git' 'jenkins-job-builder-config'
-update = fork_update
+# Disabled
+#[QA/jenkins-job-builder-config]
+#checkout = git clone 'git@github.com:kartikm/jenkins-job-builder-config.git' 'jenkins-job-builder-config'
+#update = fork_update
 
 [Misc/Popups]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Popups' 'Popups'

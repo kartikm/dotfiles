@@ -2277,7 +2277,7 @@ libtxc-dxtn-s2tc0:amd64				install
 libtxc-dxtn-s2tc0:i386				install
 libtype-tiny-perl				install
 libubsan0:amd64					install
-libudev-dev					install
+libudev-dev:amd64				install
 libudev1:amd64					install
 libudev1:i386					install
 libudisks2-0:amd64				install

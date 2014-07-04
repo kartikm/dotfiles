@@ -142,9 +142,6 @@ checkout = git clone 'git@github.com:kartikm/fortunes-gu-kahevato.git' 'fortunes
 [development/l10n/aspell-gu]
 checkout = git clone 'git@github.com:kartikm/aspell-gu.git' 'aspell-gu'
 
-[development/l10n/fortunes-gu-kahevato]
-checkout = git clone 'git@github.com:kartikm/fortunes-gu-kahevato.git' 'fortunes-gu-kahevato'
-
 [development/l10n/chhapkaam]
 checkout = git clone 'git@github.com:samyakbhuta/chhapkaam.git' 'chhapkaam'
 
@@ -212,6 +209,7 @@ checkout = git clone 'https://code.google.com/p/end-to-end/' 'end-to-end'
 # GL
 [development/github/GL/ascii2unicode]
 checkout = git clone 'git@github.com:gujaratilexicon/ascii2unicode.git' 'ascii2unicode'
+update = fork_update
 
 [development/github/GL/GujaratiLexicon-extension]
 checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.git' 'GujaratiLexicon-extension'
