@@ -1,0 +1,12 @@
+# this is your configuration file for pbuilder.
+# the file in /usr/share/pbuilder/pbuilderrc is the default template.
+# /etc/pbuilderrc is the one meant for overwriting defaults in
+# the default template
+#
+# read pbuilderrc.5 document for notes on specific options.
+MIRRORSITE=http://cdn.debian.net/debian/
+#OTHERMIRROR="deb http://backports.debian.org/debian-backports squeeze-backports main|deb file:///home/kartik/development/work/credativ/edgewave/debian-repo ./"
+#BINDMOUNTS=""
+#HOOKDIR=""
+#EXTRAPACKAGES="apt-utils"
+#ALLOWUNTRUSTED=yes
