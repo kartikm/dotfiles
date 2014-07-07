@@ -637,11 +637,16 @@ kwin-style-qtcurve				install
 kwrite						install
 laptop-detect					install
 laptop-mode-tools				install
-latex-sanskrit					install
 latex-xcolor					install
 latex2html					install
 lcdf-typetools					install
 less						install
+lib32bz2-1.0					install
+lib32gcc1					install
+lib32ncurses5					install
+lib32stdc++6					install
+lib32tinfo5					install
+lib32z1						install
 liba52-0.7.4					install
 libaa1:amd64					install
 libaacs0:amd64					install
@@ -702,7 +707,6 @@ libaspell-dev					install
 libaspell15					install
 libasprintf-dev:amd64				install
 libasprintf0c2:amd64				install
-libass4:amd64					install
 libass5:amd64					install
 libassuan-dev					install
 libassuan0:amd64				install
@@ -797,7 +801,6 @@ libboost-filesystem1.55.0:amd64			install
 libboost-iostreams1.55.0:amd64			install
 libboost-program-options1.55.0:amd64		install
 libboost-python1.49.0				install
-libboost-python1.54.0				install
 libboost-python1.55.0				install
 libboost-regex1.55.0:amd64			install
 libboost-system1.54.0:amd64			install
@@ -819,6 +822,7 @@ libc-dev-bin					install
 libc6:amd64					install
 libc6:i386					install
 libc6-dev:amd64					install
+libc6-i386					install
 libc6-i686:i386					install
 libcaca0:amd64					install
 libcaca0:i386					install
@@ -1023,7 +1027,6 @@ libebml4:amd64					install
 libecj-java					install
 libedit2:amd64					install
 libedit2:i386					install
-libee0						install
 libegl1-mesa:amd64				install
 libegl1-mesa:i386				deinstall
 libegl1-mesa-dev				install
@@ -1156,7 +1159,6 @@ libgee-0.8-2:amd64				install
 libgee-dev					install
 libgee2:amd64					install
 libgegl-0.2-0:amd64				install
-libgeoclue0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
 libgeronimo-javamail-1.4-spec-java		install
@@ -1228,8 +1230,6 @@ libgnutls-dev					install
 libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
 libgnutls26:i386				install
-libgnutls28:amd64				install
-libgnutls28:i386				install
 libgnutlsxx27:amd64				install
 libgomp1:amd64					install
 libgpg-error-dev				install
@@ -1602,7 +1602,6 @@ libmailcommon4					install
 libmailimporter4				install
 libmailtools-perl				install
 libmailtransport4				install
-libmarblewidget17				install
 libmarblewidget18				install
 libmarco-private0:amd64				install
 libmarkdown2:amd64				install
@@ -1735,7 +1734,6 @@ libofa0						install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
-libokularcore3					install
 libokularcore4					install
 libonig2:amd64					install
 libopenal-data					install
@@ -1861,7 +1859,7 @@ libpolkit-gobject-1-0:amd64			install
 libpolkit-qt-1-1				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
-libpoppler44:amd64				install
+libpoppler46:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
@@ -1922,7 +1920,6 @@ libqextserialport1:amd64			install
 libqgpgme1					install
 libqimageblitz4					install
 libqjson0:amd64					install
-libqmi-glib0:amd64				install
 libqmi-glib1:amd64				install
 libqmi-proxy					install
 libqmobipocket1					install
@@ -1947,18 +1944,14 @@ libqt4-sql-mysql:amd64				install
 libqt4-sql-sqlite:amd64				install
 libqt4-svg:amd64				install
 libqt4-test:amd64				install
-libqt4-webkit					install
 libqt4-xml:amd64				install
 libqt4-xml:i386					install
 libqt4-xmlpatterns:amd64			install
-libqt5clucene5:amd64				install
 libqt5concurrent5:amd64				install
 libqt5core5a:amd64				install
 libqt5dbus5:amd64				install
 libqt5declarative5:amd64			install
-libqt5designer5:amd64				install
 libqt5gui5:amd64				install
-libqt5help5:amd64				install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
 libqt5opengl5-dev:amd64				install
@@ -1989,7 +1982,6 @@ libqtgui4:amd64					install
 libqtgui4:i386					install
 libqtlocation1:amd64				install
 libqtruby4shared2				install
-libqtsensors1:amd64				install
 libqtwebkit-dev					install
 libqtwebkit4:amd64				install
 libqtwebkit4:i386				install
@@ -2603,7 +2595,6 @@ lsof						install
 ltrace						install
 lttoolbox					install
 lua5.2						install
-luatex						install
 lxc						install
 lynx-cur					install
 lzip						install
@@ -2668,7 +2659,6 @@ ncurses-bin					install
 ncurses-term					install
 ndiff						install
 nepomuk-core-data				install
-nepomuk-core-runtime				install
 net-tools					install
 netbase						install
 netcat-traditional				install
