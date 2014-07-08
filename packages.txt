@@ -23,7 +23,6 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
-apertium-en-es					install
 apertium-es-ca					install
 apg						install
 apparmor-easyprof				install
@@ -435,8 +434,8 @@ gnupg-agent					install
 gnupg2						install
 gnuplot						install
 gnuplot-nox					install
-gnustep-base-common				install
-gnustep-base-runtime				install
+gnustep-base-common				deinstall
+gnustep-base-runtime				deinstall
 gnustep-common					install
 golang						install
 golang-doc					install
@@ -678,6 +677,7 @@ libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
 libapertium3-3.1-0				install
+libapertium3-3.1-0-dev				install
 libapparmor1:amd64				install
 libappindicator1				install
 libapr1:amd64					install
@@ -1223,7 +1223,7 @@ libgnomevfs2-extra:amd64			install
 libgnuinet-java					install
 libgnumail-java					install
 libgnupg-interface-perl				install
-libgnustep-base1.22				install
+libgnustep-base1.22				deinstall
 libgnutls-deb0-28:amd64				install
 libgnutls-deb0-28:i386				install
 libgnutls-dev					install
@@ -1576,6 +1576,7 @@ libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
 liblttoolbox3-3.1-0				install
+liblttoolbox3-3.1-0-dev				install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -3285,7 +3286,7 @@ ucf						install
 udev						install
 udisks2						install
 ufraw-batch					install
-unar						install
+unar						deinstall
 unattended-upgrades				install
 unclutter					install
 unixodbc					install
