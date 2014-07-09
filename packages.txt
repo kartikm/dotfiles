@@ -436,7 +436,6 @@ gnuplot						install
 gnuplot-nox					install
 gnustep-base-common				deinstall
 gnustep-base-runtime				deinstall
-gnustep-common					install
 golang						install
 golang-doc					install
 golang-go					install
@@ -640,12 +639,6 @@ latex-xcolor					install
 latex2html					install
 lcdf-typetools					install
 less						install
-lib32bz2-1.0					install
-lib32gcc1					install
-lib32ncurses5					install
-lib32stdc++6					install
-lib32tinfo5					install
-lib32z1						install
 liba52-0.7.4					install
 libaa1:amd64					install
 libaacs0:amd64					install
@@ -822,7 +815,6 @@ libc-dev-bin					install
 libc6:amd64					install
 libc6:i386					install
 libc6-dev:amd64					install
-libc6-i386					install
 libc6-i686:i386					install
 libcaca0:amd64					install
 libcaca0:i386					install
@@ -1726,7 +1718,6 @@ libntlm0:amd64					install
 libntrack-qt4-1					install
 libntrack0					install
 liboath0					install
-libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
@@ -3333,7 +3324,6 @@ virtualenvwrapper				install
 vlc						install
 vlc-data					install
 vlc-nox						install
-vnstat						install
 vorbis-tools					install
 vpnc						install
 vpnc-scripts					install
