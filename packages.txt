@@ -1140,6 +1140,7 @@ libgd-gd2-noxpm-perl				install
 libgd2-xpm:i386					deinstall
 libgd3:amd64					install
 libgd3:i386					install
+libgdbm-dev					install
 libgdbm3:amd64					install
 libgdbm3:i386					deinstall
 libgdk-pixbuf2.0-0:amd64			install
