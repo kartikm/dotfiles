@@ -780,6 +780,7 @@ libbison-dev:amd64				install
 libblas3					install
 libblkid1:amd64					install
 libbluedevil1:amd64				install
+libbluedevil2:amd64				install
 libbluetooth-dev				install
 libbluetooth3:amd64				install
 libbluray1:amd64				install
@@ -1659,6 +1660,7 @@ libncurses5:i386				install
 libncurses5-dev:amd64				install
 libncursesw5:amd64				install
 libncursesw5:i386				install
+libndp0:amd64					install
 libneon27-gnutls				install
 libnepomuk4					install
 libnepomukcore4					install
