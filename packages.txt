@@ -2448,7 +2448,7 @@ libxcomposite1:i386				install
 libxcursor-dev:amd64				install
 libxcursor1:amd64				install
 libxcursor1:i386				install
-libxdamage-dev					install
+libxdamage-dev:amd64				install
 libxdamage1:amd64				install
 libxdamage1:i386				install
 libxdelta2					install
@@ -2464,7 +2464,7 @@ libxerces2-java					install
 libxext-dev:amd64				install
 libxext6:amd64					install
 libxext6:i386					install
-libxfixes-dev					install
+libxfixes-dev:amd64				install
 libxfixes3:amd64				install
 libxfixes3:i386					install
 libxfont1:amd64					install
