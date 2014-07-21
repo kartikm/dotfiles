@@ -433,7 +433,9 @@ gnupg						install
 gnupg-agent					install
 gnupg2						install
 gnuplot						install
+gnuplot-data					install
 gnuplot-nox					install
+gnuplot-tex					install
 gnustep-base-common				deinstall
 gnustep-base-runtime				deinstall
 golang						install
@@ -850,10 +852,12 @@ libcdio13					install
 libcdparanoia0:amd64				install
 libcdr-0.0-0					install
 libcdt4						install
+libcdt5						install
 libcgi-formbuilder-perl				install
 libcgi-session-perl				install
 libcglib-java					install
 libcgraph5					install
+libcgraph6					install
 libchm-bin					install
 libchm-dev					install
 libchm1						install
@@ -1290,8 +1294,10 @@ libgupnp-av-1.0-2				install
 libgupnp-dlna-2.0-3				install
 libgupnp-igd-1.0-4:amd64			install
 libgusb2:amd64					install
-libgvc5						install
+libgvc5						deinstall
+libgvc6						install
 libgvpr1					install
+libgvpr2					install
 libhamcrest-java				install
 libharfbuzz-bin					install
 libharfbuzz-dev					install
@@ -2303,6 +2309,7 @@ libv8-3.14-dev					install
 libv8-3.14.5					install
 libva-x11-1:amd64				install
 libva1:amd64					install
+libval14:amd64					install
 libvala-0.24-0:amd64				install
 libvarnishapi1					install
 libvcdinfo0					install
@@ -2479,6 +2486,7 @@ libxi6:i386					install
 libxinerama-dev:amd64				install
 libxinerama1:amd64				install
 libxinerama1:i386				deinstall
+libxkbcommon-x11-0:amd64			install
 libxkbcommon0:amd64				install
 libxkbfile1:amd64				install
 libxm4:amd64					install
