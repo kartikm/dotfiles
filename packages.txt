@@ -55,8 +55,6 @@ automake1.11					install
 autopkgtest					install
 autopoint					install
 autotools-dev					install
-avahi-autoipd					install
-avahi-daemon					install
 avr-libc					install
 avrdude						install
 awesome						install
@@ -202,7 +200,6 @@ doc-base					install
 doc-debian					install
 docbook-xml					install
 docbook-xsl					install
-docker.io					install
 docutils-common					install
 dolphin						install
 dosbox						install
@@ -1718,7 +1715,7 @@ libnspr4:amd64					install
 libnspr4:i386					install
 libnspr4-0d:amd64				install
 libnspr4-0d:i386				install
-libnss-mdns:amd64				install
+libnss-mdns:amd64				deinstall
 libnss3:amd64					install
 libnss3:i386					deinstall
 libnss3-1d:amd64				install
@@ -1741,6 +1738,7 @@ libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
 libopenconnect2:amd64				install
+libopenconnect3:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
 libopencv-calib3d2.4:amd64			install
@@ -2180,6 +2178,7 @@ libstdc++-4.9-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
 libstdc++6-4.7-dev:amd64			install
+libstoken1:amd64				install
 libstreamanalyzer0				install
 libstreams0					install
 libstrictures-perl				install
@@ -2258,6 +2257,8 @@ libtk8.5:amd64					install
 libtk8.6:amd64					install
 libtokyocabinet9:amd64				install
 libtomcat7-java					install
+libtomcrypt0:amd64				install
+libtommath0					install
 libtonezone-dev					install
 libtonezone2.0					install
 libtool						install
