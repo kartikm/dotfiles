@@ -555,9 +555,7 @@ java-common					install
 java-wrappers					install
 javahelper					install
 javascript-common				install
-jmeter						install
 jmeter-help					install
-jmeter-http					install
 juk						install
 julia						install
 junit						install
