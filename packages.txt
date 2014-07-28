@@ -40,14 +40,12 @@ arduino-core					install
 arduino-mk					install
 aria2						install
 ark						install
-aspectj						install
 aspell						install
 aspell-en					install
 aspell-gu					install
 at						install
 at-spi2-core					install
 atool						install
-aufs-tools					install
 augeas-lenses					install
 autoconf					install
 automake					install
@@ -100,7 +98,6 @@ calibre-bin					install
 cdbs						install
 cdparanoia					install
 cdrdao						install
-cgroupfs-mount					install
 chromium					install
 chromium-inspector				install
 chrpath						install
@@ -433,8 +430,6 @@ gnuplot						install
 gnuplot-data					install
 gnuplot-nox					install
 gnuplot-tex					install
-gnustep-base-common				deinstall
-gnustep-base-runtime				deinstall
 golang						install
 golang-doc					install
 golang-go					install
@@ -692,7 +687,6 @@ libasound2:i386					install
 libasound2-data					install
 libasound2-dev:amd64				install
 libasound2-plugins:amd64			install
-libaspectj-java					install
 libaspell-dev					install
 libaspell15					install
 libasprintf-dev:amd64				install
@@ -744,7 +738,6 @@ libavahi-common-data:i386			install
 libavahi-common-dev				install
 libavahi-common3:amd64				install
 libavahi-common3:i386				install
-libavahi-core7:amd64				install
 libavahi-glib-dev				install
 libavahi-glib1:amd64				install
 libavahi-ui-dev					install
@@ -776,7 +769,6 @@ libbind9-90					install
 libbison-dev:amd64				install
 libblas3					install
 libblkid1:amd64					install
-libbluedevil1:amd64				install
 libbluedevil2:amd64				install
 libbluetooth-dev				install
 libbluetooth3:amd64				install
@@ -846,12 +838,10 @@ libcdio-paranoia1				install
 libcdio13					install
 libcdparanoia0:amd64				install
 libcdr-0.0-0					install
-libcdt4						install
 libcdt5						install
 libcgi-formbuilder-perl				install
 libcgi-session-perl				install
 libcglib-java					install
-libcgraph5					install
 libcgraph6					install
 libchm-bin					install
 libchm-dev					install
@@ -893,10 +883,7 @@ libcommons-dbcp-java				install
 libcommons-discovery-java			install
 libcommons-httpclient-java			install
 libcommons-io-java				install
-libcommons-jexl-java				install
-libcommons-jexl2-java				install
 libcommons-lang-java				install
-libcommons-lang3-java				install
 libcommons-logging-java				install
 libcommons-net-java				install
 libcommons-net1-java				install
@@ -942,7 +929,6 @@ libcurl3:i386					deinstall
 libcurl3-gnutls:amd64				install
 libcurl3-nss:amd64				install
 libcwidget3:amd64				install
-libdaemon0:amd64				install
 libdata-entropy-perl				install
 libdata-float-perl				install
 libdata-integer-perl				install
@@ -1154,11 +1140,8 @@ libgee2:amd64					install
 libgegl-0.2-0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
-libgeronimo-javamail-1.4-spec-java		install
 libgeronimo-jms-1.1-spec-java			install
-libgeronimo-jpa-2.0-spec-java			install
 libgeronimo-jta-1.1-spec-java			install
-libgeronimo-osgi-support-java			install
 libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
 libgfortran3:amd64				install
@@ -1176,9 +1159,11 @@ libglade2-0:amd64				install
 libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
+libglc0						install
 libgle3						install
 libgles2-mesa:amd64				install
 libglew1.10:amd64				install
+libglewmx1.10:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
 libglib2.0-0:i386				install
@@ -1216,7 +1201,6 @@ libgnomevfs2-extra:amd64			install
 libgnuinet-java					install
 libgnumail-java					install
 libgnupg-interface-perl				install
-libgnustep-base1.22				deinstall
 libgnutls-deb0-28:amd64				install
 libgnutls-deb0-28:i386				install
 libgnutls-dev					install
@@ -1243,7 +1227,6 @@ libgps21:amd64					install
 libgrantlee-core0				install
 libgrantlee-gui0				install
 libgraph-perl					install
-libgraph4					install
 libgraphite2-3:amd64				install
 libgraphite2-3:i386				install
 libgravatar-url-perl				install
@@ -1289,9 +1272,7 @@ libgupnp-av-1.0-2				install
 libgupnp-dlna-2.0-3				install
 libgupnp-igd-1.0-4:amd64			install
 libgusb2:amd64					install
-libgvc5						deinstall
 libgvc6						install
-libgvpr1					install
 libgvpr2					install
 libhamcrest-java				install
 libharfbuzz-bin					install
@@ -1318,7 +1299,6 @@ libhtml-scrubber-perl				install
 libhtml-tagset-perl				install
 libhtml-template-perl				install
 libhtml-tree-perl				install
-libhtmlparser-java				install
 libhttp-cookies-perl				install
 libhttp-daemon-perl				install
 libhttp-date-perl				install
@@ -1399,7 +1379,6 @@ libjbig-dev:amd64				install
 libjbig0:amd64					install
 libjbig0:i386					install
 libjbig2dec0					install
-libjcharts-java					install
 libjcommon-java					install
 libjdom1-java					install
 libjemalloc1					install
@@ -1431,7 +1410,6 @@ libjson-perl					install
 libjson-xs-perl					install
 libjsr107cache-java				install
 libjte1						install
-libjtidy-java					install
 libjzlib-java					install
 libk3b6						install
 libk3b6-extracodecs				install
@@ -1561,7 +1539,6 @@ liblog-message-perl				install
 liblog-message-simple-perl			install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
-liblognorm0					deinstall
 liblognorm1					install
 libloudmouth1-0					install
 libloudmouth1-dev				install
@@ -1615,6 +1592,7 @@ libmikmod3:amd64				install
 libmime-charset-perl				install
 libmime-tools-perl				install
 libmimic0					install
+libminiupnpc10:amd64				install
 libmm-glib0:amd64				install
 libmms0:amd64					install
 libmng1:amd64					install
@@ -1695,8 +1673,6 @@ libnfnetlink-dev				install
 libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
 libnice10:amd64					install
-libnih-dbus1					install
-libnih1						install
 libnl-3-200:amd64				install
 libnl-3-dev					install
 libnl-genl-3-200:amd64				install
@@ -1713,7 +1689,6 @@ libnspr4:amd64					install
 libnspr4:i386					install
 libnspr4-0d:amd64				install
 libnspr4-0d:i386				install
-libnss-mdns:amd64				deinstall
 libnss3:amd64					install
 libnss3:i386					deinstall
 libnss3-1d:amd64				install
@@ -1735,7 +1710,6 @@ libonig2:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
-libopenconnect2:amd64				install
 libopenconnect3:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
@@ -1766,9 +1740,6 @@ liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.6-0					install
 liboro-java					install
-libosgi-compendium-java				install
-libosgi-core-java				install
-libosgi-foundation-ee-java			install
 libosmgpsmap-dev				install
 libosmgpsmap2:amd64				install
 libossp-uuid-perl				install
@@ -1833,6 +1804,7 @@ libperl5.18					install
 libperlio-gzip-perl				install
 libpgm-5.1-0					install
 libphonon4:amd64				install
+libphysfs1:amd64				install
 libpimcommon4					install
 libpipeline1:amd64				install
 libpixie-java					install
@@ -1959,7 +1931,6 @@ libqt5quickparticles5:amd64			install
 libqt5quicktest5:amd64				install
 libqt5quickwidgets5:amd64			install
 libqt5script5:amd64				install
-libqt5sensors5:amd64				deinstall
 libqt5sql5:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5test5:amd64				install
@@ -2622,6 +2593,7 @@ mercurial-common				install
 mesa-common-dev					install
 mesa-utils					install
 mime-support					install
+minissdpd					install
 mlocate						install
 mobile-broadband-provider-info			install
 moc						install
@@ -2632,7 +2604,6 @@ monkeysphere					install
 moreutils					install
 mosh						install
 mount						install
-mountall					install
 mozilla-devscripts				install
 mpg123						install
 mr						install
@@ -2751,7 +2722,6 @@ openjdk-6-jre-lib				install
 openjdk-7-jdk:amd64				install
 openjdk-7-jre:amd64				install
 openjdk-7-jre-headless:amd64			install
-openjdk-7-jre-lib				install
 opensc						install
 opensc-pkcs11:amd64				install
 openssh-blacklist				install
@@ -2850,7 +2820,6 @@ plasma-widget-folderview			install
 plasma-widget-lancelot				install
 plasma-widgets-addons				install
 plasma-widgets-workspace			install
-plymouth					install
 pm-utils					install
 po-debconf					install
 po4a						install
@@ -3280,14 +3249,12 @@ ttf-dejavu					install
 ttf-dejavu-core					install
 ttf-dejavu-extra				install
 ttf-freefont					install
-ttf-liberation					install
 tzdata						install
 tzdata-java					install
 ucf						install
 udev						install
 udisks2						install
 ufraw-batch					install
-unar						deinstall
 unattended-upgrades				install
 unclutter					install
 unixodbc					install
@@ -3341,6 +3308,9 @@ vprerex						install
 vrms						install
 w3m						install
 wamerican					install
+warzone2100					install
+warzone2100-data				install
+warzone2100-music				install
 watchdog					install
 wdiff						install
 wget						install
