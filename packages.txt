@@ -47,6 +47,7 @@ at						install
 at-spi2-core					install
 atool						install
 augeas-lenses					install
+augeas-tools					install
 autoconf					install
 automake					install
 automake1.11					install
@@ -173,6 +174,7 @@ dh-buildinfo					install
 dh-make						install
 dh-php5						install
 dh-python					install
+dh-systemd					install
 dia						install
 dia-common					install
 dia-libs					install
@@ -779,14 +781,14 @@ libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.55.0:amd64			install
 libboost-dev:amd64				install
-libboost-filesystem1.54.0:amd64			install
+libboost-filesystem1.54.0:amd64			deinstall
 libboost-filesystem1.55.0:amd64			install
 libboost-iostreams1.55.0:amd64			install
 libboost-program-options1.55.0:amd64		install
 libboost-python1.49.0				install
 libboost-python1.55.0				install
 libboost-regex1.55.0:amd64			install
-libboost-system1.54.0:amd64			install
+libboost-system1.54.0:amd64			deinstall
 libboost-system1.55.0:amd64			install
 libboost-thread1.55.0:amd64			install
 libboost1.55-dev:amd64				install
@@ -1396,6 +1398,7 @@ libjs-jquery-hotkeys				install
 libjs-jquery-isonscreen				install
 libjs-jquery-metadata				install
 libjs-jquery-tablesorter			install
+libjs-jquery-ui					install
 libjs-mathjax					install
 libjs-node-uuid					install
 libjs-sphinxdoc					install
@@ -1784,7 +1787,7 @@ libparams-validate-perl				install
 libparse-debcontrol-perl			install
 libparse-debian-packages-perl			install
 libparse-debianchangelog-perl			install
-libparted0debian1:amd64				install
+libparted2:amd64				install
 libpathplan4					install
 libpcap-dev					install
 libpcap0.8:amd64				install
@@ -1819,7 +1822,7 @@ libplasmagenericshell4				install
 libplist2:amd64					install
 libpng12-0:amd64				install
 libpng12-0:i386					install
-libpng12-dev					install
+libpng12-dev:amd64				install
 libpod-latex-perl				install
 libpodofo0.9.0					install
 libpolkit-agent-1-0:amd64			install
@@ -2544,8 +2547,11 @@ linux-base					install
 linux-compiler-gcc-4.8-x86			install
 linux-headers-3.14-1-amd64			install
 linux-headers-3.14-1-common			install
+linux-headers-3.14-2-amd64			install
+linux-headers-3.14-2-common			install
 linux-headers-amd64				install
 linux-image-3.14-1-amd64			install
+linux-image-3.14-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-3.14				install
 linux-libc-dev:amd64				install
@@ -2899,6 +2905,7 @@ python-debian					install
 python-debianbts				install
 python-decorator				install
 python-defer					install
+python-defusedxml				install
 python-dev					install
 python-distlib					install
 python-distlib-whl				install
@@ -2914,7 +2921,6 @@ python-feedparser				install
 python-flickrapi				install
 python-fontforge				install
 python-formencode				install
-python-fpconst					install
 python-gconf					install
 python-gdbm					install
 python-gi					install
@@ -3000,6 +3006,7 @@ python-vte					install
 python-webob					install
 python-webunit					install
 python-wicd					install
+python-wstools					install
 python-wxgtk2.8					install
 python-wxversion				install
 python-yaml					install
@@ -3028,6 +3035,7 @@ python3-matplotlib				install
 python3-minimal					install
 python3-nose					install
 python3-numpy					install
+python3-pil					install
 python3-pip					install
 python3-pkg-resources				install
 python3-pyparsing				install
@@ -3052,7 +3060,6 @@ python3.4-dev					install
 python3.4-minimal				install
 qdbus						install
 qemu						install
-qemu-keymaps					install
 qemu-slof					install
 qemu-system					install
 qemu-system-arm					install
@@ -3138,7 +3145,6 @@ rubygems-integration				install
 rygel						install
 rygel-gst-launch				install
 samba-common					install
-samba-dsdb-modules				install
 samba-libs:amd64				install
 scrot						install
 sdparm						install
@@ -3301,6 +3307,7 @@ virtualenvwrapper				install
 vlc						install
 vlc-data					install
 vlc-nox						install
+vlc-plugin-pulse				install
 vorbis-tools					install
 vpnc						install
 vpnc-scripts					install
