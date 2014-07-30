@@ -793,7 +793,7 @@ libboost-system1.55.0:amd64			install
 libboost-thread1.55.0:amd64			install
 libboost1.55-dev:amd64				install
 libbrlapi0.6:amd64				install
-libbsd-dev					install
+libbsd-dev:amd64				install
 libbsd0:amd64					install
 libbsd0:i386					install
 libbsf-java					install
@@ -1941,6 +1941,7 @@ libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5xml5:amd64				install
+libqt5xmlpatterns5:amd64			install
 libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
 libqtcore4:i386					install
@@ -3072,6 +3073,17 @@ qemu-system-x86					install
 qemu-user					install
 qemu-user-binfmt				install
 qemu-utils					install
+qml-module-qtgraphicaleffects:amd64		install
+qml-module-qtquick-controls:amd64		install
+qml-module-qtquick-dialogs:amd64		install
+qml-module-qtquick-layouts:amd64		install
+qml-module-qtquick-localstorage:amd64		install
+qml-module-qtquick-particles2:amd64		install
+qml-module-qtquick-privatewidgets:amd64		install
+qml-module-qtquick-window2:amd64		install
+qml-module-qtquick-xmllistmodel:amd64		install
+qml-module-qtquick2:amd64			install
+qmlscene					install
 qprint						install
 qrencode					install
 qt4-designer					install
@@ -3087,6 +3099,7 @@ qtchooser					install
 qtcore4-l10n					install
 qtdeclarative5-dev:amd64			install
 qtquick1-5-dev:amd64				install
+qtquick1-qmltooling-plugins:amd64		install
 quilt						install
 quvi						install
 racket						install
