@@ -155,6 +155,9 @@ checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.g
 checkout = git clone 'git@github.com:kartikm/gtts.git' 'gtts'
 update = fork_update
 
+[development/l10n/apertium-svn]
+checkout = svn co 'http://svn.code.sf.net/p/apertium/svn/trunk' 'apertium-svn'
+
 # Configs
 [development/configs/awesome-config]
 checkout = git clone 'git://gitorious.org/awesome-config/awesome-config.git' 'awesome-config'

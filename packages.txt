@@ -1525,7 +1525,7 @@ liblensfun-data					install
 liblensfun0					install
 liblexical-sealrequirehints-perl		install
 liblinear-tools					install
-liblinear1					install
+liblinear1:amd64				install
 liblinux-inotify2-perl				install
 liblircclient0					install
 liblist-allutils-perl				install
