@@ -760,6 +760,7 @@ libaxis2c-dev					install
 libaxis2c0					install
 libb-hooks-op-check-perl			install
 libbabl-0.1-0:amd64				install
+libbaloopim4					install
 libbareword-filehandles-perl			install
 libbase-java					install
 libbasicusageenvironment0			install
@@ -1240,6 +1241,7 @@ libgsl0ldbl					install
 libgsm1:amd64					install
 libgsm1-dev:amd64				install
 libgsoap4:amd64					install
+libgsoap5:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			install
@@ -1478,7 +1480,8 @@ libkonq-common					install
 libkonq5-templates				install
 libkonq5abi1					install
 libkonqsidebarplugin4a				install
-libkontactinterface4				install
+libkontactinterface4				deinstall
+libkontactinterface4a				install
 libkparts4					install
 libkpathsea6					install
 libkpgp4					install
@@ -1684,6 +1687,7 @@ libnl-route-3-200:amd64				install
 libnm-glib-vpn1:amd64				install
 libnm-glib4:amd64				install
 libnm-util2:amd64				install
+libnoteshared4					install
 libnotify-bin					install
 libnotify-dev					install
 libnotify4:amd64				install
@@ -2699,6 +2703,7 @@ node-sigmund					install
 node-slide					install
 node-tar					install
 node-tunnel-agent				install
+node-underscore					install
 node-which					install
 nodejs						install
 nodejs-dev					install
