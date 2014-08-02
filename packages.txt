@@ -76,10 +76,6 @@ bluedevil					install
 blueman						install
 bluetooth					install
 bluez						install
-bluez-alsa:amd64				install
-bluez-compat					install
-bluez-gstreamer					install
-bluez-utils					install
 brackets					install
 bsd-mailx					install
 bsdiff						install
@@ -102,6 +98,7 @@ cdrdao						install
 chromium					install
 chromium-inspector				install
 chrpath						install
+cm-super-minimal				install
 cmake						install
 cmake-data					install
 cmatrix						install
@@ -490,6 +487,7 @@ hardening-wrapper				install
 hdparm						install
 help2man					install
 hicolor-icon-theme				install
+hiera						install
 host						install
 hostname					install
 htdig						install
@@ -572,7 +570,6 @@ kde-base-artwork				install
 kde-baseapps					install
 kde-baseapps-bin				install
 kde-baseapps-data				install
-kde-plasma-desktop				install
 kde-runtime					install
 kde-runtime-data				install
 kde-style-oxygen				install
@@ -580,8 +577,7 @@ kde-style-qtcurve				install
 kde-wallpapers					install
 kde-wallpapers-default				install
 kde-window-manager				install
-kde-workspace					install
-kde-workspace-bin				install
+kde-workspace-bin				deinstall
 kde-workspace-data				install
 kde-workspace-kgreet-plugins			install
 kdebase-runtime					install
@@ -591,7 +587,6 @@ kdelibs5-plugins				install
 kdepasswd					install
 kdepim-runtime					install
 kdepimlibs-kio-plugins				install
-kdeplasma-addons				install
 kdiff3						install
 kdiff3-doc					install
 kdm						install
@@ -617,10 +612,8 @@ korganizer					install
 kpart-webkit					install
 krb5-locales					install
 kscreen						install
-kscreensaver					install
-kscreensaver-xsavers				install
 ksnapshot					install
-ksysguard					install
+ksysguard					deinstall
 ksysguardd					install
 kturtle						install
 kvkbd						install
@@ -760,7 +753,10 @@ libaxis2c-dev					install
 libaxis2c0					install
 libb-hooks-op-check-perl			install
 libbabl-0.1-0:amd64				install
+libbaloocore4					install
+libbaloofiles4					install
 libbaloopim4					install
+libbalooxapian4					install
 libbareword-filehandles-perl			install
 libbase-java					install
 libbasicusageenvironment0			install
@@ -782,14 +778,12 @@ libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.55.0:amd64			install
 libboost-dev:amd64				install
-libboost-filesystem1.54.0:amd64			deinstall
 libboost-filesystem1.55.0:amd64			install
 libboost-iostreams1.55.0:amd64			install
 libboost-program-options1.55.0:amd64		install
 libboost-python1.49.0				install
 libboost-python1.55.0				install
 libboost-regex1.55.0:amd64			install
-libboost-system1.54.0:amd64			deinstall
 libboost-system1.55.0:amd64			install
 libboost-thread1.55.0:amd64			install
 libboost1.55-dev:amd64				install
@@ -1023,6 +1017,7 @@ libenchant-dev					install
 libenchant1c2a:amd64				install
 libencode-locale-perl				install
 libeot0						install
+libepoxy0					install
 libept1.4.12:amd64				install
 libepub0					install
 liberror-perl					install
@@ -1034,6 +1029,7 @@ libestr0					install
 libetonyek-0.0-0				install
 libev-perl					install
 libev4						install
+libevdev2					install
 libevent-2.0-5:amd64				install
 libeventviews4					install
 libexcalibur-logger-java			install
@@ -1123,9 +1119,7 @@ libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
 libgcrypt11:amd64				install
 libgcrypt11:i386				install
-libgcrypt11-dev					install
 libgcrypt20:amd64				install
-libgd-gd2-noxpm-perl				install
 libgd2-xpm:i386					deinstall
 libgd3:amd64					install
 libgd3:i386					install
@@ -1206,11 +1200,12 @@ libgnumail-java					install
 libgnupg-interface-perl				install
 libgnutls-deb0-28:amd64				install
 libgnutls-deb0-28:i386				install
-libgnutls-dev					install
 libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
 libgnutls26:i386				install
+libgnutls28-dev:amd64				install
 libgnutlsxx27:amd64				install
+libgnutlsxx28:amd64				install
 libgomp1:amd64					install
 libgpg-error-dev				install
 libgpg-error0:amd64				install
@@ -1240,7 +1235,6 @@ libgsasl7					install
 libgsl0ldbl					install
 libgsm1:amd64					install
 libgsm1-dev:amd64				install
-libgsoap4:amd64					install
 libgsoap5:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
@@ -1434,6 +1428,8 @@ libkcalutils4					install
 libkcddb4					install
 libkcmutils4					install
 libkcompactdisc4				install
+libkdcraw-data					install
+libkdcraw23					install
 libkde3support4					install
 libkdeclarative5				install
 libkdecorations4abi2				install
@@ -1475,12 +1471,11 @@ libknewstuff3-4					install
 libknotifyconfig4				install
 libkntlm4					install
 libkolab0					install
-libkolabxml0					install
+libkolabxml1					install
 libkonq-common					install
 libkonq5-templates				install
 libkonq5abi1					install
 libkonqsidebarplugin4a				install
-libkontactinterface4				deinstall
 libkontactinterface4a				install
 libkparts4					install
 libkpathsea6					install
@@ -1651,7 +1646,6 @@ libnepomuk4					install
 libnepomukcore4					install
 libnepomukquery4a				install
 libnepomukutils4				install
-libnepomukwidgets4abi1				install
 libnet-cidr-perl				install
 libnet-daemon-perl				install
 libnet-dbus-perl				install
@@ -1879,10 +1873,6 @@ libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
 libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
-libpython3.3:amd64				install
-libpython3.3-dev:amd64				install
-libpython3.3-minimal:amd64			install
-libpython3.3-stdlib:amd64			install
 libpython3.4:amd64				install
 libpython3.4-dev:amd64				install
 libpython3.4-minimal:amd64			install
@@ -1971,6 +1961,7 @@ librados2					install
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
+libraw10:amd64					install
 libraw1394-11:amd64				install
 librbd1						install
 librcc0						install
@@ -2263,7 +2254,7 @@ libunistring0:amd64				install
 libuniversal-require-perl			install
 libunwind8					install
 libupnp6					install
-libupower-glib1:amd64				install
+libupower-glib2:amd64				install
 liburcu-dev					install
 liburcu2:amd64					install
 liburi-perl					install
@@ -2550,12 +2541,9 @@ libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
-linux-headers-3.14-1-amd64			install
-linux-headers-3.14-1-common			install
 linux-headers-3.14-2-amd64			install
 linux-headers-3.14-2-common			install
 linux-headers-amd64				install
-linux-image-3.14-1-amd64			install
 linux-image-3.14-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-3.14				install
@@ -2649,6 +2637,7 @@ netcat-traditional				install
 netdiag						install
 netpbm						install
 netsniff-ng					install
+nettle-dev					install
 network-manager					install
 network-manager-pptp				install
 network-manager-vpnc				install
@@ -2747,7 +2736,6 @@ openssl-blacklist-extra				install
 openvpn						install
 os-prober					install
 oss-compat					install
-ostinato					install
 ovmf						install
 oxygen-icon-theme				install
 oxygencursors					install
@@ -2817,8 +2805,8 @@ pkg-php-tools					install
 plasma-containments-addons			install
 plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
-plasma-desktop					install
 plasma-desktopthemes-artwork			install
+plasma-netbook					install
 plasma-nm					install
 plasma-runners-addons				install
 plasma-scriptengine-javascript			install
@@ -2830,7 +2818,6 @@ plasma-scriptengines				install
 plasma-wallpapers-addons			install
 plasma-widget-folderview			install
 plasma-widget-lancelot				install
-plasma-widgets-addons				install
 plasma-widgets-workspace			install
 pm-utils					install
 po-debconf					install
@@ -3058,9 +3045,6 @@ python3-tz					install
 python3-urllib3					install
 python3-virtualenv				install
 python3-wheel					install
-python3.3					install
-python3.3-dev					install
-python3.3-minimal				install
 python3.4					install
 python3.4-dev					install
 python3.4-minimal				install
@@ -3287,8 +3271,6 @@ unp						install
 unrar						install
 unzip						install
 update-inetd					install
-update-notifier-common				install
-update-notifier-kde				install
 upower						install
 ure						install
 usb-modeswitch					install
