@@ -251,6 +251,7 @@ festlex-poslex					install
 festvox-kallpc16k				install
 figlet						install
 file						install
+filelight					install
 findutils					install
 finger						install
 firebird-dev					install
@@ -343,7 +344,6 @@ fortunes-min					install
 fortunes-off					install
 freeglut3:amd64					install
 freepats					install
-freespacenotifier				install
 freetds-common					install
 freetds-dev					install
 ftp						install
@@ -577,7 +577,7 @@ kde-style-qtcurve				install
 kde-wallpapers					install
 kde-wallpapers-default				install
 kde-window-manager				install
-kde-workspace-bin				deinstall
+kde-workspace-bin				install
 kde-workspace-data				install
 kde-workspace-kgreet-plugins			install
 kdebase-runtime					install
@@ -589,7 +589,6 @@ kdepim-runtime					install
 kdepimlibs-kio-plugins				install
 kdiff3						install
 kdiff3-doc					install
-kdm						install
 kdoctools					install
 keepassx					install
 kernel-wedge					install
@@ -599,8 +598,6 @@ khelpcenter4					install
 kile						install
 kinfocenter					install
 klibc-utils					install
-klipper						install
-kmenuedit					install
 kmix						install
 kmod						install
 knotes						install
@@ -613,8 +610,10 @@ kpart-webkit					install
 krb5-locales					install
 kscreen						install
 ksnapshot					install
-ksysguard					deinstall
+ksysguard					install
 ksysguardd					install
+ktouch						install
+ktouch-data					install
 kturtle						install
 kvkbd						install
 kwalletmanager					install
@@ -657,7 +656,6 @@ libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
 libapertium3-3.1-0				install
-libapertium3-3.1-0-dev				install
 libapparmor1:amd64				install
 libappindicator1				install
 libapr1:amd64					install
@@ -1157,7 +1155,6 @@ libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libglc0						install
-libgle3						install
 libgles2-mesa:amd64				install
 libglew1.10:amd64				install
 libglewmx1.10:amd64				install
@@ -1311,6 +1308,7 @@ libhunspell-1.3-0:amd64				install
 libhx509-5-heimdal:amd64			install
 libhyphen0					install
 libib-util:amd64				install
+libibus-1.0-5:amd64				install
 libical-dev					install
 libical1					install
 libice-dev:amd64				install
@@ -1322,7 +1320,7 @@ libid3tag0-dev					install
 libidl0:amd64					install
 libidn11:amd64					install
 libidn11-dev					install
-libiec61883-0					install
+libiec61883-0:amd64				install
 libieee1284-3:amd64				install
 libieee1284-3:i386				install
 libijs-0.35:amd64				install
@@ -1955,6 +1953,7 @@ libquadmath0:amd64				install
 libquazip0:amd64				install
 libquvi-scripts					install
 libquvi7:amd64					install
+libqwt5-qt4					install
 libradiusclient-ng-dev				install
 libradiusclient-ng2				install
 librados2					install
@@ -2032,6 +2031,7 @@ libsasl2-modules-db:i386			install
 libsaxon-java					install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
+libscim8c2a:amd64				install
 libsctp-dev					install
 libsctp1:amd64					install
 libsdl-image1.2:amd64				install
@@ -2333,8 +2333,8 @@ libwine:amd64					install
 libwine:i386					install
 libwine-gecko-2.21				install
 libwireshark-data				install
-libwireshark3:amd64				install
-libwiretap3:amd64				install
+libwireshark5:amd64				install
+libwiretap4:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0					install
 libwnck-3-common				install
@@ -2344,7 +2344,7 @@ libwps-0.2-2					install
 libwrap0:amd64					install
 libwrap0:i386					install
 libwsdl4j-java					install
-libwsutil3:amd64				install
+libwsutil4:amd64				install
 libwvstreams4.6-base				install
 libwvstreams4.6-extras				install
 libwww-perl					install
@@ -2802,13 +2802,11 @@ piuparts-common					install
 pkg-config					install
 pkg-kde-tools					install
 pkg-php-tools					install
-plasma-containments-addons			install
 plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
 plasma-desktopthemes-artwork			install
 plasma-netbook					install
 plasma-nm					install
-plasma-runners-addons				install
 plasma-scriptengine-javascript			install
 plasma-scriptengine-python			install
 plasma-scriptengine-ruby			install
@@ -2817,7 +2815,10 @@ plasma-scriptengine-webkit			install
 plasma-scriptengines				install
 plasma-wallpapers-addons			install
 plasma-widget-folderview			install
+plasma-widget-kdeobservatory			install
+plasma-widget-kimpanel				install
 plasma-widget-lancelot				install
+plasma-widgets-addons				install
 plasma-widgets-workspace			install
 pm-utils					install
 po-debconf					install
@@ -3086,6 +3087,7 @@ qtbase5-dev:amd64				install
 qtbase5-dev-tools				install
 qtchooser					install
 qtcore4-l10n					install
+qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
 qtquick1-5-dev:amd64				install
 qtquick1-qmltooling-plugins:amd64		install
@@ -3185,6 +3187,7 @@ ssl-cert					install
 stardict-tools					install
 startpar					install
 steam						install
+storageservicemanager				install
 strace						install
 subversion					install
 sudo						install
@@ -3388,7 +3391,6 @@ xscreensaver					install
 xscreensaver-data				install
 xscreensaver-data-extra				install
 xscreensaver-gl					install
-xscreensaver-gl-extra				install
 xscreensaver-screensaver-bsod			install
 xserver-common					install
 xserver-xephyr					install
