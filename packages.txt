@@ -2745,6 +2745,7 @@ p7zip-full					install
 packaging-dev					install
 pandoc						install
 pandoc-data					install
+parsoid						install
 parted						install
 passwd						install
 patch						install
