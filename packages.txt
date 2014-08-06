@@ -344,6 +344,7 @@ fortunes-min					install
 fortunes-off					install
 freeglut3:amd64					install
 freepats					install
+freespacenotifier				install
 freetds-common					install
 freetds-dev					install
 ftp						install
@@ -501,6 +502,7 @@ hyphen-gu					install
 i3-wm						install
 i3lock						install
 i965-va-driver:amd64				install
+i965-va-driver:i386				install
 iamerican					install
 icedove						install
 icedtea-6-jre-cacao:amd64			install
@@ -577,6 +579,7 @@ kde-style-qtcurve				install
 kde-wallpapers					install
 kde-wallpapers-default				install
 kde-window-manager				install
+kde-workspace					install
 kde-workspace-bin				install
 kde-workspace-data				install
 kde-workspace-kgreet-plugins			install
@@ -589,6 +592,7 @@ kdepim-runtime					install
 kdepimlibs-kio-plugins				install
 kdiff3						install
 kdiff3-doc					install
+kdm						install
 kdoctools					install
 keepassx					install
 kernel-wedge					install
@@ -598,6 +602,8 @@ khelpcenter4					install
 kile						install
 kinfocenter					install
 klibc-utils					install
+klipper						install
+kmenuedit					install
 kmix						install
 kmod						install
 knotes						install
@@ -680,6 +686,7 @@ libasound2:i386					install
 libasound2-data					install
 libasound2-dev:amd64				install
 libasound2-plugins:amd64			install
+libasound2-plugins:i386				install
 libaspell-dev					install
 libaspell15					install
 libasprintf-dev:amd64				install
@@ -739,13 +746,16 @@ libavalon-framework-java			install
 libavc1394-0:amd64				install
 libavcodec-dev					install
 libavcodec55:amd64				install
+libavcodec55:i386				install
 libavdevice54:amd64				install
 libavfilter4:amd64				install
 libavformat-dev					install
 libavformat55:amd64				install
 libavresample1:amd64				install
+libavresample1:i386				install
 libavutil-dev					install
 libavutil53:amd64				install
+libavutil53:i386				install
 libaxis-java					install
 libaxis2c-dev					install
 libaxis2c0					install
@@ -1231,6 +1241,7 @@ libgs9-common					install
 libgsasl7					install
 libgsl0ldbl					install
 libgsm1:amd64					install
+libgsm1:i386					install
 libgsm1-dev:amd64				install
 libgsoap5:amd64					install
 libgssapi-krb5-2:amd64				install
@@ -1364,7 +1375,7 @@ libitext-java					install
 libitm1:amd64					install
 libiw30:amd64					install
 libjack-jackd2-0:amd64				install
-libjack-jackd2-0:i386				deinstall
+libjack-jackd2-0:i386				install
 libjasper-dev					install
 libjasper1:amd64				install
 libjasper1:i386					deinstall
@@ -1610,6 +1621,7 @@ libmotif-common					install
 libmount1					install
 libmouse-perl					install
 libmp3lame0:amd64				install
+libmp3lame0:i386				install
 libmpc3:amd64					install
 libmpcdec6:amd64				install
 libmpdec2:amd64					install
@@ -1726,12 +1738,14 @@ libopencv-photo2.4:amd64			install
 libopencv-video2.4:amd64			install
 libopenexr6:amd64				install
 libopenjpeg5:amd64				install
+libopenjpeg5:i386				install
 libopenobex1					install
 libopenraw1:amd64				install
 libopenvg1-mesa:amd64				install
 libopenvg1-mesa:i386				deinstall
 libopts25:amd64					install
 libopus0:amd64					install
+libopus0:i386					install
 libopusfile0					install
 liborbit-2-0:amd64				install
 liborbit2:amd64					install
@@ -2017,6 +2031,7 @@ librygel-server-2.2-2				install
 libsac-java					install
 libsac-java-gcj					install
 libsamplerate0:amd64				install
+libsamplerate0:i386				install
 libsane:amd64					install
 libsane:i386					deinstall
 libsane-common					install
@@ -2031,6 +2046,7 @@ libsasl2-modules-db:i386			install
 libsaxon-java					install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
+libschroedinger-1.0-0:i386			install
 libscim8c2a:amd64				install
 libsctp-dev					install
 libsctp1:amd64					install
@@ -2119,8 +2135,10 @@ libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex-dev:amd64				install
 libspeex1:amd64					install
+libspeex1:i386					install
 libspeexdsp-dev:amd64				install
 libspeexdsp1:amd64				install
+libspeexdsp1:i386				install
 libspice-server1:amd64				install
 libspiro-dev					install
 libspiro0:amd64					install
@@ -2208,6 +2226,7 @@ libthai-data					install
 libthai0:amd64					install
 libthai0:i386					install
 libtheora0:amd64				install
+libtheora0:i386					install
 libthreadweaver4				install
 libtidy-0.99-0					install
 libtie-ixhash-perl				install
@@ -2278,6 +2297,7 @@ libv8-3.14-dev					install
 libv8-3.14.5					install
 libva-x11-1:amd64				install
 libva1:amd64					install
+libva1:i386					install
 libval14:amd64					install
 libvala-0.24-0:amd64				install
 libvarnishapi1					install
@@ -2285,6 +2305,7 @@ libvcdinfo0					install
 libvde0						install
 libvdeplug2					install
 libvdpau1:amd64					install
+libvdpau1:i386					install
 libvigraimpex4					install
 libvisio-0.0-0					install
 libvisual-0.4-0:amd64				install
@@ -2363,6 +2384,7 @@ libx11-xcb-dev:amd64				install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-142:amd64				install
+libx264-142:i386				install
 libx86-1:amd64					install
 libx86-1:i386					deinstall
 libxalan2-java					install
@@ -2516,6 +2538,7 @@ libxtst6:i386					install
 libxv1:amd64					install
 libxv1:i386					install
 libxvidcore4:amd64				install
+libxvidcore4:i386				install
 libxvmc1:amd64					install
 libxxf86dga1:amd64				install
 libxxf86vm-dev:amd64				install
@@ -2642,6 +2665,7 @@ network-manager					install
 network-manager-pptp				install
 network-manager-vpnc				install
 nfs-common					install
+nfs-kernel-server				install
 nginx						install
 nginx-common					install
 nginx-doc					install
@@ -2805,8 +2829,8 @@ pkg-kde-tools					install
 pkg-php-tools					install
 plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
+plasma-desktop					install
 plasma-desktopthemes-artwork			install
-plasma-netbook					install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-scriptengine-python			install
@@ -3286,6 +3310,7 @@ uuid						install
 uuid-dev					install
 uuid-runtime					install
 va-driver-all:amd64				install
+va-driver-all:i386				install
 vagrant						install
 valac						install
 valac-0.24					install
@@ -3296,6 +3321,7 @@ vcdimager					install
 vcsh						install
 vde2						install
 vdpau-va-driver:amd64				install
+vdpau-va-driver:i386				install
 velocity					install
 vim						install
 vim-common					install

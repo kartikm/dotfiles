@@ -13,7 +13,7 @@ deb http://emacs.naquadah.org/ unstable/
 deb http://packages.elasticsearch.org/elasticsearch/0.90/debian stable main
 
 #jenkins
-deb http://pkg.jenkins-ci.org/debian-stable binary/
+#deb http://pkg.jenkins-ci.org/debian-stable binary/
 
 #Google Chrome repo http://www.google.com/linuxrepositories/
 #deb http://dl.google.com/linux/chrome/deb/ stable main
