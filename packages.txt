@@ -308,6 +308,7 @@ fonts-mathjax					install
 fonts-meera-taml				install
 fonts-mlym					install
 fonts-nakula					install
+fonts-nanum					install
 fonts-navilu					install
 fonts-opensymbol				install
 fonts-orya					install
