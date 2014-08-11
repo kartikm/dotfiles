@@ -393,8 +393,10 @@ ghostscript-x					install
 giblib1:amd64					install
 gimp						install
 gimp-data					install
+gir1.2-appindicator3-0.1			install
 gir1.2-atk-1.0					install
 gir1.2-freedesktop				install
+gir1.2-gconf-2.0				install
 gir1.2-gdkpixbuf-2.0				install
 gir1.2-gee-1.0					install
 gir1.2-glib-2.0					install
@@ -521,6 +523,7 @@ ikiwiki						install
 imagemagick					install
 imagemagick-common				install
 info						install
+init						install
 init-system-helpers				install
 initramfs-tools					install
 initscripts					install
@@ -665,6 +668,7 @@ libapache2-mod-php5				install
 libapertium3-3.1-0				install
 libapparmor1:amd64				install
 libappindicator1				install
+libappindicator3-1				install
 libapr1:amd64					install
 libapr1-dev					install
 libaprutil1:amd64				install
@@ -965,6 +969,7 @@ libdbus-glib-1-2:amd64				install
 libdbus-glib-1-2:i386				install
 libdbus-glib-1-dev				install
 libdbusmenu-glib4:amd64				install
+libdbusmenu-gtk3-4:amd64			install
 libdbusmenu-gtk4:amd64				install
 libdbusmenu-qt2:amd64				install
 libdc1394-22:amd64				install
@@ -1347,6 +1352,7 @@ libimport-into-perl				install
 libincidenceeditorsng4				install
 libindicate-gtk3				install
 libindicate5					install
+libindicator3-7					install
 libindicator7					install
 libindirect-perl				install
 libintl-perl					install
@@ -1757,7 +1763,7 @@ liboro-java					install
 libosmgpsmap-dev				install
 libosmgpsmap2:amd64				install
 libossp-uuid-perl				install
-libossp-uuid16					install
+libossp-uuid16:amd64				install
 libotf0						install
 libotr5						install
 libp11-kit-dev					install
@@ -2358,7 +2364,7 @@ libwireshark-data				install
 libwireshark5:amd64				install
 libwiretap4:amd64				install
 libwmf0.2-7:amd64				install
-libwnck-3-0					install
+libwnck-3-0:amd64				install
 libwnck-3-common				install
 libwpd-0.9-9					install
 libwpg-0.2-2					install
@@ -2944,6 +2950,7 @@ python-formencode				install
 python-gconf					install
 python-gdbm					install
 python-gi					install
+python-gi-cairo					install
 python-glade2					install
 python-gnome2					install
 python-gobject					install
