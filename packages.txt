@@ -330,6 +330,7 @@ fonts-stix					install
 fonts-telu					install
 fonts-telu-extra				install
 fonts-texgyre					install
+fonts-wqy-zenhei				install
 fonttools					install
 fonttools-eexecop				install
 fontypython					install
