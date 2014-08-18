@@ -2138,7 +2138,7 @@ libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
 libsoup2.4-dev					install
 libsp1c2					install
-libspandsp2					install
+libspandsp2:amd64				install
 libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex-dev:amd64				install
