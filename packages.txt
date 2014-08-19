@@ -851,6 +851,7 @@ libcdparanoia0:amd64				install
 libcdr-0.0-0					install
 libcdt5						install
 libcgi-formbuilder-perl				install
+libcgi-pm-perl					install
 libcgi-session-perl				install
 libcglib-java					install
 libcgraph6					install
@@ -945,6 +946,7 @@ libdata-float-perl				install
 libdata-integer-perl				install
 libdata-optlist-perl				install
 libdata-perl-perl				install
+libdata-section-perl				install
 libdatetime-format-builder-perl			install
 libdatetime-format-iso8601-perl			install
 libdatetime-format-strptime-perl		install
@@ -1398,6 +1400,7 @@ libjcommon-java					install
 libjdom1-java					install
 libjemalloc1					install
 libjim0.74:amd64				install
+libjim0.75:amd64				install
 libjline-java					install
 libjna-java					install
 libjpeg-progs					install
@@ -1619,9 +1622,11 @@ libmnl0:amd64					install
 libmockito-java					install
 libmodemmanagerqt1:amd64			install
 libmodplug1					install
+libmodule-build-perl				install
 libmodule-implementation-perl			install
 libmodule-pluggable-perl			install
 libmodule-runtime-perl				install
+libmodule-signature-perl			install
 libmoo-perl					install
 libmoox-handlesvia-perl				install
 libmoox-late-perl				install
@@ -1638,6 +1643,7 @@ libmpfr4:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
 libmrm4:amd64					install
+libmro-compat-perl				install
 libmspub-0.0-0					install
 libmsv-java					install
 libmtdev1:amd64					install
@@ -1770,6 +1776,7 @@ libotr5						install
 libp11-kit-dev					install
 libp11-kit0:amd64				install
 libp11-kit0:i386				install
+libpackage-constants-perl			install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
 libpadwalker-perl				install
@@ -1821,7 +1828,7 @@ libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
 libperl4-corelibs-perl				install
-libperl5.18					install
+libperl5.20					install
 libperlio-gzip-perl				install
 libpgm-5.1-0					install
 libphonon4:amd64				install
@@ -1842,6 +1849,7 @@ libpng12-0:amd64				install
 libpng12-0:i386					install
 libpng12-dev:amd64				install
 libpod-latex-perl				install
+libpod-readme-perl				install
 libpodofo0.9.0					install
 libpolkit-agent-1-0:amd64			install
 libpolkit-backend-1-0:amd64			install
@@ -2130,6 +2138,7 @@ libsndfile1:amd64				install
 libsndfile1:i386				install
 libsoap-lite-perl				install
 libsocket6-perl					install
+libsoftware-license-perl			install
 libsolid4					install
 libsombok3:amd64				install
 libsoprano4					install
@@ -2176,6 +2185,7 @@ libstoken1:amd64				install
 libstreamanalyzer0				install
 libstreams0					install
 libstrictures-perl				install
+libsub-exporter-perl				install
 libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
 libsub-install-perl				install

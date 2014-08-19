@@ -166,8 +166,8 @@ alias amend='git commit -a --amend'
 alias amendn='git commit -a --amend --no-edit'
 alias gc='git gc'
 alias master='git checkout master'
-alias prod='git checkout production'
 alias mum='git fetch upstream; git merge upstream/master;'
+alias prod='git checkout production'
 alias pull='git checkout master && git pull'
 alias review='git fetch gerrit; git review;'
 
@@ -175,32 +175,33 @@ alias review='git fetch gerrit; git review;'
 cuke() { bundle exec cucumber $1; }
 kbo() { export KEEP_BROWSER_OPEN=true; }
 
-# Simple Server
+# Simple HTTP server
 pshs() { python -m SimpleHTTPServer; }
 
 # Random stuffs
-alias stardate='date "+%y%m.%d/%H%M"'   # from Joey
-alias rand='tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
 alias entertain='mplayer "$(find "." -type f -regextype posix-egrep -regex ".*\.(avi|mkv|flv|mpg|mpeg|mp4|wmv|3gp|mov|divx)" | shuf -n1)"'
 alias gdocs='google-chrome --app=http://docs.google.com'
+alias rand='tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
+alias stardate='date "+%y%m.%d/%H%M"'   # from Joey
+alias tzfix='sudo dpkg-reconfigure tzdata' # fix for timezone. Bug?
 
 # tor settings
 alias google-chrome-tor='google-chrome --proxy-server="socks://127.0.0.1:9050"'
 
 # Debian
-export EDITOR='vim'
-export VISUAL='vim'
 export DEBEMAIL="kartik@debian.org"
 export DEBFULLNAME="Kartik Mistry"
+export EDITOR='vim'
+export VISUAL='vim'
 
+alias lintian='lintian -iIEcv --pedantic --color auto'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
-alias lintian='lintian -iIEcv --pedantic --color auto'
 
 # via: http://www.reddit.com/r/linux/comments/m28g2/what_tiny_yet_awesome_hacks_do_you_use/c2xi1ke
 alias ae="sudo $EDITOR /etc/apt/sources.list"
-alias aL="dpkg -L"
 alias ag="dpkg -l|grep"
+alias aL="dpkg -L"
 
 # Some stats
 alias debs-by-size='grep-status -FStatus -sInstalled-Size,Package -n "install ok installed" | paste -sd "  \n" | sort -rn'
