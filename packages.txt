@@ -1560,7 +1560,7 @@ liblog-message-perl				install
 liblog-message-simple-perl			install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
-liblognorm1					install
+liblognorm1:amd64				install
 libloudmouth1-0					install
 libloudmouth1-dev				install
 liblqr-1-0:amd64				install
