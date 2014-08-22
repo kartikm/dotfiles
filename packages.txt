@@ -1093,6 +1093,7 @@ libflac++6:amd64				install
 libflac8:amd64					install
 libflac8:i386					install
 libflite1:amd64					install
+libfltk1.1:amd64				install
 libfluidsynth1:amd64				install
 libflute-java					install
 libfont-afm-perl				install
@@ -2069,6 +2070,7 @@ libsctp1:amd64					install
 libsdl-image1.2:amd64				install
 libsdl-mixer1.2:amd64				install
 libsdl-net1.2:amd64				install
+libsdl-pango1:amd64				install
 libsdl-sound1.2:amd64				install
 libsdl-ttf2.0-0:amd64				install
 libsdl1.2debian:amd64				install
@@ -3304,6 +3306,11 @@ ttf-dejavu					install
 ttf-dejavu-core					install
 ttf-dejavu-extra				install
 ttf-freefont					install
+tuxpaint					install
+tuxpaint-config					install
+tuxpaint-data					install
+tuxpaint-plugins-default			install
+tuxpaint-stamps-default				install
 tzdata						install
 tzdata-java					install
 ucf						install
