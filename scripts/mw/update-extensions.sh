@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 if [ "$1" ]; then
  for dir in /var/www/*/core/extensions
      do
