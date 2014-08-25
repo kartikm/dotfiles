@@ -3150,6 +3150,8 @@ realpath					install
 reaver						install
 recode						install
 recoll						install
+redis-server					install
+redis-tools					install
 remind						install
 rename						install
 reportbug					install
