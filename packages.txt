@@ -2997,7 +2997,7 @@ python-osmgpsmap				install
 python-paramiko					install
 python-pexpect					install
 python-pexpect-doc				install
-python-pil					install
+python-pil:amd64				install
 python-pip					install
 python-pip-whl					install
 python-pkg-resources				install
@@ -3075,7 +3075,7 @@ python3-matplotlib				install
 python3-minimal					install
 python3-nose					install
 python3-numpy					install
-python3-pil					install
+python3-pil:amd64				install
 python3-pip					install
 python3-pkg-resources				install
 python3-pyparsing				install
