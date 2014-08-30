@@ -1074,9 +1074,7 @@ libfdt1:amd64					install
 libffi-dev:amd64				install
 libffi6:amd64					install
 libffi6:i386					install
-libfftw3-3:amd64				install
 libfftw3-double3:amd64				install
-libfftw3-long3:amd64				install
 libfftw3-single3:amd64				install
 libfile-basedir-perl				install
 libfile-copy-recursive-perl			install
@@ -1221,7 +1219,6 @@ libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
 libgnutls26:i386				install
 libgnutls28-dev:amd64				install
-libgnutlsxx27:amd64				install
 libgnutlsxx28:amd64				install
 libgomp1:amd64					install
 libgpg-error-dev				install
@@ -1258,7 +1255,6 @@ libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			install
 libgssdp-1.0-3					install
-libgssglue1:amd64				install
 libgstreamer-plugins-bad0.10-0:amd64		install
 libgstreamer-plugins-base0.10-0:amd64		install
 libgstreamer-plugins-base0.10-0:i386		install
@@ -1400,7 +1396,6 @@ libjbig2dec0					install
 libjcommon-java					install
 libjdom1-java					install
 libjemalloc1					install
-libjim0.74:amd64				install
 libjim0.75:amd64				install
 libjline-java					install
 libjna-java					install
@@ -1964,7 +1959,6 @@ libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5xml5:amd64				install
-libqt5xmlpatterns5:amd64			install
 libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
 libqtcore4:i386					install
@@ -1979,7 +1973,7 @@ libqtlocation1:amd64				install
 libqtruby4shared2				install
 libqtwebkit-dev					install
 libqtwebkit4:amd64				install
-libqtwebkit4:i386				install
+libqtwebkit4:i386				deinstall
 libquadmath0:amd64				install
 libquazip0:amd64				install
 libquvi-scripts					install
@@ -2142,7 +2136,6 @@ libsoap-lite-perl				install
 libsocket6-perl					install
 libsoftware-license-perl			install
 libsolid4					install
-libsombok3:amd64				install
 libsoprano4					install
 libsoundtouch0:amd64				install
 libsoup-gnome2.4-1:amd64			install
@@ -2165,14 +2158,13 @@ libspqr1.3.1:amd64				install
 libsqlite0					install
 libsqlite0-dev					install
 libsqlite3-0:amd64				install
-libsqlite3-0:i386				install
+libsqlite3-0:i386				deinstall
 libsqlite3-dev:amd64				install
 libsrtp0					install
 libsrtp0-dev					install
 libss2:amd64					install
 libss7-1					install
 libss7-dev					install
-libssh-4:amd64					install
 libssh2-1:amd64					install
 libssl-dev:amd64				install
 libssl1.0.0:amd64				install
@@ -2797,7 +2789,6 @@ patchutils					install
 pbuilder					install
 pbzip2						install
 pciutils					install
-pcmciautils					install
 pear-phpunit-channel				install
 pepperflashplugin-nonfree			install
 perl						install
@@ -3109,16 +3100,7 @@ qemu-system-x86					install
 qemu-user					install
 qemu-user-binfmt				install
 qemu-utils					install
-qml-module-qtgraphicaleffects:amd64		install
-qml-module-qtquick-controls:amd64		install
-qml-module-qtquick-dialogs:amd64		install
 qml-module-qtquick-layouts:amd64		install
-qml-module-qtquick-localstorage:amd64		install
-qml-module-qtquick-particles2:amd64		install
-qml-module-qtquick-privatewidgets:amd64		install
-qml-module-qtquick-window2:amd64		install
-qml-module-qtquick-xmllistmodel:amd64		install
-qml-module-qtquick2:amd64			install
 qmlscene					install
 qprint						install
 qrencode					install
@@ -3136,7 +3118,6 @@ qtcore4-l10n					install
 qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
 qtquick1-5-dev:amd64				install
-qtquick1-qmltooling-plugins:amd64		install
 quilt						install
 quvi						install
 racket						install
@@ -3213,7 +3194,6 @@ shared-mime-info				install
 sharutils					install
 shtool						install
 signing-party					install
-skype						install
 sl						install
 slim						install
 sm						install
