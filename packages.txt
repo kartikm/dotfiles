@@ -549,6 +549,7 @@ irssi-scripts					install
 isc-dhcp-client					install
 isc-dhcp-common					install
 isenkram					install
+isenkram-cli					install
 iso-codes					install
 ispell						install
 iucode-tool					install
@@ -640,6 +641,7 @@ liba52-0.7.4					install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.0-0					install
+libabw-0.1-1					install
 libacl1:amd64					install
 libacl1:i386					install
 libacl1-dev					install
@@ -765,11 +767,14 @@ libavutil53:i386				install
 libaxis-java					install
 libaxis2c-dev					install
 libaxis2c0					install
+libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
 libbabl-0.1-0:amd64				install
 libbaloocore4					install
 libbaloofiles4					install
 libbaloopim4					install
+libbalooqueryparser4				install
+libbaloowidgets4				install
 libbalooxapian4					install
 libbareword-filehandles-perl			install
 libbase-java					install
@@ -849,7 +854,9 @@ libcdio-paranoia1				install
 libcdio13					install
 libcdparanoia0:amd64				install
 libcdr-0.0-0					install
+libcdr-0.1-1					install
 libcdt5						install
+libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
 libcgi-session-perl				install
@@ -862,6 +869,7 @@ libcholmod2.1.2:amd64				install
 libchromaprint0:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
+libclang1-3.5:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
@@ -986,7 +994,6 @@ libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
 libdigest-md4-perl				install
-libdirac-decoder0:amd64				install
 libdirac-encoder0:amd64				install
 libdirectfb-1.2-9:amd64				install
 libdirectfb-1.2-9:i386				install
@@ -1015,6 +1022,7 @@ libdvbpsi9:amd64				install
 libdvdnav4:amd64				install
 libdvdread4:amd64				install
 libe-book-0.0-0					install
+libe-book-0.1-1					install
 libebml4:amd64					install
 libecj-java					install
 libedit2:amd64					install
@@ -1044,6 +1052,7 @@ libestools2.1:amd64				install
 libestools2.1-dev				install
 libestr0					install
 libetonyek-0.0-0				install
+libetonyek-0.1-1				install
 libev-perl					install
 libev4						install
 libevdev2					install
@@ -1105,6 +1114,7 @@ libfonts-java					install
 libfop-java					install
 libformula-java					install
 libfreehand-0.0-0				install
+libfreehand-0.1-1				install
 libfreerdp1:amd64				install
 libfreetype6:amd64				install
 libfreetype6:i386				install
@@ -1173,6 +1183,7 @@ libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libglc0						install
+libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
 libglew1.10:amd64				install
 libglewmx1.10:amd64				install
@@ -1184,6 +1195,7 @@ libglib2.0-data					install
 libglib2.0-dev					install
 libglibmm-2.4-1c2a:amd64			install
 libglibmm-2.4-dev:amd64				install
+libgltf-0.0-0					install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev				install
@@ -1464,6 +1476,7 @@ libkexiv2-data					install
 libkeyutils1:amd64				install
 libkeyutils1:i386				install
 libkfile4					install
+libkfilemetadata4				install
 libkgapi2-2:amd64				install
 libkholidays4					install
 libkhtml5					install
@@ -1548,6 +1561,7 @@ liblivemedia23					install
 libllvm3.3:amd64				install
 libllvm3.4:amd64				install
 libllvm3.4:i386					install
+libllvm3.5:amd64				install
 libloader-java					install
 liblocale-gettext-perl				install
 liblockfile-bin					install
@@ -1592,7 +1606,8 @@ libmailcommon4					install
 libmailimporter4				install
 libmailtools-perl				install
 libmailtransport4				install
-libmarblewidget18				install
+libmarblewidget18				deinstall
+libmarblewidget19				install
 libmarco-private0:amd64				install
 libmarkdown2:amd64				install
 libmatroska6:amd64				install
@@ -1641,6 +1656,7 @@ libmpg123-0:i386				install
 libmrm4:amd64					install
 libmro-compat-perl				install
 libmspub-0.0-0					install
+libmspub-0.1-1					install
 libmsv-java					install
 libmtdev1:amd64					install
 libmtp-common					install
@@ -1649,11 +1665,13 @@ libmtp9:amd64					install
 libmultidimensional-perl			install
 libmusicbrainz5-0:amd64				install
 libmwaw-0.2-2					install
+libmwaw-0.3-3					install
 libmysql-java					install
 libmysqlclient-dev				install
 libmysqlclient18:amd64				install
 libmythes-1.2-0					install
 libnacl-dev					install
+libnamespace-clean-perl				install
 libnautilus-extension1a				install
 libncurses5:amd64				install
 libncurses5:i386				install
@@ -1718,10 +1736,13 @@ libntlm0:amd64					install
 libntrack-qt4-1					install
 libntrack0					install
 liboath0					install
+libobjc-4.9-dev:amd64				install
+libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
 libodfgen-0.0-0					install
+libodfgen-0.1-1					install
 libofa0						install
 libogg-dev:amd64				install
 libogg0:amd64					install
@@ -1762,6 +1783,7 @@ liborbit2:amd64					install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.6-0					install
+liborcus-0.8-0					install
 liboro-java					install
 libosmgpsmap-dev				install
 libosmgpsmap2:amd64				install
@@ -1937,11 +1959,14 @@ libqt4-test:amd64				install
 libqt4-xml:amd64				install
 libqt4-xml:i386					install
 libqt4-xmlpatterns:amd64			install
+libqt5clucene5:amd64				install
 libqt5concurrent5:amd64				install
 libqt5core5a:amd64				install
 libqt5dbus5:amd64				install
 libqt5declarative5:amd64			install
+libqt5designer5:amd64				install
 libqt5gui5:amd64				install
+libqt5help5:amd64				install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
 libqt5opengl5-dev:amd64				install
@@ -1975,7 +2000,8 @@ libqtwebkit-dev					install
 libqtwebkit4:amd64				install
 libqtwebkit4:i386				deinstall
 libquadmath0:amd64				install
-libquazip0:amd64				install
+libquazip0:amd64				deinstall
+libquazip1:amd64				install
 libquvi-scripts					install
 libquvi7:amd64					install
 libqwt5-qt4					install
@@ -2023,6 +2049,7 @@ libresample1					install
 libresample1-dev				install
 libresid-builder0c2a				install
 librest-0.7-0:amd64				install
+librevenge-0.0-0				install
 librhino-java					install
 libroken18-heimdal:amd64			install
 librole-tiny-perl				install
@@ -2089,6 +2116,7 @@ libserializer-java				install
 libservlet2.5-java				install
 libservlet3.0-java				install
 libsgmls-perl					install
+libshine3:amd64					install
 libshout3:amd64					install
 libshp2:amd64					install
 libsidplay1					install
@@ -2206,7 +2234,6 @@ libtag1-vanilla:amd64				install
 libtag1c2a:amd64				install
 libtagc0:amd64					install
 libtalloc2:amd64				install
-libtar0						install
 libtask-weaken-perl				install
 libtaskmanager4abi4				install
 libtasn1-6:amd64				install
@@ -2307,11 +2334,13 @@ libv4lconvert0:amd64				install
 libv4lconvert0:i386				deinstall
 libv8-3.14-dev					install
 libv8-3.14.5					install
+libva-drm1:amd64				install
 libva-x11-1:amd64				install
 libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
 libvala-0.24-0:amd64				install
+libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
 libvde0						install
@@ -2320,10 +2349,13 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvigraimpex4					install
 libvisio-0.0-0					install
+libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
 libvlc5						install
-libvlccore7					install
+libvlccore7					deinstall
+libvlccore8					install
+libvncclient0:amd64				install
 libvncserver0:amd64				install
 libvo-aacenc0:amd64				install
 libvo-amrwbenc0:amd64				install
@@ -2371,9 +2403,12 @@ libwiretap4:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
+libwpd-0.10-10					install
 libwpd-0.9-9					install
 libwpg-0.2-2					install
+libwpg-0.3-3					install
 libwps-0.2-2					install
+libwps-0.3-3					install
 libwrap0:amd64					install
 libwrap0:i386					install
 libwsdl4j-java					install
@@ -2999,6 +3034,8 @@ python-pymongo					install
 python-pymongo-ext				install
 python-pyorbit					install
 python-pyparsing				install
+python-pyqt5					install
+python-pyqt5.qtwebkit				install
 python-qrtools					install
 python-qt4					install
 python-qt4-dbus					install
@@ -3346,6 +3383,7 @@ vlc						install
 vlc-data					install
 vlc-nox						install
 vlc-plugin-pulse				install
+vlc-plugin-samba				install
 vorbis-tools					install
 vpnc						install
 vpnc-scripts					install
