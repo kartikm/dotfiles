@@ -640,7 +640,6 @@ less						install
 liba52-0.7.4					install
 libaa1:amd64					install
 libaacs0:amd64					install
-libabw-0.0-0					install
 libabw-0.1-1					install
 libacl1:amd64					install
 libacl1:i386					install
@@ -755,15 +754,19 @@ libavc1394-0:amd64				install
 libavcodec-dev					install
 libavcodec55:amd64				install
 libavcodec55:i386				install
+libavcodec56:amd64				install
 libavdevice54:amd64				install
 libavfilter4:amd64				install
 libavformat-dev					install
 libavformat55:amd64				install
+libavformat56:amd64				install
 libavresample1:amd64				install
 libavresample1:i386				install
+libavresample2:amd64				install
 libavutil-dev					install
 libavutil53:amd64				install
 libavutil53:i386				install
+libavutil54:amd64				install
 libaxis-java					install
 libaxis2c-dev					install
 libaxis2c0					install
@@ -853,7 +856,6 @@ libcdio-cdda1					install
 libcdio-paranoia1				install
 libcdio13					install
 libcdparanoia0:amd64				install
-libcdr-0.0-0					install
 libcdr-0.1-1					install
 libcdt5						install
 libcgi-fast-perl				install
@@ -1021,7 +1023,6 @@ libdv4:amd64					install
 libdvbpsi9:amd64				install
 libdvdnav4:amd64				install
 libdvdread4:amd64				install
-libe-book-0.0-0					install
 libe-book-0.1-1					install
 libebml4:amd64					install
 libecj-java					install
@@ -1051,7 +1052,6 @@ libesd0:i386					install
 libestools2.1:amd64				install
 libestools2.1-dev				install
 libestr0					install
-libetonyek-0.0-0				install
 libetonyek-0.1-1				install
 libev-perl					install
 libev4						install
@@ -1113,7 +1113,6 @@ libfontforge1					install
 libfonts-java					install
 libfop-java					install
 libformula-java					install
-libfreehand-0.0-0				install
 libfreehand-0.1-1				install
 libfreerdp1:amd64				install
 libfreetype6:amd64				install
@@ -1370,6 +1369,7 @@ libindirect-perl				install
 libintl-perl					install
 libio-html-perl					install
 libio-multiplex-perl				install
+libio-pty-easy-perl				install
 libio-pty-perl					install
 libio-sessiondata-perl				install
 libio-socket-inet6-perl				install
@@ -1655,7 +1655,6 @@ libmpg123-0:amd64				install
 libmpg123-0:i386				install
 libmrm4:amd64					install
 libmro-compat-perl				install
-libmspub-0.0-0					install
 libmspub-0.1-1					install
 libmsv-java					install
 libmtdev1:amd64					install
@@ -1664,7 +1663,6 @@ libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
 libmusicbrainz5-0:amd64				install
-libmwaw-0.2-2					install
 libmwaw-0.3-3					install
 libmysql-java					install
 libmysqlclient-dev				install
@@ -1741,13 +1739,13 @@ libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
-libodfgen-0.0-0					install
 libodfgen-0.1-1					install
 libofa0						install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore4					install
+libokularcore5					install
 libonig2:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -1782,7 +1780,6 @@ liborbit-2-0:amd64				install
 liborbit2:amd64					install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
-liborcus-0.6-0					install
 liborcus-0.8-0					install
 liboro-java					install
 libosmgpsmap-dev				install
@@ -2217,6 +2214,7 @@ libsvn-perl					install
 libsvn1:amd64					install
 libswitch-perl					install
 libswscale2:amd64				install
+libswscale3:amd64				install
 libsybdb5:amd64					install
 libsynctex1					install
 libsyndication4					install
@@ -2348,7 +2346,6 @@ libvdeplug2					install
 libvdpau1:amd64					install
 libvdpau1:i386					install
 libvigraimpex4					install
-libvisio-0.0-0					install
 libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
@@ -2404,10 +2401,7 @@ libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
 libwpd-0.10-10					install
-libwpd-0.9-9					install
-libwpg-0.2-2					install
 libwpg-0.3-3					install
-libwps-0.2-2					install
 libwps-0.3-3					install
 libwrap0:amd64					install
 libwrap0:i386					install
@@ -2505,7 +2499,7 @@ libxdmcp6:amd64					install
 libxdmcp6:i386					install
 libxdot4					install
 libxen-4.3					install
-libxenstore3.0					install
+libxenstore3.0:amd64				install
 libxerces-c3.1:amd64				install
 libxerces2-java					install
 libxext-dev:amd64				install
