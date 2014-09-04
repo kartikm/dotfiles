@@ -508,6 +508,7 @@ i3lock						install
 i965-va-driver:amd64				install
 i965-va-driver:i386				install
 iamerican					install
+icc-profiles-free				install
 icedove						install
 icedtea-6-jre-cacao:amd64			install
 icedtea-6-jre-jamvm:amd64			install
@@ -755,18 +756,24 @@ libavcodec-dev					install
 libavcodec55:amd64				install
 libavcodec55:i386				install
 libavcodec56:amd64				install
+libavcodec56:i386				install
 libavdevice54:amd64				install
+libavdevice55:amd64				install
 libavfilter4:amd64				install
+libavfilter5:amd64				install
 libavformat-dev					install
 libavformat55:amd64				install
 libavformat56:amd64				install
+libavresample-dev				install
 libavresample1:amd64				install
 libavresample1:i386				install
 libavresample2:amd64				install
+libavresample2:i386				install
 libavutil-dev					install
 libavutil53:amd64				install
 libavutil53:i386				install
 libavutil54:amd64				install
+libavutil54:i386				install
 libaxis-java					install
 libaxis2c-dev					install
 libaxis2c0					install
@@ -1307,6 +1314,7 @@ libharfbuzz0b:amd64				install
 libharfbuzz0b:i386				install
 libhcrypto4-heimdal:amd64			install
 libhdf5-7:amd64					install
+libhdf5-8:amd64					install
 libheap-perl					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
@@ -1744,7 +1752,6 @@ libofa0						install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
-libokularcore4					install
 libokularcore5					install
 libonig2:amd64					install
 libopenal-data					install
@@ -2244,6 +2251,7 @@ libtcl8.6:amd64					install
 libtcltk-ruby1.9.1				install
 libtdb1:amd64					install
 libtdb1:i386					install
+libteamdctl0:amd64				install
 libtemplateparser4				install
 libterm-readkey-perl				install
 libterm-readline-gnu-perl			install
@@ -2286,6 +2294,7 @@ libtommath0					install
 libtonezone-dev					install
 libtonezone2.0					install
 libtool						install
+libtool-bin					install
 libtry-tiny-perl				install
 libts-0.0-0:amd64				install
 libts-0.0-0:i386				install
@@ -2311,6 +2320,7 @@ libuniversal-require-perl			install
 libunwind8					install
 libupnp6					install
 libupower-glib2:amd64				install
+libupower-glib3:amd64				install
 liburcu-dev					install
 liburcu2:amd64					install
 liburi-perl					install
@@ -2499,6 +2509,7 @@ libxdmcp6:amd64					install
 libxdmcp6:i386					install
 libxdot4					install
 libxen-4.3					install
+libxen-4.4:amd64				install
 libxenstore3.0:amd64				install
 libxerces-c3.1:amd64				install
 libxerces2-java					install
