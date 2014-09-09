@@ -182,6 +182,7 @@ pshs() { python -m SimpleHTTPServer; }
 alias entertain='mplayer "$(find "." -type f -regextype posix-egrep -regex ".*\.(avi|mkv|flv|mpg|mpeg|mp4|wmv|3gp|mov|divx)" | shuf -n1)"'
 alias gdocs='google-chrome --app=http://docs.google.com'
 alias rand='tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
+alias speed='python ~/.bin/speedtest-cli'
 alias stardate='date "+%y%m.%d/%H%M"'   # from Joey
 alias tzfix='sudo dpkg-reconfigure tzdata' # fix for timezone. Bug?
 
