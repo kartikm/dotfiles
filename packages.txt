@@ -753,8 +753,6 @@ libavahi-ui0:amd64				install
 libavalon-framework-java			install
 libavc1394-0:amd64				install
 libavcodec-dev					install
-libavcodec55:amd64				install
-libavcodec55:i386				install
 libavcodec56:amd64				install
 libavcodec56:i386				install
 libavdevice55:amd64				install
