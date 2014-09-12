@@ -508,7 +508,6 @@ i3lock						install
 i965-va-driver:amd64				install
 i965-va-driver:i386				install
 iamerican					install
-icc-profiles-free				install
 icedove						install
 icedtea-6-jre-cacao:amd64			install
 icedtea-6-jre-jamvm:amd64			install
@@ -523,6 +522,7 @@ ienglish-common					install
 ifupdown					install
 ikiwiki						install
 imagemagick					install
+imagemagick-6.q16				install
 imagemagick-common				install
 info						install
 init						install
@@ -763,8 +763,6 @@ libavresample-dev				install
 libavresample2:amd64				install
 libavresample2:i386				install
 libavutil-dev					install
-libavutil53:amd64				install
-libavutil53:i386				install
 libavutil54:amd64				install
 libavutil54:i386				install
 libaxis-java					install
@@ -1062,7 +1060,7 @@ libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
 libexif12:amd64					install
 libexif12:i386					install
-libexiv2-12					install
+libexiv2-13:amd64				install
 libexpat1:amd64					install
 libexpat1:i386					install
 libexpat1-dev:amd64				install
@@ -1598,8 +1596,11 @@ libm17n-0					install
 libmaa3:amd64					install
 libmad0:amd64					install
 libmagic1:amd64					install
+libmagickcore-6.q16-2:amd64			install
+libmagickcore-6.q16-2-extra:amd64		install
 libmagickcore5:amd64				install
 libmagickcore5-extra:amd64			install
+libmagickwand-6.q16-2:amd64			install
 libmagickwand5:amd64				install
 libmail-sendmail-perl				install
 libmailcommon4					install
@@ -1975,6 +1976,7 @@ libqt5quickwidgets5:amd64			install
 libqt5script5:amd64				install
 libqt5sql5:amd64				install
 libqt5sql5-sqlite:amd64				install
+libqt5svg5:amd64				install
 libqt5test5:amd64				install
 libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
@@ -2189,6 +2191,7 @@ libsrtp0-dev					install
 libss2:amd64					install
 libss7-1					install
 libss7-dev					install
+libssh-gcrypt-4:amd64				install
 libssh2-1:amd64					install
 libssl-dev:amd64				install
 libssl1.0.0:amd64				install
@@ -2608,10 +2611,14 @@ linux-base					install
 linux-compiler-gcc-4.8-x86			install
 linux-headers-3.14-2-amd64			install
 linux-headers-3.14-2-common			install
+linux-headers-3.16-1-amd64			install
+linux-headers-3.16-1-common			install
 linux-headers-amd64				install
 linux-image-3.14-2-amd64			install
+linux-image-3.16-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-3.14				install
+linux-kbuild-3.16				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -2635,7 +2642,6 @@ lua5.2						install
 lxc						install
 lynx-cur					install
 lzip						install
-m17n-contrib					install
 m17n-db						install
 m4						install
 macchanger					install
@@ -3030,6 +3036,7 @@ python-pymongo-ext				install
 python-pyorbit					install
 python-pyparsing				install
 python-pyqt5					install
+python-pyqt5.qtsvg				install
 python-pyqt5.qtwebkit				install
 python-qrtools					install
 python-qt4					install
@@ -3071,6 +3078,7 @@ python-webunit					install
 python-wicd					install
 python-wstools					install
 python-wxgtk2.8					install
+python-wxgtk3.0					install
 python-wxversion				install
 python-yaml					install
 python-zbar					install
@@ -3150,6 +3158,7 @@ qtcore4-l10n					install
 qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
 qtquick1-5-dev:amd64				install
+qttranslations5-l10n				install
 quilt						install
 quvi						install
 racket						install
