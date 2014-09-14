@@ -918,6 +918,7 @@ libconfig-inifiles-perl				install
 libconfig9:amd64				install
 libconvert-asn1-perl				install
 libconvert-binhex-perl				install
+libcpan-meta-perl				install
 libcppunit-1.13-0:amd64				install
 libcppunit-dev					install
 libcpufreq0					install
@@ -2954,6 +2955,7 @@ python-beautifulsoup				install
 python-bson					install
 python-bson-ext					install
 python-cairo					install
+python-cffi					install
 python-chardet					install
 python-chardet-whl				install
 python-cherrypy3				install
@@ -2962,6 +2964,7 @@ python-colorama-whl				install
 python-configobj				install
 python-coverage					install
 python-crypto					install
+python-cryptography				install
 python-cssselect				install
 python-cssutils					install
 python-dateutil					install
@@ -3014,12 +3017,14 @@ python-matplotlib-data				install
 python-mechanize				install
 python-minimal					install
 python-mysqldb					install
+python-ndg-httpsclient				install
 python-netifaces				install
 python-nose					install
 python-notify					install
 python-numpy					install
 python-oauth					install
 python-opencv					install
+python-openssl					install
 python-osmgpsmap				install
 python-paramiko					install
 python-pexpect					install
@@ -3028,6 +3033,9 @@ python-pil:amd64				install
 python-pip					install
 python-pip-whl					install
 python-pkg-resources				install
+python-ply					install
+python-pyasn1					install
+python-pycparser				install
 python-pyexiv2					install
 python-pygame					install
 python-pygments					install
