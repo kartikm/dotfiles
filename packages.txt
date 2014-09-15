@@ -93,6 +93,7 @@ calendar-google-provider			install
 calibre						install
 calibre-bin					install
 cdbs						install
+cdebootstrap					install
 cdparanoia					install
 cdrdao						install
 chromium					install
@@ -988,6 +989,8 @@ libdc1394-22:amd64				install
 libdca0:amd64					install
 libdconf1:amd64					install
 libdebconfclient0:amd64				install
+libdebian-installer-extra4:amd64		install
+libdebian-installer4:amd64			install
 libdevel-caller-perl				install
 libdevel-globaldestruction-perl			install
 libdevel-lexalias-perl				install
@@ -1351,8 +1354,8 @@ libiec61883-0:amd64				install
 libieee1284-3:amd64				install
 libieee1284-3:i386				install
 libijs-0.35:amd64				install
-libiksemel-dev					install
-libiksemel3					install
+libiksemel-dev:amd64				install
+libiksemel3:amd64				install
 libilmbase6:amd64				install
 libimage-exiftool-perl				install
 libimlib2					install
@@ -2862,6 +2865,7 @@ php5-pgsql					install
 php5-xdebug					install
 phpmyadmin					install
 phpunit						install
+phpunit-environment				install
 phpunit-mock-object				install
 phpunit-story					install
 pidgin						install
