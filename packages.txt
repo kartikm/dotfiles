@@ -1894,10 +1894,10 @@ libprocesscore4abi1				install
 libprocessui4a					install
 libprocps3:amd64				install
 libprotobuf-dev:amd64				install
-libprotobuf-lite8:amd64				install
-libprotobuf8:amd64				install
+libprotobuf-lite9:amd64				install
+libprotobuf9:amd64				install
 libprotoc-dev:amd64				install
-libprotoc8:amd64				install
+libprotoc9:amd64				install
 libproxy-tools					install
 libproxy1:amd64					install
 libpspell-dev					install
@@ -2301,6 +2301,7 @@ libtwolame0					install
 libtxc-dxtn-s2tc0:amd64				install
 libtxc-dxtn-s2tc0:i386				install
 libtype-tiny-perl				install
+libtype-tiny-xs-perl				install
 libubsan0:amd64					install
 libudev-dev:amd64				install
 libudev1:amd64					install
