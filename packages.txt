@@ -2233,6 +2233,7 @@ libsystemd-id128-0:i386				install
 libsystemd-journal0:amd64			install
 libsystemd-journal0:i386			install
 libsystemd-login0:amd64				install
+libsystemd0:amd64				install
 libtag1-vanilla:amd64				install
 libtag1c2a:amd64				install
 libtagc0:amd64					install
