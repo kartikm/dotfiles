@@ -1617,6 +1617,8 @@ libmarco-private0:amd64				install
 libmarkdown2:amd64				install
 libmatroska6:amd64				install
 libmbim-glib0:amd64				install
+libmbim-glib4:amd64				install
+libmbim-proxy					install
 libmcrypt4					install
 libmeanwhile1					install
 libmessagecomposer4				install
@@ -1754,6 +1756,7 @@ libonig2:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
+libopenblas-base				install
 libopenconnect3:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
@@ -1772,8 +1775,10 @@ libopencv-video2.4:amd64			install
 libopenexr6:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
+libopenlibm1:amd64				install
 libopenobex1					install
 libopenraw1:amd64				install
+libopenspecfun1:amd64				install
 libopenvg1-mesa:amd64				install
 libopenvg1-mesa:i386				deinstall
 libopts25:amd64					install
