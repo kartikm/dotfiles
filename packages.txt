@@ -84,6 +84,7 @@ bsdtar						install
 bsdutils					install
 build-essential					install
 busybox						install
+byzanz						install
 bzip2						install
 ca-certificates					install
 ca-certificates-java				install
