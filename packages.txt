@@ -398,11 +398,11 @@ gimp						install
 gimp-data					install
 gir1.2-appindicator3-0.1			install
 gir1.2-atk-1.0					install
-gir1.2-freedesktop				install
+gir1.2-freedesktop:amd64			install
 gir1.2-gconf-2.0				install
 gir1.2-gdkpixbuf-2.0				install
 gir1.2-gee-1.0					install
-gir1.2-glib-2.0					install
+gir1.2-glib-2.0:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0					install
 gir1.2-notify-0.7				install
@@ -1174,7 +1174,7 @@ libgif-dev					install
 libgif4:amd64					install
 libgimp2.0					install
 libgirara-gtk3-1:amd64				install
-libgirepository-1.0-1				install
+libgirepository-1.0-1:amd64			install
 libgl1-mesa-dev					install
 libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
@@ -1561,7 +1561,6 @@ liblircclient0					install
 liblist-allutils-perl				install
 liblist-moreutils-perl				install
 liblivemedia23					install
-libllvm3.3:amd64				install
 libllvm3.4:amd64				install
 libllvm3.4:i386					install
 libllvm3.5:amd64				install
@@ -1617,7 +1616,6 @@ libmarblewidget19				install
 libmarco-private0:amd64				install
 libmarkdown2:amd64				install
 libmatroska6:amd64				install
-libmbim-glib0:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmcrypt4					install
@@ -3169,7 +3167,6 @@ qt4-dev-tools					install
 qt4-doc						install
 qt4-linguist-tools				install
 qt4-qmake					install
-qt5-default					install
 qt5-qmake:amd64					install
 qtbase5-dev:amd64				install
 qtbase5-dev-tools				install
@@ -3356,6 +3353,7 @@ tuxpaint-plugins-default			install
 tuxpaint-stamps-default				install
 tzdata						install
 tzdata-java					install
+ubuntu-archive-keyring				install
 ucf						install
 udev						install
 udisks2						install
@@ -3467,6 +3465,7 @@ xclip						install
 xcowsay						install
 xdaliclock					install
 xdelta						install
+xdg-user-dirs					install
 xdg-utils					install
 xfonts-100dpi					install
 xfonts-75dpi					install
