@@ -6,6 +6,7 @@ acpi-support-base				install
 acpid						install
 adduser						install
 adequate					install
+adwaita-icon-theme				install
 aglfn						install
 aha						install
 aircrack-ng					install
@@ -597,6 +598,7 @@ kdelibs-bin					install
 kdelibs5-data					install
 kdelibs5-plugins				install
 kdepasswd					install
+kdepim-kresources				install
 kdepim-runtime					install
 kdepimlibs-kio-plugins				install
 kdiff3						install
@@ -662,7 +664,6 @@ libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
 libamd2.3.1:amd64				install
 libantlr-java					install
-libanyevent-i3-perl				install
 libanyevent-perl				install
 libao-common					install
 libao4						install
@@ -705,7 +706,6 @@ libass5:amd64					install
 libassuan-dev					install
 libassuan0:amd64				install
 libastro1					install
-libasync-interrupt-perl				install
 libasyncns0:amd64				install
 libasyncns0:i386				install
 libatasmart4:amd64				install
@@ -883,7 +883,6 @@ libclass-method-modifiers-perl			install
 libclass-methodmaker-perl			install
 libclass-mix-perl				install
 libclass-singleton-perl				install
-libclass-xsaccessor-perl			install
 libcli-dev					install
 libcli1.9:amd64					install
 libcln6						install
@@ -898,7 +897,6 @@ libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcomerr2:amd64				install
 libcomerr2:i386					install
-libcommon-sense-perl				install
 libcommons-codec-java				install
 libcommons-collections3-java			install
 libcommons-dbcp-java				install
@@ -1056,7 +1054,6 @@ libestools2.1:amd64				install
 libestools2.1-dev				install
 libestr0					install
 libetonyek-0.1-1				install
-libev-perl					install
 libev4						install
 libevdev2					install
 libevent-2.0-5:amd64				install
@@ -1437,7 +1434,6 @@ libjson-c2:i386					install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
-libjson-xs-perl					install
 libjsr107cache-java				install
 libjte1						install
 libjzlib-java					install
@@ -1453,6 +1449,7 @@ libkalarmcal2					install
 libkate1					install
 libkateinterfaces4				install
 libkatepartinterfaces4				install
+libkblog4					install
 libkcal4					install
 libkcalcore4					install
 libkcalutils4					install
@@ -1556,7 +1553,6 @@ liblensfun0					install
 liblexical-sealrequirehints-perl		install
 liblinear-tools					install
 liblinear1:amd64				install
-liblinux-inotify2-perl				install
 liblircclient0					install
 liblist-allutils-perl				install
 liblist-moreutils-perl				install
@@ -2623,9 +2619,12 @@ linux-headers-3.14-2-amd64			install
 linux-headers-3.14-2-common			install
 linux-headers-3.16-1-amd64			install
 linux-headers-3.16-1-common			install
+linux-headers-3.16-2-amd64			install
+linux-headers-3.16-2-common			install
 linux-headers-amd64				install
 linux-image-3.14-2-amd64			install
 linux-image-3.16-1-amd64			install
+linux-image-3.16-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-3.14				install
 linux-kbuild-3.16				install
