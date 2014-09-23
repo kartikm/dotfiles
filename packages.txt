@@ -23,8 +23,6 @@ apache2						install
 apache2-bin					install
 apache2-data					install
 apache2-utils					install
-apertium					install
-apertium-es-ca					install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -671,7 +669,6 @@ libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
-libapertium3-3.1-0				install
 libapparmor1:amd64				install
 libappindicator1				install
 libappindicator3-1				install
@@ -1576,8 +1573,8 @@ liblsan0:amd64					install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
-liblttoolbox3-3.1-0				install
-liblttoolbox3-3.1-0-dev				install
+liblttoolbox3-3.3-0:amd64			install
+liblttoolbox3-3.3-dev:amd64			install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -2615,18 +2612,15 @@ libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
-linux-headers-3.14-2-amd64			install
-linux-headers-3.14-2-common			install
 linux-headers-3.16-1-amd64			install
 linux-headers-3.16-1-common			install
 linux-headers-3.16-2-amd64			install
 linux-headers-3.16-2-common			install
 linux-headers-amd64				install
-linux-image-3.14-2-amd64			install
+linux-image-3.14-2-amd64			deinstall
 linux-image-3.16-1-amd64			install
 linux-image-3.16-2-amd64			install
 linux-image-amd64				install
-linux-kbuild-3.14				install
 linux-kbuild-3.16				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
