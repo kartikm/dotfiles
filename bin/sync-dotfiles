@@ -20,6 +20,7 @@ cp ~/.screenrc                              $DOT/screenrc
 cp ~/.vimrc                                 $DOT/vimrc
 cp ~/.zshrc                                 $DOT/zshrc
 cp /etc/apt/sources.list                    $DOT/sources.list.olive2
+cp /etc/pbuilderrc                          $DOT/pbuilderrc
 cp -r ~/.config/awesome/*                   $DOT/config/awesome
 
 # scripts

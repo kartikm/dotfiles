@@ -1,12 +1,95 @@
+#==================old-config=====================================
 # this is your configuration file for pbuilder.
 # the file in /usr/share/pbuilder/pbuilderrc is the default template.
 # /etc/pbuilderrc is the one meant for overwriting defaults in
 # the default template
 #
 # read pbuilderrc.5 document for notes on specific options.
-MIRRORSITE=http://cdn.debian.net/debian/
+#MIRRORSITE=http://cdn.debian.net/debian/
 #OTHERMIRROR="deb http://backports.debian.org/debian-backports squeeze-backports main|deb file:///home/kartik/development/work/credativ/edgewave/debian-repo ./"
 #BINDMOUNTS=""
 #HOOKDIR=""
 #EXTRAPACKAGES="apt-utils"
 #ALLOWUNTRUSTED=yes
+#===================old-config===================================
+
+# Codenames for Debian suites according to their alias. Update these when
+# needed.
+UNSTABLE_CODENAME="sid"
+TESTING_CODENAME="jessie"
+STABLE_CODENAME="wheezy"
+STABLE_BACKPORTS_SUITE="$STABLE_CODENAME-backports"
+
+# List of Debian suites.
+DEBIAN_SUITES=($UNSTABLE_CODENAME $TESTING_CODENAME $STABLE_CODENAME
+    "unstable" "testing" "stable")
+
+# List of Ubuntu suites. Update these when needed.
+UBUNTU_SUITES=("trusty" "saucy" "raring" "quantal" "precise" "oneiric" "natty" "lucid" "hardy")
+
+# Mirrors to use. Update these to your preferred mirror.
+DEBIAN_MIRROR="ftp.us.debian.org"
+UBUNTU_MIRROR="mirrors.kernel.org"
+
+# Optionally use the changelog of a package to determine the suite to use if
+# none set.
+if [ -z "${DIST}" ] && [ -r "debian/changelog" ]; then
+    DIST=$(dpkg-parsechangelog | awk '/^Distribution: / {print $2}')
+    # Use the unstable suite for Debian experimental packages.
+    if [ "${DIST}" == "experimental" ]; then
+        DIST="unstable"
+    fi
+fi
+
+# Optionally set a default distribution if none is used. Note that you can set
+# your own default (i.e. ${DIST:="unstable"}).
+: ${DIST:="$(lsb_release --short --codename)"}
+
+# Optionally change Debian codenames in $DIST to their aliases.
+case "$DIST" in
+    $UNSTABLE_CODENAME)
+        DIST="unstable"
+        ;;
+    $TESTING_CODENAME)
+        DIST="testing"
+        ;;
+    $STABLE_CODENAME)
+        DIST="stable"
+        ;;
+esac
+
+# Optionally set the architecture to the host architecture if none set. Note
+# that you can set your own default (i.e. ${ARCH:="i386"}).
+: ${ARCH:="$(dpkg --print-architecture)"}
+
+NAME="$DIST"
+if [ -n "${ARCH}" ]; then
+    NAME="$NAME-$ARCH"
+    DEBOOTSTRAPOPTS=("--arch" "$ARCH" "${DEBOOTSTRAPOPTS[@]}")
+fi
+BASETGZ="/var/cache/pbuilder/$NAME-base.tgz"
+DISTRIBUTION="$DIST"
+BUILDRESULT="/var/cache/pbuilder/$NAME/result/"
+APTCACHE="/var/cache/pbuilder/$NAME/aptcache/"
+BUILDPLACE="/var/cache/pbuilder/build/"
+OTHERMIRROR="deb [trusted=yes] file:///home/kartik/development/debian/packages/apertium/repo ./"
+BINDMOUNTS="/home/kartik/development/debian/packages/apertium/repo"
+HOOKDIR="/home/kartik/.bin"
+EXTRAPACKAGES="apt-utils"
+ALLOWUNTRUSTED="yes"
+
+if $(echo ${DEBIAN_SUITES[@]} | grep -q $DIST); then
+    # Debian configuration
+    MIRRORSITE="http://$DEBIAN_MIRROR/debian/"
+    COMPONENTS="main contrib non-free"
+    if $(echo "$STABLE_CODENAME stable" | grep -q $DIST); then
+        OTHERMIRROR="$OTHERMIRROR | deb $MIRRORSITE $STABLE_BACKPORTS_SUITE $COMPONENTS"
+    fi
+elif $(echo ${UBUNTU_SUITES[@]} | grep -q $DIST); then
+    # Ubuntu configuration
+    MIRRORSITE="http://$UBUNTU_MIRROR/ubuntu/"
+    COMPONENTS="main restricted universe multiverse"
+else
+    echo "Unknown distribution: $DIST"
+    exit 1
+fi
