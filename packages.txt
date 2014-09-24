@@ -23,6 +23,7 @@ apache2						install
 apache2-bin					install
 apache2-data					install
 apache2-utils					install
+apertium					install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -669,6 +670,8 @@ libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
+libapertium3-3.3-0:amd64			install
+libapertium3-3.3-dev:amd64			install
 libapparmor1:amd64				install
 libappindicator1				install
 libappindicator3-1				install
