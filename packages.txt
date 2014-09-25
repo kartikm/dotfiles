@@ -97,6 +97,7 @@ cdbs						install
 cdebootstrap					install
 cdparanoia					install
 cdrdao						install
+cg3						install
 chromium					install
 chromium-inspector				install
 chrpath						install
@@ -858,6 +859,8 @@ libcdio13					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1					install
 libcdt5						install
+libcg3-0:amd64					install
+libcg3-dev:amd64				install
 libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
@@ -2347,7 +2350,8 @@ libva-x11-1:amd64				install
 libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
-libvala-0.24-0:amd64				install
+libvala-0.24-0:amd64				deinstall
+libvala-0.26-0:amd64				install
 libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
@@ -2846,7 +2850,7 @@ php-file-iterator				install
 php-gettext					install
 php-invoker					install
 php-pear					install
-php-symfony2-yaml				install
+php-symfony-yaml				install
 php-tcpdf					install
 php-text-template				install
 php-timer					install
@@ -3376,8 +3380,8 @@ va-driver-all:amd64				install
 va-driver-all:i386				install
 vagrant						install
 valac						install
-valac-0.24					install
-valac-0.24-vapi					install
+valac-0.26					install
+valac-0.26-vapi					install
 varnish						install
 vbetool						install
 vcdimager					install
