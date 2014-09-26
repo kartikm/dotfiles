@@ -24,6 +24,7 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
+apertium-es-ca					install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -212,6 +213,7 @@ dunst						install
 dvd+rw-tools					install
 dvipng						install
 dwdiff						install
+dynamite					install
 e2fslibs:amd64					install
 e2fsprogs					install
 easy-rsa					install
@@ -359,6 +361,7 @@ fuse						install
 g++						install
 g++-4.8						install
 g++-4.9						install
+game-data-packager				install
 garmin-forerunner-tools				install
 garmin-plugin					install
 gawk						install
@@ -402,7 +405,7 @@ gir1.2-atk-1.0					install
 gir1.2-freedesktop:amd64			install
 gir1.2-gconf-2.0				install
 gir1.2-gdkpixbuf-2.0				install
-gir1.2-gee-1.0					install
+gir1.2-gee-1.0:amd64				install
 gir1.2-glib-2.0:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0					install
@@ -539,6 +542,7 @@ intel-microcode					install
 intltool					install
 intltool-debian					install
 iok						install
+ioquake3					install
 iotop						install
 iproute						install
 iproute2					install
@@ -1027,6 +1031,7 @@ libdv4:amd64					install
 libdvbpsi9:amd64				install
 libdvdnav4:amd64				install
 libdvdread4:amd64				install
+libdynamite0					install
 libe-book-0.1-1					install
 libebml4:amd64					install
 libecj-java					install
@@ -3176,6 +3181,8 @@ qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
 qtquick1-5-dev:amd64				install
 qttranslations5-l10n				install
+quake3						install
+quake3-data					install
 quilt						install
 quvi						install
 racket						install
