@@ -830,6 +830,7 @@ libc6:amd64					install
 libc6:i386					install
 libc6-dev:amd64					install
 libc6-i686:i386					install
+libcaca-dev					install
 libcaca0:amd64					install
 libcaca0:i386					install
 libcairo-gobject2:amd64				install
@@ -1007,6 +1008,8 @@ libdigest-md4-perl				install
 libdirac-encoder0:amd64				install
 libdirectfb-1.2-9:amd64				install
 libdirectfb-1.2-9:i386				install
+libdirectfb-dev					install
+libdirectfb-extra:amd64				install
 libdiscover2					install
 libdistro-info-perl				install
 libdjvulibre-text				install
@@ -1913,6 +1916,7 @@ libptexenc1					install
 libpth-dev					install
 libpth20:amd64					install
 libpthread-stubs0-dev:amd64			install
+libpulse-dev:amd64				install
 libpulse-mainloop-glib0:amd64			install
 libpulse0:amd64					install
 libpulse0:i386					install
@@ -2104,6 +2108,7 @@ libsdl-net1.2:amd64				install
 libsdl-pango1:amd64				install
 libsdl-sound1.2:amd64				install
 libsdl-ttf2.0-0:amd64				install
+libsdl1.2-dev					install
 libsdl1.2debian:amd64				install
 libsdl1.2debian:i386				install
 libsdl2-2.0-0:amd64				install
