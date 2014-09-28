@@ -2321,7 +2321,7 @@ libudev-dev:amd64				install
 libudev1:amd64					install
 libudev1:i386					install
 libudisks2-0:amd64				install
-libuil4:amd64					install
+libuil4:amd64					purge
 libumfpack5.6.2:amd64				install
 libunicode-linebreak-perl			install
 libuniconf4.6					install
