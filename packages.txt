@@ -194,6 +194,7 @@ distro-info-data				install
 dkms						install
 dmidecode					install
 dmsetup						install
+dns-root-data					install
 dnsmasq-base					install
 dnsutils					install
 doc-base					install
@@ -793,6 +794,7 @@ libbcpkix-java					install
 libbcprov-java					install
 libbind9-90					install
 libbison-dev:amd64				install
+libblas-common					install
 libblas3					install
 libblkid1:amd64					install
 libbluedevil2:amd64				install
@@ -1156,6 +1158,7 @@ libgcr-ui-3-1:amd64				install
 libgcrypt11:amd64				install
 libgcrypt11:i386				install
 libgcrypt20:amd64				install
+libgcrypt20:i386				install
 libgd2-xpm:i386					deinstall
 libgd3:amd64					install
 libgd3:i386					install
@@ -1423,6 +1426,9 @@ libjim0.75:amd64				install
 libjline-java					install
 libjna-java					install
 libjpeg-progs					install
+libjpeg-turbo-progs				install
+libjpeg62:amd64					install
+libjpeg62:i386					install
 libjpeg8:amd64					install
 libjpeg8:i386					install
 libjpeg8-dev:amd64				install
@@ -1627,6 +1633,7 @@ libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmcrypt4					install
 libmeanwhile1					install
+libmediaart-1.0-0:amd64				install
 libmessagecomposer4				install
 libmessagecore4					install
 libmessageviewer4				install
@@ -1666,7 +1673,6 @@ libmpeg2-4:amd64				install
 libmpfr4:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
-libmrm4:amd64					install
 libmro-compat-perl				install
 libmspub-0.1-1					install
 libmsv-java					install
@@ -2077,9 +2083,9 @@ libruby1.9.1-dbg				install
 libruby2.0:amd64				install
 libruby2.1:amd64				install
 librxtx-java					install
-librygel-core-2.2-2				install
-librygel-renderer-2.2-2				install
-librygel-server-2.2-2				install
+librygel-core-2.4-2				install
+librygel-renderer-2.4-2				install
+librygel-server-2.4-2				install
 libsac-java					install
 libsac-java-gcj					install
 libsamplerate0:amd64				install
@@ -2311,6 +2317,7 @@ libtry-tiny-perl				install
 libts-0.0-0:amd64				install
 libts-0.0-0:i386				install
 libtsan0:amd64					install
+libturbojpeg1:amd64				install
 libtwolame0					install
 libtxc-dxtn-s2tc0:amd64				install
 libtxc-dxtn-s2tc0:i386				install
@@ -2321,7 +2328,6 @@ libudev-dev:amd64				install
 libudev1:amd64					install
 libudev1:i386					install
 libudisks2-0:amd64				install
-libuil4:amd64					purge
 libumfpack5.6.2:amd64				install
 libunicode-linebreak-perl			install
 libuniconf4.6					install
