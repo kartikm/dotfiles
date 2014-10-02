@@ -25,6 +25,7 @@ apache2-data					install
 apache2-utils					install
 apertium					install
 apertium-es-ca					install
+apertium-lex-tools				install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -697,6 +698,7 @@ libart-2.0-2:amd64				install
 libasan0:amd64					install
 libasan1:amd64					install
 libasm3-java					install
+libasm4-java					install
 libasn1-8-heimdal:amd64				install
 libasound2:amd64				install
 libasound2:i386					install
@@ -873,6 +875,7 @@ libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
 libcgi-session-perl				install
 libcglib-java					install
+libcglib3-java					install
 libcgraph6					install
 libchm-bin					install
 libchm-dev					install
@@ -1425,7 +1428,6 @@ libjemalloc1					install
 libjim0.75:amd64				install
 libjline-java					install
 libjna-java					install
-libjpeg-progs					install
 libjpeg-turbo-progs				install
 libjpeg62:amd64					install
 libjpeg62:i386					install
@@ -1562,6 +1564,7 @@ liblcms1:i386					install
 liblcms2-2:amd64				install
 liblcms2-2:i386					install
 liblcms2-dev:amd64				install
+liblcms2-utils					install
 libldap-2.4-2:amd64				install
 libldap-2.4-2:i386				install
 libldb1:amd64					install
