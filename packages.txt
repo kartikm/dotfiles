@@ -412,7 +412,7 @@ gir1.2-glib-2.0:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0					install
 gir1.2-notify-0.7				install
-gir1.2-pango-1.0				install
+gir1.2-pango-1.0:amd64				install
 gir1.2-soup-2.4					install
 gir1.2-vte-2.90					install
 git						install
@@ -697,7 +697,6 @@ libarpack2					install
 libart-2.0-2:amd64				install
 libasan0:amd64					install
 libasan1:amd64					install
-libasm3-java					install
 libasm4-java					install
 libasn1-8-heimdal:amd64				install
 libasound2:amd64				install
@@ -706,8 +705,8 @@ libasound2-data					install
 libasound2-dev:amd64				install
 libasound2-plugins:amd64			install
 libasound2-plugins:i386				install
-libaspell-dev					install
-libaspell15					install
+libaspell-dev:amd64				install
+libaspell15:amd64				install
 libasprintf-dev:amd64				install
 libasprintf0c2:amd64				install
 libass5:amd64					install
@@ -874,7 +873,6 @@ libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
 libcgi-session-perl				install
-libcglib-java					install
 libcglib3-java					install
 libcgraph6					install
 libchm-bin					install
@@ -1559,7 +1557,7 @@ liblangtag-common				install
 liblangtag1					install
 liblapack3					install
 liblayout-java					install
-liblcms1:amd64					install
+liblcms1:amd64					deinstall
 liblcms1:i386					install
 liblcms2-2:amd64				install
 liblcms2-2:i386					install
@@ -1665,7 +1663,7 @@ libmoo-perl					install
 libmoox-handlesvia-perl				install
 libmoox-late-perl				install
 libmotif-common					install
-libmount1					install
+libmount1:amd64					install
 libmouse-perl					install
 libmp3lame0:amd64				install
 libmp3lame0:i386				install
@@ -1832,7 +1830,7 @@ libpango-1.0-0:amd64				install
 libpango-1.0-0:i386				install
 libpango-perl					install
 libpango1.0-0:amd64				install
-libpango1.0-dev					install
+libpango1.0-dev:amd64				install
 libpangocairo-1.0-0:amd64			install
 libpangocairo-1.0-0:i386			deinstall
 libpangoft2-1.0-0:amd64				install
@@ -1920,7 +1918,7 @@ libprotoc-dev:amd64				install
 libprotoc9:amd64				install
 libproxy-tools					install
 libproxy1:amd64					install
-libpspell-dev					install
+libpspell-dev:amd64				install
 libptexenc1					install
 libpth-dev					install
 libpth20:amd64					install
@@ -2249,7 +2247,7 @@ libsyntax-highlight-engine-simple-languages-perl	install
 libsyntax-highlight-engine-simple-perl		install
 libsys-hostname-long-perl			install
 libsysfs2:amd64					install
-libsystemd-daemon0:amd64			install
+libsystemd-daemon0:amd64			deinstall
 libsystemd-id128-0:amd64			install
 libsystemd-id128-0:i386				install
 libsystemd-journal0:amd64			install
@@ -3395,7 +3393,7 @@ usbmuxd						install
 usbutils					install
 util-linux					install
 uuid						install
-uuid-dev					install
+uuid-dev:amd64					install
 uuid-runtime					install
 va-driver-all:amd64				install
 va-driver-all:i386				install
