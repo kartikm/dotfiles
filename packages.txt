@@ -525,6 +525,7 @@ icedtea-netx-common				install
 iceowl-extension				install
 iceweasel					install
 icoutils					install
+icu-devtools					install
 ieee-data					install
 ienglish-common					install
 ifupdown					install
@@ -1357,6 +1358,7 @@ libical1					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
+libicu-dev:amd64				install
 libicu52:amd64					install
 libid3tag0					install
 libid3tag0-dev					install
@@ -1830,7 +1832,7 @@ libpango-1.0-0:amd64				install
 libpango-1.0-0:i386				install
 libpango-perl					install
 libpango1.0-0:amd64				install
-libpango1.0-dev:amd64				install
+libpango1.0-dev					install
 libpangocairo-1.0-0:amd64			install
 libpangocairo-1.0-0:i386			deinstall
 libpangoft2-1.0-0:amd64				install
@@ -2155,6 +2157,7 @@ libslv2-9					install
 libsm-dev:amd64					install
 libsm6:amd64					install
 libsm6:i386					install
+libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsmi2ldbl:amd64				install
 libsmokebase3					install
@@ -2254,6 +2257,7 @@ libsystemd-journal0:amd64			install
 libsystemd-journal0:i386			install
 libsystemd-login0:amd64				install
 libsystemd0:amd64				install
+libsystemd0:i386				install
 libtag1-vanilla:amd64				install
 libtag1c2a:amd64				install
 libtagc0:amd64					install
