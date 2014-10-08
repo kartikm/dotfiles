@@ -24,6 +24,7 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
+apertium-en-es					install
 apertium-es-ca					install
 apertium-lex-tools				install
 apg						install
@@ -107,6 +108,12 @@ cm-super-minimal				install
 cmake						install
 cmake-data					install
 cmatrix						install
+coinor-libcbc3					install
+coinor-libcgl1					install
+coinor-libclp1					install
+coinor-libcoinmp1:amd64				install
+coinor-libcoinutils3				install
+coinor-libosi1					install
 colord						install
 colord-data					install
 colordiff					install
@@ -501,6 +508,7 @@ hdparm						install
 help2man					install
 hicolor-icon-theme				install
 hiera						install
+hopenpgp-tools					install
 host						install
 hostname					install
 htdig						install
@@ -2251,11 +2259,7 @@ libsyntax-highlight-engine-simple-perl		install
 libsys-hostname-long-perl			install
 libsysfs2:amd64					install
 libsystemd-daemon0:amd64			deinstall
-libsystemd-id128-0:amd64			install
-libsystemd-id128-0:i386				install
-libsystemd-journal0:amd64			install
 libsystemd-journal0:i386			install
-libsystemd-login0:amd64				install
 libsystemd0:amd64				install
 libsystemd0:i386				install
 libtag1-vanilla:amd64				install
@@ -2867,6 +2871,7 @@ phonon:amd64					install
 phonon-backend-vlc:amd64			install
 php-codecoverage				install
 php-codesniffer					install
+php-doctrine-instantiator			install
 php-file-iterator				install
 php-gettext					install
 php-invoker					install
@@ -2892,9 +2897,13 @@ php5-pgsql					install
 php5-xdebug					install
 phpmyadmin					install
 phpunit						install
+phpunit-comparator				install
+phpunit-diff					install
 phpunit-environment				install
+phpunit-exporter				install
 phpunit-mock-object				install
 phpunit-story					install
+phpunit-version					install
 pidgin						install
 pidgin-data					install
 pidgin-libnotify				install
