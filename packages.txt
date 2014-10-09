@@ -24,9 +24,11 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
+apertium-apy					install
 apertium-en-es					install
 apertium-es-ca					install
 apertium-lex-tools				install
+apertium-pt-ca					install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -3149,6 +3151,7 @@ python3-dev					install
 python3-distlib					install
 python3-gi					install
 python3-html5lib				install
+python3-lxml					install
 python3-magic					install
 python3-matplotlib				install
 python3-minimal					install
