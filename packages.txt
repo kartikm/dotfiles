@@ -48,6 +48,8 @@ ark						install
 aspell						install
 aspell-en					install
 aspell-gu					install
+aspell-hi					install
+aspell-mr					install
 at						install
 at-spi2-core					install
 atool						install
@@ -844,7 +846,6 @@ libc6:amd64					install
 libc6:i386					install
 libc6-dev:amd64					install
 libc6-i686:i386					install
-libcaca-dev					install
 libcaca0:amd64					install
 libcaca0:i386					install
 libcairo-gobject2:amd64				install
@@ -1022,7 +1023,6 @@ libdigest-md4-perl				install
 libdirac-encoder0:amd64				install
 libdirectfb-1.2-9:amd64				install
 libdirectfb-1.2-9:i386				install
-libdirectfb-extra:amd64				install
 libdiscover2					install
 libdistro-info-perl				install
 libdjvulibre-text				install
@@ -1370,7 +1370,6 @@ libice6:i386					install
 libicu-dev:amd64				install
 libicu52:amd64					install
 libid3tag0					install
-libid3tag0-dev					install
 libidl0:amd64					install
 libidn11:amd64					install
 libidn11-dev					install
@@ -1426,7 +1425,6 @@ libjasper1:i386					deinstall
 libjavascriptcoregtk-3.0-0:amd64		install
 libjaxen-java					install
 libjaxp1.3-java					install
-libjbig-dev:amd64				install
 libjbig0:amd64					install
 libjbig0:i386					install
 libjbig2dec0					install
@@ -2303,7 +2301,6 @@ libtidy-0.99-0					install
 libtie-ixhash-perl				install
 libtiff5:amd64					install
 libtiff5:i386					install
-libtiffxx5:amd64				install
 libtimedate-perl				install
 libtinfo-dev:amd64				install
 libtinfo5:amd64					install
@@ -2872,7 +2869,6 @@ php-codesniffer					install
 php-doctrine-instantiator			install
 php-file-iterator				install
 php-gettext					install
-php-invoker					install
 php-pear					install
 php-symfony-yaml				install
 php-tcpdf					install
