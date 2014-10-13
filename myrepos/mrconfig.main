@@ -299,3 +299,6 @@ checkout = git clone git://home/kartik/wiki.git
 
 [development/debian/debian-quiz]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/debian-quiz.git' 'debian-quiz'
+
+[development/apertium-svn]
+checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/trunk' 'apertium-svn'
