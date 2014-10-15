@@ -422,7 +422,7 @@ gir1.2-gdkpixbuf-2.0				install
 gir1.2-gee-1.0:amd64				install
 gir1.2-glib-2.0:amd64				install
 gir1.2-gtk-2.0					install
-gir1.2-gtk-3.0					install
+gir1.2-gtk-3.0:amd64				install
 gir1.2-notify-0.7				install
 gir1.2-pango-1.0:amd64				install
 gir1.2-soup-2.4					install
@@ -1056,7 +1056,7 @@ libedit2:amd64					install
 libedit2:i386					install
 libegl1-mesa:amd64				install
 libegl1-mesa:i386				deinstall
-libegl1-mesa-dev				install
+libegl1-mesa-dev:amd64				install
 libegl1-mesa-drivers:amd64			install
 libegl1-mesa-drivers:i386			deinstall
 libehcache-java					install
@@ -1198,7 +1198,7 @@ libgif4:amd64					install
 libgimp2.0					install
 libgirara-gtk3-1:amd64				install
 libgirepository-1.0-1:amd64			install
-libgl1-mesa-dev					install
+libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
 libgl1-mesa-glx:amd64				install
@@ -2693,7 +2693,7 @@ mawk						install
 menu						install
 mercurial					install
 mercurial-common				install
-mesa-common-dev					install
+mesa-common-dev:amd64				install
 mesa-utils					install
 mime-support					install
 minissdpd					install
