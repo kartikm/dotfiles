@@ -284,10 +284,6 @@ firmware-realtek				install
 flex						install
 fontconfig					install
 fontconfig-config				install
-fontforge					install
-fontforge-common				install
-fontforge-doc					install
-fontforge-extras				install
 fonts-beng					install
 fonts-beng-extra				install
 fonts-cantarell					install
@@ -462,7 +458,6 @@ golang-go.tools					install
 golang-src					install
 google-chrome-stable				install
 google-talkplugin				install
-googlefontdirectory-tools			install
 gource						install
 gperf						install
 gpgv						install
@@ -1133,8 +1128,6 @@ libfontconfig1:amd64				install
 libfontconfig1:i386				install
 libfontconfig1-dev:amd64			install
 libfontenc1:amd64				install
-libfontforge-dev				install
-libfontforge1					install
 libfonts-java					install
 libfop-java					install
 libformula-java					install
@@ -1181,7 +1174,6 @@ libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-0:i386				deinstall
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
-libgdraw4					install
 libgee-0.8-2:amd64				install
 libgee-dev					install
 libgee2:amd64					install
@@ -1426,6 +1418,7 @@ libjasper1:i386					deinstall
 libjavascriptcoregtk-3.0-0:amd64		install
 libjaxen-java					install
 libjaxp1.3-java					install
+libjbig-dev:amd64				install
 libjbig0:amd64					install
 libjbig0:i386					install
 libjbig2dec0					install
@@ -1435,14 +1428,15 @@ libjemalloc1					install
 libjim0.75:amd64				install
 libjline-java					install
 libjna-java					install
+libjpeg-dev					install
 libjpeg-turbo-progs				install
 libjpeg62:amd64					install
 libjpeg62:i386					install
 libjpeg62-turbo:amd64				install
 libjpeg62-turbo:i386				install
+libjpeg62-turbo-dev:amd64			install
 libjpeg8:amd64					install
 libjpeg8:i386					install
-libjpeg8-dev:amd64				install
 libjs-excanvas					install
 libjs-jquery					install
 libjs-jquery-flot				install
@@ -2304,6 +2298,8 @@ libtidy-0.99-0					install
 libtie-ixhash-perl				install
 libtiff5:amd64					install
 libtiff5:i386					install
+libtiff5-dev:amd64				install
+libtiffxx5:amd64				install
 libtimedate-perl				install
 libtinfo-dev:amd64				install
 libtinfo5:amd64					install
@@ -2634,7 +2630,9 @@ libzbar0					install
 libzephyr4:amd64				install
 libzip-dev					install
 libzip2						install
+libzmq1:amd64					install
 libzmq3:amd64					install
+libzmq3-dev:amd64				install
 libzthread-2.3-2:amd64				install
 libzvbi-common					install
 libzvbi0:amd64					install
@@ -3025,7 +3023,6 @@ python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-feedparser				install
 python-flickrapi				install
-python-fontforge				install
 python-formencode				install
 python-gconf					install
 python-gdbm					install
