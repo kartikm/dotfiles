@@ -1258,10 +1258,8 @@ libgpgme11:amd64				install
 libgpgme11-dev					install
 libgphoto2-2:i386				deinstall
 libgphoto2-6:amd64				install
-libgphoto2-6:i386				install
 libgphoto2-l10n					install
 libgphoto2-port10:amd64				install
-libgphoto2-port10:i386				install
 libgpm2:amd64					install
 libgpm2:i386					install
 libgps21:amd64					install
@@ -1436,7 +1434,6 @@ libjpeg62-turbo:amd64				install
 libjpeg62-turbo:i386				install
 libjpeg62-turbo-dev:amd64			install
 libjpeg8:amd64					install
-libjpeg8:i386					install
 libjs-excanvas					install
 libjs-jquery					install
 libjs-jquery-flot				install
@@ -2349,7 +2346,6 @@ libusageenvironment1				install
 libusb-0.1-4:amd64				install
 libusb-0.1-4:i386				deinstall
 libusb-1.0-0:amd64				install
-libusb-1.0-0:i386				install
 libusbmuxd-tools				install
 libusbmuxd2:amd64				install
 libusbredirparser1:amd64			install
@@ -2630,7 +2626,6 @@ libzbar0					install
 libzephyr4:amd64				install
 libzip-dev					install
 libzip2						install
-libzmq1:amd64					install
 libzmq3:amd64					install
 libzmq3-dev:amd64				install
 libzthread-2.3-2:amd64				install
