@@ -56,6 +56,7 @@ atool						install
 augeas-lenses					install
 augeas-tools					install
 autoconf					install
+autodep8					install
 automake					install
 automake1.11					install
 autopkgtest					install
@@ -1026,6 +1027,7 @@ libdjvulibre21:amd64				install
 libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
+libdns-export100				install
 libdns100					install
 libdom4j-java					install
 libdouble-conversion1:amd64			install
@@ -1350,6 +1352,7 @@ libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.3-0:amd64				install
 libhx509-5-heimdal:amd64			install
+libhyperic-sigar-java				install
 libhyphen0					install
 libib-util:amd64				install
 libibus-1.0-5:amd64				install
@@ -1396,8 +1399,11 @@ libiodbc2:amd64					install
 libiodbc2-dev					install
 libipc-run-perl					install
 libipc-system-simple-perl			install
+libirs-export91					install
+libisc-export95					install
 libisc95					install
 libisccc90					install
+libisccfg-export90				install
 libisccfg90					install
 libiscsi2:amd64					install
 libisl10:amd64					install
@@ -1426,6 +1432,7 @@ libjemalloc1					install
 libjim0.75:amd64				install
 libjline-java					install
 libjna-java					install
+libjna-jni					install
 libjpeg-dev					install
 libjpeg-turbo-progs				install
 libjpeg62:amd64					install
@@ -1455,6 +1462,7 @@ libjson-glib-1.0-common				install
 libjson-perl					install
 libjsr107cache-java				install
 libjte1						install
+libjts-java					install
 libjzlib-java					install
 libk3b6						install
 libk3b6-extracodecs				install
@@ -1580,6 +1588,7 @@ liblivemedia23					install
 libllvm3.4:amd64				install
 libllvm3.4:i386					install
 libllvm3.5:amd64				install
+libllvm3.5:i386					install
 libloader-java					install
 liblocale-gettext-perl				install
 liblockfile-bin					install
@@ -1603,6 +1612,7 @@ liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.2-dev:amd64				install
+liblucene4-java					install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
@@ -1622,6 +1632,7 @@ libmagickcore5:amd64				install
 libmagickcore5-extra:amd64			install
 libmagickwand-6.q16-2:amd64			install
 libmagickwand5:amd64				install
+libmail-java					install
 libmail-sendmail-perl				install
 libmailcommon4					install
 libmailimporter4				install
@@ -2195,6 +2206,7 @@ libsoup2.4-1:amd64				install
 libsoup2.4-dev					install
 libsp1c2					install
 libspandsp2:amd64				install
+libspatial4j-java				install
 libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex-dev:amd64				install
@@ -3124,6 +3136,7 @@ python2.7					install
 python2.7-dev					install
 python2.7-minimal				install
 python3						install
+python3-apparmor				install
 python3-apt					install
 python3-aptdaemon				install
 python3-aptdaemon.gtk3widgets			install
@@ -3138,6 +3151,7 @@ python3-dev					install
 python3-distlib					install
 python3-gi					install
 python3-html5lib				install
+python3-libapparmor				install
 python3-lxml					install
 python3-magic					install
 python3-matplotlib				install
