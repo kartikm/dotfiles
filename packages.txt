@@ -238,6 +238,7 @@ elasticsearch					install
 emacs-snapshot					install
 emacs-snapshot-bin-common			install
 emacs-snapshot-common				install
+emacs-snapshot-el				install
 emacs23-bin-common				install
 emacs23-common					install
 emacs23-nox					install
@@ -347,8 +348,6 @@ fonts-telu					install
 fonts-telu-extra				install
 fonts-texgyre					install
 fonts-wqy-zenhei				install
-fonttools					install
-fonttools-eexecop				install
 fontypython					install
 foomatic-db-compressed-ppds			install
 foomatic-db-engine				install
@@ -1163,7 +1162,7 @@ libgcr-3-common					install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
 libgcrypt11:amd64				install
-libgcrypt11:i386				install
+libgcrypt11:i386				deinstall
 libgcrypt20:amd64				install
 libgcrypt20:i386				install
 libgd2-xpm:i386					deinstall
@@ -1248,7 +1247,7 @@ libgnutls-deb0-28:amd64				install
 libgnutls-deb0-28:i386				install
 libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
-libgnutls26:i386				install
+libgnutls26:i386				deinstall
 libgnutls28-dev:amd64				install
 libgnutlsxx28:amd64				install
 libgomp1:amd64					install
@@ -1585,8 +1584,8 @@ liblircclient0					install
 liblist-allutils-perl				install
 liblist-moreutils-perl				install
 liblivemedia23					install
-libllvm3.4:amd64				install
-libllvm3.4:i386					install
+libllvm3.4:amd64				deinstall
+libllvm3.4:i386					deinstall
 libllvm3.5:amd64				install
 libllvm3.5:i386					install
 libloader-java					install
