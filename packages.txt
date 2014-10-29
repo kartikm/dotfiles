@@ -239,9 +239,9 @@ emacs-snapshot					install
 emacs-snapshot-bin-common			install
 emacs-snapshot-common				install
 emacs-snapshot-el				install
-emacs23-bin-common				install
-emacs23-common					install
-emacs23-nox					install
+emacs24						install
+emacs24-bin-common				install
+emacs24-common					install
 emacsen-common					install
 emdebian-archive-keyring			install
 enblend						install
@@ -2320,8 +2320,8 @@ libtokyocabinet9:amd64				install
 libtomcat7-java					install
 libtomcrypt0:amd64				install
 libtommath0					install
-libtonezone-dev					install
-libtonezone2.0					install
+libtonezone-dev:amd64				install
+libtonezone2.0:amd64				install
 libtool						install
 libtool-bin					install
 libtry-tiny-perl				install
