@@ -1,3 +1,4 @@
+ack-grep					install
 acl						install
 acpi						install
 acpi-fakekey					install
@@ -1115,6 +1116,7 @@ libfile-homedir-perl				install
 libfile-libmagic-perl				install
 libfile-listing-perl				install
 libfile-mimeinfo-perl				install
+libfile-next-perl				install
 libfile-which-perl				install
 libfl-dev:amd64					install
 libflac++6:amd64				install
