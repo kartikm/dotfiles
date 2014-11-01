@@ -865,6 +865,7 @@ libcap2:amd64					install
 libcap2:i386					install
 libcap2-bin					install
 libcapture-tiny-perl				install
+libccid						install
 libccolamd2.8.0:amd64				install
 libcdaudio1					install
 libcdb-dev					install
@@ -2864,6 +2865,7 @@ patchutils					install
 pbuilder					install
 pbzip2						install
 pciutils					install
+pcscd						install
 pear-phpunit-channel				install
 pepperflashplugin-nonfree			install
 perl						install
