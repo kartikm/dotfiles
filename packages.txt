@@ -1243,8 +1243,6 @@ libgnomeui-common				install
 libgnomevfs2-0:amd64				install
 libgnomevfs2-common				install
 libgnomevfs2-extra:amd64			install
-libgnuinet-java					install
-libgnumail-java					install
 libgnupg-interface-perl				install
 libgnutls-deb0-28:amd64				install
 libgnutls-deb0-28:i386				install
