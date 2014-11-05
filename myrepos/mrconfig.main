@@ -181,6 +181,9 @@ checkout = git clone 'git://github.com/progit/progit.git' 'progit'
 [development/books/hgbook]
 checkout = hg clone 'http://bitbucket.org/bos/hgbook' 'hgbook'
 
+[development/books/gitmagic]
+checkout = git clone 'git@github.com:blynn/gitmagic.git' 'gitmagic'
+
 #no longer publicly available.
 #[development/books/learn-c-the-hard-way]
 #checkout = git clone 'git://gitorious.org/learn-c-the-hard-way/learn-c-the-hard-way.git' 'learn-c-the-hard-way'
