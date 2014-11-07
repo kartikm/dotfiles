@@ -217,6 +217,7 @@ doc-debian					install
 docbook-xml					install
 docbook-xsl					install
 docutils-common					install
+docutils-doc					install
 dolphin						install
 dosbox						install
 dosfstools					install
@@ -3082,6 +3083,7 @@ python-gudev					install
 python-html5lib					install
 python-html5lib-whl				install
 python-imaging					install
+python-jinja2					install
 python-kde4					install
 python-librdf					install
 python-libxml2					install
@@ -3089,6 +3091,7 @@ python-logilab-common				install
 python-lxml					install
 python-magic					install
 python-markdown					install
+python-markupsafe				install
 python-matplotlib-data				install
 python-mechanize				install
 python-minimal					install
@@ -3141,6 +3144,8 @@ python-six					install
 python-six-whl					install
 python-sleekxmpp				install
 python-soappy					install
+python-sphinx					install
+python-sphinxcontrib.programoutput		install
 python-sqlalchemy				install
 python-sqlalchemy-ext				install
 python-sqlobject				install
@@ -3343,6 +3348,8 @@ software-properties-gtk				install
 soprano-daemon					install
 sp						install
 spew						install
+sphinx-common					install
+sphinx-doc					install
 sqlite3						install
 squashfs-tools					install
 ssh						install
