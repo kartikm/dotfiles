@@ -107,7 +107,6 @@ cdbs						install
 cdebootstrap					install
 cdparanoia					install
 cdrdao						install
-cg3						install
 chromium					install
 chromium-inspector				install
 chrpath						install
@@ -143,7 +142,6 @@ cpp-4.8						install
 cpp-4.9						install
 cpufrequtils					install
 crda						install
-creepy						install
 cron						install
 cryptsetup-bin					install
 cscope						install
@@ -823,7 +821,6 @@ libboost-dev:amd64				install
 libboost-filesystem1.55.0:amd64			install
 libboost-iostreams1.55.0:amd64			install
 libboost-program-options1.55.0:amd64		install
-libboost-python1.49.0				install
 libboost-python1.55.0				install
 libboost-regex1.55.0:amd64			install
 libboost-system1.55.0:amd64			install
@@ -879,8 +876,6 @@ libcdio13					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1					install
 libcdt5						install
-libcg3-0:amd64					install
-libcg3-dev:amd64				install
 libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
@@ -1126,7 +1121,6 @@ libflac++6:amd64				install
 libflac8:amd64					install
 libflac8:i386					install
 libflite1:amd64					install
-libfltk1.1:amd64				deinstall
 libfltk1.3:amd64				install
 libfluidsynth1:amd64				install
 libflute-java					install
@@ -1150,7 +1144,6 @@ libfreerdp-locale1.1:amd64			install
 libfreerdp-primitives1.1:amd64			install
 libfreerdp-rail1.1:amd64			install
 libfreerdp-utils1.1:amd64			install
-libfreerdp1:amd64				deinstall
 libfreetype6:amd64				install
 libfreetype6:i386				install
 libfreetype6-dev				install
@@ -1581,8 +1574,6 @@ liblangtag-common				install
 liblangtag1					install
 liblapack3					install
 liblayout-java					install
-liblcms1:amd64					deinstall
-liblcms1:i386					install
 liblcms2-2:amd64				install
 liblcms2-2:i386					install
 liblcms2-dev:amd64				install
@@ -1599,7 +1590,6 @@ liblircclient0					install
 liblist-allutils-perl				install
 liblist-moreutils-perl				install
 liblivemedia23					install
-libllvm3.4:amd64				deinstall
 libllvm3.4:i386					deinstall
 libllvm3.5:amd64				install
 libllvm3.5:i386					install
@@ -1643,7 +1633,6 @@ libmagic1:amd64					install
 libmagickcore-6.q16-2:amd64			install
 libmagickcore-6.q16-2-extra:amd64		install
 libmagickcore5:amd64				install
-libmagickcore5-extra:amd64			install
 libmagickwand-6.q16-2:amd64			install
 libmagickwand5:amd64				install
 libmail-java					install
@@ -1652,7 +1641,6 @@ libmailcommon4					install
 libmailimporter4				install
 libmailtools-perl				install
 libmailtransport4				install
-libmarblewidget18				deinstall
 libmarblewidget19				install
 libmarco-private0:amd64				install
 libmarkdown2:amd64				install
@@ -1832,8 +1820,6 @@ liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.8-0					install
 liboro-java					install
-libosmgpsmap-dev				install
-libosmgpsmap2:amd64				install
 libossp-uuid-perl				install
 libossp-uuid16:amd64				install
 libotf0						install
@@ -2052,13 +2038,10 @@ libqtwebkit-dev					install
 libqtwebkit4:amd64				install
 libqtwebkit4:i386				deinstall
 libquadmath0:amd64				install
-libquazip0:amd64				deinstall
 libquazip1:amd64				install
 libquvi-scripts					install
 libquvi7:amd64					install
 libqwt5-qt4					install
-libradiusclient-ng-dev				install
-libradiusclient-ng2				install
 librados2					install
 libraptor2-0:amd64				install
 librarian0					install
@@ -2110,9 +2093,6 @@ librsvg2-2:amd64				install
 librsvg2-bin					install
 librsvg2-common:amd64				install
 librtmp1:amd64					install
-libruby1.9.1					install
-libruby1.9.1-dbg				install
-libruby2.0:amd64				install
 libruby2.1:amd64				install
 librxtx-java					install
 librygel-core-2.4-2				install
@@ -2281,7 +2261,6 @@ libsyntax-highlight-engine-simple-perl		install
 libsys-hostname-long-perl			install
 libsysfs2:amd64					install
 libsysfs2:i386					install
-libsystemd-daemon0:amd64			deinstall
 libsystemd-journal0:i386			install
 libsystemd0:amd64				install
 libsystemd0:i386				install
@@ -2296,9 +2275,7 @@ libtasn1-6:i386					install
 libtasn1-6-dev					install
 libtasn1-doc					install
 libtbb2						install
-libtcl8.5:amd64					install
 libtcl8.6:amd64					install
-libtcltk-ruby1.9.1				install
 libtdb1:amd64					install
 libtdb1:i386					install
 libteamdctl0:amd64				install
@@ -2335,7 +2312,6 @@ libtinfo5:amd64					install
 libtinfo5:i386					install
 libtinyxml2.6.2:amd64				install
 libtirpc1:amd64					install
-libtk8.5:amd64					install
 libtk8.6:amd64					install
 libtokyocabinet9:amd64				install
 libtomcat7-java					install
@@ -2395,7 +2371,6 @@ libva-x11-1:amd64				install
 libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
-libvala-0.24-0:amd64				deinstall
 libvala-0.26-0:amd64				install
 libvariable-magic-perl				install
 libvarnishapi1					install
@@ -2409,7 +2384,6 @@ libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
 libvlc5						install
-libvlccore7					deinstall
 libvlccore8					install
 libvncclient0:amd64				install
 libvncserver0:amd64				install
@@ -2684,16 +2658,9 @@ libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
-linux-headers-3.16-1-amd64			install
-linux-headers-3.16-1-common			install
-linux-headers-3.16-2-amd64			install
-linux-headers-3.16-2-common			install
 linux-headers-3.16.0-4-amd64			install
 linux-headers-3.16.0-4-common			install
 linux-headers-amd64				install
-linux-image-3.14-2-amd64			deinstall
-linux-image-3.16-1-amd64			install
-linux-image-3.16-2-amd64			install
 linux-image-3.16.0-4-amd64			install
 linux-image-amd64				install
 linux-kbuild-3.16				install
@@ -3071,7 +3038,6 @@ python-ecdsa					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-feedparser				install
-python-flickrapi				install
 python-formencode				install
 python-gconf					install
 python-gdbm					install
@@ -3110,7 +3076,6 @@ python-numpy					install
 python-oauth					install
 python-opencv					install
 python-openssl					install
-python-osmgpsmap				install
 python-paramiko					install
 python-pexpect					install
 python-pexpect-doc				install
@@ -3281,7 +3246,6 @@ resolvconf					install
 rfdump						install
 rfkill						install
 rhino						install
-ri1.9.1						install
 rig						install
 rlwrap						install
 rpcbind						install
@@ -3315,12 +3279,6 @@ ruby-selinux					install
 ruby-shadow					install
 ruby-thor					install
 ruby-timers					install
-ruby1.9.1					install
-ruby1.9.1-dev					install
-ruby1.9.1-examples				install
-ruby1.9.1-full					install
-ruby1.9.3					install
-ruby2.0						install
 ruby2.1						install
 ruby2.1-dev:amd64				install
 rubygems-integration				install
@@ -3392,7 +3350,6 @@ task-ssh-server					install
 tasksel						install
 tasksel-data					install
 tcl						install
-tcl8.5						install
 tcl8.6						install
 tcpd						install
 tcpdump						install
@@ -3422,7 +3379,6 @@ tinycdb						install
 tipa						install
 tix						install
 tk						install
-tk8.5						install
 tk8.6						install
 tmux						install
 tofrodos					install
