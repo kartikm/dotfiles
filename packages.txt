@@ -458,6 +458,8 @@ golang-go.tools					install
 golang-src					install
 google-chrome-stable				install
 google-talkplugin				install
+goopg-chrome					install
+goopg-common					install
 gource						install
 gperf						install
 gpgv						install
@@ -3041,12 +3043,15 @@ python-feedparser				install
 python-formencode				install
 python-gconf					install
 python-gdbm					install
+python-gflags					install
 python-gi					install
 python-gi-cairo					install
 python-glade2					install
 python-gnome2					install
+python-gnupg					install
 python-gobject					install
 python-gobject-2				install
+python-googleapi				install
 python-gpgme					install
 python-gridfs					install
 python-gtk2					install
@@ -3054,6 +3059,7 @@ python-gtkspell					install
 python-gudev					install
 python-html5lib					install
 python-html5lib-whl				install
+python-httplib2					install
 python-imaging					install
 python-jinja2					install
 python-kde4					install
@@ -3074,6 +3080,7 @@ python-nose					install
 python-notify					install
 python-numpy					install
 python-oauth					install
+python-oauth2client				install
 python-opencv					install
 python-openssl					install
 python-paramiko					install
@@ -3126,6 +3133,7 @@ python-talloc					install
 python-tk					install
 python-tweepy					install
 python-uno					install
+python-uritemplate				install
 python-urllib3					install
 python-urllib3-whl				install
 python-urwid					install
@@ -3140,6 +3148,7 @@ python-wstools					install
 python-wxgtk2.8					install
 python-wxgtk3.0					install
 python-wxversion				install
+python-xdg					install
 python-yaml					install
 python-zbar					install
 python-zmq					install
