@@ -299,6 +299,10 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/yokadi.git' 'yokadi'
 update = fork_update
 
+[development/github/misc/goopg]
+checkout = git clone 'git@github.com:kartikm/goopg.git' 'goopg'
+update = fork_update
+
 #local wikis
 [wiki]
 checkout = git clone git://home/kartik/wiki.git

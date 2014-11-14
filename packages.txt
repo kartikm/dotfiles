@@ -458,8 +458,6 @@ golang-go.tools					install
 golang-src					install
 google-chrome-stable				install
 google-talkplugin				install
-goopg-chrome					install
-goopg-common					install
 gource						install
 gperf						install
 gpgv						install
@@ -2787,6 +2785,7 @@ node-gyp					install
 node-inherits					install
 node-ini					install
 node-json-stringify-safe			install
+node-less					install
 node-lockfile					install
 node-lru-cache					install
 node-mime					install
