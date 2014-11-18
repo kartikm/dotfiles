@@ -117,3 +117,12 @@ checkout = git clone 'ssh://gerrit.wikimedia.org:29418/mediawiki/services/cxserv
 
 [OPs/puppet]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
+
+[Misc/scap]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/tools/scap.git' 'scap'
+
+[Misc/CentralAuth]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralAuth' 'CentralAuth'
+
+[Misc/BetaFeatures]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/BetaFeatures' 'BetaFeatures'
