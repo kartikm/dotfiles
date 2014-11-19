@@ -126,3 +126,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 
 [Misc/BetaFeatures]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/BetaFeatures' 'BetaFeatures'
+
+[OPW/spelling-dictionary-opw]
+checkout = git clone 'git@github.com:ankitashukla/spelling-dictionary-opw.git' 'spelling-dictionary-opw'

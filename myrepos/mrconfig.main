@@ -87,6 +87,9 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/WikiFont.git' 'WikiFont'
 update = fork_update
 
+[development/fonts/font-compression-reference]
+checkout = git clone 'https://code.google.com/p/font-compression-reference/' 'font-compression-reference'
+
 # Packages
 [development/debian/packages/aria2/aria2]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/aria2.git' 'aria2'

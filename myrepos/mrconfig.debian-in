@@ -55,6 +55,9 @@ checkout = git_checkout festival-mr
 [festival-te]
 checkout = git_checkout festival-te
 
+[fonts-aksharyogini2]
+checkout = git_checkout fonts-aksharyogini2
+
 [fonts-beng-extra]
 checkout = git_checkout fonts-beng-extra
 
