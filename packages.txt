@@ -1743,6 +1743,7 @@ libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
 libmusicbrainz5-0:amd64				install
+libmusicbrainz5-1:amd64				install
 libmwaw-0.3-3					install
 libmysql-java					install
 libmysqlclient-dev				install
@@ -1855,6 +1856,7 @@ libopenraw1:amd64				install
 libopenspecfun1:amd64				install
 libopenvg1-mesa:amd64				install
 libopenvg1-mesa:i386				deinstall
+liboping0:amd64					install
 libopts25:amd64					install
 libopus0:amd64					install
 libopus0:i386					install
@@ -2897,6 +2899,7 @@ openssl						install
 openssl-blacklist				install
 openssl-blacklist-extra				install
 openvpn						install
+oping						install
 os-prober					install
 oss-compat					install
 ovmf						install
