@@ -1742,7 +1742,7 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
-libmusicbrainz5-0:amd64				install
+libmusicbrainz5-0:amd64				deinstall
 libmusicbrainz5-1:amd64				install
 libmwaw-0.3-3					install
 libmysql-java					install
