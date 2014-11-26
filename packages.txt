@@ -1120,7 +1120,7 @@ libestools2.1-dev				install
 libestr0					install
 libetonyek-0.1-1				install
 libev4						install
-libevdev2					install
+libevdev2:amd64					install
 libevent-2.0-5:amd64				install
 libeventviews4					install
 libexcalibur-logger-java			install
