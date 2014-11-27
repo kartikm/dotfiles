@@ -550,6 +550,7 @@ gyp						install
 gzip						install
 hardening-includes				install
 hardening-wrapper				install
+hatari						install
 hdparm						install
 help2man					install
 hicolor-icon-theme				install
