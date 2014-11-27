@@ -522,6 +522,7 @@ grub2-splashimages				install
 gsettings-desktop-schemas			install
 gsfonts						install
 gsfonts-x11					install
+gstreamer0.10-alsa:amd64			install
 gstreamer0.10-gconf:amd64			install
 gstreamer0.10-nice:amd64			install
 gstreamer0.10-plugins-bad:amd64			install
@@ -3436,6 +3437,7 @@ tipa						install
 tix						install
 tk						install
 tk8.6						install
+tk8.6-blt2.5					install
 tmux						install
 tofrodos					install
 toilet						install
