@@ -107,6 +107,7 @@ cdbs						install
 cdebootstrap					install
 cdparanoia					install
 cdrdao						install
+cg3						install
 chromium					install
 chromium-inspector				install
 chrpath						install
@@ -923,6 +924,7 @@ libcdio13					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1					install
 libcdt5						install
+libcg3-0:amd64					install
 libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
