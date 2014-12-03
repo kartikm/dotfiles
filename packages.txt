@@ -85,6 +85,7 @@ bluedevil					install
 blueman						install
 bluetooth					install
 bluez						install
+bluez-obexd					install
 brackets					install
 bsd-mailx					install
 bsdiff						install
@@ -659,6 +660,7 @@ kde-workspace-bin				install
 kde-workspace-data				install
 kde-workspace-kgreet-plugins			install
 kdebase-runtime					install
+kdeconnect					install
 kdelibs-bin					install
 kdelibs5-data					install
 kdelibs5-plugins				install
@@ -2014,6 +2016,7 @@ libpython3.4-stdlib:amd64			install
 libqalculate5:amd64				install
 libqalculate5-data				install
 libqca2:amd64					install
+libqca2-plugin-gnupg				install
 libqca2-plugin-ossl:amd64			install
 libqdbm14					install
 libqextserialport1:amd64			install
@@ -2810,10 +2813,6 @@ network-manager-pptp				install
 network-manager-vpnc				install
 nfs-common					install
 nfs-kernel-server				install
-nginx						install
-nginx-common					install
-nginx-doc					install
-nginx-light					install
 nmap						install
 nocache						install
 node-abbrev					install
@@ -2875,7 +2874,6 @@ ntp						install
 ntpdate						install
 ntrack-module-libnl-0				install
 obex-data-server				install
-obexd-client					install
 obexpushd					install
 odbcinst					install
 odbcinst1debian2:amd64				install
