@@ -555,6 +555,7 @@ hardening-wrapper				install
 hatari						install
 hdparm						install
 help2man					install
+hfst						install
 hicolor-icon-theme				install
 hiera						install
 hopenpgp-tools					install
@@ -1387,6 +1388,8 @@ libhdf5-8:amd64					install
 libheap-perl					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
+libhfst39					install
+libhfst39-dev					install
 libhogweed2:amd64				install
 libhogweed2:i386				install
 libhpdf-2.2.1					install
