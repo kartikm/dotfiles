@@ -29,6 +29,9 @@ apertium-apy					install
 apertium-en-es					install
 apertium-es-ca					install
 apertium-lex-tools				install
+apertium-nno					install
+apertium-nno-nob				install
+apertium-nob					install
 apertium-pt-ca					install
 apg						install
 apparmor-easyprof				install
@@ -609,6 +612,7 @@ iotop						install
 iproute						install
 iproute2					install
 iptables					install
+iputils-arping					install
 iputils-ping					install
 ipxe-qemu					install
 ipython						install
