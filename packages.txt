@@ -18,6 +18,8 @@ alsa-base					install
 alsa-utils					install
 amd64-microcode					install
 anacron						install
+android-tools-adb				install
+android-tools-fastboot				install
 ant						install
 ant-optional					install
 apache2						install

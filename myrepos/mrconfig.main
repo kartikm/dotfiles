@@ -316,3 +316,6 @@ checkout = git clone 'https://github.com/overtone/emacs-live.git' '.emacs.d'
 
 [development/apertium/languages]
 checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/languages' 'languages'
+
+[/var/www/mw-master/core/vendor]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/vendor.git' 'vendor'
