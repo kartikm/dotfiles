@@ -3448,6 +3448,7 @@ tix						install
 tk						install
 tk8.6						install
 tk8.6-blt2.5					install
+tlsdate						install
 tmux						install
 tofrodos					install
 toilet						install
