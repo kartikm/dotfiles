@@ -322,3 +322,4 @@ checkout = git clone 'https://github.com/overtone/emacs-live.git' '.emacs.d'
 
 [development/debian/in2015.mini]
 checkout = git clone 'kartik@git.debian.org:/git/debconf-data/in2015.mini' 'in2015.mini'
+update = fork_update
