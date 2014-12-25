@@ -1750,6 +1750,7 @@ libmpfr4:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
 libmro-compat-perl				install
+libmspack0:amd64				install
 libmspub-0.1-1					install
 libmsv-java					install
 libmtdev1:amd64					install
