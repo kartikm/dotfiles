@@ -1425,7 +1425,8 @@ libhyphen0					install
 libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libical-dev					install
-libical1					install
+libical1					deinstall
+libical1a					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
