@@ -240,6 +240,8 @@ e2fslibs:amd64					install
 e2fsprogs					install
 easy-rsa					install
 ed						install
+eduke32						install
+eduke32-common					install
 eject						install
 elasticsearch					install
 emacs-snapshot					install
