@@ -135,3 +135,6 @@ checkout = git clone 'git@github.com:ankitashukla/spelling-dictionary-opw.git' '
 
 [MLEB/CleanChanges]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/CleanChanges' 'CleanChanges'
+
+[analytics/limn-language-data]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/analytics/limn-language-data' 'limn-language-data'
