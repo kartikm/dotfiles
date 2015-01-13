@@ -8,10 +8,39 @@ lib =
 	}
 
 lib = 
-	master() {
-		git checkout master
+	clean_update() {
+		git checkout master &&
+		git pull -u
 	}
 
+# Analytics
+[analytics/limn-language-data]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/analytics/limn-language-data' 'limn-language-data'
+update = clean_update
+	
+# Core and skins
+[core]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'core'
+update = php /var/www/mw-master/core/maintenance/update.php
+
+[/var/www/mw-master/core/vendor]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/vendor.git' 'vendor'
+update = clean_update
+
+[Misc/VectorBeta]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VectorBeta' 'VectorBeta'
+update = clean_update
+
+# Configs
+[Config/config]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/integration/config.git' 'config'
+update = clean_update
+
+[Config/mediawiki-config]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/mediawiki-config' 'mediawiki-config'
+update = clean_update
+
+# Forks
 [forks/AutonymFont]
 checkout = git clone 'git@github.com:kartikm/AutonymFont.git' 'AutonymFont'
 update = fork_update
@@ -40,96 +69,97 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/Elastica.git' 'Elastica'
 update = fork_update
 
-[Misc/EventLogging]
-checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/p/mediawiki/extensions/EventLogging.git' 'EventLogging'
-
-[core]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'core'
-update = php /var/www/mw-master/core/maintenance/update.php
-
-[/var/www/mw-master/core/vendor]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/vendor.git' 'vendor'
+# VE and friends
+[VE/VisualEditor]
+checkout = git clone 'https://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
+update = clean_update
 
 [VE/Parsoid]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Parsoid.git' 'Parsoid'
+update = clean_update
 
-[LE/translatewiki]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/translatewiki' 'translatewiki'
+# LE team repos
+[LE/CX/ContentTranslation]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
+update = clean_update
 
-[LE/UniversalLanguageSelector]
-checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/mediawiki/extensions/UniversalLanguageSelector' 'UniversalLanguageSelector'
+[LE/CX/cxserver]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/cxserver' 'cxserver'
+update = clean_update
 
-[VE/VisualEditor]
-checkout = git clone 'https://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
-
-[QA/browsertests]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/qa/browsertests' 'browsertests'
+[LE/CX/deploy]
+checkout = git clone 'ssh://gerrit.wikimedia.org:29418/mediawiki/services/cxserver/deploy.git' 'deploy'
+update = clean_update
 
 [LE/Translate]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Translate' 'Translate'
+update = clean_update
+
+[LE/TranslationNotifications]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/TranslationNotifications' 'TranslationNotifications'
+update = clean_update
+
+[LE/translatewiki]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/translatewiki' 'translatewiki'
+update = clean_update
 
 [LE/TwnMainPage]
 checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/mediawiki/extensions/TwnMainPage' 'TwnMainPage'
+update = clean_update
 
-[LE/CX/ContentTranslation]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
+[LE/UniversalLanguageSelector]
+checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/mediawiki/extensions/UniversalLanguageSelector' 'UniversalLanguageSelector'
+update = clean_update
+
+# Misc repos
+[Misc/BetaFeatures]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/BetaFeatures' 'BetaFeatures'
+update = clean_update
+
+[Misc/CentralAuth]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralAuth' 'CentralAuth'
+update = clean_update
+
+[Misc/EventLogging]
+checkout = git clone 'https://kartik@gerrit.wikimedia.org/r/p/mediawiki/extensions/EventLogging.git' 'EventLogging'
+update = clean_update
 
 [Misc/mediawiki-tools-codesniffer]
 checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 'mediawiki-tools-codesniffer'
 
-[MLEB/cldr]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/cldr' 'cldr'
-
-[MLEB/LocalisationUpdate]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/LocalisationUpdate' 'LocalisationUpdate'
-
-[LE/TranslationNotifications]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/TranslationNotifications' 'TranslationNotifications'
-
-[QA/selenium]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/selenium.git' 'selenium'
-
-[Config/mediawiki-config]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/mediawiki-config' 'mediawiki-config'
-
 [Misc/Popups]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Popups' 'Popups'
-
-[Misc/vagrant]
-checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/vagrant' 'vagrant'
-
-[LE/CX/cxserver]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/cxserver' 'cxserver'
-
-[Misc/VectorBeta]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VectorBeta' 'VectorBeta'
-
-[GSoC/LUv2]
-checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
-
-[LE/CX/deploy]
-checkout = git clone 'ssh://gerrit.wikimedia.org:29418/mediawiki/services/cxserver/deploy.git' 'deploy'
-
-[OPs/puppet]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
+update = clean_update
 
 [Misc/scap]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/tools/scap.git' 'scap'
+update = clean_update
 
-[Misc/CentralAuth]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/CentralAuth' 'CentralAuth'
+[Misc/vagrant]
+checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/vagrant' 'vagrant'
+update = clean_update
 
-[Misc/BetaFeatures]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/BetaFeatures' 'BetaFeatures'
+# MLEB
+[MLEB/CleanChanges]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/CleanChanges' 'CleanChanges'
+update = clean_update
+
+[MLEB/cldr]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/cldr' 'cldr'
+update = clean_update
+
+[MLEB/LocalisationUpdate]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/LocalisationUpdate' 'LocalisationUpdate'
+update = clean_update
+
+# Ops
+[OPs/puppet]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
+update = clean_update
+
+# Mentoring
+[GSoC/LUv2]
+checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
 
 [OPW/spelling-dictionary-opw]
 checkout = git clone 'git@github.com:ankitashukla/spelling-dictionary-opw.git' 'spelling-dictionary-opw'
-
-[MLEB/CleanChanges]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/CleanChanges' 'CleanChanges'
-
-[analytics/limn-language-data]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/analytics/limn-language-data' 'limn-language-data'
-
-[Config/config]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/integration/config.git' 'config'
