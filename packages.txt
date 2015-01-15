@@ -1112,7 +1112,6 @@ libedit2:i386					install
 libegl1-mesa:amd64				install
 libegl1-mesa:i386				deinstall
 libegl1-mesa-dev:amd64				install
-libegl1-mesa-drivers:amd64			install
 libegl1-mesa-drivers:i386			deinstall
 libehcache-java					install
 libelf1:amd64					install
