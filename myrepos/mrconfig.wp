@@ -155,7 +155,6 @@ update = clean_update
 # Ops
 [OPs/puppet]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
-update = clean_update
 
 # Mentoring
 [GSoC/LUv2]
