@@ -13,11 +13,17 @@ lib =
 		git pull -u
 	}
 
+lib = 
+	switch() {
+		git checkout production &&
+		git pull
+	}
+
 # Analytics
 [analytics/limn-language-data]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/analytics/limn-language-data' 'limn-language-data'
 update = clean_update
-	
+
 # Core and skins
 [core]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'core'
@@ -155,6 +161,7 @@ update = clean_update
 # Ops
 [OPs/puppet]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
+update = switch
 
 # Mentoring
 [GSoC/LUv2]
