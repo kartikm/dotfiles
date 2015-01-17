@@ -118,7 +118,7 @@ alias rm='nocorrect rm -i'      # interactive RM
 alias l="ls -GlAh --color"
 alias ls="ls --color=auto -Fh --group-directories-first"
 alias latest="ls -lct1"
-alias ltree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
+alias lt="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias clls="clear;ls -Glah --color"
 alias pingg='ping -c 4 www.google.com'
 alias psprunge="curl -s -F 'sprunge=<-' http://sprunge.us | xclip -i -selection clipboard"
