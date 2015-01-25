@@ -86,11 +86,6 @@ binutils-avr					install
 binutils-msp430					install
 bison						install
 blt						install
-bluedevil					install
-blueman						install
-bluetooth					install
-bluez						install
-bluez-obexd					install
 brackets					install
 bsd-mailx					install
 bsdiff						install
@@ -462,10 +457,8 @@ ghostscript-x					install
 giblib1:amd64					install
 gimp						install
 gimp-data					install
-gir1.2-appindicator3-0.1			install
 gir1.2-atk-1.0					install
 gir1.2-freedesktop:amd64			install
-gir1.2-gconf-2.0				install
 gir1.2-gdkpixbuf-2.0				install
 gir1.2-gee-1.0:amd64				install
 gir1.2-glib-2.0:amd64				install
@@ -751,7 +744,7 @@ libapertium3-3.3-0:amd64			install
 libapertium3-3.3-dev:amd64			install
 libapparmor1:amd64				install
 libappindicator1				install
-libappindicator3-1				install
+libappindicator3-1				deinstall
 libapr1:amd64					install
 libapr1-dev					install
 libaprutil1:amd64				install
@@ -867,7 +860,7 @@ libbison-dev:amd64				install
 libblas-common					install
 libblas3					install
 libblkid1:amd64					install
-libbluedevil2:amd64				install
+libbluedevil2:amd64				deinstall
 libbluetooth-dev				install
 libbluetooth3:amd64				install
 libbluray1:amd64				install
@@ -1059,7 +1052,7 @@ libdbus-glib-1-2:amd64				install
 libdbus-glib-1-2:i386				install
 libdbus-glib-1-dev				install
 libdbusmenu-glib4:amd64				install
-libdbusmenu-gtk3-4:amd64			install
+libdbusmenu-gtk3-4:amd64			deinstall
 libdbusmenu-gtk4:amd64				install
 libdbusmenu-qt2:amd64				install
 libdc1394-22:amd64				install
@@ -1451,7 +1444,7 @@ libimport-into-perl				install
 libincidenceeditorsng4				install
 libindicate-gtk3				install
 libindicate5					install
-libindicator3-7					install
+libindicator3-7					deinstall
 libindicator7					install
 libindirect-perl				install
 libintl-perl					install
@@ -1769,7 +1762,6 @@ libmysqlclient18:amd64				install
 libmythes-1.2-0					install
 libnacl-dev					install
 libnamespace-clean-perl				install
-libnautilus-extension1a				install
 libncurses5:amd64				install
 libncurses5:i386				install
 libncurses5-dev:amd64				install
@@ -1872,7 +1864,6 @@ libopenlibm1:amd64				install
 libopenobex1					install
 libopenraw1:amd64				install
 libopenspecfun1:amd64				install
-libopenvg1-mesa:amd64				install
 libopenvg1-mesa:i386				deinstall
 liboping0:amd64					install
 libopts25:amd64					install
@@ -1956,7 +1947,6 @@ libpixie-java					install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				deinstall
 libpixman-1-dev					install
-libpkcs11-helper1:amd64				install
 libplasma-geolocation-interface4		install
 libplasma3					install
 libplasmaclock4abi4				install
@@ -2327,7 +2317,6 @@ libsyntax-highlight-engine-simple-perl		install
 libsys-hostname-long-perl			install
 libsysfs2:amd64					install
 libsysfs2:i386					install
-libsystemd-journal0:i386			install
 libsystemd0:amd64				install
 libsystemd0:i386				install
 libtag1-vanilla:amd64				install
@@ -2806,7 +2795,6 @@ mysql-server-core-5.5				install
 mysql-workbench-data				install
 mytop						install
 nano						install
-nautilus-dropbox				install
 ncftp						install
 ncurses-base					install
 ncurses-bin					install
@@ -2825,7 +2813,6 @@ network-manager-pptp				install
 network-manager-vpnc				install
 nfs-common					install
 nfs-kernel-server				install
-nginx-common					install
 nmap						install
 nocache						install
 node-abbrev					install
@@ -2886,7 +2873,7 @@ ntfs-3g						install
 ntp						install
 ntpdate						install
 ntrack-module-libnl-0				install
-obex-data-server				install
+obex-data-server				deinstall
 obexpushd					install
 odbcinst					install
 odbcinst1debian2:amd64				install
@@ -2913,7 +2900,6 @@ openssh-sftp-server				install
 openssl						install
 openssl-blacklist				install
 openssl-blacklist-extra				install
-openvpn						install
 oping						install
 os-prober					install
 oss-compat					install
@@ -3114,7 +3100,6 @@ python-gnupg					install
 python-gobject					install
 python-gobject-2				install
 python-googleapi				install
-python-gpgme					install
 python-gridfs					install
 python-gtk2					install
 python-gtkspell					install
@@ -3307,8 +3292,6 @@ realpath					install
 reaver						install
 recode						install
 recoll						install
-redis-server					install
-redis-tools					install
 remind						install
 rename						install
 reportbug					install

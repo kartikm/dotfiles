@@ -38,11 +38,11 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 update = clean_update
 
 # Configs
-[Config/config]
+[config/config]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/integration/config.git' 'config'
 update = clean_update
 
-[Config/mediawiki-config]
+[config/mediawiki-config]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/mediawiki-config' 'mediawiki-config'
 update = clean_update
 
@@ -159,7 +159,7 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 update = clean_update
 
 # Ops
-[OPs/puppet]
+[Ops/puppet]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
 update = switch
 
