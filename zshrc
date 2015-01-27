@@ -74,7 +74,7 @@ bindkey -e
 
 # ENV
 export PAGER=/usr/bin/less
-export PATH=$PATH:$HOME/.bin:/sbin:$HOME/.bin/PhpStrom/bin:$HOME/.rvm/bin
+export PATH=$PATH:$HOME/.bin:/sbin:$HOME/.cabal/bin:$PATH:$HOME/.rvm/bin
 
 # Completion styles
 zstyle ':completion:*' completer _expand _complete _correct _approximate
