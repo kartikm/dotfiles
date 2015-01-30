@@ -163,6 +163,9 @@ update = clean_update
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
 update = switch
 
+[Ops/dns]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/dns.git' 'dns'
+
 # Mentoring
 [GSoC/LUv2]
 checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'

@@ -96,3 +96,8 @@ colorscheme slate
 " Git commit message formatting
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
+" Yaml is slow without this!
+au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/syntax/yaml.vim
+
+" Puppet
+au BufNewFile,BufRead *.pp so ~/.vim/syntax/puppet.vim
