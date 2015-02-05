@@ -1426,6 +1426,7 @@ libice6:amd64					install
 libice6:i386					install
 libicu-dev:amd64				install
 libicu52:amd64					install
+libicu52:i386					install
 libid3tag0					install
 libidl0:amd64					install
 libidn11:amd64					install
