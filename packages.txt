@@ -2765,6 +2765,7 @@ mesa-common-dev:amd64				install
 mesa-utils					install
 mime-support					install
 minissdpd					install
+mitmproxy					install
 mlocate						install
 mobile-broadband-provider-info			install
 moc						install
@@ -3054,6 +3055,7 @@ python-aptdaemon.gtk3widgets			install
 python-aptdaemon.gtkwidgets			install
 python-astroid					install
 python-beautifulsoup				install
+python-blinker					install
 python-bson					install
 python-bson-ext					install
 python-cairo					install
@@ -3089,6 +3091,7 @@ python-ecdsa					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-feedparser				install
+python-flask					install
 python-formencode				install
 python-gconf					install
 python-gdbm					install
@@ -3109,6 +3112,7 @@ python-html5lib					install
 python-html5lib-whl				install
 python-httplib2					install
 python-imaging					install
+python-itsdangerous				install
 python-jinja2					install
 python-kde4					install
 python-librdf					install
@@ -3124,6 +3128,7 @@ python-minimal					install
 python-mysqldb					install
 python-ndg-httpsclient				install
 python-netifaces				install
+python-netlib					install
 python-nose					install
 python-notify					install
 python-numpy					install
@@ -3144,6 +3149,7 @@ python-pycparser				install
 python-pyexiv2					install
 python-pygame					install
 python-pygments					install
+python-pyinotify				install
 python-pymongo					install
 python-pymongo-ext				install
 python-pyorbit					install
@@ -3191,6 +3197,7 @@ python-virtualenv				install
 python-vte					install
 python-webob					install
 python-webunit					install
+python-werkzeug					install
 python-wicd					install
 python-wstools					install
 python-wxgtk2.8					install
