@@ -1832,6 +1832,7 @@ libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
+libode1						install
 libodfgen-0.1-1					install
 libofa0						install
 libogg-dev:amd64				install
@@ -3591,6 +3592,8 @@ xkbset						install
 xloadimage					install
 xml-core					install
 xmlto						install
+xmoto						install
+xmoto-data					install
 xmountains					install
 xorg-sgml-doctools				install
 xorriso						install
