@@ -159,11 +159,10 @@ localset() { vim $MY_MW/LocalSettings.php; }
 
 mwupdate() { php $MY_MW/maintenance/update.php --quick; }
 
-alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
-
-# Git
+# git
 alias amend='git commit -a --amend'
 alias amendn='git commit -a --amend --no-edit'
+alias btcs='git submodule update --init --recursive'
 alias gc='git gc'
 alias master='git checkout master'
 alias mum='git fetch upstream; git merge upstream/master;'
