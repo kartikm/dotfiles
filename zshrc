@@ -169,6 +169,7 @@ alias mum='git fetch upstream; git merge upstream/master;'
 alias prod='git checkout production'
 alias pull='git checkout master && git pull'
 alias review='git fetch gerrit; git review;'
+alias gst='git show --stat'
 
 # Cucumber
 cuke() { bundle exec cucumber $1; }

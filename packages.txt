@@ -2219,7 +2219,7 @@ libsigsegv2:amd64				install
 libslang2:amd64					install
 libslang2:i386					install
 libslang2-dev:amd64				install
-libslv2-9					install
+libslv2-9:amd64					install
 libsm-dev:amd64					install
 libsm6:amd64					install
 libsm6:i386					install
