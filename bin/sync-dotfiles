@@ -8,6 +8,7 @@ clear
 
 # configs
 cp ~/.bashrc                                $DOT/bashrc
+crontab -l >                                $DOT/crontab.txt
 cp ~/.jsbeautifyrc                          $DOT/jsbeautifyrc
 cp ~/.gbp.conf                              $DOT/gbp.conf
 cp ~/.hgrc                                  $DOT/hgrc
