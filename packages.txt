@@ -1688,9 +1688,7 @@ libmad0:amd64					install
 libmagic1:amd64					install
 libmagickcore-6.q16-2:amd64			install
 libmagickcore-6.q16-2-extra:amd64		install
-libmagickcore5:amd64				install
 libmagickwand-6.q16-2:amd64			install
-libmagickwand5:amd64				install
 libmail-java					install
 libmail-sendmail-perl				install
 libmailcommon4					install
