@@ -3347,6 +3347,8 @@ rygel						install
 rygel-gst-launch				install
 samba-common					install
 samba-libs:amd64				install
+schroot						install
+schroot-common					install
 scrot						install
 sdparm						install
 seabios						install
