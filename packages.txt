@@ -2018,12 +2018,14 @@ libpython3.4-stdlib:amd64			install
 libqalculate5:amd64				install
 libqalculate5-data				install
 libqca2:amd64					install
+libqca2-dev					install
 libqca2-plugin-gnupg				install
 libqca2-plugin-ossl:amd64			install
 libqdbm14					install
 libqextserialport1:amd64			install
 libqgpgme1					install
 libqimageblitz4					install
+libqjson-dev					install
 libqjson0:amd64					install
 libqmi-glib1:amd64				install
 libqmi-proxy					install
