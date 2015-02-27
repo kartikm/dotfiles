@@ -303,6 +303,7 @@ exim4						install
 exim4-base					install
 exim4-config					install
 exim4-daemon-light				install
+expect						install
 extra-xdg-menus					install
 facter						install
 fai-client					install
@@ -493,8 +494,9 @@ gnupg-agent					install
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
-gnuplot-nox					install
+gnuplot-nox					deinstall
 gnuplot-tex					install
+gnuplot-x11					install
 golang						install
 golang-doc					install
 golang-go					install
@@ -511,6 +513,7 @@ gpgv						install
 gpsbabel					install
 gpsbabel-doc					install
 gpsbabel-gui					install
+gpsprune					install
 graphviz					install
 grep						install
 groff						install
@@ -1483,6 +1486,8 @@ libjack-jackd2-0:i386				install
 libjasper-dev					install
 libjasper1:amd64				install
 libjasper1:i386					deinstall
+libjava3d-java					install
+libjava3d-jni					install
 libjavascriptcoregtk-3.0-0:amd64		install
 libjaxen-java					install
 libjaxp1.3-java					install
@@ -1707,6 +1712,7 @@ libmediaart-1.0-0:amd64				install
 libmessagecomposer4				install
 libmessagecore4					install
 libmessageviewer4				install
+libmetadata-extractor-java			install
 libmhash-dev					install
 libmhash2:amd64					install
 libmicroblog4					install
@@ -2436,6 +2442,7 @@ libvde0						install
 libvdeplug2					install
 libvdpau1:amd64					install
 libvdpau1:i386					install
+libvecmath-java					install
 libvigraimpex4					install
 libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
@@ -2650,6 +2657,7 @@ libxml2-utils					install
 libxmlbeans-java				install
 libxmlgraphics-commons-java			install
 libxmlrpc-lite-perl				install
+libxmpcore-java					install
 libxmu6:amd64					install
 libxmu6:i386					install
 libxmuu1:amd64					install
@@ -3415,6 +3423,7 @@ task-ssh-server					install
 tasksel						install
 tasksel-data					install
 tcl						install
+tcl-expect:amd64				install
 tcl8.6						install
 tcpd						install
 tcpdump						install
@@ -3505,6 +3514,7 @@ vde2						install
 vdpau-va-driver:amd64				install
 vdpau-va-driver:i386				install
 velocity					install
+viking						install
 vim						install
 vim-common					install
 vim-runtime					install
