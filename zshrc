@@ -159,6 +159,8 @@ localset() { vim $MY_MW/LocalSettings.php; }
 
 mwupdate() { php $MY_MW/maintenance/update.php --quick; }
 
+alias phpcsmw='phpcs -v -s --standard=/home/kartik/development/wikipedia/mw-tools-cs/MediaWiki --encoding=utf-8'
+
 # git
 alias amend='git commit -a --amend'
 alias amendn='git commit -a --amend --no-edit'
