@@ -2824,6 +2824,9 @@ network-manager-pptp				install
 network-manager-vpnc				install
 nfs-common					install
 nfs-kernel-server				install
+nginx-common					install
+nginx-doc					install
+nginx-full					install
 nmap						install
 nocache						install
 node-abbrev					install
