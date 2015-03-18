@@ -3072,6 +3072,7 @@ python-aptdaemon.gtkwidgets			install
 python-astroid					install
 python-beautifulsoup				install
 python-blinker					install
+python-bs4					install
 python-bson					install
 python-bson-ext					install
 python-cairo					install
@@ -3231,6 +3232,7 @@ python3-apparmor				install
 python3-apt					install
 python3-aptdaemon				install
 python3-aptdaemon.gtk3widgets			install
+python3-bs4					install
 python3-chardet					install
 python3-colorama				install
 python3-dateutil				install
