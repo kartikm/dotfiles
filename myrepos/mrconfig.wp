@@ -167,8 +167,9 @@ update = switch
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/dns.git' 'dns'
 
 # Mentoring
-[GSoC/LUv2]
-checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
+# NA
+#[GSoC/LUv2]
+#checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
 
 [OPW/spelling-dictionary-opw]
 checkout = git clone 'git@github.com:ankitashukla/spelling-dictionary-opw.git' 'spelling-dictionary-opw'
