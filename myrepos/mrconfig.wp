@@ -25,7 +25,7 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/analytics/limn-lan
 update = clean_update
 
 # Core and skins
-[core]
+[/var/www/mw-master/core]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'core'
 update = php /var/www/mw-master/core/maintenance/update.php
 
@@ -33,8 +33,8 @@ update = php /var/www/mw-master/core/maintenance/update.php
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/vendor.git' 'vendor'
 update = clean_update
 
-[Misc/VectorBeta]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VectorBeta' 'VectorBeta'
+[/var/www/mw-master/core/skins/vector]
+checkout = git clone 'https://gerrit.wikimedia.org:29418/mediawiki/skins/Vector.git' 'vector'
 update = clean_update
 
 # Configs
