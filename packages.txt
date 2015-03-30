@@ -3178,6 +3178,7 @@ python-pyqt5.qtwebkit				install
 python-qrtools					install
 python-qt4					install
 python-qt4-dbus					install
+python-recoll					install
 python-reportbug				install
 python-repoze.lru				install
 python-requests					install
@@ -3256,6 +3257,7 @@ python3-pil:amd64				install
 python3-pip					install
 python3-pkg-resources				install
 python3-pyparsing				install
+python3-recoll					install
 python3-requests				install
 python3-scipy					install
 python3-setuptools				install
