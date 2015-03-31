@@ -887,6 +887,7 @@ libboost-system1.55.0:amd64			install
 libboost-thread1.55.0:amd64			install
 libboost1.55-dev:amd64				install
 libbrlapi0.6:amd64				install
+libbs2b0					install
 libbsd-dev:amd64				install
 libbsd0:amd64					install
 libbsd0:i386					install
@@ -2777,6 +2778,7 @@ mercurial					install
 mercurial-common				install
 mesa-common-dev:amd64				install
 mesa-utils					install
+mesa-vdpau-drivers:amd64			install
 mime-support					install
 minissdpd					install
 mitmproxy					install
@@ -2792,6 +2794,7 @@ mosh						install
 mount						install
 mozilla-devscripts				install
 mpg123						install
+mplayer2					install
 mr						install
 mscompress					install
 msp430-libc					install
