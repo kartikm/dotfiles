@@ -35,6 +35,7 @@ apertium-es-ca					install
 apertium-fr-es					install
 apertium-hbs					install
 apertium-hbs-eng				install
+apertium-hbs-mkd				install
 apertium-lex-tools				install
 apertium-nno					install
 apertium-nno-nob				install
