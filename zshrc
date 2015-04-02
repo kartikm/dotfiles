@@ -188,6 +188,10 @@ alias speed='python ~/.bin/speedtest-cli'
 alias stardate='date "+%y%m.%d/%H%M"'   # from Joey
 alias tzfix='sudo dpkg-reconfigure tzdata' # fix for timezone. Bug?
 
+# Whothefuckisusingport!
+# https://twitter.com/labfoo/status/583618592366796800
+whothefuckisusingport() { lsof -i tcp:$*; }
+
 # tor settings
 alias google-chrome-tor='google-chrome --proxy-server="socks://127.0.0.1:9050"'
 
