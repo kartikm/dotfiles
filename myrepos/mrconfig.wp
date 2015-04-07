@@ -146,6 +146,10 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/vagrant' 'vagrant
 update = clean_update
 
 # MLEB
+[MLEB/Babel]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Babel' 'Babel'
+update = clean_update
+
 [MLEB/CleanChanges]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/CleanChanges' 'CleanChanges'
 update = clean_update
