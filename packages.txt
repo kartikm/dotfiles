@@ -3403,6 +3403,7 @@ sp						install
 spew						install
 sphinx-common					install
 sphinx-doc					install
+sqlite						install
 sqlite3						install
 squashfs-tools					install
 ssh						install
