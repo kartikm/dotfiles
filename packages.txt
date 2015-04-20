@@ -1449,7 +1449,7 @@ libiksemel-dev:amd64				install
 libiksemel3:amd64				install
 libilmbase6:amd64				install
 libimage-exiftool-perl				install
-libimlib2					install
+libimlib2:amd64					install
 libimobiledevice4:amd64				install
 libimport-into-perl				install
 libincidenceeditorsng4				install
