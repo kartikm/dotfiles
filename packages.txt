@@ -32,6 +32,7 @@ apertium-dan					install
 apertium-dan-nor				install
 apertium-en-es					install
 apertium-es-ca					install
+apertium-eus					install
 apertium-fr-es					install
 apertium-hbs					install
 apertium-hbs-eng				install
@@ -1263,6 +1264,7 @@ libgif-dev					install
 libgif4:amd64					install
 libgimp2.0					install
 libgirara-gtk3-1:amd64				install
+libgirara-gtk3-2:amd64				install
 libgirepository-1.0-1:amd64			install
 libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
@@ -1892,7 +1894,7 @@ libossp-uuid-perl				install
 libossp-uuid16:amd64				install
 libotf0						install
 libotr5						install
-libp11-kit-dev					install
+libp11-kit-dev:amd64				install
 libp11-kit0:amd64				install
 libp11-kit0:i386				install
 libpackage-constants-perl			install
@@ -2341,7 +2343,7 @@ libtask-weaken-perl				install
 libtaskmanager4abi4				install
 libtasn1-6:amd64				install
 libtasn1-6:i386					install
-libtasn1-6-dev					install
+libtasn1-6-dev:amd64				install
 libtasn1-doc					install
 libtbb2						install
 libtcl8.6:amd64					install
