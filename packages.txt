@@ -721,7 +721,7 @@ latex-xcolor					install
 latex2html					install
 lcdf-typetools					install
 less						install
-liba52-0.7.4					install
+liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.1-1					install
