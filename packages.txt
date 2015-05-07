@@ -37,11 +37,13 @@ apertium-fr-es					install
 apertium-hbs					install
 apertium-hbs-eng				install
 apertium-hbs-mkd				install
+apertium-kaz					install
 apertium-lex-tools				install
 apertium-nno					install
 apertium-nno-nob				install
 apertium-nob					install
 apertium-pt-ca					install
+apertium-tat					install
 apg						install
 apparmor-easyprof				install
 apt						install
