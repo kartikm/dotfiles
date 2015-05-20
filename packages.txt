@@ -322,7 +322,6 @@ falconpl-curl					install
 falconpl-dev					install
 feh						install
 festival					install
-festival-dev					install
 festlex-cmu					install
 festlex-poslex					install
 festvox-kallpc16k				install
@@ -946,6 +945,7 @@ libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
 libcgi-session-perl				install
 libcglib3-java					install
+libcgmanager0:amd64				install
 libcgraph6					install
 libchm-bin					install
 libchm-dev					install
@@ -1134,8 +1134,7 @@ libepub0					install
 liberror-perl					install
 libesd0:amd64					install
 libesd0:i386					install
-libestools2.1:amd64				install
-libestools2.1-dev				install
+libestools2.4:amd64				install
 libestr0					install
 libetonyek-0.1-1				install
 libev4						install
@@ -1261,6 +1260,7 @@ libgeronimo-jta-1.1-spec-java			install
 libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
 libgfortran3:amd64				install
+libghc-cabal-dev				install
 libgif-dev					install
 libgif4:amd64					install
 libgimp2.0					install
@@ -1535,6 +1535,7 @@ libjson-c2:i386					install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
+libjsoncpp0					install
 libjsr107cache-java				install
 libjte1						install
 libjts-java					install
@@ -1812,6 +1813,8 @@ libnfnetlink-dev				install
 libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
 libnice10:amd64					install
+libnih-dbus1					install
+libnih1						install
 libnl-3-200:amd64				install
 libnl-3-dev					install
 libnl-genl-3-200:amd64				install
@@ -1820,6 +1823,7 @@ libnl-route-3-200:amd64				install
 libnm-glib-vpn1:amd64				install
 libnm-glib4:amd64				install
 libnm-util2:amd64				install
+libnm0:amd64					install
 libnoteshared4					install
 libnotify-bin					install
 libnotify-dev					install
