@@ -2497,7 +2497,7 @@ libwerken.xpath-java				install
 libwildmidi-config				install
 libwildmidi1:amd64				install
 libwind0-heimdal:amd64				install
-libwine:amd64					install
+libwine:amd64					deinstall
 libwine:i386					install
 libwine-gecko-2.21				install
 libwinpr-crt0.1:amd64				install
@@ -3576,7 +3576,6 @@ wicd-curses					install
 wicd-daemon					install
 wicd-kde					install
 wine32:i386					install
-wine64						install
 wireless-regdb					install
 wireless-tools					install
 wireshark					install
