@@ -84,6 +84,10 @@ update = clean_update
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Parsoid.git' 'Parsoid'
 update = clean_update
 
+[VE/deploy]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid/deploy' 'deploy'
+update = clean_update
+
 # LE team repos
 [LE/CX/ContentTranslation]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/ContentTranslation' 'ContentTranslation'
