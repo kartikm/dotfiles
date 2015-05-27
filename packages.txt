@@ -2473,6 +2473,7 @@ libvpb-dev					install
 libvpb0						install
 libvpx1:amd64					install
 libvpx1:i386					install
+libvpx2:amd64					install
 libvte-2.90-9					install
 libvte-2.90-common				install
 libvte-common					install
