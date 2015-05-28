@@ -467,7 +467,7 @@ gimp						install
 gimp-data					install
 gir1.2-atk-1.0					install
 gir1.2-freedesktop:amd64			install
-gir1.2-gdkpixbuf-2.0				install
+gir1.2-gdkpixbuf-2.0:amd64			install
 gir1.2-gee-1.0:amd64				install
 gir1.2-glib-2.0:amd64				install
 gir1.2-gtk-2.0					install
