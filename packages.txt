@@ -719,6 +719,7 @@ laptop-detect					install
 laptop-mode-tools				install
 latex-xcolor					install
 latex2html					install
+latexmk						install
 lcdf-typetools					install
 less						install
 liba52-0.7.4:amd64				install
