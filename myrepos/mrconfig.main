@@ -327,3 +327,6 @@ update = fork_update
 # Strange, mw still want to be here :/
 [/var/www/mw-master/core]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git' 'core'
+
+[development/books/HaskellWeb]
+checkout = git clone 'https://gitlab.com/misandrist/HaskellWeb.git' 'HaskellWeb'
