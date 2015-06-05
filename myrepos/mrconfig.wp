@@ -26,15 +26,15 @@ update = clean_update
 
 # Core and skins
 [/var/www/mw-master/core]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/core.git' 'core'
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org/r/p/mediawiki/core.git' 'core'
 update = php /var/www/mw-master/core/maintenance/update.php
 
 [/var/www/mw-master/core/vendor]
-checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/vendor.git' 'vendor'
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org/r/p/mediawiki/vendor.git' 'vendor'
 update = clean_update
 
 [/var/www/mw-master/core/skins/vector]
-checkout = git clone 'https://gerrit.wikimedia.org:29418/mediawiki/skins/Vector.git' 'vector'
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/skins/Vector.git' 'Vector'
 update = clean_update
 
 # Configs
