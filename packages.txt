@@ -1737,7 +1737,7 @@ libmng1:i386					install
 libmnl0:amd64					install
 libmockito-java					install
 libmodemmanagerqt1:amd64			install
-libmodplug1					install
+libmodplug1:amd64				install
 libmodule-build-perl				install
 libmodule-implementation-perl			install
 libmodule-pluggable-perl			install
