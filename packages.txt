@@ -1809,6 +1809,7 @@ libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle4:amd64				install
 libnettle4:i386					install
+libnettle6:amd64				install
 libnetworkmanagerqt1:amd64			install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
