@@ -1238,8 +1238,10 @@ libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
 libgcrypt11:amd64				install
 libgcrypt11:i386				deinstall
+libgcrypt11-dev					install
 libgcrypt20:amd64				install
 libgcrypt20:i386				install
+libgcrypt20-dev					install
 libgd2-xpm:i386					deinstall
 libgd3:amd64					install
 libgd3:i386					install
@@ -2304,6 +2306,7 @@ libss7-1					install
 libss7-dev					install
 libssh-gcrypt-4:amd64				install
 libssh2-1:amd64					install
+libssh2-1-dev:amd64				install
 libssl-dev:amd64				install
 libssl1.0.0:amd64				install
 libssl1.0.0:i386				install
