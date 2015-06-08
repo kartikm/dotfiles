@@ -442,6 +442,8 @@ gcc-4.8-base:i386				install
 gcc-4.9						install
 gcc-4.9-base:amd64				install
 gcc-4.9-base:i386				install
+gcc-5-base:amd64				install
+gcc-5-base:i386					install
 gcc-avr						install
 gcc-msp430					install
 gcj-4.8-jre-lib					install
@@ -615,6 +617,7 @@ intltool					install
 intltool-debian					install
 iok						install
 ioquake3					install
+ioquake3-server					install
 iotop						install
 iproute						install
 iproute2					install
@@ -1163,6 +1166,7 @@ libfarstream-0.1-0:amd64			install
 libfbclient2:amd64				install
 libfbembed2.5					install
 libfcgi-perl					install
+libfdisk1:amd64					install
 libfdt1:amd64					install
 libffi-dev:amd64				install
 libffi6:amd64					install
@@ -1406,6 +1410,8 @@ libhfst39					install
 libhfst39-dev					install
 libhogweed2:amd64				install
 libhogweed2:i386				install
+libhogweed4:amd64				install
+libhogweed4:i386				install
 libhpdf-2.2.1					install
 libhpdf-dev					install
 libhsqldb-java					install
@@ -1810,6 +1816,7 @@ libnetpbm10					install
 libnettle4:amd64				install
 libnettle4:i386					install
 libnettle6:amd64				install
+libnettle6:i386					install
 libnetworkmanagerqt1:amd64			install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
@@ -2766,6 +2773,7 @@ lshw						install
 lsof						install
 ltrace						install
 lttoolbox					install
+lua-lgi:amd64					install
 lua5.2						install
 lxc						install
 lynx-cur					install
@@ -3362,6 +3370,7 @@ ruby-json					install
 ruby-kde4					install
 ruby-listen					install
 ruby-log4r					install
+ruby-molinillo					install
 ruby-net-http-persistent			install
 ruby-net-scp					install
 ruby-net-ssh					install
@@ -3385,6 +3394,7 @@ samba-common					install
 samba-libs:amd64				install
 schroot						install
 schroot-common					install
+screen						install
 scrot						install
 scummvm						install
 sdparm						install
