@@ -1563,7 +1563,7 @@ libjson-c2:i386					install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
-libjsoncpp0					install
+libjsoncpp0:amd64				install
 libjsr107cache-java				install
 libjsr166y-java					install
 libjte1						install
