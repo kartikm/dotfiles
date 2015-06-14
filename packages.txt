@@ -986,7 +986,6 @@ libcloog-isl4:amd64				install
 libcloog-ppl1:amd64				install
 libclucene-contribs1:amd64			install
 libclucene-core1:amd64				install
-libcmis-0.4-4					install
 libcmis-0.5-5					install
 libcolamd2.8.0:amd64				install
 libcolord2:amd64				install
@@ -1861,6 +1860,7 @@ libnotify-bin					install
 libnotify-dev					install
 libnotify4:amd64				install
 libnotmuch3					install
+libnotmuch4					install
 libnspr4:amd64					install
 libnspr4:i386					install
 libnspr4-0d:amd64				install
@@ -2004,7 +2004,6 @@ libplasma-geolocation-interface4		install
 libplasma3					install
 libplasmaclock4abi4				install
 libplasmagenericshell4				install
-libplist2:amd64					install
 libplist3:amd64					install
 libpng12-0:amd64				install
 libpng12-0:i386					install
@@ -2435,7 +2434,6 @@ libtool-bin					install
 libtry-tiny-perl				install
 libtsan0:amd64					install
 libturbojpeg0:amd64				install
-libturbojpeg1:amd64				install
 libtwolame0					install
 libtxc-dxtn-s2tc0:amd64				install
 libtxc-dxtn-s2tc0:i386				install
@@ -2512,7 +2510,6 @@ libvorbisfile3:i386				install
 libvpb-dev					install
 libvpb0						install
 libvpx1:amd64					install
-libvpx1:i386					install
 libvpx2:amd64					install
 libvpx2:i386					install
 libvte-2.90-9					install
@@ -2591,7 +2588,6 @@ libx11-xcb-dev:amd64				install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-142:amd64				install
-libx264-142:i386				install
 libx264-146:amd64				install
 libx264-146:i386				install
 libx265-59:amd64				install
@@ -2888,7 +2884,7 @@ nfs-common					install
 nfs-kernel-server				install
 nginx-common					install
 nginx-doc					install
-nginx-full					install
+nginx-light					install
 nmap						install
 nocache						install
 node-abbrev					install
@@ -3139,6 +3135,7 @@ python-chardet-whl				install
 python-cherrypy3				install
 python-colorama					install
 python-colorama-whl				install
+python-configargparse				install
 python-configobj				install
 python-coverage					install
 python-crypto					install
@@ -3220,6 +3217,7 @@ python-pkg-resources				install
 python-ply					install
 python-pyasn1					install
 python-pycparser				install
+python-pycurl					install
 python-pyexiv2					install
 python-pygame					install
 python-pygments					install
@@ -3260,6 +3258,7 @@ python-stevedore				install
 python-support					install
 python-talloc					install
 python-tk					install
+python-tornado					install
 python-tweepy					install
 python-uritemplate				install
 python-urllib3					install
@@ -3432,6 +3431,7 @@ schroot-common					install
 screen						install
 scrot						install
 scummvm						install
+scummvm-data					install
 sdparm						install
 seabios						install
 seahorse					install
