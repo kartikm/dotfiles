@@ -82,7 +82,6 @@ autopoint					install
 autotools-dev					install
 avr-libc					install
 avrdude						install
-awesome						install
 awesome-extra					install
 base-files					install
 base-passwd					install
@@ -242,6 +241,7 @@ dunst						install
 dvd+rw-tools					install
 dvipng						install
 dwdiff						install
+dwm						install
 dynamite					install
 e2fslibs:amd64					install
 e2fsprogs					install
@@ -586,7 +586,6 @@ hugin-data					install
 hugin-tools					install
 hunspell-en-us					install
 hyphen-gu					install
-i3-wm						install
 i3lock						install
 i3status					install
 i965-va-driver:amd64				install
@@ -2604,7 +2603,6 @@ libxau6:i386					install
 libxaw7:amd64					install
 libxaw7:i386					install
 libxcb-composite0:amd64				install
-libxcb-cursor0:amd64				install
 libxcb-damage0:amd64				install
 libxcb-dpms0:amd64				install
 libxcb-dri2-0:amd64				install
@@ -2803,7 +2801,6 @@ lshw						install
 lsof						install
 ltrace						install
 lttoolbox					install
-lua-lgi:amd64					install
 lua5.2						install
 lxc						install
 lynx-cur					install
@@ -3392,7 +3389,6 @@ rfdump						install
 rfkill						install
 rhino						install
 rig						install
-rlwrap						install
 rpcbind						install
 rsync						install
 rsyslog						install
