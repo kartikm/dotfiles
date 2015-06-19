@@ -47,6 +47,7 @@ apertium-nob					install
 apertium-pt-ca					install
 apertium-tat					install
 apertium-urd					install
+apertium-urd-hin				install
 apg						install
 apparmor-easyprof				install
 apt						install

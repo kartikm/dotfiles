@@ -24,7 +24,7 @@ deb http://packages.elasticsearch.org/elasticsearch/0.90/debian stable main
 #deb-src http://apt.univention.de/3.1/unmaintained/ 3.1-0/source/
 
 #Parsoid
-deb [arch=amd64] http://parsoid.wmflabs.org:8080/deb wmf-production main
+#deb [arch=amd64] http://parsoid.wmflabs.org:8080/deb wmf-production main
 
 #local
 deb file:///var/cache/pbuilder/unstable-amd64/aptcache/repo ./
