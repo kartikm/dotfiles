@@ -507,7 +507,6 @@ gnupg-agent					install
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
-gnuplot-nox					deinstall
 gnuplot-tex					install
 gnuplot-x11					install
 golang						install
@@ -766,7 +765,6 @@ libapertium3-3.3-0:amd64			install
 libapertium3-3.3-dev:amd64			install
 libapparmor1:amd64				install
 libappindicator1				install
-libappindicator3-1				deinstall
 libapr1:amd64					install
 libapr1-dev					install
 libaprutil1:amd64				install
@@ -806,7 +804,6 @@ libatk-bridge2.0-0:amd64			install
 libatk-wrapper-java				install
 libatk-wrapper-java-jni:amd64			install
 libatk1.0-0:amd64				install
-libatk1.0-0:i386				deinstall
 libatk1.0-data					install
 libatk1.0-dev					install
 libatkmm-1.6-1:amd64				install
@@ -883,7 +880,6 @@ libbison-dev:amd64				install
 libblas-common					install
 libblas3					install
 libblkid1:amd64					install
-libbluedevil2:amd64				deinstall
 libbluetooth-dev				install
 libbluetooth3:amd64				install
 libbluray1:amd64				install
@@ -925,13 +921,11 @@ libcairo-gobject2:amd64				install
 libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
-libcairo2:i386					deinstall
 libcairo2-dev					install
 libcalendarsupport4				install
 libcamd2.3.1:amd64				install
 libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
-libcanberra-gtk0:i386				deinstall
 libcanberra-gtk3-0:amd64			install
 libcanberra-gtk3-module:amd64			install
 libcanberra0:amd64				install
@@ -1046,7 +1040,6 @@ libcups2:i386					install
 libcupsfilters1:amd64				install
 libcupsimage2:amd64				install
 libcurl3:amd64					install
-libcurl3:i386					deinstall
 libcurl3-gnutls:amd64				install
 libcurl3-nss:amd64				install
 libcwidget3:amd64				install
@@ -1066,7 +1059,6 @@ libdatrie1:amd64				install
 libdatrie1:i386					install
 libdb-dev:amd64					install
 libdb-java					install
-libdb5.1:i386					deinstall
 libdb5.3:amd64					install
 libdb5.3-dev					install
 libdb5.3-java					install
@@ -1080,7 +1072,6 @@ libdbus-glib-1-2:amd64				install
 libdbus-glib-1-2:i386				install
 libdbus-glib-1-dev				install
 libdbusmenu-glib4:amd64				install
-libdbusmenu-gtk3-4:amd64			deinstall
 libdbusmenu-gtk4:amd64				install
 libdbusmenu-qt2:amd64				install
 libdc1394-22:amd64				install
@@ -1131,9 +1122,7 @@ libecj-java					install
 libedit2:amd64					install
 libedit2:i386					install
 libegl1-mesa:amd64				install
-libegl1-mesa:i386				deinstall
 libegl1-mesa-dev:amd64				install
-libegl1-mesa-drivers:i386			deinstall
 libehcache-java					install
 libelasticsearch1.4-java			install
 libelf1:amd64					install
@@ -1235,7 +1224,6 @@ libfuse2:amd64					install
 libgadu3					install
 libgail18:amd64					install
 libgbm1:amd64					install
-libgbm1:i386					deinstall
 libgc1c2:amd64					install
 libgcc-4.7-dev:amd64				install
 libgcc-4.8-dev:amd64				install
@@ -1255,18 +1243,14 @@ libgcr-3-common					install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
 libgcrypt11:amd64				install
-libgcrypt11:i386				deinstall
 libgcrypt20:amd64				install
 libgcrypt20:i386				install
 libgcrypt20-dev					install
-libgd2-xpm:i386					deinstall
 libgd3:amd64					install
 libgd3:i386					install
 libgdbm-dev					install
 libgdbm3:amd64					install
-libgdbm3:i386					deinstall
 libgdk-pixbuf2.0-0:amd64			install
-libgdk-pixbuf2.0-0:i386				deinstall
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
 libgee-0.8-2:amd64				install
@@ -1339,7 +1323,6 @@ libgnupg-interface-perl				install
 libgnutls-deb0-28:amd64				install
 libgnutls-deb0-28:i386				install
 libgnutls-openssl27:amd64			install
-libgnutls26:i386				deinstall
 libgnutls28-dev:amd64				install
 libgnutlsxx28:amd64				install
 libgomp1:amd64					install
@@ -1350,7 +1333,6 @@ libgpg-error0:i386				install
 libgpgme++2					install
 libgpgme11:amd64				install
 libgpgme11-dev					install
-libgphoto2-2:i386				deinstall
 libgphoto2-6:amd64				install
 libgphoto2-l10n					install
 libgphoto2-port12:amd64				install
@@ -1389,7 +1371,6 @@ libgtk-3-bin					install
 libgtk-3-common					install
 libgtk2-perl					install
 libgtk2.0-0:amd64				install
-libgtk2.0-0:i386				deinstall
 libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
@@ -1412,7 +1393,6 @@ libharfbuzz-bin					install
 libharfbuzz-dev					install
 libharfbuzz-gobject0:amd64			install
 libharfbuzz-icu0:amd64				install
-libharfbuzz0a:i386				deinstall
 libharfbuzz0b:amd64				install
 libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
@@ -1452,7 +1432,6 @@ libhyphen0					install
 libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libical-dev					install
-libical1					deinstall
 libical1a					install
 libice-dev:amd64				install
 libice6:amd64					install
@@ -1478,7 +1457,6 @@ libimport-into-perl				install
 libincidenceeditorsng4				install
 libindicate-gtk3				install
 libindicate5					install
-libindicator3-7					deinstall
 libindicator7					install
 libindirect-perl				install
 libintl-perl					install
@@ -1516,7 +1494,6 @@ libjansi-java					install
 libjansi-native-java				install
 libjasper-dev					install
 libjasper1:amd64				install
-libjasper1:i386					deinstall
 libjava3d-java					install
 libjava3d-jni					install
 libjavascriptcoregtk-3.0-0:amd64		install
@@ -1687,7 +1664,6 @@ liblircclient0					install
 liblist-allutils-perl				install
 liblist-moreutils-perl				install
 liblivemedia23					install
-libllvm3.4:i386					deinstall
 libllvm3.5:amd64				install
 libllvm3.5:i386					install
 libloader-java					install
@@ -1796,7 +1772,6 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
-libmusicbrainz5-0:amd64				deinstall
 libmusicbrainz5-1:amd64				install
 libmwaw-0.3-3					install
 libmysql-java					install
@@ -1834,7 +1809,6 @@ libnet1-dev					install
 libnetfilter-conntrack-dev			install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
-libnettle4:amd64				deinstall
 libnettle6:amd64				install
 libnettle6:i386					install
 libnetty-java					install
@@ -1866,7 +1840,6 @@ libnspr4:i386					install
 libnspr4-0d:amd64				install
 libnspr4-0d:i386				install
 libnss3:amd64					install
-libnss3:i386					deinstall
 libnss3-1d:amd64				install
 libntdb1:amd64					install
 libntlm0:amd64					install
@@ -1913,7 +1886,6 @@ libopenlibm1:amd64				install
 libopenobex1					install
 libopenraw1:amd64				install
 libopenspecfun1:amd64				install
-libopenvg1-mesa:i386				deinstall
 liboping0:amd64					install
 libopts25:amd64					install
 libopus0:amd64					install
@@ -1952,7 +1924,6 @@ libpango-perl					install
 libpango1.0-0:amd64				install
 libpango1.0-dev					install
 libpangocairo-1.0-0:amd64			install
-libpangocairo-1.0-0:i386			deinstall
 libpangoft2-1.0-0:amd64				install
 libpangoft2-1.0-0:i386				install
 libpangox-1.0-0:amd64				install
@@ -1997,7 +1968,6 @@ libpimcommon4					install
 libpipeline1:amd64				install
 libpixie-java					install
 libpixman-1-0:amd64				install
-libpixman-1-0:i386				deinstall
 libpixman-1-dev					install
 libplasma-geolocation-interface4		install
 libplasma3					install
@@ -2144,12 +2114,10 @@ libqtglib-2.0-0:amd64				install
 libqtgstreamer-1.0-0:amd64			install
 libqtgstreamerui-1.0-0:amd64			install
 libqtgui4:amd64					install
-libqtgui4:i386					deinstall
 libqtlocation1:amd64				install
 libqtruby4shared2				install
 libqtwebkit-dev					install
 libqtwebkit4:amd64				install
-libqtwebkit4:i386				deinstall
 libquadmath0:amd64				install
 libquazip1:amd64				install
 libquvi-scripts					install
@@ -2214,9 +2182,7 @@ libsac-java-gcj					install
 libsamplerate0:amd64				install
 libsamplerate0:i386				install
 libsane:amd64					install
-libsane:i386					deinstall
 libsane-common					install
-libsane-extras:i386				deinstall
 libsasl2-2:amd64				install
 libsasl2-dev					install
 libsasl2-modules:amd64				install
@@ -2332,7 +2298,6 @@ libspqr1.3.1:amd64				install
 libsqlite0					install
 libsqlite0-dev					install
 libsqlite3-0:amd64				install
-libsqlite3-0:i386				deinstall
 libsqlite3-dev:amd64				install
 libsrtp0					install
 libsrtp0-dev					install
@@ -2462,7 +2427,6 @@ liburcu2:amd64					install
 liburi-perl					install
 libusageenvironment1				install
 libusb-0.1-4:amd64				install
-libusb-0.1-4:i386				deinstall
 libusb-1.0-0:amd64				install
 libusbmuxd-tools				install
 libusbmuxd2:amd64				install
@@ -2473,9 +2437,7 @@ libuuid-perl					install
 libuuid1:amd64					install
 libuuid1:i386					install
 libv4l-0:amd64					install
-libv4l-0:i386					deinstall
 libv4lconvert0:amd64				install
-libv4lconvert0:i386				deinstall
 libv8-3.14-dev					install
 libv8-3.14.5					install
 libva-drm1:amd64				install
@@ -2520,12 +2482,10 @@ libvte-common					install
 libvte9						install
 libwavpack1:amd64				install
 libwayland-client0:amd64			install
-libwayland-client0:i386				deinstall
 libwayland-cursor0:amd64			install
 libwayland-dev					install
 libwayland-egl1-mesa:amd64			install
 libwayland-server0:amd64			install
-libwayland-server0:i386				deinstall
 libwbclient0:amd64				install
 libweather-ion6					install
 libwebkitgtk-3.0-0:amd64			install
@@ -2538,7 +2498,6 @@ libwerken.xpath-java				install
 libwildmidi-config				install
 libwildmidi1:amd64				install
 libwind0-heimdal:amd64				install
-libwine:amd64					deinstall
 libwinpr-crt0.1:amd64				install
 libwinpr-crypto0.1:amd64			install
 libwinpr-dsparse0.1:amd64			install
@@ -2593,7 +2552,6 @@ libx264-146:i386				install
 libx265-59:amd64				install
 libx265-59:i386					install
 libx86-1:amd64					install
-libx86-1:i386					deinstall
 libxalan2-java					install
 libxapian-dev					install
 libxapian22					install
@@ -2625,13 +2583,10 @@ libxcb-randr0:amd64				install
 libxcb-randr0-dev:amd64				install
 libxcb-render-util0:amd64			install
 libxcb-render0:amd64				install
-libxcb-render0:i386				deinstall
 libxcb-render0-dev:amd64			install
 libxcb-shape0:amd64				install
-libxcb-shape0:i386				deinstall
 libxcb-shape0-dev:amd64				install
 libxcb-shm0:amd64				install
-libxcb-shm0:i386				deinstall
 libxcb-shm0-dev:amd64				install
 libxcb-sync-dev:amd64				install
 libxcb-sync1:amd64				install
@@ -2639,7 +2594,6 @@ libxcb-sync1:i386				install
 libxcb-util0:amd64				install
 libxcb-xf86dri0:amd64				install
 libxcb-xfixes0:amd64				install
-libxcb-xfixes0:i386				deinstall
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
@@ -2683,7 +2637,6 @@ libxi6:amd64					install
 libxi6:i386					install
 libxinerama-dev:amd64				install
 libxinerama1:amd64				install
-libxinerama1:i386				deinstall
 libxkbcommon-x11-0:amd64			install
 libxkbcommon0:amd64				install
 libxkbfile1:amd64				install
@@ -2714,7 +2667,6 @@ libxmuu1:amd64					install
 libxmuu1:i386					install
 libxom-java					install
 libxosd2					install
-libxp6:i386					deinstall
 libxpm-dev:amd64				install
 libxpm4:amd64					install
 libxpm4:i386					install
@@ -2722,7 +2674,6 @@ libxpp2-java					install
 libxpp3-java					install
 libxrandr-dev:amd64				install
 libxrandr2:amd64				install
-libxrandr2:i386					deinstall
 libxrender-dev:amd64				install
 libxrender1:amd64				install
 libxrender1:i386				install
@@ -2774,8 +2725,6 @@ lintian						install
 linux-base					install
 linux-compiler-gcc-4.8-x86			install
 linux-compiler-gcc-4.9-x86			install
-linux-headers-3.16.0-4-amd64			install
-linux-headers-3.16.0-4-common			install
 linux-headers-4.0.0-1-amd64			install
 linux-headers-4.0.0-1-common			install
 linux-headers-amd64				install
@@ -2818,8 +2767,6 @@ manpages					install
 manpages-dev					install
 marble-data					install
 marble-plugins					install
-marco						install
-marco-common					install
 mawk						install
 menu						install
 mercurial					install
@@ -2943,7 +2890,6 @@ ntfs-3g						install
 ntp						install
 ntpdate						install
 ntrack-module-libnl-0				install
-obex-data-server				deinstall
 obexpushd					install
 odbcinst					install
 odbcinst1debian2:amd64				install
@@ -2973,6 +2919,7 @@ openssl-blacklist-extra				install
 oping						install
 os-prober					install
 oss-compat					install
+ostinato					install
 ovmf						install
 oxygen-icon-theme				install
 oxygencursors					install
@@ -3550,6 +3497,7 @@ toilet-fonts					install
 tpb						install
 traceroute					install
 tree						install
+tshark						install
 ttf-aenigma					install
 ttf-ancient-fonts				install
 ttf-bitstream-vera				install
