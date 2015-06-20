@@ -330,3 +330,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git
 
 [development/books/HaskellWeb]
 checkout = git clone 'https://gitlab.com/misandrist/HaskellWeb.git' 'HaskellWeb'
+
+[development/debian/packages/apertium/hfst/hfst]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/hfst.git' 'hfst'

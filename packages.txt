@@ -948,6 +948,7 @@ libcdparanoia0:amd64				install
 libcdr-0.1-1					install
 libcdt5						install
 libcg3-0:amd64					install
+libcg3-dev:amd64				install
 libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
@@ -3436,6 +3437,8 @@ suckless-tools					install
 sudo						install
 svn-buildpackage				install
 sweeper						install
+swig						install
+swig2.0						install
 synaptic					install
 synergy						install
 sysfsutils					install
