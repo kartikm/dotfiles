@@ -199,6 +199,7 @@ dgit						install
 dh-apparmor					install
 dh-autoreconf					install
 dh-buildinfo					install
+dh-exec						install
 dh-make						install
 dh-php5						install
 dh-python					install
@@ -3109,7 +3110,9 @@ python-ecdsa					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-enum34					install
+python-extras					install
 python-feedparser				install
+python-fixtures					install
 python-flask					install
 python-formencode				install
 python-gconf					install
@@ -3144,6 +3147,7 @@ python-markdown					install
 python-markupsafe				install
 python-matplotlib-data				install
 python-mechanize				install
+python-mimeparse				install
 python-minimal					install
 python-mysqldb					install
 python-ndg-httpsclient				install
@@ -3209,6 +3213,7 @@ python-sqlobject				install
 python-stevedore				install
 python-support					install
 python-talloc					install
+python-testtools				install
 python-tk					install
 python-tornado					install
 python-tweepy					install
