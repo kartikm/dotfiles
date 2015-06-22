@@ -337,5 +337,5 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 [development/debian/packages/apertium/libtoolbox/lttoolbox]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/lttoolbox.git' 'lttoolbox'
 
-[development/debian/packages/apertium/apertium/apertium]
+[development/debian/packages/apertium/apertium]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium.git' 'apertium'
