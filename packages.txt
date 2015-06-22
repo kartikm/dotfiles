@@ -1685,7 +1685,6 @@ libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
 liblttoolbox3-3.3-0:amd64			install
-liblttoolbox3-3.3-dev:amd64			install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -2753,6 +2752,7 @@ lshw						install
 lsof						install
 ltrace						install
 lttoolbox					install
+lttoolbox-dev					install
 lua5.2						install
 lxc						install
 lynx-cur					install
