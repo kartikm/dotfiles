@@ -502,6 +502,7 @@ google-talkplugin				install
 goopg-chrome					install
 goopg-common					install
 gource						install
+gparted						install
 gperf						install
 gpgv						install
 gpsbabel					install
@@ -902,6 +903,7 @@ libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2-dev					install
+libcairomm-1.0-1				install
 libcalendarsupport4				install
 libcamd2.3.1:amd64				install
 libcanberra-gtk-module:amd64			install
@@ -1356,6 +1358,7 @@ libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
 libgtkglext1					install
+libgtkmm-2.4-1c2a:amd64				install
 libgtkspell0					install
 libgtop-2.0-10:amd64				install
 libgtop2-common					install
@@ -1906,6 +1909,7 @@ libpango1.0-dev					install
 libpangocairo-1.0-0:amd64			install
 libpangoft2-1.0-0:amd64				install
 libpangoft2-1.0-0:i386				install
+libpangomm-1.4-1:amd64				install
 libpangox-1.0-0:amd64				install
 libpangox-1.0-0:i386				install
 libpangoxft-1.0-0:amd64				install
@@ -1920,6 +1924,7 @@ libparams-validate-perl				install
 libparse-debcontrol-perl			install
 libparse-debian-packages-perl			install
 libparse-debianchangelog-perl			install
+libparted-fs-resize0:amd64			install
 libparted2:amd64				install
 libpasswdqc0					install
 libpathplan4					install
@@ -1963,7 +1968,7 @@ libpodofo0.9.0					install
 libpolkit-agent-1-0:amd64			install
 libpolkit-backend-1-0:amd64			install
 libpolkit-gobject-1-0:amd64			install
-libpolkit-qt-1-1				install
+libpolkit-qt-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler46:amd64				install
