@@ -23,8 +23,6 @@ android-tools-fastboot				install
 ant						install
 ant-optional					install
 antlr						install
-apache2-bin					install
-apache2-data					install
 apache2-utils					install
 apertium					install
 apertium-apy					deinstall
@@ -749,8 +747,6 @@ libappindicator1				install
 libapr1:amd64					install
 libapr1-dev					install
 libaprutil1:amd64				install
-libaprutil1-dbd-sqlite3:amd64			install
-libaprutil1-ldap:amd64				install
 libapt-inst1.5:amd64				install
 libapt-pkg-perl					install
 libapt-pkg4.12:amd64				install
@@ -840,7 +836,6 @@ libavutil54:i386				install
 libaxis-java					install
 libaxis2c-dev					install
 libaxis2c0					install
-libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
 libbabl-0.1-0:amd64				install
 libbaloocore4					install
@@ -1762,7 +1757,6 @@ libmysqlclient-dev				install
 libmysqlclient18:amd64				install
 libmythes-1.2-0					install
 libnacl-dev					install
-libnamespace-clean-perl				install
 libncurses5:amd64				install
 libncurses5:i386				install
 libncurses5-dev:amd64				install
@@ -2431,7 +2425,6 @@ libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
 libvala-0.28-0:amd64				install
-libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
 libvde0						install
