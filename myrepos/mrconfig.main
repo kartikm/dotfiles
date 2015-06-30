@@ -342,3 +342,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/cg3/cg3]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/cg3.git' 'cg3'
+
+[development/debian/packages/apertium/apertium-lex-tools]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-lex-tools.git' 'apertium-lex-tools'
