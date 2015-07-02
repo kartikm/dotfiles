@@ -25,8 +25,8 @@ ant-optional					install
 antlr						install
 apache2-utils					install
 apertium					install
-apertium-apy					deinstall
 apertium-dev					install
+apertium-lex-tools				install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -560,7 +560,6 @@ hiera						install
 hopenpgp-tools					install
 host						install
 hostname					install
-htdig						install
 html2text					install
 htop						install
 hugin						install
@@ -1958,7 +1957,6 @@ liborbit2:amd64					install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.10-0					install
-liborcus-0.8-0					install
 liboro-java					install
 libossp-uuid-perl				install
 libossp-uuid16:amd64				install
@@ -2108,8 +2106,6 @@ libqalculate5:amd64				install
 libqalculate5-data				install
 libqca2:amd64					install
 libqca2-dev					install
-libqca2-plugin-gnupg:amd64			install
-libqca2-plugin-ossl:amd64			install
 libqca2-plugins:amd64				install
 libqdbm14					install
 libqdox-java					install
@@ -2595,7 +2591,6 @@ libwnck-3-0:amd64				install
 libwnck-3-common				install
 libwpd-0.10-10					install
 libwpg-0.3-3					install
-libwps-0.3-3					install
 libwps-0.4-4					install
 libwrap0:amd64					install
 libwrap0:i386					install
@@ -3281,6 +3276,7 @@ python-sphinxcontrib.programoutput		install
 python-sqlalchemy				install
 python-sqlalchemy-ext				install
 python-sqlobject				install
+python-stdeb					install
 python-stevedore				install
 python-support					install
 python-talloc					install
