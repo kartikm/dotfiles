@@ -25,6 +25,7 @@ ant-optional					install
 antlr						install
 apache2-utils					install
 apertium					install
+apertium-apy					install
 apertium-dev					install
 apertium-lex-tools				install
 apg						install
@@ -3283,6 +3284,7 @@ python-talloc					install
 python-testtools				install
 python-tk					install
 python-tornado					install
+python-toro					install
 python-tweepy					install
 python-uritemplate				install
 python-urllib3					install
