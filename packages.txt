@@ -27,6 +27,7 @@ apache2-utils					install
 apertium					install
 apertium-apy					install
 apertium-dev					install
+apertium-es-ca					install
 apertium-lex-tools				install
 apg						install
 apparmor-easyprof				install
