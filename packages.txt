@@ -482,11 +482,8 @@ gitstats					install
 glib-networking:amd64				install
 glib-networking-common				install
 glib-networking-services			install
-gnome-icon-theme				install
 gnome-keyring					install
 gnome-mime-data					install
-gnome-pkg-tools					install
-gnome-specimen					install
 gnupg						install
 gnupg-agent					install
 gnupg2						install
@@ -705,6 +702,7 @@ krb5-locales					install
 kscreen						install
 ksnapshot					install
 ksysguard					install
+ksysguard-data					install
 ksysguardd					install
 ktouch						install
 ktouch-data					install
@@ -1429,7 +1427,6 @@ libicu-dev:amd64				install
 libicu52:amd64					install
 libicu52:i386					install
 libid3tag0					install
-libidl0:amd64					install
 libidn11:amd64					install
 libidn11-dev					install
 libiec61883-0:amd64				install
@@ -1486,6 +1483,7 @@ libjasper1:amd64				install
 libjava3d-java					install
 libjava3d-jni					install
 libjavascriptcoregtk-3.0-0:amd64		install
+libjavascriptcoregtk-4.0-18:amd64		install
 libjaxen-java					install
 libjaxp1.3-java					install
 libjbig-dev:amd64				install
@@ -1510,6 +1508,7 @@ libjpeg62-turbo-dev:amd64			install
 libjpeg8:amd64					install
 libjs-bootstrap					install
 libjs-excanvas					install
+libjs-inherits					install
 libjs-jquery					install
 libjs-jquery-flot				install
 libjs-jquery-hotkeys				install
@@ -1600,6 +1599,7 @@ libkf5declarative5:amd64			install
 libkf5globalaccel-bin				install
 libkf5globalaccel-data				install
 libkf5globalaccel5:amd64			install
+libkf5globalaccelprivate5:amd64			install
 libkf5guiaddons5:amd64				install
 libkf5i18n-data					install
 libkf5i18n5:amd64				install
@@ -1622,6 +1622,8 @@ libkf5khtml5:amd64				install
 libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiowidgets5:amd64				install
+libkf5newstuff-data				install
+libkf5newstuff5:amd64				install
 libkf5notifications-data			install
 libkf5notifications5:amd64			install
 libkf5package-data				install
@@ -1630,6 +1632,7 @@ libkf5parts-data				install
 libkf5parts-plugins				install
 libkf5parts5:amd64				install
 libkf5quickaddons5:amd64			install
+libkf5screen6					install
 libkf5service-bin				install
 libkf5service-data				install
 libkf5service5:amd64				install
@@ -1638,11 +1641,14 @@ libkf5solid5-data				install
 libkf5sonnet5-data				install
 libkf5sonnetcore5:amd64				install
 libkf5sonnetui5:amd64				install
+libkf5sysguard-bin				install
+libkf5sysguard-data				install
 libkf5textwidgets-data				install
 libkf5textwidgets5:amd64			install
 libkf5wallet-bin				install
 libkf5wallet-data				install
 libkf5wallet5:amd64				install
+libkf5waylandclient5:amd64			install
 libkf5widgetsaddons-data			install
 libkf5widgetsaddons5:amd64			install
 libkf5windowsystem-data				install
@@ -1700,7 +1706,9 @@ libksba8:amd64					install
 libkscreen1:amd64				install
 libkscreensaver5				install
 libksgrd4					install
-libksignalplotter4				install
+libksgrd7					install
+libksignalplotter4				deinstall
+libksignalplotter7				install
 libktexteditor4					install
 libktnef4					install
 libkunitconversion4				install
@@ -1838,7 +1846,8 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
-libmusicbrainz5-1:amd64				install
+libmusicbrainz5-1:amd64				deinstall
+libmusicbrainz5cc2:amd64			install
 libmwaw-0.3-3					install
 libmysql-java					install
 libmysqlclient-dev				install
@@ -1957,7 +1966,6 @@ libopus0:amd64					install
 libopus0:i386					install
 libopusfile0					install
 liborbit-2-0:amd64				install
-liborbit2:amd64					install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.10-0					install
@@ -2070,8 +2078,11 @@ libpri-dev					install
 libpri1.4					install
 libprison0:amd64				install
 libprocesscore4abi1				install
+libprocesscore7					install
 libprocessui4a					install
-libprocps3:amd64				install
+libprocessui7					install
+libprocps3:amd64				deinstall
+libprocps4:amd64				install
 libprotobuf-c1					install
 libprotobuf-dev:amd64				install
 libprotobuf-lite9:amd64				install
@@ -2558,6 +2569,7 @@ libwayland-egl1-mesa:amd64			install
 libwayland-server0:amd64			install
 libwbclient0:amd64				install
 libweather-ion6					install
+libwebkit2gtk-4.0-37:amd64			install
 libwebkitgtk-3.0-0:amd64			install
 libwebkitgtk-3.0-common				install
 libwebp5:amd64					install
@@ -2797,8 +2809,11 @@ linux-compiler-gcc-4.8-x86			install
 linux-compiler-gcc-4.9-x86			install
 linux-headers-4.0.0-1-amd64			install
 linux-headers-4.0.0-1-common			install
+linux-headers-4.0.0-2-amd64			install
+linux-headers-4.0.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.0.0-1-amd64			install
+linux-image-4.0.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-3.16				install
 linux-kbuild-4.0				install
@@ -2875,7 +2890,7 @@ mutt						install
 myrepos						install
 mysql-client-5.5				install
 mysql-common					install
-mysql-server-5.5				install
+mysql-server-5.5				deinstall
 mysql-server-core-5.5				install
 mysql-workbench-data				install
 mytop						install
@@ -3009,7 +3024,6 @@ pbuilder					install
 pbzip2						install
 pciutils					install
 pcscd						install
-pear-phpunit-channel				install
 pepperflashplugin-nonfree			install
 perl						install
 perl-base					install
@@ -3024,6 +3038,8 @@ php-doctrine-instantiator			install
 php-file-iterator				install
 php-gettext					install
 php-pear					install
+php-phpdocumentor-reflection-docblock		install
+php-phpspec-prophecy				install
 php-symfony-yaml				install
 php-tcpdf					install
 php-text-template				install
@@ -3050,6 +3066,7 @@ phpunit-comparator				install
 phpunit-diff					install
 phpunit-environment				install
 phpunit-exporter				install
+phpunit-global-state				install
 phpunit-mock-object				install
 phpunit-recursion-context			install
 phpunit-story					install
@@ -3059,6 +3076,7 @@ pidgin-data					install
 pidgin-libnotify				install
 pidgin-otr					install
 pinentry-curses					install
+pinentry-gnome3					install
 pinentry-gtk2					install
 piuparts					install
 piuparts-common					install
@@ -3089,6 +3107,7 @@ po4a						install
 policykit-1					install
 policykit-1-gnome				install
 polkit-kde-1					install
+polkit-kde-agent-1				install
 poppler-data					install
 poppler-utils					install
 popularity-contest				install
@@ -3185,13 +3204,11 @@ python-feedparser				install
 python-fixtures					install
 python-flask					install
 python-formencode				install
-python-gconf					install
 python-gdbm					install
 python-gflags					install
 python-gi					install
 python-gi-cairo					install
 python-glade2					install
-python-gnome2					install
 python-gnupg					install
 python-gobject					install
 python-gobject-2				install
@@ -3249,7 +3266,6 @@ python-pygments					install
 python-pyinotify				install
 python-pymongo					install
 python-pymongo-ext				install
-python-pyorbit					install
 python-pyparsing				install
 python-pyqt5					install
 python-pyqt5.qtsvg				install
@@ -3747,7 +3763,7 @@ xserver-xorg-video-fbdev			install
 xserver-xorg-video-intel			install
 xserver-xorg-video-mach64			install
 xserver-xorg-video-mga				install
-xserver-xorg-video-modesetting			install
+xserver-xorg-video-modesetting			deinstall
 xserver-xorg-video-neomagic			install
 xserver-xorg-video-nouveau			install
 xserver-xorg-video-openchrome			install
