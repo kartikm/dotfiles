@@ -2438,6 +2438,7 @@ libtemplateparser4				install
 libterm-readkey-perl				install
 libterm-readline-gnu-perl			install
 libterm-readline-perl-perl			install
+libterm-size-perl				install
 libterm-ui-perl					install
 libtevent0:amd64				install
 libtexlua52					install
