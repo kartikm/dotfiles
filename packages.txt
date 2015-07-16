@@ -1902,9 +1902,9 @@ libnice10:amd64					install
 libnih-dbus1					install
 libnih1						install
 libnl-3-200:amd64				install
-libnl-3-dev					install
+libnl-3-dev:amd64				install
 libnl-genl-3-200:amd64				install
-libnl-genl-3-dev				install
+libnl-genl-3-dev:amd64				install
 libnl-route-3-200:amd64				install
 libnm-glib-vpn1:amd64				install
 libnm-glib4:amd64				install
