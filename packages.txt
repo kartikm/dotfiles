@@ -656,6 +656,8 @@ kde-base-artwork				install
 kde-baseapps					install
 kde-baseapps-bin				install
 kde-baseapps-data				install
+kde-cli-tools					install
+kde-cli-tools-data				install
 kde-runtime					install
 kde-runtime-data				install
 kde-style-oxygen				install
@@ -1645,6 +1647,8 @@ libkf5package5:amd64				install
 libkf5parts-data				install
 libkf5parts-plugins				install
 libkf5parts5:amd64				install
+libkf5pty-data					install
+libkf5pty5:amd64				install
 libkf5quickaddons5:amd64			install
 libkf5screen6					install
 libkf5service-bin				install
@@ -1655,6 +1659,9 @@ libkf5solid5-data				install
 libkf5sonnet5-data				install
 libkf5sonnetcore5:amd64				install
 libkf5sonnetui5:amd64				install
+libkf5su-bin					install
+libkf5su-data					install
+libkf5su5:amd64					install
 libkf5sysguard-bin				install
 libkf5sysguard-data				install
 libkf5textwidgets-data				install
