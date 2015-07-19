@@ -678,6 +678,7 @@ kdepasswd					install
 kdepim-kresources				install
 kdepim-runtime					install
 kdepimlibs-kio-plugins				install
+kdeplasma-addons-data				install
 kdiff3						install
 kdiff3-doc					install
 kdm						install
@@ -706,6 +707,7 @@ kpackagelauncherqml				install
 kpackagetool5					install
 kpart-webkit					install
 krb5-locales					install
+kross						install
 kscreen						install
 ksnapshot					install
 ksysguard					install
@@ -716,7 +718,10 @@ ktouch-data					install
 kturtle						install
 kvkbd						install
 kwalletmanager					install
+kwin-common					install
+kwin-data					install
 kwin-style-qtcurve				install
+kwin-x11					install
 kwrite						install
 laptop-detect					install
 laptop-mode-tools				install
@@ -1455,6 +1460,7 @@ libindicate-gtk3				install
 libindicate5					install
 libindicator7					install
 libindirect-perl				install
+libinput10:amd64				install
 libintl-perl					install
 libio-html-perl					install
 libio-multiplex-perl				install
@@ -1567,6 +1573,8 @@ libkdcraw-data					install
 libkdcraw23					install
 libkde3support4					install
 libkdeclarative5				install
+libkdecorations2-5				install
+libkdecorations2private5			install
 libkdecorations4abi2				install
 libkdecore5					install
 libkdepim4					install
@@ -1582,6 +1590,7 @@ libkexiv2-11					install
 libkexiv2-data					install
 libkeyutils1:amd64				install
 libkeyutils1:i386				install
+libkf5activities5:amd64				install
 libkf5archive5:amd64				install
 libkf5attica5:amd64				install
 libkf5auth-data					install
@@ -1638,6 +1647,8 @@ libkf5khtml5:amd64				install
 libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiowidgets5:amd64				install
+libkf5krosscore5:amd64				install
+libkf5krossui5:amd64				install
 libkf5newstuff-data				install
 libkf5newstuff5:amd64				install
 libkf5notifications-data			install
@@ -1647,6 +1658,8 @@ libkf5package5:amd64				install
 libkf5parts-data				install
 libkf5parts-plugins				install
 libkf5parts5:amd64				install
+libkf5plasma5:amd64				install
+libkf5plasmaquick5:amd64			install
 libkf5pty-data					install
 libkf5pty5:amd64				install
 libkf5quickaddons5:amd64			install
@@ -1670,6 +1683,7 @@ libkf5wallet-bin				install
 libkf5wallet-data				install
 libkf5wallet5:amd64				install
 libkf5waylandclient5:amd64			install
+libkf5waylandserver5:amd64			install
 libkf5widgetsaddons-data			install
 libkf5widgetsaddons5:amd64			install
 libkf5windowsystem-data				install
@@ -1735,9 +1749,13 @@ libktnef4					install
 libkunitconversion4				install
 libkutils4					install
 libkwalletbackend5-5:amd64			install
+libkwin4-effect-builtins1			install
 libkwineffects1abi5				install
+libkwineffects6					install
 libkwinglesutils1				install
 libkwinglutils1abi2				install
+libkwinglutils6					install
+libkwinxrenderutils6				install
 libkworkspace4abi2				install
 libkxml2-java					install
 libkxmlrpcclient4				install
@@ -2186,6 +2204,8 @@ libqt5declarative5:amd64			install
 libqt5designer5:amd64				install
 libqt5gui5:amd64				install
 libqt5help5:amd64				install
+libqt5multimedia5:amd64				install
+libqt5multimediaquick-p5:amd64			install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
 libqt5opengl5-dev:amd64				install
@@ -2667,6 +2687,7 @@ libxau6:i386					install
 libxaw7:amd64					install
 libxaw7:i386					install
 libxcb-composite0:amd64				install
+libxcb-cursor0:amd64				install
 libxcb-damage0:amd64				install
 libxcb-dpms0:amd64				install
 libxcb-dri2-0:amd64				install
@@ -3116,6 +3137,7 @@ plasma-dataengines-addons			install
 plasma-dataengines-workspace			install
 plasma-desktop					install
 plasma-desktopthemes-artwork			install
+plasma-framework				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-scriptengine-python			install
@@ -3418,7 +3440,15 @@ qemu-system-x86					install
 qemu-user					install
 qemu-user-binfmt				install
 qemu-utils					install
+qml-module-org-kde-kio:amd64			install
+qml-module-org-kde-kquickcontrols:amd64		install
+qml-module-org-kde-kquickcontrolsaddons:amd64	install
+qml-module-qtmultimedia:amd64			install
+qml-module-qtquick-controls:amd64		install
 qml-module-qtquick-layouts:amd64		install
+qml-module-qtquick-window2:amd64		install
+qml-module-qtquick2:amd64			install
+qml-module-qtwebkit:amd64			install
 qmlscene					install
 qprint						install
 qrencode					install
