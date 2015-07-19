@@ -1649,6 +1649,8 @@ libkf5kiofilewidgets5:amd64			install
 libkf5kiowidgets5:amd64				install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
+libkf5modemmanagerqt6:amd64			install
+libkf5networkmanagerqt6				install
 libkf5newstuff-data				install
 libkf5newstuff5:amd64				install
 libkf5notifications-data			install
