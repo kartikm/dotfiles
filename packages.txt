@@ -869,17 +869,21 @@ libavahi-ui-dev					install
 libavahi-ui0:amd64				install
 libavalon-framework-java			install
 libavc1394-0:amd64				install
-libavcodec-dev					install
+libavcodec-dev:amd64				install
+libavcodec-ffmpeg56:amd64			install
 libavcodec56:amd64				install
 libavcodec56:i386				install
 libavdevice55:amd64				install
 libavfilter5:amd64				install
-libavformat-dev					install
+libavformat-dev:amd64				install
+libavformat-ffmpeg56:amd64			install
 libavformat56:amd64				install
-libavresample-dev				install
+libavresample-dev:amd64				install
+libavresample-ffmpeg2:amd64			install
 libavresample2:amd64				install
 libavresample2:i386				install
-libavutil-dev					install
+libavutil-dev:amd64				install
+libavutil-ffmpeg54:amd64			install
 libavutil54:amd64				install
 libavutil54:i386				install
 libaxis-java					install
@@ -1155,6 +1159,7 @@ libegl1-mesa:amd64				install
 libegl1-mesa-dev:amd64				install
 libehcache-java					install
 libelasticsearch1.4-java			install
+libelasticsearch1.6-java			install
 libelf1:amd64					install
 libelf1:i386					install
 libelfg0:amd64					install
@@ -1846,6 +1851,7 @@ liblockfile-bin					install
 liblockfile1:amd64				install
 liblog-message-perl				install
 liblog-message-simple-perl			install
+liblog4j-extras1.2-java				install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
 liblognorm2:amd64				install
@@ -2173,6 +2179,7 @@ libpopt0:amd64					install
 libpopt0:i386					install
 libportaudio2:amd64				install
 libportmidi0					install
+libpostproc-ffmpeg53:amd64			install
 libpostproc52					install
 libpotrace0					install
 libpowerdevilcore2				install
@@ -2473,6 +2480,7 @@ libsoundtouch0:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
 libsoup2.4-dev					install
+libsoxr0:amd64					install
 libsp1c2					install
 libspandsp2:amd64				install
 libspatial4j-0.4-java				install
@@ -2522,6 +2530,9 @@ libsvm-tools					install
 libsvn-perl					install
 libsvn1:amd64					install
 libswitch-perl					install
+libswresample-dev:amd64				install
+libswresample-ffmpeg1:amd64			install
+libswscale-ffmpeg3:amd64			install
 libswscale3:amd64				install
 libsybdb5:amd64					install
 libsynctex1					install
