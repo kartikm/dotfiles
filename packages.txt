@@ -207,6 +207,7 @@ dia-libs					install
 dia-shapes					install
 dialog						install
 dict						install
+dict-freedict-eng-hin				install
 dictd						install
 dictionaries-common				install
 dictzip						install
