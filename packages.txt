@@ -1433,8 +1433,8 @@ libhdf5-8:amd64					install
 libheap-perl					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
-libhfst39					install
-libhfst39-dev					install
+libhfst40					install
+libhfst40-dev					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
 libhpdf-2.2.1					install
@@ -3360,6 +3360,7 @@ python-imaging					install
 python-itsdangerous				install
 python-jinja2					install
 python-jwt					install
+python-libhfst					install
 python-librdf					install
 python-libxml2					install
 python-logilab-common				install
@@ -3481,6 +3482,7 @@ python3-distlib					install
 python3-gi					install
 python3-html5lib				install
 python3-libapparmor				install
+python3-libhfst					install
 python3-lxml					install
 python3-magic					install
 python3-matplotlib				install
