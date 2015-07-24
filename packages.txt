@@ -85,6 +85,7 @@ binutils					install
 binutils-avr					install
 binutils-msp430					install
 bison						install
+bittornado					install
 blt						install
 bluedevil					install
 bluez						install
@@ -117,7 +118,6 @@ cdparanoia					install
 cdrdao						install
 cg3						install
 chromium					install
-chromium-inspector				install
 chrpath						install
 cm-super-minimal				install
 cmake						install
@@ -146,7 +146,6 @@ cowsay						install
 cpio						install
 cpp						install
 cpp-4.6						install
-cpp-4.7						install
 cpp-4.8						install
 cpp-4.9						install
 cpufrequtils					install
@@ -437,9 +436,6 @@ gawk						install
 gcc						install
 gcc-4.6						install
 gcc-4.6-base:amd64				install
-gcc-4.7						install
-gcc-4.7-base:amd64				install
-gcc-4.7-base:i386				install
 gcc-4.8						install
 gcc-4.8-base:amd64				install
 gcc-4.8-base:i386				install
@@ -460,7 +456,6 @@ gdb						install
 gdbserver					install
 gdisk						install
 genisoimage					install
-geoclue-2.0					install
 geoip-bin					install
 geoip-database					install
 gettext						install
@@ -515,8 +510,6 @@ golang-go.tools					install
 golang-src					install
 google-chrome-stable				install
 google-talkplugin				install
-goopg-chrome					install
-goopg-common					install
 gource						install
 gparted						install
 gperf						install
@@ -636,7 +629,6 @@ irssi-plugin-xmpp				install
 irssi-scripts					install
 isc-dhcp-client					install
 isc-dhcp-common					install
-isenkram					install
 isenkram-cli					install
 iso-codes					install
 ispell						install
@@ -675,11 +667,8 @@ kde-runtime					install
 kde-runtime-data				install
 kde-style-breeze				install
 kde-style-breeze-qt4				install
-kde-style-oxygen				deinstall
 kde-style-oxygen-qt5				install
 kde-style-qtcurve				install
-kde-workspace-bin				deinstall
-kde-workspace-data				deinstall
 kdebase-runtime					install
 kdeconnect					install
 kded5						install
@@ -694,7 +683,6 @@ kdeplasma-addons-data				install
 kdesudo						install
 kdiff3						install
 kdiff3-doc					install
-kdm						deinstall
 kdoctools					install
 kdoctools5					install
 keepassx					install
@@ -748,7 +736,6 @@ kwrite						install
 kwrited						install
 laptop-detect					install
 laptop-mode-tools				install
-latex-xcolor					install
 latex2html					install
 latexmk						install
 lcdf-typetools					install
@@ -818,7 +805,6 @@ libasprintf0c2:amd64				install
 libass5:amd64					install
 libassuan-dev					install
 libassuan0:amd64				install
-libastro1					deinstall
 libasyncns0:amd64				install
 libasyncns0:i386				install
 libatasmart4:amd64				install
@@ -899,6 +885,7 @@ libbatik-java					install
 libbcmail-java					install
 libbcpkix-java					install
 libbcprov-java					install
+libbdplus0:amd64				install
 libbind9-90					install
 libbison-dev:amd64				install
 libblas-common					install
@@ -1116,7 +1103,6 @@ libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
 libdigest-md4-perl				install
-libdirac-encoder0:amd64				deinstall
 libdirectfb-1.2-9:amd64				install
 libdirectfb-1.2-9:i386				install
 libdiscover2					install
@@ -1255,7 +1241,6 @@ libgadu3					install
 libgail18:amd64					install
 libgbm1:amd64					install
 libgc1c2:amd64					install
-libgcc-4.7-dev:amd64				install
 libgcc-4.8-dev:amd64				install
 libgcc-4.9-dev:amd64				install
 libgcc1:amd64					install
@@ -1267,8 +1252,6 @@ libgcj15:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
 libgconf-2-4:i386				install
-libgconf2-4:amd64				install
-libgconf2-4:i386				install
 libgcr-3-common					install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
@@ -1337,12 +1320,7 @@ libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-keyring-common				install
 libgnome-keyring0:amd64				install
-libgnome2-0:amd64				install
-libgnome2-bin					install
-libgnome2-canvas-perl				install
 libgnome2-common				install
-libgnome2-perl					install
-libgnome2-vfs-perl				install
 libgnomecanvas2-0:amd64				install
 libgnomecanvas2-common				install
 libgnomeui-0:amd64				install
@@ -1408,8 +1386,6 @@ libgtk2.0-dev					install
 libgtkglext1					install
 libgtkmm-2.4-1c2a:amd64				install
 libgtkspell0					install
-libgtop-2.0-10:amd64				install
-libgtop2-common					install
 libguard-perl					install
 libgucharmap-2-90-7				install
 libgudev-1.0-0:amd64				install
@@ -1529,7 +1505,6 @@ libjasper-dev					install
 libjasper1:amd64				install
 libjava3d-java					install
 libjava3d-jni					install
-libjavascriptcoregtk-3.0-0:amd64		install
 libjavascriptcoregtk-4.0-18:amd64		install
 libjaxen-java					install
 libjaxp1.3-java					install
@@ -1586,7 +1561,6 @@ libk3b6-extracodecs				install
 libk5crypto3:amd64				install
 libk5crypto3:i386				install
 libkabc4					install
-libkactivities-models1				deinstall
 libkactivities6					install
 libkalarmcal2					install
 libkate1					install
@@ -1615,7 +1589,6 @@ libkdewebkit5					install
 libkdgantt2-0					install
 libkdnssd4					install
 libkemoticons4					install
-libkephal4abi1					deinstall
 libkexiv2-11					install
 libkexiv2-data					install
 libkeyutils1:amd64				install
@@ -1796,22 +1769,15 @@ libkrb5support0:i386				install
 libkresources4					install
 libkrosscore4					install
 libksba8:amd64					install
-libkscreen1:amd64				deinstall
-libkscreensaver5				deinstall
 libksgrd4					install
 libksgrd7					install
-libksignalplotter4				deinstall
 libksignalplotter7				install
 libktexteditor4					install
 libktnef4					install
 libkunitconversion4				install
-libkutils4					deinstall
 libkwalletbackend5-5:amd64			install
 libkwin4-effect-builtins1			install
-libkwineffects1abi5				deinstall
 libkwineffects6					install
-libkwinglesutils1				deinstall
-libkwinglutils1abi2				deinstall
 libkwinglutils6					install
 libkwinxrenderutils6				install
 libkworkspace4abi2				install
@@ -1886,8 +1852,6 @@ libmailcommon4					install
 libmailimporter4				install
 libmailtools-perl				install
 libmailtransport4				install
-libmarblewidget19				deinstall
-libmarco-private0:amd64				install
 libmarkdown2:amd64				install
 libmatroska6:amd64				install
 libmbim-glib4:amd64				install
@@ -1914,7 +1878,6 @@ libmng1:i386					install
 libmnl0:amd64					install
 libmockito-java					install
 libmockobjects-java				install
-libmodemmanagerqt1:amd64			install
 libmodplug1:amd64				install
 libmodule-build-perl				install
 libmodule-implementation-perl			install
@@ -1946,7 +1909,6 @@ libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
 libmuon						install
-libmusicbrainz5-1:amd64				deinstall
 libmusicbrainz5cc2:amd64			install
 libmwaw-0.3-3					install
 libmysql-java					install
@@ -1986,7 +1948,6 @@ libnetpbm10					install
 libnettle6:amd64				install
 libnettle6:i386					install
 libnetty-java					install
-libnetworkmanagerqt1:amd64			install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
@@ -2151,7 +2112,6 @@ libplasma-geolocation-interface4		install
 libplasma-geolocation-interface5		install
 libplasma3					install
 libplasmaclock4abi4				install
-libplasmagenericshell4				deinstall
 libplist3:amd64					install
 libpng12-0:amd64				install
 libpng12-0:i386					install
@@ -2174,7 +2134,6 @@ libpopt0:i386					install
 libportaudio2:amd64				install
 libportmidi0					install
 libpostproc-ffmpeg53:amd64			install
-libpostproc52					install
 libpotrace0					install
 libpowerdevilcore2				install
 libpowerdevilui5				install
@@ -2186,9 +2145,7 @@ libpri1.4					install
 libprison0:amd64				install
 libprocesscore4abi1				install
 libprocesscore7					install
-libprocessui4a					deinstall
 libprocessui7					install
-libprocps3:amd64				deinstall
 libprocps4:amd64				install
 libprotobuf-c1					install
 libprotobuf-dev:amd64				install
@@ -2237,7 +2194,6 @@ libqca2-dev					install
 libqca2-plugins:amd64				install
 libqdbm14					install
 libqdox-java					install
-libqextserialport1:amd64			deinstall
 libqgpgme1					install
 libqimageblitz4					install
 libqjson-dev					install
@@ -2245,7 +2201,6 @@ libqjson0:amd64					install
 libqmi-glib1:amd64				install
 libqmi-proxy					install
 libqmobipocket1					install
-libqoauth1					deinstall
 libqrencode3:amd64				install
 libqt4-dbus:amd64				install
 libqt4-dbus:i386				install
@@ -2308,15 +2263,11 @@ libqtglib-2.0-0:amd64				install
 libqtgstreamer-1.0-0:amd64			install
 libqtgstreamerui-1.0-0:amd64			install
 libqtgui4:amd64					install
-libqtlocation1:amd64				deinstall
-libqtruby4shared2				deinstall
 libqtwebkit-dev					install
 libqtwebkit4:amd64				install
 libquadmath0:amd64				install
-libquazip1:amd64				deinstall
 libquvi-scripts					install
 libquvi7:amd64					install
-libqwt5-qt4					install
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
@@ -2418,7 +2369,6 @@ libservlet3.0-java				install
 libsgmls-perl					install
 libshine3:amd64					install
 libshout3:amd64					install
-libshp2:amd64					deinstall
 libsidplay1					install
 libsidplay2					install
 libsidutils0					install
@@ -2436,30 +2386,7 @@ libsm6:i386					install
 libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsmi2ldbl:amd64				install
-libsmokebase3					deinstall
-libsmokekdecore4-3				deinstall
-libsmokekdeui4-3				deinstall
-libsmokekfile3					deinstall
-libsmokekhtml3					deinstall
-libsmokekio3					deinstall
-libsmokeknewstuff2-3				deinstall
-libsmokeknewstuff3-3				deinstall
-libsmokekparts3					deinstall
-libsmokektexteditor3				deinstall
-libsmokekutils3					deinstall
-libsmokeplasma3					deinstall
-libsmokeqtcore4-3				deinstall
-libsmokeqtdbus4-3				deinstall
-libsmokeqtgui4-3				deinstall
-libsmokeqtnetwork4-3				deinstall
-libsmokeqtopengl4-3				deinstall
-libsmokeqtsql4-3				deinstall
-libsmokeqtsvg4-3				deinstall
-libsmokeqtwebkit4-3				deinstall
-libsmokeqtxml4-3				deinstall
-libsmokesolid3					deinstall
 libsmpeg0:amd64					install
-libsnappy1:amd64				install
 libsndfile1:amd64				install
 libsndfile1:i386				install
 libsnmp-base					install
@@ -2469,6 +2396,7 @@ libsocket6-perl					install
 libsodium13:amd64				install
 libsoftware-license-perl			install
 libsolid4					install
+libsombok3:amd64				install
 libsoprano4					install
 libsoundtouch0:amd64				install
 libsoup-gnome2.4-1:amd64			install
@@ -2510,7 +2438,6 @@ libstdc++-4.8-dev:amd64				install
 libstdc++-4.9-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
-libstdc++6-4.7-dev:amd64			install
 libstoken1:amd64				install
 libstreamanalyzer0				install
 libstreams0					install
@@ -2694,8 +2621,6 @@ libwbclient0:amd64				install
 libweather-ion6					install
 libweather-ion7					install
 libwebkit2gtk-4.0-37:amd64			install
-libwebkitgtk-3.0-0:amd64			install
-libwebkitgtk-3.0-common				install
 libwebp5:amd64					install
 libwebpdemux1:amd64				install
 libwebpmux1:amd64				install
@@ -2805,7 +2730,6 @@ libxcb-xfixes0:amd64				install
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
-libxcb-xtest0:amd64				install
 libxcb-xv0:amd64				install
 libxcb1:amd64					install
 libxcb1:i386					install
@@ -2931,17 +2855,12 @@ libzvbi0:amd64					install
 libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
-linux-compiler-gcc-4.8-x86			install
 linux-compiler-gcc-4.9-x86			install
-linux-headers-4.0.0-1-amd64			install
-linux-headers-4.0.0-1-common			install
 linux-headers-4.0.0-2-amd64			install
 linux-headers-4.0.0-2-common			install
 linux-headers-amd64				install
-linux-image-4.0.0-1-amd64			install
 linux-image-4.0.0-2-amd64			install
 linux-image-amd64				install
-linux-kbuild-3.16				install
 linux-kbuild-4.0				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
@@ -3020,7 +2939,6 @@ mysql-client-5.6				install
 mysql-client-core-5.6				install
 mysql-common					install
 mysql-server					install
-mysql-server-5.5				deinstall
 mysql-server-5.6				install
 mysql-server-core-5.6				install
 mysql-workbench-data				install
@@ -3166,7 +3084,6 @@ perl-modules					install
 phantomjs					install
 phonon:amd64					install
 phonon-backend-vlc:amd64			install
-php-apc						install
 php-codecoverage				install
 php-codesniffer					install
 php-doctrine-instantiator			install
@@ -3226,12 +3143,9 @@ plasma-desktop-data				install
 plasma-framework				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
-plasma-scriptengine-superkaramba		deinstall
 plasma-wallpapers-addons			install
 plasma-widget-folderview			install
-plasma-widget-kdeobservatory			install
 plasma-widget-kimpanel				install
-plasma-widget-lancelot				install
 plasma-widgets-addons				install
 plasma-widgets-workspace			install
 plasma-workspace				install
@@ -3240,7 +3154,6 @@ po-debconf					install
 po4a						install
 policykit-1					install
 policykit-1-gnome				install
-polkit-kde-1					install
 polkit-kde-agent-1				install
 poppler-data					install
 poppler-utils					install
@@ -3292,9 +3205,6 @@ python-apsw					install
 python-apt					install
 python-apt-common				install
 python-aptdaemon				install
-python-aptdaemon-gtk				install
-python-aptdaemon.gtk3widgets			install
-python-aptdaemon.gtkwidgets			install
 python-astroid					install
 python-beautifulsoup				install
 python-blinker					install
@@ -3303,6 +3213,7 @@ python-bson					install
 python-bson-ext					install
 python-cairo					install
 python-cffi					install
+python-cffi-backend				install
 python-chardet					install
 python-chardet-whl				install
 python-cherrypy3				install
@@ -3352,7 +3263,6 @@ python-googleapi				install
 python-gridfs					install
 python-gtk2					install
 python-gtkspell					install
-python-gudev					install
 python-html5lib					install
 python-html5lib-whl				install
 python-httplib2					install
@@ -3394,6 +3304,7 @@ python-pip-whl					install
 python-pkg-resources				install
 python-ply					install
 python-pyasn1					install
+python-pyasn1-modules				install
 python-pycparser				install
 python-pycurl					install
 python-pyexiv2					install
@@ -3417,6 +3328,7 @@ python-requests-oauthlib			install
 python-requests-whl				install
 python-roman					install
 python-routes					install
+python-rsa					install
 python-serial					install
 python-setuptools				install
 python-setuptools-whl				install
@@ -3924,7 +3836,6 @@ xserver-xorg-video-fbdev			install
 xserver-xorg-video-intel			install
 xserver-xorg-video-mach64			install
 xserver-xorg-video-mga				install
-xserver-xorg-video-modesetting			deinstall
 xserver-xorg-video-neomagic			install
 xserver-xorg-video-nouveau			install
 xserver-xorg-video-openchrome			install
