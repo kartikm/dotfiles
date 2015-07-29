@@ -33,6 +33,7 @@ apertium-apy					install
 apertium-dev					install
 apertium-en-ca					install
 apertium-en-es					install
+apertium-eo-ca					install
 apertium-es-ca					install
 apertium-lex-tools				install
 apg						install
