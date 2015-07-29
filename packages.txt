@@ -966,7 +966,6 @@ libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
 libcgi-session-perl				install
 libcglib3-java					install
-libcgmanager0:amd64				install
 libcgraph6					install
 libchm-bin					install
 libchm-dev					install
@@ -1310,7 +1309,7 @@ libgltf-0.0-0					install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev				install
-libgme0						install
+libgme0:amd64					install
 libgmime-2.6-0:amd64				install
 libgmime-2.6-dev				install
 libgmp-dev:amd64				install
@@ -1954,8 +1953,6 @@ libnfnetlink-dev				install
 libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
 libnice10:amd64					install
-libnih-dbus1					install
-libnih1						install
 libnl-3-200:amd64				install
 libnl-3-dev:amd64				install
 libnl-genl-3-200:amd64				install
@@ -2531,7 +2528,7 @@ libtool-bin					install
 libtry-tiny-perl				install
 libtsan0:amd64					install
 libturbojpeg0:amd64				install
-libtwolame0					install
+libtwolame0:amd64				install
 libtxc-dxtn-s2tc0:amd64				install
 libtxc-dxtn-s2tc0:i386				install
 libtype-tiny-perl				install
@@ -2883,7 +2880,6 @@ ltrace						install
 lttoolbox					install
 lttoolbox-dev					install
 lua5.2						install
-lxc						install
 lynx-cur					install
 lzip						install
 m17n-db						install
