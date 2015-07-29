@@ -708,6 +708,8 @@ konq-plugins					install
 konqueror					install
 konqueror-nsplugins				install
 konsole						install
+konsole-kpart					install
+konsole4-kpart					install
 korganizer					install
 kpackagelauncherqml				install
 kpackagetool5					install
@@ -2525,6 +2527,7 @@ libtonezone-dev:amd64				install
 libtonezone2.0:amd64				install
 libtool						install
 libtool-bin					install
+libtrio2:amd64					install
 libtry-tiny-perl				install
 libtsan0:amd64					install
 libturbojpeg0:amd64				install
