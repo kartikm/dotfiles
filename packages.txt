@@ -34,9 +34,11 @@ apertium-dev					install
 apertium-en-ca					install
 apertium-en-es					install
 apertium-eo-ca					install
+apertium-eo-es					install
 apertium-es-ca					install
 apertium-es-pt					install
 apertium-lex-tools				install
+apertium-pt-ca					install
 apg						install
 apparmor-easyprof				install
 apt						install
