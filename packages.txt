@@ -42,6 +42,7 @@ apertium-es-ro					install
 apertium-eu-es					install
 apertium-fr-es					install
 apertium-lex-tools				install
+apertium-oc-ca					install
 apertium-pt-ca					install
 apg						install
 apparmor-easyprof				install
@@ -515,6 +516,8 @@ golang-doc					install
 golang-go					install
 golang-go-linux-amd64				install
 golang-go.tools					install
+golang-golang-x-tools				install
+golang-golang-x-tools-dev			install
 golang-src					install
 google-chrome-stable				install
 google-talkplugin				install
@@ -880,6 +883,7 @@ libavutil54:i386				install
 libaxis-java					install
 libaxis2c-dev					install
 libaxis2c0					install
+libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
 libbabl-0.1-0:amd64				install
 libbaloocore4					install
@@ -1034,6 +1038,7 @@ libconfuse-common				install
 libconfuse0:amd64				install
 libconvert-asn1-perl				install
 libconvert-binhex-perl				install
+libcpan-changes-perl				install
 libcpan-meta-perl				install
 libcppunit-1.13-0:amd64				install
 libcppunit-dev					install
@@ -1210,6 +1215,7 @@ libfile-libmagic-perl				install
 libfile-listing-perl				install
 libfile-mimeinfo-perl				install
 libfile-next-perl				install
+libfile-slurp-perl				install
 libfile-which-perl				install
 libfl-dev:amd64					install
 libflac++6:amd64				install
@@ -1283,6 +1289,7 @@ libgeoip-dev					install
 libgeoip1:amd64					install
 libgeronimo-jms-1.1-spec-java			install
 libgeronimo-jta-1.1-spec-java			install
+libgetopt-long-descriptive-perl			install
 libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
 libgfortran3:amd64				install
@@ -1925,6 +1932,8 @@ libmysqlclient-dev				install
 libmysqlclient18:amd64				install
 libmythes-1.2-0					install
 libnacl-dev					install
+libnamespace-autoclean-perl			install
+libnamespace-clean-perl				install
 libncurses5:amd64				install
 libncurses5:i386				install
 libncurses5-dev:amd64				install
@@ -1956,7 +1965,7 @@ libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle6:amd64				install
 libnettle6:i386					install
-libnetty-java					install
+libnetty-3.9-java				install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
@@ -2087,6 +2096,7 @@ libparse-debianchangelog-perl			install
 libparted-fs-resize0:amd64			install
 libparted2:amd64				install
 libpasswdqc0					install
+libpath-tiny-perl				install
 libpathplan4					install
 libpcap-dev					install
 libpcap0.8:amd64				install
@@ -2124,6 +2134,7 @@ libpng12-0:amd64				install
 libpng12-0:i386					install
 libpng12-dev:amd64				install
 libpod-latex-perl				install
+libpod-markdown-perl				install
 libpod-readme-perl				install
 libpodofo0.9.0					install
 libpolkit-agent-1-0:amd64			install
@@ -2551,6 +2562,7 @@ libudev1:i386					install
 libudisks2-0:amd64				install
 libumfpack5.6.2:amd64				install
 libunicode-linebreak-perl			install
+libunicode-utf8-perl				install
 libuniconf4.6					install
 libuninameslist-dev				install
 libuninameslist0				install
@@ -2584,6 +2596,7 @@ libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
 libvala-0.28-0:amd64				install
+libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
 libvde0						install
@@ -3273,7 +3286,9 @@ python-gtkspell					install
 python-html5lib					install
 python-html5lib-whl				install
 python-httplib2					install
+python-idna					install
 python-imaging					install
+python-ipaddress				install
 python-itsdangerous				install
 python-jinja2					install
 python-jwt					install
