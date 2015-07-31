@@ -40,6 +40,7 @@ apertium-es-gl					install
 apertium-es-pt					install
 apertium-es-ro					install
 apertium-eu-es					install
+apertium-fr-es					install
 apertium-lex-tools				install
 apertium-pt-ca					install
 apg						install
