@@ -10,7 +10,7 @@ lib =
 lib = 
 	clean_update() {
 		git checkout master &&
-		git pull -u
+		git pull
 	}
 
 lib = 
