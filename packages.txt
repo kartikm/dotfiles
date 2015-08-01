@@ -44,6 +44,7 @@ apertium-fr-es					install
 apertium-lex-tools				install
 apertium-oc-ca					install
 apertium-pt-ca					install
+apertium-pt-gl					install
 apg						install
 apparmor-easyprof				install
 apt						install
