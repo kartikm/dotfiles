@@ -29,6 +29,7 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
+apertium-af-nl					install
 apertium-apy					install
 apertium-dev					install
 apertium-en-ca					install
@@ -680,7 +681,8 @@ kde-runtime-data				install
 kde-style-breeze				install
 kde-style-breeze-qt4				install
 kde-style-oxygen-qt5				install
-kde-style-qtcurve				install
+kde-style-qtcurve-qt4:amd64			install
+kde-style-qtcurve-qt5:amd64			install
 kdebase-runtime					install
 kdeconnect					install
 kded5						install
@@ -2276,6 +2278,7 @@ libqt5xml5:amd64				install
 libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
 libqtcore4:i386					install
+libqtcurve-utils2:amd64				install
 libqtdbus4:amd64				install
 libqtdbus4:i386					install
 libqtglib-2.0-0:amd64				install
