@@ -8,6 +8,12 @@ lib =
 		git push
 	}
 
+lib = 
+	update_master() {
+		git checkout master
+		git pull
+	}
+
 # Debian
 [/home/kartik/development/debian/debian-in]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-in/debian-in.git' 'debian-in'
@@ -235,9 +241,6 @@ checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.g
 # WP
 [development/wikipedia/mw-tools-cs]
 checkout = git clone 'git@github.com:wikimedia/mediawiki-tools-codesniffer.git' 'mw-tools-cs'
-
-[development/wikipedia/vagrant]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/vagrant.git' 'vagrant'
 
 [development/wikipedia/lcm-dashboard]
 checkout = git clone 'git@github.com:kartikm/lcm-dashboard.git' 'lcm-dashboard'

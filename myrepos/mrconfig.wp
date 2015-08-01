@@ -14,7 +14,7 @@ lib =
 	}
 
 lib = 
-	switch() {
+	update_prod() {
 		git checkout production &&
 		git pull
 	}
@@ -169,7 +169,7 @@ update = clean_update
 # Ops
 [Ops/puppet]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/puppet' 'puppet'
-update = switch
+update = update_prod
 
 [Ops/dns]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/dns.git' 'dns'
