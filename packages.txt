@@ -395,6 +395,7 @@ fonts-mlym					install
 fonts-nakula					install
 fonts-nanum					install
 fonts-navilu					install
+fonts-noto-unhinted				install
 fonts-opensymbol				install
 fonts-orya					install
 fonts-orya-extra				install
