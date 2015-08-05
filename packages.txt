@@ -260,7 +260,6 @@ ed						install
 eduke32						install
 eduke32-common					install
 eject						install
-elasticsearch					install
 emacs-snapshot					install
 emacs-snapshot-bin-common			install
 emacs-snapshot-common				install
@@ -354,6 +353,8 @@ firmware-realtek				install
 flex						install
 fontconfig					install
 fontconfig-config				install
+fontforge					install
+fontforge-common				install
 fonts-beng					install
 fonts-beng-extra				install
 fonts-cantarell					install
@@ -537,7 +538,7 @@ grep						install
 groff						install
 groff-base					install
 groovy						install
-groovy2						install
+groovy2						deinstall
 growisofs					install
 grub-common					install
 grub-pc						install
@@ -932,7 +933,6 @@ libbsd-dev:amd64				install
 libbsd0:amd64					install
 libbsd0:i386					install
 libbsf-java					install
-libbsh-java					install
 libburn4					install
 libbz2-1.0:amd64				install
 libbz2-dev:amd64				install
@@ -1157,7 +1157,6 @@ libedit2:i386					install
 libegl1-mesa:amd64				install
 libegl1-mesa-dev:amd64				install
 libehcache-java					install
-libelasticsearch1.6-java			install
 libelf1:amd64					install
 libelf1:i386					install
 libelfg0:amd64					install
@@ -1234,6 +1233,7 @@ libfontconfig1:amd64				install
 libfontconfig1:i386				install
 libfontconfig1-dev:amd64			install
 libfontenc1:amd64				install
+libfontforge1					install
 libfonts-java					install
 libfop-java					install
 libforks-perl					install
@@ -1285,6 +1285,7 @@ libgdbm3:amd64					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
+libgdraw4					install
 libgee-0.8-2:amd64				install
 libgee-dev					install
 libgee2:amd64					install
@@ -1456,7 +1457,6 @@ libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.3-0:amd64				install
 libhx509-5-heimdal:amd64			install
-libhyperic-sigar-java				install
 libhyphen0					install
 libib-util:amd64				install
 libibus-1.0-5:amd64				install
@@ -1532,14 +1532,12 @@ libjbig-dev:amd64				install
 libjbig0:amd64					install
 libjbig0:i386					install
 libjbig2dec0					install
-libjcommander-java				install
 libjcommon-java					install
 libjcsp-java					install
 libjdom1-java					install
 libjemalloc1					install
 libjim0.76:amd64				install
 libjline-java					install
-libjline2-java					install
 libjna-java					install
 libjna-jni					install
 libjpeg-dev					install
@@ -1574,7 +1572,6 @@ libjsoncpp0:amd64				install
 libjsr107cache-java				install
 libjsr166y-java					install
 libjte1						install
-libjts-java					install
 libjzlib-java					install
 libk3b6						install
 libk3b6-extracodecs				install
@@ -1831,7 +1828,6 @@ liblockfile-bin					install
 liblockfile1:amd64				install
 liblog-message-perl				install
 liblog-message-simple-perl			install
-liblog4j-extras1.2-java				install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
 liblognorm2:amd64				install
@@ -1848,7 +1844,6 @@ liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.2-dev:amd64				install
-liblucene4.10-java				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
@@ -2215,7 +2210,6 @@ libqca2:amd64					install
 libqca2-dev					install
 libqca2-plugins:amd64				install
 libqdbm14					install
-libqdox-java					install
 libqgpgme1					install
 libqimageblitz4					install
 libqjson-dev					install
@@ -2428,7 +2422,6 @@ libsoup2.4-dev					install
 libsoxr0:amd64					install
 libsp1c2					install
 libspandsp2:amd64				install
-libspatial4j-0.4-java				install
 libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex-dev:amd64				install
@@ -2868,7 +2861,6 @@ libyaml-0-2:amd64				install
 libyaml-dev:amd64				install
 libyaml-libyaml-perl				install
 libyaml-perl					install
-libyaml-snake-java				install
 libyaml-tiny-perl				install
 libzbar0					install
 libzephyr4:amd64				install
@@ -3275,6 +3267,7 @@ python-extras					install
 python-feedparser				install
 python-fixtures					install
 python-flask					install
+python-fontforge				install
 python-formencode				install
 python-gdbm					install
 python-gflags					install
@@ -3494,7 +3487,6 @@ qprint						install
 qrencode					install
 qt4-designer					install
 qt4-dev-tools					install
-qt4-doc						install
 qt4-linguist-tools				install
 qt4-qmake					install
 qt5-qmake:amd64					install
@@ -3659,7 +3651,6 @@ tcpdump						install
 tcpwatch-httpproxy				install
 tdc						install
 telnet						install
-testng						install
 tex-common					install
 tex-gyre					install
 texinfo						install
