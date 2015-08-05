@@ -81,6 +81,7 @@ autopoint					install
 autotools-dev					install
 avr-libc					install
 avrdude						install
+awesome						install
 awesome-extra					install
 baloo-kf5					install
 base-files					install
@@ -494,7 +495,6 @@ gir1.2-vte-2.91					install
 git						install
 git-annex					install
 git-buildpackage				install
-git-cola					install
 git-extras					install
 git-man						install
 git-remote-gcrypt				install
@@ -678,6 +678,7 @@ kde-cli-tools					install
 kde-cli-tools-data				install
 kde-config-gtk-style				install
 kde-config-sddm					install
+kde-plasma-desktop				install
 kde-runtime					install
 kde-runtime-data				install
 kde-style-breeze				install
@@ -1557,7 +1558,6 @@ libjs-jquery-metadata				install
 libjs-jquery-tablesorter			install
 libjs-jquery-ui					install
 libjs-mathjax					install
-libjs-modernizr					install
 libjs-node-uuid					install
 libjs-sphinxdoc					install
 libjs-twitter-bootstrap				install
@@ -2207,7 +2207,6 @@ libqapt3-runtime				install
 libqca-qt5-2:amd64				install
 libqca-qt5-2-plugins:amd64			install
 libqca2:amd64					install
-libqca2-dev					install
 libqca2-plugins:amd64				install
 libqdbm14					install
 libqgpgme1					install
@@ -2222,7 +2221,6 @@ libqt4-dbus:amd64				install
 libqt4-dbus:i386				install
 libqt4-declarative:amd64			install
 libqt4-designer:amd64				install
-libqt4-dev					install
 libqt4-dev-bin					install
 libqt4-help:amd64				install
 libqt4-network:amd64				install
@@ -2280,7 +2278,6 @@ libqtglib-2.0-0:amd64				install
 libqtgstreamer-1.0-0:amd64			install
 libqtgstreamerui-1.0-0:amd64			install
 libqtgui4:amd64					install
-libqtwebkit-dev					install
 libqtwebkit4:amd64				install
 libquadmath0:amd64				install
 libquvi-scripts					install
@@ -2749,6 +2746,7 @@ libxcb-xfixes0:amd64				install
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
+libxcb-xtest0:amd64				install
 libxcb-xv0:amd64				install
 libxcb1:amd64					install
 libxcb1:i386					install
@@ -2876,10 +2874,14 @@ linux-base					install
 linux-compiler-gcc-4.9-x86			install
 linux-headers-4.0.0-2-amd64			install
 linux-headers-4.0.0-2-common			install
+linux-headers-4.1.0-1-amd64			install
+linux-headers-4.1.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.0.0-2-amd64			install
+linux-image-4.1.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.0				install
+linux-kbuild-4.1				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -2900,6 +2902,7 @@ lsof						install
 ltrace						install
 lttoolbox					install
 lttoolbox-dev					install
+lua-lgi:amd64					install
 lua5.2						install
 lynx-cur					install
 lzip						install
@@ -3338,8 +3341,6 @@ python-pyqt5					install
 python-pyqt5.qtsvg				install
 python-pyqt5.qtwebkit				install
 python-qrtools					install
-python-qt4					install
-python-qt4-dbus					install
 python-recoll					install
 python-reportbug				install
 python-repoze.lru				install
@@ -3485,9 +3486,6 @@ qml-module-qtwebkit:amd64			install
 qmlscene					install
 qprint						install
 qrencode					install
-qt4-designer					install
-qt4-dev-tools					install
-qt4-linguist-tools				install
 qt4-qmake					install
 qt5-qmake:amd64					install
 qtbase5-dev:amd64				install
@@ -3525,6 +3523,7 @@ rfdump						install
 rfkill						install
 rhino						install
 rig						install
+rlwrap						install
 rpcbind						install
 rsync						install
 rsyslog						install
@@ -3575,6 +3574,8 @@ screen						install
 scrot						install
 scummvm						install
 scummvm-data					install
+sddm						install
+sddm-theme-breeze				install
 sdparm						install
 seabios						install
 seahorse					install
@@ -3705,7 +3706,7 @@ udev						install
 udisks2						install
 ufraw-batch					install
 unattended-upgrades				install
-unclutter					install
+unclutter					deinstall
 unixodbc					install
 uno-libs3					install
 unp						install
