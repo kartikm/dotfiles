@@ -12,6 +12,9 @@ deb http://londo.ganneff.de/ unstable main
 #elastic search
 deb http://packages.elasticsearch.org/elasticsearch/0.90/debian stable main
 
+#ff
+deb http://http.debian.net/debian experimental main
+
 #jenkins
 #deb http://pkg.jenkins-ci.org/debian-stable binary/
 
@@ -19,9 +22,6 @@ deb http://packages.elasticsearch.org/elasticsearch/0.90/debian stable main
 #deb http://dl.google.com/linux/chrome/deb/ stable main
 #Google Talk browser plugin http://www.google.com/chat/video
 #deb http://dl.google.com/linux/talkplugin/deb/ stable main
-
-#Univention
-#deb-src http://apt.univention.de/3.1/unmaintained/ 3.1-0/source/
 
 #Parsoid
 #deb [arch=amd64] http://parsoid.wmflabs.org:8080/deb wmf-production main

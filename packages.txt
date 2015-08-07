@@ -251,7 +251,6 @@ dunst						install
 dvd+rw-tools					install
 dvipng						install
 dwdiff						install
-dwm						install
 dynamite					install
 e2fslibs:amd64					install
 e2fsprogs					install
@@ -3590,7 +3589,6 @@ sharutils					install
 shtool						install
 signing-party					install
 sl						install
-slim						install
 sm						install
 smart-notifier					install
 smartmontools					install
