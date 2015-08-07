@@ -29,7 +29,6 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
-apertium-af-nl					install
 apertium-apy					install
 apertium-dev					install
 apertium-en-ca					install
@@ -538,7 +537,6 @@ grep						install
 groff						install
 groff-base					install
 groovy						install
-groovy2						deinstall
 growisofs					install
 grub-common					install
 grub-pc						install
@@ -749,7 +747,6 @@ kwalletmanager					install
 kwin-common					install
 kwin-data					install
 kwin-style-breeze				install
-kwin-style-qtcurve				install
 kwin-wayland					install
 kwin-x11					install
 kwrite						install
@@ -1597,7 +1594,6 @@ libkde3support4					install
 libkdeclarative5				install
 libkdecorations2-5				install
 libkdecorations2private5			install
-libkdecorations4abi2				install
 libkdecore5					install
 libkdepim4					install
 libkdepimdbusinterfaces4			install
@@ -3710,7 +3706,6 @@ udev						install
 udisks2						install
 ufraw-batch					install
 unattended-upgrades				install
-unclutter					deinstall
 unixodbc					install
 uno-libs3					install
 unp						install
