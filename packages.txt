@@ -29,7 +29,9 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
+apertium-af-nl					install
 apertium-apy					install
+apertium-cy-en					install
 apertium-dev					install
 apertium-en-ca					install
 apertium-en-es					install
