@@ -3530,7 +3530,6 @@ rsyslog						install
 rtmpdump					install
 ruby						install
 ruby-augeas					install
-ruby-celluloid					install
 ruby-childprocess				install
 ruby-dev					install
 ruby-domain-name				install
