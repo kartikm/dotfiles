@@ -31,6 +31,7 @@ apache2-utils					install
 apertium					install
 apertium-af-nl					install
 apertium-apy					install
+apertium-ca-it					install
 apertium-cy-en					install
 apertium-dev					install
 apertium-en-ca					install

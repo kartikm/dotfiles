@@ -399,3 +399,6 @@ checkout = git clone 'http://pywikipedia.org/nightly/pywikipedia-nightly.git' 'p
 
 [development/debian/packages/apertium/apertium-cy-en]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-cy-en.git' 'apertium-cy-en'
+
+[development/debian/packages/apertium/apertium-ca-it]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-ca-it.git' 'apertium-ca-it'
