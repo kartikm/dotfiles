@@ -767,6 +767,8 @@ libacl1:amd64					install
 libacl1:i386					install
 libacl1-dev					install
 libacme-damn-perl				install
+libacr38u					install
+libacsccid1					install
 libaio1:amd64					install
 libakonadi-calendar4				install
 libakonadi-contact4				install
