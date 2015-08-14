@@ -1818,7 +1818,6 @@ liblexical-sealrequirehints-perl		install
 liblinear-tools					install
 liblinear1:amd64				install
 liblircclient0					install
-liblist-allutils-perl				install
 liblist-moreutils-perl				install
 liblivemedia23					install
 libllvm3.5:amd64				install
