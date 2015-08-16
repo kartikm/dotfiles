@@ -177,8 +177,6 @@ checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/languages' 
 checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/branches/packaging' 'apertium-packaging'
 
 # Configs
-[development/configs/awesome-config]
-checkout = git clone 'git://gitorious.org/awesome-config/awesome-config.git' 'awesome-config'
 
 [development/configs/oh-my-zsh]
 checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' 'oh-my-zsh'
