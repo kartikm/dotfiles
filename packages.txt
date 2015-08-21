@@ -749,7 +749,6 @@ kwalletmanager					install
 kwin-common					install
 kwin-data					install
 kwin-style-breeze				install
-kwin-wayland					install
 kwin-x11					install
 kwrite						install
 kwrited						install
