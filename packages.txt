@@ -14,7 +14,7 @@ aha						install
 aircrack-ng					install
 akonadi-backend-mysql				install
 akonadi-server					install
-akregator					install
+akregator					deinstall
 alsa-base					install
 alsa-utils					install
 amd64-microcode					install
@@ -162,6 +162,7 @@ cpp						install
 cpp-4.6						install
 cpp-4.8						install
 cpp-4.9						install
+cpp-5						install
 cpufrequtils					install
 cracklib-runtime				install
 crda						install
@@ -331,9 +332,6 @@ facter						install
 fai-client					install
 fakeroot					install
 faketime					install
-falconpl					install
-falconpl-curl					install
-falconpl-dev					install
 feh						install
 festival					install
 festlex-cmu					install
@@ -444,6 +442,7 @@ fuse						install
 g++						install
 g++-4.8						install
 g++-4.9						install
+g++-5						install
 game-data-packager				install
 garmin-forerunner-tools				install
 garmin-plugin					install
@@ -457,6 +456,7 @@ gcc-4.8-base:i386				install
 gcc-4.9						install
 gcc-4.9-base:amd64				install
 gcc-4.9-base:i386				install
+gcc-5						install
 gcc-5-base:amd64				install
 gcc-5-base:i386					install
 gcc-avr						install
@@ -473,6 +473,7 @@ gdisk						install
 genisoimage					install
 geoip-bin					install
 geoip-database					install
+geoip-database-extra				install
 gettext						install
 gettext-base					install
 ghc						install
@@ -599,8 +600,6 @@ i965-va-driver:i386				install
 iamerican					install
 icc-profiles-free				install
 icedove						install
-icedtea-6-jre-cacao:amd64			install
-icedtea-6-jre-jamvm:amd64			install
 icedtea-7-jre-jamvm:amd64			install
 icedtea-netx:amd64				install
 icedtea-netx-common				install
@@ -655,11 +654,9 @@ java-wrappers					install
 javahelper					install
 javascript-common				install
 jmeter-help					install
-juk						install
-julia						install
+julia						deinstall
 junit						install
 junit4						install
-k3b						install
 k3b-data					install
 kactivities					install
 kamera						install
@@ -693,8 +690,8 @@ kdelibs-bin					install
 kdelibs5-data					install
 kdelibs5-plugins				install
 kdepasswd					install
-kdepim-kresources				install
-kdepim-runtime					install
+kdepim-kresources				deinstall
+kdepim-runtime					deinstall
 kdepimlibs-kio-plugins				install
 kdeplasma-addons-data				install
 kdesudo						install
@@ -720,14 +717,14 @@ klibc-utils					install
 kmenuedit					install
 kmix						install
 kmod						install
-knotes						install
+knotes						deinstall
 konq-plugins					install
 konqueror					install
 konqueror-nsplugins				install
 konsole						install
 konsole-kpart					install
 konsole4-kpart					install
-korganizer					install
+korganizer					deinstall
 kpackagelauncherqml				install
 kpackagetool5					install
 kpart-webkit					install
@@ -802,8 +799,10 @@ libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
 libaprutil1-ldap:amd64				install
 libapt-inst1.5:amd64				install
+libapt-inst1.7:amd64				install
 libapt-pkg-perl					install
 libapt-pkg4.12:amd64				install
+libapt-pkg4.16:amd64				install
 libarchive-extract-perl				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
@@ -811,6 +810,7 @@ libarpack2					install
 libart-2.0-2:amd64				install
 libasan0:amd64					install
 libasan1:amd64					install
+libasan2:amd64					install
 libasm3-java					install
 libasm4-java					install
 libasn1-8-heimdal:amd64				install
@@ -837,7 +837,6 @@ libatk1.0-0:amd64				install
 libatk1.0-data					install
 libatk1.0-dev					install
 libatkmm-1.6-1:amd64				install
-libatkmm-1.6-dev:amd64				install
 libatm1:amd64					install
 libatomic1:amd64				install
 libatspi2.0-0:amd64				install
@@ -921,14 +920,19 @@ libbonobo2-0:amd64				install
 libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
-libboost-date-time1.55.0:amd64			install
+libboost-date-time1.55.0:amd64			deinstall
+libboost-date-time1.58.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.55.0:amd64			install
+libboost-filesystem1.58.0:amd64			install
 libboost-iostreams1.55.0:amd64			install
+libboost-iostreams1.58.0:amd64			install
 libboost-program-options1.55.0:amd64		install
+libboost-program-options1.58.0:amd64		install
 libboost-python1.55.0				install
 libboost-regex1.55.0:amd64			install
 libboost-system1.55.0:amd64			install
+libboost-system1.58.0:amd64			install
 libboost-thread1.55.0:amd64			install
 libboost1.55-dev:amd64				install
 libbrlapi0.6:amd64				install
@@ -956,7 +960,7 @@ libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2-dev					install
 libcairomm-1.0-1				install
-libcalendarsupport4				install
+libcalendarsupport4				deinstall
 libcamd2.3.1:amd64				install
 libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
@@ -969,6 +973,7 @@ libcap2:amd64					install
 libcap2:i386					install
 libcap2-bin					install
 libcapture-tiny-perl				install
+libcc1-0:amd64					install
 libccid						install
 libccolamd2.8.0:amd64				install
 libcdaudio1					install
@@ -1016,7 +1021,8 @@ libcloog-isl4:amd64				install
 libcloog-ppl1:amd64				install
 libclucene-contribs1:amd64			install
 libclucene-core1:amd64				install
-libcmis-0.5-5					install
+libcmis-0.5-5					deinstall
+libcmis-0.5-5v5					install
 libcolamd2.8.0:amd64				install
 libcolord2:amd64				install
 libcolorhug2:amd64				install
@@ -1078,7 +1084,8 @@ libcupsimage2:amd64				install
 libcurl3:amd64					install
 libcurl3-gnutls:amd64				install
 libcurl3-nss:amd64				install
-libcwidget3:amd64				install
+libcwidget3:amd64				deinstall
+libcwidget3v5:amd64				install
 libdata-entropy-perl				install
 libdata-float-perl				install
 libdata-integer-perl				install
@@ -1171,7 +1178,8 @@ libenchant1c2a:amd64				install
 libencode-locale-perl				install
 libeot0						install
 libepoxy0					install
-libept1.4.12:amd64				install
+libept1.4.12:amd64				deinstall
+libept1.4.16:amd64				install
 libepub0					install
 liberror-perl					install
 libesd0:amd64					install
@@ -1182,7 +1190,7 @@ libetonyek-0.1-1				install
 libev4						install
 libevdev2:amd64					install
 libevent-2.0-5:amd64				install
-libeventviews4					install
+libeventviews4					deinstall
 libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
 libexif12:amd64					install
@@ -1225,7 +1233,8 @@ libfile-next-perl				install
 libfile-slurp-perl				install
 libfile-which-perl				install
 libfl-dev:amd64					install
-libflac++6:amd64				install
+libflac++6:amd64				deinstall
+libflac++6v5:amd64				install
 libflac8:amd64					install
 libflac8:i386					install
 libflite1:amd64					install
@@ -1266,6 +1275,7 @@ libgbm1:amd64					install
 libgc1c2:amd64					install
 libgcc-4.8-dev:amd64				install
 libgcc-4.9-dev:amd64				install
+libgcc-5-dev:amd64				install
 libgcc1:amd64					install
 libgcc1:i386					install
 libgcj-bc:amd64					install
@@ -1329,9 +1339,11 @@ libglib2.0-0:i386				install
 libglib2.0-bin					install
 libglib2.0-data					install
 libglib2.0-dev					install
-libglibmm-2.4-1c2a:amd64			install
+libglibmm-2.4-1c2a:amd64			deinstall
+libglibmm-2.4-1v5:amd64				install
 libglibmm-2.4-dev:amd64				install
-libgltf-0.0-0					install
+libgltf-0.0-0					deinstall
+libgltf-0.0-0v5					install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev				install
@@ -1472,6 +1484,7 @@ libice6:i386					install
 libicu-dev:amd64				install
 libicu52:amd64					install
 libicu52:i386					install
+libicu55:amd64					install
 libid3tag0					install
 libidn11:amd64					install
 libidn11-dev					install
@@ -1486,7 +1499,7 @@ libimage-exiftool-perl				install
 libimlib2:amd64					install
 libimobiledevice4:amd64				install
 libimport-into-perl				install
-libincidenceeditorsng4				install
+libincidenceeditorsng4				deinstall
 libindicate-gtk3				install
 libindicate5					install
 libindicator7					install
@@ -1562,6 +1575,7 @@ libjs-jquery-tablesorter			install
 libjs-jquery-ui					install
 libjs-mathjax					install
 libjs-node-uuid					install
+libjs-openlayers				install
 libjs-sphinxdoc					install
 libjs-twitter-bootstrap				install
 libjs-underscore				install
@@ -1571,13 +1585,13 @@ libjson-c2:i386					install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
-libjsoncpp0:amd64				install
+libjsoncpp0:amd64				deinstall
+libjsoncpp0v5:amd64				install
 libjsr107cache-java				install
 libjsr166y-java					install
 libjte1						install
 libjzlib-java					install
-libk3b6						install
-libk3b6-extracodecs				install
+libk3b6						deinstall
 libk5crypto3:amd64				install
 libk5crypto3:i386				install
 libkabc4					install
@@ -1600,8 +1614,8 @@ libkdeclarative5				install
 libkdecorations2-5				install
 libkdecorations2private5			install
 libkdecore5					install
-libkdepim4					install
-libkdepimdbusinterfaces4			install
+libkdepim4					deinstall
+libkdepimdbusinterfaces4			deinstall
 libkdesu5					install
 libkdeui5					install
 libkdewebkit5					install
@@ -1765,8 +1779,8 @@ libknewstuff2-4					install
 libknewstuff3-4					install
 libknotifyconfig4				install
 libkntlm4					install
-libkolab0					install
-libkolabxml1					install
+libkolab0					deinstall
+libkolabxml1					deinstall
 libkonq-common					install
 libkonq5-templates				install
 libkonq5abi1					install
@@ -1821,8 +1835,10 @@ liblinear1:amd64				install
 liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia23					install
-libllvm3.5:amd64				install
-libllvm3.5:i386					install
+libllvm3.5:amd64				deinstall
+libllvm3.5:i386					deinstall
+libllvm3.5v5:amd64				install
+libllvm3.5v5:i386				install
 libloader-java					install
 liblocale-gettext-perl				install
 liblockfile-bin					install
@@ -1864,8 +1880,8 @@ libmagickcore-6.q16-2-extra:amd64		install
 libmagickwand-6.q16-2:amd64			install
 libmail-java					install
 libmail-sendmail-perl				install
-libmailcommon4					install
-libmailimporter4				install
+libmailcommon4					deinstall
+libmailimporter4				deinstall
 libmailtools-perl				install
 libmailtransport4				install
 libmarkdown2:amd64				install
@@ -1875,9 +1891,9 @@ libmbim-proxy					install
 libmcrypt4					install
 libmeanwhile1					install
 libmediaart-2.0-0:amd64				install
-libmessagecomposer4				install
-libmessagecore4					install
-libmessageviewer4				install
+libmessagecomposer4				deinstall
+libmessagecore4					deinstall
+libmessageviewer4				deinstall
 libmetadata-extractor-java			install
 libmhash-dev					install
 libmhash2:amd64					install
@@ -1915,6 +1931,7 @@ libmpeg2-4:amd64				install
 libmpfr4:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
+libmpx0:amd64					install
 libmro-compat-perl				install
 libmspack0:amd64				install
 libmspub-0.1-1					install
@@ -1924,7 +1941,7 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
-libmuon						install
+libmuon						deinstall
 libmusicbrainz5cc2:amd64			install
 libmwaw-0.3-3					install
 libmysql-java					install
@@ -1981,7 +1998,7 @@ libnm-glib-vpn1:amd64				install
 libnm-glib4:amd64				install
 libnm-util2:amd64				install
 libnm0:amd64					install
-libnoteshared4					install
+libnoteshared4					deinstall
 libnotify-bin					install
 libnotify-dev					install
 libnotify4:amd64				install
@@ -1999,6 +2016,7 @@ libntrack0					install
 libnuma1:amd64					install
 libnuma1:i386					install
 libobjc-4.9-dev:amd64				install
+libobjc-5-dev:amd64				install
 libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
@@ -2045,7 +2063,8 @@ libopusfile0					install
 liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
-liborcus-0.10-0					install
+liborcus-0.10-0					deinstall
+liborcus-0.10-0v5				install
 liboro-java					install
 libossp-uuid-perl				install
 libossp-uuid16:amd64				install
@@ -2120,7 +2139,7 @@ libpgm-5.1-0					install
 libphonon4:amd64				install
 libphonon4qt5-4:amd64				install
 libphysfs1:amd64				install
-libpimcommon4					install
+libpimcommon4					deinstall
 libpipeline1:amd64				install
 libpixie-java					install
 libpixman-1-0:amd64				install
@@ -2203,8 +2222,8 @@ libpython3.4-minimal:amd64			install
 libpython3.4-stdlib:amd64			install
 libqalculate5:amd64				install
 libqalculate5-data				install
-libqapt3					install
-libqapt3-runtime				install
+libqapt3					deinstall
+libqapt3-runtime				deinstall
 libqca-qt5-2:amd64				install
 libqca-qt5-2-plugins:amd64			install
 libqca2:amd64					install
@@ -2264,7 +2283,7 @@ libqt5sql5:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5svg5:amd64				install
 libqt5test5:amd64				install
-libqt5waylandclient5:amd64			install
+libqt5waylandclient5:amd64			deinstall
 libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
@@ -2388,8 +2407,9 @@ libshout3:amd64					install
 libsidplay1					install
 libsidplay2					install
 libsidutils0					install
-libsigc++-2.0-0c2a:amd64			install
-libsigc++-2.0-0c2a:i386				install
+libsigc++-2.0-0c2a:amd64			deinstall
+libsigc++-2.0-0c2a:i386				deinstall
+libsigc++-2.0-0v5:amd64				install
 libsigc++-2.0-dev:amd64				install
 libsigsegv2:amd64				install
 libslang2:amd64					install
@@ -2451,6 +2471,7 @@ libssl1.0.0:amd64				install
 libstartup-notification0:amd64			install
 libstdc++-4.8-dev:amd64				install
 libstdc++-4.9-dev:amd64				install
+libstdc++-5-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
 libstoken1:amd64				install
@@ -2498,7 +2519,7 @@ libtcl8.6:amd64					install
 libtdb1:amd64					install
 libtdb1:i386					install
 libteamdctl0:amd64				install
-libtemplateparser4				install
+libtemplateparser4				deinstall
 libterm-readkey-perl				install
 libterm-readline-gnu-perl			install
 libterm-readline-perl-perl			install
@@ -2703,7 +2724,8 @@ libx265-59:i386					install
 libx86-1:amd64					install
 libxalan2-java					install
 libxapian-dev					install
-libxapian22					install
+libxapian22					deinstall
+libxapian22v5					install
 libxatracker2:amd64				install
 libxau-dev:amd64				install
 libxau6:amd64					install
@@ -2878,9 +2900,12 @@ linux-headers-4.0.0-2-amd64			install
 linux-headers-4.0.0-2-common			install
 linux-headers-4.1.0-1-amd64			install
 linux-headers-4.1.0-1-common			install
+linux-headers-4.1.0-2-amd64			install
+linux-headers-4.1.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.0.0-2-amd64			install
 linux-image-4.1.0-1-amd64			install
+linux-image-4.1.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.0				install
 linux-kbuild-4.1				install
@@ -2953,8 +2978,6 @@ multiarch-support				install
 multistrap					install
 multitail					install
 muon-common					install
-muon-notifier					install
-muon-updater					install
 mutt						install
 myrepos						install
 mysql-client-5.6				install
@@ -3058,10 +3081,6 @@ okular-extra-backends				install
 openbios-ppc					install
 openbios-sparc					install
 openhackware					install
-openjdk-6-jdk:amd64				install
-openjdk-6-jre:amd64				install
-openjdk-6-jre-headless:amd64			install
-openjdk-6-jre-lib				install
 openjdk-7-jdk:amd64				install
 openjdk-7-jre:amd64				install
 openjdk-7-jre-headless:amd64			install
@@ -3159,7 +3178,6 @@ pkg-config					install
 pkg-kde-tools					install
 pkg-php-tools					install
 plasma-dataengines-addons			install
-plasma-dataengines-workspace			install
 plasma-desktop					install
 plasma-desktop-data				install
 plasma-framework				install
@@ -3169,7 +3187,7 @@ plasma-wallpapers-addons			install
 plasma-widget-folderview			install
 plasma-widget-kimpanel				install
 plasma-widgets-addons				install
-plasma-widgets-workspace			install
+plasma-widgets-workspace			deinstall
 plasma-workspace				install
 pm-utils					install
 po-debconf					install
@@ -3427,12 +3445,10 @@ python3-numpy					install
 python3-pil:amd64				install
 python3-pip					install
 python3-pkg-resources				install
-python3-pykde4					install
 python3-pyparsing				install
 python3-pyqt4					install
 python3-recoll					install
 python3-requests				install
-python3-scipy					install
 python3-setuptools				install
 python3-simplegeneric				install
 python3-sip					install
@@ -3449,7 +3465,6 @@ python3-yaml					install
 python3.4					install
 python3.4-dev					install
 python3.4-minimal				install
-qapt-batch					install
 qdbus						install
 qdbus-qt5					install
 qemu						install
@@ -3501,7 +3516,6 @@ qtdeclarative5-kf5solid				install
 qtquick1-5-dev:amd64				install
 qttools5-dev-tools				install
 qttranslations5-l10n				install
-qtwayland5:amd64				install
 quake3						install
 quake3-data					install
 quilt						install
@@ -3534,6 +3548,7 @@ rtmpdump					install
 ruby						install
 ruby-augeas					install
 ruby-childprocess				install
+ruby-deep-merge					install
 ruby-dev					install
 ruby-domain-name				install
 ruby-erubis					install
@@ -3599,7 +3614,6 @@ smartmontools					install
 smbclient					install
 software-properties-common			install
 software-properties-gtk				install
-software-properties-kde				install
 sonnet-plugins					install
 soprano-daemon					install
 sp						install
@@ -3617,7 +3631,6 @@ ssl-cert					install
 stardict-tools					install
 startpar					install
 steam						install
-storageservicemanager				install
 strace						install
 subversion					install
 suckless-tools					install
