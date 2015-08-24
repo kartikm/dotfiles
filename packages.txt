@@ -1836,7 +1836,7 @@ liblzma5:amd64					install
 liblzma5:i386					install
 liblzo2-2:amd64					install
 liblzo2-2:i386					install
-libm17n-0					install
+libm17n-0:amd64					install
 libmaa3:amd64					install
 libmad0:amd64					install
 libmagic1:amd64					install
