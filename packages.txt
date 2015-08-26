@@ -1590,8 +1590,10 @@ libkdcraw-data					install
 libkdcraw23					install
 libkde3support4					install
 libkdeclarative5				install
-libkdecorations2-5				install
-libkdecorations2private5			install
+libkdecorations2-5				deinstall
+libkdecorations2-5v5				install
+libkdecorations2private5			deinstall
+libkdecorations2private5v5			install
 libkdecore5					install
 libkdepim4					deinstall
 libkdepimdbusinterfaces4			deinstall
