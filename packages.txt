@@ -2488,6 +2488,7 @@ libtheora0:i386					install
 libthreadweaver4				install
 libtidy-0.99-0					install
 libtie-ixhash-perl				install
+libtiff-tools					install
 libtiff5:amd64					install
 libtiff5:i386					install
 libtiff5-dev:amd64				install
