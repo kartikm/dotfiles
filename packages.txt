@@ -1972,7 +1972,7 @@ libodbc1:amd64					install
 libodbc1:i386					install
 libode1						install
 libodfgen-0.1-1					install
-libofa0						install
+libofa0:amd64					install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
