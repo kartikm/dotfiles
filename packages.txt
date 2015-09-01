@@ -206,6 +206,7 @@ dictionaries-common				install
 dictzip						install
 diffstat					install
 diffutils					install
+dirmngr						install
 discover					install
 discover-data					install
 disper						install
@@ -1914,6 +1915,7 @@ libnotify-bin					install
 libnotify-dev					install
 libnotify4:amd64				install
 libnotmuch4					install
+libnpth0:amd64					install
 libnspr4:amd64					install
 libnspr4:i386					install
 libnspr4-0d:amd64				install
