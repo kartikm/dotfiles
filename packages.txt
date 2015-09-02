@@ -2135,8 +2135,9 @@ libpython3.4:amd64				install
 libpython3.4-dev:amd64				install
 libpython3.4-minimal:amd64			install
 libpython3.4-stdlib:amd64			install
-libqalculate5:amd64				install
+libqalculate5:amd64				deinstall
 libqalculate5-data				install
+libqalculate5v5:amd64				install
 libqapt3					deinstall
 libqapt3-runtime				deinstall
 libqca-qt5-2:amd64				deinstall
@@ -3672,7 +3673,6 @@ virtualenvwrapper				install
 vlc						install
 vlc-data					install
 vlc-nox						install
-vlc-plugin-pulse				install
 vlc-plugin-samba				install
 vorbis-tools					install
 vpnc						install
