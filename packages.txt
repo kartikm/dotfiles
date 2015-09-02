@@ -32,7 +32,9 @@ apertium					install
 apertium-apy					deinstall
 apertium-ca-it					install
 apertium-dev					install
+apertium-eo-ca					install
 apertium-eo-fr					install
+apertium-fr-ca					install
 apg						install
 apparmor-easyprof				install
 apt						install
