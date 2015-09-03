@@ -772,7 +772,8 @@ libatk-wrapper-java-jni:amd64			install
 libatk1.0-0:amd64				install
 libatk1.0-data					install
 libatk1.0-dev					install
-libatkmm-1.6-1:amd64				install
+libatkmm-1.6-1:amd64				deinstall
+libatkmm-1.6-1v5:amd64				install
 libatm1:amd64					install
 libatomic1:amd64				install
 libatspi2.0-0:amd64				install
@@ -894,7 +895,8 @@ libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2-dev					install
-libcairomm-1.0-1				install
+libcairomm-1.0-1				deinstall
+libcairomm-1.0-1v5				install
 libcalendarsupport4				deinstall
 libcamd2.3.1:amd64				install
 libcanberra-gtk-module:amd64			install
@@ -1352,7 +1354,8 @@ libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
 libgtkglext1					install
-libgtkmm-2.4-1c2a:amd64				install
+libgtkmm-2.4-1c2a:amd64				deinstall
+libgtkmm-2.4-1v5:amd64				install
 libgtkspell0					install
 libguard-perl					install
 libgucharmap-2-90-7				install
@@ -1616,7 +1619,6 @@ libkf5kcmutils5:amd64				install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
-libkf5khtml-bin					install
 libkf5khtml-data				install
 libkf5khtml5:amd64				install
 libkf5kiocore5:amd64				install
@@ -2013,7 +2015,8 @@ libpango1.0-dev					install
 libpangocairo-1.0-0:amd64			install
 libpangoft2-1.0-0:amd64				install
 libpangoft2-1.0-0:i386				install
-libpangomm-1.4-1:amd64				install
+libpangomm-1.4-1:amd64				deinstall
+libpangomm-1.4-1v5:amd64			install
 libpangox-1.0-0:amd64				install
 libpangox-1.0-0:i386				install
 libpangoxft-1.0-0:amd64				install
