@@ -1113,7 +1113,7 @@ libenchant-dev					install
 libenchant1c2a:amd64				install
 libencode-locale-perl				install
 libeot0						install
-libepoxy0					install
+libepoxy0:amd64					install
 libept1.4.12:amd64				deinstall
 libept1.4.16:amd64				install
 libepub0					install
