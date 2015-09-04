@@ -33,6 +33,7 @@ apertium-apy					deinstall
 apertium-ca-it					install
 apertium-dev					install
 apertium-eo-ca					install
+apertium-eo-es					install
 apertium-eo-fr					install
 apertium-fr-ca					install
 apg						install
@@ -1567,7 +1568,8 @@ libkf5auth5:amd64				install
 libkf5baloo1					install
 libkf5balooxapian1				install
 libkf5bluezqt-data				install
-libkf5bluezqt5:amd64				install
+libkf5bluezqt5:amd64				deinstall
+libkf5bluezqt6:amd64				install
 libkf5bookmarks-data				install
 libkf5bookmarks5:amd64				install
 libkf5codecs-data				install
