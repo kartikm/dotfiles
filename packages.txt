@@ -2433,7 +2433,7 @@ libtasn1-6:amd64				install
 libtasn1-6:i386					install
 libtasn1-6-dev:amd64				install
 libtasn1-doc					install
-libtbb2						install
+libtbb2:amd64					install
 libtcl8.6:amd64					install
 libtdb1:amd64					install
 libtdb1:i386					install
