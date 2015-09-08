@@ -246,8 +246,7 @@ e2fslibs:amd64					install
 e2fsprogs					install
 easy-rsa					install
 ed						install
-eduke32						install
-eduke32-common					install
+eduke32						deinstall
 eject						install
 emacs-snapshot					install
 emacs-snapshot-bin-common			install
@@ -795,7 +794,7 @@ libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
 libauthen-sasl-perl				install
 libautodie-perl					install
-libav-tools					install
+libav-tools					deinstall
 libavahi-client-dev				install
 libavahi-client3:amd64				install
 libavahi-client3:i386				install
@@ -815,7 +814,7 @@ libavcodec-ffmpeg56:amd64			install
 libavcodec56:amd64				install
 libavcodec56:i386				install
 libavdevice55:amd64				install
-libavfilter5:amd64				install
+libavfilter5:amd64				deinstall
 libavformat-dev:amd64				install
 libavformat-ffmpeg56:amd64			install
 libavformat56:amd64				install
@@ -2075,7 +2074,8 @@ libpng12-dev:amd64				install
 libpod-latex-perl				install
 libpod-markdown-perl				install
 libpod-readme-perl				install
-libpodofo0.9.0					install
+libpodofo0.9.0					deinstall
+libpodofo0.9.0v5				install
 libpolkit-agent-1-0:amd64			install
 libpolkit-backend-1-0:amd64			install
 libpolkit-gobject-1-0:amd64			install
@@ -2409,7 +2409,6 @@ libswitch-perl					install
 libswresample-dev:amd64				install
 libswresample-ffmpeg1:amd64			install
 libswscale-ffmpeg3:amd64			install
-libswscale3:amd64				install
 libsybdb5:amd64					install
 libsynctex1					install
 libsyndication4					deinstall
@@ -2560,7 +2559,6 @@ libvorbisfile3:amd64				install
 libvorbisfile3:i386				install
 libvpb-dev					install
 libvpb0						install
-libvpx1:amd64					install
 libvpx2:amd64					install
 libvpx2:i386					install
 libvte-2.90-9					install
@@ -2813,13 +2811,11 @@ libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.9-x86			install
-linux-headers-4.1.0-1-amd64			install
-linux-headers-4.1.0-1-common			install
 linux-headers-4.1.0-2-amd64			install
 linux-headers-4.1.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.0.0-2-amd64			deinstall
-linux-image-4.1.0-1-amd64			install
+linux-image-4.1.0-1-amd64			deinstall
 linux-image-4.1.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.1				install
