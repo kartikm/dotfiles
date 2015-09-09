@@ -1498,11 +1498,10 @@ libk5crypto3:amd64				install
 libk5crypto3:i386				install
 libkactivities6					install
 libkate1					install
-libkateinterfaces4				install
+libkateinterfaces4				deinstall
 libkatepartinterfaces4				install
 libkcmutils4					install
-libkdcraw-data					install
-libkdcraw23					install
+libkdcraw23					deinstall
 libkde3support4					install
 libkdeclarative5				install
 libkdecorations2-5v5				install
@@ -1885,7 +1884,7 @@ libofa0:amd64					install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
-libokularcore5					install
+libokularcore5					deinstall
 libokularcore6					install
 libonig2:amd64					install
 libopenal-data					install
@@ -2148,7 +2147,7 @@ libquvi7:amd64					install
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
-libraw10:amd64					install
+libraw10:amd64					deinstall
 libraw1394-11:amd64				install
 librcc0						install
 librcd0						install
