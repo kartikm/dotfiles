@@ -1257,7 +1257,7 @@ libglibmm-2.4-dev:amd64				install
 libgltf-0.0-0v5					install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
-libglu1-mesa-dev				install
+libglu1-mesa-dev:amd64				install
 libgme0:amd64					install
 libgmime-2.6-0:amd64				install
 libgmime-2.6-dev				install
