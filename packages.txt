@@ -310,6 +310,7 @@ fonts-guru-extra				install
 fonts-kalapi					install
 fonts-knda					install
 fonts-lao					install
+fonts-lato					install
 fonts-liberation				install
 fonts-lklug-sinhala				install
 fonts-lmodern					install
@@ -366,7 +367,6 @@ fortunes-min					install
 fortunes-off					install
 frameworkintegration				install
 freeglut3:amd64					install
-freepats					install
 freetds-common					install
 freetds-dev					install
 ftp						install
@@ -394,7 +394,7 @@ gcc-5-base:i386					install
 gcc-avr						install
 gcc-msp430					install
 gcj-4.8-jre-lib					install
-gcj-4.9-jre-lib					install
+gcj-5-jre-lib					install
 gconf-service					install
 gconf2						install
 gconf2-common					install
@@ -583,7 +583,6 @@ java-common					install
 java-wrappers					install
 javahelper					install
 javascript-common				install
-jmeter-help					install
 junit						install
 junit4						install
 kactivities					install
@@ -710,7 +709,6 @@ libapertium3-3.4-0:amd64			install
 libapparmor1:amd64				install
 libappindicator1				install
 libapr1:amd64					install
-libapr1-dev					install
 libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
 libaprutil1-ldap:amd64				install
@@ -788,22 +786,14 @@ libavc1394-0:amd64				install
 libavcodec-dev:amd64				install
 libavcodec-ffmpeg56:amd64			install
 libavcodec-ffmpeg56:i386			install
-libavcodec56:amd64				install
-libavcodec56:i386				install
 libavformat-dev:amd64				install
 libavformat-ffmpeg56:amd64			install
 libavresample-ffmpeg2:amd64			install
 libavresample-ffmpeg2:i386			install
-libavresample2:amd64				install
-libavresample2:i386				install
 libavutil-dev:amd64				install
 libavutil-ffmpeg54:amd64			install
 libavutil-ffmpeg54:i386				install
-libavutil54:amd64				install
-libavutil54:i386				install
 libaxis-java					install
-libaxis2c-dev					install
-libaxis2c0					install
 libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
 libbabeltrace-ctf1:amd64			install
@@ -841,7 +831,7 @@ libboost-filesystem1.55.0:amd64			install
 libboost-filesystem1.58.0:amd64			install
 libboost-iostreams1.58.0:amd64			install
 libboost-program-options1.58.0:amd64		install
-libboost-python1.55.0				install
+libboost-python1.58.0				install
 libboost-system1.55.0:amd64			install
 libboost-system1.58.0:amd64			install
 libboost1.58-dev:amd64				install
@@ -1100,7 +1090,6 @@ libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
 libexif12:amd64					install
 libexif12:i386					install
-libexiv2-13:amd64				install
 libexiv2-14:amd64				install
 libexpat1:amd64					install
 libexpat1:i386					install
@@ -1185,7 +1174,7 @@ libgcc1:i386					install
 libgcj-bc:amd64					install
 libgcj-common					install
 libgcj14:amd64					install
-libgcj15:amd64					install
+libgcj16:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
 libgconf-2-4:i386				install
@@ -1232,11 +1221,9 @@ libglade2-0:amd64				install
 libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
-libglc0						install
 libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
 libglew1.10:amd64				install
-libglewmx1.10:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
 libglib2.0-0:i386				install
@@ -1278,7 +1265,6 @@ libgpars-groovy-java				install
 libgpg-error-dev				install
 libgpg-error0:amd64				install
 libgpg-error0:i386				install
-libgpgme++2					install
 libgpgme11:amd64				install
 libgpgme11-dev					install
 libgphoto2-6:amd64				install
@@ -1320,7 +1306,6 @@ libgtk2.0-0:amd64				install
 libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
-libgtkglext1					install
 libgtkmm-2.4-1v5:amd64				install
 libgtkspell0					install
 libguard-perl					install
@@ -1394,7 +1379,6 @@ libieee1284-3:i386				install
 libijs-0.35:amd64				install
 libiksemel-dev:amd64				install
 libiksemel3:amd64				install
-libilmbase6:amd64				deinstall
 libilmbase6v5:amd64				install
 libimage-exiftool-perl				install
 libimlib2:amd64					install
@@ -1472,6 +1456,7 @@ libjs-jquery-metadata				install
 libjs-jquery-tablesorter			install
 libjs-jquery-ui					install
 libjs-mathjax					install
+libjs-modernizr					install
 libjs-node-uuid					install
 libjs-openlayers				install
 libjs-sphinxdoc					install
@@ -1550,6 +1535,7 @@ libkf5globalaccel-bin				install
 libkf5globalaccel-data				install
 libkf5globalaccel5:amd64			install
 libkf5globalaccelprivate5:amd64			install
+libkf5gpgmepp5:amd64				install
 libkf5guiaddons5:amd64				install
 libkf5i18n-data					install
 libkf5i18n5:amd64				install
@@ -1756,7 +1742,6 @@ libmikmod3:amd64				install
 libmime-charset-perl				install
 libmime-tools-perl				install
 libmimic0:amd64					install
-libminiupnpc10:amd64				install
 libmm-glib0:amd64				install
 libmms0:amd64					install
 libmng1:amd64					install
@@ -1887,18 +1872,6 @@ libopenblas-base				install
 libopenconnect5:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
-libopencv-calib3d2.4:amd64			install
-libopencv-contrib2.4:amd64			install
-libopencv-core2.4:amd64				install
-libopencv-features2d2.4:amd64			install
-libopencv-flann2.4:amd64			install
-libopencv-highgui2.4:amd64			install
-libopencv-imgproc2.4:amd64			install
-libopencv-legacy2.4:amd64			install
-libopencv-ml2.4:amd64				install
-libopencv-objdetect2.4:amd64			install
-libopencv-photo2.4:amd64			install
-libopencv-video2.4:amd64			install
 libopenexr6v5:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
@@ -1985,7 +1958,6 @@ libperlio-gzip-perl				install
 libpgm-5.1-0					install
 libphonon4:amd64				install
 libphonon4qt5-4:amd64				install
-libphysfs1:amd64				install
 libpipeline1:amd64				install
 libpixie-java					install
 libpixman-1-0:amd64				install
@@ -2203,7 +2175,6 @@ libsaxon-java					install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
 libschroedinger-1.0-0:i386			install
-libsctp-dev					install
 libsctp1:amd64					install
 libsdl-image1.2:amd64				install
 libsdl-mixer1.2:amd64				install
@@ -2338,7 +2309,6 @@ libtasn1-6:amd64				install
 libtasn1-6:i386					install
 libtasn1-6-dev:amd64				install
 libtasn1-doc					install
-libtbb2:amd64					install
 libtcl8.6:amd64					install
 libtdb1:amd64					install
 libtdb1:i386					install
@@ -2769,7 +2739,6 @@ mesa-utils					install
 mesa-vdpau-drivers:amd64			install
 milou						install
 mime-support					install
-minissdpd					install
 mitmproxy					install
 mlocate						install
 mobile-broadband-provider-info			install
@@ -3054,6 +3023,7 @@ pv						install
 pydb						install
 pylint						install
 python						install
+python-alabaster				install
 python-all					install
 python-all-dev					install
 python-appindicator				install
@@ -3062,6 +3032,8 @@ python-apt					install
 python-apt-common				install
 python-aptdaemon				install
 python-astroid					install
+python-babel					install
+python-babel-localedata				install
 python-beautifulsoup				install
 python-blinker					install
 python-bs4					install
@@ -3151,7 +3123,6 @@ python-notify					install
 python-numpy					install
 python-oauth2client				install
 python-oauthlib					install
-python-opencv					install
 python-openssl					install
 python-paramiko					install
 python-passlib					install
@@ -3198,6 +3169,7 @@ python-six-whl					install
 python-sleekxmpp				install
 python-soappy					install
 python-sphinx					install
+python-sphinx-rtd-theme				install
 python-sphinxcontrib.programoutput		install
 python-sqlalchemy				install
 python-sqlalchemy-ext				install
@@ -3211,6 +3183,7 @@ python-tk					install
 python-tornado					install
 python-toro					install
 python-tweepy					install
+python-tz					install
 python-uritemplate				install
 python-urllib3					install
 python-urllib3-whl				install
@@ -3437,6 +3410,7 @@ sp						install
 spew						install
 sphinx-common					install
 sphinx-doc					install
+sphinx-rtd-theme-common				install
 sqlite						install
 sqlite3						install
 squashfs-tools					install
@@ -3592,9 +3566,6 @@ vprerex						install
 vrms						install
 w3m						install
 wamerican					install
-warzone2100					install
-warzone2100-data				install
-warzone2100-music				install
 watchdog					install
 wdiff						install
 wget						install
