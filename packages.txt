@@ -29,12 +29,9 @@ apache2-data					install
 apache2-utils					install
 apertium					install
 apertium-apy					install
-apertium-ca-it					install
 apertium-dev					install
 apertium-eo-ca					install
 apertium-eo-es					install
-apertium-eo-fr					install
-apertium-fr-ca					install
 apertium-lex-tools				install
 apg						install
 apparmor-easyprof				install
@@ -124,12 +121,6 @@ cm-super-minimal				install
 cmake						install
 cmake-data					install
 cmatrix						install
-coinor-libcbc3					deinstall
-coinor-libcgl1					deinstall
-coinor-libclp1					deinstall
-coinor-libcoinmp1:amd64				deinstall
-coinor-libcoinutils3				deinstall
-coinor-libosi1					deinstall
 colord						install
 colord-data					install
 colordiff					install
@@ -530,8 +521,6 @@ host						install
 hostname					install
 html2text					install
 htop						install
-hugin						deinstall
-hugin-data					install
 hunspell-en-us					install
 hyphen-gu					install
 i3lock						install
@@ -798,15 +787,18 @@ libavalon-framework-java			install
 libavc1394-0:amd64				install
 libavcodec-dev:amd64				install
 libavcodec-ffmpeg56:amd64			install
+libavcodec-ffmpeg56:i386			install
 libavcodec56:amd64				install
 libavcodec56:i386				install
 libavformat-dev:amd64				install
 libavformat-ffmpeg56:amd64			install
 libavresample-ffmpeg2:amd64			install
+libavresample-ffmpeg2:i386			install
 libavresample2:amd64				install
 libavresample2:i386				install
 libavutil-dev:amd64				install
 libavutil-ffmpeg54:amd64			install
+libavutil-ffmpeg54:i386				install
 libavutil54:amd64				install
 libavutil54:i386				install
 libaxis-java					install
@@ -852,7 +844,7 @@ libboost-program-options1.58.0:amd64		install
 libboost-python1.55.0				install
 libboost-system1.55.0:amd64			install
 libboost-system1.58.0:amd64			install
-libboost1.55-dev:amd64				install
+libboost1.58-dev:amd64				install
 libbrlapi0.6:amd64				install
 libbs2b0					install
 libbsd-dev:amd64				install
@@ -936,9 +928,7 @@ libcln6						install
 libclone-perl					install
 libcloog-isl4:amd64				install
 libcloog-ppl1:amd64				install
-libclucene-contribs1:amd64			deinstall
 libclucene-contribs1v5:amd64			install
-libclucene-core1:amd64				deinstall
 libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
 libcolamd2.8.0:amd64				install
@@ -992,6 +982,7 @@ libcrypto++9					install
 libcryptsetup-dev:amd64				install
 libcryptsetup4:amd64				install
 libcrystalhd3:amd64				install
+libcrystalhd3:i386				install
 libct4:amd64					install
 libctemplate-dev				install
 libctemplate2v5					install
@@ -1154,6 +1145,7 @@ libfltk1.3:amd64				install
 libfluidsynth1:amd64				install
 libflute-java					install
 libfont-afm-perl				install
+libfontbox-java					install
 libfontconfig1:amd64				install
 libfontconfig1:i386				install
 libfontconfig1-dev:amd64			install
@@ -1230,7 +1222,6 @@ libgif4:amd64					install
 libgimp2.0					install
 libgirara-gtk3-2:amd64				install
 libgirepository-1.0-1:amd64			install
-libgit2-22:amd64				install
 libgit2-23:amd64				install
 libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
@@ -1384,7 +1375,6 @@ libhunspell-1.3-0:amd64				install
 libhx509-5-heimdal:amd64			install
 libhyphen0					install
 libib-util:amd64				install
-libibus-1.0-5:amd64				deinstall
 libical-dev					install
 libical1a					install
 libice-dev:amd64				install
@@ -1404,7 +1394,8 @@ libieee1284-3:i386				install
 libijs-0.35:amd64				install
 libiksemel-dev:amd64				install
 libiksemel3:amd64				install
-libilmbase6:amd64				install
+libilmbase6:amd64				deinstall
+libilmbase6v5:amd64				install
 libimage-exiftool-perl				install
 libimlib2:amd64					install
 libimobiledevice4:amd64				install
@@ -1501,10 +1492,8 @@ libk5crypto3:amd64				install
 libk5crypto3:i386				install
 libkactivities6					install
 libkate1					install
-libkateinterfaces4				deinstall
 libkatepartinterfaces4				install
 libkcmutils4					install
-libkdcraw23					deinstall
 libkde3support4					install
 libkdeclarative5				install
 libkdecorations2-5v5				install
@@ -1525,10 +1514,8 @@ libkf5archive5:amd64				install
 libkf5attica5:amd64				install
 libkf5auth-data					install
 libkf5auth5:amd64				install
-libkf5baloo1					deinstall
 libkf5baloo5					install
 libkf5balooengine5				install
-libkf5balooxapian1				deinstall
 libkf5bluezqt-data				install
 libkf5bluezqt6:amd64				install
 libkf5bookmarks-data				install
@@ -1852,6 +1839,7 @@ libnewt0.52:amd64				install
 libnfnetlink-dev				install
 libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
+libnghttp2-14:amd64				install
 libnice10:amd64					install
 libnl-3-200:amd64				install
 libnl-3-dev:amd64				install
@@ -1890,7 +1878,6 @@ libofa0:amd64					install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
-libokularcore5					deinstall
 libokularcore6					install
 libonig2:amd64					install
 libopenal-data					install
@@ -1912,7 +1899,7 @@ libopencv-ml2.4:amd64				install
 libopencv-objdetect2.4:amd64			install
 libopencv-photo2.4:amd64			install
 libopencv-video2.4:amd64			install
-libopenexr6:amd64				install
+libopenexr6v5:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
 libopenobex1					install
@@ -1964,8 +1951,6 @@ libpangox-1.0-0:amd64				install
 libpangox-1.0-0:i386				install
 libpangoxft-1.0-0:amd64				install
 libpangoxft-1.0-0:i386				install
-libpano13-3:amd64				install
-libpano13-bin					install
 libpaper-utils					install
 libpaper1:amd64					install
 libparams-classify-perl				install
@@ -2154,7 +2139,6 @@ libquvi7:amd64					install
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
-libraw10:amd64					deinstall
 libraw1394-11:amd64				install
 librcc0						install
 librcd0						install
@@ -2219,7 +2203,6 @@ libsaxon-java					install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
 libschroedinger-1.0-0:i386			install
-libscim8c2a:amd64				deinstall
 libsctp-dev					install
 libsctp1:amd64					install
 libsdl-image1.2:amd64				install
@@ -2250,6 +2233,7 @@ libservlet2.5-java				install
 libservlet3.0-java				install
 libsgmls-perl					install
 libshine3:amd64					install
+libshine3:i386					install
 libshout3:amd64					install
 libsidplay1v5					install
 libsidplay2					install
@@ -2317,9 +2301,7 @@ libstdc++-5-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
 libstoken1:amd64				install
-libstreamanalyzer0				deinstall
 libstreamanalyzer0v5				install
-libstreams0					deinstall
 libstreams0v5					install
 libstrictures-perl				install
 libsub-exporter-perl				install
@@ -2333,6 +2315,7 @@ libsvn1:amd64					install
 libswitch-perl					install
 libswresample-dev:amd64				install
 libswresample-ffmpeg1:amd64			install
+libswresample-ffmpeg1:i386			install
 libswscale-ffmpeg3:amd64			install
 libsybdb5:amd64					install
 libsynctex1					install
@@ -2394,7 +2377,6 @@ libtimedate-perl				install
 libtinfo-dev:amd64				install
 libtinfo5:amd64					install
 libtinfo5:i386					install
-libtinyxml2.6.2:amd64				deinstall
 libtinyxml2.6.2v5:amd64				install
 libtirpc1:amd64					install
 libtk8.6:amd64					install
@@ -2411,6 +2393,7 @@ libtry-tiny-perl				install
 libtsan0:amd64					install
 libturbojpeg0:amd64				install
 libtwolame0:amd64				install
+libtwolame0:i386				install
 libtxc-dxtn-s2tc0:amd64				install
 libtxc-dxtn-s2tc0:i386				install
 libtype-tiny-perl				install
@@ -2426,6 +2409,7 @@ libunicode-utf8-perl				install
 libuniconf4.6					install
 libuninameslist-dev				install
 libuninameslist0				install
+libunique-1.0-0					install
 libunique-3.0-0					install
 libunistring0:amd64				install
 libuniversal-require-perl			install
@@ -2481,7 +2465,6 @@ libvorbisenc2:i386				install
 libvorbisfile3:amd64				install
 libvorbisfile3:i386				install
 libvpb-dev					install
-libvpb0						deinstall
 libvpb1						install
 libvpx2:amd64					install
 libvpx2:i386					install
@@ -2492,6 +2475,7 @@ libvte-2.91-common				install
 libvte-common					install
 libvte9						install
 libwavpack1:amd64				install
+libwavpack1:i386				install
 libwayland-client0:amd64			install
 libwayland-cursor0:amd64			install
 libwayland-dev					install
@@ -2501,6 +2485,7 @@ libwbclient0:amd64				install
 libweather-ion7					install
 libwebkit2gtk-4.0-37:amd64			install
 libwebp5:amd64					install
+libwebp5:i386					install
 libwebpdemux1:amd64				install
 libwebpmux1:amd64				install
 libwebrtc-audio-processing-0:amd64		install
@@ -2545,10 +2530,8 @@ libwvstreams4.6-extras				install
 libwww-perl					install
 libwww-robotrules-perl				install
 libwxbase2.8-0:amd64				install
-libwxbase3.0-0:amd64				deinstall
 libwxbase3.0-0v5:amd64				install
 libwxgtk2.8-0:amd64				install
-libwxgtk3.0-0:amd64				deinstall
 libwxgtk3.0-0v5:amd64				install
 libx11-6:amd64					install
 libx11-6:i386					install
@@ -2732,6 +2715,7 @@ libzmq3:amd64					install
 libzmq3-dev:amd64				install
 libzvbi-common					install
 libzvbi0:amd64					install
+libzvbi0:i386					install
 libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
@@ -3358,7 +3342,6 @@ racket-common					install
 racket-doc					install
 radeontool					install
 rarian-compat					install
-readahead-fedora				install
 readline-common					install
 realpath					install
 reaver						install
