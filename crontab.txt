@@ -2,7 +2,5 @@
 @daily php /var/www/mw-master/core/extensions/LocalisationUpdate/update.php --quiet
 
 #Commits dotfiles to github dotfiles repo
-30 09 * * * /bin/bash /home/kartik/.bin/sync-dotfiles
-30 12 * * * /bin/bash /home/kartik/.bin/sync-dotfiles
-30 18 * * * /bin/bash /home/kartik/.bin/sync-dotfiles
-30 21 * * * /bin/bash /home/kartik/.bin/sync-dotfiles
+#30 09 * * * /bin/bash /home/kartik/.bin/sync-dotfiles
+0,30 * * * * /bin/bash /home/kartik/.bin/sync-dotfiles
