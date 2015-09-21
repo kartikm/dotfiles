@@ -763,7 +763,6 @@ libaudit-dev:amd64				install
 libaudit1:amd64					install
 libaudit1:i386					install
 libaugeas0					install
-libauparse0:amd64				install
 libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
 libauthen-sasl-perl				install
@@ -917,7 +916,6 @@ libcli1.9:amd64					install
 libcln6						install
 libclone-perl					install
 libcloog-isl4:amd64				install
-libcloog-ppl1:amd64				install
 libclucene-contribs1v5:amd64			install
 libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
@@ -968,7 +966,7 @@ libcrypt-rijndael-perl				install
 libcrypt-ssleay-perl				install
 libcrypt-unixcrypt-xs-perl			install
 libcrypt-x509-perl				install
-libcrypto++9					install
+libcrypto++9					deinstall
 libcryptsetup-dev:amd64				install
 libcryptsetup4:amd64				install
 libcrystalhd3:amd64				install
@@ -1204,6 +1202,7 @@ libgeronimo-jta-1.1-spec-java			install
 libgetopt-long-descriptive-perl			install
 libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
+libgexiv2-2:amd64				install
 libgfortran3:amd64				install
 libghc-cabal-dev				install
 libgif-dev					install
@@ -1328,7 +1327,6 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhcrypto4-heimdal:amd64			install
 libhdf5-8:amd64					install
-libheap-perl					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
 libhfst40					install
@@ -1952,7 +1950,6 @@ libpcrecpp0v5:amd64				install
 libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
-libperl4-corelibs-perl				install
 libperl5.20					install
 libperlio-gzip-perl				install
 libpgm-5.1-0					install
@@ -1990,8 +1987,6 @@ libpostproc-ffmpeg53:amd64			install
 libpotrace0					install
 libpowerdevilcore2				install
 libpowerdevilui5				install
-libppl-c4:amd64					install
-libppl13:amd64					install
 libpq5:amd64					install
 libpri-dev					install
 libpri1.4					install
@@ -2399,6 +2394,8 @@ libutempter0					install
 libuuid-perl					install
 libuuid1:amd64					install
 libuuid1:i386					install
+libuv1:amd64					install
+libuv1-dev:amd64				install
 libv4l-0:amd64					install
 libv4lconvert0:amd64				install
 libv8-3.14-dev					install
@@ -3431,7 +3428,6 @@ sweeper						install
 swig						install
 swig2.0						install
 synaptic					install
-synergy						install
 sysfsutils					install
 systemd						install
 systemd-sysv					install
