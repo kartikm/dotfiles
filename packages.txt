@@ -2398,8 +2398,7 @@ libuv1:amd64					install
 libuv1-dev:amd64				install
 libv4l-0:amd64					install
 libv4lconvert0:amd64				install
-libv8-3.14-dev					install
-libv8-3.14.5					install
+libv8-3.14.5					deinstall
 libva-drm1:amd64				install
 libva-x11-1:amd64				install
 libva1:amd64					install
