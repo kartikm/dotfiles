@@ -3144,6 +3144,7 @@ python-pyparsing				install
 python-pyqt5					install
 python-pyqt5.qtsvg				install
 python-pyqt5.qtwebkit				install
+python-pysimplesoap				install
 python-qrtools					install
 python-recoll					install
 python-reportbug				install
