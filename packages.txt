@@ -3231,6 +3231,7 @@ python3-numpy					install
 python3-pil:amd64				install
 python3-pip					install
 python3-pkg-resources				install
+python3-pycurl					install
 python3-pyparsing				install
 python3-pyqt4					install
 python3-recoll					install
