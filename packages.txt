@@ -801,8 +801,8 @@ libbabl-0.1-0:amd64				install
 libbaloocore4					install
 libbaloofiles4					install
 libbaloopim4					install
-libbalooqueryparser4				install
-libbaloowidgets4				install
+libbalooqueryparser4				deinstall
+libbaloowidgets4				deinstall
 libbalooxapian4					install
 libbareword-filehandles-perl			install
 libbase-java					install
@@ -862,8 +862,7 @@ libcairomm-1.0-1v5				install
 libcamd2.3.1:amd64				install
 libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
-libcanberra-gtk3-0:amd64			install
-libcanberra-gtk3-module:amd64			install
+libcanberra-gtk3-0:amd64			deinstall
 libcanberra0:amd64				install
 libcap-dev:amd64				install
 libcap-ng0:amd64				install
@@ -1037,6 +1036,7 @@ libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export100				install
 libdns100					install
+libdolphinvcs5:amd64				install
 libdom4j-java					install
 libdouble-conversion1:amd64			install
 libdpkg-perl					install
@@ -1499,6 +1499,8 @@ libkf5auth-data					install
 libkf5auth5:amd64				install
 libkf5baloo5					install
 libkf5balooengine5				install
+libkf5baloowidgets-bin				install
+libkf5baloowidgets5:amd64			install
 libkf5bluezqt-data				install
 libkf5bluezqt6:amd64				install
 libkf5bookmarks-data				install
@@ -1620,7 +1622,7 @@ libkf5xmlgui5:amd64				install
 libkf5xmlrpcclient-data				install
 libkf5xmlrpcclient5:amd64			install
 libkfile4					install
-libkfilemetadata4				install
+libkfilemetadata4				deinstall
 libkfontinst5					install
 libkfontinstui5					install
 libkhtml5					install
