@@ -2221,6 +2221,8 @@ libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsmi2ldbl:amd64				install
 libsmpeg0:amd64					install
+libsnappy1v5:amd64				install
+libsnappy1v5:i386				install
 libsndfile1:amd64				install
 libsndfile1:i386				install
 libsoap-lite-perl				install
@@ -2231,7 +2233,8 @@ libsoftware-license-perl			install
 libsolid4					install
 libsombok3:amd64				install
 libsoprano4					install
-libsoundtouch0:amd64				install
+libsoundtouch0:amd64				deinstall
+libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
 libsoup2.4-dev					install
@@ -2691,10 +2694,14 @@ linux-base					install
 linux-compiler-gcc-4.9-x86			install
 linux-headers-4.1.0-2-amd64			install
 linux-headers-4.1.0-2-common			install
+linux-headers-4.2.0-1-amd64			install
+linux-headers-4.2.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.1.0-2-amd64			install
+linux-image-4.2.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.1				install
+linux-kbuild-4.2				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
