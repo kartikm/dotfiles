@@ -826,12 +826,12 @@ libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.58.0:amd64			install
 libboost-dev:amd64				install
-libboost-filesystem1.55.0:amd64			install
+libboost-filesystem1.55.0:amd64			deinstall
 libboost-filesystem1.58.0:amd64			install
 libboost-iostreams1.58.0:amd64			install
 libboost-program-options1.58.0:amd64		install
 libboost-python1.58.0				install
-libboost-system1.55.0:amd64			install
+libboost-system1.55.0:amd64			deinstall
 libboost-system1.58.0:amd64			install
 libboost1.58-dev:amd64				install
 libbrlapi0.6:amd64				install
