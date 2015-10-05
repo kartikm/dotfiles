@@ -761,7 +761,7 @@ libaudiofile1:i386				install
 libaudit-common					install
 libaudit-dev:amd64				install
 libaudit1:amd64					install
-libaudit1:i386					install
+libaudit1:i386					deinstall
 libaugeas0					install
 libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
@@ -1326,6 +1326,7 @@ libharfbuzz0b:amd64				install
 libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhcrypto4-heimdal:amd64			install
+libhdf5-10:amd64				install
 libhdf5-8:amd64					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
@@ -1909,7 +1910,7 @@ libpam-modules-bin				install
 libpam-runtime					install
 libpam-systemd:amd64				install
 libpam0g:amd64					install
-libpam0g:i386					install
+libpam0g:i386					deinstall
 libpam0g-dev:amd64				install
 libpango-1.0-0:amd64				install
 libpango-1.0-0:i386				install
@@ -2420,6 +2421,7 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex4					install
+libvigraimpex5v5				install
 libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
@@ -3083,7 +3085,6 @@ python-enum34					install
 python-extras					install
 python-feedparser				install
 python-fixtures					install
-python-flask					install
 python-fontforge				install
 python-formencode				install
 python-gdbm					install
@@ -3104,7 +3105,6 @@ python-httplib2					install
 python-idna					install
 python-imaging					install
 python-ipaddress				install
-python-itsdangerous				install
 python-jinja2					install
 python-jwt					install
 python-libhfst					install
@@ -3147,15 +3147,16 @@ python-pycurl					install
 python-pyexiv2					install
 python-pygame					install
 python-pygments					install
-python-pyinotify				install
 python-pymongo					install
 python-pymongo-ext				install
 python-pyparsing				install
+python-pyperclip				install
 python-pyqt5					install
 python-pyqt5.qtsvg				install
 python-pyqt5.qtwebkit				install
 python-pysimplesoap				install
 python-qrtools					install
+python-qt4					install
 python-recoll					install
 python-reportbug				install
 python-repoze.lru				install
@@ -3201,7 +3202,6 @@ python-virtualenv				install
 python-vte					install
 python-webob					install
 python-webunit					install
-python-werkzeug					install
 python-wicd					install
 python-wstools					install
 python-wxgtk2.8					install
