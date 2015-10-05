@@ -121,6 +121,12 @@ cm-super-minimal				install
 cmake						install
 cmake-data					install
 cmatrix						install
+coinor-libcbc3					install
+coinor-libcgl1					install
+coinor-libclp1					install
+coinor-libcoinmp1v5:amd64			install
+coinor-libcoinutils3v5				install
+coinor-libosi1v5				install
 colord						install
 colord-data					install
 colordiff					install
