@@ -199,6 +199,7 @@ dh-exec						install
 dh-make						install
 dh-php5						install
 dh-python					install
+dh-strip-nondeterminism				install
 dh-systemd					install
 dia						install
 dia-common					install
@@ -423,7 +424,6 @@ gimp-data					install
 gir1.2-atk-1.0					install
 gir1.2-freedesktop:amd64			install
 gir1.2-gdkpixbuf-2.0:amd64			install
-gir1.2-gee-1.0:amd64				install
 gir1.2-glib-2.0:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0:amd64				install
@@ -934,7 +934,6 @@ libcommons-io-java				install
 libcommons-lang-java				install
 libcommons-logging-java				install
 libcommons-net-java				install
-libcommons-net1-java				install
 libcommons-parent-java				install
 libcommons-pool-java				install
 libconfig-auto-perl				install
@@ -1123,6 +1122,7 @@ libfile-listing-perl				install
 libfile-mimeinfo-perl				install
 libfile-next-perl				install
 libfile-slurp-perl				install
+libfile-stripnondeterminism-perl		install
 libfile-which-perl				install
 libfl-dev:amd64					install
 libflac8:amd64					install
@@ -1192,9 +1192,8 @@ libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
 libgdraw4					install
 libgee-0.8-2:amd64				install
-libgee-dev					install
-libgee2:amd64					install
 libgegl-0.2-0:amd64				install
+libgegl-0.3-0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
 libgeronimo-jms-1.1-spec-java			install
@@ -1327,7 +1326,6 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhcrypto4-heimdal:amd64			install
 libhdf5-10:amd64				install
-libhdf5-8:amd64					install
 libheimbase1-heimdal:amd64			install
 libheimntlm0-heimdal:amd64			install
 libhfst40					install
@@ -2028,11 +2026,14 @@ libpython3.4:amd64				install
 libpython3.4-dev:amd64				install
 libpython3.4-minimal:amd64			install
 libpython3.4-stdlib:amd64			install
+libpython3.5-minimal:amd64			install
+libpython3.5-stdlib:amd64			install
 libqalculate5-data				install
 libqalculate5v5:amd64				install
 libqca2:amd64					install
 libqca2-plugins:amd64				install
 libqdbm14					install
+libqgsttools-p1:amd64				install
 libqimageblitz4					install
 libqjson-dev					install
 libqjson0:amd64					install
@@ -2071,7 +2072,9 @@ libqt5designercomponents5:amd64			install
 libqt5gui5:amd64				install
 libqt5help5:amd64				install
 libqt5multimedia5:amd64				install
+libqt5multimedia5-plugins:amd64			install
 libqt5multimediaquick-p5:amd64			install
+libqt5multimediawidgets5:amd64			install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
 libqt5opengl5-dev:amd64				install
@@ -2199,6 +2202,7 @@ libserf-1-1:amd64				install
 libserializer-java				install
 libservlet2.5-java				install
 libservlet3.0-java				install
+libservlet3.1-java				install
 libsgmls-perl					install
 libshine3:amd64					install
 libshine3:i386					install
@@ -2417,7 +2421,6 @@ libvdeplug2					install
 libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
-libvigraimpex4					install
 libvigraimpex5v5				install
 libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
@@ -2924,6 +2927,7 @@ php-gettext					install
 php-pear					install
 php-phpdocumentor-reflection-docblock		install
 php-phpspec-prophecy				install
+php-seclib					install
 php-symfony-yaml				install
 php-tcpdf					install
 php-text-template				install
@@ -2954,7 +2958,6 @@ phpunit-exporter				install
 phpunit-global-state				install
 phpunit-mock-object				install
 phpunit-recursion-context			install
-phpunit-story					install
 phpunit-version					install
 pidgin						install
 pidgin-data					install
@@ -3094,7 +3097,6 @@ python-gobject-2				install
 python-googleapi				install
 python-gridfs					install
 python-gtk2					install
-python-gtkspell					install
 python-html5lib					install
 python-html5lib-whl				install
 python-httplib2					install
@@ -3218,6 +3220,7 @@ python3-aptdaemon.gtk3widgets			install
 python3-bs4					install
 python3-chardet					install
 python3-colorama				install
+python3-cycler					install
 python3-dateutil				install
 python3-dbus					install
 python3-debian					install
@@ -3259,6 +3262,8 @@ python3-yaml					install
 python3.4					install
 python3.4-dev					install
 python3.4-minimal				install
+python3.5					install
+python3.5-minimal				install
 qdbus						install
 qdbus-qt5					install
 qemu						install
@@ -3284,6 +3289,8 @@ qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
 qml-module-org-kde-runnermodel			install
 qml-module-org-kde-solid:amd64			install
+qml-module-qt-labs-folderlistmodel:amd64	install
+qml-module-qt-labs-settings:amd64		install
 qml-module-qtgraphicaleffects:amd64		install
 qml-module-qtmultimedia:amd64			install
 qml-module-qtquick-controls:amd64		install
