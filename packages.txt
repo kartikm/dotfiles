@@ -807,8 +807,6 @@ libbabl-0.1-0:amd64				install
 libbaloocore4					install
 libbaloofiles4					install
 libbaloopim4					install
-libbalooqueryparser4				deinstall
-libbaloowidgets4				deinstall
 libbalooxapian4					install
 libbareword-filehandles-perl			install
 libbase-java					install
@@ -832,12 +830,10 @@ libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.58.0:amd64			install
 libboost-dev:amd64				install
-libboost-filesystem1.55.0:amd64			deinstall
 libboost-filesystem1.58.0:amd64			install
 libboost-iostreams1.58.0:amd64			install
 libboost-program-options1.58.0:amd64		install
 libboost-python1.58.0				install
-libboost-system1.55.0:amd64			deinstall
 libboost-system1.58.0:amd64			install
 libboost1.58-dev:amd64				install
 libbrlapi0.6:amd64				install
@@ -868,7 +864,6 @@ libcairomm-1.0-1v5				install
 libcamd2.3.1:amd64				install
 libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
-libcanberra-gtk3-0:amd64			deinstall
 libcanberra0:amd64				install
 libcap-dev:amd64				install
 libcap-ng0:amd64				install
@@ -971,7 +966,6 @@ libcrypt-rijndael-perl				install
 libcrypt-ssleay-perl				install
 libcrypt-unixcrypt-xs-perl			install
 libcrypt-x509-perl				install
-libcrypto++9					deinstall
 libcryptsetup-dev:amd64				install
 libcryptsetup4:amd64				install
 libcrystalhd3:amd64				install
@@ -1629,7 +1623,6 @@ libkf5xmlgui5:amd64				install
 libkf5xmlrpcclient-data				install
 libkf5xmlrpcclient5:amd64			install
 libkfile4					install
-libkfilemetadata4				deinstall
 libkfontinst5					install
 libkfontinstui5					install
 libkhtml5					install
@@ -2240,7 +2233,6 @@ libsoftware-license-perl			install
 libsolid4					install
 libsombok3:amd64				install
 libsoprano4					install
-libsoundtouch0:amd64				deinstall
 libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
@@ -2411,7 +2403,6 @@ libuv1:amd64					install
 libuv1-dev:amd64				install
 libv4l-0:amd64					install
 libv4lconvert0:amd64				install
-libv8-3.14.5					deinstall
 libva-drm1:amd64				install
 libva-x11-1:amd64				install
 libva1:amd64					install
@@ -2870,7 +2861,6 @@ ntfs-3g						install
 ntp						install
 ntpdate						install
 ntrack-module-libnl-0				install
-obex-data-server				deinstall
 obexpushd					install
 odbcinst					install
 odbcinst1debian2:amd64				install
