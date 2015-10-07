@@ -32,6 +32,8 @@ apertium-apy					install
 apertium-dev					install
 apertium-eo-ca					install
 apertium-eo-es					install
+apertium-es-it					install
+apertium-es-ro					install
 apertium-lex-tools				install
 apg						install
 apparmor-easyprof				install
@@ -2413,6 +2415,7 @@ libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
 libvala-0.28-0:amd64				install
+libvala-0.30-0:amd64				install
 libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
@@ -3542,9 +3545,8 @@ uuid-runtime					install
 va-driver-all:amd64				install
 va-driver-all:i386				install
 vagrant						install
-valac						install
-valac-0.28					install
 valac-0.28-vapi					install
+valac-0.30-vapi					install
 varnish						install
 vbetool						install
 vcsh						install
