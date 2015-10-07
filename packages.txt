@@ -2870,7 +2870,7 @@ ntfs-3g						install
 ntp						install
 ntpdate						install
 ntrack-module-libnl-0				install
-obex-data-server				install
+obex-data-server				deinstall
 obexpushd					install
 odbcinst					install
 odbcinst1debian2:amd64				install
