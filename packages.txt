@@ -866,7 +866,7 @@ libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2-dev					install
-libcairomm-1.0-1v5				install
+libcairomm-1.0-1v5:amd64			install
 libcamd2.3.1:amd64				install
 libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
