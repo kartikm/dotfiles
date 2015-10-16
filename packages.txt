@@ -147,6 +147,7 @@ coreutils					install
 cowbuilder					install
 cowdancer					install
 cowsay						install
+cowsay-off					install
 cpio						install
 cpp						install
 cpp-4.8						install
@@ -467,7 +468,6 @@ golang						install
 golang-doc					install
 golang-go					install
 golang-go-linux-amd64				install
-golang-go.tools					install
 golang-golang-x-tools				install
 golang-golang-x-tools-dev			install
 golang-src					install
@@ -1198,7 +1198,6 @@ libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
 libgdraw4					install
 libgee-0.8-2:amd64				install
-libgegl-0.2-0:amd64				install
 libgegl-0.3-0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
@@ -2418,8 +2417,7 @@ libva-x11-1:amd64				install
 libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
-libvala-0.28-0:amd64				install
-libvala-0.30-0:amd64				install
+libvala-0.28-0:amd64				deinstall
 libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
@@ -2527,6 +2525,7 @@ libx264-146:amd64				install
 libx264-146:i386				install
 libx265-59:amd64				install
 libx265-59:i386					install
+libx265-68:amd64				install
 libx86-1:amd64					install
 libxalan2-java					install
 libxapian-dev					install
@@ -3104,6 +3103,7 @@ python-gobject-2				install
 python-googleapi				install
 python-gridfs					install
 python-gtk2					install
+python-hpack					install
 python-html5lib					install
 python-html5lib-whl				install
 python-httplib2					install
@@ -3549,8 +3549,6 @@ uuid-runtime					install
 va-driver-all:amd64				install
 va-driver-all:i386				install
 vagrant						install
-valac-0.28-vapi					install
-valac-0.30-vapi					install
 varnish						install
 vbetool						install
 vcsh						install
