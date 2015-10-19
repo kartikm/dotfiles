@@ -1646,7 +1646,7 @@ libkonq5-templates				install
 libkonq5abi1					install
 libkonqsidebarplugin4a				install
 libkparts4					install
-libkpathsea6					install
+libkpathsea6:amd64				install
 libkprintutils4					install
 libkpty4					install
 libkrb5-26-heimdal:amd64			install
@@ -2005,7 +2005,7 @@ libproxy-tools					install
 libproxy1v5:amd64				install
 libpsl0:amd64					install
 libpspell-dev:amd64				install
-libptexenc1					install
+libptexenc1:amd64				install
 libpth-dev					install
 libpth20:amd64					install
 libpthread-stubs0-dev:amd64			install
@@ -2298,7 +2298,7 @@ libswresample-ffmpeg1:amd64			install
 libswresample-ffmpeg1:i386			install
 libswscale-ffmpeg3:amd64			install
 libsybdb5:amd64					install
-libsynctex1					install
+libsynctex1:amd64				install
 libsyntax-highlight-engine-simple-languages-perl	install
 libsyntax-highlight-engine-simple-perl		install
 libsys-cpu-perl					install
@@ -2328,8 +2328,8 @@ libterm-readline-perl-perl			install
 libterm-size-perl				install
 libterm-ui-perl					install
 libtevent0:amd64				install
-libtexlua52					install
-libtexluajit2					install
+libtexlua52:amd64				install
+libtexluajit2:amd64				install
 libtext-aspell-perl				install
 libtext-charwidth-perl				install
 libtext-iconv-perl				install
