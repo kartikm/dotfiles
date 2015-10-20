@@ -494,7 +494,6 @@ grub2-splashimages				install
 gsettings-desktop-schemas			install
 gsfonts						install
 gsfonts-x11					install
-gstreamer0.10-alsa:amd64			install
 gstreamer0.10-gconf:amd64			install
 gstreamer0.10-nice:amd64			install
 gstreamer0.10-plugins-bad:amd64			install
@@ -1471,7 +1470,6 @@ libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
 libjsoncpp0v5:amd64				install
-libjsr107cache-java				install
 libjsr166y-java					install
 libjte1						install
 libjzlib-java					install
