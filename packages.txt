@@ -32,13 +32,10 @@ apertium-apy					install
 apertium-dev					install
 apertium-eo-ca					install
 apertium-eo-es					install
-apertium-es-it					install
 apertium-es-ro					install
-apertium-is-sv					install
 apertium-isl					install
 apertium-isl-eng				install
 apertium-lex-tools				install
-apertium-mlt-ara				install
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -884,8 +881,6 @@ libcdaudio1					install
 libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
-libcdio-cdda1					install
-libcdio-paranoia1				install
 libcdio13					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1					install
@@ -1896,7 +1891,6 @@ libopenexr6v5:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
 libopenobex1					install
-libopenraw1:amd64				deinstall
 libopenraw1v5:amd64				install
 liboping0:amd64					install
 libopts25:amd64					install
@@ -1991,7 +1985,6 @@ libpng12-dev:amd64				install
 libpod-latex-perl				install
 libpod-markdown-perl				install
 libpod-readme-perl				install
-libpodofo0.9.0v5				install
 libpolkit-agent-1-0:amd64			install
 libpolkit-backend-1-0:amd64			install
 libpolkit-gobject-1-0:amd64			install
@@ -2546,8 +2539,7 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-146:amd64				install
 libx264-146:i386				install
-libx265-59:amd64				install
-libx265-59:i386					install
+libx265-59:i386					deinstall
 libx265-68:amd64				install
 libx265-68:i386					install
 libx86-1:amd64					install
@@ -2724,15 +2716,11 @@ libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.9-x86			install
-linux-headers-4.1.0-2-amd64			install
-linux-headers-4.1.0-2-common			install
 linux-headers-4.2.0-1-amd64			install
 linux-headers-4.2.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.1.0-2-amd64			install
 linux-image-4.2.0-1-amd64			install
 linux-image-amd64				install
-linux-kbuild-4.1				install
 linux-kbuild-4.2				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
@@ -2791,7 +2779,6 @@ mosh						install
 mount						install
 mozilla-devscripts				install
 mpg123						install
-mplayer2					install
 mr						install
 mscompress					install
 msp430-libc					install
@@ -3064,7 +3051,6 @@ python-alabaster				install
 python-all					install
 python-all-dev					install
 python-appindicator				install
-python-apsw					install
 python-apt					install
 python-apt-common				install
 python-aptdaemon				install
@@ -3081,7 +3067,6 @@ python-cffi					install
 python-cffi-backend				install
 python-chardet					install
 python-chardet-whl				install
-python-cherrypy3				install
 python-colorama					install
 python-colorama-whl				install
 python-configargparse				install
@@ -3090,7 +3075,6 @@ python-coverage					install
 python-crypto					install
 python-cryptography				install
 python-cssselect				install
-python-cssutils					install
 python-dateutil					install
 python-dbus					install
 python-dbus-dev					install
@@ -3112,7 +3096,6 @@ python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-enum34					install
 python-extras					install
-python-feedparser				install
 python-fixtures					install
 python-fontforge				install
 python-formencode				install
@@ -3138,21 +3121,17 @@ python-jinja2					install
 python-jwt					install
 python-libhfst					install
 python-librdf					install
-python-libxml2					install
 python-linecache2				install
 python-logilab-common				install
 python-lxml					install
 python-lzma					install
 python-magic					install
-python-markdown					install
 python-markupsafe				install
 python-matplotlib-data				install
-python-mechanize				install
 python-mimeparse				install
 python-minimal					install
 python-mysqldb					install
 python-ndg-httpsclient				install
-python-netifaces				install
 python-netlib					install
 python-nose					install
 python-notify					install
@@ -3179,7 +3158,6 @@ python-pygame					install
 python-pygments					install
 python-pymongo					install
 python-pymongo-ext				install
-python-pyparsing				install
 python-pyperclip				install
 python-pyqt5					install
 python-pyqt5.qtsvg				install
@@ -3194,7 +3172,6 @@ python-requests					install
 python-requests-oauthlib			install
 python-requests-whl				install
 python-roman					install
-python-routes					install
 python-rsa					install
 python-serial					install
 python-setuptools				install
@@ -3228,11 +3205,9 @@ python-uritemplate				install
 python-urllib3					install
 python-urllib3-whl				install
 python-urwid					install
-python-utidylib					install
 python-validictory				install
 python-virtualenv				install
 python-vte					install
-python-webob					install
 python-webunit					install
 python-wicd					install
 python-wstools					install
