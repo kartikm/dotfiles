@@ -90,7 +90,6 @@ binutils					install
 binutils-avr					install
 binutils-msp430					install
 bison						install
-bittornado					install
 blt						install
 bluedevil					install
 bluez						install
@@ -114,8 +113,6 @@ ca-certificates-java				install
 cabal-install					install
 cabextract					install
 calendar-google-provider			install
-calibre						install
-calibre-bin					install
 catdoc						install
 cdbs						install
 cdebootstrap					install
@@ -294,9 +291,11 @@ firebird-dev					install
 firebird2.5-common				install
 firebird2.5-common-doc				install
 firebird2.5-server-common			install
+firmware-amd-graphics				install
 firmware-linux					install
 firmware-linux-free				install
 firmware-linux-nonfree				install
+firmware-misc-nonfree				install
 firmware-realtek				install
 flex						install
 fontconfig					install
@@ -502,6 +501,8 @@ gstreamer0.10-plugins-good:amd64		install
 gstreamer0.10-pulseaudio:amd64			install
 gstreamer0.10-x:amd64				install
 gstreamer1.0-libav:amd64			install
+gstreamer1.0-nice:amd64				install
+gstreamer1.0-plugins-bad:amd64			install
 gstreamer1.0-plugins-base:amd64			install
 gstreamer1.0-plugins-good:amd64			install
 gstreamer1.0-plugins-ugly:amd64			install
@@ -1019,6 +1020,7 @@ libdbusmenu-qt5-2:amd64				install
 libdc1394-22:amd64				install
 libdca0:amd64					install
 libdconf1:amd64					install
+libde265-0:amd64				install
 libdebconfclient0:amd64				install
 libdebian-installer-extra4:amd64		install
 libdebian-installer4:amd64			install
@@ -1106,6 +1108,7 @@ libfakeroot:amd64				install
 libfaketime:amd64				install
 libfam0						install
 libfarstream-0.1-0:amd64			install
+libfarstream-0.2-2:amd64			install
 libfbclient2:amd64				install
 libfbembed2.5					install
 libfcgi-perl					install
@@ -1293,6 +1296,7 @@ libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			install
 libgssdp-1.0-3					install
 libgstreamer-plugins-bad0.10-0:amd64		install
+libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base0.10-0:amd64		install
 libgstreamer-plugins-base0.10-0:i386		install
 libgstreamer-plugins-base1.0-0:amd64		install
@@ -1308,6 +1312,7 @@ libgtk2.0-0:amd64				install
 libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
+libgtkglext1					install
 libgtkmm-2.4-1v5:amd64				install
 libgtkspell0					install
 libguard-perl					install
@@ -1743,6 +1748,7 @@ libmikmod3:amd64				install
 libmime-charset-perl				install
 libmime-tools-perl				install
 libmimic0:amd64					install
+libmjpegutils-2.1-0				install
 libmm-glib0:amd64				install
 libmms0:amd64					install
 libmng1:amd64					install
@@ -1768,9 +1774,11 @@ libmpc3:amd64					install
 libmpcdec6:amd64				install
 libmpdec2:amd64					install
 libmpeg2-4:amd64				install
+libmpeg2encpp-2.1-0				install
 libmpfr4:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
+libmplex2-2.1-0					install
 libmpx0:amd64					install
 libmro-compat-perl				install
 libmspack0:amd64				install
@@ -1873,11 +1881,23 @@ libopenblas-base				install
 libopenconnect5:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
+libopencv-calib3d2.4v5:amd64			install
+libopencv-contrib2.4v5:amd64			install
+libopencv-core2.4v5:amd64			install
+libopencv-features2d2.4v5:amd64			install
+libopencv-flann2.4v5:amd64			install
+libopencv-highgui2.4v5:amd64			install
+libopencv-imgproc2.4v5:amd64			install
+libopencv-legacy2.4v5:amd64			install
+libopencv-ml2.4v5:amd64				install
+libopencv-objdetect2.4v5:amd64			install
+libopencv-video2.4v5:amd64			install
 libopenexr6v5:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
 libopenobex1					install
-libopenraw1:amd64				install
+libopenraw1:amd64				deinstall
+libopenraw1v5:amd64				install
 liboping0:amd64					install
 libopts25:amd64					install
 libopus0:amd64					install
@@ -2072,6 +2092,7 @@ libqt5dbus5:amd64				install
 libqt5declarative5:amd64			install
 libqt5designer5:amd64				install
 libqt5designercomponents5:amd64			install
+libqt5egldeviceintegration5:amd64		install
 libqt5gui5:amd64				install
 libqt5help5:amd64				install
 libqt5multimedia5:amd64				install
@@ -2096,6 +2117,7 @@ libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
+libqt5xcbqpa5:amd64				install
 libqt5xml5:amd64				install
 libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
@@ -2144,6 +2166,7 @@ libreoffice-report-builder			install
 libreoffice-report-builder-bin			install
 libreoffice-style-galaxy			install
 libreoffice-style-oxygen			install
+libreoffice-style-tango				install
 libreoffice-writer				install
 librepository-java				install
 libresample1					install
@@ -2162,6 +2185,7 @@ librtmp1:amd64					install
 libruby2.1:amd64				install
 librxtx-java					install
 librygel-core-2.6-2				install
+librygel-db-2.6-2				install
 librygel-renderer-2.6-2				install
 librygel-server-2.6-2				install
 libsac-java					install
@@ -2175,6 +2199,7 @@ libsasl2-dev					install
 libsasl2-modules:amd64				install
 libsasl2-modules-db:amd64			install
 libsaxon-java					install
+libsbc1:amd64					install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
 libschroedinger-1.0-0:i386			install
@@ -2316,6 +2341,7 @@ libtasn1-6:amd64				install
 libtasn1-6:i386					install
 libtasn1-6-dev:amd64				install
 libtasn1-doc					install
+libtbb2:amd64					install
 libtcl8.6:amd64					install
 libtdb1:amd64					install
 libtdb1:i386					install
@@ -2415,7 +2441,6 @@ libva-x11-1:amd64				install
 libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
-libvala-0.28-0:amd64				deinstall
 libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
@@ -2524,6 +2549,7 @@ libx264-146:i386				install
 libx265-59:amd64				install
 libx265-59:i386					install
 libx265-68:amd64				install
+libx265-68:i386					install
 libx86-1:amd64					install
 libxalan2-java					install
 libxapian-dev					install
@@ -3113,6 +3139,7 @@ python-jwt					install
 python-libhfst					install
 python-librdf					install
 python-libxml2					install
+python-linecache2				install
 python-logilab-common				install
 python-lxml					install
 python-lzma					install
@@ -3193,8 +3220,10 @@ python-testtools				install
 python-tk					install
 python-tornado					install
 python-toro					install
+python-traceback2				install
 python-tweepy					install
 python-tz					install
+python-unittest2				install
 python-uritemplate				install
 python-urllib3					install
 python-urllib3-whl				install
@@ -3310,6 +3339,7 @@ qmlscene					install
 qprint						install
 qrencode					install
 qt4-qmake					install
+qt5-image-formats-plugins:amd64			install
 qt5-qmake:amd64					install
 qtbase5-dev:amd64				install
 qtbase5-dev-tools				install
