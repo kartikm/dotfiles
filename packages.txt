@@ -460,13 +460,6 @@ gnuplot-tex					install
 gnuplot-x11					install
 gnuplot5-data					install
 gnuplot5-qt					install
-golang						install
-golang-doc					install
-golang-go					install
-golang-go-linux-amd64				install
-golang-golang-x-tools				install
-golang-golang-x-tools-dev			install
-golang-src					install
 google-chrome-stable				install
 google-talkplugin				install
 gource						install
@@ -2824,6 +2817,7 @@ nginx-full					install
 nmap						install
 nocache						install
 node-abbrev					install
+node-amdefine					install
 node-ansi					install
 node-ansi-color-table				install
 node-archy					install
@@ -2866,6 +2860,7 @@ node-semver					install
 node-sha					install
 node-sigmund					install
 node-slide					install
+node-source-map					install
 node-tar					install
 node-tunnel-agent				install
 node-underscore					install
