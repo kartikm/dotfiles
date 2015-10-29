@@ -171,6 +171,7 @@ alias mum='git fetch upstream; git merge upstream/master;'
 alias prod='git checkout production'
 alias pull='git checkout master && git pull'
 alias review='git fetch gerrit; git review;'
+alias gss='git show HEAD'
 alias gst='git show --stat'
 
 # Cucumber
