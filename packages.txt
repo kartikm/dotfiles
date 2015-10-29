@@ -256,6 +256,7 @@ emacs-snapshot-el				install
 emacs24						install
 emacs24-bin-common				install
 emacs24-common					install
+emacs24-el					install
 emacsen-common					install
 enblend						install
 enchant						install
@@ -1039,6 +1040,7 @@ libdom4j-java					install
 libdouble-conversion1:amd64			install
 libdpkg-perl					install
 libdrm-amdgpu1:amd64				install
+libdrm-amdgpu1:i386				install
 libdrm-dev:amd64				install
 libdrm-intel1:amd64				install
 libdrm-intel1:i386				install
@@ -1682,7 +1684,8 @@ liblist-moreutils-perl				install
 liblivemedia23					install
 libllvm3.5:i386					deinstall
 libllvm3.5v5:amd64				install
-libllvm3.5v5:i386				install
+libllvm3.7:amd64				install
+libllvm3.7:i386					install
 liblmdb0:amd64					install
 libloader-java					install
 liblocale-gettext-perl				install
