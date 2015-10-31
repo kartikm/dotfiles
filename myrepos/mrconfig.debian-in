@@ -202,6 +202,9 @@ checkout = git_checkout hyphen-gu
 [hyphen-hi]
 checkout = git_checkout hyphen-hi
 
+[hyphen-indic]
+checkout = git_checkout hyphen-indic
+
 [hyphen-kn]
 checkout = git_checkout hyphen-kn
 
