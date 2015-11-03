@@ -526,7 +526,17 @@ hostname					install
 html2text					install
 htop						install
 hunspell-en-us					install
+hyphen-as					install
+hyphen-bn					install
 hyphen-gu					install
+hyphen-hi					install
+hyphen-kn					install
+hyphen-ml					install
+hyphen-mr					install
+hyphen-or					install
+hyphen-pa					install
+hyphen-ta					install
+hyphen-te					install
 i3lock						install
 i3status					install
 i965-va-driver:amd64				install
