@@ -1281,7 +1281,8 @@ libgphoto2-l10n					install
 libgphoto2-port12:amd64				install
 libgpm2:amd64					install
 libgpm2:i386					install
-libgps21:amd64					install
+libgps21:amd64					deinstall
+libgps22:amd64					install
 libgraph-perl					install
 libgraphite2-3:amd64				install
 libgraphite2-3:i386				install
@@ -1688,7 +1689,8 @@ liblensfun-data					install
 liblensfun0					install
 liblexical-sealrequirehints-perl		install
 liblinear-tools					install
-liblinear1:amd64				install
+liblinear1:amd64				deinstall
+liblinear3:amd64				install
 liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia23					install
@@ -2260,6 +2262,7 @@ libsnappy1v5:amd64				install
 libsnappy1v5:i386				install
 libsndfile1:amd64				install
 libsndfile1:i386				install
+libsndio6.0:amd64				install
 libsoap-lite-perl				install
 libsocket6-perl					install
 libsodium-dev:amd64				install
@@ -2324,6 +2327,7 @@ libswresample-dev:amd64				install
 libswresample-ffmpeg1:amd64			install
 libswresample-ffmpeg1:i386			install
 libswscale-ffmpeg3:amd64			install
+libswscale-ffmpeg3:i386				install
 libsybdb5:amd64					install
 libsynctex1:amd64				install
 libsyntax-highlight-engine-simple-languages-perl	install
@@ -2442,6 +2446,7 @@ libv4l-0:amd64					install
 libv4lconvert0:amd64				install
 libva-drm1:amd64				install
 libva-x11-1:amd64				install
+libva-x11-1:i386				install
 libva1:amd64					install
 libva1:i386					install
 libval14:amd64					install
@@ -2450,6 +2455,7 @@ libvarnishapi1					install
 libvcdinfo0					install
 libvde0						install
 libvdeplug2					install
+libvdpau-va-gl1:i386				install
 libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
@@ -2548,9 +2554,10 @@ libx11-protocol-perl				install
 libx11-xcb-dev:amd64				install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
-libx264-146:amd64				install
-libx264-146:i386				install
+libx264-146:amd64				deinstall
+libx264-146:i386				deinstall
 libx264-148:amd64				install
+libx264-148:i386				install
 libx265-59:i386					deinstall
 libx265-68:amd64				install
 libx265-68:i386					install
@@ -2775,6 +2782,7 @@ mercurial-common				install
 mesa-common-dev:amd64				install
 mesa-utils					install
 mesa-vdpau-drivers:amd64			install
+mesa-vdpau-drivers:i386				install
 milou						install
 mime-support					install
 mitmproxy					install
@@ -2952,6 +2960,7 @@ phonon4qt5:amd64				install
 phonon4qt5-backend-vlc:amd64			install
 php-codecoverage				install
 php-codesniffer					install
+php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
 php-gettext					install
@@ -2989,6 +2998,7 @@ phpunit-exporter				install
 phpunit-global-state				install
 phpunit-mock-object				install
 phpunit-recursion-context			install
+phpunit-resource-operations			install
 phpunit-version					install
 pidgin						install
 pidgin-data					install
@@ -3470,7 +3480,7 @@ sudo						install
 svn-buildpackage				install
 sweeper						install
 swig						install
-swig2.0						install
+swig3.0						install
 synaptic					install
 sysfsutils					install
 systemd						install
@@ -3576,6 +3586,7 @@ varnish						install
 vbetool						install
 vcsh						install
 vde2						install
+vdpau-driver-all:i386				install
 vdpau-va-driver:amd64				install
 vdpau-va-driver:i386				install
 velocity					install
