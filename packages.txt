@@ -2300,6 +2300,7 @@ libssh2-1:amd64					install
 libssh2-1-dev:amd64				install
 libssl-dev:amd64				install
 libssl1.0.0:amd64				install
+libssl1.0.2:amd64				install
 libstartup-notification0:amd64			install
 libstdc++-4.8-dev:amd64				install
 libstdc++-4.9-dev:amd64				install
@@ -2549,6 +2550,7 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-146:amd64				install
 libx264-146:i386				install
+libx264-148:amd64				install
 libx265-59:i386					deinstall
 libx265-68:amd64				install
 libx265-68:i386					install
@@ -3075,6 +3077,7 @@ python-bs4					install
 python-bson					install
 python-bson-ext					install
 python-cairo					install
+python-certifi					install
 python-cffi					install
 python-cffi-backend				install
 python-chardet					install
@@ -3108,6 +3111,7 @@ python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-enum34					install
 python-extras					install
+python-feedparser				install
 python-fixtures					install
 python-fontforge				install
 python-formencode				install
@@ -3123,6 +3127,7 @@ python-googleapi				install
 python-gridfs					install
 python-gtk2					install
 python-hpack					install
+python-html2text				install
 python-html5lib					install
 python-html5lib-whl				install
 python-httplib2					install
@@ -3133,6 +3138,7 @@ python-jinja2					install
 python-jwt					install
 python-libhfst					install
 python-librdf					install
+python-libxml2					install
 python-linecache2				install
 python-logilab-common				install
 python-lxml					install
@@ -3170,6 +3176,7 @@ python-pygame					install
 python-pygments					install
 python-pymongo					install
 python-pymongo-ext				install
+python-pyparsing				install
 python-pyperclip				install
 python-pyqt5					install
 python-pyqt5.qtsvg				install
@@ -3217,6 +3224,7 @@ python-uritemplate				install
 python-urllib3					install
 python-urllib3-whl				install
 python-urwid					install
+python-utidylib					install
 python-validictory				install
 python-virtualenv				install
 python-vte					install
