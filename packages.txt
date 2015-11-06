@@ -2989,7 +2989,7 @@ php5-mcrypt					install
 php5-mysql					install
 php5-pgsql					install
 php5-xdebug					install
-phpmyadmin					install
+phpmyadmin					deinstall
 phpunit						install
 phpunit-comparator				install
 phpunit-diff					install
