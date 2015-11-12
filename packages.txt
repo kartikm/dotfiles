@@ -162,7 +162,7 @@ curl						install
 cvs						install
 d-shlibs					install
 dash						install
-dbconfig-common					install
+dbconfig-common					deinstall
 dbus						install
 dbus-x11					install
 dc						install
@@ -301,6 +301,7 @@ fontconfig					install
 fontconfig-config				install
 fontforge					install
 fontforge-common				install
+fonts-ancient-scripts				install
 fonts-beng					install
 fonts-beng-extra				install
 fonts-cantarell					install
@@ -362,6 +363,7 @@ fonts-sil-gentium				install
 fonts-sil-gentium-basic				install
 fonts-smc					install
 fonts-stix					install
+fonts-symbola					install
 fonts-telu					install
 fonts-telu-extra				install
 fonts-texgyre					install
@@ -854,6 +856,7 @@ libbsd0:amd64					install
 libbsd0:i386					install
 libbsf-java					install
 libburn4					install
+libbytes-random-secure-perl			install
 libbz2-1.0:amd64				install
 libbz2-dev:amd64				install
 libc-ares-dev:amd64				install
@@ -970,6 +973,7 @@ libcrypt-mysql-perl				install
 libcrypt-openssl-bignum-perl			install
 libcrypt-openssl-rsa-perl			install
 libcrypt-passwdmd5-perl				install
+libcrypt-random-seed-perl			install
 libcrypt-rijndael-perl				install
 libcrypt-ssleay-perl				install
 libcrypt-unixcrypt-xs-perl			install
@@ -1742,6 +1746,8 @@ libmail-java					install
 libmail-sendmail-perl				install
 libmailtools-perl				install
 libmarkdown2:amd64				install
+libmath-random-isaac-perl			install
+libmath-random-isaac-xs-perl			install
 libmatroska6v5:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
@@ -2275,6 +2281,7 @@ libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
 libsoup2.4-dev					install
+libsoxr0:amd64					install
 libsp1c2					install
 libspandsp2:amd64				install
 libspectre1:amd64				install
@@ -2963,11 +2970,9 @@ php-codesniffer					install
 php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
-php-gettext					install
 php-pear					install
 php-phpdocumentor-reflection-docblock		install
 php-phpspec-prophecy				install
-php-seclib					install
 php-symfony-yaml				install
 php-tcpdf					install
 php-text-template				install
@@ -3177,6 +3182,7 @@ python-pip					install
 python-pip-whl					install
 python-pkg-resources				install
 python-ply					install
+python-ptyprocess				install
 python-pyasn1					install
 python-pyasn1-modules				install
 python-pycparser				install
