@@ -1237,6 +1237,7 @@ libglapi-mesa:i386				install
 libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
 libglew1.10:amd64				install
+libglew1.13:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
 libglib2.0-0:i386				install
@@ -1880,6 +1881,7 @@ libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
 libode1						install
+libode4						install
 libodfgen-0.1-1					install
 libofa0:amd64					install
 libogg-dev:amd64				install
