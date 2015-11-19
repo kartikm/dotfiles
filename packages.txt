@@ -438,7 +438,7 @@ gir1.2-notify-0.7				install
 gir1.2-pango-1.0:amd64				install
 gir1.2-soup-2.4					install
 gir1.2-vte-2.90					install
-gir1.2-vte-2.91					install
+gir1.2-vte-2.91:amd64				install
 git						install
 git-annex					install
 git-buildpackage				install
@@ -888,7 +888,7 @@ libcapture-tiny-perl				install
 libcc1-0:amd64					install
 libccid						install
 libccolamd2.8.0:amd64				install
-libcdaudio1					install
+libcdaudio1:amd64				install
 libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
@@ -1713,8 +1713,8 @@ liblog-message-simple-perl			install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
 liblognorm2:amd64				install
-libloudmouth1-0					install
-libloudmouth1-dev				install
+libloudmouth1-0:amd64				install
+libloudmouth1-dev:amd64				install
 liblqr-1-0:amd64				install
 liblsan0:amd64					install
 libltdl-dev:amd64				install
@@ -2491,7 +2491,7 @@ libvpx2:amd64					install
 libvpx2:i386					install
 libvte-2.90-9					install
 libvte-2.90-common				install
-libvte-2.91-0					install
+libvte-2.91-0:amd64				install
 libvte-2.91-common				install
 libvte-common					install
 libvte9						install
