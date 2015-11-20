@@ -1079,7 +1079,7 @@ libegl1-mesa-dev:amd64				install
 libehcache-java					install
 libelf1:amd64					install
 libelf1:i386					install
-libelfg0:amd64					install
+libelfg0:amd64					deinstall
 libemail-valid-perl				install
 libenca0:amd64					install
 libenchant-dev					install
@@ -1236,7 +1236,7 @@ libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
-libglew1.10:amd64				install
+libglew1.10:amd64				deinstall
 libglew1.13:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
@@ -1880,7 +1880,7 @@ libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
-libode1						install
+libode1						deinstall
 libode4						install
 libodfgen-0.1-1					install
 libofa0:amd64					install
