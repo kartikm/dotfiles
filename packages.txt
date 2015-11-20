@@ -643,7 +643,7 @@ keepassx					install
 kernel-wedge					install
 kerneloops					install
 kerneloops-applet				install
-kerneloops-daemon				install
+kerneloops-daemon				deinstall
 keyboard-configuration				install
 kfind						install
 khelpcenter					install
