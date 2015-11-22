@@ -2437,6 +2437,7 @@ libupnp6					install
 libupower-glib3:amd64				install
 liburcu-dev					install
 liburcu2:amd64					install
+liburcu4:amd64					install
 liburi-perl					install
 libusageenvironment1				install
 libusb-0.1-4:amd64				install
@@ -2771,6 +2772,7 @@ ltrace						install
 lttoolbox					install
 lttoolbox-dev					install
 lua-lgi:amd64					install
+lua-lpeg:amd64					install
 lua5.2						install
 lynx-cur					install
 lzip						install
