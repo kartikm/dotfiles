@@ -2536,7 +2536,9 @@ libwinpr-thread0.1:amd64			install
 libwinpr-utils0.1:amd64				install
 libwireshark-data				install
 libwireshark5:amd64				install
+libwireshark6:amd64				install
 libwiretap4:amd64				install
+libwiretap5:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
@@ -2547,6 +2549,7 @@ libwrap0:amd64					install
 libwrap0:i386					install
 libwsdl4j-java					install
 libwsutil4:amd64				install
+libwsutil6:amd64				install
 libwvstreams4.6-base				install
 libwvstreams4.6-extras				install
 libwww-perl					install
@@ -3639,6 +3642,7 @@ wireless-regdb					install
 wireless-tools					install
 wireshark					install
 wireshark-common				install
+wireshark-qt					install
 wodim						install
 wotsap						install
 wpasupplicant					install
