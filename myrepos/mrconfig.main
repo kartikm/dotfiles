@@ -127,6 +127,9 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xdalicloc
 [development/debian/packages/xosview/git/xosview]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.git' 'xosview'
 
+[development/debian/packages/yokadi/git/yokadi]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/yokadi.git' 'yokadi'
+
 # l10n
 [development/l10n/KDE/gu]
 checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/gu' 'gu'
