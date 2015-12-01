@@ -489,11 +489,8 @@ gsfonts						install
 gsfonts-x11					install
 gstreamer0.10-gconf:amd64			install
 gstreamer0.10-nice:amd64			install
-gstreamer0.10-plugins-bad:amd64			install
 gstreamer0.10-plugins-base:amd64		install
-gstreamer0.10-plugins-good:amd64		install
 gstreamer0.10-pulseaudio:amd64			install
-gstreamer0.10-x:amd64				install
 gstreamer1.0-libav:amd64			install
 gstreamer1.0-nice:amd64				install
 gstreamer1.0-plugins-bad:amd64			install
@@ -732,8 +729,10 @@ libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
 libaprutil1-ldap:amd64				install
 libapt-inst1.7:amd64				install
+libapt-inst2.0:amd64				install
 libapt-pkg-perl					install
 libapt-pkg4.16:amd64				install
+libapt-pkg5.0:amd64				install
 libarchive-extract-perl				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
@@ -888,7 +887,6 @@ libcapture-tiny-perl				install
 libcc1-0:amd64					install
 libccid						install
 libccolamd2.8.0:amd64				install
-libcdaudio1:amd64				install
 libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
@@ -1088,6 +1086,7 @@ libencode-locale-perl				install
 libeot0						install
 libepoxy0:amd64					install
 libept1.4.16:amd64				install
+libept1.5.0:amd64				install
 libepub0					install
 liberror-perl					install
 libesd0:amd64					install
@@ -1115,7 +1114,6 @@ libfakekey0:amd64				install
 libfakeroot:amd64				install
 libfaketime:amd64				install
 libfam0						install
-libfarstream-0.1-0:amd64			install
 libfarstream-0.2-2:amd64			install
 libfbclient2:amd64				install
 libfbembed2.5					install
@@ -1305,7 +1303,6 @@ libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			install
 libgssdp-1.0-3					install
-libgstreamer-plugins-bad0.10-0:amd64		install
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base0.10-0:amd64		install
 libgstreamer-plugins-base0.10-0:i386		install
@@ -2196,6 +2193,7 @@ librsvg2-bin					install
 librsvg2-common:amd64				install
 librtmp1:amd64					install
 libruby2.1:amd64				install
+libruby2.2:amd64				install
 librxtx-java					install
 librygel-core-2.6-2				install
 librygel-db-2.6-2				install
@@ -2258,7 +2256,6 @@ libsigsegv2:amd64				install
 libslang2:amd64					install
 libslang2:i386					install
 libslang2-dev:amd64				install
-libslv2-9:amd64					install
 libsm-dev:amd64					install
 libsm6:amd64					install
 libsm6:i386					install
@@ -2535,9 +2532,7 @@ libwinpr-sysinfo0.1:amd64			install
 libwinpr-thread0.1:amd64			install
 libwinpr-utils0.1:amd64				install
 libwireshark-data				install
-libwireshark5:amd64				install
 libwireshark6:amd64				install
-libwiretap4:amd64				install
 libwiretap5:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
@@ -2548,7 +2543,6 @@ libwps-0.4-4					install
 libwrap0:amd64					install
 libwrap0:i386					install
 libwsdl4j-java					install
-libwsutil4:amd64				install
 libwsutil6:amd64				install
 libwvstreams4.6-base				install
 libwvstreams4.6-extras				install
@@ -3413,6 +3407,7 @@ ruby-json					install
 ruby-listen					install
 ruby-log4r					install
 ruby-mime-types					install
+ruby-minitest					install
 ruby-molinillo					install
 ruby-net-http-persistent			install
 ruby-net-scp					install
@@ -3420,6 +3415,7 @@ ruby-net-sftp					install
 ruby-net-ssh					install
 ruby-netrc					install
 ruby-nokogiri					install
+ruby-power-assert				install
 ruby-rb-inotify					install
 ruby-rest-client				install
 ruby-rgen					install
@@ -3427,12 +3423,15 @@ ruby-safe-yaml					install
 ruby-selinux					install
 ruby-shadow					install
 ruby-sqlite3					install
+ruby-test-unit					install
 ruby-thor					install
 ruby-timers					install
 ruby-unf					install
 ruby-unf-ext					install
 ruby2.1						install
 ruby2.1-dev:amd64				install
+ruby2.2						install
+ruby2.2-dev:amd64				install
 rubygems-integration				install
 rygel						install
 rygel-gst-launch				install
