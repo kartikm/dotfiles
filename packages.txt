@@ -489,7 +489,6 @@ gsettings-desktop-schemas			install
 gsfonts						install
 gsfonts-x11					install
 gstreamer0.10-gconf:amd64			install
-gstreamer0.10-nice:amd64			install
 gstreamer0.10-plugins-base:amd64		install
 gstreamer0.10-pulseaudio:amd64			install
 gstreamer1.0-libav:amd64			install
@@ -730,7 +729,6 @@ libaprutil1-dbd-sqlite3:amd64			install
 libaprutil1-ldap:amd64				install
 libapt-inst2.0:amd64				install
 libapt-pkg-perl					install
-libapt-pkg4.16:amd64				install
 libapt-pkg5.0:amd64				install
 libarchive-extract-perl				install
 libarchive-zip-perl				install
@@ -1082,7 +1080,6 @@ libenchant1c2a:amd64				install
 libencode-locale-perl				install
 libeot0						install
 libepoxy0:amd64					install
-libept1.4.16:amd64				install
 libept1.5.0:amd64				install
 libepub0					install
 liberror-perl					install
@@ -2630,7 +2627,6 @@ libxdmcp6:amd64					install
 libxdmcp6:i386					install
 libxdo3:amd64					install
 libxdot4					install
-libxen-4.4:amd64				install
 libxen-4.6:amd64				install
 libxenstore3.0:amd64				install
 libxerces2-java					install
