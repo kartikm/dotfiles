@@ -162,7 +162,7 @@ curl						install
 cvs						install
 d-shlibs					install
 dash						install
-dbconfig-common					deinstall
+dbconfig-common					install
 dbus						install
 dbus-x11					install
 dc						install
@@ -344,6 +344,7 @@ fonts-mlym					install
 fonts-nakula					install
 fonts-nanum					install
 fonts-navilu					install
+fonts-noto-hinted				install
 fonts-noto-unhinted				install
 fonts-opensymbol				install
 fonts-orya					install
@@ -640,7 +641,6 @@ keepassx					install
 kernel-wedge					install
 kerneloops					install
 kerneloops-applet				install
-kerneloops-daemon				deinstall
 keyboard-configuration				install
 kfind						install
 khelpcenter					install
@@ -728,7 +728,6 @@ libapr1:amd64					install
 libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
 libaprutil1-ldap:amd64				install
-libapt-inst1.7:amd64				install
 libapt-inst2.0:amd64				install
 libapt-pkg-perl					install
 libapt-pkg4.16:amd64				install
@@ -785,7 +784,6 @@ libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
 libauthen-sasl-perl				install
 libautodie-perl					install
-libav-tools					deinstall
 libavahi-client-dev				install
 libavahi-client3:amd64				install
 libavahi-client3:i386				install
@@ -1077,7 +1075,6 @@ libegl1-mesa-dev:amd64				install
 libehcache-java					install
 libelf1:amd64					install
 libelf1:i386					install
-libelfg0:amd64					deinstall
 libemail-valid-perl				install
 libenca0:amd64					install
 libenchant-dev					install
@@ -1234,7 +1231,6 @@ libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
-libglew1.10:amd64				deinstall
 libglew1.13:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
@@ -1284,7 +1280,6 @@ libgphoto2-l10n					install
 libgphoto2-port12:amd64				install
 libgpm2:amd64					install
 libgpm2:i386					install
-libgps21:amd64					deinstall
 libgps22:amd64					install
 libgraph-perl					install
 libgraphite2-3:amd64				install
@@ -1691,7 +1686,6 @@ liblensfun-data					install
 liblensfun0					install
 liblexical-sealrequirehints-perl		install
 liblinear-tools					install
-liblinear1:amd64				deinstall
 liblinear3:amd64				install
 liblircclient0					install
 liblist-moreutils-perl				install
@@ -1877,7 +1871,6 @@ libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
-libode1						deinstall
 libode4						install
 libodfgen-0.1-1					install
 libofa0:amd64					install
@@ -2433,7 +2426,6 @@ libuniversal-require-perl			install
 libupnp6					install
 libupower-glib3:amd64				install
 liburcu-dev					install
-liburcu2:amd64					install
 liburcu4:amd64					install
 liburi-perl					install
 libusageenvironment1				install
@@ -2561,11 +2553,8 @@ libx11-protocol-perl				install
 libx11-xcb-dev:amd64				install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
-libx264-146:amd64				deinstall
-libx264-146:i386				deinstall
 libx264-148:amd64				install
 libx264-148:i386				install
-libx265-59:i386					deinstall
 libx265-68:amd64				install
 libx265-68:i386					install
 libx86-1:amd64					install
@@ -2598,12 +2587,15 @@ libxcb-present-dev:amd64			install
 libxcb-present0:amd64				install
 libxcb-present0:i386				install
 libxcb-randr0:amd64				install
+libxcb-randr0:i386				install
 libxcb-randr0-dev:amd64				install
 libxcb-record0:amd64				install
 libxcb-render-util0:amd64			install
 libxcb-render0:amd64				install
+libxcb-render0:i386				install
 libxcb-render0-dev:amd64			install
 libxcb-shape0:amd64				install
+libxcb-shape0:i386				install
 libxcb-shape0-dev:amd64				install
 libxcb-shm0:amd64				install
 libxcb-shm0-dev:amd64				install
@@ -2613,6 +2605,7 @@ libxcb-sync1:i386				install
 libxcb-util0:amd64				install
 libxcb-xf86dri0:amd64				install
 libxcb-xfixes0:amd64				install
+libxcb-xfixes0:i386				install
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
@@ -2638,6 +2631,7 @@ libxdmcp6:i386					install
 libxdo3:amd64					install
 libxdot4					install
 libxen-4.4:amd64				install
+libxen-4.6:amd64				install
 libxenstore3.0:amd64				install
 libxerces2-java					install
 libxext-dev:amd64				install
@@ -2971,9 +2965,11 @@ php-codesniffer					install
 php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
+php-gettext					install
 php-pear					install
 php-phpdocumentor-reflection-docblock		install
 php-phpspec-prophecy				install
+php-seclib					install
 php-symfony-yaml				install
 php-tcpdf					install
 php-text-template				install
@@ -2995,7 +2991,7 @@ php5-mcrypt					install
 php5-mysql					install
 php5-pgsql					install
 php5-xdebug					install
-phpmyadmin					deinstall
+phpmyadmin					install
 phpunit						install
 phpunit-comparator				install
 phpunit-diff					install
@@ -3429,7 +3425,6 @@ ruby-timers					install
 ruby-unf					install
 ruby-unf-ext					install
 ruby2.1						install
-ruby2.1-dev:amd64				install
 ruby2.2						install
 ruby2.2-dev:amd64				install
 rubygems-integration				install
