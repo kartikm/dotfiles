@@ -906,6 +906,7 @@ libchromaprint0:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclang1-3.5:amd64				install
+libclang1-3.6:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
@@ -1689,6 +1690,7 @@ liblist-moreutils-perl				install
 liblivemedia23					install
 libllvm3.5:i386					deinstall
 libllvm3.5v5:amd64				install
+libllvm3.6v5:amd64				install
 libllvm3.7:amd64				install
 libllvm3.7:i386					install
 liblmdb0:amd64					install
