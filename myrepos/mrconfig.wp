@@ -184,3 +184,6 @@ checkout = git clone 'git@github.com:ankitashukla/spelling-dictionary-opw.git' '
 
 [Misc/schroot]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/tools/schroot' 'schroot'
+
+[labs/private]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/labs/private' 'private'
