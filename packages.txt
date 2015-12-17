@@ -116,6 +116,7 @@ cdbs						install
 cdebootstrap					install
 cdparanoia					install
 cg3						install
+cgroupfs-mount					install
 chromium					install
 chrpath						install
 cm-super-minimal				install
@@ -230,6 +231,8 @@ doc-base					install
 doc-debian					install
 docbook-xml					install
 docbook-xsl					install
+docker						install
+docker.io					install
 docutils-common					install
 docutils-doc					install
 dolphin						install
