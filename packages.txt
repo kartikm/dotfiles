@@ -905,7 +905,6 @@ libcholmod2.1.2:amd64				install
 libchromaprint0:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
-libclang1-3.5:amd64				install
 libclang1-3.6:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
@@ -1373,7 +1372,7 @@ libice6:amd64					install
 libice6:i386					install
 libicu-dev:amd64				install
 libicu52:amd64					install
-libicu52:i386					install
+libicu52:i386					deinstall
 libicu55:amd64					install
 libicu55:i386					install
 libid3tag0					install
@@ -1689,7 +1688,6 @@ liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia23					install
 libllvm3.5:i386					deinstall
-libllvm3.5v5:amd64				install
 libllvm3.6v5:amd64				install
 libllvm3.7:amd64				install
 libllvm3.7:i386					install
@@ -2112,6 +2110,7 @@ libqt5quicktest5:amd64				install
 libqt5quickwidgets5:amd64			install
 libqt5script5:amd64				install
 libqt5sql5:amd64				install
+libqt5sql5-mysql:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5svg5:amd64				install
 libqt5test5:amd64				install
