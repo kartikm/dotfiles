@@ -231,7 +231,6 @@ doc-base					install
 doc-debian					install
 docbook-xml					install
 docbook-xsl					install
-docker						install
 docker.io					install
 docutils-common					install
 docutils-doc					install
