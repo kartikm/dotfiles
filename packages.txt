@@ -231,7 +231,6 @@ doc-base					install
 doc-debian					install
 docbook-xml					install
 docbook-xsl					install
-docker.io					install
 docutils-common					install
 docutils-doc					install
 dolphin						install
@@ -2735,13 +2734,17 @@ libzzip-0-13:amd64				install
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.9-x86			install
+linux-compiler-gcc-5-x86			install
 linux-headers-4.2.0-1-amd64			install
 linux-headers-4.2.0-1-common			install
+linux-headers-4.3.0-1-amd64			install
+linux-headers-4.3.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.2.0-1-amd64			install
 linux-image-4.3.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.2				install
+linux-kbuild-4.3				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
