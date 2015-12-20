@@ -116,7 +116,7 @@ cdbs						install
 cdebootstrap					install
 cdparanoia					install
 cg3						install
-cgroupfs-mount					install
+cgroupfs-mount					deinstall
 chromium					install
 chrpath						install
 cm-super-minimal				install
