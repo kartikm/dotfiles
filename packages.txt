@@ -1214,6 +1214,7 @@ libgfortran3:amd64				install
 libghc-cabal-dev				install
 libgif-dev					install
 libgif4:amd64					install
+libgif7:amd64					install
 libgimp2.0					install
 libgirara-gtk3-2:amd64				install
 libgirepository-1.0-1:amd64			install
