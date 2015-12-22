@@ -740,7 +740,7 @@ libasan1:amd64					install
 libasan2:amd64					install
 libasm3-java					install
 libasm4-java					install
-libasn1-8-heimdal:amd64				install
+libasn1-8-heimdal:amd64				deinstall
 libasound2:amd64				install
 libasound2:i386					install
 libasound2-data					install
@@ -865,6 +865,7 @@ libc6-dev:amd64					install
 libc6-i686:i386					install
 libcaca0:amd64					install
 libcaca0:i386					install
+libcacard0:amd64				install
 libcairo-gobject2:amd64				install
 libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
@@ -1295,7 +1296,7 @@ libgsm1-dev:amd64				install
 libgsoap7:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
-libgssapi3-heimdal:amd64			install
+libgssapi3-heimdal:amd64			deinstall
 libgssdp-1.0-3					install
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base0.10-0:amd64		install
@@ -1334,10 +1335,10 @@ libharfbuzz-icu0:amd64				install
 libharfbuzz0b:amd64				install
 libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
-libhcrypto4-heimdal:amd64			install
+libhcrypto4-heimdal:amd64			deinstall
 libhdf5-10:amd64				install
-libheimbase1-heimdal:amd64			install
-libheimntlm0-heimdal:amd64			install
+libheimbase1-heimdal:amd64			deinstall
+libheimntlm0-heimdal:amd64			deinstall
 libhfst40					install
 libhfst40-dev					install
 libhogweed4:amd64				install
@@ -1364,7 +1365,7 @@ libhttpclient-java				install
 libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.3-0:amd64				install
-libhx509-5-heimdal:amd64			install
+libhx509-5-heimdal:amd64			deinstall
 libhyphen0					install
 libib-util:amd64				install
 libical-dev					install
@@ -1653,7 +1654,7 @@ libkparts4					install
 libkpathsea6:amd64				install
 libkprintutils4					install
 libkpty4					install
-libkrb5-26-heimdal:amd64			install
+libkrb5-26-heimdal:amd64			deinstall
 libkrb5-3:amd64					install
 libkrb5-3:i386					install
 libkrb5support0:amd64				install
@@ -2003,6 +2004,7 @@ libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler46:amd64				install
+libpoppler57:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
@@ -2178,7 +2180,7 @@ libresid-builder0c2a				install
 librest-0.7-0:amd64				install
 librevenge-0.0-0				install
 librhino-java					install
-libroken18-heimdal:amd64			install
+libroken18-heimdal:amd64			deinstall
 librole-tiny-perl				install
 librpc-xml-perl					install
 librsvg2-2:amd64				install
@@ -2503,7 +2505,7 @@ libwebrtc-audio-processing-0:amd64		install
 libwerken.xpath-java				install
 libwildmidi-config				install
 libwildmidi1:amd64				install
-libwind0-heimdal:amd64				install
+libwind0-heimdal:amd64				deinstall
 libwinpr-crt0.1:amd64				install
 libwinpr-crypto0.1:amd64			install
 libwinpr-dsparse0.1:amd64			install
