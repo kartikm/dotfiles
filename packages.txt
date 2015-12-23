@@ -1289,7 +1289,8 @@ libgroupsock1					install
 libgs9						install
 libgs9-common					install
 libgsasl7					install
-libgsl0ldbl:amd64				install
+libgsl0ldbl:amd64				deinstall
+libgsl2:amd64					install
 libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
@@ -2003,7 +2004,7 @@ libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
-libpoppler46:amd64				install
+libpoppler46:amd64				deinstall
 libpoppler57:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
