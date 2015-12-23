@@ -2800,7 +2800,7 @@ mobile-broadband-provider-info			install
 moc						install
 modemmanager					install
 module-assistant				install
-module-init-tools				install
+module-init-tools				deinstall
 molly-guard					install
 monkeysphere					install
 moreutils					install
