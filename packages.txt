@@ -353,6 +353,7 @@ fonts-orya-extra				install
 fonts-oxygen					install
 fonts-pagul					install
 fonts-roboto					install
+fonts-roboto-hinted				install
 fonts-sahadeva					install
 fonts-samyak					install
 fonts-samyak-deva				install
