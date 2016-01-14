@@ -1916,7 +1916,7 @@ liborcus-0.10-0v5				install
 liboro-java					install
 libossp-uuid-perl				install
 libossp-uuid16:amd64				install
-libotf0						install
+libotf0:amd64					install
 libotr5						install
 liboxygenstyle5-5				install
 liboxygenstyleconfig5-5				install
