@@ -2564,7 +2564,7 @@ libx265-68:i386					install
 libx86-1:amd64					install
 libxalan2-java					install
 libxapian-dev					install
-libxapian22v5					install
+libxapian22v5:amd64				install
 libxatracker2:amd64				install
 libxau-dev:amd64				install
 libxau6:amd64					install
