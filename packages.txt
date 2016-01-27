@@ -1268,6 +1268,7 @@ libgnutls-deb0-28:amd64				install
 libgnutls-deb0-28:i386				install
 libgnutls-openssl27:amd64			install
 libgnutls28-dev:amd64				install
+libgnutls30:amd64				install
 libgnutlsxx28:amd64				install
 libgomp1:amd64					install
 libgpars-groovy-java				install
