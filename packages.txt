@@ -1747,7 +1747,7 @@ libmatroska6v5:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmcrypt4					install
-libmeanwhile1					install
+libmeanwhile1:amd64				install
 libmediaart-2.0-0:amd64				install
 libmetadata-extractor-java			install
 libmhash-dev					install
@@ -1811,7 +1811,7 @@ libncurses5-dev:amd64				install
 libncursesw5:amd64				install
 libncursesw5:i386				install
 libndp0:amd64					install
-libneon27-gnutls				install
+libneon27-gnutls:amd64				install
 libnepomuk4					install
 libnepomukquery4a				install
 libnepomukutils4				install
