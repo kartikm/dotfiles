@@ -2099,7 +2099,6 @@ libqt5dbus5:amd64				install
 libqt5declarative5:amd64			install
 libqt5designer5:amd64				install
 libqt5designercomponents5:amd64			install
-libqt5egldeviceintegration5:amd64		install
 libqt5gui5:amd64				install
 libqt5help5:amd64				install
 libqt5multimedia5:amd64				install
@@ -2125,7 +2124,7 @@ libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
-libqt5xcbqpa5:amd64				install
+libqt5xcbqpa5					install
 libqt5xml5:amd64				install
 libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
@@ -3744,6 +3743,7 @@ youtube-dl					install
 zathura						install
 zathura-cb					install
 zathura-djvu					install
+zathura-pdf-poppler				install
 zathura-ps					install
 zenity						install
 zenity-common					install
