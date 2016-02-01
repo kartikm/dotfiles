@@ -1111,7 +1111,8 @@ libfakekey0:amd64				install
 libfakeroot:amd64				install
 libfaketime:amd64				install
 libfam0						install
-libfarstream-0.2-2:amd64			install
+libfarstream-0.2-2:amd64			deinstall
+libfarstream-0.2-5:amd64			install
 libfbclient2:amd64				install
 libfbembed2.5					install
 libfcgi-perl					install
@@ -1980,7 +1981,7 @@ libpcrecpp0v5:amd64				install
 libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
-libperl5.20					install
+libperl5.22:amd64				install
 libperlio-gzip-perl				install
 libpgm-5.1-0					install
 libphonon4:amd64				install
@@ -2962,7 +2963,8 @@ pepperflashplugin-nonfree			install
 perl						install
 perl-base					install
 perl-doc					install
-perl-modules					install
+perl-modules					deinstall
+perl-modules-5.22				install
 phantomjs					install
 phonon:amd64					install
 phonon-backend-vlc:amd64			install
