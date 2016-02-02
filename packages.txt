@@ -27,16 +27,7 @@ apache2						install
 apache2-bin					install
 apache2-data					install
 apache2-utils					install
-apertium					install
-apertium-apy					install
-apertium-br-fr					install
-apertium-dev					install
-apertium-eo-ca					install
-apertium-eo-es					install
-apertium-es-ro					install
-apertium-isl					install
-apertium-isl-eng				install
-apertium-lex-tools				install
+apertium-apy					deinstall
 apg						install
 apparmor-easyprof				install
 apt						install
@@ -722,7 +713,7 @@ libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
-libapertium3-3.4-0:amd64			install
+libapertium3-3.4-0:amd64			deinstall
 libapparmor1:amd64				install
 libappindicator1				install
 libapr1:amd64					install
@@ -1715,7 +1706,9 @@ liblsan0:amd64					install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
-liblttoolbox3-3.3-0v5:amd64			install
+liblttoolbox3-3.3-0:amd64			install
+liblttoolbox3-3.3-0-dbgsym:amd64		install
+liblttoolbox3-3.3-0v5:amd64			deinstall
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -1768,7 +1761,6 @@ libmockobjects-java				install
 libmodplug1:amd64				install
 libmodule-build-perl				install
 libmodule-implementation-perl			install
-libmodule-pluggable-perl			install
 libmodule-runtime-perl				install
 libmodule-signature-perl			install
 libmoo-perl					install
@@ -1925,7 +1917,6 @@ liboxygenstyleconfig5-5				install
 libp11-kit-dev:amd64				install
 libp11-kit0:amd64				install
 libp11-kit0:i386				install
-libpackage-constants-perl			install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
 libpadwalker-perl				install
@@ -1996,7 +1987,7 @@ libplist3:amd64					install
 libpng12-0:amd64				install
 libpng12-0:i386					install
 libpng12-dev:amd64				install
-libpod-latex-perl				install
+libpod-latex-perl				deinstall
 libpod-markdown-perl				install
 libpod-readme-perl				install
 libpolkit-agent-1-0:amd64			install
@@ -2125,7 +2116,6 @@ libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
-libqt5xcbqpa5					install
 libqt5xml5:amd64				install
 libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
@@ -2371,7 +2361,6 @@ libtext-charwidth-perl				install
 libtext-iconv-perl				install
 libtext-levenshtein-perl			install
 libtext-markdown-discount-perl			install
-libtext-soundex-perl				install
 libtext-template-perl				install
 libtext-unidecode-perl				install
 libtext-wrapi18n-perl				install
@@ -2770,7 +2759,9 @@ lshw						install
 lsof						install
 ltrace						install
 lttoolbox					install
+lttoolbox-dbgsym				install
 lttoolbox-dev					install
+lttoolbox-dev-dbgsym				install
 lua-lgi:amd64					install
 lua-lpeg:amd64					install
 lua5.2						install
