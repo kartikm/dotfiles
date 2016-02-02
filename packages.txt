@@ -1334,8 +1334,8 @@ libhcrypto4-heimdal:amd64			deinstall
 libhdf5-10:amd64				install
 libheimbase1-heimdal:amd64			deinstall
 libheimntlm0-heimdal:amd64			deinstall
-libhfst40					install
-libhfst40-dev					install
+libhfst42					install
+libhfst42-dev					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
 libhpdf-2.2.1					install
