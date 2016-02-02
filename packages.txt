@@ -723,6 +723,7 @@ libaprutil1-ldap:amd64				install
 libapt-inst2.0:amd64				install
 libapt-pkg-perl					install
 libapt-pkg5.0:amd64				install
+libarchive-dev:amd64				install
 libarchive-extract-perl				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
@@ -2646,6 +2647,8 @@ libxkbcommon-x11-0:amd64			install
 libxkbcommon0:amd64				install
 libxkbfile1:amd64				install
 libxm4:amd64					install
+libxml++2.6-2v5:amd64				install
+libxml++2.6-dev:amd64				install
 libxml-commons-external-java			install
 libxml-commons-resolver1.1-java			install
 libxml-java					install
