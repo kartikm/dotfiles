@@ -32,6 +32,7 @@ apertium-apy					deinstall
 apertium-dbgsym					install
 apertium-dev					install
 apertium-dev-dbgsym				install
+apertium-es-ca					install
 apg						install
 apparmor-easyprof				install
 apt						install
