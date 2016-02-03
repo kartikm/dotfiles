@@ -3623,7 +3623,7 @@ virtualenvwrapper				install
 vlc						install
 vlc-data					install
 vlc-nox						install
-vlc-plugin-samba				install
+vlc-plugin-samba				deinstall
 vorbis-tools					install
 vpb-driver-source				install
 vpnc						install
