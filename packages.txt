@@ -538,7 +538,6 @@ iamerican					install
 icc-profiles-free				install
 icedove						install
 icedtea-7-jre-jamvm:amd64			install
-icedtea-netx:amd64				install
 icedtea-netx-common				install
 iceowl-extension				install
 iceweasel					install
@@ -839,12 +838,12 @@ libboost-python1.58.0				install
 libboost-system1.58.0:amd64			install
 libboost1.58-dev:amd64				install
 libbrlapi0.6:amd64				install
-libbs2b0					install
+libbs2b0:amd64					install
 libbsd-dev:amd64				install
 libbsd0:amd64					install
 libbsd0:i386					install
 libbsf-java					install
-libburn4					install
+libburn4:amd64					install
 libbytes-random-secure-perl			install
 libbz2-1.0:amd64				install
 libbz2-dev:amd64				install
@@ -1128,7 +1127,7 @@ libfile-next-perl				install
 libfile-slurp-perl				install
 libfile-stripnondeterminism-perl		install
 libfile-which-perl				install
-libfl-dev:amd64					install
+libfl-dev					install
 libflac8:amd64					install
 libflac8:i386					install
 libflite1:amd64					install
@@ -1414,9 +1413,10 @@ libisc95					install
 libisccc90					install
 libisccfg90					install
 libisl13:amd64					install
+libisl15:amd64					install
 libiso9660-8					install
-libisoburn1					install
-libisofs6					install
+libisoburn1:amd64				install
+libisofs6:amd64					install
 libisorelax-java				install
 libitext-java					install
 libitm1:amd64					install
