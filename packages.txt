@@ -1308,7 +1308,6 @@ libgsl2:amd64					install
 libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
-libgsoap7:amd64					install
 libgsoap8:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
@@ -2047,7 +2046,6 @@ libpri-dev					install
 libpri1.4					install
 libprocesscore7					install
 libprocessui7					install
-libprocps4:amd64				install
 libprocps5:amd64				install
 libprotobuf-c1					install
 libprotobuf-lite9v5:amd64			install
@@ -2519,7 +2517,7 @@ libvorbisfile3:amd64				install
 libvorbisfile3:i386				install
 libvpb-dev					install
 libvpb1						install
-libvpx2:amd64					install
+libvpx2:amd64					deinstall
 libvpx2:i386					deinstall
 libvpx3:amd64					install
 libvpx3:i386					install
@@ -3156,7 +3154,6 @@ python-certifi					install
 python-cffi					install
 python-cffi-backend				install
 python-chardet					install
-python-colorama					install
 python-configargparse				install
 python-configobj				install
 python-coverage					install
@@ -3172,7 +3169,6 @@ python-decorator				install
 python-defer					install
 python-defusedxml				install
 python-dev					install
-python-distlib					install
 python-distro-info				install
 python-dns					install
 python-dnspython				install
@@ -3318,7 +3314,6 @@ python3-aptdaemon				install
 python3-aptdaemon.gtk3widgets			install
 python3-bs4					install
 python3-chardet					install
-python3-colorama				install
 python3-cycler					install
 python3-dateutil				install
 python3-dbus					install
@@ -3326,7 +3321,6 @@ python3-debian					install
 python3-decorator				install
 python3-defer					install
 python3-dev					install
-python3-distlib					install
 python3-gi					install
 python3-html5lib				install
 python3-libapparmor				install
@@ -3344,7 +3338,6 @@ python3-pycurl					install
 python3-pyparsing				install
 python3-pyqt4					install
 python3-recoll					install
-python3-requests				install
 python3-setuptools				install
 python3-simplegeneric				install
 python3-sip					install
@@ -3354,7 +3347,6 @@ python3-tk					install
 python3-tornado					install
 python3-tz					install
 python3-uno					install
-python3-urllib3					install
 python3-wheel					install
 python3-yaml					install
 python3.4					install
@@ -3664,7 +3656,6 @@ virt-what					install
 virtualbox					install
 virtualbox-dkms					install
 virtualbox-qt					install
-virtualenv-clone				install
 virtualenvwrapper				deinstall
 vlc						install
 vlc-data					install
