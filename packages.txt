@@ -30,6 +30,7 @@ apache2-utils					install
 apertium-apy					deinstall
 apg						install
 apparmor-easyprof				install
+appstream					install
 apt						install
 apt-cacher-ng					install
 apt-file					install
@@ -178,6 +179,7 @@ debootstrap					install
 deborphan					install
 debsums						install
 debtree						install
+default-java-plugin				install
 default-jdk					install
 default-jre					install
 default-jre-headless				install
@@ -422,6 +424,7 @@ ghostscript-x					install
 giblib1:amd64					install
 gimp						install
 gimp-data					install
+gir1.2-appstream				install
 gir1.2-atk-1.0					install
 gir1.2-freedesktop:amd64			install
 gir1.2-gdkpixbuf-2.0:amd64			install
@@ -538,6 +541,8 @@ iamerican					install
 icc-profiles-free				install
 icedove						install
 icedtea-7-jre-jamvm:amd64			install
+icedtea-8-plugin:amd64				install
+icedtea-netx:amd64				install
 icedtea-netx-common				install
 iceowl-extension				install
 iceweasel					install
@@ -554,6 +559,7 @@ info						install
 init						install
 init-system-helpers				install
 initramfs-tools					install
+initramfs-tools-core				install
 initscripts					install
 insserv						install
 install-info					install
@@ -715,6 +721,7 @@ libapache-pom-java				install
 libapache2-mod-php5				install
 libapparmor1:amd64				install
 libappindicator1				install
+libappstream3:amd64				install
 libapr1:amd64					install
 libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
@@ -792,6 +799,7 @@ libavc1394-0:amd64				install
 libavcodec-dev:amd64				install
 libavcodec-ffmpeg56:amd64			install
 libavcodec-ffmpeg56:i386			install
+libavfilter-ffmpeg5:amd64			install
 libavformat-dev:amd64				install
 libavformat-ffmpeg56:amd64			install
 libavresample-ffmpeg2:amd64			install
@@ -812,6 +820,7 @@ libbalooxapian4					install
 libbareword-filehandles-perl			install
 libbase-java					install
 libbasicusageenvironment0			install
+libbasicusageenvironment1:amd64			install
 libbatik-java					install
 libbcmail-java					install
 libbcpkix-java					install
@@ -851,6 +860,7 @@ libc-ares-dev:amd64				install
 libc-ares2:amd64				install
 libc-bin					install
 libc-dev-bin					install
+libc-l10n					install
 libc6:amd64					install
 libc6:i386					install
 libc6-dev:amd64					install
@@ -920,6 +930,7 @@ libclucene-contribs1v5:amd64			install
 libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
 libcolamd2.8.0:amd64				install
+libcolamd2.9.1:amd64				install
 libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcomerr2:amd64				install
@@ -1179,6 +1190,7 @@ libgcj16:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
 libgconf-2-4:i386				install
+libgconf2-4:amd64				install
 libgcr-3-common					install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
@@ -1247,6 +1259,8 @@ libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-keyring-common				install
 libgnome-keyring0:amd64				install
+libgnome2-0:amd64				install
+libgnome2-bin					install
 libgnome2-common				install
 libgnomecanvas2-0:amd64				install
 libgnomecanvas2-common				install
@@ -1257,12 +1271,13 @@ libgnomevfs2-common				install
 libgnomevfs2-extra:amd64			install
 libgnupg-interface-perl				install
 libgnutls-deb0-28:amd64				install
-libgnutls-deb0-28:i386				install
 libgnutls-openssl27:amd64			install
 libgnutls28-dev:amd64				install
 libgnutls30:amd64				install
+libgnutls30:i386				install
 libgnutlsxx28:amd64				install
 libgomp1:amd64					install
+libgomp1:i386					install
 libgpars-groovy-java				install
 libgpg-error-dev				install
 libgpg-error0:amd64				install
@@ -1280,6 +1295,7 @@ libgraphite2-3:amd64				install
 libgraphite2-3:i386				install
 libgravatar-url-perl				install
 libgroupsock1					install
+libgroupsock8:amd64				install
 libgs9						install
 libgs9-common					install
 libgsasl7					install
@@ -1376,6 +1392,7 @@ libicu55:amd64					install
 libicu55:i386					install
 libid3tag0					install
 libidn11:amd64					install
+libidn11:i386					install
 libidn11-dev					install
 libiec61883-0:amd64				install
 libieee1284-3:amd64				install
@@ -1383,6 +1400,7 @@ libieee1284-3:i386				install
 libijs-0.35:amd64				install
 libiksemel-dev:amd64				install
 libiksemel3:amd64				install
+libilmbase12:amd64				install
 libilmbase6v5:amd64				install
 libimage-exiftool-perl				install
 libimlib2:amd64					install
@@ -1687,7 +1705,8 @@ liblinear-tools					install
 liblinear3:amd64				install
 liblircclient0					install
 liblist-moreutils-perl				install
-liblivemedia23					install
+liblivemedia23					deinstall
+liblivemedia50:amd64				install
 libllvm3.5:i386					deinstall
 libllvm3.6v5:amd64				install
 libllvm3.7:amd64				install
@@ -1895,6 +1914,7 @@ libopencv-legacy2.4v5:amd64			install
 libopencv-ml2.4v5:amd64				install
 libopencv-objdetect2.4v5:amd64			install
 libopencv-video2.4v5:amd64			install
+libopenexr22:amd64				install
 libopenexr6v5:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
@@ -2018,6 +2038,7 @@ libprocesscore7					install
 libprocessui7					install
 libprocps4:amd64				install
 libprotobuf-c1					install
+libprotobuf-lite9v5:amd64			install
 libprotobuf9v5:amd64				install
 libprotoc9v5:amd64				install
 libproxy-tools					install
@@ -2046,8 +2067,6 @@ libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
 libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
-libpython3.4:amd64				install
-libpython3.4-dev:amd64				install
 libpython3.4-minimal:amd64			install
 libpython3.4-stdlib:amd64			install
 libpython3.5:amd64				install
@@ -2056,6 +2075,8 @@ libpython3.5-minimal:amd64			install
 libpython3.5-stdlib:amd64			install
 libqalculate5-data				install
 libqalculate5v5:amd64				install
+libqca-qt5-2:amd64				install
+libqca-qt5-2-plugins:amd64			install
 libqca2:amd64					install
 libqca2-plugins:amd64				install
 libqdbm14					install
@@ -2273,6 +2294,7 @@ libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
 libsoup2.4-dev					install
 libsoxr0:amd64					install
+libsoxr0:i386					install
 libsp1c2					install
 libspandsp2:amd64				install
 libspectre1:amd64				install
@@ -2317,6 +2339,7 @@ libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
 libsub-install-perl				install
 libsub-name-perl				install
+libsuitesparseconfig4.4.6:amd64			install
 libsvm-tools					install
 libsvn-perl					install
 libsvn1:amd64					install
@@ -2427,6 +2450,7 @@ liburcu-dev					install
 liburcu4:amd64					install
 liburi-perl					install
 libusageenvironment1				install
+libusageenvironment3:amd64			install
 libusb-0.1-4:amd64				install
 libusb-1.0-0:amd64				install
 libusbmuxd-tools				install
@@ -2478,6 +2502,7 @@ libvpb1						install
 libvpx2:amd64					install
 libvpx2:i386					install
 libvpx3:amd64					install
+libvpx3:i386					install
 libvte-2.90-9					install
 libvte-2.90-common				install
 libvte-2.91-0:amd64				install
@@ -2703,6 +2728,7 @@ libxt-dev:amd64					install
 libxt6:amd64					install
 libxt6:i386					install
 libxtables10					install
+libxtables11					install
 libxtst-dev:amd64				install
 libxtst6:amd64					install
 libxtst6:i386					install
@@ -2924,6 +2950,9 @@ openhackware					install
 openjdk-7-jdk:amd64				install
 openjdk-7-jre:amd64				install
 openjdk-7-jre-headless:amd64			install
+openjdk-8-jdk:amd64				install
+openjdk-8-jre:amd64				install
+openjdk-8-jre-headless:amd64			install
 opensc						install
 opensc-pkcs11:amd64				install
 openssh-blacklist				install
@@ -3310,7 +3339,6 @@ python3-virtualenv				install
 python3-wheel					install
 python3-yaml					install
 python3.4					install
-python3.4-dev					install
 python3.4-minimal				install
 python3.5					install
 python3.5-dev					install
