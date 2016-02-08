@@ -27,11 +27,7 @@ apache2						install
 apache2-bin					install
 apache2-data					install
 apache2-utils					install
-apertium					install
 apertium-apy					deinstall
-apertium-dbgsym					install
-apertium-dev					install
-apertium-dev-dbgsym				install
 apg						install
 apparmor-easyprof				install
 appstream					install
@@ -724,8 +720,6 @@ libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
 libapache2-mod-php5				install
-libapertium3-3.4-0:amd64			install
-libapertium3-3.4-0-dbgsym:amd64			install
 libapparmor1:amd64				install
 libappindicator1				install
 libappstream3:amd64				install
@@ -1741,7 +1735,7 @@ liblsan0:amd64					install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
-liblttoolbox3-3.3-0:amd64			install
+liblttoolbox3-3.3-0v5:amd64			install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -2816,8 +2810,6 @@ lsb-release					install
 lshw						install
 lsof						install
 ltrace						install
-lttoolbox					install
-lttoolbox-dev					install
 lua-lgi:amd64					install
 lua-lpeg:amd64					install
 lua5.2						install
