@@ -27,7 +27,6 @@ apache2						install
 apache2-bin					install
 apache2-data					install
 apache2-utils					install
-apertium-apy					deinstall
 apg						install
 apparmor-easyprof				install
 appstream					install
@@ -2810,6 +2809,7 @@ lsb-release					install
 lshw						install
 lsof						install
 ltrace						install
+lttoolbox					install
 lua-lgi:amd64					install
 lua-lpeg:amd64					install
 lua5.2						install
