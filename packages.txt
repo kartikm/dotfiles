@@ -36,6 +36,7 @@ apertium-dev-dbgsym				install
 apertium-es-ca					install
 apertium-lex-tools				install
 apertium-nno					install
+apertium-nob					install
 apg						install
 apparmor-easyprof				install
 appstream					install
