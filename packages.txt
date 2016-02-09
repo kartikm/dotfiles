@@ -29,6 +29,7 @@ apache2-data					install
 apache2-utils					install
 apertium					install
 apertium-apy					install
+apertium-dan					install
 apertium-dbgsym					install
 apertium-dev					install
 apertium-dev-dbgsym				install
