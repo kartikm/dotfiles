@@ -30,6 +30,7 @@ apache2-utils					install
 apertium					install
 apertium-apy					install
 apertium-dan					install
+apertium-dan-nor				install
 apertium-dbgsym					install
 apertium-dev					install
 apertium-dev-dbgsym				install
