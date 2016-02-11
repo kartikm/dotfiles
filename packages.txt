@@ -1155,7 +1155,7 @@ libfile-next-perl				install
 libfile-slurp-perl				install
 libfile-stripnondeterminism-perl		install
 libfile-which-perl				install
-libfl-dev					install
+libfl-dev:amd64					install
 libflac8:amd64					install
 libflac8:i386					install
 libflite1:amd64					install
@@ -2487,7 +2487,7 @@ libusbmuxd2:amd64				install
 libusbmuxd4:amd64				install
 libusbredirparser1:amd64			install
 libustr-1.0-1:amd64				install
-libutempter0					install
+libutempter0:amd64				install
 libuuid-perl					install
 libuuid1:amd64					install
 libuuid1:i386					install
