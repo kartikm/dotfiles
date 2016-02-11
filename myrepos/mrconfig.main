@@ -411,3 +411,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/apertium-kaz]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-kaz.git' 'apertium-kaz'
+
+[development/debian/packages/apertium/giella-sme]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/giella-sme' 'giella-sme'
