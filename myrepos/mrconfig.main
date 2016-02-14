@@ -414,3 +414,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/giella-sme]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/giella-sme' 'giella-sme'
+
+[development/debian/packages/apertium/giella-core]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/giella-core' 'giella-core'
