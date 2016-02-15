@@ -432,7 +432,6 @@ ghc						install
 ghostscript					install
 ghostscript-x					install
 giblib1:amd64					install
-giella-core					install
 gimp						install
 gimp-data					install
 gir1.2-appstream				install
