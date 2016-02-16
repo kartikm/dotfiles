@@ -224,6 +224,7 @@ discover					install
 discover-data					install
 disper						install
 distro-info-data				install
+djvulibre-bin					install
 dkms						install
 dmidecode					install
 dmsetup						install
@@ -414,6 +415,7 @@ gcc-5-base:i386					install
 gcc-avr						install
 gcc-msp430					install
 gcj-4.8-jre-lib					install
+gcj-4.9-jre-lib					install
 gcj-5-jre-lib					install
 gconf-service					install
 gconf2						install
@@ -1202,6 +1204,7 @@ libgcc1:i386					install
 libgcj-bc:amd64					install
 libgcj-common					install
 libgcj14:amd64					install
+libgcj15:amd64					install
 libgcj16:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
@@ -1307,6 +1310,8 @@ libgpm2:amd64					install
 libgpm2:i386					install
 libgps22:amd64					install
 libgraph-perl					install
+libgraphicsmagick++-q16-12			install
+libgraphicsmagick-q16-3				install
 libgraphite2-3:amd64				install
 libgraphite2-3:i386				install
 libgravatar-url-perl				install
@@ -1935,6 +1940,7 @@ libopencv-objdetect2.4v5:amd64			install
 libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopenexr6v5:amd64				deinstall
+libopenjp2-7:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
 libopenobex1					install
@@ -2875,6 +2881,8 @@ mtpfs						install
 multiarch-support				install
 multistrap					install
 multitail					install
+mupdf						install
+mupdf-tools					install
 mutt						install
 myrepos						install
 mysql-client-5.6				install
@@ -3018,6 +3026,8 @@ pbuilder					install
 pbzip2						install
 pciutils					install
 pcscd						install
+pdf2djvu					install
+pdftk						install
 pepperflashplugin-nonfree			install
 perl						install
 perl-base					install
@@ -3278,6 +3288,7 @@ python-six					install
 python-sleekxmpp				install
 python-soappy					install
 python-socks					install
+python-software-properties			install
 python-sphinx					install
 python-sphinx-rtd-theme				install
 python-sphinxcontrib.programoutput		install
