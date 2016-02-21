@@ -2452,7 +2452,7 @@ libtonezone-dev:amd64				install
 libtonezone2.0:amd64				install
 libtool						install
 libtool-bin					install
-libtrio2:amd64					install
+libtrio2:amd64					deinstall
 libtry-tiny-perl				install
 libtsan0:amd64					install
 libturbojpeg0:amd64				install
@@ -2487,6 +2487,8 @@ libusageenvironment1				install
 libusageenvironment3:amd64			install
 libusb-0.1-4:amd64				install
 libusb-1.0-0:amd64				install
+libusb-1.0-0-dev:amd64				install
+libusb-1.0-doc					install
 libusbmuxd-tools				install
 libusbmuxd2:amd64				install
 libusbmuxd4:amd64				install
@@ -2617,6 +2619,7 @@ libx264-148:amd64				install
 libx264-148:i386				install
 libx265-68:amd64				install
 libx265-68:i386					install
+libx265-79:amd64				install
 libx86-1:amd64					install
 libxalan2-java					install
 libxapian-dev					install
