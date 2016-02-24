@@ -2549,6 +2549,9 @@ libvte-2.91-0:amd64				install
 libvte-2.91-common				install
 libvte-common					install
 libvte9						install
+libwacom-bin					install
+libwacom-common					install
+libwacom2:amd64					install
 libwavpack1:amd64				install
 libwavpack1:i386				install
 libwayland-client0:amd64			install
@@ -2623,6 +2626,7 @@ libx264-148:i386				install
 libx265-68:amd64				install
 libx265-68:i386					install
 libx265-79:amd64				install
+libx265-79:i386					install
 libx86-1:amd64					install
 libxalan2-java					install
 libxapian-dev					install
@@ -2796,6 +2800,7 @@ libzbar0					install
 libzephyr4:amd64				install
 libzip-dev					install
 libzip2						install
+libzip4:amd64					install
 libzmq3:amd64					install
 libzmq3-dev:amd64				install
 libzvbi-common					install
@@ -2813,7 +2818,7 @@ linux-headers-4.3.0-1-common			install
 linux-headers-4.4.0-1-amd64			install
 linux-headers-4.4.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.2.0-1-amd64			install
+linux-image-4.2.0-1-amd64			deinstall
 linux-image-4.3.0-1-amd64			install
 linux-image-4.4.0-1-amd64			install
 linux-image-amd64				install
