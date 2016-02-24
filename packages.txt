@@ -315,7 +315,8 @@ fonts-dejavu-core				install
 fonts-dejavu-extra				install
 fonts-deva					install
 fonts-deva-extra				install
-fonts-droid					install
+fonts-droid					deinstall
+fonts-droid-fallback				install
 fonts-farsiweb					install
 fonts-font-awesome				install
 fonts-freefont-ttf				install
@@ -350,6 +351,7 @@ fonts-nakula					install
 fonts-nanum					install
 fonts-navilu					install
 fonts-noto-hinted				install
+fonts-noto-mono					install
 fonts-noto-unhinted				install
 fonts-opensymbol				install
 fonts-orya					install
@@ -1943,7 +1945,7 @@ libopenexr6v5:amd64				deinstall
 libopenjp2-7:amd64				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
-libopenobex1					install
+libopenobex2					install
 libopenraw1v5:amd64				deinstall
 liboping0:amd64					install
 libopts25:amd64					install
@@ -2182,8 +2184,9 @@ libqtgstreamerui-1.0-0:amd64			install
 libqtgui4:amd64					install
 libqtwebkit4:amd64				install
 libquadmath0:amd64				install
-libquvi-scripts					install
-libquvi7:amd64					install
+libquvi-0.9-0.9.3:amd64				install
+libquvi-scripts-0.9				install
+libquvi7:amd64					deinstall
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
@@ -2389,7 +2392,7 @@ libsys-cpu-perl					install
 libsys-hostname-long-perl			install
 libsys-sigaction-perl				install
 libsysfs2:amd64					install
-libsysfs2:i386					install
+libsysfs2:i386					deinstall
 libsystemd0:amd64				install
 libsystemd0:i386				install
 libsz2:amd64					install
@@ -2807,12 +2810,16 @@ linux-headers-4.2.0-1-amd64			install
 linux-headers-4.2.0-1-common			install
 linux-headers-4.3.0-1-amd64			install
 linux-headers-4.3.0-1-common			install
+linux-headers-4.4.0-1-amd64			install
+linux-headers-4.4.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.2.0-1-amd64			install
 linux-image-4.3.0-1-amd64			install
+linux-image-4.4.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.2				install
 linux-kbuild-4.3				install
+linux-kbuild-4.4				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -2833,8 +2840,12 @@ lsof						install
 ltrace						install
 lttoolbox					install
 lttoolbox-dev					install
+lua-bitop:amd64					install
+lua-expat:amd64					install
+lua-json					install
 lua-lgi:amd64					install
 lua-lpeg:amd64					install
+lua-socket:amd64				install
 lua5.2						install
 lynx						install
 lynx-common					install
@@ -2851,6 +2862,7 @@ mango-lassi					install
 manpages					install
 manpages-dev					install
 mawk						install
+mcomix						install
 menu						install
 mercurial					install
 mercurial-common				install
@@ -3050,8 +3062,8 @@ php-file-iterator				install
 php-gettext					install
 php-pear					install
 php-phpdocumentor-reflection-docblock		install
+php-phpseclib					install
 php-phpspec-prophecy				install
-php-seclib					install
 php-symfony-yaml				install
 php-tcpdf					install
 php-text-template				install
@@ -3075,6 +3087,7 @@ php5-pgsql					install
 php5-xdebug					install
 phpmyadmin					install
 phpunit						install
+phpunit-code-unit-reverse-lookup		install
 phpunit-comparator				install
 phpunit-diff					install
 phpunit-environment				install
@@ -3163,9 +3176,12 @@ python-appindicator				install
 python-apt					install
 python-apt-common				install
 python-aptdaemon				install
+python-argcomplete				install
+python-argh					install
 python-astroid					install
 python-babel					install
 python-babel-localedata				install
+python-backports.ssl-match-hostname		install
 python-beautifulsoup				install
 python-blinker					install
 python-bs4					install
@@ -3176,8 +3192,11 @@ python-certifi					install
 python-cffi					install
 python-cffi-backend				install
 python-chardet					install
+python-click					install
+python-colorama					install
 python-configargparse				install
 python-configobj				install
+python-construct				install
 python-coverage					install
 python-crypto					install
 python-cryptography				install
@@ -3249,6 +3268,7 @@ python-oauthlib					install
 python-openssl					install
 python-paramiko					install
 python-passlib					install
+python-pathtools				install
 python-pbr					install
 python-pexpect					install
 python-pexpect-doc				install
@@ -3316,6 +3336,7 @@ python-urwid					install
 python-utidylib					install
 python-validictory				install
 python-vte					install
+python-watchdog					install
 python-webunit					install
 python-wicd					install
 python-wrapt					install
@@ -3461,6 +3482,7 @@ rsyslog						install
 rtmpdump					install
 ruby						install
 ruby-augeas					install
+ruby-bundler					install
 ruby-childprocess				install
 ruby-deep-merge					install
 ruby-dev					install
