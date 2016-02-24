@@ -2798,7 +2798,7 @@ libyaml-snake-java				install
 libyaml-tiny-perl				install
 libzbar0					install
 libzephyr4:amd64				install
-libzip-dev					install
+libzip-dev:amd64				install
 libzip2						install
 libzip4:amd64					install
 libzmq3:amd64					install
