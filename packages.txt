@@ -531,6 +531,9 @@ hdparm						install
 help2man					install
 hfst						install
 hfst-dbgsym					install
+hfst-ospell					install
+hfst-ospell-dbgsym				install
+hfst-ospell-dev					install
 hicolor-icon-theme				install
 hiera						install
 hopenpgp-tools					install
@@ -1378,6 +1381,8 @@ libheimntlm0-heimdal:amd64			deinstall
 libhfst42					install
 libhfst42-dbgsym				install
 libhfst42-dev					install
+libhfstospell5					install
+libhfstospell5-dbgsym				install
 libhogweed4:amd64				install
 libhogweed4:i386				install
 libhpdf-2.2.1					install
