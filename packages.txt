@@ -3822,7 +3822,6 @@ xserver-xorg-video-qxl				install
 xserver-xorg-video-r128				install
 xserver-xorg-video-radeon			install
 xserver-xorg-video-savage			install
-xserver-xorg-video-siliconmotion		install
 xserver-xorg-video-sisusb			install
 xserver-xorg-video-tdfx				install
 xserver-xorg-video-trident			install
