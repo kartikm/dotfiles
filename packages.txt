@@ -3809,6 +3809,7 @@ xserver-xorg-input-synaptics			install
 xserver-xorg-input-vmmouse			install
 xserver-xorg-input-wacom			install
 xserver-xorg-video-all				install
+xserver-xorg-video-amdgpu			install
 xserver-xorg-video-ati				install
 xserver-xorg-video-cirrus			install
 xserver-xorg-video-fbdev			install
