@@ -40,6 +40,7 @@ apertium-fra					install
 apertium-lex-tools				install
 apertium-nno					install
 apertium-nob					install
+apertium-swe					install
 apg						install
 apparmor-easyprof				install
 appstream					install
