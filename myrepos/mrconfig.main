@@ -448,3 +448,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/apertium-nno-nob]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-nno-nob' 'apertium-nno-nob'
+
+[development/debian/packages/apertium/apertium-swe-dan]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-swe-dan' 'apertium-swe-dan'
