@@ -39,6 +39,7 @@ apertium-es-ca					install
 apertium-fra					install
 apertium-lex-tools				install
 apertium-nno					install
+apertium-nno-nob				install
 apertium-nob					install
 apertium-swe					install
 apg						install
