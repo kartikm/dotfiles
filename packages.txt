@@ -42,6 +42,7 @@ apertium-nno					install
 apertium-nno-nob				install
 apertium-nob					install
 apertium-swe					install
+apertium-swe-dan				install
 apg						install
 apparmor-easyprof				install
 appstream					install
