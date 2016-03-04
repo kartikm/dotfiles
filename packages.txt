@@ -196,6 +196,7 @@ deborphan					install
 debsums						install
 debtree						install
 default-jdk					install
+default-jdk-headless				install
 default-jre					install
 default-jre-headless				install
 desktop-base					install
@@ -534,7 +535,6 @@ hatari						install
 hdparm						install
 help2man					install
 hfst						install
-hfst-dbgsym					install
 hfst-ospell					install
 hfst-ospell-dbgsym				install
 hfst-ospell-dev					install
@@ -1383,7 +1383,6 @@ libhdf5-10:amd64				install
 libheimbase1-heimdal:amd64			deinstall
 libheimntlm0-heimdal:amd64			deinstall
 libhfst42					install
-libhfst42-dbgsym				install
 libhfst42-dev					install
 libhfstospell5					install
 libhfstospell5-dbgsym				install
@@ -2249,6 +2248,7 @@ librsvg2-common:amd64				install
 librtmp1:amd64					install
 libruby2.1:amd64				install
 libruby2.2:amd64				install
+libruby2.3:amd64				install
 librxtx-java					install
 librygel-core-2.6-2				install
 librygel-db-2.6-2				install
@@ -3019,6 +3019,7 @@ openjdk-7-jdk:amd64				install
 openjdk-7-jre:amd64				install
 openjdk-7-jre-headless:amd64			install
 openjdk-8-jdk:amd64				install
+openjdk-8-jdk-headless:amd64			install
 openjdk-8-jre:amd64				install
 openjdk-8-jre-headless:amd64			install
 opensc						install
@@ -3068,8 +3069,10 @@ phonon:amd64					install
 phonon-backend-vlc:amd64			install
 phonon4qt5:amd64				install
 phonon4qt5-backend-vlc:amd64			install
+php-cli						install
 php-codecoverage				install
 php-codesniffer					install
+php-common					install
 php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
@@ -3083,6 +3086,7 @@ php-tcpdf					install
 php-text-template				install
 php-timer					install
 php-token-stream				install
+php-xml						install
 php5						install
 php5-apcu					install
 php5-cgi					install
@@ -3099,6 +3103,12 @@ php5-mcrypt					install
 php5-mysql					install
 php5-pgsql					install
 php5-xdebug					install
+php7.0-cli					install
+php7.0-common					install
+php7.0-json					install
+php7.0-opcache					install
+php7.0-readline					install
+php7.0-xml					install
 phpmyadmin					install
 phpunit						install
 phpunit-code-unit-reverse-lookup		install
@@ -3474,6 +3484,7 @@ racket						install
 racket-common					install
 racket-doc					install
 radeontool					install
+rake						install
 rarian-compat					install
 readline-common					install
 realpath					install
@@ -3499,7 +3510,8 @@ ruby-augeas					install
 ruby-bundler					install
 ruby-childprocess				install
 ruby-deep-merge					install
-ruby-dev					install
+ruby-dev:amd64					install
+ruby-did-you-mean				install
 ruby-domain-name				install
 ruby-erubis					install
 ruby-ffi					install
@@ -3516,6 +3528,7 @@ ruby-net-http-persistent			install
 ruby-net-scp					install
 ruby-net-sftp					install
 ruby-net-ssh					install
+ruby-net-telnet					install
 ruby-netrc					install
 ruby-nokogiri					install
 ruby-power-assert				install
@@ -3533,7 +3546,8 @@ ruby-unf					install
 ruby-unf-ext					install
 ruby2.1						install
 ruby2.2						install
-ruby2.2-dev:amd64				install
+ruby2.3						install
+ruby2.3-dev:amd64				install
 rubygems-integration				install
 rygel						install
 rygel-gst-launch				install
