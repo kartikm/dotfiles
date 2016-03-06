@@ -1020,6 +1020,7 @@ libcupsimage2:amd64				install
 libcurl3:amd64					install
 libcurl3-gnutls:amd64				install
 libcwidget3v5:amd64				install
+libdata-alias-perl				install
 libdata-entropy-perl				install
 libdata-float-perl				install
 libdata-integer-perl				install
@@ -2532,6 +2533,7 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex5v5				install
+libvigraimpex6					install
 libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
