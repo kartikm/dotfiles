@@ -2107,8 +2107,7 @@ libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
 libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
-libpython3.4-minimal:amd64			install
-libpython3.4-stdlib:amd64			install
+libpython3.4-minimal:amd64			deinstall
 libpython3.5:amd64				install
 libpython3.5-dev:amd64				install
 libpython3.5-minimal:amd64			install
@@ -2532,7 +2531,6 @@ libvdpau-va-gl1:i386				install
 libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
-libvigraimpex5v5				install
 libvigraimpex6					install
 libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
@@ -3104,7 +3102,7 @@ php5-json					install
 php5-mcrypt					install
 php5-mysql					install
 php5-pgsql					install
-php5-xdebug					install
+php5-xdebug					deinstall
 php7.0-cli					install
 php7.0-common					install
 php7.0-json					install
@@ -3419,8 +3417,7 @@ python3-tz					install
 python3-uno					install
 python3-wheel					install
 python3-yaml					install
-python3.4					install
-python3.4-minimal				install
+python3.4-minimal				deinstall
 python3.5					install
 python3.5-dev					install
 python3.5-minimal				install
