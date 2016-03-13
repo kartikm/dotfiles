@@ -1342,7 +1342,7 @@ libgsoap8:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			deinstall
-libgssdp-1.0-3					install
+libgssdp-1.0-3:amd64				install
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base0.10-0:amd64		install
 libgstreamer-plugins-base0.10-0:i386		install
@@ -2532,7 +2532,7 @@ libvdpau-va-gl1:i386				install
 libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
-libvigraimpex6					install
+libvigraimpex6:amd64				install
 libvisio-0.1-1					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
