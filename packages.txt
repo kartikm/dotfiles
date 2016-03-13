@@ -61,6 +61,7 @@ arduino-mk					install
 aria2						install
 ark						install
 aspell						install
+aspell-bn					install
 aspell-en					install
 aspell-gu					install
 aspell-hi					install
