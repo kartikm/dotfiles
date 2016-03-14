@@ -302,6 +302,7 @@ firebird-dev					install
 firebird2.5-common				install
 firebird2.5-common-doc				install
 firebird2.5-server-common			install
+firefox-esr					install
 firmware-amd-graphics				install
 firmware-linux					install
 firmware-linux-free				install
