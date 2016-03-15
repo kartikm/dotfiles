@@ -215,9 +215,6 @@ alias aL="dpkg -L"
 alias debs-by-size='grep-status -FStatus -sInstalled-Size,Package -n "install ok installed" | paste -sd "  \n" | sort -rn'
 alias top10='print -l ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 
-# Telegram build
-alias tg=~/development/github/forks/tg/telegram -k tg.pub
-
 # Dirs
 alias core=/var/www/mw-master/core
 alias cx=~/development/WP/repos/LE/CX/ContentTranslation
@@ -228,8 +225,8 @@ alias tmpe=~/development/WP/repos/LE/TwnMainPage
 alias tx=~/development/WP/repos/LE/Translate
 alias ux=~/development/WP/repos/LE/UniversalLanguageSelector
 
-alias gb=~/development/github/forks
-alias pkg=~/development/debian/packages
+# Logo
+alias lg=~/.bin/ucblogo-6.0/logo
 
 # fortunes-debian-hints
 if [ -x /usr/games/fortune ]; then
