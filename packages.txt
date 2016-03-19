@@ -2325,6 +2325,7 @@ libsnappy1v5:i386				install
 libsndfile1:amd64				install
 libsndfile1:i386				install
 libsndio6.0:amd64				install
+libsndio6.1:amd64				install
 libsoap-lite-perl				install
 libsocket6-perl					install
 libsodium-dev:amd64				install
