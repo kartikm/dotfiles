@@ -59,6 +59,7 @@ arduino						install
 arduino-core					install
 arduino-mk					install
 aria2						install
+aria2-dbgsym					install
 ark						install
 aspell						install
 aspell-bn					install
