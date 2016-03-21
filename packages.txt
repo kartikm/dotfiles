@@ -434,6 +434,7 @@ gconf2-common					install
 gcr						install
 gdb						install
 gdbserver					install
+gdebi-core					install
 gdisk						install
 genisoimage					install
 geoip-bin					install
@@ -456,6 +457,7 @@ gir1.2-glib-2.0:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0:amd64				install
 gir1.2-notify-0.7				install
+gir1.2-packagekitglib-1.0			install
 gir1.2-pango-1.0:amd64				install
 gir1.2-soup-2.4					install
 gir1.2-vte-2.90					install
@@ -567,7 +569,6 @@ i965-va-driver:i386				install
 iamerican					install
 icc-profiles-free				install
 icedove						install
-icedtea-7-jre-jamvm:amd64			install
 icedtea-netx-common				install
 iceowl-extension				install
 iceweasel					install
@@ -1984,6 +1985,7 @@ libp11-kit0:i386				install
 libpackage-deprecationmanager-perl		install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
+libpackagekit-glib2-18:amd64			install
 libpadwalker-perl				install
 libpagemaker-0.0-0				install
 libpam-cap:amd64				install
@@ -2325,7 +2327,6 @@ libsnappy1v5:amd64				install
 libsnappy1v5:i386				install
 libsndfile1:amd64				install
 libsndfile1:i386				install
-libsndio6.0:amd64				install
 libsndio6.1:amd64				install
 libsoap-lite-perl				install
 libsocket6-perl					install
@@ -2466,6 +2467,7 @@ libtokyocabinet9:amd64				install
 libtomcat7-java					install
 libtomcrypt0:amd64				install
 libtommath0					install
+libtommath1					install
 libtonezone-dev:amd64				install
 libtonezone2.0:amd64				install
 libtool						install
@@ -2816,6 +2818,7 @@ libzip2						install
 libzip4:amd64					install
 libzmq3:amd64					install
 libzmq3-dev:amd64				install
+libzmq5:amd64					install
 libzvbi-common					install
 libzvbi0:amd64					install
 libzvbi0:i386					install
@@ -3019,9 +3022,7 @@ okular-extra-backends				install
 openbios-ppc					install
 openbios-sparc					install
 openhackware					install
-openjdk-7-jdk:amd64				install
-openjdk-7-jre:amd64				install
-openjdk-7-jre-headless:amd64			install
+openjdk-7-jre-headless:amd64			deinstall
 openjdk-8-jdk:amd64				install
 openjdk-8-jdk-headless:amd64			install
 openjdk-8-jre:amd64				install
@@ -3047,7 +3048,10 @@ oxygen-sounds					install
 oxygencursors					install
 p11-kit						install
 p11-kit-modules:amd64				install
+p7zip						install
 p7zip-full					install
+packagekit					install
+packagekit-tools				install
 packaging-dev					install
 pandoc						install
 pandoc-data					install
@@ -3688,7 +3692,6 @@ tuxpaint-data					install
 tuxpaint-plugins-default			install
 tuxpaint-stamps-default				install
 tzdata						install
-tzdata-java					install
 ubuntu-archive-keyring				install
 ucf						install
 udev						install
