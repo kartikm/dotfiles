@@ -2937,6 +2937,7 @@ netcat-traditional				install
 netdiag						install
 netpbm						install
 netsniff-ng					install
+netsniff-ng-dbgsym				install
 nettle-dev					install
 network-manager					install
 network-manager-pptp				install
