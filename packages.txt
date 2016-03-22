@@ -461,7 +461,6 @@ gir1.2-packagekitglib-1.0			install
 gir1.2-pango-1.0:amd64				install
 gir1.2-soup-2.4					install
 gir1.2-vte-2.90					install
-gir1.2-vte-2.91:amd64				install
 git						install
 git-annex					install
 git-buildpackage				install
@@ -2274,7 +2273,6 @@ libsbc1:amd64					install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
 libschroedinger-1.0-0:i386			install
-libsctp1:amd64					install
 libsdl-image1.2:amd64				install
 libsdl-mixer1.2:amd64				install
 libsdl-net1.2:amd64				install
@@ -2466,7 +2464,6 @@ libtk8.6:amd64					install
 libtokyocabinet9:amd64				install
 libtomcat7-java					install
 libtomcrypt0:amd64				install
-libtommath0					install
 libtommath1					install
 libtonezone-dev:amd64				install
 libtonezone2.0:amd64				install
@@ -2846,7 +2843,6 @@ live-boot-doc					install
 live-build					install
 live-config-doc					install
 live-manual-html				install
-lksctp-tools					install
 lmodern						install
 localepurge					install
 locales						install
@@ -3387,7 +3383,6 @@ python3						install
 python3-apparmor				install
 python3-apt					install
 python3-aptdaemon				install
-python3-aptdaemon.gtk3widgets			install
 python3-bs4					install
 python3-chardet					install
 python3-cycler					install
