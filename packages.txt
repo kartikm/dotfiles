@@ -143,7 +143,7 @@ colord-data					install
 colordiff					install
 colortail					install
 comix						install
-command-not-found				install
+command-not-found				deinstall
 configure-debian				install
 console-setup					install
 console-setup-linux				install
@@ -2129,6 +2129,7 @@ libqimageblitz4					install
 libqjson-dev					install
 libqjson0:amd64					install
 libqmi-glib1:amd64				install
+libqmi-glib5:amd64				install
 libqmi-proxy					install
 libqmobipocket1					install
 libqrencode3:amd64				install
