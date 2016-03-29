@@ -3382,6 +3382,7 @@ python2.7					install
 python2.7-dev					install
 python2.7-minimal				install
 python3						install
+python3-all					install
 python3-apparmor				install
 python3-apt					install
 python3-aptdaemon				install
