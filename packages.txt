@@ -982,7 +982,6 @@ libcommons-pool-java				install
 libconfig-auto-perl				install
 libconfig-dev:amd64				install
 libconfig-doc					install
-libconfig-file-perl				install
 libconfig-general-perl				install
 libconfig-inifiles-perl				install
 libconfig9:amd64				install
@@ -2128,7 +2127,7 @@ libqgsttools-p1:amd64				install
 libqimageblitz4					install
 libqjson-dev					install
 libqjson0:amd64					install
-libqmi-glib1:amd64				install
+libqmi-glib1:amd64				deinstall
 libqmi-glib5:amd64				install
 libqmi-proxy					install
 libqmobipocket1					install
@@ -3254,7 +3253,6 @@ python-feedparser				install
 python-fixtures					install
 python-fontforge				install
 python-formencode				install
-python-gdbm					install
 python-gflags					install
 python-gi					install
 python-gi-cairo					install
@@ -3382,7 +3380,6 @@ python2.7					install
 python2.7-dev					install
 python2.7-minimal				install
 python3						install
-python3-all					install
 python3-apparmor				install
 python3-apt					install
 python3-aptdaemon				install
@@ -3855,7 +3852,6 @@ xterm						install
 xtrans-dev					install
 xvt						install
 xz-utils					install
-yokadi						install
 youtube-dl					install
 zathura						install
 zathura-cb					install
