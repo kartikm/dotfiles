@@ -3082,6 +3082,7 @@ php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
 php-gettext					install
+php-mysql					install
 php-pear					install
 php-phpdocumentor-reflection-docblock		install
 php-phpseclib					install
@@ -3111,6 +3112,7 @@ php5-xdebug					deinstall
 php7.0-cli					install
 php7.0-common					install
 php7.0-json					install
+php7.0-mysql					install
 php7.0-opcache					install
 php7.0-readline					install
 php7.0-xml					install
