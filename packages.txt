@@ -1445,7 +1445,7 @@ libimobiledevice6:amd64				install
 libimport-into-perl				install
 libindicate-gtk3				install
 libindicate5					install
-libindicator7					install
+libindicator7:amd64				install
 libindirect-perl				install
 libinput10:amd64				install
 libintl-perl					install
