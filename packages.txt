@@ -1223,7 +1223,6 @@ libgcj16:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
 libgconf-2-4:i386				install
-libgconf2-4:amd64				install
 libgcr-3-common					install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
@@ -1292,8 +1291,6 @@ libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-keyring-common				install
 libgnome-keyring0:amd64				install
-libgnome2-0:amd64				install
-libgnome2-bin					install
 libgnome2-common				install
 libgnomecanvas2-0:amd64				install
 libgnomecanvas2-common				install
@@ -3154,7 +3151,7 @@ pm-utils					install
 po-debconf					install
 po4a						install
 policykit-1					install
-policykit-1-gnome				install
+policykit-1-gnome				deinstall
 polkit-kde-agent-1				install
 poppler-data					install
 poppler-utils					install
