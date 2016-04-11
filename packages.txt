@@ -69,6 +69,7 @@ aspell-hi					install
 aspell-mr					install
 at						install
 at-spi2-core					install
+atom						install
 atool						install
 augeas-lenses					install
 augeas-tools					install
@@ -101,7 +102,6 @@ blt						install
 bluedevil					install
 bluez						install
 bluez-obexd					install
-brackets					install
 breeze						install
 breeze-cursor-theme				install
 breeze-icon-theme				install
