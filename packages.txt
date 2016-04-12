@@ -3075,6 +3075,7 @@ php-cli						install
 php-codecoverage				install
 php-codesniffer					install
 php-common					install
+php-curl					install
 php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
@@ -3108,6 +3109,7 @@ php5-pgsql					install
 php5-xdebug					deinstall
 php7.0-cli					install
 php7.0-common					install
+php7.0-curl					install
 php7.0-json					install
 php7.0-mysql					install
 php7.0-opcache					install
