@@ -855,7 +855,7 @@ libbcpkix-java					install
 libbcprov-java					install
 libbdplus0:amd64				install
 libbind9-140:amd64				install
-libbind9-90					install
+libbind9-90					deinstall
 libbison-dev:amd64				install
 libblas-common					install
 libblas3					install
@@ -1080,7 +1080,7 @@ libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export100				install
-libdns100					install
+libdns100					deinstall
 libdns162:amd64					install
 libdolphinvcs5:amd64				install
 libdom4j-java					install
@@ -1466,11 +1466,11 @@ libipc-run-perl					install
 libipc-system-simple-perl			install
 libisc-export95					install
 libisc160:amd64					install
-libisc95					install
+libisc95					deinstall
 libisccc140:amd64				install
-libisccc90					install
+libisccc90					deinstall
 libisccfg140:amd64				install
-libisccfg90					install
+libisccfg90					deinstall
 libisl13:amd64					deinstall
 libisl15:amd64					install
 libiso9660-8					install
@@ -1750,6 +1750,7 @@ liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia23					deinstall
 liblivemedia50:amd64				install
+liblivemedia52:amd64				install
 libllvm3.5:i386					deinstall
 libllvm3.6v5:amd64				install
 libllvm3.7:amd64				install
@@ -1783,7 +1784,6 @@ liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
 liblwres141:amd64				install
-liblwres90					install
 liblz4-1:amd64					install
 liblzma-dev:amd64				install
 liblzma5:amd64					install
