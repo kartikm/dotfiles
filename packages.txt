@@ -749,7 +749,7 @@ libapache2-mod-php5				install
 libapertium3-3.4-0:amd64			install
 libapertium3-3.4-0-dbgsym:amd64			install
 libapparmor1:amd64				install
-libappindicator1				install
+libappindicator1:amd64				install
 libappstream3:amd64				install
 libapr1:amd64					install
 libaprutil1:amd64				install
