@@ -1258,7 +1258,7 @@ libgif7:amd64					install
 libgimp2.0					install
 libgirara-gtk3-2:amd64				install
 libgirepository-1.0-1:amd64			install
-libgit2-23:amd64				install
+libgit2-24:amd64				install
 libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
@@ -1749,7 +1749,6 @@ liblinear3:amd64				install
 liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia23					deinstall
-liblivemedia50:amd64				install
 liblivemedia52:amd64				install
 libllvm3.5:i386					deinstall
 libllvm3.6v5:amd64				install
@@ -1974,6 +1973,7 @@ liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.10-0v5				install
+liborcus-0.11-0					install
 liboro-java					install
 libosp5						install
 libossp-uuid-perl				install
