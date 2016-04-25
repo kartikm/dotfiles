@@ -1972,7 +1972,6 @@ libopusfile0					install
 liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
-liborcus-0.10-0v5				install
 liborcus-0.11-0					install
 liboro-java					install
 libosp5						install
