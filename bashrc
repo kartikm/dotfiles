@@ -100,7 +100,3 @@ fi
 #apt-cache function from LG
 ac () { /usr/bin/apt-cache search "$@"|LESS=FX /usr/bin/less; }
 export -f ac
-export NACL_INC_DIR=/home/kartik/nacl/build/include/x86
-export NACL_LIB_DIR=/home/kartik/nacl/build/lib/x86
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
