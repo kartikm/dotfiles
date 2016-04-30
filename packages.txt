@@ -827,14 +827,17 @@ libavc1394-0:amd64				install
 libavcodec-dev:amd64				install
 libavcodec-ffmpeg56:amd64			install
 libavcodec-ffmpeg56:i386			install
+libavcodec57:amd64				install
 libavfilter-ffmpeg5:amd64			install
 libavformat-dev:amd64				install
 libavformat-ffmpeg56:amd64			install
+libavformat57:amd64				install
 libavresample-ffmpeg2:amd64			install
 libavresample-ffmpeg2:i386			install
 libavutil-dev:amd64				install
 libavutil-ffmpeg54:amd64			install
 libavutil-ffmpeg54:i386				install
+libavutil55:amd64				install
 libaxis-java					install
 libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
@@ -1531,6 +1534,7 @@ libjs-underscore				install
 libjsch-java					install
 libjson-c2:amd64				install
 libjson-c2:i386					install
+libjson-c3:amd64				install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
@@ -1806,6 +1810,7 @@ libmatroska6v5:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmcrypt4					install
+libmd0:amd64					install
 libmeanwhile1:amd64				install
 libmediaart-2.0-0:amd64				install
 libmetadata-extractor-java			install
@@ -2401,6 +2406,7 @@ libswitch-perl					install
 libswresample-dev:amd64				install
 libswresample-ffmpeg1:amd64			install
 libswresample-ffmpeg1:i386			install
+libswresample2:amd64				install
 libswscale-ffmpeg3:amd64			install
 libswscale-ffmpeg3:i386				install
 libsybdb5:amd64					install
