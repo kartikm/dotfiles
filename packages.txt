@@ -492,6 +492,7 @@ google-talkplugin				install
 gource						install
 gparted						install
 gperf						install
+gpgsm						install
 gpgv						install
 gpsbabel					install
 gpsbabel-doc					install
@@ -829,16 +830,21 @@ libavcodec-dev:amd64				install
 libavcodec-ffmpeg56:amd64			install
 libavcodec-ffmpeg56:i386			install
 libavcodec57:amd64				install
+libavcodec57:i386				install
 libavfilter-ffmpeg5:amd64			install
+libavfilter6:amd64				install
 libavformat-dev:amd64				install
 libavformat-ffmpeg56:amd64			install
 libavformat57:amd64				install
 libavresample-ffmpeg2:amd64			install
 libavresample-ffmpeg2:i386			install
+libavresample3:amd64				install
+libavresample3:i386				install
 libavutil-dev:amd64				install
 libavutil-ffmpeg54:amd64			install
 libavutil-ffmpeg54:i386				install
 libavutil55:amd64				install
+libavutil55:i386				install
 libaxis-java					install
 libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
@@ -1084,6 +1090,7 @@ libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export100				install
+libdns-export162				install
 libdns100					deinstall
 libdns162:amd64					install
 libdolphinvcs5:amd64				install
@@ -1469,6 +1476,7 @@ libiodbc2:amd64					install
 libiodbc2-dev					install
 libipc-run-perl					install
 libipc-system-simple-perl			install
+libisc-export160				install
 libisc-export95					install
 libisc160:amd64					install
 libisc95					deinstall
@@ -2066,10 +2074,11 @@ libpixman-1-dev					install
 libplasma-geolocation-interface5		install
 libplasma3					install
 libplist3:amd64					install
+libpng-dev:amd64				install
 libpng12-0:amd64				install
 libpng12-0:i386					install
-libpng12-dev:amd64				install
 libpng16-16:amd64				install
+libpng16-16:i386				install
 libpod-latex-perl				deinstall
 libpod-markdown-perl				install
 libpod-readme-perl				install
@@ -2089,6 +2098,7 @@ libpopt0:i386					install
 libportaudio2:amd64				install
 libportmidi0					install
 libpostproc-ffmpeg53:amd64			install
+libpostproc54:amd64				install
 libpotrace0					install
 libpowerdevilcore2				install
 libpowerdevilui5				install
@@ -2268,6 +2278,7 @@ librsvg2-2:amd64				install
 librsvg2-bin					install
 librsvg2-common:amd64				install
 librtmp1:amd64					install
+librubberband2:amd64				install
 libruby2.1:amd64				install
 libruby2.2:amd64				install
 libruby2.3:amd64				install
@@ -2415,8 +2426,10 @@ libswresample-dev:amd64				install
 libswresample-ffmpeg1:amd64			install
 libswresample-ffmpeg1:i386			install
 libswresample2:amd64				install
+libswresample2:i386				install
 libswscale-ffmpeg3:amd64			install
 libswscale-ffmpeg3:i386				install
+libswscale4:amd64				install
 libsybdb5:amd64					install
 libsynctex1:amd64				install
 libsyntax-highlight-engine-simple-languages-perl	install
