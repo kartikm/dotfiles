@@ -428,7 +428,6 @@ gcc-6-base:i386					install
 gcc-avr						install
 gcc-msp430					install
 gcj-4.8-jre-lib					install
-gcj-4.9-jre-lib					install
 gcj-5-jre-lib					install
 gconf-service					install
 gconf2						install
@@ -1225,7 +1224,7 @@ libgcc1:i386					install
 libgcj-bc:amd64					install
 libgcj-common					install
 libgcj14:amd64					install
-libgcj15:amd64					install
+libgcj15:amd64					deinstall
 libgcj16:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
@@ -1344,6 +1343,7 @@ libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
 libgsoap8:amd64					install
+libgsoap9:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			deinstall
@@ -1906,6 +1906,12 @@ libnfnetlink-dev				install
 libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
 libnghttp2-14:amd64				install
+libnginx-mod-http-auth-pam			install
+libnginx-mod-http-geoip				install
+libnginx-mod-http-image-filter			install
+libnginx-mod-http-xslt-filter			install
+libnginx-mod-mail				install
+libnginx-mod-stream				install
 libnice10:amd64					install
 libnl-3-200:amd64				install
 libnl-3-dev:amd64				install
@@ -2537,7 +2543,6 @@ libva-x11-1:amd64				install
 libva-x11-1:i386				install
 libva1:amd64					install
 libva1:i386					install
-libval14:amd64					install
 libvariable-magic-perl				install
 libvarnishapi1					install
 libvcdinfo0					install
@@ -3087,6 +3092,8 @@ phonon:amd64					install
 phonon-backend-vlc:amd64			install
 phonon4qt5:amd64				install
 phonon4qt5-backend-vlc:amd64			install
+php						install
+php-bz2						install
 php-cli						install
 php-codecoverage				install
 php-codesniffer					install
@@ -3095,7 +3102,9 @@ php-curl					install
 php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
+php-gd						install
 php-gettext					install
+php-mbstring					install
 php-mysql					install
 php-pear					install
 php-phpdocumentor-reflection-docblock		install
@@ -3107,6 +3116,7 @@ php-text-template				install
 php-timer					install
 php-token-stream				install
 php-xml						install
+php-zip						install
 php5						install
 php5-apcu					install
 php5-cgi					install
@@ -3123,14 +3133,20 @@ php5-mcrypt					install
 php5-mysql					install
 php5-pgsql					install
 php5-xdebug					deinstall
+php7.0						install
+php7.0-bz2					install
 php7.0-cli					install
 php7.0-common					install
 php7.0-curl					install
+php7.0-fpm					install
+php7.0-gd					install
 php7.0-json					install
+php7.0-mbstring					install
 php7.0-mysql					install
 php7.0-opcache					install
 php7.0-readline					install
 php7.0-xml					install
+php7.0-zip					install
 phpmyadmin					install
 phpunit						install
 phpunit-code-unit-reverse-lookup		install
