@@ -423,6 +423,8 @@ gcc-4.9-base:i386				install
 gcc-5						install
 gcc-5-base:amd64				install
 gcc-5-base:i386					install
+gcc-6-base:amd64				install
+gcc-6-base:i386					install
 gcc-avr						install
 gcc-msp430					install
 gcj-4.8-jre-lib					install
