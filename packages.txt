@@ -502,7 +502,7 @@ graphviz					install
 grep						install
 groff						install
 groff-base					install
-groovy						deinstall
+groovy						install
 groovy2						install
 grub-common					install
 grub-pc						install
@@ -768,6 +768,7 @@ libart-2.0-2:amd64				install
 libasan0:amd64					install
 libasan1:amd64					install
 libasan2:amd64					install
+libasm-java					install
 libasm4-java					install
 libasn1-8-heimdal:amd64				deinstall
 libasound2:amd64				install
@@ -1020,6 +1021,7 @@ libcrystalhd3:i386				install
 libct4:amd64					install
 libctemplate-dev				install
 libctemplate2v5					install
+libctemplate3:amd64				install
 libcups2:amd64					install
 libcups2:i386					install
 libcupsfilters1:amd64				install
@@ -1331,6 +1333,7 @@ libgraphicsmagick++-q16-12			install
 libgraphicsmagick-q16-3				install
 libgraphite2-3:amd64				install
 libgraphite2-3:i386				install
+libgraphite2-dev				install
 libgravatar-url-perl				install
 libgroupsock1					install
 libgroupsock8:amd64				install
@@ -1380,7 +1383,7 @@ libgvc6						install
 libgvpr2					install
 libhamcrest-java				install
 libharfbuzz-bin					install
-libharfbuzz-dev					install
+libharfbuzz-dev:amd64				install
 libharfbuzz-gobject0:amd64			install
 libharfbuzz-icu0:amd64				install
 libharfbuzz0b:amd64				install
@@ -1421,8 +1424,9 @@ libhunspell-1.3-0:amd64				install
 libhx509-5-heimdal:amd64			deinstall
 libhyphen0					install
 libib-util:amd64				install
-libical-dev					install
+libical-dev:amd64				install
 libical1a					install
+libical2:amd64					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
@@ -1536,6 +1540,7 @@ libjsch-java					install
 libjson-c2:amd64				install
 libjson-c2:i386					install
 libjson-c3:amd64				install
+libjson-c3:i386					install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
@@ -1747,7 +1752,9 @@ liblcms2-utils					install
 libldap-2.4-2:amd64				install
 libldb1:amd64					install
 liblensfun-data					install
+liblensfun-data-v1				install
 liblensfun0					install
+liblensfun1:amd64				install
 liblexical-sealrequirehints-perl		install
 liblinear-tools					install
 liblinear3:amd64				install
@@ -1759,6 +1766,8 @@ libllvm3.5:i386					deinstall
 libllvm3.6v5:amd64				install
 libllvm3.7:amd64				install
 libllvm3.7:i386					install
+libllvm3.8:amd64				install
+libllvm3.8:i386					install
 liblmdb0:amd64					install
 libloader-java					install
 liblocale-gettext-perl				install
@@ -1860,6 +1869,7 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
+libmultiverse-core-java				install
 libmwaw-0.3-3					install
 libmysql-java					install
 libmysqlclient-dev				install
@@ -1933,6 +1943,7 @@ libnspr4-0d:i386				install
 libnss3:amd64					install
 libnss3-1d:amd64				install
 libntdb1:amd64					install
+libntfs-3g871					install
 libntlm0:amd64					install
 libntrack-qt4-1					install
 libntrack0					install
@@ -2004,6 +2015,7 @@ libpadwalker-perl				install
 libpagemaker-0.0-0				install
 libpam-cap:amd64				install
 libpam-gnome-keyring				install
+libpam-kwallet-common				install
 libpam-kwallet5					install
 libpam-modules:amd64				install
 libpam-modules-bin				install
@@ -2222,6 +2234,7 @@ libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
 libraw1394-11:amd64				install
+libraw15:amd64					install
 librcc0						install
 librcd0						install
 librdf0:amd64					install
@@ -2417,6 +2430,7 @@ libswresample2:amd64				install
 libswresample2:i386				install
 libswscale-ffmpeg3:i386				install
 libswscale4:amd64				install
+libswscale4:i386				install
 libsybdb5:amd64					install
 libsynctex1:amd64				install
 libsyntax-highlight-engine-simple-languages-perl	install
@@ -2848,14 +2862,18 @@ linux-headers-4.3.0-1-amd64			install
 linux-headers-4.3.0-1-common			install
 linux-headers-4.4.0-1-amd64			install
 linux-headers-4.4.0-1-common			install
+linux-headers-4.5.0-2-amd64			install
+linux-headers-4.5.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.2.0-1-amd64			deinstall
 linux-image-4.3.0-1-amd64			install
 linux-image-4.4.0-1-amd64			install
+linux-image-4.5.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.2				install
 linux-kbuild-4.3				install
 linux-kbuild-4.4				install
+linux-kbuild-4.5				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -3156,6 +3174,7 @@ phpunit-environment				install
 phpunit-exporter				install
 phpunit-global-state				install
 phpunit-mock-object				install
+phpunit-object-enumerator			install
 phpunit-recursion-context			install
 phpunit-resource-operations			install
 phpunit-version					install
@@ -3856,6 +3875,7 @@ xserver-xorg					install
 xserver-xorg-core				install
 xserver-xorg-input-all				install
 xserver-xorg-input-evdev			install
+xserver-xorg-input-libinput			install
 xserver-xorg-input-mouse			install
 xserver-xorg-input-synaptics			install
 xserver-xorg-input-vmmouse			install
