@@ -71,6 +71,7 @@ at						install
 at-spi2-core					install
 atom						install
 atool						install
+aufs-tools					install
 augeas-lenses					install
 augeas-tools					install
 autoconf					install
