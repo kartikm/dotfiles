@@ -203,8 +203,8 @@ export EDITOR='vim'
 export VISUAL='vim'
 
 alias lintian='lintian -iIEcv --pedantic --color auto'
-alias update='sudo apt-get update'
-alias upgrade='sudo apt-get upgrade'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
 
 # via: http://www.reddit.com/r/linux/comments/m28g2/what_tiny_yet_awesome_hacks_do_you_use/c2xi1ke
 alias ae="sudo $EDITOR /etc/apt/sources.list"
