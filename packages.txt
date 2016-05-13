@@ -50,6 +50,7 @@ apt						install
 apt-cacher-ng					install
 apt-file					install
 apt-listchanges					install
+apt-transport-https				install
 apt-utils					install
 aptdaemon					install
 aptdaemon-data					install
@@ -245,7 +246,7 @@ doc-debian					install
 docbook-xml					install
 docbook-xsl					install
 docker						deinstall
-docker.io					install
+docker-engine					install
 docutils-common					install
 docutils-doc					install
 dolphin						install
