@@ -742,8 +742,8 @@ libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
+libamd2:amd64					install
 libamd2.3.1:amd64				deinstall
-libamd2.4.1:amd64				install
 libantlr-java					install
 libanyevent-perl				install
 libao-common					install
@@ -913,8 +913,8 @@ libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2-dev					install
 libcairomm-1.0-1v5:amd64			install
+libcamd2:amd64					install
 libcamd2.3.1:amd64				deinstall
-libcamd2.4.1:amd64				install
 libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
 libcanberra0:amd64				install
@@ -926,8 +926,8 @@ libcap2-bin					install
 libcapture-tiny-perl				install
 libcc1-0:amd64					install
 libccid						install
+libccolamd2:amd64				install
 libccolamd2.8.0:amd64				deinstall
-libccolamd2.9.1:amd64				install
 libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
@@ -947,7 +947,7 @@ libchm-bin					install
 libchm-dev					install
 libchm1						install
 libcholmod2.1.2:amd64				deinstall
-libcholmod3.0.6:amd64				install
+libcholmod3:amd64				install
 libchromaprint0:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
@@ -971,8 +971,8 @@ libcloog-isl4:amd64				install
 libclucene-contribs1v5:amd64			install
 libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
+libcolamd2:amd64				install
 libcolamd2.8.0:amd64				deinstall
-libcolamd2.9.1:amd64				install
 libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcomerr2:amd64				install
@@ -1423,7 +1423,6 @@ libhttp-server-simple-perl			install
 libhttpclient-java				install
 libhttpcore-java				install
 libhttpmime-java				install
-libhunspell-1.3-0:amd64				install
 libhunspell-1.4-0:amd64				install
 libhx509-5-heimdal:amd64			deinstall
 libhyphen0					install
@@ -1460,6 +1459,7 @@ libindicate-gtk3				install
 libindicate5					install
 libindicator7:amd64				install
 libindirect-perl				install
+libinput-bin					install
 libinput10:amd64				install
 libintl-perl					install
 libio-html-perl					install
@@ -1506,7 +1506,7 @@ libjaxp1.3-java					install
 libjbig-dev:amd64				install
 libjbig0:amd64					install
 libjbig0:i386					install
-libjbig2dec0					install
+libjbig2dec0:amd64				install
 libjcommander-java				install
 libjcommon-java					install
 libjcsp-java					install
@@ -1957,7 +1957,7 @@ libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
-libode4						install
+libode6						install
 libodfgen-0.1-1					install
 libofa0:amd64					install
 libogg-dev:amd64				install
@@ -2422,7 +2422,7 @@ libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
 libsub-install-perl				install
 libsub-name-perl				install
-libsuitesparseconfig4.4.6:amd64			install
+libsuitesparseconfig4:amd64			install
 libsvm-tools					install
 libsvn-perl					install
 libsvn1:amd64					install
@@ -2519,8 +2519,8 @@ libudev-dev:amd64				install
 libudev1:amd64					install
 libudev1:i386					install
 libudisks2-0:amd64				install
+libumfpack5:amd64				install
 libumfpack5.6.2:amd64				deinstall
-libumfpack5.7.1:amd64				install
 libunicode-linebreak-perl			install
 libunicode-utf8-perl				install
 libuniconf4.6					install
@@ -3625,7 +3625,6 @@ sgml-base					install
 sgml-data					install
 shared-desktop-ontologies			install
 shared-mime-info				install
-sharutils					install
 shtool						install
 signing-party					install
 sl						install
