@@ -1826,6 +1826,7 @@ libmd0:amd64					install
 libmeanwhile1:amd64				install
 libmediaart-2.0-0:amd64				install
 libmetadata-extractor-java			install
+libmetis5:amd64					install
 libmhash-dev					install
 libmhash2:amd64					install
 libmikmod3:amd64				install
