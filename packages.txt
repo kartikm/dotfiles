@@ -524,6 +524,7 @@ gstreamer1.0-plugins-base:amd64			install
 gstreamer1.0-plugins-good:amd64			install
 gstreamer1.0-plugins-ugly:amd64			install
 gstreamer1.0-x:amd64				install
+gtk-update-icon-cache				install
 gtk2-engines-qtcurve:amd64			install
 gucharmap					install
 guile-1.8					install
