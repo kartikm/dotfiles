@@ -1962,6 +1962,7 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore6					install
+libokularcore7					install
 libonig2:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -3259,6 +3260,7 @@ python-argh					install
 python-astroid					install
 python-babel					install
 python-babel-localedata				install
+python-backports-abc				install
 python-backports.ssl-match-hostname		install
 python-beautifulsoup				install
 python-blinker					install
@@ -3383,6 +3385,7 @@ python-serial					install
 python-setuptools				install
 python-simplegeneric				install
 python-simplejson				install
+python-singledispatch				install
 python-sip					install
 python-six					install
 python-sleekxmpp				install
