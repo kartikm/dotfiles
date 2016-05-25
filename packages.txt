@@ -689,7 +689,6 @@ konqueror					install
 konqueror-nsplugins				install
 konsole						install
 konsole-kpart					install
-konsole4-kpart					install
 kpackagelauncherqml				install
 kpackagetool5					install
 kpart-webkit					install
@@ -1961,7 +1960,6 @@ libofa0:amd64					install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
-libokularcore6					install
 libokularcore7					install
 libonig2:amd64					install
 libopenal-data					install
@@ -2102,7 +2100,6 @@ libpopt0:i386					install
 libportaudio2:amd64				install
 libportmidi0					install
 libpostproc54:amd64				install
-libpotrace0					install
 libpowerdevilcore2				install
 libpowerdevilui5				install
 libpq5:amd64					install
@@ -2465,8 +2462,6 @@ libterm-readline-perl-perl			install
 libterm-size-perl				install
 libterm-ui-perl					install
 libtevent0:amd64				install
-libtexlua52:amd64				install
-libtexluajit2:amd64				install
 libtext-aspell-perl				install
 libtext-charwidth-perl				install
 libtext-iconv-perl				install
@@ -2852,7 +2847,7 @@ libzmq5:amd64					install
 libzvbi-common					install
 libzvbi0:amd64					install
 libzvbi0:i386					install
-libzzip-0-13:amd64				install
+libzzip-0-13:amd64				deinstall
 lintian						install
 linux-base					install
 linux-compiler-gcc-4.9-x86			install
@@ -3233,7 +3228,6 @@ procmail					install
 procps						install
 prosper						deinstall
 protobuf-compiler				install
-ps2eps						install
 psmisc						install
 psutils						install
 publicsuffix					install
