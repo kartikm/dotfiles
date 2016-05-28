@@ -908,6 +908,7 @@ libcairo-gobject2:amd64				install
 libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
+libcairo2:i386					install
 libcairo2-dev					install
 libcairomm-1.0-1v5:amd64			install
 libcamd2:amd64					install
@@ -1328,6 +1329,7 @@ libgphoto2-port12:amd64				install
 libgpm2:amd64					install
 libgpm2:i386					install
 libgps22:amd64					install
+libgrantlee-templates5				install
 libgraph-perl					install
 libgraphicsmagick++-q16-12			install
 libgraphicsmagick-q16-3				install
@@ -1584,6 +1586,7 @@ libkf5bluezqt-data				install
 libkf5bluezqt6:amd64				install
 libkf5bookmarks-data				install
 libkf5bookmarks5:amd64				install
+libkf5calendarevents5:amd64			install
 libkf5codecs-data				install
 libkf5codecs5:amd64				install
 libkf5completion-data				install
@@ -2073,6 +2076,7 @@ libphonon4qt5-4:amd64				install
 libpipeline1:amd64				install
 libpixie-java					install
 libpixman-1-0:amd64				install
+libpixman-1-0:i386				install
 libpixman-1-dev					install
 libplasma-geolocation-interface5		install
 libplasma3					install
@@ -2094,6 +2098,7 @@ libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler46:amd64				deinstall
 libpoppler57:amd64				install
+libpoppler61:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
@@ -2708,6 +2713,7 @@ libxcb-shape0:amd64				install
 libxcb-shape0:i386				install
 libxcb-shape0-dev:amd64				install
 libxcb-shm0:amd64				install
+libxcb-shm0:i386				install
 libxcb-shm0-dev:amd64				install
 libxcb-sync-dev:amd64				install
 libxcb-sync1:amd64				install
@@ -3118,6 +3124,7 @@ php-gettext					install
 php-mbstring					install
 php-mysql					install
 php-pear					install
+php-php-gettext					install
 php-phpdocumentor-reflection-docblock		install
 php-phpseclib					install
 php-phpspec-prophecy				install
