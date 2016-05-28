@@ -3134,7 +3134,6 @@ php5-cgi					install
 php5-cli					install
 php5-common					install
 php5-curl					install
-php5-dbg					install
 php5-dev					install
 php5-fpm					install
 php5-gd						install
