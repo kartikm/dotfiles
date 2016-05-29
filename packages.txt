@@ -1586,6 +1586,7 @@ libkf5bluezqt-data				install
 libkf5bluezqt6:amd64				install
 libkf5bookmarks-data				install
 libkf5bookmarks5:amd64				install
+libkf5calendarevents5:amd64			install
 libkf5codecs-data				install
 libkf5codecs5:amd64				install
 libkf5completion-data				install
