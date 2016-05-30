@@ -400,7 +400,7 @@ fortunes-debian-hints				install
 fortunes-min					install
 fortunes-off					install
 frameworkintegration				install
-freeglut3:amd64					install
+freeglut3:amd64					deinstall
 freetds-common					install
 freetds-dev					install
 ftp						install
@@ -3196,7 +3196,7 @@ plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-wallpapers-addons			install
 plasma-widget-folderview			install
-plasma-widgets-addons				install
+plasma-widgets-addons				deinstall
 plasma-workspace				install
 pm-utils					install
 po-debconf					install
