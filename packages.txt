@@ -407,6 +407,7 @@ ftp						install
 funkload					install
 funkload-doc					install
 fuse						install
+fuse2fs						install
 g++						install
 g++-4.8						install
 g++-4.9						install
