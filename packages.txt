@@ -1671,6 +1671,7 @@ libkf5pty5:amd64				install
 libkf5quickaddons5:amd64			install
 libkf5runner5:amd64				install
 libkf5screen6					install
+libkf5screen7:amd64				install
 libkf5service-bin				install
 libkf5service-data				install
 libkf5service5:amd64				install
