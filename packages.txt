@@ -1742,8 +1742,11 @@ libktexteditor4					install
 libkwalletbackend5-5:amd64			install
 libkwin4-effect-builtins1			install
 libkwineffects6					install
+libkwineffects8					install
 libkwinglutils6					install
+libkwinglutils8					install
 libkwinxrenderutils6				install
+libkwinxrenderutils8				install
 libkworkspace5-5				install
 libkxml2-java					install
 libkxmlrpcclient4				install
@@ -2019,7 +2022,7 @@ libpackagekit-glib2-18:amd64			install
 libpadwalker-perl				install
 libpagemaker-0.0-0				install
 libpam-cap:amd64				install
-libpam-gnome-keyring				install
+libpam-gnome-keyring:amd64			install
 libpam-kwallet-common				install
 libpam-kwallet5					install
 libpam-modules:amd64				install
@@ -3194,6 +3197,7 @@ plasma-dataengines-addons			install
 plasma-desktop					install
 plasma-desktop-data				install
 plasma-framework				install
+plasma-integration				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-wallpapers-addons			install
