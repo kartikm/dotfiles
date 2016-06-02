@@ -1671,7 +1671,6 @@ libkf5pty5:amd64				install
 libkf5quickaddons5:amd64			install
 libkf5runner5:amd64				install
 libkf5screen6					install
-libkf5screen7:amd64				install
 libkf5service-bin				install
 libkf5service-data				install
 libkf5service5:amd64				install
@@ -3197,7 +3196,6 @@ plasma-dataengines-addons			install
 plasma-desktop					install
 plasma-desktop-data				install
 plasma-framework				install
-plasma-integration				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-wallpapers-addons			install
