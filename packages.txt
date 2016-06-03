@@ -58,7 +58,6 @@ aptitude					install
 aptitude-common					install
 arduino						install
 arduino-core					install
-arduino-mk					install
 aria2						install
 aria2-dbgsym					install
 ark						install
@@ -628,7 +627,6 @@ javahelper					install
 javascript-common				install
 junit						install
 junit4						install
-kactivities					install
 kamera						install
 kamoso						install
 kate						install
@@ -1670,7 +1668,8 @@ libkf5pty-data					install
 libkf5pty5:amd64				install
 libkf5quickaddons5:amd64			install
 libkf5runner5:amd64				install
-libkf5screen6					install
+libkf5screen-bin				install
+libkf5screen7:amd64				install
 libkf5service-bin				install
 libkf5service-data				install
 libkf5service5:amd64				install
@@ -1735,6 +1734,7 @@ libkrb5support0:amd64				install
 libkrb5support0:i386				install
 libkrosscore4					install
 libksba8:amd64					install
+libkscreenlocker5:amd64				install
 libksgrd7					install
 libksignalplotter7				install
 libktexteditor4					install
@@ -3196,6 +3196,7 @@ plasma-dataengines-addons			install
 plasma-desktop					install
 plasma-desktop-data				install
 plasma-framework				install
+plasma-integration				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-wallpapers-addons			install
@@ -3384,7 +3385,6 @@ python-requests					install
 python-requests-oauthlib			install
 python-roman					install
 python-rsa					install
-python-serial					install
 python-setuptools				install
 python-simplegeneric				install
 python-simplejson				install
