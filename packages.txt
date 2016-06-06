@@ -511,6 +511,7 @@ hatari						install
 hdparm						install
 help2man					install
 hfst						install
+hfst-dbgsym					install
 hfst-ospell					install
 hfst-ospell-dev					install
 hicolor-icon-theme				install
@@ -1313,8 +1314,9 @@ libharfbuzz0b:amd64				install
 libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf5-10:amd64				install
-libhfst42					install
-libhfst42-dev					install
+libhfst45					install
+libhfst45-dbgsym				install
+libhfst45-dev					install
 libhfstospell5					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
