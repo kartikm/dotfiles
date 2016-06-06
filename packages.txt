@@ -580,6 +580,7 @@ javahelper					install
 javascript-common				install
 junit						install
 junit4						install
+kactivitymanagerd				install
 kamera						install
 kamoso						install
 kate						install
@@ -2484,7 +2485,7 @@ libwavpack1:amd64				install
 libwavpack1:i386				install
 libwayland-client0:amd64			install
 libwayland-cursor0:amd64			install
-libwayland-dev					install
+libwayland-dev:amd64				install
 libwayland-egl1-mesa:amd64			install
 libwayland-server0:amd64			install
 libwbclient0:amd64				install
