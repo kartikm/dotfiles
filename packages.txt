@@ -1317,7 +1317,6 @@ libhawtjni-runtime-java				install
 libhdf5-10:amd64				install
 libhfst45					install
 libhfst45-dbgsym				install
-libhfst45-dev					install
 libhfstospell5					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
