@@ -117,6 +117,7 @@ cdbs						install
 cdebootstrap					install
 cdparanoia					install
 cg3						install
+cg3-dbgsym					install
 cgroupfs-mount					install
 chromium					install
 chrpath						install
@@ -877,6 +878,7 @@ libcdparanoia0:amd64				install
 libcdr-0.1-1					install
 libcdt5						install
 libcg3-0:amd64					install
+libcg3-0-dbgsym:amd64				install
 libcg3-dev:amd64				install
 libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
