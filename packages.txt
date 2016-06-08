@@ -1173,7 +1173,7 @@ libgcrypt20:i386				install
 libgcrypt20-dev					install
 libgd3:amd64					install
 libgd3:i386					install
-libgdbm-dev					install
+libgdbm-dev:amd64				install
 libgdbm3:amd64					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-common				install
@@ -1696,7 +1696,6 @@ libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
 liblttoolbox3-3.3-0v5:amd64			install
-liblttoolbox3-3.3-0v5-dbgsym:amd64		install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -2760,9 +2759,7 @@ lshw						install
 lsof						install
 ltrace						install
 lttoolbox					install
-lttoolbox-dbgsym				install
 lttoolbox-dev					install
-lttoolbox-dev-dbgsym				install
 lua-bitop:amd64					install
 lua-expat:amd64					install
 lua-json					install
