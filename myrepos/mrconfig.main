@@ -451,3 +451,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/libmng/libmng]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/libmng.git' 'libmng'
+
+[development/debian/packages/apertium/apertium-swe-nor]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-swe-nor' 'apertium-swe-nor'
