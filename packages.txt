@@ -37,6 +37,7 @@ apertium-dev					install
 apertium-es-ca					install
 apertium-fra					install
 apertium-lex-tools				install
+apertium-lex-tools-dbgsym			install
 apertium-nno					install
 apertium-nno-nob				install
 apertium-nob					install
