@@ -454,3 +454,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/giellas/giella-core]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/giella-core' 'giella-core'
+
+[development/apertium/apertium-apy]
+checkout = svn co 'https://github.com/goavki/apertium-apy/trunk' 'apertium-apy'
