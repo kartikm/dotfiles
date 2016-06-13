@@ -3599,7 +3599,6 @@ uuid-runtime					install
 va-driver-all:amd64				install
 va-driver-all:i386				install
 vagrant						install
-varnish						install
 vbetool						install
 vcsh						install
 vde2						install
