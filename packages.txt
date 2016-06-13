@@ -517,6 +517,7 @@ hatari						install
 hdparm						install
 help2man					install
 hfst						install
+hfst-dbgsym					install
 hfst-ospell					install
 hfst-ospell-dev					install
 hicolor-icon-theme				install
