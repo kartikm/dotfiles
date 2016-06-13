@@ -460,3 +460,9 @@ checkout = svn co 'https://github.com/goavki/apertium-apy/trunk' 'apertium-apy'
 
 [development/debian/packages/apertium/apertium-af-nl]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-af-nl.git' 'apertium-af-nl'
+
+[development/debian/packages/apertium/apertium-br-fr]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-br-fr.git' 'apertium-br-fr'
+
+[development/debian/packages/apertium/apertium-cat]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-cat' 'apertium-cat'
