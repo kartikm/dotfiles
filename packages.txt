@@ -33,6 +33,7 @@ apertium-all-dev				install
 apertium-apy					install
 apertium-ca-it					install
 apertium-cat					install
+apertium-cy-en					install
 apertium-dan					install
 apertium-dan-nor				install
 apertium-dev					install
