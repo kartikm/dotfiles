@@ -37,7 +37,9 @@ apertium-cy-en					install
 apertium-dan					install
 apertium-dan-nor				install
 apertium-dev					install
+apertium-en-ca					install
 apertium-en-es					install
+apertium-en-gl					install
 apertium-es-ca					install
 apertium-fra					install
 apertium-lex-tools				install
