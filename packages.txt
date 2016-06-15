@@ -257,6 +257,7 @@ dynamite					install
 e2fslibs:amd64					install
 e2fsprogs					install
 easy-rsa					install
+eatmydata					install
 ed						install
 eject						install
 emacs24						install
@@ -1058,6 +1059,7 @@ libdvdnav4:amd64				install
 libdvdread4:amd64				install
 libdynamite0					install
 libe-book-0.1-1					install
+libeatmydata1:amd64				install
 libebml4v5:amd64				install
 libecj-java					install
 libedit2:amd64					install
