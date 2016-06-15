@@ -49,6 +49,7 @@ apertium-lex-tools-dbgsym			install
 apertium-nno					install
 apertium-nno-nob				install
 apertium-nob					install
+apertium-spa					install
 apertium-swe					install
 apertium-swe-dan				install
 apertium-swe-nor				install
