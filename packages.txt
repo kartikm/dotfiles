@@ -471,10 +471,8 @@ gnupg-agent					install
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
-gnuplot-tex					install
 gnuplot-x11					install
-gnuplot5-data					install
-gnuplot5-qt					install
+gnuplot5-qt					deinstall
 google-chrome-stable				install
 google-talkplugin				install
 gource						install
@@ -1434,7 +1432,6 @@ libjcommander-java				install
 libjcommon-java					install
 libjcsp-java					install
 libjdom1-java					install
-libjemalloc1					install
 libjim0.76:amd64				install
 libjline-java					install
 libjline2-java					install
@@ -2102,7 +2099,6 @@ libqt5clucene5:amd64				install
 libqt5concurrent5:amd64				install
 libqt5core5a:amd64				install
 libqt5dbus5:amd64				install
-libqt5declarative5:amd64			install
 libqt5designer5:amd64				install
 libqt5designercomponents5:amd64			install
 libqt5gui5:amd64				install
@@ -2460,7 +2456,6 @@ libva-x11-1:i386				install
 libva1:amd64					install
 libva1:i386					install
 libvariable-magic-perl				install
-libvarnishapi1					install
 libvcdinfo0					install
 libvde0						install
 libvdeplug2					install
@@ -3381,6 +3376,7 @@ qrencode					install
 qt4-qmake					install
 qt5-image-formats-plugins:amd64			install
 qt5-qmake:amd64					install
+qt5-qmltooling-plugins:amd64			install
 qtbase5-dev:amd64				install
 qtbase5-dev-tools				install
 qtchooser					install
@@ -3389,7 +3385,6 @@ qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
 qtdeclarative5-kf5declarative			install
 qtdeclarative5-kf5solid				install
-qtquick1-5-dev:amd64				install
 qttools5-dev-tools				install
 qttranslations5-l10n				install
 quake3						install
