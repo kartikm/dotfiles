@@ -59,8 +59,8 @@ checkout = svn co svn://svn.savannah.nongnu.org/fontypython/trunk
 [development/upstreams/mango-lassi]
 checkout = git clone 'git://github.com/herzi/mango-lassi.git' 'mango-lassi'
 
-[development/upstreams/ostinato]
-checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
+#[development/upstreams/ostinato]
+#checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
 
 [development/upstreams/xosview]
 checkout = git clone 'git@github.com:hills/xosview.git' 'xosview'
@@ -82,8 +82,8 @@ checkout = git clone 'git://git.fedorahosted.org/lohit.git' 'lohit'
 checkout = git clone 'git@github.com:kartikm/tofudetector.git' 'tofudetector'
 update = fork_update
 
-[development/fonts/sfntly]
-checkout = svn co 'http://sfntly.googlecode.com/svn/trunk' 'sfntly'
+#[development/fonts/sfntly]
+#checkout = svn co 'http://sfntly.googlecode.com/svn/trunk' 'sfntly'
 
 [development/fonts/fontforge]
 checkout = git clone 'git@github.com:kartikm/fontforge.git' 'fontforge'
@@ -93,8 +93,8 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/WikiFont.git' 'WikiFont'
 update = fork_update
 
-[development/fonts/font-compression-reference]
-checkout = git clone 'https://code.google.com/p/font-compression-reference/' 'font-compression-reference'
+#[development/fonts/font-compression-reference]
+#checkout = git clone 'https://code.google.com/p/font-compression-reference/' 'font-compression-reference'
 
 # Packages
 [development/debian/packages/aria2/aria2]
@@ -188,8 +188,8 @@ checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' 'oh-my-zsh'
 [development/books/penguin-can-fly]
 checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-fly'
 
-[development/books/svnbook/trunk]
-checkout = svn co 'http://svnbook.googlecode.com/svn/trunk' 'trunk'
+#[development/books/svnbook/trunk]
+#checkout = svn co 'http://svnbook.googlecode.com/svn/trunk' 'trunk'
 
 [development/books/progit]
 checkout = git clone 'git://github.com/progit/progit.git' 'progit'
@@ -228,8 +228,8 @@ checkout = git clone 'git@github.com:kartikm/cv.git' 'cv'
 [development/github/dotfiles]
 checkout = git clone 'git@github.com:kartikm/dotfiles.git' 'dotfiles'
 
-[development/misc/end-to-end]
-checkout = git clone 'https://code.google.com/p/end-to-end/' 'end-to-end'
+#[development/misc/end-to-end]
+#checkout = git clone 'https://code.google.com/p/end-to-end/' 'end-to-end'
 
 # GL
 [development/github/GL/ascii2unicode]
