@@ -1061,6 +1061,7 @@ libdv4:amd64					install
 libdvbpsi10:amd64				install
 libdvdnav4:amd64				install
 libdvdread4:amd64				install
+libdw1:amd64					install
 libdynamite0					install
 libe-book-0.1-1					install
 libeatmydata1:amd64				install
@@ -1909,6 +1910,7 @@ libopencv-objdetect2.4v5:amd64			install
 libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopenjp2-7:amd64				install
+libopenjp2-7:i386				install
 libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
 libopenobex2					install
