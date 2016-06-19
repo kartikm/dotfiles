@@ -9,6 +9,7 @@ acpid						install
 adduser						install
 adequate					install
 adwaita-icon-theme				install
+agent-transfer					install
 aglfn						install
 aha						install
 aircrack-ng					install
@@ -39,14 +40,12 @@ apertium-dan					install
 apertium-dan-nor				install
 apertium-dev					install
 apertium-en-ca					install
-apertium-en-es					install
 apertium-en-gl					install
 apertium-eo-en					install
 apertium-es-ast					install
 apertium-es-ca					install
 apertium-fra					install
 apertium-lex-tools				install
-apertium-lex-tools-dbgsym			install
 apertium-nno					install
 apertium-nno-nob				install
 apertium-nob					install
@@ -130,7 +129,6 @@ cdbs						install
 cdebootstrap					install
 cdparanoia					install
 cg3						install
-cg3-dbgsym					install
 cgroupfs-mount					install
 chromium					install
 chrpath						install
@@ -527,7 +525,6 @@ hatari						install
 hdparm						install
 help2man					install
 hfst						install
-hfst-dbgsym					install
 hfst-ospell					install
 hfst-ospell-dev					install
 hicolor-icon-theme				install
@@ -893,7 +890,6 @@ libcdparanoia0:amd64				install
 libcdr-0.1-1					install
 libcdt5						install
 libcg3-0:amd64					install
-libcg3-0-dbgsym:amd64				install
 libcg3-dev:amd64				install
 libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
@@ -1334,7 +1330,6 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf5-10:amd64				install
 libhfst45					install
-libhfst45-dbgsym				install
 libhfst45-dev					install
 libhfstospell5					install
 libhogweed4:amd64				install
@@ -1912,7 +1907,6 @@ libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
-libopenjpeg5:amd64				install
 libopenjpeg5:i386				install
 libopenobex2					install
 liboping0:amd64					install
@@ -3080,7 +3074,6 @@ plasma-integration				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-wallpapers-addons			install
-plasma-widget-folderview			install
 plasma-widgets-addons				install
 plasma-workspace				install
 pm-utils					install
@@ -3168,11 +3161,9 @@ python-decorator				install
 python-defusedxml				install
 python-dev					install
 python-distro-info				install
-python-dns					install
 python-dnspython				install
 python-docutils					install
 python-dput					install
-python-ecdsa					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-enum34					install
@@ -3252,7 +3243,6 @@ python-pyqt5.qtwebkit				install
 python-pysimplesoap				install
 python-qrtools					install
 python-qt4					install
-python-recoll					install
 python-reportbug				install
 python-repoze.lru				install
 python-requests					install
@@ -3332,7 +3322,6 @@ python3-pkg-resources				install
 python3-pycurl					install
 python3-pyparsing				install
 python3-pyqt4					install
-python3-recoll					install
 python3-setuptools				install
 python3-simplegeneric				install
 python3-sip					install
@@ -3415,7 +3404,6 @@ readline-common					install
 realpath					install
 reaver						install
 recode						install
-recoll						install
 remind						install
 rename						install
 reportbug					install
@@ -3565,7 +3553,6 @@ tix						install
 tk						install
 tk8.6						install
 tk8.6-blt2.5					install
-tlsdate						install
 tmux						install
 tofrodos					install
 toilet						install
