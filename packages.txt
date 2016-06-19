@@ -249,6 +249,7 @@ docker-engine					install
 docutils-common					install
 docutils-doc					install
 dolphin						install
+dolphin4					install
 dosbox						install
 dosfstools					install
 doxygen						install
@@ -302,6 +303,7 @@ firebird2.5-common				install
 firebird2.5-common-doc				install
 firebird2.5-server-common			install
 firefox-esr					install
+firefox-esr-l10n-gu-in				install
 firmware-amd-graphics				install
 firmware-linux					install
 firmware-linux-free				install
@@ -477,9 +479,8 @@ gnupg2						install
 gnuplot						install
 gnuplot-data					install
 gnuplot-x11					install
-gnuplot5-qt					deinstall
 google-chrome-stable				install
-google-talkplugin				install
+google-talkplugin				deinstall
 gource						install
 gparted						install
 gperf						install
@@ -2754,10 +2755,14 @@ linux-base					install
 linux-compiler-gcc-5-x86			install
 linux-headers-4.5.0-2-amd64			install
 linux-headers-4.5.0-2-common			install
+linux-headers-4.6.0-1-amd64			install
+linux-headers-4.6.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.5.0-2-amd64			install
+linux-image-4.6.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.5				install
+linux-kbuild-4.6				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -3191,6 +3196,7 @@ python-html2text				install
 python-html5lib					install
 python-httplib2					install
 python-idna					install
+python-imagesize				install
 python-imaging					install
 python-ipaddress				install
 python-jinja2					install
