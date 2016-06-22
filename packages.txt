@@ -2243,7 +2243,6 @@ libsepol1:amd64					install
 libsepol1-dev:amd64				install
 libserf-1-1:amd64				install
 libserializer-java				install
-libservlet2.5-java				install
 libservlet3.0-java				install
 libservlet3.1-java				install
 libsgmls-perl					install
@@ -2515,7 +2514,6 @@ libwebp5:i386					install
 libwebpdemux1:amd64				install
 libwebpmux1:amd64				install
 libwebrtc-audio-processing-0:amd64		install
-libwerken.xpath-java				install
 libwildmidi-config				install
 libwildmidi1:amd64				install
 libwinpr-crt0.1:amd64				install
