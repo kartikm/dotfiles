@@ -43,6 +43,7 @@ apertium-dev					install
 apertium-en-ca					install
 apertium-en-gl					install
 apertium-eo-en					install
+apertium-eo-es					install
 apertium-es-ast					install
 apertium-es-ca					install
 apertium-es-it					install
