@@ -1317,7 +1317,7 @@ libgtkspell0					install
 libgts-0.7-5:amd64				install
 libgts-bin					install
 libguard-perl					install
-libgucharmap-2-90-7				install
+libgucharmap-2-90-7:amd64			install
 libgudev-1.0-0:amd64				install
 libgupnp-1.0-4:amd64				install
 libgupnp-av-1.0-2				install
