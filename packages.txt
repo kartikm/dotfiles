@@ -59,6 +59,7 @@ apertium-spa-arg				install
 apertium-swe					install
 apertium-swe-dan				install
 apertium-swe-nor				install
+apertium-tat					install
 apg						install
 apparmor-easyprof				install
 appstream					install
