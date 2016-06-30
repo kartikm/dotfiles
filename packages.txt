@@ -644,6 +644,7 @@ kernel-wedge					install
 kerneloops					install
 kerneloops-applet				install
 keyboard-configuration				install
+keyutils					install
 kfind						install
 khelpcenter					install
 khelpcenter4					install
@@ -782,17 +783,17 @@ libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
 libauthen-sasl-perl				install
 libautodie-perl					install
-libavahi-client-dev				install
+libavahi-client-dev:amd64			install
 libavahi-client3:amd64				install
 libavahi-client3:i386				install
 libavahi-common-data:amd64			install
 libavahi-common-data:i386			install
-libavahi-common-dev				install
+libavahi-common-dev:amd64			install
 libavahi-common3:amd64				install
 libavahi-common3:i386				install
-libavahi-glib-dev				install
+libavahi-glib-dev:amd64				install
 libavahi-glib1:amd64				install
-libavahi-ui-dev					install
+libavahi-ui-dev:amd64				install
 libavahi-ui0:amd64				install
 libavalon-framework-java			install
 libavc1394-0:amd64				install
@@ -902,6 +903,7 @@ libcgi-fast-perl				install
 libcgi-formbuilder-perl				install
 libcgi-pm-perl					install
 libcgi-session-perl				install
+libcglib-java					install
 libcglib3-java					install
 libcgraph6					install
 libchm-bin					install
@@ -2392,6 +2394,7 @@ libtheora0:amd64				install
 libtheora0:i386					install
 libthreadweaver4				install
 libtidy-0.99-0					install
+libtidy5					install
 libtie-ixhash-perl				install
 libtiff-tools					install
 libtiff5:amd64					install
