@@ -2242,6 +2242,7 @@ libsasl2-modules:amd64				install
 libsasl2-modules-db:amd64			install
 libsaxon-java					install
 libsbc1:amd64					install
+libscalar-list-utils-perl			install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
 libschroedinger-1.0-0:i386			install
@@ -3483,6 +3484,7 @@ ruby-net-ssh					install
 ruby-net-telnet					install
 ruby-netrc					install
 ruby-nokogiri					install
+ruby-pkg-config					install
 ruby-power-assert				install
 ruby-rb-inotify					install
 ruby-rest-client				install
