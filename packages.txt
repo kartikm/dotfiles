@@ -3373,6 +3373,7 @@ python3-six					install
 python3-software-properties			install
 python3-tk					install
 python3-tornado					install
+python3-toro					install
 python3-tz					install
 python3-uno					install
 python3-wheel					install
