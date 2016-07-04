@@ -203,6 +203,7 @@ export EDITOR='vim'
 export VISUAL='vim'
 
 alias lintian='lintian -iIEcv --pedantic --color auto'
+alias lintian-normal='lintian --color auto'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
 
