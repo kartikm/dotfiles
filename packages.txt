@@ -2541,6 +2541,7 @@ libwebp5:i386					install
 libwebpdemux1:amd64				install
 libwebpmux1:amd64				install
 libwebrtc-audio-processing-0:amd64		install
+libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi1:amd64				install
 libwinpr-crt0.1:amd64				install
@@ -3152,6 +3153,7 @@ psutils						install
 publicsuffix					install
 pulseaudio					install
 pulseaudio-esound-compat			install
+pulseaudio-module-udev				install
 pulseaudio-module-x11				install
 pulseaudio-utils				install
 puppet						install
