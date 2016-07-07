@@ -724,7 +724,7 @@ libacr38u					install
 libacsccid1					install
 libaec0:amd64					install
 libaio1:amd64					install
-libakonadiprotocolinternals1			install
+libakonadiprotocolinternals1			deinstall
 libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
