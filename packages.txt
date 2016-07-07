@@ -461,6 +461,7 @@ gir1.2-atk-1.0					install
 gir1.2-freedesktop:amd64			install
 gir1.2-gdkpixbuf-2.0:amd64			install
 gir1.2-glib-2.0:amd64				install
+gir1.2-gmime-2.6:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0:amd64				install
 gir1.2-notify-0.7				install
@@ -902,6 +903,7 @@ libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
 libcanberra0:amd64				install
 libcap-dev:amd64				install
+libcap-ng-dev					install
 libcap-ng0:amd64				install
 libcap2:amd64					install
 libcap2:i386					install
@@ -1294,6 +1296,7 @@ libgpars-groovy-java				install
 libgpg-error-dev				install
 libgpg-error0:amd64				install
 libgpg-error0:i386				install
+libgpgme++2v5					install
 libgpgme11:amd64				install
 libgpgme11-dev					install
 libgphoto2-6:amd64				install
@@ -1525,6 +1528,7 @@ libkeyutils1:amd64				install
 libkeyutils1:i386				install
 libkf5activities5:amd64				install
 libkf5activitiesexperimentalstats1		install
+libkf5akonadiprivate5				install
 libkf5archive5:amd64				install
 libkf5attica5:amd64				install
 libkf5auth-data					install
@@ -2032,6 +2036,7 @@ libplist3:amd64					install
 libpng-dev:amd64				install
 libpng16-16:amd64				install
 libpng16-16:i386				install
+libpod-constants-perl				install
 libpod-markdown-perl				install
 libpod-readme-perl				install
 libpolkit-agent-1-0:amd64			install
@@ -2353,6 +2358,7 @@ libstoken1:amd64				install
 libstreamanalyzer0v5				install
 libstreams0v5					install
 libstrictures-perl				install
+libstring-escape-perl				install
 libsub-exporter-perl				install
 libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
@@ -2784,6 +2790,7 @@ libzmq5:amd64					install
 libzvbi-common					install
 libzvbi0:amd64					install
 libzvbi0:i386					install
+licensecheck					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-5-x86			install
@@ -3272,6 +3279,7 @@ python-pyasn1					install
 python-pyasn1-modules				install
 python-pycparser				install
 python-pycurl					install
+python-pydispatch				install
 python-pyexiv2					install
 python-pygame					install
 python-pygments					install
@@ -3349,6 +3357,8 @@ python3-dbus					install
 python3-debian					install
 python3-decorator				install
 python3-dev					install
+python3-dnspython				install
+python3-formencode				install
 python3-gi					install
 python3-html5lib				install
 python3-libapparmor				install
@@ -3363,6 +3373,7 @@ python3-pil:amd64				install
 python3-pip					install
 python3-pkg-resources				install
 python3-pycurl					install
+python3-pydispatch				install
 python3-pyparsing				install
 python3-pyqt4					install
 python3-recoll					install
@@ -3371,6 +3382,7 @@ python3-simplegeneric				install
 python3-sip					install
 python3-six					install
 python3-software-properties			install
+python3-sqlobject				install
 python3-tk					install
 python3-tornado					install
 python3-toro					install
@@ -3550,6 +3562,7 @@ sphinx-doc					install
 sphinx-rtd-theme-common				install
 sqlite						install
 sqlite3						install
+sqlobject-admin					install
 squashfs-tools					install
 ssh						install
 ssh-askpass					install
