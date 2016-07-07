@@ -526,3 +526,9 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/python-to
 
 [development/debian/packages/apertium/apertium-isl-eng]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-isl-eng' 'apertium-isl-eng'
+
+[development/debian/packages/apertium/apertium-mk-en]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-mk-en' 'apertium-mk-en'
+
+[development/debian/packages/apertium/apertium-urd-hin]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-urd-hin' 'apertium-urd-hin'
