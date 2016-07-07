@@ -523,3 +523,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/python-toro]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/python-toro.git' 'python-toro'
+
+[development/debian/packages/apertium/apertium-isl-eng]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-isl-eng' 'apertium-isl-eng'
