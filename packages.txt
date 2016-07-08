@@ -3739,6 +3739,7 @@ xchm						install
 xclip						install
 xcowsay						install
 xdaliclock					install
+xdaliclock-dbgsym				install
 xdelta						install
 xdg-user-dirs					install
 xdg-utils					install
