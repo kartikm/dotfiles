@@ -3759,6 +3759,7 @@ xmlto						install
 xmoto						install
 xmoto-data					install
 xmountains					install
+xmountains-dbgsym				install
 xorg-sgml-doctools				install
 xorriso						install
 xosview						install
