@@ -3236,6 +3236,8 @@ python-gobject-2				install
 python-googleapi				install
 python-gridfs					install
 python-gtk2					install
+python-gtkmvc					install
+python-gtkmvc-doc				install
 python-hpack					install
 python-html2text				install
 python-html5lib					install
