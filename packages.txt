@@ -47,6 +47,7 @@ apertium-eo-en					install
 apertium-eo-es					install
 apertium-es-ast					install
 apertium-es-ca					install
+apertium-es-gl					install
 apertium-es-it					install
 apertium-fr-es					install
 apertium-fra					install
