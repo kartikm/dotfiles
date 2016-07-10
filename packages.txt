@@ -3220,6 +3220,7 @@ python-decorator				install
 python-defusedxml				install
 python-dev					install
 python-distro-info				install
+python-distutils-extra				install
 python-dnspython				install
 python-docutils					install
 python-dput					install
