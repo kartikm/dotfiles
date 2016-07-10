@@ -59,6 +59,7 @@ apertium-nno					install
 apertium-nno-nob				install
 apertium-nob					install
 apertium-oc-es					install
+apertium-pt-ca					install
 apertium-spa					install
 apertium-spa-arg				install
 apertium-swe					install

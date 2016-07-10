@@ -202,8 +202,8 @@ export DEBFULLNAME="Kartik Mistry"
 export EDITOR='vim'
 export VISUAL='vim'
 
-alias lintian='lintian -iIEcv --pedantic --color auto'
-alias lintian-normal='lintian --color auto'
+alias lintian='lintian -iIEcv --pedantic --color auto --no-tag-display-limit'
+alias lintian-normal='lintian --color auto --no-tag-display-limit'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
 
