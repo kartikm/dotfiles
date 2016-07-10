@@ -41,6 +41,7 @@ apertium-dan					install
 apertium-dan-nor				install
 apertium-dev					install
 apertium-en-ca					install
+apertium-en-es					install
 apertium-en-gl					install
 apertium-eo-ca					install
 apertium-eo-en					install
@@ -60,6 +61,7 @@ apertium-nno-nob				install
 apertium-nob					install
 apertium-oc-es					install
 apertium-pt-ca					install
+apertium-pt-gl					install
 apertium-spa					install
 apertium-spa-arg				install
 apertium-swe					install
