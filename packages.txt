@@ -642,7 +642,6 @@ kde-style-breeze-qt4				install
 kde-style-oxygen-qt5				install
 kde-style-qtcurve-qt4:amd64			install
 kde-style-qtcurve-qt5:amd64			install
-kdebase-runtime					install
 kdeconnect					install
 kded5						install
 kdelibs-bin					install
@@ -824,7 +823,6 @@ libavahi-ui0:amd64				install
 libavalon-framework-java			install
 libavc1394-0:amd64				install
 libavcodec-dev:amd64				install
-libavcodec-ffmpeg56:i386			install
 libavcodec57:amd64				install
 libavcodec57:i386				install
 libavfilter6:amd64				install
@@ -833,7 +831,6 @@ libavformat57:amd64				install
 libavresample3:amd64				install
 libavresample3:i386				install
 libavutil-dev:amd64				install
-libavutil-ffmpeg54:i386				install
 libavutil55:amd64				install
 libavutil55:i386				install
 libaxis-java					install
@@ -1048,7 +1045,6 @@ libdbus-1-3:i386				install
 libdbus-1-dev:amd64				install
 libdbus-glib-1-2:amd64				install
 libdbus-glib-1-2:i386				install
-libdbus-glib-1-dev				install
 libdbusmenu-glib4:amd64				install
 libdbusmenu-gtk4:amd64				install
 libdbusmenu-qt2:amd64				install
@@ -1405,7 +1401,6 @@ libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
 libicu-dev:amd64				install
-libicu52:amd64					install
 libicu52:i386					deinstall
 libicu55:amd64					install
 libicu55:i386					install
@@ -1504,7 +1499,6 @@ libjs-sphinxdoc					install
 libjs-twitter-bootstrap				install
 libjs-underscore				install
 libjsch-java					install
-libjson-c2:amd64				install
 libjson-c2:i386					deinstall
 libjson-c3:amd64				install
 libjson-c3:i386					install
@@ -1894,9 +1888,6 @@ libnl-3-dev:amd64				install
 libnl-genl-3-200:amd64				install
 libnl-genl-3-dev:amd64				install
 libnl-route-3-200:amd64				install
-libnm-glib-vpn1:amd64				install
-libnm-glib4:amd64				install
-libnm-util2:amd64				install
 libnm0:amd64					install
 libnotify-bin					install
 libnotify-dev					install
@@ -1909,7 +1900,6 @@ libnspr4-0d:amd64				install
 libnspr4-0d:i386				install
 libnss3:amd64					install
 libnss3-1d:amd64				install
-libntdb1:amd64					install
 libntfs-3g871					install
 libntlm0:amd64					install
 libntrack-qt4-1					install
@@ -1950,7 +1940,7 @@ libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
-libopenjpeg5:i386				install
+libopenjpeg5:i386				deinstall
 libopenobex2					install
 liboping0:amd64					install
 libopts25:amd64					install
@@ -2079,7 +2069,6 @@ libproxy-tools					install
 libproxy1v5:amd64				install
 libpsl0:amd64					install
 libpspell-dev:amd64				install
-libptexenc1:amd64				install
 libpth-dev					install
 libpth20:amd64					install
 libpthread-stubs0-dev:amd64			install
@@ -2356,7 +2345,6 @@ libssh-gcrypt-4:amd64				install
 libssh2-1:amd64					install
 libssh2-1-dev:amd64				install
 libssl-dev:amd64				install
-libssl1.0.0:amd64				install
 libssl1.0.2:amd64				install
 libstartup-notification0:amd64			install
 libstdc++-4.9-dev:amd64				install
@@ -2379,7 +2367,6 @@ libsvn-perl					install
 libsvn1:amd64					install
 libswitch-perl					install
 libswresample-dev:amd64				install
-libswresample-ffmpeg1:i386			install
 libswresample2:amd64				install
 libswresample2:i386				install
 libswscale4:amd64				install
@@ -2792,7 +2779,6 @@ libyaml-tiny-perl				install
 libzbar0					install
 libzephyr4:amd64				install
 libzip-dev:amd64				install
-libzip2						install
 libzip4:amd64					install
 libzmq3-dev:amd64				install
 libzmq5:amd64					install
@@ -2876,7 +2862,6 @@ mosh						install
 mount						install
 mozilla-devscripts				install
 mpg123						install
-mr						install
 mscompress					install
 msp430-libc					install
 msp430mcu					install
@@ -3456,8 +3441,6 @@ qtchooser					install
 qtcore4-l10n					install
 qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
-qtdeclarative5-kf5declarative			install
-qtdeclarative5-kf5solid				install
 qttools5-dev-tools				install
 qttranslations5-l10n				install
 quake3						install
