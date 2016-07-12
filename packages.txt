@@ -53,6 +53,7 @@ apertium-es-it					install
 apertium-es-pt					install
 apertium-fr-es					install
 apertium-fra					install
+apertium-hbs-eng				install
 apertium-id-ms					install
 apertium-isl					install
 apertium-isl-eng				install
