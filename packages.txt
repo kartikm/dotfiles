@@ -1101,6 +1101,7 @@ libdynamite0					install
 libe-book-0.1-1					install
 libeatmydata1:amd64				install
 libebml4v5:amd64				install
+libebur128-1:amd64				install
 libecj-java					install
 libedit2:amd64					install
 libedit2:i386					install
@@ -1204,6 +1205,7 @@ libfribidi0:amd64				install
 libftdi1:amd64					install
 libfuse2:amd64					install
 libgadu3					install
+libgail-common:amd64				install
 libgail18:amd64					install
 libgbm1:amd64					install
 libgc1c2:amd64					install
@@ -1493,6 +1495,7 @@ libjs-jquery-hotkeys				install
 libjs-jquery-isonscreen				install
 libjs-jquery-metadata				install
 libjs-jquery-tablesorter			install
+libjs-jquery-throttle-debounce			install
 libjs-jquery-ui					install
 libjs-mathjax					install
 libjs-modernizr					install
@@ -2490,6 +2493,7 @@ libuv1-dev:amd64				install
 libv4l-0:amd64					install
 libv4lconvert0:amd64				install
 libva-drm1:amd64				install
+libva-drm1:i386					install
 libva-x11-1:amd64				install
 libva-x11-1:i386				install
 libva1:amd64					install
