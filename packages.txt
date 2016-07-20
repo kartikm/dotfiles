@@ -502,6 +502,9 @@ gnupg2						install
 gnuplot						install
 gnuplot-data					install
 gnuplot-x11					install
+gnustep-base-common				install
+gnustep-base-runtime				install
+gnustep-common					install
 google-chrome-stable				install
 google-talkplugin				deinstall
 gource						install
@@ -1295,6 +1298,7 @@ libgnomevfs2-0:amd64				install
 libgnomevfs2-common				install
 libgnomevfs2-extra:amd64			install
 libgnupg-interface-perl				install
+libgnustep-base1.24				install
 libgnutls-openssl27:amd64			install
 libgnutls28-dev:amd64				install
 libgnutls30:amd64				install
@@ -2066,7 +2070,6 @@ libpri-dev					install
 libpri1.4					install
 libprocesscore7					install
 libprocessui7					install
-libprocps5:amd64				install
 libprocps6:amd64				install
 libprotobuf-c1					install
 libprotobuf-lite9v5:amd64			install
@@ -3252,7 +3255,6 @@ python-libhfst					install
 python-librdf					install
 python-libxml2					install
 python-linecache2				install
-python-logilab-common				install
 python-lxml					install
 python-lzma					install
 python-magic					install
@@ -3644,6 +3646,7 @@ ucf						install
 udev						install
 udisks2						install
 ufraw-batch					install
+unar						install
 unattended-upgrades				install
 unixodbc					install
 uno-libs3					install
