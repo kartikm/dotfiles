@@ -1775,6 +1775,7 @@ liblzo2-2:i386					install
 libm17n-0:amd64					install
 libmaa3:amd64					install
 libmad0:amd64					install
+libmagic-mgc					install
 libmagic1:amd64					install
 libmagickcore-6.q16-2:amd64			install
 libmagickcore-6.q16-2-extra:amd64		install
