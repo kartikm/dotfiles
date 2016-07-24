@@ -403,6 +403,7 @@ fonts-telu					install
 fonts-telu-extra				install
 fonts-texgyre					install
 fonts-wqy-zenhei				install
+fonts-yrsa-rasa					install
 fontypython					install
 foomatic-db-compressed-ppds			install
 foomatic-db-engine				install
