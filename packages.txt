@@ -1806,8 +1806,11 @@ libmimic0:amd64					install
 libmjpegutils-2.1-0				install
 libmm-glib0:amd64				install
 libmms0:amd64					install
+libmng-dev:amd64				install
 libmng1:amd64					install
 libmng1:i386					install
+libmng2:amd64					install
+libmng2-dbgsym:amd64				install
 libmnl0:amd64					install
 libmockito-java					install
 libmodplug1:amd64				install
