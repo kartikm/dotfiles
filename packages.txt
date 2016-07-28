@@ -2081,7 +2081,6 @@ libprocesscore7					install
 libprocessui7					install
 libprocps6:amd64				install
 libprotobuf-c1					install
-libprotobuf-lite9v5:amd64			install
 libprotobuf9v5:amd64				install
 libprotoc9v5:amd64				install
 libproxy-tools					install
