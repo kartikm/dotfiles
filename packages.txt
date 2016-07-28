@@ -769,6 +769,7 @@ libapt-pkg-perl					install
 libapt-pkg5.0:amd64				install
 libarchive-dev:amd64				install
 libarchive-extract-perl				install
+libarchive-tools				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
 libart-2.0-2:amd64				install
@@ -1417,7 +1418,7 @@ libicu-dev:amd64				install
 libicu52:i386					deinstall
 libicu55:amd64					install
 libicu55:i386					install
-libid3tag0					install
+libid3tag0:amd64				install
 libidn11:amd64					install
 libidn11:i386					install
 libidn11-dev					install
@@ -2373,6 +2374,7 @@ libstoken1:amd64				install
 libstreamanalyzer0v5				install
 libstreams0v5					install
 libstrictures-perl				install
+libstring-copyright-perl			install
 libstring-escape-perl				install
 libsub-exporter-perl				install
 libsub-exporter-progressive-perl		install

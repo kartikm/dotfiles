@@ -538,3 +538,9 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/apertium-mlt-ara]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-mlt-ara' 'apertium-mlt-ara'
+
+[development/fonts/woff2]
+checkout = git clone 'https://github.com/google/woff2.git' 'woff2'
+
+[development/fonts/sfntly]
+checkout = git clone 'https://github.com/googlei18n/sfntly.git' 'sfntly'
