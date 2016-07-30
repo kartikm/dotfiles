@@ -1819,6 +1819,7 @@ libmockito-java					install
 libmodplug1:amd64				install
 libmodule-build-perl				install
 libmodule-implementation-perl			install
+libmodule-load-conditional-perl			install
 libmodule-runtime-perl				install
 libmodule-signature-perl			install
 libmoo-perl					install
