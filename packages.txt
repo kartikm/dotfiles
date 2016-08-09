@@ -3030,7 +3030,6 @@ packagekit-tools				install
 packaging-dev					install
 pandoc						install
 pandoc-data					install
-parsoid						install
 parted						install
 passwd						install
 passwdqc					install
