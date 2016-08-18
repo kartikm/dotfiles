@@ -544,3 +544,6 @@ checkout = git clone 'https://github.com/google/woff2.git' 'woff2'
 
 [development/fonts/sfntly]
 checkout = git clone 'https://github.com/googlei18n/sfntly.git' 'sfntly'
+
+[development/debian/packages/apertium/apertium-isl]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-isl' 'apertium-isl'
