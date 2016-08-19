@@ -237,7 +237,7 @@ dh-exec						install
 dh-make						install
 dh-python					install
 dh-strip-nondeterminism				install
-dh-systemd					install
+dh-systemd					purge
 dia						install
 dia-common					install
 dia-libs					install
