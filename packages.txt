@@ -237,7 +237,6 @@ dh-exec						install
 dh-make						install
 dh-python					install
 dh-strip-nondeterminism				install
-dh-systemd					purge
 dia						install
 dia-common					install
 dia-libs					install
@@ -2087,7 +2086,6 @@ libprotobuf9v5:amd64				install
 libprotoc9v5:amd64				install
 libproxy-tools					install
 libproxy1v5:amd64				install
-libpsl0:amd64					install
 libpsl5:amd64					install
 libpspell-dev:amd64				install
 libpth-dev					install
@@ -2482,7 +2480,6 @@ libunicode-utf8-perl				install
 libuniconf4.6					install
 libuninameslist-dev				install
 libuninameslist0				install
-libunique-1.0-0					install
 libunistring0:amd64				install
 libuniversal-require-perl			install
 libupnp6					install
