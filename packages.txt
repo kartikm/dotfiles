@@ -428,6 +428,7 @@ fuse2fs						install
 g++						install
 g++-4.9						install
 g++-5						install
+g++-6						install
 game-data-packager				install
 garmin-forerunner-tools				install
 garmin-plugin					install
@@ -448,6 +449,7 @@ gcc-msp430					install
 gcc-multilib					install
 gcc-snapshot					install
 gcj-5-jre-lib					install
+gcj-6-jre-lib					install
 gconf-service					install
 gconf2						install
 gconf2-common					install
@@ -501,7 +503,10 @@ gnome-keyring					install
 gnome-mime-data					install
 gnupg						install
 gnupg-agent					install
+gnupg-l10n					install
 gnupg1						install
+gnupg1-curl					install
+gnupg1-l10n					install
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
@@ -874,16 +879,13 @@ libbonobo2-0:amd64				install
 libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
-libboost-date-time1.58.0:amd64			install
 libboost-date-time1.61.0:amd64			install
 libboost-dev:amd64				install
-libboost-filesystem1.58.0:amd64			install
 libboost-filesystem1.61.0:amd64			install
-libboost-iostreams1.58.0:amd64			install
 libboost-iostreams1.61.0:amd64			install
-libboost-program-options1.58.0:amd64		install
+libboost-program-options1.61.0:amd64		install
 libboost-python1.58.0				install
-libboost-system1.58.0:amd64			install
+libboost-python1.61.0				install
 libboost-system1.61.0:amd64			install
 libboost1.58-dev:amd64				install
 libbrlapi0.6:amd64				install
@@ -1231,6 +1233,7 @@ libgcc1:i386					install
 libgcj-bc:amd64					install
 libgcj-common					install
 libgcj16:amd64					install
+libgcj17:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
 libgconf-2-4:i386				install
@@ -1448,6 +1451,7 @@ libindirect-perl				install
 libinput-bin					install
 libinput10:amd64				install
 libintl-perl					install
+libintl-xs-perl					install
 libio-html-perl					install
 libio-multiplex-perl				install
 libio-pty-easy-perl				install
@@ -1575,7 +1579,6 @@ libkf5codecs-data				install
 libkf5codecs5:amd64				install
 libkf5completion-data				install
 libkf5completion5:amd64				install
-libkf5config-bin				install
 libkf5config-data				install
 libkf5configcore5:amd64				install
 libkf5configgui5:amd64				install
@@ -1584,7 +1587,6 @@ libkf5configwidgets5:amd64			install
 libkf5coreaddons-data				install
 libkf5coreaddons5:amd64				install
 libkf5crash5:amd64				install
-libkf5dbusaddons-bin				install
 libkf5dbusaddons-data				install
 libkf5dbusaddons5:amd64				install
 libkf5declarative-data				install
@@ -1762,7 +1764,6 @@ liblog-message-perl				install
 liblog-message-simple-perl			install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
-liblognorm2:amd64				install
 liblognorm5:amd64				install
 libloudmouth1-0:amd64				install
 libloudmouth1-dev:amd64				install
@@ -2384,8 +2385,6 @@ libstdc++-6-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
 libstoken1:amd64				install
-libstreamanalyzer0v5				install
-libstreams0v5					install
 libstrictures-perl				install
 libstring-copyright-perl			install
 libstring-escape-perl				install
@@ -2572,17 +2571,16 @@ libweather-ion7					install
 libwebkit2gtk-4.0-37:amd64			install
 libwebkit2gtk-4.0-37-gtk2:amd64			install
 libwebp5:amd64					install
-libwebp5:i386					install
 libwebp6:amd64					install
 libwebp6:i386					install
-libwebpdemux1:amd64				install
-libwebpmux1:amd64				install
+libwebpdemux2:amd64				install
 libwebpmux2:amd64				install
 libwebpmux2:i386				install
 libwebrtc-audio-processing-0:amd64		deinstall
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi1:amd64				install
+libwildmidi2:amd64				install
 libwinpr-crt0.1:amd64				install
 libwinpr-crypto0.1:amd64			install
 libwinpr-dsparse0.1:amd64			install
@@ -3191,8 +3189,6 @@ psutils						install
 publicsuffix					install
 pulseaudio					install
 pulseaudio-esound-compat			install
-pulseaudio-module-udev				install
-pulseaudio-module-x11				install
 pulseaudio-utils				install
 puppet						install
 puppet-lint					install
@@ -3225,6 +3221,7 @@ python-cffi-backend				install
 python-chardet					install
 python-click					install
 python-colorama					install
+python-concurrent.futures			install
 python-configargparse				install
 python-configobj				install
 python-construct				install
@@ -3482,7 +3479,7 @@ quake3						install
 quake3-data					install
 quilt						install
 quvi						install
-racket-common					install
+racket-common					deinstall
 radeontool					install
 rake						install
 rarian-compat					install
@@ -3581,7 +3578,6 @@ smbclient					install
 socat						install
 software-properties-common			install
 software-properties-gtk				install
-sonnet-plugins					install
 soprano-daemon					install
 sox						install
 sp						install
