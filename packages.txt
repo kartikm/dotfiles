@@ -1607,7 +1607,6 @@ libkf5gpgmepp5:amd64				install
 libkf5guiaddons5:amd64				install
 libkf5i18n-data					install
 libkf5i18n5:amd64				install
-libkf5iconthemes-bin				install
 libkf5iconthemes-data				install
 libkf5iconthemes5:amd64				install
 libkf5idletime5:amd64				install
@@ -1686,7 +1685,6 @@ libkf5widgetsaddons-data			install
 libkf5widgetsaddons5:amd64			install
 libkf5windowsystem-data				install
 libkf5windowsystem5:amd64			install
-libkf5xmlgui-bin				install
 libkf5xmlgui-data				install
 libkf5xmlgui5:amd64				install
 libkf5xmlrpcclient-data				install
@@ -2580,7 +2578,6 @@ libwebrtc-audio-processing-0:amd64		deinstall
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi1:amd64				install
-libwildmidi2:amd64				install
 libwinpr-crt0.1:amd64				install
 libwinpr-crypto0.1:amd64			install
 libwinpr-dsparse0.1:amd64			install
