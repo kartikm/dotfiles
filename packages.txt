@@ -501,6 +501,7 @@ gnome-keyring					install
 gnome-mime-data					install
 gnupg						install
 gnupg-agent					install
+gnupg1						install
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
@@ -874,12 +875,16 @@ libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.58.0:amd64			install
+libboost-date-time1.61.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.58.0:amd64			install
+libboost-filesystem1.61.0:amd64			install
 libboost-iostreams1.58.0:amd64			install
+libboost-iostreams1.61.0:amd64			install
 libboost-program-options1.58.0:amd64		install
 libboost-python1.58.0				install
 libboost-system1.58.0:amd64			install
+libboost-system1.61.0:amd64			install
 libboost1.58-dev:amd64				install
 libbrlapi0.6:amd64				install
 libbs2b0:amd64					install
@@ -966,6 +971,7 @@ libcli-dev					install
 libcli1.9:amd64					install
 libcln6						install
 libclone-perl					install
+libcloog-isl4:amd64				install
 libclucene-contribs1v5:amd64			install
 libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
@@ -1152,6 +1158,7 @@ libfakeroot:amd64				install
 libfaketime:amd64				install
 libfam0						install
 libfarstream-0.2-5:amd64			install
+libfastjson4:amd64				install
 libfbclient2:amd64				install
 libfbembed2.5					install
 libfcgi-perl					install
@@ -1413,11 +1420,12 @@ libical2:amd64					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
-libicu-dev:amd64				install
+libicu-dev					install
 libicu52:i386					deinstall
 libicu55:amd64					install
 libicu55:i386					install
 libicu57:amd64					install
+libicu57:i386					install
 libid3tag0:amd64				install
 libidn11:amd64					install
 libidn11:i386					install
@@ -1452,8 +1460,11 @@ libio-string-perl				install
 libio-stringy-perl				install
 libiodbc2:amd64					install
 libiodbc2-dev					install
+libip4tc0:amd64					install
+libip6tc0:amd64					install
 libipc-run-perl					install
 libipc-system-simple-perl			install
+libiptc0:amd64					install
 libisc-export160				install
 libisc160:amd64					install
 libisccc140:amd64				install
@@ -1752,6 +1763,7 @@ liblog-message-simple-perl			install
 liblog4j1.2-java				install
 liblogging-stdlog0:amd64			install
 liblognorm2:amd64				install
+liblognorm5:amd64				install
 libloudmouth1-0:amd64				install
 libloudmouth1-dev:amd64				install
 liblqr-1-0:amd64				install
@@ -2368,6 +2380,7 @@ libssl1.0.2:amd64				install
 libstartup-notification0:amd64			install
 libstdc++-4.9-dev:amd64				install
 libstdc++-5-dev:amd64				install
+libstdc++-6-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
 libstoken1:amd64				install
@@ -2561,9 +2574,11 @@ libwebkit2gtk-4.0-37-gtk2:amd64			install
 libwebp5:amd64					install
 libwebp5:i386					install
 libwebp6:amd64					install
+libwebp6:i386					install
 libwebpdemux1:amd64				install
 libwebpmux1:amd64				install
 libwebpmux2:amd64				install
+libwebpmux2:i386				install
 libwebrtc-audio-processing-0:amd64		deinstall
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
@@ -2776,7 +2791,7 @@ libxstream-java					install
 libxt-dev:amd64					install
 libxt6:amd64					install
 libxt6:i386					install
-libxtables11					install
+libxtables11:amd64				install
 libxtst-dev:amd64				install
 libxtst6:amd64					install
 libxtst6:i386					install
