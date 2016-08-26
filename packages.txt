@@ -631,6 +631,7 @@ javahelper					install
 javascript-common				install
 junit						install
 junit4						install
+kactivities-bin					install
 kactivitymanagerd				install
 kamera						install
 kamoso						install
@@ -2093,7 +2094,9 @@ libprocesscore7					install
 libprocessui7					install
 libprocps6:amd64				install
 libprotobuf-c1					install
+libprotobuf10:amd64				install
 libprotobuf9v5:amd64				install
+libprotoc10:amd64				install
 libprotoc9v5:amd64				install
 libproxy-tools					install
 libproxy1v5:amd64				install
@@ -2339,6 +2342,7 @@ libsoftware-license-perl			install
 libsolid4					install
 libsombok3:amd64				install
 libsoprano4					install
+libsort-key-perl				install
 libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
@@ -2600,7 +2604,9 @@ libwinpr-thread0.1:amd64			install
 libwinpr-utils0.1:amd64				install
 libwireshark-data				install
 libwireshark6:amd64				install
+libwireshark8:amd64				install
 libwiretap5:amd64				install
+libwiretap6:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
@@ -2609,8 +2615,10 @@ libwpg-0.3-3					install
 libwps-0.4-4					install
 libwrap0:amd64					install
 libwrap0:i386					install
+libwscodecs1:amd64				install
 libwsdl4j-java					install
 libwsutil6:amd64				install
+libwsutil7:amd64				install
 libwvstreams4.6-base				install
 libwvstreams4.6-extras				install
 libwww-perl					install
@@ -3436,9 +3444,10 @@ qemu-system-x86					install
 qemu-user					install
 qemu-user-binfmt				install
 qemu-utils					install
+qml-module-org-kde-activities:amd64		install
 qml-module-org-kde-bluezqt:amd64		install
 qml-module-org-kde-draganddrop:amd64		install
-qml-module-org-kde-extensionplugin:amd64	install
+qml-module-org-kde-extensionplugin		install
 qml-module-org-kde-kcoreaddons:amd64		install
 qml-module-org-kde-kio:amd64			install
 qml-module-org-kde-kquickcontrols:amd64		install
@@ -3760,6 +3769,7 @@ xcowsay						install
 xdaliclock					install
 xdaliclock-dbgsym				install
 xdelta						install
+xdelta3						install
 xdg-user-dirs					install
 xdg-utils					install
 xdotool						install
