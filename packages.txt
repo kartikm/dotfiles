@@ -2097,7 +2097,6 @@ libprotobuf-c1					install
 libprotobuf10:amd64				install
 libprotobuf9v5:amd64				install
 libprotoc10:amd64				install
-libprotoc9v5:amd64				install
 libproxy-tools					install
 libproxy1v5:amd64				install
 libpsl5:amd64					install
@@ -2603,9 +2602,7 @@ libwinpr-sysinfo0.1:amd64			install
 libwinpr-thread0.1:amd64			install
 libwinpr-utils0.1:amd64				install
 libwireshark-data				install
-libwireshark6:amd64				install
 libwireshark8:amd64				install
-libwiretap5:amd64				install
 libwiretap6:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
@@ -2617,7 +2614,6 @@ libwrap0:amd64					install
 libwrap0:i386					install
 libwscodecs1:amd64				install
 libwsdl4j-java					install
-libwsutil6:amd64				install
 libwsutil7:amd64				install
 libwvstreams4.6-base				install
 libwvstreams4.6-extras				install
