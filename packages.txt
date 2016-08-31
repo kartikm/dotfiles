@@ -873,6 +873,7 @@ libbison-dev:amd64				install
 libblas-common					install
 libblas3					install
 libblkid1:amd64					install
+libblkid1:i386					install
 libbluetooth-dev				install
 libbluetooth3:amd64				install
 libbluray1:amd64				install
@@ -1621,6 +1622,7 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
+libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1630,6 +1632,7 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
+libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -1839,6 +1842,7 @@ libmoox-handlesvia-perl				install
 libmoox-late-perl				install
 libmotif-common					install
 libmount1:amd64					install
+libmount1:i386					install
 libmouse-perl					install
 libmp3lame0:amd64				install
 libmp3lame0:i386				install
@@ -2581,6 +2585,7 @@ libwebrtc-audio-processing-0:amd64		deinstall
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi1:amd64				install
+libwildmidi2:amd64				install
 libwinpr-crt0.1:amd64				install
 libwinpr-crypto0.1:amd64			install
 libwinpr-dsparse0.1:amd64			install
