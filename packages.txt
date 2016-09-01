@@ -766,6 +766,8 @@ libapertium3-3.4-0:amd64			install
 libapparmor1:amd64				install
 libappindicator1:amd64				install
 libappstream3:amd64				install
+libappstream4:amd64				install
+libappstreamqt1:amd64				install
 libapr1:amd64					install
 libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
@@ -1563,6 +1565,7 @@ libkeyutils1:amd64				install
 libkeyutils1:i386				install
 libkf5activities5:amd64				install
 libkf5activitiesexperimentalstats1		install
+libkf5activitiesstats1:amd64			install
 libkf5akonadiprivate5				install
 libkf5archive5:amd64				install
 libkf5attica5:amd64				install
@@ -1607,6 +1610,8 @@ libkf5globalaccel5:amd64			install
 libkf5globalaccelprivate5:amd64			install
 libkf5gpgmepp5:amd64				install
 libkf5guiaddons5:amd64				install
+libkf5holidays-data				install
+libkf5holidays5:amd64				install
 libkf5i18n-data					install
 libkf5i18n5:amd64				install
 libkf5iconthemes-data				install
@@ -1745,6 +1750,7 @@ liblcms2-dev:amd64				install
 liblcms2-utils					install
 libldap-2.4-2:amd64				install
 libldb1:amd64					install
+liblegacytaskmanager5				install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
 liblexical-sealrequirehints-perl		install
@@ -2002,6 +2008,7 @@ libpackage-deprecationmanager-perl		install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
 libpackagekit-glib2-18:amd64			install
+libpackagekitqt5-0:amd64			install
 libpadwalker-perl				install
 libpagemaker-0.0-0				install
 libpam-cap:amd64				install
@@ -2285,6 +2292,7 @@ libscalar-list-utils-perl			install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			install
 libschroedinger-1.0-0:i386			install
+libscim8v5:amd64				install
 libsdl-image1.2:amd64				install
 libsdl-mixer1.2:amd64				install
 libsdl-net1.2:amd64				install
@@ -2389,6 +2397,7 @@ libstdc++-5-dev:amd64				install
 libstdc++-6-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
+libstemmer0d:amd64				install
 libstoken1:amd64				install
 libstrictures-perl				install
 libstring-copyright-perl			install
@@ -2425,6 +2434,7 @@ libtagc0:amd64					install
 libtalloc2:amd64				install
 libtask-weaken-perl				install
 libtaskmanager5					install
+libtaskmanager6					install
 libtasn1-6:amd64				install
 libtasn1-6:i386					install
 libtasn1-6-dev:amd64				install
@@ -2834,12 +2844,16 @@ linux-headers-4.5.0-2-amd64			install
 linux-headers-4.5.0-2-common			install
 linux-headers-4.6.0-1-amd64			install
 linux-headers-4.6.0-1-common			install
+linux-headers-4.7.0-1-amd64			install
+linux-headers-4.7.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.5.0-2-amd64			install
 linux-image-4.6.0-1-amd64			install
+linux-image-4.7.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.5				install
 linux-kbuild-4.6				install
+linux-kbuild-4.7				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -3152,6 +3166,8 @@ pkg-php-tools					install
 plasma-dataengines-addons			install
 plasma-desktop					install
 plasma-desktop-data				install
+plasma-discover					install
+plasma-discover-common				install
 plasma-framework				install
 plasma-integration				install
 plasma-nm					install
@@ -3412,6 +3428,7 @@ python3-pycurl					install
 python3-pydispatch				install
 python3-pyparsing				install
 python3-pyqt4					install
+python3-pyqt5					install
 python3-recoll					install
 python3-setuptools				install
 python3-simplegeneric				install
@@ -3585,6 +3602,7 @@ smbclient					install
 socat						install
 software-properties-common			install
 software-properties-gtk				install
+software-properties-kde				install
 soprano-daemon					install
 sox						install
 sp						install
