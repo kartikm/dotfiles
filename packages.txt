@@ -87,7 +87,6 @@ aptitude					install
 aptitude-common					install
 arduino						install
 arduino-core					install
-aria2						install
 ark						install
 aspell						install
 aspell-en					install
@@ -555,7 +554,7 @@ gwenview					install
 gyp						install
 gzip						install
 hardening-includes				install
-hardening-wrapper				install
+hardening-wrapper				deinstall
 hatari						install
 hdparm						install
 help2man					install
@@ -617,7 +616,7 @@ irssi-plugin-xmpp				install
 irssi-scripts					install
 isc-dhcp-client					install
 isc-dhcp-common					install
-isenkram-cli					install
+isenkram-cli					deinstall
 iso-codes					install
 ispell						install
 iucode-tool					install
@@ -888,7 +887,7 @@ libboost-program-options1.61.0:amd64		install
 libboost-python1.58.0				install
 libboost-python1.61.0				install
 libboost-system1.61.0:amd64			install
-libboost1.58-dev:amd64				install
+libboost1.61-dev:amd64				install
 libbrlapi0.6:amd64				install
 libbs2b0:amd64					install
 libbsd-dev:amd64				install
@@ -1932,10 +1931,7 @@ libnotmuch4					install
 libnpth0:amd64					install
 libnspr4:amd64					install
 libnspr4:i386					install
-libnspr4-0d:amd64				install
-libnspr4-0d:i386				install
 libnss3:amd64					install
-libnss3-1d:amd64				install
 libntfs-3g871					install
 libntlm0:amd64					install
 libntrack-qt4-1					install
@@ -1967,7 +1963,7 @@ libopencv-contrib2.4v5:amd64			install
 libopencv-core2.4v5:amd64			install
 libopencv-features2d2.4v5:amd64			install
 libopencv-flann2.4v5:amd64			install
-libopencv-highgui2.4v5:amd64			install
+libopencv-highgui2.4-deb0:amd64			install
 libopencv-imgproc2.4v5:amd64			install
 libopencv-legacy2.4v5:amd64			install
 libopencv-ml2.4v5:amd64				install
@@ -2588,6 +2584,7 @@ libwebrtc-audio-processing-0:amd64		deinstall
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi1:amd64				install
+libwildmidi2:amd64				install
 libwinpr-crt0.1:amd64				install
 libwinpr-crypto0.1:amd64			install
 libwinpr-dsparse0.1:amd64			install
@@ -3147,8 +3144,8 @@ pidgin-otr					install
 pinentry-curses					install
 pinentry-gnome3					install
 pinentry-gtk2					install
-piuparts					install
-piuparts-common					install
+piuparts					deinstall
+piuparts-common					deinstall
 pkg-config					install
 pkg-kde-tools					install
 pkg-php-tools					install
@@ -3211,7 +3208,6 @@ python-alabaster				install
 python-all					install
 python-all-dev					install
 python-appindicator				install
-python-apt					install
 python-apt-common				install
 python-argcomplete				install
 python-argh					install
