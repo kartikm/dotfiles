@@ -88,6 +88,7 @@ aptitude					install
 aptitude-common					install
 arduino						install
 arduino-core					install
+aria2						install
 ark						install
 aspell						install
 aspell-en					install
