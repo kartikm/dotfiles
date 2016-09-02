@@ -69,6 +69,7 @@ apertium-pt-ca					install
 apertium-pt-gl					install
 apertium-spa					install
 apertium-spa-arg				install
+apertium-srd					install
 apertium-swe					install
 apertium-swe-dan				install
 apertium-swe-nor				install
