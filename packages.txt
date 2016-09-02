@@ -1622,6 +1622,7 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
+libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1631,6 +1632,7 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
+libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -2045,6 +2047,7 @@ libpci3:amd64					install
 libpciaccess0:amd64				install
 libpciaccess0:i386				install
 libpcre16-3:amd64				install
+libpcre2-8-0:amd64				install
 libpcre3:amd64					install
 libpcre3:i386					install
 libpcre3-dev:amd64				install
@@ -2637,6 +2640,8 @@ libx264-148:amd64				install
 libx264-148:i386				install
 libx265-79:amd64				install
 libx265-79:i386					install
+libx265-87:amd64				install
+libx265-87:i386					install
 libx32asan3					install
 libx32atomic1					install
 libx32cilkrts5					install

@@ -547,3 +547,6 @@ checkout = git clone 'https://github.com/googlei18n/sfntly.git' 'sfntly'
 
 [development/debian/packages/apertium/apertium-isl]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-isl' 'apertium-isl'
+
+[development/debian/packages/apertium/apertium-ita]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-ita' 'apertium-ita'
