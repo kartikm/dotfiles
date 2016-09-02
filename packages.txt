@@ -427,7 +427,6 @@ fuse						install
 fuse2fs						install
 g++						install
 g++-4.9						install
-g++-5						install
 g++-6						install
 game-data-packager				install
 garmin-forerunner-tools				install
@@ -473,7 +472,6 @@ giella-sme					install
 giella-sme-dev					install
 gimp						install
 gimp-data					install
-gir1.2-appstream				install
 gir1.2-atk-1.0					install
 gir1.2-freedesktop:amd64			install
 gir1.2-gdkpixbuf-2.0:amd64			install
@@ -957,6 +955,7 @@ libchm-dev					install
 libchm1						install
 libcholmod3:amd64				install
 libchromaprint0:amd64				install
+libchromaprint1:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclang1-3.6:amd64				install
@@ -1367,7 +1366,6 @@ libgtk2.0-0:amd64				install
 libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
-libgtkglext1					install
 libgtkmm-2.4-1v5:amd64				install
 libgtkspell0					install
 libgts-0.7-5:amd64				install
@@ -1942,6 +1940,7 @@ libntrack-qt4-1					install
 libntrack0					install
 libnuma1:amd64					install
 libnuma1:i386					install
+libnumber-compare-perl				install
 libobjc-5-dev:amd64				install
 libobjc4:amd64					install
 libobjenesis-java				install
@@ -2560,6 +2559,8 @@ libvpb-dev					install
 libvpb1						install
 libvpx3:amd64					install
 libvpx3:i386					install
+libvpx4:amd64					install
+libvpx4:i386					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
 libvte-common					install
@@ -2579,7 +2580,6 @@ libwbclient0:amd64				install
 libweather-ion7					install
 libwebkit2gtk-4.0-37:amd64			install
 libwebkit2gtk-4.0-37-gtk2:amd64			install
-libwebp5:amd64					install
 libwebp6:amd64					install
 libwebp6:i386					install
 libwebpdemux2:amd64				install
@@ -2588,7 +2588,7 @@ libwebpmux2:i386				install
 libwebrtc-audio-processing-0:amd64		deinstall
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
-libwildmidi1:amd64				install
+libwildmidi1:amd64				deinstall
 libwildmidi2:amd64				install
 libwinpr-crt0.1:amd64				install
 libwinpr-crypto0.1:amd64			install
@@ -2640,8 +2640,6 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-148:amd64				install
 libx264-148:i386				install
-libx265-79:amd64				install
-libx265-79:i386					install
 libx265-87:amd64				install
 libx265-87:i386					install
 libx32asan3					install
@@ -3292,7 +3290,6 @@ python-librdf					install
 python-libxml2					install
 python-linecache2				install
 python-lxml					install
-python-lzma					install
 python-magic					install
 python-markupsafe				install
 python-matplotlib-data				install
