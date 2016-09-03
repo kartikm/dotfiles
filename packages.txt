@@ -3471,6 +3471,7 @@ qml-module-qtquick-controls:amd64		install
 qml-module-qtquick-controls-styles-breeze	install
 qml-module-qtquick-dialogs:amd64		install
 qml-module-qtquick-layouts:amd64		install
+qml-module-qtquick-localstorage:amd64		install
 qml-module-qtquick-privatewidgets:amd64		install
 qml-module-qtquick-window2:amd64		install
 qml-module-qtquick2:amd64			install
@@ -3479,6 +3480,7 @@ qmlscene					install
 qprint						install
 qrencode					install
 qt4-qmake					install
+qt5-default					install
 qt5-image-formats-plugins:amd64			install
 qt5-qmake:amd64					install
 qt5-qmltooling-plugins:amd64			install
