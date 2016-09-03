@@ -2039,6 +2039,7 @@ libparse-debianchangelog-perl			install
 libparted-fs-resize0:amd64			install
 libparted2:amd64				install
 libpasswdqc0					install
+libpath-iterator-rule-perl			install
 libpath-tiny-perl				install
 libpathplan4					install
 libpcap-dev					install
@@ -2445,6 +2446,7 @@ libterm-ui-perl					install
 libtevent0:amd64				install
 libtext-aspell-perl				install
 libtext-charwidth-perl				install
+libtext-glob-perl				install
 libtext-iconv-perl				install
 libtext-levenshtein-perl			install
 libtext-markdown-discount-perl			install
