@@ -160,6 +160,12 @@ checkout = git_checkout fonts-pagul
 [fonts-sahadeva]
 checkout = git_checkout fonts-sahadeva
 
+[fonts-sambhota-tsugring]
+checkout = git_checkout fonts-sambhota-tsugring
+
+[fonts-sambhota-yigchung]
+checkout = git_checkout fonts-sambhota-yigchung
+
 [fonts-samyak]
 checkout = git_checkout fonts-samyak
 
