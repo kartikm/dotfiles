@@ -3043,7 +3043,6 @@ oping						install
 os-prober					install
 oss-compat					install
 ostinato					install
-ostinato-dbgsym					install
 ovmf						install
 oxygen-icon-theme				install
 oxygen-sounds					install
