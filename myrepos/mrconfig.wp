@@ -187,3 +187,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/tools/schroot' 's
 
 [labs/private]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/labs/private' 'private'
+
+[VE/parsoid]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid' 'parsoid'
