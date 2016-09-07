@@ -1915,8 +1915,11 @@ libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
 libnghttp2-14:amd64				install
 libnginx-mod-http-auth-pam			install
+libnginx-mod-http-echo				install
 libnginx-mod-http-geoip				install
 libnginx-mod-http-image-filter			install
+libnginx-mod-http-subs-filter			install
+libnginx-mod-http-upstream-fair			install
 libnginx-mod-http-xslt-filter			install
 libnginx-mod-mail				install
 libnginx-mod-stream				install
@@ -1955,6 +1958,7 @@ libogg0:amd64					install
 libogg0:i386					install
 libokularcore7					install
 libonig2:amd64					install
+libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
