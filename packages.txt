@@ -955,7 +955,6 @@ libchm-bin					install
 libchm-dev					install
 libchm1						install
 libcholmod3:amd64				install
-libchromaprint0:amd64				install
 libchromaprint1:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
@@ -1623,7 +1622,6 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
-libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1633,7 +1631,6 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
-libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -1957,7 +1954,7 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore7					install
-libonig2:amd64					install
+libonig2:amd64					deinstall
 libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -2106,7 +2103,6 @@ libprocessui7					install
 libprocps6:amd64				install
 libprotobuf-c1					install
 libprotobuf10:amd64				install
-libprotobuf9v5:amd64				install
 libprotoc10:amd64				install
 libproxy-tools					install
 libproxy1v5:amd64				install
@@ -2564,8 +2560,6 @@ libvorbisfile3:amd64				install
 libvorbisfile3:i386				install
 libvpb-dev					install
 libvpb1						install
-libvpx3:amd64					install
-libvpx3:i386					install
 libvpx4:amd64					install
 libvpx4:i386					install
 libvte-2.91-0:amd64				install
