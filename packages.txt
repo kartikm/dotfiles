@@ -340,6 +340,8 @@ fonts-ancient-scripts				install
 fonts-beng					install
 fonts-beng-extra				install
 fonts-cantarell					install
+fonts-crosextra-caladea				install
+fonts-crosextra-carlito				install
 fonts-dejavu					install
 fonts-dejavu-core				install
 fonts-dejavu-extra				install
@@ -360,6 +362,7 @@ fonts-knda					install
 fonts-lao					install
 fonts-lato					install
 fonts-liberation				install
+fonts-linuxlibertine				install
 fonts-lklug-sinhala				install
 fonts-lmodern					install
 fonts-lohit-beng-assamese			install
@@ -1622,6 +1625,7 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
+libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1631,6 +1635,7 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
+libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -1942,6 +1947,7 @@ libntrack0					install
 libnuma1:amd64					install
 libnuma1:i386					install
 libnumber-compare-perl				install
+libnumber-range-perl				install
 libobjc-5-dev:amd64				install
 libobjc4:amd64					install
 libobjenesis-java				install
