@@ -961,7 +961,6 @@ libcholmod3:amd64				install
 libchromaprint1:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
-libclang1-3.6:amd64				install
 libclang1-3.9:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
@@ -1759,7 +1758,6 @@ liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia52:amd64				install
 libllvm3.5:i386					deinstall
-libllvm3.6v5:amd64				install
 libllvm3.8:amd64				install
 libllvm3.8:i386					install
 libllvm3.9:amd64				install
@@ -1950,7 +1948,6 @@ libnuma1:amd64					install
 libnuma1:i386					install
 libnumber-compare-perl				install
 libnumber-range-perl				install
-libobjc-5-dev:amd64				install
 libobjc-6-dev:amd64				install
 libobjc4:amd64					install
 libobjenesis-java				install
