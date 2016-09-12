@@ -3847,6 +3847,7 @@ xsltproc					install
 xterm						install
 xtrans-dev					install
 xvt						install
+xxd						install
 xz-utils					install
 youtube-dl					install
 zathura						install
