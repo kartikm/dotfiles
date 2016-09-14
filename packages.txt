@@ -739,7 +739,7 @@ lib32ubsan0					install
 liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
-libabw-0.1-1					install
+libabw-0.1-1:amd64				install
 libaccountsservice0				install
 libacl1:amd64					install
 libacl1:i386					install
@@ -944,7 +944,7 @@ libcdb1:amd64					install
 libcddb2					install
 libcdio13					install
 libcdparanoia0:amd64				install
-libcdr-0.1-1					install
+libcdr-0.1-1:amd64				install
 libcdt5						install
 libcg3-0:amd64					install
 libcg3-dev:amd64				install
@@ -1117,7 +1117,7 @@ libdvdnav4:amd64				install
 libdvdread4:amd64				install
 libdw1:amd64					install
 libdynamite0					install
-libe-book-0.1-1					install
+libe-book-0.1-1:amd64				install
 libeatmydata1:amd64				install
 libebml4v5:amd64				install
 libebur128-1:amd64				install
@@ -1134,7 +1134,7 @@ libenca0:amd64					install
 libenchant-dev					install
 libenchant1c2a:amd64				install
 libencode-locale-perl				install
-libeot0						install
+libeot0:amd64					install
 libepoxy0:amd64					install
 libept1.5.0:amd64				install
 libepub0					install
@@ -1143,7 +1143,7 @@ libesd0:amd64					install
 libesd0:i386					install
 libestools2.4:amd64				install
 libestr0					install
-libetonyek-0.1-1				install
+libetonyek-0.1-1:amd64				install
 libevdev2:amd64					install
 libevent-2.0-5:amd64				install
 libexcalibur-logger-java			install
@@ -1156,7 +1156,7 @@ libexpat1:i386					install
 libexpat1-dev:amd64				install
 libexporter-lite-perl				install
 libexporter-tiny-perl				install
-libexttextcat-2.0-0				install
+libexttextcat-2.0-0:amd64			install
 libexttextcat-data				install
 libfaad2:amd64					install
 libfakekey0:amd64				install
@@ -1285,6 +1285,7 @@ libglapi-mesa:i386				install
 libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
 libglew1.13:amd64				install
+libglew2.0:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
 libglib2.0-0:i386				install
@@ -1419,7 +1420,7 @@ libhttpclient-java				install
 libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.4-0:amd64				install
-libhyphen0					install
+libhyphen0:amd64				install
 libib-util:amd64				install
 libical-dev:amd64				install
 libical2:amd64					install
@@ -1739,7 +1740,7 @@ libkworkspace5-5				install
 libkxml2-java					install
 libkxmlrpcclient4				install
 liblangtag-common				install
-liblangtag1					install
+liblangtag1:amd64				install
 liblapack3					install
 liblayout-java					install
 liblcms2-2:amd64				install
@@ -1863,7 +1864,7 @@ libmpx0:amd64					install
 libmpx2:amd64					install
 libmro-compat-perl				install
 libmspack0:amd64				install
-libmspub-0.1-1					install
+libmspub-0.1-1:amd64				install
 libmsv-java					install
 libmtdev1:amd64					install
 libmtp-common					install
@@ -1871,11 +1872,11 @@ libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
 libmultiverse-core-java				install
-libmwaw-0.3-3					install
+libmwaw-0.3-3:amd64				install
 libmysql-java					install
 libmysqlclient-dev				install
 libmysqlclient18:amd64				install
-libmythes-1.2-0					install
+libmythes-1.2-0:amd64				install
 libnacl-dev					install
 libnamespace-autoclean-perl			install
 libnamespace-clean-perl				install
@@ -1954,7 +1955,7 @@ libobjenesis-java				install
 libodbc1:amd64					install
 libodbc1:i386					install
 libode6						install
-libodfgen-0.1-1					install
+libodfgen-0.1-1:amd64				install
 libofa0:amd64					install
 libogg-dev:amd64				install
 libogg0:amd64					install
@@ -1993,7 +1994,7 @@ libopusfile0					install
 liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
-liborcus-0.11-0					install
+liborcus-0.11-0:amd64				install
 liboro-java					install
 libosp5						install
 libossp-uuid-perl				install
@@ -2011,7 +2012,7 @@ libpackage-stash-xs-perl			install
 libpackagekit-glib2-18:amd64			install
 libpackagekitqt5-0:amd64			install
 libpadwalker-perl				install
-libpagemaker-0.0-0				install
+libpagemaker-0.0-0:amd64			install
 libpam-cap:amd64				install
 libpam-gnome-keyring:amd64			install
 libpam-kwallet-common				install
@@ -2263,7 +2264,7 @@ libresample1					install
 libresample1-dev				install
 libresid-builder0c2a				install
 librest-0.7-0:amd64				install
-librevenge-0.0-0				install
+librevenge-0.0-0:amd64				install
 librhino-java					install
 librole-tiny-perl				install
 librpc-xml-perl					install
@@ -2548,7 +2549,7 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex6:amd64				install
-libvisio-0.1-1					install
+libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
 libvlc5						install
@@ -2622,9 +2623,9 @@ libwiretap6:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
-libwpd-0.10-10					install
-libwpg-0.3-3					install
-libwps-0.4-4					install
+libwpd-0.10-10:amd64				install
+libwpg-0.3-3:amd64				install
+libwps-0.4-4:amd64				install
 libwrap0:amd64					install
 libwrap0:i386					install
 libwscodecs1:amd64				install
