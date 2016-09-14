@@ -80,13 +80,12 @@ update = fork_update
 checkout = git clone 'https://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
 update = clean_update
 
-[VE/Parsoid]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Parsoid.git' 'Parsoid'
-update = clean_update
-
 [VE/deploy]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid/deploy' 'deploy'
 update = clean_update
+
+[VE/parsoid]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid' 'parsoid'
 
 # LE team repos
 [LE/CX/ContentTranslation]
@@ -179,14 +178,11 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/operations/dns.git
 #[GSoC/LUv2]
 #checkout = git clone 'git@github.com:konarak/LUv2.git' 'LUv2'
 
-[OPW/spelling-dictionary-opw]
-checkout = git clone 'git@github.com:ankitashukla/spelling-dictionary-opw.git' 'spelling-dictionary-opw'
+#[OPW/spelling-dictionary-opw]
+#checkout = git clone 'git@github.com:ankitashukla/spelling-dictionary-opw.git' 'spelling-dictionary-opw'
 
 [Misc/schroot]
 checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/tools/schroot' 'schroot'
 
 [labs/private]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/labs/private' 'private'
-
-[VE/parsoid]
-checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid' 'parsoid'
