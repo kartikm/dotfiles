@@ -1039,7 +1039,6 @@ libcupsimage2:amd64				install
 libcurl3:amd64					install
 libcurl3-gnutls:amd64				install
 libcwidget3v5:amd64				install
-libdata-alias-perl				install
 libdata-entropy-perl				install
 libdata-float-perl				install
 libdata-integer-perl				install
@@ -1284,7 +1283,6 @@ libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
-libglew1.13:amd64				install
 libglew2.0:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
@@ -1626,7 +1624,6 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
-libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1636,7 +1633,6 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
-libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
