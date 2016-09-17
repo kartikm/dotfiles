@@ -1161,7 +1161,7 @@ libfaad2:amd64					install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
 libfaketime:amd64				install
-libfam0						install
+libfam0:amd64					install
 libfarstream-0.2-5:amd64			install
 libfastjson4:amd64				install
 libfbclient2:amd64				install
