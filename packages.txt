@@ -2492,7 +2492,7 @@ libtk8.6:amd64					install
 libtokyocabinet9:amd64				install
 libtomcat7-java					install
 libtomcrypt0:amd64				install
-libtommath1					install
+libtommath1:amd64				install
 libtonezone-dev:amd64				install
 libtonezone2.0:amd64				install
 libtool						install
