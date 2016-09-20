@@ -476,7 +476,7 @@ giella-sme					install
 giella-sme-dev					install
 gimp						install
 gimp-data					install
-gir1.2-atk-1.0					install
+gir1.2-atk-1.0:amd64				install
 gir1.2-freedesktop:amd64			install
 gir1.2-gdkpixbuf-2.0:amd64			install
 gir1.2-glib-2.0:amd64				install
@@ -486,7 +486,7 @@ gir1.2-gtk-3.0:amd64				install
 gir1.2-notify-0.7				install
 gir1.2-packagekitglib-1.0			install
 gir1.2-pango-1.0:amd64				install
-gir1.2-soup-2.4					install
+gir1.2-soup-2.4:amd64				install
 git						install
 git-annex					install
 git-buildpackage				install
@@ -806,7 +806,7 @@ libatk-wrapper-java				install
 libatk-wrapper-java-jni:amd64			install
 libatk1.0-0:amd64				install
 libatk1.0-data					install
-libatk1.0-dev					install
+libatk1.0-dev:amd64				install
 libatkmm-1.6-1v5:amd64				install
 libatm1:amd64					install
 libatomic1:amd64				install
@@ -2367,7 +2367,7 @@ libsort-key-perl				install
 libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
-libsoup2.4-dev					install
+libsoup2.4-dev:amd64				install
 libsox-fmt-alsa:amd64				install
 libsox-fmt-base:amd64				install
 libsox2:amd64					install
