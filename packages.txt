@@ -90,6 +90,7 @@ aptitude-common					install
 arduino						install
 arduino-core					install
 aria2						install
+aria2-dbgsym					install
 ark						install
 aspell						install
 aspell-en					install
