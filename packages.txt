@@ -99,6 +99,7 @@ at						install
 at-spi2-core					install
 atom						install
 atool						install
+aufs-dkms					install
 aufs-tools					install
 augeas-lenses					install
 augeas-tools					install
@@ -1346,13 +1347,14 @@ libgraphite2-3:i386				install
 libgraphite2-dev				install
 libgravatar-url-perl				install
 libgroupsock8:amd64				install
-libgs9						install
+libgs9:amd64					install
 libgs9-common					install
 libgsasl7					install
 libgsl2:amd64					install
 libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
+libgsoap10:amd64				install
 libgsoap9:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
