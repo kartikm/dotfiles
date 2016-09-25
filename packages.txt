@@ -242,7 +242,6 @@ dh-python					install
 dh-strip-nondeterminism				install
 dia						install
 dia-common					install
-dia-libs					install
 dia-shapes					install
 dialog						install
 dict						install
@@ -1355,7 +1354,6 @@ libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
 libgsoap10:amd64				install
-libgsoap9:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssdp-1.0-3:amd64				install
