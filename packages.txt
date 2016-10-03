@@ -2067,6 +2067,7 @@ libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
 libperl5.22:amd64				install
+libperl5.24:amd64				install
 libperlio-gzip-perl				install
 libphonon4:amd64				install
 libphonon4qt5-4:amd64				install
@@ -3087,6 +3088,7 @@ perl						install
 perl-base					install
 perl-doc					install
 perl-modules-5.22				install
+perl-modules-5.24				install
 phantomjs					install
 phonon:amd64					install
 phonon-backend-vlc:amd64			install
