@@ -1757,6 +1757,7 @@ liblinear3:amd64				install
 liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia52:amd64				install
+liblivemedia57:amd64				install
 libllvm3.5:i386					deinstall
 libllvm3.8:amd64				install
 libllvm3.8:i386					install
