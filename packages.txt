@@ -1625,7 +1625,6 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
-libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1635,7 +1634,6 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
-libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -1756,7 +1754,6 @@ liblinear-tools					install
 liblinear3:amd64				install
 liblircclient0					install
 liblist-moreutils-perl				install
-liblivemedia52:amd64				install
 liblivemedia57:amd64				install
 libllvm3.5:i386					deinstall
 libllvm3.8:amd64				install
@@ -2067,7 +2064,7 @@ libpcrecpp0v5:amd64				install
 libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
-libperl5.22:amd64				install
+libperl5.22:amd64				deinstall
 libperl5.24:amd64				install
 libperlio-gzip-perl				install
 libphonon4:amd64				install
@@ -2673,7 +2670,6 @@ libx32ubsan0					install
 libx86-1:amd64					install
 libxalan2-java					install
 libxapian-dev					install
-libxapian22v5:amd64				install
 libxapian30:amd64				install
 libxatracker2:amd64				install
 libxau-dev:amd64				install
@@ -3088,7 +3084,6 @@ pepperflashplugin-nonfree			install
 perl						install
 perl-base					install
 perl-doc					install
-perl-modules-5.22				install
 perl-modules-5.24				install
 phantomjs					install
 phonon:amd64					install
