@@ -559,7 +559,6 @@ gvfs-libs:amd64					install
 gwenview					install
 gyp						install
 gzip						install
-hardening-includes				install
 hardening-wrapper				deinstall
 hatari						install
 hdparm						install
@@ -1641,7 +1640,6 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
-libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1651,7 +1649,6 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
-libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -2263,7 +2260,6 @@ librdf0:amd64					install
 libreadline-dev:amd64				install
 libreadline6:amd64				install
 libreadline6-dev:amd64				install
-libreadline7:amd64				install
 librecode0:amd64				install
 libregexp-assemble-perl				install
 libregexp-common-perl				install
@@ -2690,8 +2686,6 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-148:amd64				install
 libx264-148:i386				install
-libx265-87:amd64				install
-libx265-87:i386					install
 libx265-95:amd64				install
 libx265-95:i386					install
 libx32asan3					install
