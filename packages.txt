@@ -322,9 +322,10 @@ filelight					install
 findutils					install
 finger						install
 firebird-dev					install
-firebird2.5-common				install
-firebird2.5-common-doc				install
-firebird2.5-server-common			install
+firebird2.5-common				deinstall
+firebird2.5-server-common			deinstall
+firebird3.0-common				install
+firebird3.0-common-doc				install
 firefox-esr					install
 firefox-esr-l10n-gu-in				install
 firmware-amd-graphics				install
@@ -1175,7 +1176,6 @@ libfam0:amd64					install
 libfarstream-0.2-5:amd64			install
 libfastjson4:amd64				install
 libfbclient2:amd64				install
-libfbembed2.5					install
 libfcgi-perl					install
 libfdisk1:amd64					install
 libfdt1:amd64					install
@@ -1803,6 +1803,7 @@ liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.2-dev:amd64				install
+liblua5.3-0:amd64				install
 libluajit-5.1-2:amd64				install
 libluajit-5.1-common				install
 liblwp-mediatypes-perl				install
@@ -2260,6 +2261,7 @@ librdf0:amd64					install
 libreadline-dev:amd64				install
 libreadline6:amd64				install
 libreadline6-dev:amd64				install
+libreadline7:amd64				install
 librecode0:amd64				install
 libregexp-assemble-perl				install
 libregexp-common-perl				install
