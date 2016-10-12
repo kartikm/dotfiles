@@ -553,7 +553,9 @@ gstreamer1.0-plugins-good:amd64			install
 gstreamer1.0-plugins-ugly:amd64			install
 gstreamer1.0-x:amd64				install
 gtk-update-icon-cache				install
+gtk2-engines-pixbuf:amd64			install
 gtk2-engines-qtcurve:amd64			install
+gtk3-engines-breeze				install
 gucharmap					install
 gvfs:amd64					install
 gvfs-bin					install
@@ -655,6 +657,7 @@ kde-baseapps-data				install
 kde-cli-tools					install
 kde-cli-tools-data				install
 kde-config-gtk-style				install
+kde-config-screenlocker				install
 kde-config-sddm					install
 kde-plasma-desktop				install
 kde-runtime					install
@@ -1643,6 +1646,7 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
+libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1652,6 +1656,7 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
+libkf5kipi-bin					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
