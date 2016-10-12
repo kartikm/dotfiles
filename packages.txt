@@ -360,6 +360,7 @@ fonts-gujr					install
 fonts-gujr-extra				install
 fonts-guru					install
 fonts-guru-extra				install
+fonts-hack-ttf					install
 fonts-kalapi					install
 fonts-knda					install
 fonts-lao					install
@@ -385,6 +386,8 @@ fonts-mlym					install
 fonts-nakula					install
 fonts-nanum					install
 fonts-navilu					install
+fonts-noto					install
+fonts-noto-cjk					install
 fonts-noto-hinted				install
 fonts-noto-mono					install
 fonts-noto-unhinted				install
@@ -1752,8 +1755,11 @@ libktexteditor4					install
 libkwalletbackend5-5:amd64			install
 libkwin4-effect-builtins1			install
 libkwineffects8					install
+libkwineffects9					install
 libkwinglutils8					install
+libkwinglutils9					install
 libkwinxrenderutils8				install
+libkwinxrenderutils9				install
 libkworkspace5-5				install
 libkxml2-java					install
 libkxmlrpcclient4				install
@@ -1927,7 +1933,7 @@ libnet-ssleay-perl				install
 libnet1:amd64					install
 libnet1-dev					install
 libnetcdf11					install
-libnetfilter-conntrack-dev			install
+libnetfilter-conntrack-dev:amd64		install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle6:amd64				install
@@ -3515,6 +3521,7 @@ qml-module-qt-labs-folderlistmodel:amd64	install
 qml-module-qt-labs-settings:amd64		install
 qml-module-qtgraphicaleffects:amd64		install
 qml-module-qtmultimedia:amd64			install
+qml-module-qtqml-models2:amd64			install
 qml-module-qtquick-controls:amd64		install
 qml-module-qtquick-controls-styles-breeze	install
 qml-module-qtquick-dialogs:amd64		install
