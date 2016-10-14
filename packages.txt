@@ -489,7 +489,7 @@ gir1.2-glib-2.0:amd64				install
 gir1.2-gmime-2.6:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0:amd64				install
-gir1.2-notify-0.7				install
+gir1.2-notify-0.7:amd64				install
 gir1.2-packagekitglib-1.0			install
 gir1.2-pango-1.0:amd64				install
 gir1.2-soup-2.4:amd64				install
@@ -598,7 +598,7 @@ ikiwiki						install
 imagemagick					install
 imagemagick-6-common				install
 imagemagick-6.q16				install
-imagemagick-common				install
+imagemagick-common				deinstall
 info						install
 init						install
 init-system-helpers				install
@@ -1762,11 +1762,8 @@ libksignalplotter7				install
 libktexteditor4					install
 libkwalletbackend5-5:amd64			install
 libkwin4-effect-builtins1			install
-libkwineffects8					install
 libkwineffects9					install
-libkwinglutils8					install
 libkwinglutils9					install
-libkwinxrenderutils8				install
 libkwinxrenderutils9				install
 libkworkspace5-5				install
 libkxml2-java					install
@@ -1781,7 +1778,6 @@ liblcms2-dev:amd64				install
 liblcms2-utils					install
 libldap-2.4-2:amd64				install
 libldb1:amd64					install
-liblegacytaskmanager5				install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
 liblexical-sealrequirehints-perl		install
@@ -1971,7 +1967,7 @@ libnl-genl-3-dev:amd64				install
 libnl-route-3-200:amd64				install
 libnm0:amd64					install
 libnotify-bin					install
-libnotify-dev					install
+libnotify-dev:amd64				install
 libnotify4:amd64				install
 libnotmuch4					install
 libnpth0:amd64					install
