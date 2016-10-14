@@ -596,6 +596,7 @@ ienglish-common					install
 ifupdown					install
 ikiwiki						install
 imagemagick					install
+imagemagick-6-common				install
 imagemagick-6.q16				install
 imagemagick-common				install
 info						install
@@ -1562,6 +1563,8 @@ libjson-perl					install
 libjsoncpp1:amd64				install
 libjsr166y-java					install
 libjte1						install
+libjxr-tools					install
+libjxr0:amd64					install
 libjzlib-java					install
 libk5crypto3:amd64				install
 libk5crypto3:i386				install
@@ -1839,6 +1842,7 @@ libmail-java					install
 libmail-sendmail-perl				install
 libmailtools-perl				install
 libmapnik3.0					install
+libmariadbclient18:amd64			install
 libmarkdown2:amd64				install
 libmath-random-isaac-perl			install
 libmath-random-isaac-xs-perl			install
@@ -2944,6 +2948,7 @@ man-db						install
 mango-lassi					install
 manpages					install
 manpages-dev					install
+mariadb-common					install
 mawk						install
 mcomix						install
 menu						install
