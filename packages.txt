@@ -300,6 +300,8 @@ enigmail					install
 equivs						install
 esound-common					install
 ethtool						install
+exfat-fuse					install
+exfat-utils					install
 exif						install
 exim4						install
 exim4-base					install
@@ -764,6 +766,7 @@ libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
 libamd2:amd64					install
+libann0						install
 libantlr-java					install
 libanyevent-perl				install
 libao-common					install
@@ -1908,6 +1911,7 @@ libmwaw-0.3-3:amd64				install
 libmysql-java					install
 libmysqlclient-dev				install
 libmysqlclient18:amd64				install
+libmysqlclient20:amd64				install
 libmythes-1.2-0:amd64				install
 libnacl-dev					install
 libnamespace-autoclean-perl			install
@@ -3064,6 +3068,7 @@ node-tar					install
 node-tunnel-agent				install
 node-underscore					install
 node-which					install
+node-wrappy					install
 nodejs						install
 nodejs-dev					install
 notification-daemon				install
@@ -3790,7 +3795,10 @@ vlc-l10n					install
 vlc-nox						install
 vlc-plugin-base:amd64				install
 vlc-plugin-qt:amd64				install
+vlc-plugin-skins2:amd64				install
 vlc-plugin-video-output:amd64			install
+vlc-plugin-video-splitter:amd64			install
+vlc-plugin-visualization:amd64			install
 vorbis-tools					install
 vpb-driver-source				install
 vpnc						install
