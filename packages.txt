@@ -2603,8 +2603,9 @@ libvigraimpex6:amd64				install
 libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
-libvlc5						install
-libvlccore8					install
+libvlc-bin:amd64				install
+libvlc5:amd64					install
+libvlccore8:amd64				install
 libvncclient1:amd64				install
 libvncserver1:amd64				install
 libvo-aacenc0:amd64				install
@@ -3783,8 +3784,13 @@ virtualbox					install
 virtualbox-dkms					install
 virtualbox-qt					install
 vlc						install
+vlc-bin						install
 vlc-data					install
+vlc-l10n					install
 vlc-nox						install
+vlc-plugin-base:amd64				install
+vlc-plugin-qt:amd64				install
+vlc-plugin-video-output:amd64			install
 vorbis-tools					install
 vpb-driver-source				install
 vpnc						install
