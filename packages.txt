@@ -2140,6 +2140,7 @@ libpopt0:i386					install
 libportaudio2:amd64				install
 libportmidi0					install
 libpostproc54:amd64				install
+libpotrace0					install
 libpowerdevilcore2				install
 libpowerdevilui5				install
 libpq5:amd64					install
@@ -2156,6 +2157,7 @@ libproxy-tools					install
 libproxy1v5:amd64				install
 libpsl5:amd64					install
 libpspell-dev:amd64				install
+libptexenc1:amd64				install
 libpth-dev					install
 libpth20:amd64					install
 libpthread-stubs0-dev:amd64			install
@@ -2506,6 +2508,8 @@ libterm-readline-perl-perl			install
 libterm-size-perl				install
 libterm-ui-perl					install
 libtevent0:amd64				install
+libtexlua52:amd64				install
+libtexluajit2:amd64				install
 libtext-aspell-perl				install
 libtext-charwidth-perl				install
 libtext-glob-perl				install
@@ -2895,6 +2899,7 @@ libzmq5:amd64					install
 libzvbi-common					install
 libzvbi0:amd64					install
 libzvbi0:i386					install
+libzzip-0-13:amd64				install
 licensecheck					install
 lintian						install
 linux-base					install
@@ -2915,6 +2920,7 @@ live-boot-doc					install
 live-build					install
 live-config-doc					install
 live-manual-html				install
+lmodern						install
 localepurge					install
 locales						install
 lockfile-progs					install
@@ -3717,6 +3723,11 @@ tcpwatch-httpproxy				install
 tdc						install
 telnet						install
 testng						install
+tex-common					install
+texlive-base					install
+texlive-binaries				install
+texlive-latex-base				install
+texlive-latex-base-doc				install
 time						install
 tinycdb						install
 tix						install
