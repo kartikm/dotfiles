@@ -298,3 +298,6 @@ source ~/.oh-my-zsh/plugins/cp/cp.plugin.zsh
 source ~/.oh-my-zsh/themes/apple.zsh-theme
 
 umask 022
+
+export NVM_DIR="/home/kartik/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
