@@ -1773,6 +1773,7 @@ libldb1:amd64					install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
 liblexical-sealrequirehints-perl		install
+liblilv-0-0					install
 liblinear-tools					install
 liblinear3:amd64				install
 liblirc-client0:amd64				install
@@ -2361,6 +2362,7 @@ libsemanage1:amd64				install
 libsensors4:amd64				install
 libsepol1:amd64					install
 libsepol1-dev:amd64				install
+libserd-0-0:amd64				install
 libserf-1-1:amd64				install
 libserializer-java				install
 libservlet3.0-java				install
@@ -2400,6 +2402,7 @@ libsoftware-license-perl			install
 libsolid4					install
 libsombok3:amd64				install
 libsoprano4					install
+libsord-0-0:amd64				install
 libsort-key-perl				install
 libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
@@ -2428,11 +2431,13 @@ libsqlite0					install
 libsqlite0-dev					install
 libsqlite3-0:amd64				install
 libsqlite3-dev:amd64				install
+libsratom-0-0:amd64				install
 libsrtp0					install
 libsrtp0-dev					install
 libss2:amd64					install
 libss7-1					install
-libss7-dev					install
+libss7-2.0:amd64				install
+libss7-dev:amd64				install
 libssh-4:amd64					install
 libssh-gcrypt-4:amd64				install
 libssh2-1:amd64					install
@@ -2999,6 +3004,7 @@ node-ansi-color-table				install
 node-archy					install
 node-async					install
 node-block-stream				install
+node-builtin-modules				install
 node-combined-stream				install
 node-cookie-jar					install
 node-delayed-stream				install
@@ -3010,8 +3016,10 @@ node-github-url-from-git			install
 node-glob					install
 node-graceful-fs				install
 node-gyp					install
+node-hosted-git-info				install
 node-inherits					install
 node-ini					install
+node-is-builtin-module				install
 node-json-stringify-safe			install
 node-less					install
 node-lockfile					install
@@ -3037,9 +3045,13 @@ node-sha					install
 node-sigmund					install
 node-slide					install
 node-source-map					install
+node-spdx-correct				install
+node-spdx-expression-parse			install
+node-spdx-license-ids				install
 node-tar					install
 node-tunnel-agent				install
 node-underscore					install
+node-validate-npm-package-license		install
 node-which					install
 node-wrappy					install
 nodejs						install
