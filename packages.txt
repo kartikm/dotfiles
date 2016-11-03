@@ -198,7 +198,6 @@ cups-common					install
 curl						install
 cvs						install
 cxserver					install
-cxserver-dbgsym					install
 d-shlibs					install
 dash						install
 dbconfig-common					install
