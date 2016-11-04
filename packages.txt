@@ -2445,6 +2445,7 @@ libssh2-1:amd64					install
 libssh2-1-dev:amd64				install
 libssl-dev:amd64				install
 libssl1.0.2:amd64				install
+libssl1.1:amd64					install
 libstartup-notification0:amd64			install
 libstdc++-4.9-dev:amd64				install
 libstdc++-5-dev:amd64				install
@@ -2881,13 +2882,17 @@ linux-headers-4.6.0-1-amd64			install
 linux-headers-4.6.0-1-common			install
 linux-headers-4.7.0-1-amd64			install
 linux-headers-4.7.0-1-common			install
+linux-headers-4.8.0-1-amd64			install
+linux-headers-4.8.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.5.0-2-amd64			deinstall
 linux-image-4.6.0-1-amd64			install
 linux-image-4.7.0-1-amd64			install
+linux-image-4.8.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.6				install
 linux-kbuild-4.7				install
+linux-kbuild-4.8				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
