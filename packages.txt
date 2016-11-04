@@ -1641,6 +1641,7 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
+libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -3274,6 +3275,7 @@ python-backports-shutil-get-terminal-size	install
 python-backports.ssl-match-hostname		install
 python-beautifulsoup				install
 python-blinker					install
+python-brotli					install
 python-bs4					install
 python-bson					install
 python-bson-ext					install
@@ -3292,6 +3294,7 @@ python-coverage					install
 python-crypto					install
 python-cryptography				install
 python-cssselect				install
+python-cssutils					install
 python-dateutil					install
 python-dbus					install
 python-dbus-dev					install
@@ -3311,6 +3314,7 @@ python-enum34					install
 python-extras					install
 python-feedparser				install
 python-fixtures					install
+python-flask					install
 python-fontforge				install
 python-formencode				install
 python-gflags					install
@@ -3325,17 +3329,21 @@ python-gridfs					install
 python-gtk2					install
 python-gtkmvc					install
 python-gtkmvc-doc				install
+python-h2					install
 python-hpack					install
 python-html2text				install
 python-html5lib					install
 python-httplib2					install
+python-hyperframe				install
 python-idna					install
 python-imagesize				install
 python-imaging					install
 python-ipaddress				install
 python-ipython					install
 python-ipython-genutils				install
+python-itsdangerous				install
 python-jinja2					install
+python-jsbeautifier				install
 python-jwt					install
 python-lazy-object-proxy			install
 python-libhfst					install
@@ -3380,6 +3388,7 @@ python-pydispatch				install
 python-pyexiv2					install
 python-pygame					install
 python-pygments					install
+python-pyinotify				install
 python-pymongo					install
 python-pymongo-ext				install
 python-pyparsing				install
@@ -3422,6 +3431,7 @@ python-toro					install
 python-traceback2				install
 python-traitlets				install
 python-tweepy					install
+python-typing					install
 python-tz					install
 python-unittest2				install
 python-uritemplate				install
@@ -3433,6 +3443,7 @@ python-vte					install
 python-watchdog					install
 python-wcwidth					install
 python-webunit					install
+python-werkzeug					install
 python-wicd					install
 python-wrapt					install
 python-wstools					install
