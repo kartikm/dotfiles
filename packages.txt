@@ -492,6 +492,7 @@ gir1.2-glib-2.0:amd64				install
 gir1.2-gmime-2.6:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0:amd64				install
+gir1.2-ibus-1.0:amd64				install
 gir1.2-notify-0.7:amd64				install
 gir1.2-packagekitglib-1.0			install
 gir1.2-pango-1.0:amd64				install
@@ -931,6 +932,7 @@ libc6-dev-i386					install
 libc6-dev-x32					install
 libc6-i386					install
 libc6-x32					install
+libcaca-dev					install
 libcaca0:amd64					install
 libcaca0:i386					install
 libcacard0:amd64				install
@@ -1299,6 +1301,7 @@ libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
+libgles2-mesa-dev:amd64				install
 libglew2.0:amd64				install
 libglib-perl					install
 libglib2.0-0:amd64				install
@@ -1437,6 +1440,8 @@ libhttpmime-java				install
 libhunspell-1.4-0:amd64				install
 libhyphen0:amd64				install
 libib-util:amd64				install
+libibus-1.0-5:amd64				install
+libibus-1.0-dev:amd64				install
 libical-dev:amd64				install
 libical2:amd64					install
 libice-dev:amd64				install
@@ -2342,9 +2347,11 @@ libsdl-net1.2:amd64				install
 libsdl-pango1:amd64				install
 libsdl-sound1.2:amd64				install
 libsdl-ttf2.0-0:amd64				install
+libsdl1.2-dev					install
 libsdl1.2debian:amd64				install
 libsdl1.2debian:i386				install
 libsdl2-2.0-0:amd64				install
+libsdl2-dev					install
 libsdl2-image-2.0-0:amd64			install
 libsearch-xapian-perl				install
 libseccomp2:amd64				install
@@ -2388,6 +2395,7 @@ libsnappy1v5:amd64				install
 libsnappy1v5:i386				install
 libsndfile1:amd64				install
 libsndfile1:i386				install
+libsndio-dev:amd64				install
 libsndio6.1:amd64				install
 libsndio6.1:i386				install
 libsoap-lite-perl				install
@@ -2782,6 +2790,7 @@ libxi6:amd64					install
 libxi6:i386					install
 libxinerama-dev:amd64				install
 libxinerama1:amd64				install
+libxkbcommon-dev				install
 libxkbcommon-x11-0:amd64			install
 libxkbcommon0:amd64				install
 libxkbfile1:amd64				install
@@ -2831,6 +2840,7 @@ libxshmfence1:i386				install
 libxslt1-dev:amd64				install
 libxslt1.1:amd64				install
 libxslt1.1:i386					install
+libxss-dev:amd64				install
 libxss1:amd64					install
 libxss1:i386					install
 libxstream-java					install
@@ -2841,6 +2851,7 @@ libxtables11:amd64				install
 libxtst-dev:amd64				install
 libxtst6:amd64					install
 libxtst6:i386					install
+libxv-dev:amd64					install
 libxv1:amd64					install
 libxv1:i386					install
 libxvidcore4:amd64				install
@@ -3858,6 +3869,8 @@ x11proto-kb-dev					install
 x11proto-randr-dev				install
 x11proto-record-dev				install
 x11proto-render-dev				install
+x11proto-scrnsaver-dev				install
+x11proto-video-dev				install
 x11proto-xext-dev				install
 x11proto-xf86vidmode-dev			install
 x11proto-xinerama-dev				install
