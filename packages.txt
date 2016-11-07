@@ -442,6 +442,7 @@ g++						install
 g++-4.9						install
 g++-6						install
 game-data-packager				install
+game-data-packager-runtime			install
 garmin-forerunner-tools				install
 garmin-plugin					install
 gawk						install
@@ -782,6 +783,7 @@ libapparmor1:amd64				install
 libappindicator1:amd64				install
 libappstream4:amd64				install
 libappstreamqt1:amd64				install
+libappstreamqt2:amd64				install
 libapr1:amd64					install
 libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
@@ -902,12 +904,15 @@ libbonoboui2-common				install
 libboost-date-time1.61.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.61.0:amd64			install
+libboost-filesystem1.62.0:amd64			install
 libboost-iostreams1.61.0:amd64			install
 libboost-program-options1.61.0:amd64		install
 libboost-python1.58.0				install
 libboost-python1.61.0				install
 libboost-regex1.61.0:amd64			install
+libboost-regex1.62.0:amd64			install
 libboost-system1.61.0:amd64			install
+libboost-system1.62.0:amd64			install
 libboost1.61-dev:amd64				install
 libbrlapi0.6:amd64				install
 libbs2b0:amd64					install
@@ -983,6 +988,7 @@ libclang1-3.9:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
+libclass-data-inheritable-perl			install
 libclass-factory-util-perl			install
 libclass-inspector-perl				install
 libclass-isa-perl				install
@@ -1102,6 +1108,7 @@ libdebian-installer4:amd64			install
 libdevel-caller-perl				install
 libdevel-globaldestruction-perl			install
 libdevel-lexalias-perl				install
+libdevel-stacktrace-perl			install
 libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
@@ -1167,10 +1174,12 @@ libesd0:i386					install
 libestools2.4:amd64				install
 libestr0					install
 libetonyek-0.1-1:amd64				install
+libeval-closure-perl				install
 libevdev2:amd64					install
 libevent-2.0-5:amd64				install
 libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
+libexception-class-perl				install
 libexif12:amd64					install
 libexif12:i386					install
 libexiv2-14:amd64				install
@@ -2072,6 +2081,7 @@ libpaper1:amd64					install
 libparams-classify-perl				install
 libparams-util-perl				install
 libparams-validate-perl				install
+libparams-validationcompiler-perl		install
 libparse-debcontrol-perl			install
 libparse-debian-packages-perl			install
 libparse-debianchangelog-perl			install
@@ -2125,6 +2135,7 @@ libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler61:amd64				install
+libpoppler64:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
@@ -2420,6 +2431,7 @@ libsoxr0:i386					install
 libsp1c2					install
 libspandsp2:amd64				install
 libspatialite7:amd64				install
+libspecio-perl					install
 libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex-dev:amd64				install
@@ -2507,6 +2519,7 @@ libterm-readline-gnu-perl			install
 libterm-readline-perl-perl			install
 libterm-size-perl				install
 libterm-ui-perl					install
+libtest-fatal-perl				install
 libtevent0:amd64				install
 libtexlua52:amd64				install
 libtexluajit2:amd64				install
@@ -2568,6 +2581,7 @@ libunicode-utf8-perl				install
 libuniconf4.6					install
 libuninameslist-dev				install
 libuninameslist0				install
+libuninameslist1				install
 libunistring0:amd64				install
 libuniversal-require-perl			install
 libupnp6					install
@@ -3012,9 +3026,12 @@ node-ansi					install
 node-ansi-color-table				install
 node-archy					install
 node-async					install
+node-balanced-match				install
 node-block-stream				install
+node-brace-expansion				install
 node-builtin-modules				install
 node-combined-stream				install
+node-concat-map					install
 node-cookie-jar					install
 node-delayed-stream				install
 node-forever-agent				install
@@ -3545,6 +3562,7 @@ qml-module-org-kde-draganddrop:amd64		install
 qml-module-org-kde-extensionplugin		install
 qml-module-org-kde-kcoreaddons:amd64		install
 qml-module-org-kde-kio:amd64			install
+qml-module-org-kde-kirigami			install
 qml-module-org-kde-kquickcontrols:amd64		install
 qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
@@ -3569,6 +3587,7 @@ qprint						install
 qrencode					install
 qt4-qmake					install
 qt5-default					install
+qt5-gtk-platformtheme:amd64			install
 qt5-image-formats-plugins:amd64			install
 qt5-qmake:amd64					install
 qt5-qmltooling-plugins:amd64			install
@@ -3578,7 +3597,7 @@ qtchooser					install
 qtcore4-l10n					install
 qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
-qttools5-dev-tools				install
+qttools5-dev-tools:amd64			install
 qttranslations5-l10n				install
 quake3						install
 quake3-data					install
