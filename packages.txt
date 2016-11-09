@@ -901,10 +901,12 @@ libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.61.0:amd64			install
+libboost-date-time1.62.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.61.0:amd64			install
 libboost-filesystem1.62.0:amd64			install
 libboost-iostreams1.61.0:amd64			install
+libboost-iostreams1.62.0:amd64			install
 libboost-program-options1.61.0:amd64		install
 libboost-python1.58.0				install
 libboost-python1.61.0				install
@@ -2785,6 +2787,7 @@ libxdmcp6:i386					install
 libxdo3:amd64					install
 libxdot4					install
 libxen-4.6:amd64				install
+libxen-4.8:amd64				install
 libxenstore3.0:amd64				install
 libxerces-c3.1:amd64				install
 libxerces2-java					install
@@ -2798,7 +2801,7 @@ libxfont1:amd64					install
 libxft-dev					install
 libxft2:amd64					install
 libxft2:i386					install
-libxi-dev					install
+libxi-dev:amd64					install
 libxi6:amd64					install
 libxi6:i386					install
 libxinerama-dev:amd64				install
