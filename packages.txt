@@ -286,6 +286,8 @@ e2fslibs:amd64					install
 e2fsprogs					install
 easy-rsa					install
 eatmydata					install
+ecj						install
+ecj-gcj						install
 ed						install
 eject						install
 emacs24						install
@@ -914,7 +916,7 @@ libboost-regex1.61.0:amd64			install
 libboost-regex1.62.0:amd64			install
 libboost-system1.61.0:amd64			install
 libboost-system1.62.0:amd64			install
-libboost1.61-dev:amd64				install
+libboost1.62-dev:amd64				install
 libbrlapi0.6:amd64				install
 libbs2b0:amd64					install
 libbsd-dev:amd64				install
@@ -1178,6 +1180,7 @@ libetonyek-0.1-1:amd64				install
 libeval-closure-perl				install
 libevdev2:amd64					install
 libevent-2.0-5:amd64				install
+libevent-core-2.0-5:amd64			install
 libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
 libexception-class-perl				install
@@ -1293,7 +1296,6 @@ libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
 libgexiv2-2:amd64				install
 libgfortran3:amd64				install
-libghc-cabal-dev				install
 libgif-dev					install
 libgif7:amd64					install
 libgimp2.0					install
@@ -1856,6 +1858,7 @@ libmbim-proxy					install
 libmcrypt4					install
 libmd0:amd64					install
 libmeanwhile1:amd64				install
+libmecab2:amd64					install
 libmediaart-2.0-0:amd64				install
 libmetadata-extractor-java			install
 libmetis5:amd64					install
@@ -2281,7 +2284,6 @@ librcd0						install
 librdf0:amd64					install
 libreadline-dev:amd64				install
 libreadline6:amd64				install
-libreadline6-dev:amd64				install
 libreadline7:amd64				install
 librecode0:amd64				install
 libregexp-assemble-perl				install
@@ -2990,12 +2992,13 @@ mupdf						install
 mupdf-tools					install
 mutt						install
 myrepos						install
-mysql-client-5.6				install
-mysql-client-core-5.6				install
+mysql-client-5.7				install
+mysql-client-core-5.7				install
 mysql-common					install
 mysql-server					install
-mysql-server-5.6				install
-mysql-server-core-5.6				install
+mysql-server-5.6				deinstall
+mysql-server-5.7				install
+mysql-server-core-5.7				install
 mysql-workbench-data				install
 mytop						install
 nano						install
@@ -3388,7 +3391,6 @@ python-mimeparse				install
 python-minimal					install
 python-mysqldb					install
 python-ndg-httpsclient				install
-python-netlib					install
 python-nose					install
 python-notify					install
 python-numpy					install
