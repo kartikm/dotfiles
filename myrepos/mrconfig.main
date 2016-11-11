@@ -304,10 +304,6 @@ checkout = git clone 'git@github.com:kartikm/node-code.git' 'node-code'
 [development/github/misc/brackets-phpcs]
 checkout = git clone 'git@github.com:kartikm/brackets-phpcs.git' 'brackets-phpcs'
 
-[development/wikipedia/huggle3-qt-lx]
-checkout = git clone 'git@github.com:kartikm/huggle3-qt-lx.git' 'huggle3-qt-lx'
-update = fork_update
-
 [development/github/forks/yokadi]
 checkout = git clone 'git@github.com:kartikm/yokadi.git' 'yokadi'
 update = fork_update
