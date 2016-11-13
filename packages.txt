@@ -182,7 +182,6 @@ cowsay						install
 cowsay-off					install
 cpio						install
 cpp						install
-cpp-4.9						install
 cpp-5						install
 cpp-6						install
 cpufrequtils					install
@@ -325,8 +324,6 @@ file						install
 filelight					install
 findutils					install
 finger						install
-firebird2.5-common				purge
-firebird2.5-server-common			purge
 firefox-esr					install
 firefox-esr-l10n-gu-in				install
 firmware-amd-graphics				install
@@ -437,7 +434,6 @@ funkload-doc					install
 fuse						install
 fuse2fs						install
 g++						install
-g++-4.9						install
 g++-6						install
 game-data-packager				install
 game-data-packager-runtime			install
@@ -445,9 +441,6 @@ garmin-forerunner-tools				install
 garmin-plugin					install
 gawk						install
 gcc						install
-gcc-4.9						install
-gcc-4.9-base:amd64				install
-gcc-4.9-base:i386				install
 gcc-5						install
 gcc-5-base:amd64				install
 gcc-5-base:i386					install
@@ -568,7 +561,6 @@ gvfs-libs:amd64					install
 gwenview					install
 gyp						install
 gzip						install
-hardening-wrapper				purge
 hatari						install
 hdparm						install
 help2man					install
@@ -601,7 +593,6 @@ ikiwiki						install
 imagemagick					install
 imagemagick-6-common				install
 imagemagick-6.q16				install
-imagemagick-common				purge
 info						install
 init						install
 init-system-helpers				install
@@ -631,7 +622,6 @@ irssi-plugin-xmpp				install
 irssi-scripts					install
 isc-dhcp-client					install
 isc-dhcp-common					install
-isenkram-cli					purge
 iso-codes					install
 ispell						install
 iucode-tool					install
@@ -757,12 +747,10 @@ libacl1:amd64					install
 libacl1:i386					install
 libacl1-dev					install
 libacme-damn-perl				install
-libacr38u					install
 libacsccid1					install
 libadns1					install
 libaec0:amd64					install
 libaio1:amd64					install
-libakonadiprotocolinternals1			purge
 libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
@@ -797,7 +785,6 @@ libarchive13:amd64				install
 libarmadillo7					install
 libarpack2					install
 libart-2.0-2:amd64				install
-libasan1:amd64					install
 libasan2:amd64					install
 libasan3:amd64					install
 libasm-java					install
@@ -1248,7 +1235,6 @@ libgail-common:amd64				install
 libgail18:amd64					install
 libgbm1:amd64					install
 libgc1c2:amd64					install
-libgcc-4.9-dev:amd64				install
 libgcc-5-dev:amd64				install
 libgcc-6-dev:amd64				install
 libgcc1:amd64					install
@@ -1511,8 +1497,6 @@ libjack-jackd2-0:amd64				install
 libjack-jackd2-0:i386				install
 libjansi-java					install
 libjansi-native-java				install
-libjasper-dev					install
-libjasper1:amd64				install
 libjava3d-java					install
 libjava3d-jni					install
 libjavascriptcoregtk-4.0-18:amd64		install
@@ -1786,7 +1770,6 @@ liblinear3:amd64				install
 liblirc-client0:amd64				install
 liblist-moreutils-perl				install
 liblivemedia57:amd64				install
-libllvm3.5:i386					purge
 libllvm3.8:amd64				install
 libllvm3.8:i386					install
 libllvm3.9:amd64				install
@@ -1862,10 +1845,8 @@ libminizip1:amd64				install
 libmjpegutils-2.1-0				install
 libmm-glib0:amd64				install
 libmms0:amd64					install
-libmng-dev:amd64				install
 libmng1:amd64					install
 libmng1:i386					install
-libmng2:amd64					install
 libmnl0:amd64					install
 libmockito-java					install
 libmodplug1:amd64				install
@@ -1995,7 +1976,6 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore7					install
-libonig2:amd64					purge
 libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -2015,7 +1995,6 @@ libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
-libopenjpeg5:i386				purge
 libopenobex2					install
 liboping0:amd64					install
 libopts25:amd64					install
@@ -2100,7 +2079,6 @@ libpcrecpp0v5:amd64				install
 libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
-libperl5.22:amd64				purge
 libperl5.24:amd64				install
 libperlio-gzip-perl				install
 libphonon4:amd64				install
@@ -2442,7 +2420,6 @@ libsratom-0-0:amd64				install
 libsrtp0					install
 libsrtp0-dev					install
 libss2:amd64					install
-libss7-1					purge
 libss7-2.0:amd64				install
 libss7-dev:amd64				install
 libssh-4:amd64					install
@@ -2453,7 +2430,6 @@ libssl-dev:amd64				install
 libssl1.0.2:amd64				install
 libssl1.1:amd64					install
 libstartup-notification0:amd64			install
-libstdc++-4.9-dev:amd64				install
 libstdc++-5-dev:amd64				install
 libstdc++-6-dev:amd64				install
 libstdc++6:amd64				install
@@ -2529,7 +2505,6 @@ libthai0:i386					install
 libtheora0:amd64				install
 libtheora0:i386					install
 libthreadweaver4				install
-libtidy-0.99-0					install
 libtidy5					install
 libtie-ixhash-perl				install
 libtiff-tools					install
@@ -2545,7 +2520,6 @@ libtinyxml2.6.2v5:amd64				install
 libtirpc1:amd64					install
 libtk8.6:amd64					install
 libtokyocabinet9:amd64				install
-libtomcat7-java					install
 libtomcrypt0:amd64				install
 libtommath1:amd64				install
 libtonezone-dev:amd64				install
@@ -2557,8 +2531,6 @@ libtsan0:amd64					install
 libturbojpeg0:amd64				install
 libtwolame0:amd64				install
 libtwolame0:i386				install
-libtxc-dxtn-s2tc0:amd64				install
-libtxc-dxtn-s2tc0:i386				install
 libtype-tiny-perl				install
 libtype-tiny-xs-perl				install
 libubsan0:amd64					install
@@ -2656,10 +2628,8 @@ libwebp6:i386					install
 libwebpdemux2:amd64				install
 libwebpmux2:amd64				install
 libwebpmux2:i386				install
-libwebrtc-audio-processing-0:amd64		purge
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
-libwildmidi1:amd64				purge
 libwildmidi2:amd64				install
 libwireshark-data				install
 libwireshark8:amd64				install
@@ -2888,14 +2858,10 @@ licensecheck					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-5-x86			install
-linux-headers-4.7.0-1-amd64			install
 linux-headers-4.7.0-1-common			install
 linux-headers-4.8.0-1-amd64			install
 linux-headers-4.8.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.5.0-2-amd64			purge
-linux-image-4.6.0-1-amd64			purge
-linux-image-4.7.0-1-amd64			install
 linux-image-4.8.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.7				install
@@ -2982,7 +2948,6 @@ mysql-client-5.7				install
 mysql-client-core-5.7				install
 mysql-common					install
 mysql-server					install
-mysql-server-5.6				purge
 mysql-server-5.7				install
 mysql-server-core-5.7				install
 mysql-workbench-data				install
@@ -3594,7 +3559,6 @@ quake3						install
 quake3-data					install
 quilt						install
 quvi						install
-racket-common					purge
 radeontool					install
 rake						install
 rarian-compat					install
@@ -3934,7 +3898,6 @@ xserver-xorg-input-evdev			install
 xserver-xorg-input-libinput			install
 xserver-xorg-input-mouse			install
 xserver-xorg-input-synaptics			install
-xserver-xorg-input-vmmouse			install
 xserver-xorg-input-wacom			install
 xserver-xorg-video-all				install
 xserver-xorg-video-amdgpu			install
