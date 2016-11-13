@@ -91,7 +91,6 @@ aptitude-common					install
 arduino						install
 arduino-core					install
 aria2						install
-aria2-dbgsym					install
 ark						install
 aspell						install
 aspell-en					install
@@ -326,11 +325,8 @@ file						install
 filelight					install
 findutils					install
 finger						install
-firebird-dev					install
-firebird2.5-common				deinstall
-firebird2.5-server-common			deinstall
-firebird3.0-common				install
-firebird3.0-common-doc				install
+firebird2.5-common				purge
+firebird2.5-server-common			purge
 firefox-esr					install
 firefox-esr-l10n-gu-in				install
 firmware-amd-graphics				install
@@ -520,7 +516,6 @@ gnupg						install
 gnupg-agent					install
 gnupg1						install
 gnupg1-curl					install
-gnupg1-l10n					install
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
@@ -529,7 +524,8 @@ gnustep-base-common				install
 gnustep-base-runtime				install
 gnustep-common					install
 google-chrome-stable				install
-google-talkplugin				deinstall
+google-talkplugin				install
+googletest:amd64				install
 gource						install
 gparted						install
 gperf						install
@@ -572,7 +568,7 @@ gvfs-libs:amd64					install
 gwenview					install
 gyp						install
 gzip						install
-hardening-wrapper				deinstall
+hardening-wrapper				purge
 hatari						install
 hdparm						install
 help2man					install
@@ -605,7 +601,7 @@ ikiwiki						install
 imagemagick					install
 imagemagick-6-common				install
 imagemagick-6.q16				install
-imagemagick-common				deinstall
+imagemagick-common				purge
 info						install
 init						install
 init-system-helpers				install
@@ -635,7 +631,7 @@ irssi-plugin-xmpp				install
 irssi-scripts					install
 isc-dhcp-client					install
 isc-dhcp-common					install
-isenkram-cli					deinstall
+isenkram-cli					purge
 iso-codes					install
 ispell						install
 iucode-tool					install
@@ -763,9 +759,10 @@ libacl1-dev					install
 libacme-damn-perl				install
 libacr38u					install
 libacsccid1					install
+libadns1					install
 libaec0:amd64					install
 libaio1:amd64					install
-libakonadiprotocolinternals1			deinstall
+libakonadiprotocolinternals1			purge
 libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
@@ -784,7 +781,6 @@ libapertium3-3.4-0:amd64			install
 libapparmor1:amd64				install
 libappindicator1:amd64				install
 libappstream4:amd64				install
-libappstreamqt1:amd64				install
 libappstreamqt2:amd64				install
 libapr1:amd64					install
 libaprutil1:amd64				install
@@ -903,17 +899,15 @@ libbonobo2-0:amd64				install
 libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
-libboost-date-time1.61.0:amd64			install
 libboost-date-time1.62.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.61.0:amd64			install
 libboost-filesystem1.62.0:amd64			install
 libboost-iostreams1.61.0:amd64			install
 libboost-iostreams1.62.0:amd64			install
-libboost-program-options1.61.0:amd64		install
+libboost-program-options1.62.0:amd64		install
 libboost-python1.58.0				install
-libboost-python1.61.0				install
-libboost-regex1.61.0:amd64			install
+libboost-python1.62.0				install
 libboost-regex1.62.0:amd64			install
 libboost-system1.61.0:amd64			install
 libboost-system1.62.0:amd64			install
@@ -1053,7 +1047,6 @@ libcrypt-rijndael-perl				install
 libcrypt-ssleay-perl				install
 libcrypt-unixcrypt-xs-perl			install
 libcrypt-x509-perl				install
-libcrypto++6					install
 libcryptsetup-dev:amd64				install
 libcryptsetup4:amd64				install
 libcrystalhd3:amd64				install
@@ -1202,7 +1195,6 @@ libfaketime:amd64				install
 libfam0:amd64					install
 libfarstream-0.2-5:amd64			install
 libfastjson4:amd64				install
-libfbclient2:amd64				install
 libfcgi-perl					install
 libfdisk1:amd64					install
 libfdt1:amd64					install
@@ -1452,7 +1444,6 @@ libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.4-0:amd64				install
 libhyphen0:amd64				install
-libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
 libical-dev:amd64				install
@@ -1659,7 +1650,6 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
-libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1794,10 +1784,9 @@ liblilv-0-0					install
 liblinear-tools					install
 liblinear3:amd64				install
 liblirc-client0:amd64				install
-liblircclient0					install
 liblist-moreutils-perl				install
 liblivemedia57:amd64				install
-libllvm3.5:i386					deinstall
+libllvm3.5:i386					purge
 libllvm3.8:amd64				install
 libllvm3.8:i386					install
 libllvm3.9:amd64				install
@@ -1877,7 +1866,6 @@ libmng-dev:amd64				install
 libmng1:amd64					install
 libmng1:i386					install
 libmng2:amd64					install
-libmng2-dbgsym:amd64				install
 libmnl0:amd64					install
 libmockito-java					install
 libmodplug1:amd64				install
@@ -2007,7 +1995,7 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore7					install
-libonig2:amd64					deinstall
+libonig2:amd64					purge
 libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -2027,7 +2015,7 @@ libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
-libopenjpeg5:i386				deinstall
+libopenjpeg5:i386				purge
 libopenobex2					install
 liboping0:amd64					install
 libopts25:amd64					install
@@ -2112,7 +2100,7 @@ libpcrecpp0v5:amd64				install
 libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
-libperl5.22:amd64				deinstall
+libperl5.22:amd64				purge
 libperl5.24:amd64				install
 libperlio-gzip-perl				install
 libphonon4:amd64				install
@@ -2139,7 +2127,6 @@ libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
-libpoppler61:amd64				install
 libpoppler64:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
@@ -2455,7 +2442,7 @@ libsratom-0-0:amd64				install
 libsrtp0					install
 libsrtp0-dev					install
 libss2:amd64					install
-libss7-1					deinstall
+libss7-1					purge
 libss7-2.0:amd64				install
 libss7-dev:amd64				install
 libssh-4:amd64					install
@@ -2584,7 +2571,6 @@ libunicode-linebreak-perl			install
 libunicode-utf8-perl				install
 libuniconf4.6					install
 libuninameslist-dev				install
-libuninameslist0				install
 libuninameslist1				install
 libunistring0:amd64				install
 libuniversal-require-perl			install
@@ -2670,10 +2656,10 @@ libwebp6:i386					install
 libwebpdemux2:amd64				install
 libwebpmux2:amd64				install
 libwebpmux2:i386				install
-libwebrtc-audio-processing-0:amd64		deinstall
+libwebrtc-audio-processing-0:amd64		purge
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
-libwildmidi1:amd64				deinstall
+libwildmidi1:amd64				purge
 libwildmidi2:amd64				install
 libwireshark-data				install
 libwireshark8:amd64				install
@@ -2789,7 +2775,6 @@ libxdmcp6:amd64					install
 libxdmcp6:i386					install
 libxdo3:amd64					install
 libxdot4					install
-libxen-4.6:amd64				install
 libxen-4.8:amd64				install
 libxenstore3.0:amd64				install
 libxerces-c3.1:amd64				install
@@ -2908,8 +2893,8 @@ linux-headers-4.7.0-1-common			install
 linux-headers-4.8.0-1-amd64			install
 linux-headers-4.8.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.5.0-2-amd64			deinstall
-linux-image-4.6.0-1-amd64			deinstall
+linux-image-4.5.0-2-amd64			purge
+linux-image-4.6.0-1-amd64			purge
 linux-image-4.7.0-1-amd64			install
 linux-image-4.8.0-1-amd64			install
 linux-image-amd64				install
@@ -2997,7 +2982,7 @@ mysql-client-5.7				install
 mysql-client-core-5.7				install
 mysql-common					install
 mysql-server					install
-mysql-server-5.6				deinstall
+mysql-server-5.6				purge
 mysql-server-5.7				install
 mysql-server-core-5.7				install
 mysql-workbench-data				install
@@ -3074,7 +3059,6 @@ node-retry					install
 node-rimraf					install
 node-semver					install
 node-sha					install
-node-sigmund					install
 node-slide					install
 node-source-map					install
 node-spdx-correct				install
@@ -3232,8 +3216,8 @@ pidgin-otr					install
 pinentry-curses					install
 pinentry-gnome3					install
 pinentry-gtk2					install
-piuparts					deinstall
-piuparts-common					deinstall
+piuparts					install
+piuparts-common					install
 pkg-config					install
 pkg-kde-tools					install
 pkg-php-tools					install
@@ -3298,6 +3282,7 @@ python-alabaster				install
 python-all					install
 python-all-dev					install
 python-appindicator				install
+python-apt					install
 python-apt-common				install
 python-argcomplete				install
 python-argh					install
@@ -3385,6 +3370,7 @@ python-librdf					install
 python-libxml2					install
 python-linecache2				install
 python-lxml					install
+python-lzma					install
 python-magic					install
 python-markupsafe				install
 python-matplotlib-data				install
@@ -3608,7 +3594,7 @@ quake3						install
 quake3-data					install
 quilt						install
 quvi						install
-racket-common					deinstall
+racket-common					purge
 radeontool					install
 rake						install
 rarian-compat					install
@@ -3741,8 +3727,6 @@ suckless-tools					install
 sudo						install
 svn-buildpackage				install
 sweeper						install
-swig						install
-swig3.0						install
 synaptic					install
 sysfsutils					install
 systemd						install
@@ -3913,7 +3897,6 @@ xchm						install
 xclip						install
 xcowsay						install
 xdaliclock					install
-xdaliclock-dbgsym				install
 xdelta						install
 xdelta3						install
 xdg-user-dirs					install
@@ -3934,7 +3917,6 @@ xmlto						install
 xmoto						install
 xmoto-data					install
 xmountains					install
-xmountains-dbgsym				install
 xorg-sgml-doctools				install
 xorriso						install
 xosview						install
