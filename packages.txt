@@ -335,6 +335,8 @@ firmware-realtek				install
 flex						install
 fontconfig					install
 fontconfig-config				install
+fontforge					install
+fontforge-common				install
 fonts-ancient-scripts				install
 fonts-beng					install
 fonts-beng-extra				install
@@ -357,6 +359,7 @@ fonts-gujr-extra				install
 fonts-guru					install
 fonts-guru-extra				install
 fonts-hack-ttf					install
+fonts-inconsolata				install
 fonts-kalapi					install
 fonts-knda					install
 fonts-lao					install
@@ -1255,6 +1258,7 @@ libgdbm3:amd64					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
+libgdraw5					install
 libgee-0.8-2:amd64				install
 libgegl-0.3-0:amd64				install
 libgeoip-dev					install
