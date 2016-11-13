@@ -359,6 +359,7 @@ fonts-gujr-extra				install
 fonts-guru					install
 fonts-guru-extra				install
 fonts-hack-ttf					install
+fonts-inconsolata				install
 fonts-kalapi					install
 fonts-knda					install
 fonts-lao					install
@@ -986,7 +987,6 @@ libcli-dev					install
 libcli1.9:amd64					install
 libcln6						install
 libclone-perl					install
-libcloog-isl4:amd64				install
 libclucene-contribs1v5:amd64			install
 libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
@@ -998,7 +998,6 @@ libcomerr2:i386					install
 libcommons-cli-java				install
 libcommons-codec-java				install
 libcommons-collections3-java			install
-libcommons-dbcp-java				install
 libcommons-discovery-java			install
 libcommons-httpclient-java			install
 libcommons-io-java				install
@@ -1006,7 +1005,6 @@ libcommons-lang-java				install
 libcommons-logging-java				install
 libcommons-net-java				install
 libcommons-parent-java				install
-libcommons-pool-java				install
 libconfig-auto-perl				install
 libconfig-dev:amd64				install
 libconfig-doc					install
@@ -1216,7 +1214,7 @@ libfontconfig1:amd64				install
 libfontconfig1:i386				install
 libfontconfig1-dev:amd64			install
 libfontenc1:amd64				install
-libfontforge1					install
+libfontforge2					install
 libfonts-java					install
 libfop-java					install
 libforks-perl					install
@@ -1260,7 +1258,7 @@ libgdbm3:amd64					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
-libgdraw4					install
+libgdraw5					install
 libgee-0.8-2:amd64				install
 libgegl-0.3-0:amd64				install
 libgeoip-dev					install
@@ -1269,7 +1267,6 @@ libgeos-3.5.1					install
 libgeos-c1v5					install
 libgeotiff2:amd64				install
 libgeronimo-jms-1.1-spec-java			install
-libgeronimo-jta-1.1-spec-java			install
 libgetopt-long-descriptive-perl			install
 libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
@@ -2858,13 +2855,11 @@ licensecheck					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-5-x86			install
-linux-headers-4.7.0-1-common			install
 linux-headers-4.8.0-1-amd64			install
 linux-headers-4.8.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.8.0-1-amd64			install
 linux-image-amd64				install
-linux-kbuild-4.7				install
 linux-kbuild-4.8				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
