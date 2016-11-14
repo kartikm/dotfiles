@@ -2987,6 +2987,7 @@ node-cookie-jar					install
 node-delayed-stream				install
 node-forever-agent				install
 node-form-data					install
+node-fs.realpath				install
 node-fstream					install
 node-fstream-ignore				install
 node-github-url-from-git			install
@@ -2994,9 +2995,11 @@ node-glob					install
 node-graceful-fs				install
 node-gyp					install
 node-hosted-git-info				install
+node-inflight					install
 node-inherits					install
 node-ini					install
 node-is-builtin-module				install
+node-isexe					install
 node-json-stringify-safe			install
 node-less					install
 node-lockfile					install
@@ -3011,6 +3014,7 @@ node-normalize-package-data			install
 node-npmlog					install
 node-once					install
 node-osenv					install
+node-path-is-absolute				install
 node-qs						install
 node-read					install
 node-read-package-json				install
