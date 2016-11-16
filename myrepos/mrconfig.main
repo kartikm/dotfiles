@@ -131,19 +131,19 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.g
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/yokadi.git' 'yokadi'
 
 # l10n
-[development/l10n/KDE/gu]
-checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/gu' 'gu'
+#[development/l10n/KDE/gu]
+#checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/gu' 'gu'
 
-[development/l10n/KDE/templates]
-checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/templates' 'templates'
+#[development/l10n/KDE/templates]
+#checkout = svn co 'svn+ssh://svn@svn.kde.org/home/kde/trunk/l10n-kde4/templates' 'templates'
 
-[development/l10n/tuxfamily/tuxpaint]
-CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
-checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint' 'tuxpaint'
+#[development/l10n/tuxfamily/tuxpaint]
+#CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
+#checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint' 'tuxpaint'
 
-[development/l10n/tuxfamily/tuxpaint-stamps]
-CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
-checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint-stamps' 'tuxpaint-stamps'
+#[development/l10n/tuxfamily/tuxpaint-stamps]
+#CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
+#checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint-stamps' 'tuxpaint-stamps'
 
 [development/l10n/inscript2]
 checkout = git clone 'git://git.fedorahosted.org/inscript2.git' 'inscript2'
