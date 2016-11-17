@@ -7,10 +7,10 @@ deb http://cdn.debian.net/debian experimental main contrib non-free
 deb-src http://cdn.debian.net/debian experimental main contrib non-free
 
 #emacs-snapshots
-deb http://londo.ganneff.de/ unstable main
+#deb http://londo.ganneff.de/ unstable main
 
 #elastic search
-deb http://packages.elasticsearch.org/elasticsearch/0.90/debian stable main
+#deb http://packages.elasticsearch.org/elasticsearch/0.90/debian stable main
 
 #jenkins
 #deb http://pkg.jenkins-ci.org/debian-stable binary/
