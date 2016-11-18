@@ -186,3 +186,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/mediawiki/tools/schroot' 's
 
 [labs/private]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/labs/private' 'private'
+
+[config/release]
+checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/tools/release' 'release'
