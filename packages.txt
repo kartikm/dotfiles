@@ -1930,6 +1930,7 @@ libnfnetlink0:amd64				install
 libnfsidmap2:amd64				install
 libnghttp2-14:amd64				install
 libnginx-mod-http-auth-pam			install
+libnginx-mod-http-dav-ext			install
 libnginx-mod-http-echo				install
 libnginx-mod-http-geoip				install
 libnginx-mod-http-image-filter			install
