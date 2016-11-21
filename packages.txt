@@ -1631,6 +1631,7 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
+libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1801,6 +1802,7 @@ liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
 liblwres141:amd64				install
 liblz4-1:amd64					install
+liblz4-1:i386					install
 liblzma-dev:amd64				install
 liblzma5:amd64					install
 liblzma5:i386					install
@@ -3426,6 +3428,7 @@ python-validictory				install
 python-vte					install
 python-watchdog					install
 python-wcwidth					install
+python-webencodings				install
 python-webunit					install
 python-werkzeug					install
 python-wicd					install
@@ -3492,6 +3495,7 @@ python3-traitlets				install
 python3-tz					install
 python3-uno					install
 python3-wcwidth					install
+python3-webencodings				install
 python3-wheel					install
 python3-yaml					install
 python3.5					install
