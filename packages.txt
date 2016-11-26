@@ -634,6 +634,7 @@ javahelper					install
 javascript-common				install
 junit						install
 junit4						install
+kaccounts-providers				install
 kactivities-bin					install
 kactivitymanagerd				install
 kamera						install
@@ -743,6 +744,8 @@ liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.1-1:amd64				install
+libaccounts-glib0:amd64				install
+libaccounts-qt5-1				install
 libaccountsservice0				install
 libacl1:amd64					install
 libacl1:i386					install
@@ -1550,6 +1553,7 @@ libjxr0:amd64					install
 libjzlib-java					install
 libk5crypto3:amd64				install
 libk5crypto3:i386				install
+libkaccounts1:amd64				install
 libkactivities6					install
 libkate1:amd64					install
 libkatepartinterfaces4				install
@@ -1570,7 +1574,9 @@ libkeyutils1:amd64				install
 libkeyutils1:i386				install
 libkf5activities5:amd64				install
 libkf5activitiesstats1:amd64			install
-libkf5akonadiprivate5				install
+libkf5akonadicore5:amd64			install
+libkf5akonadiprivate5:amd64			install
+libkf5akonadiwidgets5:amd64			install
 libkf5archive5:amd64				install
 libkf5attica5:amd64				install
 libkf5auth-data					install
@@ -1664,6 +1670,7 @@ libkf5plasma5:amd64				install
 libkf5plasmaquick5:amd64			install
 libkf5pty-data					install
 libkf5pty5:amd64				install
+libkf5purpose5:amd64				install
 libkf5quickaddons5:amd64			install
 libkf5runner5:amd64				install
 libkf5screen-bin				install
@@ -1758,6 +1765,7 @@ liblcms2-2:i386					install
 liblcms2-dev:amd64				install
 liblcms2-utils					install
 libldap-2.4-2:amd64				install
+libldap-common					install
 libldb1:amd64					install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
@@ -2360,6 +2368,8 @@ libsidutils0					install
 libsigc++-2.0-0c2a:i386				deinstall
 libsigc++-2.0-0v5:amd64				install
 libsigc++-2.0-dev:amd64				install
+libsignon-plugins-common1:amd64			install
+libsignon-qt5-1:amd64				install
 libsigsegv2:amd64				install
 libslang2:amd64					install
 libslang2:i386					install
@@ -2756,6 +2766,7 @@ libxfixes-dev:amd64				install
 libxfixes3:amd64				install
 libxfixes3:i386					install
 libxfont1:amd64					install
+libxfont2:amd64					install
 libxft-dev					install
 libxft2:amd64					install
 libxft2:i386					install
@@ -3018,6 +3029,7 @@ node-npmlog					install
 node-once					install
 node-osenv					install
 node-path-is-absolute				install
+node-pseudomap					install
 node-qs						install
 node-read					install
 node-read-package-json				install
@@ -3037,8 +3049,10 @@ node-underscore					install
 node-validate-npm-package-license		install
 node-which					install
 node-wrappy					install
+node-yallist					install
 nodejs						install
 nodejs-dev					install
+nodejs-legacy					install
 notification-daemon				install
 notify-osd					install
 notmuch						install
@@ -3526,6 +3540,7 @@ qml-module-org-kde-kirigami			install
 qml-module-org-kde-kquickcontrols:amd64		install
 qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
+qml-module-org-kde-purpose:amd64		install
 qml-module-org-kde-runnermodel			install
 qml-module-org-kde-solid:amd64			install
 qml-module-qt-labs-folderlistmodel:amd64	install
@@ -3661,6 +3676,7 @@ shared-desktop-ontologies			install
 shared-mime-info				install
 shtool						install
 signing-party					install
+signon-plugin-oauth2				install
 sl						install
 sm						install
 smart-notifier					install
