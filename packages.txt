@@ -285,8 +285,6 @@ e2fslibs:amd64					install
 e2fsprogs					install
 easy-rsa					install
 eatmydata					install
-ecj						install
-ecj-gcj						install
 ed						install
 eject						install
 emacs24						install
@@ -634,7 +632,7 @@ javahelper					install
 javascript-common				install
 junit						install
 junit4						install
-kaccounts-providers				install
+kaccounts-providers				deinstall
 kactivities-bin					install
 kactivitymanagerd				install
 kamera						install
@@ -744,15 +742,14 @@ liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.1-1:amd64				install
-libaccounts-glib0:amd64				install
-libaccounts-qt5-1				install
+libaccounts-qt5-1				deinstall
 libaccountsservice0				install
 libacl1:amd64					install
 libacl1:i386					install
 libacl1-dev					install
 libacme-damn-perl				install
 libacsccid1					install
-libadns1					install
+libadns1					deinstall
 libaec0:amd64					install
 libaio1:amd64					install
 libalgorithm-c3-perl				install
@@ -1134,8 +1131,7 @@ libe-book-0.1-1:amd64				install
 libeatmydata1:amd64				install
 libebml4v5:amd64				install
 libebur128-1:amd64				install
-libecj-java					install
-libecj-java-gcj					install
+libecj-java-gcj					deinstall
 libedit2:amd64					install
 libedit2:i386					install
 libegl1-mesa:amd64				install
@@ -1339,7 +1335,6 @@ libgpg-error0:amd64				install
 libgpg-error0:i386				install
 libgpgme++2v5					install
 libgpgme11:amd64				install
-libgpgme11-dev					install
 libgphoto2-6:amd64				install
 libgphoto2-l10n					install
 libgphoto2-port12:amd64				install
@@ -1553,7 +1548,6 @@ libjxr0:amd64					install
 libjzlib-java					install
 libk5crypto3:amd64				install
 libk5crypto3:i386				install
-libkaccounts1:amd64				install
 libkactivities6					install
 libkate1:amd64					install
 libkatepartinterfaces4				install
@@ -1637,7 +1631,6 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
-libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
@@ -1670,7 +1663,6 @@ libkf5plasma5:amd64				install
 libkf5plasmaquick5:amd64			install
 libkf5pty-data					install
 libkf5pty5:amd64				install
-libkf5purpose5:amd64				install
 libkf5quickaddons5:amd64			install
 libkf5runner5:amd64				install
 libkf5screen-bin				install
@@ -1693,8 +1685,6 @@ libkf5texteditor5:amd64				install
 libkf5textwidgets-data				install
 libkf5textwidgets5:amd64			install
 libkf5threadweaver5:amd64			install
-libkf5unitconversion-data			install
-libkf5unitconversion5:amd64			install
 libkf5wallet-bin				install
 libkf5wallet-data				install
 libkf5wallet5:amd64				install
@@ -2368,8 +2358,6 @@ libsidutils0					install
 libsigc++-2.0-0c2a:i386				deinstall
 libsigc++-2.0-0v5:amd64				install
 libsigc++-2.0-dev:amd64				install
-libsignon-plugins-common1:amd64			install
-libsignon-qt5-1:amd64				install
 libsigsegv2:amd64				install
 libslang2:amd64					install
 libslang2:i386					install
@@ -2832,7 +2820,6 @@ libxstream-java					install
 libxt-dev:amd64					install
 libxt6:amd64					install
 libxt6:i386					install
-libxtables11:amd64				install
 libxtst-dev:amd64				install
 libxtst6:amd64					install
 libxtst6:i386					install
@@ -3052,7 +3039,7 @@ node-wrappy					install
 node-yallist					install
 nodejs						install
 nodejs-dev					install
-nodejs-legacy					install
+nodejs-legacy					purge
 notification-daemon				install
 notify-osd					install
 notmuch						install
@@ -3135,7 +3122,7 @@ php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
 php-gd						install
-php-gettext					install
+php-gettext					purge
 php-mbstring					install
 php-mysql					install
 php-pear					install
@@ -3212,7 +3199,7 @@ plasma-integration				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-wallpapers-addons			install
-plasma-widgets-addons				install
+plasma-widgets-addons				deinstall
 plasma-workspace				install
 pm-utils					install
 po-debconf					install
@@ -3540,7 +3527,6 @@ qml-module-org-kde-kirigami			install
 qml-module-org-kde-kquickcontrols:amd64		install
 qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
-qml-module-org-kde-purpose:amd64		install
 qml-module-org-kde-runnermodel			install
 qml-module-org-kde-solid:amd64			install
 qml-module-qt-labs-folderlistmodel:amd64	install
@@ -3676,7 +3662,6 @@ shared-desktop-ontologies			install
 shared-mime-info				install
 shtool						install
 signing-party					install
-signon-plugin-oauth2				install
 sl						install
 sm						install
 smart-notifier					install
@@ -3934,7 +3919,7 @@ xserver-xorg-video-qxl				install
 xserver-xorg-video-r128				install
 xserver-xorg-video-radeon			install
 xserver-xorg-video-savage			install
-xserver-xorg-video-sisusb			install
+xserver-xorg-video-sisusb			deinstall
 xserver-xorg-video-tdfx				install
 xserver-xorg-video-trident			install
 xserver-xorg-video-vesa				install
