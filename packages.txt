@@ -739,7 +739,7 @@ liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.1-1:amd64				install
-libaccountsservice0				install
+libaccountsservice0:amd64			install
 libacl1:amd64					install
 libacl1:i386					install
 libacl1-dev					install
@@ -2115,7 +2115,7 @@ libprocesscore7					install
 libprocessui7					install
 libprocps6:amd64				install
 libproj12					install
-libprotobuf-c1					install
+libprotobuf-c1:amd64				install
 libprotobuf10:amd64				install
 libprotoc10:amd64				install
 libproxy-tools					install
