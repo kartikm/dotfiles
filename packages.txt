@@ -557,7 +557,6 @@ gvfs-bin					install
 gvfs-common					install
 gvfs-daemons					install
 gvfs-libs:amd64					install
-gwenview					install
 gyp						install
 gzip						install
 hatari						install
@@ -632,7 +631,6 @@ javahelper					install
 javascript-common				install
 junit						install
 junit4						install
-kaccounts-providers				deinstall
 kactivities-bin					install
 kactivitymanagerd				install
 kamera						install
@@ -703,7 +701,6 @@ kpart-webkit					install
 krb5-locales					install
 kross						install
 kscreen						install
-ksnapshot					install
 ksshaskpass					install
 ksysguard					install
 ksysguard-data					install
@@ -742,14 +739,12 @@ liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.1-1:amd64				install
-libaccounts-qt5-1				deinstall
 libaccountsservice0				install
 libacl1:amd64					install
 libacl1:i386					install
 libacl1-dev					install
 libacme-damn-perl				install
 libacsccid1					install
-libadns1					deinstall
 libaec0:amd64					install
 libaio1:amd64					install
 libalgorithm-c3-perl				install
@@ -1131,7 +1126,6 @@ libe-book-0.1-1:amd64				install
 libeatmydata1:amd64				install
 libebml4v5:amd64				install
 libebur128-1:amd64				install
-libecj-java-gcj					deinstall
 libedit2:amd64					install
 libedit2:i386					install
 libegl1-mesa:amd64				install
@@ -2246,6 +2240,7 @@ libraw15:amd64					install
 librcc0						install
 librcd0						install
 librdf0:amd64					install
+libre2-3:amd64					install
 libreadline-dev:amd64				install
 libreadline6:amd64				install
 libreadline7:amd64				install
@@ -2820,6 +2815,7 @@ libxstream-java					install
 libxt-dev:amd64					install
 libxt6:amd64					install
 libxt6:i386					install
+libxtables12:amd64				install
 libxtst-dev:amd64				install
 libxtst6:amd64					install
 libxtst6:i386					install
@@ -3039,7 +3035,6 @@ node-wrappy					install
 node-yallist					install
 nodejs						install
 nodejs-dev					install
-nodejs-legacy					purge
 notification-daemon				install
 notify-osd					install
 notmuch						install
@@ -3122,7 +3117,6 @@ php-deepcopy					install
 php-doctrine-instantiator			install
 php-file-iterator				install
 php-gd						install
-php-gettext					purge
 php-mbstring					install
 php-mysql					install
 php-pear					install
@@ -3199,7 +3193,6 @@ plasma-integration				install
 plasma-nm					install
 plasma-scriptengine-javascript			install
 plasma-wallpapers-addons			install
-plasma-widgets-addons				deinstall
 plasma-workspace				install
 pm-utils					install
 po-debconf					install
@@ -3919,7 +3912,6 @@ xserver-xorg-video-qxl				install
 xserver-xorg-video-r128				install
 xserver-xorg-video-radeon			install
 xserver-xorg-video-savage			install
-xserver-xorg-video-sisusb			deinstall
 xserver-xorg-video-tdfx				install
 xserver-xorg-video-trident			install
 xserver-xorg-video-vesa				install
