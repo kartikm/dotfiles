@@ -634,7 +634,6 @@ junit4						install
 kactivities-bin					install
 kactivitymanagerd				install
 kamera						install
-kamoso						install
 kate						install
 kate-data					install
 kate5-data					install
@@ -654,6 +653,7 @@ kde-config-sddm					install
 kde-plasma-desktop				install
 kde-runtime					install
 kde-runtime-data				install
+kde-spectacle					install
 kde-style-breeze				install
 kde-style-breeze-qt4				install
 kde-style-oxygen-qt5				install
@@ -1634,6 +1634,8 @@ libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
+libkf5kipi-data					install
+libkf5kipi31.0.0				install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -1697,8 +1699,6 @@ libkfontinst5					install
 libkfontinstui5					install
 libkhtml5					install
 libkio5						install
-libkipi-data					install
-libkipi11					install
 libkjsapi4					install
 libkjsembed4					install
 libklibc					install
