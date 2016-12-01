@@ -2103,7 +2103,7 @@ libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
 libportaudio2:amd64				install
-libportmidi0					install
+libportmidi0:amd64				install
 libposix-strptime-perl				install
 libpostproc54:amd64				install
 libpotrace0					install
