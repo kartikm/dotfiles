@@ -287,6 +287,7 @@ easy-rsa					install
 eatmydata					install
 ed						install
 eject						install
+elpa-notmuch					install
 emacs24						install
 emacs24-bin-common				install
 emacs24-common					install
@@ -1391,6 +1392,7 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-10:amd64				install
+libhdf5-100:amd64				install
 libhfst45					install
 libhfst45-dev					install
 libhfstospell5					install
@@ -3443,7 +3445,10 @@ python3						install
 python3-apparmor				install
 python3-apt					install
 python3-bs4					install
+python3-cffi-backend				install
 python3-chardet					install
+python3-crypto					install
+python3-cryptography				install
 python3-cycler					install
 python3-dateutil				install
 python3-dbus					install
@@ -3454,8 +3459,11 @@ python3-dnspython				install
 python3-formencode				install
 python3-gi					install
 python3-html5lib				install
+python3-idna					install
 python3-ipython					install
 python3-ipython-genutils			install
+python3-keyring					install
+python3-keyrings.alt				install
 python3-libapparmor				install
 python3-libhfst					install
 python3-lxml					install
@@ -3471,6 +3479,7 @@ python3-pip					install
 python3-pkg-resources				install
 python3-prompt-toolkit				install
 python3-ptyprocess				install
+python3-pyasn1					install
 python3-pycurl					install
 python3-pydispatch				install
 python3-pygments				install
@@ -3478,6 +3487,7 @@ python3-pyparsing				install
 python3-pyqt4					install
 python3-pyqt5					install
 python3-recoll					install
+python3-secretstorage				install
 python3-setuptools				install
 python3-simplegeneric				install
 python3-sip					install
@@ -3493,6 +3503,7 @@ python3-uno					install
 python3-wcwidth					install
 python3-webencodings				install
 python3-wheel					install
+python3-xdg					install
 python3-yaml					install
 python3.5					install
 python3.5-dev					install
