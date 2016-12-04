@@ -1330,6 +1330,7 @@ libgpg-error0:amd64				install
 libgpg-error0:i386				install
 libgpgme++2v5					install
 libgpgme11:amd64				install
+libgpgmepp6:amd64				install
 libgphoto2-6:amd64				install
 libgphoto2-l10n					install
 libgphoto2-port12:amd64				install
