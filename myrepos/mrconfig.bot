@@ -1,0 +1,29 @@
+[bots/drtrigonbot]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/bots/drtrigonbot' 'drtrigonbot'
+
+[bots/ragesossbot]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/bots/ragesossbot' 'ragesossbot'
+
+[externals/httplib2]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/externals/httplib2' 'httplib2'
+
+[externals/six]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/externals/six' 'six'
+
+[spelling]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/spelling' 'spelling'
+
+[opencv]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/opencv' 'opencv'
+
+[pycolorname]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/pycolorname' 'pycolorname'
+
+[i18n]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/i18n' 'i18n'
+
+[sf-export]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/pywikibot/sf-export' 'sf-export'
+
+[core]
+checkout = git clone 'https://gerrit.wikimedia.org/r/pywikibot/core.git' 'core'
