@@ -1319,6 +1319,7 @@ libgnomevfs2-common				install
 libgnomevfs2-extra:amd64			install
 libgnupg-interface-perl				install
 libgnustep-base1.24				install
+libgnutls-dane0:amd64				install
 libgnutls-openssl27:amd64			install
 libgnutls28-dev:amd64				install
 libgnutls30:amd64				install
@@ -2539,6 +2540,7 @@ libudev1:amd64					install
 libudev1:i386					install
 libudisks2-0:amd64				install
 libumfpack5:amd64				install
+libunbound2:amd64				install
 libunicode-linebreak-perl			install
 libunicode-utf8-perl				install
 libuniconf4.6					install

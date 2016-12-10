@@ -44,8 +44,9 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/debian-qu
 [development/upstreams/aspell-lang]
 checkout = cvs -d ':pserver:anonymous@cvs.savannah.gnu.org:/sources/aspell' co -d 'aspell-lang' 'aspell-lang'
 
-[development/upstreams/ayttm]
-checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/ayttm/git' 'ayttm'
+# Dead upstream
+#[development/upstreams/ayttm]
+#checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/ayttm/git' 'ayttm'
 
 [development/upstreams/CHMLib]
 checkout = git clone git://github.com/jedwing/CHMLib.git
