@@ -3901,6 +3901,7 @@ xmountains					install
 xorg-sgml-doctools				install
 xorriso						install
 xosview						install
+xosview-dbgsym					install
 xscreensaver					install
 xscreensaver-data				install
 xscreensaver-data-extra				install
