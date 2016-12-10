@@ -560,6 +560,7 @@ gvfs-bin					install
 gvfs-common					install
 gvfs-daemons					install
 gvfs-libs:amd64					install
+gwenview					install
 gyp						install
 gzip						install
 hatari						install
@@ -1631,6 +1632,7 @@ libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
 libkf5kcmutils5:amd64				install
+libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
