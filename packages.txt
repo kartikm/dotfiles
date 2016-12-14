@@ -1,4 +1,5 @@
 accountsservice					install
+ack						install
 ack-grep					install
 acl						install
 acpi						install
