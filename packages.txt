@@ -890,15 +890,12 @@ libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.62.0:amd64			install
 libboost-dev:amd64				install
-libboost-filesystem1.61.0:amd64			install
 libboost-filesystem1.62.0:amd64			install
-libboost-iostreams1.61.0:amd64			install
 libboost-iostreams1.62.0:amd64			install
 libboost-program-options1.62.0:amd64		install
 libboost-python1.58.0				install
 libboost-python1.62.0				install
 libboost-regex1.62.0:amd64			install
-libboost-system1.61.0:amd64			install
 libboost-system1.62.0:amd64			install
 libboost1.62-dev:amd64				install
 libbrlapi0.6:amd64				install
@@ -1770,7 +1767,6 @@ liblinear3:amd64				install
 liblirc-client0:amd64				install
 liblist-moreutils-perl				install
 liblivemedia57:amd64				install
-libllvm3.8:amd64				install
 libllvm3.8:i386					install
 libllvm3.9:amd64				install
 libllvm3.9:i386					install
@@ -2235,9 +2231,6 @@ libqtcore4:i386					install
 libqtcurve-utils2:amd64				install
 libqtdbus4:amd64				install
 libqtdbus4:i386					install
-libqtglib-2.0-0:amd64				install
-libqtgstreamer-1.0-0:amd64			install
-libqtgstreamerui-1.0-0:amd64			install
 libqtgui4:amd64					install
 libqtwebkit4:amd64				install
 libquadmath0:amd64				install
@@ -2322,8 +2315,8 @@ libsaxon-java					install
 libsbc1:amd64					install
 libscalar-list-utils-perl			install
 libscalar-string-perl				install
-libschroedinger-1.0-0:amd64			install
-libschroedinger-1.0-0:i386			install
+libschroedinger-1.0-0:amd64			deinstall
+libschroedinger-1.0-0:i386			deinstall
 libscim8v5:amd64				install
 libsdl-image1.2:amd64				install
 libsdl-mixer1.2:amd64				install
@@ -2541,7 +2534,6 @@ libtype-tiny-xs-perl				install
 libubsan0:amd64					install
 libudev-dev:amd64				install
 libudev1:amd64					install
-libudev1:i386					install
 libudisks2-0:amd64				install
 libumfpack5:amd64				install
 libunbound2:amd64				install
