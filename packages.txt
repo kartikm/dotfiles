@@ -461,7 +461,7 @@ gconf-service					install
 gconf2						install
 gconf2-common					install
 gcr						install
-gdb						install
+gdb:amd64					install
 gdbserver					install
 gdebi-core					install
 gdisk						install
