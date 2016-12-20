@@ -461,7 +461,7 @@ gconf-service					install
 gconf2						install
 gconf2-common					install
 gcr						install
-gdb:amd64					install
+gdb						install
 gdbserver					install
 gdebi-core					install
 gdisk						install
@@ -3457,12 +3457,14 @@ python3-cycler					install
 python3-dateutil				install
 python3-dbus					install
 python3-debian					install
+python3-debianbts				install
 python3-decorator				install
 python3-dev					install
 python3-dnspython				install
 python3-formencode				install
 python3-gi					install
 python3-html5lib				install
+python3-httplib2				install
 python3-idna					install
 python3-ipython					install
 python3-ipython-genutils			install
@@ -3490,7 +3492,10 @@ python3-pygments				install
 python3-pyparsing				install
 python3-pyqt4					install
 python3-pyqt5					install
+python3-pysimplesoap				install
 python3-recoll					install
+python3-reportbug				install
+python3-requests				install
 python3-secretstorage				install
 python3-setuptools				install
 python3-simplegeneric				install
@@ -3504,6 +3509,7 @@ python3-toro					install
 python3-traitlets				install
 python3-tz					install
 python3-uno					install
+python3-urllib3					install
 python3-wcwidth					install
 python3-webencodings				install
 python3-wheel					install
