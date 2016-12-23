@@ -64,6 +64,9 @@ checkout = git_checkout fonts-beng-extra
 [fonts-beng]
 checkout = git_checkout fonts-beng
 
+[fonts-ddc-uchen]
+checkout = git_checkout fonts-ddc-uchen
+
 [fonts-deva-extra]
 checkout = git_checkout fonts-deva-extra
 
@@ -142,6 +145,9 @@ checkout = git_checkout fonts-meera-taml
 [fonts-mlym]
 checkout = git_checkout fonts-mlym
 
+[fonts-monlam]
+checkout = git_checkout fonts-monlam
+
 [fonts-nakula]
 checkout = git_checkout fonts-nakula
 
@@ -172,8 +178,44 @@ checkout = git_checkout fonts-samyak
 [fonts-sarai]
 checkout = git_checkout fonts-sarai
 
+[fonts-smc-anjalioldlipi]
+checkout = git_checkout fonts-smc-anjalioldlipi
+
+[fonts-smc-chilanka]
+checkout = git_checkout fonts-smc-chilanka
+
+[fonts-smc-dyuthi]
+checkout = git_checkout fonts-smc-dyuthi
+
 [fonts-smc]
 checkout = git_checkout fonts-smc
+
+[fonts-smc-kalyani]
+checkout = git_checkout fonts-smc-kalyani
+
+[fonts-smc-karumbi]
+checkout = git_checkout fonts-smc-karumbi
+
+[fonts-smc-keraleeyam]
+checkout = git_checkout fonts-smc-keraleeyam
+
+[fonts-smc-manjari]
+checkout = git_checkout fonts-smc-manjari
+
+[fonts-smc-meera]
+checkout = git_checkout fonts-smc-meera
+
+[fonts-smc-rachana]
+checkout = git_checkout fonts-smc-rachana
+
+[fonts-smc-raghumalayalamsans]
+checkout = git_checkout fonts-smc-raghumalayalamsans
+
+[fonts-smc-suruma]
+checkout = git_checkout fonts-smc-suruma
+
+[fonts-smc-uroob]
+checkout = git_checkout fonts-smc-uroob
 
 [fonts-taml]
 checkout = git_checkout fonts-taml
