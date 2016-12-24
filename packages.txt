@@ -383,7 +383,6 @@ fonts-lohit-telu				install
 fonts-lyx					install
 fonts-mathjax					install
 fonts-meera-taml				install
-fonts-mlym					install
 fonts-nakula					install
 fonts-nanum					install
 fonts-navilu					install
@@ -409,7 +408,8 @@ fonts-samyak-taml				install
 fonts-sarai					install
 fonts-sil-gentium				install
 fonts-sil-gentium-basic				install
-fonts-smc					install
+fonts-smc					deinstall
+fonts-smc-anjalioldlipi				install
 fonts-stix					install
 fonts-symbola					install
 fonts-telu					install
