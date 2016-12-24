@@ -410,6 +410,10 @@ fonts-sil-gentium				install
 fonts-sil-gentium-basic				install
 fonts-smc					deinstall
 fonts-smc-anjalioldlipi				install
+fonts-smc-chilanka				install
+fonts-smc-dyuthi				install
+fonts-smc-karumbi				install
+fonts-smc-keraleeyam				install
 fonts-smc-meera					install
 fonts-stix					install
 fonts-symbola					install
