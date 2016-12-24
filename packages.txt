@@ -414,6 +414,7 @@ fonts-smc-chilanka				install
 fonts-smc-dyuthi				install
 fonts-smc-karumbi				install
 fonts-smc-keraleeyam				install
+fonts-smc-manjari				install
 fonts-smc-meera					install
 fonts-stix					install
 fonts-symbola					install
