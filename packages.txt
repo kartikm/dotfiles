@@ -418,6 +418,8 @@ fonts-smc-manjari				install
 fonts-smc-meera					install
 fonts-smc-rachana				install
 fonts-smc-raghumalayalamsans			install
+fonts-smc-suruma				install
+fonts-smc-uroob					install
 fonts-stix					install
 fonts-symbola					install
 fonts-telu					install
