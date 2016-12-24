@@ -416,6 +416,8 @@ fonts-smc-karumbi				install
 fonts-smc-keraleeyam				install
 fonts-smc-manjari				install
 fonts-smc-meera					install
+fonts-smc-rachana				install
+fonts-smc-raghumalayalamsans			install
 fonts-stix					install
 fonts-symbola					install
 fonts-telu					install
