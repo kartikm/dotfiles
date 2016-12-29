@@ -2592,6 +2592,7 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex6:amd64				install
+libvirglrenderer0				install
 libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
@@ -3531,6 +3532,7 @@ python3.5-minimal				install
 qdbus						install
 qdbus-qt5					install
 qemu						install
+qemu-efi					install
 qemu-slof					install
 qemu-system					install
 qemu-system-arm					install
