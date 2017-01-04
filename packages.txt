@@ -2854,7 +2854,7 @@ libyaml-libyaml-perl				install
 libyaml-perl					install
 libyaml-snake-java				install
 libyaml-tiny-perl				install
-libzbar0					install
+libzbar0:amd64					install
 libzephyr4:amd64				install
 libzip-dev:amd64				install
 libzip4:amd64					install
@@ -3120,6 +3120,7 @@ perl						install
 perl-base					install
 perl-doc					install
 perl-modules-5.24				install
+perl-openssl-defaults:amd64			install
 phantomjs					install
 phonon:amd64					install
 phonon-backend-vlc:amd64			install
