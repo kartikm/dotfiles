@@ -1195,6 +1195,7 @@ libffi6:i386					install
 libfftw3-double3:amd64				install
 libfftw3-single3:amd64				install
 libfile-basedir-perl				install
+libfile-chdir-perl				install
 libfile-copy-recursive-perl			install
 libfile-desktopentry-perl			install
 libfile-fcntllock-perl				install
@@ -1283,6 +1284,7 @@ libgif7:amd64					install
 libgimp2.0					install
 libgirara-gtk3-2:amd64				install
 libgirepository-1.0-1:amd64			install
+libgit-wrapper-perl				install
 libgit2-24:amd64				install
 libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
@@ -1450,6 +1452,7 @@ libid3tag0:amd64				install
 libidn11:amd64					install
 libidn11:i386					install
 libidn11-dev					install
+libidn2-0:amd64					install
 libiec61883-0:amd64				install
 libieee1284-3:amd64				install
 libieee1284-3:i386				install
@@ -1775,6 +1778,7 @@ liblilv-0-0					install
 liblinear-tools					install
 liblinear3:amd64				install
 liblirc-client0:amd64				install
+liblist-compare-perl				install
 liblist-moreutils-perl				install
 liblivemedia57:amd64				install
 libllvm3.8:i386					install
@@ -1824,7 +1828,10 @@ libmagic-mgc					install
 libmagic1:amd64					install
 libmagickcore-6.q16-2:amd64			install
 libmagickcore-6.q16-2-extra:amd64		install
+libmagickcore-6.q16-3:amd64			install
+libmagickcore-6.q16-3-extra:amd64		install
 libmagickwand-6.q16-2:amd64			install
+libmagickwand-6.q16-3:amd64			install
 libmail-java					install
 libmail-sendmail-perl				install
 libmailtools-perl				install
@@ -2004,6 +2011,8 @@ libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
+libopenmpt-modplug1:amd64			install
+libopenmpt0:amd64				install
 libopenobex2					install
 liboping0:amd64					install
 libopts25:amd64					install
@@ -2396,6 +2405,7 @@ libsombok3:amd64				install
 libsoprano4					install
 libsord-0-0:amd64				install
 libsort-key-perl				install
+libsort-versions-perl				install
 libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
@@ -2733,12 +2743,13 @@ libxcb-xfixes0:amd64				install
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
+libxcb-xrm0:amd64				install
 libxcb-xtest0:amd64				install
 libxcb-xv0:amd64				install
 libxcb1:amd64					install
 libxcb1:i386					install
 libxcb1-dev:amd64				install
-libxcomposite-dev				install
+libxcomposite-dev:amd64				install
 libxcomposite1:amd64				install
 libxcomposite1:i386				install
 libxcursor-dev:amd64				install
@@ -2872,11 +2883,15 @@ linux-headers-4.8.0-1-amd64			install
 linux-headers-4.8.0-1-common			install
 linux-headers-4.8.0-2-amd64			install
 linux-headers-4.8.0-2-common			install
+linux-headers-4.9.0-1-amd64			install
+linux-headers-4.9.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.8.0-1-amd64			install
 linux-image-4.8.0-2-amd64			install
+linux-image-4.9.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.8				install
+linux-kbuild-4.9				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -3121,6 +3136,7 @@ perl-base					install
 perl-doc					install
 perl-modules-5.24				install
 perl-openssl-defaults:amd64			install
+perl-tk						install
 phantomjs					install
 phonon:amd64					install
 phonon-backend-vlc:amd64			install
@@ -3272,6 +3288,7 @@ python-babel					install
 python-babel-localedata				install
 python-backports-abc				install
 python-backports-shutil-get-terminal-size	install
+python-backports.functools-lru-cache		install
 python-backports.ssl-match-hostname		install
 python-beautifulsoup				install
 python-blinker					install
@@ -3341,6 +3358,7 @@ python-imaging					install
 python-ipaddress				install
 python-ipython					install
 python-ipython-genutils				install
+python-isort					install
 python-itsdangerous				install
 python-jinja2					install
 python-jsbeautifier				install
@@ -3364,6 +3382,7 @@ python-notify					install
 python-numpy					install
 python-oauth2client				install
 python-oauthlib					install
+python-olefile					install
 python-openssl					install
 python-paramiko					install
 python-passlib					install
@@ -3490,6 +3509,7 @@ python3-matplotlib				install
 python3-minimal					install
 python3-nose					install
 python3-numpy					install
+python3-olefile					install
 python3-pexpect					install
 python3-pickleshare				install
 python3-pil:amd64				install
@@ -3515,7 +3535,7 @@ python3-sip					install
 python3-six					install
 python3-software-properties			install
 python3-sqlobject				install
-python3-tk					install
+python3-tk:amd64				install
 python3-tornado					install
 python3-toro					install
 python3-traitlets				install
