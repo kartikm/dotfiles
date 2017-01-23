@@ -553,3 +553,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/apertium-srd-ita]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-srd-ita' 'apertium-srd-ita'
+
+[development/github/pybib]
+checkout = git clone 'https://github.com/kartikm/pybib' 'pybib'
