@@ -579,7 +579,6 @@ hatari						install
 hdparm						install
 help2man					install
 hfst						install
-hfst-ospell					install
 hicolor-icon-theme				install
 hiera						install
 hopenpgp-tools					install
