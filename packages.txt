@@ -1773,6 +1773,7 @@ libldap-common					install
 libldb1:amd64					install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
+liblept5					install
 liblexical-sealrequirehints-perl		install
 liblilv-0-0					install
 liblinear-tools					install
@@ -2504,6 +2505,8 @@ libterm-readline-gnu-perl			install
 libterm-readline-perl-perl			install
 libterm-size-perl				install
 libterm-ui-perl					install
+libtesseract-data				install
+libtesseract3					install
 libtest-fatal-perl				install
 libtevent0:amd64				install
 libtexlua52:amd64				install
@@ -3521,6 +3524,7 @@ python3-pyasn1					install
 python3-pycurl					install
 python3-pydispatch				install
 python3-pygments				install
+python3-pyocr					install
 python3-pyparsing				install
 python3-pyqt4					install
 python3-pyqt5					install
@@ -3771,6 +3775,10 @@ tcpdump						install
 tcpwatch-httpproxy				install
 tdc						install
 telnet						install
+tesseract-ocr					install
+tesseract-ocr-eng				install
+tesseract-ocr-equ				install
+tesseract-ocr-osd				install
 testng						install
 tex-common					install
 texlive-base					install
