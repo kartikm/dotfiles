@@ -580,7 +580,6 @@ hdparm						install
 help2man					install
 hfst						install
 hfst-ospell					install
-hfst-ospell-dev					install
 hicolor-icon-theme				install
 hiera						install
 hopenpgp-tools					install
