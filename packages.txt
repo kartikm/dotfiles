@@ -1361,7 +1361,6 @@ libgravatar-url-perl				install
 libgroupsock8:amd64				install
 libgs9:amd64					install
 libgs9-common					install
-libgsasl7					install
 libgsl2:amd64					install
 libgsm1:amd64					install
 libgsm1:i386					install
@@ -1547,7 +1546,6 @@ libjs-underscore				install
 libjsch-java					install
 libjson-c2:i386					deinstall
 libjson-c3:amd64				install
-libjson-c3:i386					install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
@@ -2626,8 +2624,6 @@ libvpx4:amd64					install
 libvpx4:i386					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
-libvte-common					install
-libvte9						install
 libwacom-bin					install
 libwacom-common					install
 libwacom2:amd64					install
@@ -2880,14 +2876,12 @@ licensecheck					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-5-x86			install
-linux-headers-4.8.0-1-amd64			install
-linux-headers-4.8.0-1-common			install
 linux-headers-4.8.0-2-amd64			install
 linux-headers-4.8.0-2-common			install
 linux-headers-4.9.0-1-amd64			install
 linux-headers-4.9.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.8.0-1-amd64			install
+linux-image-4.8.0-1-amd64			deinstall
 linux-image-4.8.0-2-amd64			install
 linux-image-4.9.0-1-amd64			install
 linux-image-amd64				install
@@ -3377,7 +3371,6 @@ python-matplotlib-data				install
 python-mimeparse				install
 python-minimal					install
 python-mysqldb					install
-python-ndg-httpsclient				install
 python-nose					install
 python-notify					install
 python-numpy					install
@@ -3459,7 +3452,6 @@ python-urllib3					install
 python-urwid					install
 python-utidylib					install
 python-validictory				install
-python-vte					install
 python-watchdog					install
 python-wcwidth					install
 python-webencodings				install
