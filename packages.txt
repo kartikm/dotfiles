@@ -1502,6 +1502,7 @@ libjack-jackd2-0:amd64				install
 libjack-jackd2-0:i386				install
 libjansi-java					install
 libjansi-native-java				install
+libjansson4:amd64				install
 libjava3d-java					install
 libjava3d-jni					install
 libjavascriptcoregtk-4.0-18:amd64		install
@@ -2328,6 +2329,7 @@ libsasl2-dev					install
 libsasl2-modules:amd64				install
 libsasl2-modules-db:amd64			install
 libsaxon-java					install
+libsaxonhe-java					install
 libsbc1:amd64					install
 libscalar-list-utils-perl			install
 libscalar-string-perl				install
@@ -3246,6 +3248,7 @@ printer-driver-c2esp				install
 printer-driver-cjet				install
 printer-driver-foo2zjs				install
 printer-driver-foo2zjs-common			install
+printer-driver-fujixerox			install
 printer-driver-m2300w				install
 printer-driver-min12xxw				install
 printer-driver-pnm2ppa				install
