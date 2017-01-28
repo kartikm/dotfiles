@@ -93,7 +93,6 @@ aptitude-common					install
 arduino						install
 arduino-core					install
 aria2						install
-aria2-dbgsym					install
 ark						install
 aspell						install
 aspell-en					install
@@ -2443,7 +2442,7 @@ libssh-4:amd64					install
 libssh-gcrypt-4:amd64				install
 libssh2-1:amd64					install
 libssh2-1-dev:amd64				install
-libssl-dev:amd64				install
+libssl1.0-dev:amd64				install
 libssl1.0.2:amd64				install
 libssl1.1:amd64					install
 libstartup-notification0:amd64			install
@@ -2603,7 +2602,6 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex6:amd64				install
-libvirglrenderer0				install
 libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
@@ -3169,7 +3167,6 @@ php5-cgi					install
 php5-cli					install
 php5-common					install
 php5-curl					install
-php5-dev					install
 php5-fpm					install
 php5-gd						install
 php5-imagick					install
@@ -3379,7 +3376,6 @@ python-notify					install
 python-numpy					install
 python-oauth2client				install
 python-oauthlib					install
-python-olefile					install
 python-openssl					install
 python-paramiko					install
 python-passlib					install
@@ -3505,7 +3501,6 @@ python3-matplotlib				install
 python3-minimal					install
 python3-nose					install
 python3-numpy					install
-python3-olefile					install
 python3-pexpect					install
 python3-pickleshare				install
 python3-pil:amd64				install
