@@ -956,7 +956,7 @@ libccolamd2:amd64				install
 libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
-libcdio13					install
+libcdio13:amd64					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1:amd64				install
 libcdt5						install
@@ -1490,7 +1490,7 @@ libisc160:amd64					install
 libisccc140:amd64				install
 libisccfg140:amd64				install
 libisl15:amd64					install
-libiso9660-8					install
+libiso9660-8:amd64				install
 libisoburn1:amd64				install
 libisofs6:amd64					install
 libisorelax-java				install
@@ -2876,6 +2876,7 @@ licensecheck					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-5-x86			install
+linux-compiler-gcc-6-x86			install
 linux-headers-4.8.0-2-amd64			install
 linux-headers-4.8.0-2-common			install
 linux-headers-4.9.0-1-amd64			install
