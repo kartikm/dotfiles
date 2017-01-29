@@ -556,3 +556,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/github/pybib]
 checkout = git clone 'https://github.com/kartikm/pybib' 'pybib'
+
+[development/debian/packages/fontypython]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/fontypython' 'fontypython'
