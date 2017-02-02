@@ -3702,7 +3702,6 @@ sgml-base					install
 sgml-data					install
 shared-desktop-ontologies			install
 shared-mime-info				install
-shtool						install
 signing-party					install
 sl						install
 sm						install
