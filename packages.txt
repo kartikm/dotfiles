@@ -2873,6 +2873,7 @@ libzvbi0:amd64					install
 libzvbi0:i386					install
 libzzip-0-13:amd64				install
 licensecheck					install
+lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-5-x86			install
@@ -3773,6 +3774,7 @@ texlive-base					install
 texlive-binaries				install
 texlive-latex-base				install
 texlive-latex-base-doc				install
+thunderbird					install
 time						install
 tinycdb						install
 tix						install
