@@ -2096,6 +2096,7 @@ libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
 libperl5.24:amd64				install
 libperlio-gzip-perl				install
+libpgm-5.2-0:amd64				install
 libphonon4:amd64				install
 libphonon4qt5-4:amd64				install
 libpipeline1:amd64				install
@@ -2882,10 +2883,13 @@ linux-headers-4.8.0-2-amd64			install
 linux-headers-4.8.0-2-common			install
 linux-headers-4.9.0-1-amd64			install
 linux-headers-4.9.0-1-common			install
+linux-headers-4.9.0-2-amd64			install
+linux-headers-4.9.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.8.0-1-amd64			deinstall
 linux-image-4.8.0-2-amd64			install
 linux-image-4.9.0-1-amd64			install
+linux-image-4.9.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.8				install
 linux-kbuild-4.9				install
