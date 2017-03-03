@@ -2567,7 +2567,7 @@ libunistring0:amd64				install
 libuniversal-require-perl			install
 libupnp6					install
 libupower-glib3:amd64				install
-liburcu-dev					install
+liburcu-dev:amd64				install
 liburcu4:amd64					install
 liburi-perl					install
 liburiparser1:amd64				install
