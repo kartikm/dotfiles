@@ -1824,10 +1824,8 @@ libmad0:amd64					install
 libmagic-mgc					install
 libmagic1:amd64					install
 libmagickcore-6.q16-2:amd64			install
-libmagickcore-6.q16-2-extra:amd64		install
 libmagickcore-6.q16-3:amd64			install
 libmagickcore-6.q16-3-extra:amd64		install
-libmagickwand-6.q16-2:amd64			install
 libmagickwand-6.q16-3:amd64			install
 libmail-java					install
 libmail-sendmail-perl				install
@@ -3171,7 +3169,7 @@ php5-common					install
 php5-curl					install
 php5-fpm					install
 php5-gd						install
-php5-imagick					install
+php5-imagick					deinstall
 php5-json					install
 php5-mcrypt					install
 php5-mysql					install
