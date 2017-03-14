@@ -1823,7 +1823,6 @@ libmaa3:amd64					install
 libmad0:amd64					install
 libmagic-mgc					install
 libmagic1:amd64					install
-libmagickcore-6.q16-2:amd64			install
 libmagickcore-6.q16-3:amd64			install
 libmagickcore-6.q16-3-extra:amd64		install
 libmagickwand-6.q16-3:amd64			install
