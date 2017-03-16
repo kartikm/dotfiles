@@ -3562,6 +3562,7 @@ qml-module-org-kde-bluezqt:amd64		install
 qml-module-org-kde-draganddrop:amd64		install
 qml-module-org-kde-extensionplugin		install
 qml-module-org-kde-kcoreaddons:amd64		install
+qml-module-org-kde-kholidays:amd64		install
 qml-module-org-kde-kio:amd64			install
 qml-module-org-kde-kirigami			install
 qml-module-org-kde-kquickcontrols:amd64		install
