@@ -1198,6 +1198,7 @@ libfile-desktopentry-perl			install
 libfile-fcntllock-perl				install
 libfile-fnmatch-perl				install
 libfile-homedir-perl				install
+libfile-lchown-perl				install
 libfile-libmagic-perl				install
 libfile-listing-perl				install
 libfile-mimeinfo-perl				install
