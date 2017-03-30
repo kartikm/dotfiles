@@ -189,3 +189,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/labs/private' 'pri
 
 [config/release]
 checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/tools/release' 'release'
+
+[restbase]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/restbase' 'restbase'
