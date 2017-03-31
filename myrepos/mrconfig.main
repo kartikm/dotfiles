@@ -397,9 +397,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 [development/debian/packages/apertium/apertium-ca-it]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-ca-it.git' 'apertium-ca-it'
 
-[development/debian/packages/apertium/hfst/hfst-ospell/hfst-ospell]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/hfst-ospell.git' 'hfst-ospell'
-
 [development/debian/packages/apertium/apertium-dan]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-dan.git' 'apertium-dan'
 
