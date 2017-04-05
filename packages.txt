@@ -20,8 +20,8 @@ alsa-base					install
 alsa-utils					install
 amd64-microcode					install
 anacron						install
-android-tools-adb				install
-android-tools-fastboot				install
+android-tools-adb				deinstall
+android-tools-fastboot				deinstall
 ant						install
 ant-optional					install
 antlr						install
@@ -71,6 +71,7 @@ apertium-pt-ca					install
 apertium-pt-gl					install
 apertium-spa					install
 apertium-spa-arg				install
+apertium-spa-cat				install
 apertium-srd					install
 apertium-srd-ita				install
 apertium-swe					install
