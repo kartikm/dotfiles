@@ -7,7 +7,7 @@ deb http://cdn.debian.net/debian experimental main contrib non-free
 deb-src http://cdn.debian.net/debian experimental main contrib non-free
 
 #testing
-deb http://cdn.debian.net/debian/ testing main contrib non-free
+#deb http://cdn.debian.net/debian/ testing main contrib non-free
 
 #emacs-snapshots
 #deb http://londo.ganneff.de/ unstable main
