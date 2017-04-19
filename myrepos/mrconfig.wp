@@ -192,3 +192,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/p/mediawiki/tools/release' 
 
 [restbase]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/restbase' 'restbase'
+
+[Misc/oojs/ui]
+checkout = git clone 'https://gerrit.wikimedia.org/r/oojs/ui' 'ui'
