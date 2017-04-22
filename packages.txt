@@ -3421,6 +3421,7 @@ python-requests					install
 python-requests-oauthlib			install
 python-roman					install
 python-rsa					install
+python-scandir					install
 python-setuptools				install
 python-simplegeneric				install
 python-simplejson				install
