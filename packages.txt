@@ -314,6 +314,7 @@ expect						install
 extra-xdg-menus					install
 facter						install
 fai-client					install
+fairymax					install
 fakeroot					install
 faketime					install
 feh						install
@@ -3912,6 +3913,7 @@ x11proto-xinerama-dev				install
 xauth						install
 xaw3dg:i386					install
 xbitmaps					install
+xboard						install
 xchm						install
 xclip						install
 xcowsay						install
