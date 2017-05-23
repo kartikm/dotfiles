@@ -349,8 +349,8 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 [development/debian/packages/apertium/apertium-apy]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-apy.git' 'apertium-apy'
 
-[development/debian/packages/apertium/apertium-es-ca/apertium-es-ca]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-es-ca.git' 'apertium-es-ca'
+[development/debian/packages/apertium/apertium-spa-cat/apertium-spa-cat]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-spa-cat.git' 'apertium-spa-cat'
 
 [development/debian/packages/apertium/apertium-en-ca]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-en-ca.git' 'apertium-en-ca'
