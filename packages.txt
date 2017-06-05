@@ -1535,7 +1535,6 @@ libjs-excanvas					install
 libjs-inherits					install
 libjs-jquery					install
 libjs-jquery-flot				install
-libjs-jquery-hotkeys				install
 libjs-jquery-isonscreen				install
 libjs-jquery-metadata				install
 libjs-jquery-tablesorter			install
