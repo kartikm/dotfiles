@@ -61,6 +61,7 @@ apertium-id-ms					install
 apertium-is-sv					install
 apertium-isl					install
 apertium-isl-eng				install
+apertium-ita					install
 apertium-kaz-tat				install
 apertium-lex-tools				install
 apertium-nno					install
