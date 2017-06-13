@@ -52,8 +52,10 @@ apertium-es-ca					install
 apertium-es-gl					install
 apertium-es-it					install
 apertium-es-pt					install
+apertium-fr-ca					install
 apertium-fr-es					install
 apertium-fra					install
+apertium-fra-cat				install
 apertium-hbs					install
 apertium-hbs-eng				install
 apertium-hbs-slv				install
