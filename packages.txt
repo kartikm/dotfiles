@@ -75,6 +75,7 @@ apertium-pt-gl					install
 apertium-spa					install
 apertium-spa-arg				install
 apertium-spa-cat				install
+apertium-spa-ita				install
 apertium-srd					install
 apertium-srd-ita				install
 apertium-swe					install
