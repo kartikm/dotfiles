@@ -1438,6 +1438,7 @@ libhttpclient-java				install
 libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.4-0:amd64				install
+libhunspell-1.6-0:amd64				install
 libhyphen0:amd64				install
 libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
@@ -2137,7 +2138,7 @@ libpri1.4					install
 libprocesscore7					install
 libprocessui7					install
 libprocps6:amd64				install
-libproj12					install
+libproj12:amd64					install
 libprotobuf-c1:amd64				install
 libprotobuf10:amd64				install
 libprotoc10:amd64				install
@@ -2457,6 +2458,7 @@ libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
 libsub-install-perl				install
 libsub-name-perl				install
+libsub-quote-perl				install
 libsuitesparseconfig4:amd64			install
 libsuperlu5:amd64				install
 libsvm-tools					install
