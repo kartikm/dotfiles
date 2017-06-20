@@ -3708,6 +3708,7 @@ sm						install
 smart-notifier					install
 smartmontools					install
 smbclient					install
+sntp						install
 socat						install
 software-properties-common			install
 software-properties-gtk				install
@@ -3849,7 +3850,7 @@ vlc						install
 vlc-bin						install
 vlc-data					install
 vlc-l10n					install
-vlc-nox						install
+vlc-nox						deinstall
 vlc-plugin-base:amd64				install
 vlc-plugin-qt:amd64				install
 vlc-plugin-skins2:amd64				install
