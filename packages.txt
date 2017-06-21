@@ -465,6 +465,8 @@ gcc-6						install
 gcc-6-base:amd64				install
 gcc-6-base:i386					install
 gcc-6-multilib					install
+gcc-7-base:amd64				install
+gcc-7-base:i386					install
 gcc-avr						install
 gcc-msp430					install
 gcc-multilib					install
@@ -2624,6 +2626,7 @@ libvpx4:amd64					install
 libvpx4:i386					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
+libvulkan1:amd64				install
 libwacom-bin					install
 libwacom-common					install
 libwacom2:amd64					install
