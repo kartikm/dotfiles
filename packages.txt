@@ -1302,7 +1302,6 @@ libglade2-0:amd64				install
 libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
-libgles1-mesa:amd64				install
 libgles2-mesa:amd64				install
 libgles2-mesa-dev:amd64				install
 libglew2.0:amd64				install
