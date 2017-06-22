@@ -360,7 +360,6 @@ fonts-font-awesome				install
 fonts-freefont-ttf				install
 fonts-gargi					install
 fonts-gubbi					install
-fonts-gujr					install
 fonts-gujr-extra				install
 fonts-guru					install
 fonts-guru-extra				install
