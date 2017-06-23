@@ -112,8 +112,14 @@ checkout = git_checkout fonts-lohit-beng-assamese
 [fonts-lohit-beng-bengali]
 checkout = git_checkout fonts-lohit-beng-bengali
 
+[fonts-lohit-deva-marathi]
+checkout = git_checkout fonts-lohit-deva-marathi
+
 [fonts-lohit-devanagari]
 checkout = git_checkout fonts-lohit-devanagari
+
+[fonts-lohit-deva-nepali]
+checkout = git_checkout fonts-lohit-deva-nepali
 
 [fonts-lohit-gu]
 checkout = git_checkout fonts-lohit-gu
