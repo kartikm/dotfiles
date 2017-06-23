@@ -376,6 +376,7 @@ fonts-lmodern					install
 fonts-lohit-beng-assamese			install
 fonts-lohit-beng-bengali			install
 fonts-lohit-deva				install
+fonts-lohit-deva-nepali				install
 fonts-lohit-gujr				install
 fonts-lohit-guru				install
 fonts-lohit-knda				install
