@@ -330,6 +330,9 @@ file						install
 filelight					install
 findutils					install
 finger						install
+firebird3.0-common				install
+firebird3.0-common-doc				install
+firebird3.0-server-core:amd64			install
 firefox-esr					install
 firefox-esr-l10n-gu-in				install
 firmware-amd-graphics				install
@@ -395,6 +398,7 @@ fonts-noto-cjk					install
 fonts-noto-hinted				install
 fonts-noto-mono					install
 fonts-noto-unhinted				install
+fonts-open-sans					install
 fonts-opensymbol				install
 fonts-orya					install
 fonts-orya-extra				install
@@ -795,6 +799,7 @@ libaprutil1-ldap:amd64				install
 libapt-inst2.0:amd64				install
 libapt-pkg-perl					install
 libapt-pkg5.0:amd64				install
+libarchive-cpio-perl				install
 libarchive-dev:amd64				install
 libarchive-extract-perl				install
 libarchive-tools				install
@@ -1192,6 +1197,7 @@ libfaketime:amd64				install
 libfam0:amd64					install
 libfarstream-0.2-5:amd64			install
 libfastjson4:amd64				install
+libfbclient2:amd64				install
 libfcgi-perl					install
 libfdisk1:amd64					install
 libfdt1:amd64					install
@@ -1314,6 +1320,7 @@ libglib2.0-dev					install
 libglibmm-2.4-1v5:amd64				install
 libglibmm-2.4-dev:amd64				install
 libgltf-0.0-0v5:amd64				install
+libgltf-0.1-1:amd64				install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev:amd64				install
@@ -1442,6 +1449,7 @@ libhttpmime-java				install
 libhunspell-1.4-0:amd64				install
 libhunspell-1.6-0:amd64				install
 libhyphen0:amd64				install
+libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
 libical-dev:amd64				install
@@ -1458,6 +1466,8 @@ libidn11:amd64					install
 libidn11:i386					install
 libidn11-dev					install
 libidn2-0:amd64					install
+libidn2-0:i386					install
+libidn2-0-dev					install
 libiec61883-0:amd64				install
 libieee1284-3:amd64				install
 libieee1284-3:i386				install
@@ -1973,6 +1983,7 @@ libnspr4:amd64					install
 libnspr4:i386					install
 libnss3:amd64					install
 libntfs-3g871					install
+libntfs-3g872					install
 libntrack-qt4-1					install
 libntrack0					install
 libnuma1:amd64					install
@@ -2022,6 +2033,7 @@ liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.11-0:amd64				install
+liborcus-0.12-0:amd64				install
 liboro-java					install
 libosp5						install
 libossp-uuid-perl				install
@@ -2260,6 +2272,7 @@ librarian0					install
 librasqal3:amd64				install
 libraw1394-11:amd64				install
 libraw15:amd64					install
+libraw16:amd64					install
 librcc0						install
 librcd0						install
 librdf0:amd64					install
@@ -2293,6 +2306,7 @@ libreoffice-report-builder-bin			install
 libreoffice-script-provider-bsh			install
 libreoffice-script-provider-js			install
 libreoffice-script-provider-python		install
+libreoffice-sdbc-firebird			install
 libreoffice-sdbc-postgresql			install
 libreoffice-style-galaxy			install
 libreoffice-style-oxygen			install
@@ -2445,6 +2459,7 @@ libssh2-1-dev:amd64				install
 libssl1.0-dev:amd64				install
 libssl1.0.2:amd64				install
 libssl1.1:amd64					install
+libstaroffice-0.0-0:amd64			install
 libstartup-notification0:amd64			install
 libstdc++-5-dev:amd64				install
 libstdc++-6-dev:amd64				install
@@ -2564,6 +2579,7 @@ libuniconf4.6					install
 libuninameslist-dev				install
 libuninameslist1				install
 libunistring0:amd64				install
+libunistring0:i386				install
 libuniversal-require-perl			install
 libupnp6					install
 libupower-glib3:amd64				install
@@ -2868,6 +2884,7 @@ libzbar0:amd64					install
 libzephyr4:amd64				install
 libzip-dev:amd64				install
 libzip4:amd64					install
+libzmf-0.0-0:amd64				install
 libzmq3-dev:amd64				install
 libzmq5:amd64					install
 libzvbi-common					install
