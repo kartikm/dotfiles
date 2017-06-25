@@ -386,6 +386,7 @@ fonts-lohit-knda				install
 fonts-lohit-mlym				install
 fonts-lohit-orya				install
 fonts-lohit-taml				install
+fonts-lohit-taml-classical			install
 fonts-lohit-telu				install
 fonts-lyx					install
 fonts-mathjax					install
