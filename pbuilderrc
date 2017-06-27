@@ -43,7 +43,8 @@ fi
 
 # Optionally set a default distribution if none is used. Note that you can set
 # your own default (i.e. ${DIST:="unstable"}).
-: ${DIST:="$(lsb_release --short --codename)"}
+#: ${DIST:="$(lsb_release --short --codename)"}
+: ${DIST:="unstable"}
 
 # Optionally change Debian codenames in $DIST to their aliases.
 case "$DIST" in
