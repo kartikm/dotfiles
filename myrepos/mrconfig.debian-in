@@ -196,9 +196,6 @@ checkout = git_checkout fonts-smc-dyuthi
 [fonts-smc]
 checkout = git_checkout fonts-smc
 
-[fonts-smc-kalyani]
-checkout = git_checkout fonts-smc-kalyani
-
 [fonts-smc-karumbi]
 checkout = git_checkout fonts-smc-karumbi
 
