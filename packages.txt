@@ -3979,6 +3979,7 @@ xtrans-dev					install
 xvt						install
 xxd						install
 xz-utils					install
+yokadi						install
 youtube-dl					install
 zathura						install
 zathura-cb					install
