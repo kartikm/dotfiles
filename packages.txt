@@ -796,6 +796,7 @@ libaspell15:amd64				install
 libasprintf-dev:amd64				install
 libasprintf0v5:amd64				install
 libass5:amd64					install
+libass9:amd64					install
 libassuan-dev					install
 libassuan0:amd64				install
 libasyncns0:amd64				install
@@ -879,6 +880,7 @@ libblkid1:i386					install
 libbluetooth-dev				install
 libbluetooth3:amd64				install
 libbluray1:amd64				install
+libbluray2:amd64				install
 libbonobo2-0:amd64				install
 libbonobo2-common				install
 libbonoboui2-0:amd64				install
@@ -1771,6 +1773,8 @@ liblist-moreutils-perl				install
 liblivemedia57:amd64				install
 libllvm3.9:amd64				install
 libllvm3.9:i386					install
+libllvm4.0:amd64				install
+libllvm4.0:i386					install
 liblmdb0:amd64					install
 libloader-java					install
 liblocale-gettext-perl				install
@@ -2670,6 +2674,8 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-148:amd64				install
 libx264-148:i386				install
+libx265-116:amd64				install
+libx265-116:i386				install
 libx265-95:amd64				install
 libx265-95:i386					install
 libx32asan3					install
@@ -2729,6 +2735,7 @@ libxcb-sync1:i386				install
 libxcb-util0:amd64				install
 libxcb-xf86dri0:amd64				install
 libxcb-xfixes0:amd64				install
+libxcb-xfixes0:i386				install
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
