@@ -1510,6 +1510,8 @@ libjcommander-java				install
 libjcommon-java					install
 libjcsp-java					install
 libjdom1-java					install
+libjgoodies-common-java				install
+libjgoodies-looks-java				install
 libjim0.76:amd64				install
 libjline-java					install
 libjline2-java					install
@@ -3126,6 +3128,7 @@ pbzip2						install
 pciutils					install
 pcscd						install
 pdf2djvu					install
+pdfsam						install
 pdftk						install
 pepperflashplugin-nonfree			install
 perl						install
@@ -3979,7 +3982,6 @@ xtrans-dev					install
 xvt						install
 xxd						install
 xz-utils					install
-yokadi						install
 youtube-dl					install
 zathura						install
 zathura-cb					install
