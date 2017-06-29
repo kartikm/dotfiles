@@ -241,38 +241,8 @@ checkout = git_checkout fonts-teluguvijayam
 [hunspell-ml]
 checkout = git_checkout hunspell-ml
 
-[hyphen-as]
-checkout = git_checkout hyphen-as
-
-[hyphen-bn]
-checkout = git_checkout hyphen-bn
-
-[hyphen-gu]
-checkout = git_checkout hyphen-gu
-
-[hyphen-hi]
-checkout = git_checkout hyphen-hi
-
 [hyphen-indic]
 checkout = git_checkout hyphen-indic
-
-[hyphen-kn]
-checkout = git_checkout hyphen-kn
-
-[hyphen-ml]
-checkout = git_checkout hyphen-ml
-
-[hyphen-mr]
-checkout = git_checkout hyphen-mr
-
-[hyphen-pa]
-checkout = git_checkout hyphen-pa
-
-[hyphen-ta]
-checkout = git_checkout hyphen-ta
-
-[hyphen-te]
-checkout = git_checkout hyphen-te
 
 [iok]
 checkout = git_checkout iok
