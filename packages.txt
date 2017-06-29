@@ -391,17 +391,17 @@ fonts-samyak-taml				install
 fonts-sarai					install
 fonts-sil-gentium				install
 fonts-sil-gentium-basic				install
-fonts-smc					deinstall
-fonts-smc-anjalioldlipi				deinstall
+fonts-smc					install
+fonts-smc-anjalioldlipi				install
 fonts-smc-chilanka				install
-fonts-smc-dyuthi				deinstall
+fonts-smc-dyuthi				install
 fonts-smc-karumbi				install
 fonts-smc-keraleeyam				install
 fonts-smc-manjari				install
-fonts-smc-meera					deinstall
-fonts-smc-rachana				deinstall
-fonts-smc-raghumalayalamsans			deinstall
-fonts-smc-suruma				deinstall
+fonts-smc-meera					install
+fonts-smc-rachana				install
+fonts-smc-raghumalayalamsans			install
+fonts-smc-suruma				install
 fonts-smc-uroob					install
 fonts-stix					install
 fonts-symbola					install
@@ -795,7 +795,6 @@ libaspell-dev:amd64				install
 libaspell15:amd64				install
 libasprintf-dev:amd64				install
 libasprintf0v5:amd64				install
-libass5:amd64					install
 libass9:amd64					install
 libassuan-dev					install
 libassuan0:amd64				install
@@ -879,7 +878,6 @@ libblkid1:amd64					install
 libblkid1:i386					install
 libbluetooth-dev				install
 libbluetooth3:amd64				install
-libbluray1:amd64				install
 libbluray2:amd64				install
 libbonobo2-0:amd64				install
 libbonobo2-common				install
@@ -1295,7 +1293,6 @@ libglib2.0-data					install
 libglib2.0-dev					install
 libglibmm-2.4-1v5:amd64				install
 libglibmm-2.4-dev:amd64				install
-libgltf-0.0-0v5:amd64				install
 libgltf-0.1-1:amd64				install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
@@ -1397,7 +1394,6 @@ libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
 libhfst45					install
-libhfst45-dev					install
 libhfstospell9					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
@@ -1439,7 +1435,6 @@ libicu57:amd64					install
 libicu57:i386					install
 libid3tag0:amd64				install
 libidn11:amd64					install
-libidn11:i386					install
 libidn11-dev					install
 libidn2-0:amd64					install
 libidn2-0:i386					install
@@ -1774,7 +1769,6 @@ liblist-compare-perl				install
 liblist-moreutils-perl				install
 liblivemedia57:amd64				install
 libllvm3.9:amd64				install
-libllvm3.9:i386					install
 libllvm4.0:amd64				install
 libllvm4.0:i386					install
 liblmdb0:amd64					install
@@ -1962,7 +1956,6 @@ libnpth0:amd64					install
 libnspr4:amd64					install
 libnspr4:i386					install
 libnss3:amd64					install
-libntfs-3g871					install
 libntfs-3g872					install
 libntrack-qt4-1					install
 libntrack0					install
@@ -2012,7 +2005,6 @@ libopusfile0					install
 liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
-liborcus-0.11-0:amd64				install
 liborcus-0.12-0:amd64				install
 liboro-java					install
 libosp5						install
@@ -2251,7 +2243,6 @@ libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
 libraw1394-11:amd64				install
-libraw15:amd64					install
 libraw16:amd64					install
 librcc0						install
 librcd0						install
@@ -2678,8 +2669,6 @@ libx264-148:amd64				install
 libx264-148:i386				install
 libx265-116:amd64				install
 libx265-116:i386				install
-libx265-95:amd64				install
-libx265-95:i386					install
 libx32asan3					install
 libx32atomic1					install
 libx32cilkrts5					install
