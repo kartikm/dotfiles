@@ -3272,6 +3272,7 @@ python-apt					install
 python-apt-common				install
 python-argcomplete				install
 python-argh					install
+python-asn1crypto				install
 python-astroid					install
 python-babel					install
 python-babel-localedata				install
@@ -3466,6 +3467,7 @@ python2.7-minimal				install
 python3						install
 python3-apparmor				install
 python3-apt					install
+python3-asn1crypto				install
 python3-bs4					install
 python3-cffi-backend				install
 python3-chardet					install
