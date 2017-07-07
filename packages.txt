@@ -2158,6 +2158,8 @@ libpython3.5:amd64				install
 libpython3.5-dev:amd64				install
 libpython3.5-minimal:amd64			install
 libpython3.5-stdlib:amd64			install
+libpython3.6-minimal:amd64			install
+libpython3.6-stdlib:amd64			install
 libqalculate5-data				install
 libqalculate5v5:amd64				install
 libqca-qt5-2:amd64				install
@@ -2551,6 +2553,8 @@ libuninameslist-dev				install
 libuninameslist1				install
 libunistring0:amd64				install
 libunistring0:i386				install
+libunistring2:amd64				install
+libunistring2:i386				install
 libuniversal-require-perl			install
 libupnp6					install
 libupower-glib3:amd64				install
@@ -2868,17 +2872,21 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-6-x86			install
+linux-headers-4.11.0-1-amd64			install
+linux-headers-4.11.0-1-common			install
 linux-headers-4.9.0-2-amd64			install
 linux-headers-4.9.0-2-common			install
 linux-headers-4.9.0-3-amd64			install
 linux-headers-4.9.0-3-common			install
 linux-headers-amd64				install
+linux-image-4.11.0-1-amd64			install
 linux-image-4.8.0-1-amd64			deinstall
 linux-image-4.8.0-2-amd64			deinstall
 linux-image-4.9.0-1-amd64			deinstall
 linux-image-4.9.0-2-amd64			install
 linux-image-4.9.0-3-amd64			install
 linux-image-amd64				install
+linux-kbuild-4.11				install
 linux-kbuild-4.9				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
@@ -3371,6 +3379,7 @@ python-notify					install
 python-numpy					install
 python-oauth2client				install
 python-oauthlib					install
+python-olefile					install
 python-openssl					install
 python-paramiko					install
 python-passlib					install
@@ -3498,6 +3507,7 @@ python3-matplotlib				install
 python3-minimal					install
 python3-nose					install
 python3-numpy					install
+python3-olefile					install
 python3-pexpect					install
 python3-pickleshare				install
 python3-pil:amd64				install
@@ -3539,6 +3549,8 @@ python3-yaml					install
 python3.5					install
 python3.5-dev					install
 python3.5-minimal				install
+python3.6					install
+python3.6-minimal				install
 qdbus						install
 qdbus-qt5					install
 qemu						install
