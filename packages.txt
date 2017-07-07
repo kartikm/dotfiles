@@ -1418,7 +1418,6 @@ libhttp-server-simple-perl			install
 libhttpclient-java				install
 libhttpcore-java				install
 libhttpmime-java				install
-libhunspell-1.4-0:amd64				install
 libhunspell-1.6-0:amd64				install
 libhyphen0:amd64				install
 libib-util:amd64				install
@@ -2551,8 +2550,6 @@ libunicode-utf8-perl				install
 libuniconf4.6					install
 libuninameslist-dev				install
 libuninameslist1				install
-libunistring0:amd64				install
-libunistring0:i386				install
 libunistring2:amd64				install
 libunistring2:i386				install
 libuniversal-require-perl			install
@@ -2874,8 +2871,6 @@ linux-base					install
 linux-compiler-gcc-6-x86			install
 linux-headers-4.11.0-1-amd64			install
 linux-headers-4.11.0-1-common			install
-linux-headers-4.9.0-2-amd64			install
-linux-headers-4.9.0-2-common			install
 linux-headers-4.9.0-3-amd64			install
 linux-headers-4.9.0-3-common			install
 linux-headers-amd64				install
@@ -2883,7 +2878,7 @@ linux-image-4.11.0-1-amd64			install
 linux-image-4.8.0-1-amd64			deinstall
 linux-image-4.8.0-2-amd64			deinstall
 linux-image-4.9.0-1-amd64			deinstall
-linux-image-4.9.0-2-amd64			install
+linux-image-4.9.0-2-amd64			deinstall
 linux-image-4.9.0-3-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.11				install
@@ -3515,7 +3510,6 @@ python3-pip					install
 python3-pkg-resources				install
 python3-prompt-toolkit				install
 python3-ptyprocess				install
-python3-pyasn1					install
 python3-pycurl					install
 python3-pydispatch				install
 python3-pygments				install
