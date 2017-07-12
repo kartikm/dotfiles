@@ -1009,6 +1009,7 @@ libconvert-binhex-perl				install
 libcpan-changes-perl				install
 libcpan-meta-perl				install
 libcppunit-1.13-0v5:amd64			install
+libcppunit-1.14-0:amd64				install
 libcppunit-dev					install
 libcpufreq0					install
 libcrack2:amd64					install
@@ -3533,6 +3534,7 @@ python3-tornado					install
 python3-toro					install
 python3-traitlets				install
 python3-tz					install
+python3-unidiff					install
 python3-uno					install
 python3-urllib3					install
 python3-wcwidth					install
