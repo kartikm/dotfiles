@@ -456,6 +456,7 @@ gconf-service					install
 gconf2						install
 gconf2-common					install
 gcr						install
+gdal-data					install
 gdb						install
 gdbserver					install
 gdebi-core					install
@@ -1041,6 +1042,7 @@ libcurl3:amd64					install
 libcurl3-gnutls:amd64				install
 libcwidget3v5:amd64				install
 libdap23:amd64					install
+libdap25:amd64					install
 libdapclient6v5:amd64				install
 libdapserver7v5:amd64				install
 libdata-entropy-perl				install
@@ -1223,6 +1225,7 @@ libfreezethaw-perl				install
 libfribidi0:amd64				install
 libftdi1:amd64					install
 libfuse2:amd64					install
+libfyba0:amd64					install
 libgadu3					install
 libgail-common:amd64				install
 libgail18:amd64					install
@@ -1768,6 +1771,7 @@ liblirc-client0:amd64				install
 liblist-compare-perl				install
 liblist-moreutils-perl				install
 liblivemedia57:amd64				install
+liblivemedia58:amd64				install
 libllvm3.9:amd64				install
 libllvm4.0:amd64				install
 libllvm4.0:i386					install
