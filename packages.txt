@@ -1357,6 +1357,7 @@ libgsl2:amd64					install
 libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
+libgsoap-2.8.49:amd64				install
 libgsoap10:amd64				install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
@@ -2553,8 +2554,8 @@ libunbound2:amd64				install
 libunicode-linebreak-perl			install
 libunicode-utf8-perl				install
 libuniconf4.6					install
-libuninameslist-dev				install
-libuninameslist1				install
+libuninameslist-dev:amd64			install
+libuninameslist1:amd64				install
 libunistring2:amd64				install
 libunistring2:i386				install
 libuniversal-require-perl			install
@@ -2562,6 +2563,7 @@ libupnp6					install
 libupower-glib3:amd64				install
 liburcu-dev:amd64				install
 liburcu4:amd64					install
+liburcu6:amd64					install
 liburi-perl					install
 liburiparser1:amd64				install
 libusageenvironment3:amd64			install
