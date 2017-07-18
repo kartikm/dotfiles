@@ -2418,7 +2418,7 @@ libspeexdsp-dev:amd64				install
 libspeexdsp1:amd64				install
 libspeexdsp1:i386				install
 libspice-server1:amd64				install
-libspiro-dev					install
+libspiro-dev:amd64				install
 libspiro0:amd64					install
 libsqlite0					install
 libsqlite0-dev					install
@@ -2878,10 +2878,13 @@ linux-base					install
 linux-compiler-gcc-6-x86			install
 linux-headers-4.11.0-1-amd64			install
 linux-headers-4.11.0-1-common			install
+linux-headers-4.11.0-2-amd64			install
+linux-headers-4.11.0-2-common			install
 linux-headers-4.9.0-3-amd64			install
 linux-headers-4.9.0-3-common			install
 linux-headers-amd64				install
 linux-image-4.11.0-1-amd64			install
+linux-image-4.11.0-2-amd64			install
 linux-image-4.8.0-1-amd64			deinstall
 linux-image-4.8.0-2-amd64			deinstall
 linux-image-4.9.0-1-amd64			deinstall
