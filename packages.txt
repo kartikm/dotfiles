@@ -1959,6 +1959,7 @@ libnotify-bin					install
 libnotify-dev:amd64				install
 libnotify4:amd64				install
 libnotmuch4					install
+libnotmuch5					install
 libnpth0:amd64					install
 libnspr4:amd64					install
 libnspr4:i386					install
@@ -3643,6 +3644,7 @@ rsyslog						install
 rtmpdump					install
 ruby						install
 ruby-augeas					install
+ruby-bcrypt-pbkdf				install
 ruby-bundler					install
 ruby-childprocess				install
 ruby-debian					install
@@ -3674,6 +3676,7 @@ ruby-nokogiri					install
 ruby-pkg-config					install
 ruby-power-assert				install
 ruby-rb-inotify					install
+ruby-rbnacl					install
 ruby-rest-client				install
 ruby-rgen					install
 ruby-safe-yaml					install
