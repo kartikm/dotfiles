@@ -16,7 +16,7 @@ aha						install
 aircrack-ng					install
 akonadi-backend-mysql				install
 akonadi-server					install
-alsa-base					install
+alsa-base					deinstall
 alsa-utils					install
 amd64-microcode					install
 anacron						install
@@ -135,7 +135,6 @@ calendar-google-provider			install
 catdoc						install
 cdbs						install
 cdebootstrap					install
-cdparanoia					install
 cg3						install
 cgroupfs-mount					install
 chromium					install
@@ -1012,7 +1011,7 @@ libconvert-asn1-perl				install
 libconvert-binhex-perl				install
 libcpan-changes-perl				install
 libcpan-meta-perl				install
-libcppunit-1.13-0v5:amd64			install
+libcppunit-1.13-0v5:amd64			deinstall
 libcppunit-1.14-0:amd64				install
 libcppunit-dev					install
 libcpufreq0					install
@@ -1044,7 +1043,6 @@ libcupsimage2:amd64				install
 libcurl3:amd64					install
 libcurl3-gnutls:amd64				install
 libcwidget3v5:amd64				install
-libdap23:amd64					install
 libdap25:amd64					install
 libdapclient6v5:amd64				install
 libdapserver7v5:amd64				install
@@ -1361,7 +1359,6 @@ libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
 libgsoap-2.8.49:amd64				install
-libgsoap10:amd64				install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssdp-1.0-3:amd64				install
@@ -1774,7 +1771,6 @@ liblinear3:amd64				install
 liblirc-client0:amd64				install
 liblist-compare-perl				install
 liblist-moreutils-perl				install
-liblivemedia57:amd64				install
 liblivemedia58:amd64				install
 libllvm3.9:amd64				install
 libllvm4.0:amd64				install
@@ -1959,7 +1955,7 @@ libnm0:amd64					install
 libnotify-bin					install
 libnotify-dev:amd64				install
 libnotify4:amd64				install
-libnotmuch4					install
+libnotmuch4					deinstall
 libnotmuch5					install
 libnpth0:amd64					install
 libnspr4:amd64					install
@@ -2884,8 +2880,6 @@ linux-headers-4.11.0-1-amd64			install
 linux-headers-4.11.0-1-common			install
 linux-headers-4.11.0-2-amd64			install
 linux-headers-4.11.0-2-common			install
-linux-headers-4.9.0-3-amd64			install
-linux-headers-4.9.0-3-common			install
 linux-headers-amd64				install
 linux-image-4.11.0-1-amd64			install
 linux-image-4.11.0-2-amd64			install
@@ -2893,7 +2887,7 @@ linux-image-4.8.0-1-amd64			deinstall
 linux-image-4.8.0-2-amd64			deinstall
 linux-image-4.9.0-1-amd64			deinstall
 linux-image-4.9.0-2-amd64			deinstall
-linux-image-4.9.0-3-amd64			install
+linux-image-4.9.0-3-amd64			deinstall
 linux-image-amd64				install
 linux-kbuild-4.11				install
 linux-kbuild-4.9				install
