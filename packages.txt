@@ -1955,7 +1955,6 @@ libnm0:amd64					install
 libnotify-bin					install
 libnotify-dev:amd64				install
 libnotify4:amd64				install
-libnotmuch4					deinstall
 libnotmuch5					install
 libnpth0:amd64					install
 libnspr4:amd64					install
