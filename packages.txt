@@ -2085,6 +2085,7 @@ libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
 libperl5.24:amd64				install
+libperl5.26:amd64				install
 libperlio-gzip-perl				install
 libpgm-5.2-0:amd64				install
 libphonon4:amd64				install
@@ -2296,6 +2297,7 @@ libresample1-dev				install
 libresid-builder0c2a				install
 librest-0.7-0:amd64				install
 librevenge-0.0-0:amd64				install
+librhash0					install
 librhino-java					install
 librole-tiny-perl				install
 librpc-xml-perl					install
@@ -3134,6 +3136,7 @@ perl						install
 perl-base					install
 perl-doc					install
 perl-modules-5.24				install
+perl-modules-5.26				install
 perl-openssl-defaults:amd64			install
 perl-tk						install
 phantomjs					install
