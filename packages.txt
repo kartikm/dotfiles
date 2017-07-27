@@ -967,6 +967,7 @@ libchromaprint1:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclang1-3.9:amd64				install
+libclang1-4.0:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
