@@ -309,6 +309,7 @@ finger						install
 firebird3.0-common				install
 firebird3.0-common-doc				install
 firebird3.0-server-core:amd64			install
+firebird3.0-utils				install
 firefox-esr					install
 firefox-esr-l10n-gu-in				install
 firmware-amd-graphics				install
@@ -2643,6 +2644,8 @@ libwebp6:i386					install
 libwebpdemux2:amd64				install
 libwebpmux2:amd64				install
 libwebpmux2:i386				install
+libwebpmux3:amd64				install
+libwebpmux3:i386				install
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi2:amd64				install
