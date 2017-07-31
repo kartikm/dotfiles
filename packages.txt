@@ -1111,6 +1111,7 @@ libdouble-conversion1:amd64			install
 libdpkg-perl					install
 libdrm-amdgpu1:amd64				install
 libdrm-amdgpu1:i386				install
+libdrm-common					install
 libdrm-dev:amd64				install
 libdrm-intel1:amd64				install
 libdrm-intel1:i386				install
@@ -1307,6 +1308,7 @@ libglu1-mesa-dev:amd64				install
 libgme0:amd64					install
 libgmime-2.6-0:amd64				install
 libgmime-2.6-dev				install
+libgmime-3.0-0:amd64				install
 libgmp-dev:amd64				install
 libgmp10:amd64					install
 libgmp10:i386					install
@@ -2811,6 +2813,8 @@ libxml2-utils					install
 libxmlbeans-java				install
 libxmlgraphics-commons-java			install
 libxmlrpc-lite-perl				install
+libxmlsec1:amd64				install
+libxmlsec1-nss:amd64				install
 libxmpcore-java					install
 libxmu6:amd64					install
 libxmu6:i386					install
