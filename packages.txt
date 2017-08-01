@@ -1298,7 +1298,8 @@ libglib2.0-0:amd64				install
 libglib2.0-0:i386				install
 libglib2.0-bin					install
 libglib2.0-data					install
-libglib2.0-dev					install
+libglib2.0-dev:amd64				install
+libglib2.0-dev-bin				install
 libglibmm-2.4-1v5:amd64				install
 libglibmm-2.4-dev:amd64				install
 libgltf-0.1-1:amd64				install
@@ -3669,6 +3670,7 @@ ruby-listen					install
 ruby-locale					install
 ruby-log4r					install
 ruby-mime-types					install
+ruby-mime-types-data				install
 ruby-minitest					install
 ruby-molinillo					install
 ruby-net-http-persistent			install
