@@ -1403,7 +1403,8 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
-libhfst45					install
+libhfst49					install
+libhfst49-dev					install
 libhfstospell9					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
