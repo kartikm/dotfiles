@@ -55,6 +55,7 @@ apertium-nno					install
 apertium-oc-es					install
 apertium-pt-ca					install
 apertium-pt-gl					install
+apertium-rus					install
 apertium-spa					install
 apertium-spa-cat				install
 apertium-spa-ita				install
