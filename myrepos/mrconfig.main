@@ -558,3 +558,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/chmlib/chmlib]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/chmlib.git' 'chmlib'
+
+[development/debian/packages/apertium/apertium-bel]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-bel' 'apertium-bel'
