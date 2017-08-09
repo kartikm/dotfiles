@@ -34,6 +34,7 @@ apertium-af-nl					install
 apertium-apy					install
 apertium-arg					install
 apertium-arg-cat				install
+apertium-bel					install
 apertium-ca-it					install
 apertium-cat					install
 apertium-dev					install
