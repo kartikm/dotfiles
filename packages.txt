@@ -1132,7 +1132,6 @@ libdynamite0					install
 libe-book-0.1-1:amd64				install
 libeatmydata1:amd64				install
 libebml4v5:amd64				install
-libebur128-1:amd64				install
 libedit2:amd64					install
 libedit2:i386					install
 libegl1-mesa:amd64				install
@@ -2092,7 +2091,6 @@ libpcrecpp0v5:amd64				install
 libpcsclite1:amd64				install
 libpentaho-reporting-flow-engine-java		install
 libperl-dev					install
-libperl5.24:amd64				install
 libperl5.26:amd64				install
 libperlio-gzip-perl				install
 libpgm-5.2-0:amd64				install
@@ -2571,7 +2569,6 @@ libuniversal-require-perl			install
 libupnp6					install
 libupower-glib3:amd64				install
 liburcu-dev:amd64				install
-liburcu4:amd64					install
 liburcu6:amd64					install
 liburi-perl					install
 liburiparser1:amd64				install
@@ -2648,7 +2645,6 @@ libwebkit2gtk-4.0-37-gtk2:amd64			install
 libwebp6:amd64					install
 libwebp6:i386					install
 libwebpdemux2:amd64				install
-libwebpmux2:amd64				install
 libwebpmux2:i386				install
 libwebpmux3:amd64				install
 libwebpmux3:i386				install
@@ -3147,7 +3143,6 @@ pepperflashplugin-nonfree			install
 perl						install
 perl-base					install
 perl-doc					install
-perl-modules-5.24				install
 perl-modules-5.26				install
 perl-openssl-defaults:amd64			install
 perl-tk						install
