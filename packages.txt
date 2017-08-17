@@ -300,6 +300,7 @@ fai-client					install
 fairymax					install
 fakeroot					install
 faketime					install
+fdisk						install
 feh						install
 festival					install
 festlex-cmu					install
@@ -2704,6 +2705,8 @@ libx264-148:amd64				install
 libx264-148:i386				install
 libx265-116:amd64				install
 libx265-116:i386				install
+libx265-130:amd64				install
+libx265-130:i386				install
 libx32asan3					install
 libx32asan4					install
 libx32atomic1					install
