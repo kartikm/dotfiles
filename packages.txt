@@ -1469,6 +1469,7 @@ libidn11-dev					install
 libidn2-0:amd64					install
 libidn2-0:i386					install
 libidn2-0-dev					install
+libidn2-dev					install
 libiec61883-0:amd64				install
 libieee1284-3:amd64				install
 libieee1284-3:i386				install
@@ -2673,8 +2674,10 @@ libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi2:amd64				install
 libwireshark-data				install
+libwireshark10:amd64				install
 libwireshark8:amd64				install
 libwiretap6:amd64				install
+libwiretap7:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
@@ -2686,6 +2689,7 @@ libwrap0:i386					install
 libwscodecs1:amd64				install
 libwsdl4j-java					install
 libwsutil7:amd64				install
+libwsutil8:amd64				install
 libwvstreams4.6-base				install
 libwvstreams4.6-extras				install
 libwww-perl					install
