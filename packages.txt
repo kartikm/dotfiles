@@ -843,7 +843,7 @@ libaudit-common					install
 libaudit-dev:amd64				install
 libaudit1:amd64					install
 libaudit1:i386					deinstall
-libaugeas0					install
+libaugeas0:amd64				install
 libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
 libauthen-sasl-perl				install
@@ -1425,7 +1425,7 @@ libhdf4-0-alt					install
 libhdf5-100:amd64				install
 libhfst49					install
 libhfst49-dev					install
-libhfstospell9					install
+libhfstospell9:amd64				install
 libhogweed4:amd64				install
 libhogweed4:i386				install
 libhpdf-2.2.1					install
