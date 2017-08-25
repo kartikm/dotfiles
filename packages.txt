@@ -110,7 +110,9 @@ bind9-host					install
 binfmt-support					install
 binutils					install
 binutils-avr					install
+binutils-common:amd64				install
 binutils-msp430					install
+binutils-x86-64-linux-gnu			install
 bison						install
 blt						install
 bluedevil					install
@@ -892,6 +894,7 @@ libbcpkix-java					install
 libbcprov-java					install
 libbdplus0:amd64				install
 libbind9-140:amd64				install
+libbinutils:amd64				install
 libbison-dev:amd64				install
 libblas-common					install
 libblas3					install
