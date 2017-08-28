@@ -1542,6 +1542,7 @@ libjdom1-java					install
 libjgoodies-common-java				install
 libjgoodies-looks-java				install
 libjim0.76:amd64				install
+libjim0.77:amd64				install
 libjline-java					install
 libjline2-java					install
 libjna-java					install
