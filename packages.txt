@@ -1157,6 +1157,7 @@ libegl1-mesa-dev:amd64				install
 libehcache-java					install
 libelf1:amd64					install
 libelf1:i386					install
+libemail-date-format-perl			install
 libemail-valid-perl				install
 libenca0:amd64					install
 libenchant-dev					install
@@ -1223,6 +1224,7 @@ libfile-sharedir-perl				install
 libfile-slurp-perl				install
 libfile-stripnondeterminism-perl		install
 libfile-which-perl				install
+libfilesys-df-perl				install
 libfl-dev:amd64					install
 libflac8:amd64					install
 libflac8:i386					install
@@ -1873,7 +1875,9 @@ libmhash-dev					install
 libmhash2:amd64					install
 libmikmod3:amd64				install
 libmime-charset-perl				install
+libmime-lite-perl				install
 libmime-tools-perl				install
+libmime-types-perl				install
 libmimic0:amd64					deinstall
 libminizip1:amd64				install
 libmjpegutils-2.1-0				install
@@ -2356,6 +2360,7 @@ libsasl2-modules-db:amd64			install
 libsaxon-java					install
 libsaxonhe-java					install
 libsbc1:amd64					install
+libsbuild-perl					install
 libscalar-list-utils-perl			install
 libscalar-string-perl				install
 libschroedinger-1.0-0:amd64			deinstall
@@ -3665,6 +3670,7 @@ quvi						install
 radeontool					install
 rake						install
 rarian-compat					install
+ratt						install
 readline-common					install
 realpath					install
 reaver						install
@@ -3742,6 +3748,7 @@ rygel						install
 rygel-gst-launch				install
 samba-common					install
 samba-libs:amd64				install
+sbuild						install
 schroot						install
 schroot-common					install
 screen						install
