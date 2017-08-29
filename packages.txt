@@ -261,6 +261,7 @@ docutils-doc					install
 dolphin						install
 dolphin4					install
 dosbox						install
+dose-extra					install
 dosfstools					install
 doxygen						install
 dpkg						install
@@ -2336,6 +2337,8 @@ librhash0					install
 librhino-java					install
 librole-tiny-perl				install
 librpc-xml-perl					install
+librpm3						install
+librpmio3					install
 librsvg2-2:amd64				install
 librsvg2-bin					install
 librsvg2-common:amd64				install
@@ -3687,6 +3690,7 @@ rhino						install
 rig						install
 rlwrap						install
 rpcbind						install
+rpm-common					install
 rsync						install
 rsyslog						install
 rtmpdump					install
