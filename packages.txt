@@ -95,6 +95,7 @@ automake1.11					install
 autopkgtest					install
 autopoint					install
 autotools-dev					install
+avahi-daemon					install
 avr-libc					install
 avrdude						install
 awesome						install
@@ -475,6 +476,7 @@ gdbserver					install
 gdebi-core					install
 gdisk						install
 genisoimage					install
+geoclue-2.0					install
 geoip-bin					install
 geoip-database					install
 geoip-database-extra				install
@@ -608,6 +610,7 @@ icu-devtools					install
 ieee-data					install
 ienglish-common					install
 ifupdown					install
+iio-sensor-proxy				install
 ikiwiki						install
 imagemagick					install
 imagemagick-6-common				install
@@ -859,6 +862,7 @@ libavahi-common-data:i386			install
 libavahi-common-dev:amd64			install
 libavahi-common3:amd64				install
 libavahi-common3:i386				install
+libavahi-core7:amd64				install
 libavahi-glib-dev:amd64				install
 libavahi-glib1:amd64				install
 libavahi-ui-dev:amd64				install
@@ -1066,6 +1070,7 @@ libcupsimage2:amd64				install
 libcurl3:amd64					install
 libcurl3-gnutls:amd64				install
 libcwidget3v5:amd64				install
+libdaemon0:amd64				install
 libdap25:amd64					install
 libdapclient6v5:amd64				install
 libdapserver7v5:amd64				install
@@ -1288,6 +1293,7 @@ libgdk-pixbuf2.0-dev				install
 libgdraw5					install
 libgee-0.8-2:amd64				install
 libgegl-0.3-0:amd64				install
+libgeoclue-2-0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
 libgeos-3.5.1					install
@@ -1995,6 +2001,7 @@ libnotmuch5					install
 libnpth0:amd64					install
 libnspr4:amd64					install
 libnspr4:i386					install
+libnss-mdns:amd64				install
 libnss3:amd64					install
 libntfs-3g872					install
 libntrack-qt4-1					install
@@ -2253,6 +2260,7 @@ libqt5multimediawidgets5:amd64			install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
 libqt5opengl5-dev:amd64				install
+libqt5positioning5:amd64			install
 libqt5printsupport5:amd64			install
 libqt5qml5:amd64				install
 libqt5quick5:amd64				install
@@ -2265,6 +2273,10 @@ libqt5sql5-mysql:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5svg5:amd64				install
 libqt5test5:amd64				install
+libqt5webchannel5:amd64				install
+libqt5webengine-data				install
+libqt5webenginecore5:amd64			install
+libqt5webenginewidgets5:amd64			install
 libqt5webkit5:amd64				install
 libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
