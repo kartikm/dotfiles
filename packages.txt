@@ -2155,6 +2155,7 @@ libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler64:amd64				install
+libpoppler68:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
@@ -3000,6 +3001,7 @@ manpages-dev					install
 mariadb-common					install
 mawk						install
 mcomix						install
+mdadm						install
 menu						install
 mercurial					install
 mercurial-common				install
@@ -3134,6 +3136,7 @@ node-wrappy					install
 node-yallist					install
 nodejs						install
 nodejs-dev					install
+nodejs-doc					install
 notification-daemon				install
 notify-osd					install
 notmuch						install
