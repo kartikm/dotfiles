@@ -905,6 +905,15 @@ libblas-common					install
 libblas3					install
 libblkid1:amd64					install
 libblkid1:i386					install
+libblockdev-crypto2:amd64			install
+libblockdev-fs2:amd64				install
+libblockdev-loop2:amd64				install
+libblockdev-mdraid2:amd64			install
+libblockdev-part-err2:amd64			install
+libblockdev-part2:amd64				install
+libblockdev-swap2:amd64				install
+libblockdev-utils2:amd64			install
+libblockdev2:amd64				install
 libbluetooth-dev				install
 libbluetooth3:amd64				install
 libbluray2:amd64				install
@@ -931,6 +940,7 @@ libbsf-java					install
 libbsh-java					install
 libburn4:amd64					install
 libbytes-random-secure-perl			install
+libbytesize1					install
 libbz2-1.0:amd64				install
 libbz2-dev:amd64				install
 libc-ares-dev:amd64				install
@@ -994,6 +1004,7 @@ libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclang1-3.9:amd64				install
 libclang1-4.0:amd64				install
+libclang1-5.0:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
@@ -1288,6 +1299,7 @@ libgdal20					install
 libgdbm-dev:amd64				install
 libgdbm3:amd64					install
 libgdk-pixbuf2.0-0:amd64			install
+libgdk-pixbuf2.0-bin				install
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
 libgdraw5					install
@@ -1815,6 +1827,7 @@ liblivemedia58:amd64				install
 libllvm3.9:amd64				install
 libllvm4.0:amd64				install
 libllvm4.0:i386					install
+libllvm5.0:amd64				install
 liblmdb0:amd64					install
 libloader-java					install
 liblocale-gettext-perl				install
@@ -2660,6 +2673,7 @@ libvlccore8:amd64				install
 libvncserver1:amd64				install
 libvo-aacenc0:amd64				install
 libvo-amrwbenc0:amd64				install
+libvolume-key1					install
 libvorbis-dev:amd64				install
 libvorbis0a:amd64				install
 libvorbis0a:i386				install
@@ -3892,6 +3906,7 @@ tzdata						install
 ubuntu-archive-keyring				install
 ucf						install
 udev						install
+udftools					install
 udisks2						install
 ufraw-batch					install
 unar						install
