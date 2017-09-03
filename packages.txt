@@ -2126,7 +2126,7 @@ libpath-tiny-perl				install
 libpathplan4					install
 libpcap-dev					install
 libpcap0.8:amd64				install
-libpcap0.8-dev					install
+libpcap0.8-dev:amd64				install
 libpci3:amd64					install
 libpciaccess0:amd64				install
 libpciaccess0:i386				install
