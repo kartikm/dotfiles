@@ -51,6 +51,7 @@ apertium-fr-es					install
 apertium-hbs-mkd				install
 apertium-id-ms					install
 apertium-is-sv					install
+apertium-ita					install
 apertium-lex-tools				install
 apertium-nno					install
 apertium-oc-es					install
