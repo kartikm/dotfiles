@@ -62,6 +62,7 @@ apertium-spa					install
 apertium-spa-cat				install
 apertium-spa-ita				install
 apertium-srd					install
+apertium-srd-ita				install
 apg						install
 apparmor-easyprof				install
 appstream					install
