@@ -35,6 +35,7 @@ apertium-apy					install
 apertium-arg					install
 apertium-arg-cat				install
 apertium-bel					install
+apertium-bel-rus				install
 apertium-ca-it					install
 apertium-cat					install
 apertium-cat-srd				install
