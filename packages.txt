@@ -344,6 +344,8 @@ fonts-font-awesome				install
 fonts-freefont-ttf				install
 fonts-gargi					install
 fonts-gubbi					install
+fonts-gujr					install
+fonts-gujr-extra				install
 fonts-guru					install
 fonts-guru-extra				install
 fonts-hack-ttf					install
@@ -1874,7 +1876,6 @@ libmath-random-isaac-xs-perl			install
 libmatroska6v5:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
-libmcrypt4					install
 libmd0:amd64					install
 libmeanwhile1:amd64				install
 libmecab2:amd64					install
@@ -2155,7 +2156,6 @@ libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
-libpoppler64:amd64				install
 libpoppler68:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
@@ -2215,7 +2215,6 @@ libqca-qt5-2:amd64				install
 libqca-qt5-2-plugins:amd64			install
 libqca2:amd64					install
 libqca2-plugins:amd64				install
-libqdbm14					install
 libqdox-java					install
 libqgsttools-p1:amd64				install
 libqhull7:amd64					install
@@ -2571,7 +2570,6 @@ libtidy5					install
 libtie-ixhash-perl				install
 libtiff-tools					install
 libtiff5:amd64					install
-libtiff5:i386					install
 libtiff5-dev:amd64				install
 libtiffxx5:amd64				install
 libtimedate-perl				install
@@ -2608,7 +2606,6 @@ libuninameslist-dev:amd64			install
 libuninameslist1:amd64				install
 libunistring2:amd64				install
 libunistring2:i386				install
-libuniversal-require-perl			install
 libupnp6					install
 libupower-glib3:amd64				install
 liburcu-dev:amd64				install
@@ -3148,7 +3145,6 @@ ostinato					install
 ovmf						install
 oxygen-icon-theme				install
 oxygen-sounds					install
-oxygencursors					install
 p11-kit						install
 p11-kit-modules:amd64				install
 p7zip						install
@@ -3316,8 +3312,6 @@ python-all-dev					install
 python-appindicator				install
 python-apt					install
 python-apt-common				install
-python-argcomplete				install
-python-argh					install
 python-asn1crypto				install
 python-astroid					install
 python-babel					install
@@ -3325,10 +3319,8 @@ python-babel-localedata				install
 python-backports-abc				install
 python-backports-shutil-get-terminal-size	install
 python-backports.functools-lru-cache		install
-python-backports.ssl-match-hostname		install
 python-beautifulsoup				install
 python-blinker					install
-python-brotli					install
 python-bs4					install
 python-bson					install
 python-bson-ext					install
@@ -3337,17 +3329,12 @@ python-certifi					install
 python-cffi					install
 python-cffi-backend				install
 python-chardet					install
-python-click					install
-python-colorama					install
 python-concurrent.futures			install
-python-configargparse				install
 python-configobj				install
-python-construct				install
 python-coverage					install
 python-crypto					install
 python-cryptography				install
 python-cssselect				install
-python-cssutils					install
 python-dateutil					install
 python-dbus					install
 python-dbus-dev					install
@@ -3367,7 +3354,6 @@ python-enum34					install
 python-extras					install
 python-feedparser				install
 python-fixtures					install
-python-flask					install
 python-fontforge				install
 python-formencode				install
 python-gflags					install
@@ -3382,8 +3368,6 @@ python-gridfs					install
 python-gtk2					install
 python-gtkmvc					install
 python-gtkmvc-doc				install
-python-h2					install
-python-hpack					install
 python-html2text				install
 python-html5lib					install
 python-httplib2					install
@@ -3395,9 +3379,7 @@ python-ipaddress				install
 python-ipython					install
 python-ipython-genutils				install
 python-isort					install
-python-itsdangerous				install
 python-jinja2					install
-python-jsbeautifier				install
 python-jwt					install
 python-lazy-object-proxy			install
 python-libhfst					install
@@ -3420,9 +3402,7 @@ python-oauthlib					install
 python-olefile					install
 python-openssl					install
 python-paramiko					install
-python-passlib					install
 python-pathlib2					install
-python-pathtools				install
 python-pbr					install
 python-pexpect					install
 python-pexpect-doc				install
@@ -3442,11 +3422,8 @@ python-pydispatch				install
 python-pyexiv2					install
 python-pygame					install
 python-pygments					install
-python-pyinotify				install
 python-pymongo					install
 python-pymongo-ext				install
-python-pyparsing				install
-python-pyperclip				install
 python-pyqt5					install
 python-pyqt5.qtsvg				install
 python-pyqt5.qtwebkit				install
@@ -3485,7 +3462,6 @@ python-toro					install
 python-traceback2				install
 python-traitlets				install
 python-tweepy					install
-python-typing					install
 python-tz					install
 python-unittest2				install
 python-uritemplate				install
@@ -3493,11 +3469,9 @@ python-urllib3					install
 python-urwid					install
 python-utidylib					install
 python-validictory				install
-python-watchdog					install
 python-wcwidth					install
 python-webencodings				install
 python-webunit					install
-python-werkzeug					install
 python-wicd					install
 python-wrapt					install
 python-wstools					install
