@@ -1663,6 +1663,7 @@ libkf5declarative-data				install
 libkf5declarative5:amd64			install
 libkf5dnssd-data				install
 libkf5dnssd5:amd64				install
+libkf5doctools5:amd64				install
 libkf5emoticons-bin				install
 libkf5emoticons-data				install
 libkf5emoticons5:amd64				install
@@ -1709,6 +1710,7 @@ libkf5modemmanagerqt6:amd64			install
 libkf5networkmanagerqt6				install
 libkf5newstuff-data				install
 libkf5newstuff5:amd64				install
+libkf5newstuffcore5:amd64			install
 libkf5notifications-data			install
 libkf5notifications5:amd64			install
 libkf5notifyconfig-data				install
@@ -1742,6 +1744,8 @@ libkf5style5:amd64				install
 libkf5su-bin					install
 libkf5su-data					install
 libkf5su5:amd64					install
+libkf5syntaxhighlighting-data			install
+libkf5syntaxhighlighting5:amd64			install
 libkf5sysguard-bin				install
 libkf5sysguard-data				install
 libkf5texteditor5:amd64				install
@@ -2283,7 +2287,9 @@ libqt5positioning5:amd64			install
 libqt5printsupport5:amd64			install
 libqt5qml5:amd64				install
 libqt5quick5:amd64				install
+libqt5quickcontrols2-5:amd64			install
 libqt5quickparticles5:amd64			install
+libqt5quicktemplates2-5:amd64			install
 libqt5quicktest5:amd64				install
 libqt5quickwidgets5:amd64			install
 libqt5script5:amd64				install
@@ -3021,6 +3027,7 @@ mariadb-common					install
 mawk						install
 mcomix						install
 mdadm						install
+media-player-info				install
 menu						install
 mercurial					install
 mercurial-common				install
@@ -3663,6 +3670,7 @@ qml-module-org-kde-activities:amd64		install
 qml-module-org-kde-bluezqt:amd64		install
 qml-module-org-kde-draganddrop:amd64		install
 qml-module-org-kde-extensionplugin		install
+qml-module-org-kde-kconfig:amd64		install
 qml-module-org-kde-kcoreaddons:amd64		install
 qml-module-org-kde-kholidays:amd64		install
 qml-module-org-kde-kio:amd64			install
@@ -3670,6 +3678,7 @@ qml-module-org-kde-kirigami			install
 qml-module-org-kde-kquickcontrols:amd64		install
 qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
+qml-module-org-kde-newstuff			install
 qml-module-org-kde-runnermodel			install
 qml-module-org-kde-solid:amd64			install
 qml-module-qt-labs-folderlistmodel:amd64	install
@@ -3679,9 +3688,11 @@ qml-module-qtmultimedia:amd64			install
 qml-module-qtqml-models2:amd64			install
 qml-module-qtquick-controls:amd64		install
 qml-module-qtquick-controls-styles-breeze	install
+qml-module-qtquick-controls2:amd64		install
 qml-module-qtquick-dialogs:amd64		install
 qml-module-qtquick-layouts:amd64		install
 qml-module-qtquick-privatewidgets:amd64		install
+qml-module-qtquick-templates2:amd64		install
 qml-module-qtquick-window2:amd64		install
 qml-module-qtquick2:amd64			install
 qmlscene					install
