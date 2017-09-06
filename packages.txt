@@ -16,12 +16,9 @@ aha						install
 aircrack-ng					install
 akonadi-backend-mysql				install
 akonadi-server					install
-alsa-base					deinstall
 alsa-utils					install
 amd64-microcode					install
 anacron						install
-android-tools-adb				deinstall
-android-tools-fastboot				deinstall
 ant						install
 ant-optional					install
 antlr						install
@@ -35,10 +32,8 @@ apertium-apy					install
 apertium-arg					install
 apertium-arg-cat				install
 apertium-bel					install
-apertium-bel-rus				install
 apertium-ca-it					install
 apertium-cat					install
-apertium-cat-srd				install
 apertium-dev					install
 apertium-en-ca					install
 apertium-en-es					install
@@ -80,7 +75,6 @@ aptitude-common					install
 arduino						install
 arduino-core					install
 aria2						install
-aria2-dbgsym					install
 ark						install
 aspell						install
 aspell-en					install
@@ -283,10 +277,6 @@ eatmydata					install
 ed						install
 eject						install
 elpa-notmuch					install
-emacs24						install
-emacs24-bin-common				install
-emacs24-common					install
-emacs24-el					install
 emacsen-common					install
 enblend						install
 enchant						install
@@ -354,7 +344,6 @@ fonts-font-awesome				install
 fonts-freefont-ttf				install
 fonts-gargi					install
 fonts-gubbi					install
-fonts-gujr-extra				install
 fonts-guru					install
 fonts-guru-extra				install
 fonts-hack-ttf					install
@@ -791,7 +780,7 @@ libao4						install
 libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
-libapache2-mod-php5				install
+libapache2-mod-php5				deinstall
 libapertium3-3.4-0:amd64			install
 libapparmor1:amd64				install
 libappindicator1:amd64				install
@@ -931,7 +920,6 @@ libboost-dev:amd64				install
 libboost-filesystem1.62.0:amd64			install
 libboost-iostreams1.62.0:amd64			install
 libboost-program-options1.62.0:amd64		install
-libboost-python1.58.0				install
 libboost-python1.62.0				install
 libboost-regex1.62.0:amd64			install
 libboost-system1.62.0:amd64			install
@@ -1053,7 +1041,6 @@ libconvert-asn1-perl				install
 libconvert-binhex-perl				install
 libcpan-changes-perl				install
 libcpan-meta-perl				install
-libcppunit-1.13-0v5:amd64			deinstall
 libcppunit-1.14-0:amd64				install
 libcppunit-dev					install
 libcpufreq0					install
@@ -1135,7 +1122,6 @@ libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
 libdigest-md4-perl				install
-libdirectfb-1.2-9:i386				install
 libdiscover2					install
 libdistro-info-perl				install
 libdjvulibre-text				install
@@ -1297,7 +1283,6 @@ libgcrypt20:amd64				install
 libgcrypt20:i386				install
 libgcrypt20-dev					install
 libgd3:amd64					install
-libgd3:i386					install
 libgdal20					install
 libgdbm-dev:amd64				install
 libgdbm3:amd64					install
@@ -1405,7 +1390,8 @@ libgravatar-url-perl				install
 libgroupsock8:amd64				install
 libgs9:amd64					install
 libgs9-common					install
-libgsl2:amd64					install
+libgsl23:amd64					install
+libgslcblas0:amd64				install
 libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
@@ -1592,7 +1578,6 @@ libjs-sphinxdoc					install
 libjs-twitter-bootstrap				install
 libjs-underscore				install
 libjsch-java					install
-libjson-c2:i386					deinstall
 libjson-c3:amd64				install
 libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
@@ -1903,7 +1888,6 @@ libmime-charset-perl				install
 libmime-lite-perl				install
 libmime-tools-perl				install
 libmime-types-perl				install
-libmimic0:amd64					deinstall
 libminizip1:amd64				install
 libmjpegutils-2.1-0				install
 libmm-glib0:amd64				install
@@ -1951,7 +1935,6 @@ libmultiverse-core-java				install
 libmwaw-0.3-3:amd64				install
 libmysql-java					install
 libmysqlclient-dev				install
-libmysqlclient18:amd64				install
 libmysqlclient20:amd64				install
 libmythes-1.2-0:amd64				install
 libnacl-dev					install
@@ -2355,7 +2338,6 @@ libreoffice-script-provider-python		install
 libreoffice-sdbc-firebird			install
 libreoffice-sdbc-postgresql			install
 libreoffice-style-galaxy			install
-libreoffice-style-oxygen			install
 libreoffice-style-tango				install
 libreoffice-wiki-publisher			install
 libreoffice-writer				install
@@ -2398,8 +2380,6 @@ libsbc1:amd64					install
 libsbuild-perl					install
 libscalar-list-utils-perl			install
 libscalar-string-perl				install
-libschroedinger-1.0-0:amd64			deinstall
-libschroedinger-1.0-0:i386			deinstall
 libscim8v5:amd64				install
 libsdl-image1.2:amd64				install
 libsdl-mixer1.2:amd64				install
@@ -2478,7 +2458,6 @@ libsox-fmt-base:amd64				install
 libsox2:amd64					install
 libsoxr0:amd64					install
 libsoxr0:i386					install
-libsp1c2					install
 libspandsp2:amd64				install
 libspatialite7:amd64				install
 libspecio-perl					install
@@ -2539,8 +2518,6 @@ libswresample2:i386				install
 libswscale4:amd64				install
 libsybdb5:amd64					install
 libsynctex1:amd64				install
-libsyntax-highlight-engine-simple-languages-perl	install
-libsyntax-highlight-engine-simple-perl		install
 libsys-cpu-perl					install
 libsys-hostname-long-perl			install
 libsys-sigaction-perl				install
@@ -2712,7 +2689,6 @@ libwebkit2gtk-4.0-37-gtk2:amd64			install
 libwebp6:amd64					install
 libwebp6:i386					install
 libwebpdemux2:amd64				install
-libwebpmux2:i386				install
 libwebpmux3:amd64				install
 libwebpmux3:i386				install
 libwebrtc-audio-processing1:amd64		install
@@ -2929,8 +2905,6 @@ libxxf86dga1:amd64				install
 libxxf86vm-dev:amd64				install
 libxxf86vm1:amd64				install
 libxxf86vm1:i386				install
-libyahoo2-11					install
-libyahoo2-dev					install
 libyajl2:amd64					install
 libyaml-0-2:amd64				install
 libyaml-dev:amd64				install
@@ -2954,21 +2928,11 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-6-x86			install
-linux-headers-4.11.0-2-amd64			install
-linux-headers-4.11.0-2-common			install
 linux-headers-4.12.0-1-amd64			install
 linux-headers-4.12.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.11.0-1-amd64			deinstall
-linux-image-4.11.0-2-amd64			install
 linux-image-4.12.0-1-amd64			install
-linux-image-4.8.0-1-amd64			deinstall
-linux-image-4.8.0-2-amd64			deinstall
-linux-image-4.9.0-1-amd64			deinstall
-linux-image-4.9.0-2-amd64			deinstall
-linux-image-4.9.0-3-amd64			deinstall
 linux-image-amd64				install
-linux-kbuild-4.11				install
 linux-kbuild-4.12				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
@@ -3024,7 +2988,6 @@ mesa-vdpau-drivers:amd64			install
 mesa-vdpau-drivers:i386				install
 milou						install
 mime-support					install
-mitmproxy					install
 mlocate						install
 mobile-broadband-provider-info			install
 moc						install
@@ -3042,7 +3005,6 @@ msp430-libc					install
 msp430mcu					install
 msva-perl					install
 mtp-tools					install
-mtpfs						install
 multiarch-support				install
 multistrap					install
 multitail					install
@@ -3175,14 +3137,10 @@ openjdk-8-jre-headless:amd64			install
 opensc						install
 opensc-pkcs11:amd64				install
 opensp						install
-openssh-blacklist				install
-openssh-blacklist-extra				install
 openssh-client					install
 openssh-server					install
 openssh-sftp-server				install
 openssl						install
-openssl-blacklist				install
-openssl-blacklist-extra				install
 oping						install
 os-prober					install
 oss-compat					install
@@ -3249,18 +3207,13 @@ php-timer					install
 php-token-stream				install
 php-xml						install
 php-zip						install
-php5						install
-php5-cgi					install
-php5-cli					install
-php5-common					install
-php5-curl					install
-php5-fpm					install
-php5-gd						install
-php5-imagick					deinstall
-php5-json					install
-php5-mcrypt					install
-php5-mysql					install
-php5-pgsql					install
+php5-curl					deinstall
+php5-fpm					deinstall
+php5-gd						deinstall
+php5-json					deinstall
+php5-mcrypt					deinstall
+php5-mysql					deinstall
+php5-pgsql					deinstall
 php7.0						install
 php7.0-bz2					install
 php7.0-cli					install
@@ -3501,7 +3454,6 @@ python-pysimplesoap				install
 python-qrtools					install
 python-qt4					install
 python-recoll					install
-python-reportbug				install
 python-repoze.lru				install
 python-requests					install
 python-requests-oauthlib			install
@@ -3816,7 +3768,6 @@ software-properties-gtk				install
 software-properties-kde				install
 soprano-daemon					install
 sox						install
-sp						install
 spew						install
 sphinx-common					install
 sphinx-doc					install
@@ -3843,10 +3794,8 @@ synaptic					install
 sysfsutils					install
 systemd						install
 systemd-sysv					install
-systemd-ui					install
 systemsettings					install
 sysv-rc						install
-sysvinit					install
 sysvinit-utils					install
 t1utils						install
 tar						install
@@ -3953,7 +3902,6 @@ vlc						install
 vlc-bin						install
 vlc-data					install
 vlc-l10n					install
-vlc-nox						deinstall
 vlc-plugin-base:amd64				install
 vlc-plugin-qt:amd64				install
 vlc-plugin-skins2:amd64				install
@@ -4040,7 +3988,6 @@ xmountains					install
 xorg-sgml-doctools				install
 xorriso						install
 xosview						install
-xosview-dbgsym					install
 xscreensaver					install
 xscreensaver-data				install
 xscreensaver-data-extra				install
