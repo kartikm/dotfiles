@@ -1008,7 +1008,6 @@ libchromaprint1:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclang1-3.9:amd64				install
-libclang1-4.0:amd64				deinstall
 libclang1-5.0:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
@@ -1136,7 +1135,6 @@ libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
 libdigest-md4-perl				install
-libdirectfb-1.2-9:amd64				deinstall
 libdirectfb-1.2-9:i386				install
 libdiscover2					install
 libdistro-info-perl				install
@@ -1321,7 +1319,6 @@ libgetopt-long-descriptive-perl			install
 libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
 libgexiv2-2:amd64				install
-libgfortran3:amd64				deinstall
 libgfortran4:amd64				install
 libgif-dev					install
 libgif7:amd64					install
@@ -1567,7 +1564,6 @@ libjcsp-java					install
 libjdom1-java					install
 libjgoodies-common-java				install
 libjgoodies-looks-java				install
-libjim0.76:amd64				deinstall
 libjim0.77:amd64				install
 libjline-java					install
 libjline2-java					install
@@ -2268,7 +2264,6 @@ libqt4-test:amd64				install
 libqt4-xml:amd64				install
 libqt4-xml:i386					install
 libqt4-xmlpatterns:amd64			install
-libqt5clucene5:amd64				deinstall
 libqt5concurrent5:amd64				install
 libqt5core5a:amd64				install
 libqt5dbus5:amd64				install
@@ -2725,8 +2720,6 @@ libwildmidi-config				install
 libwildmidi2:amd64				install
 libwireshark-data				install
 libwireshark10:amd64				install
-libwireshark8:amd64				deinstall
-libwiretap6:amd64				deinstall
 libwiretap7:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
@@ -2738,7 +2731,6 @@ libwrap0:amd64					install
 libwrap0:i386					install
 libwscodecs1:amd64				install
 libwsdl4j-java					install
-libwsutil7:amd64				deinstall
 libwsutil8:amd64				install
 libwvstreams4.6-base				install
 libwvstreams4.6-extras				install
@@ -2757,8 +2749,6 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-148:amd64				install
 libx264-148:i386				install
-libx265-116:amd64				deinstall
-libx265-116:i386				deinstall
 libx265-130:amd64				install
 libx265-130:i386				install
 libx32asan3					install
@@ -2964,8 +2954,6 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-6-x86			install
-linux-headers-4.11.0-1-amd64			deinstall
-linux-headers-4.11.0-1-common			deinstall
 linux-headers-4.11.0-2-amd64			install
 linux-headers-4.11.0-2-common			install
 linux-headers-4.12.0-1-amd64			install
@@ -2982,7 +2970,6 @@ linux-image-4.9.0-3-amd64			deinstall
 linux-image-amd64				install
 linux-kbuild-4.11				install
 linux-kbuild-4.12				install
-linux-kbuild-4.9				deinstall
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -3725,7 +3712,6 @@ reaver						install
 recode						install
 recoll						install
 remind						install
-rename						deinstall
 reportbug					install
 reprepro					install
 resolvconf					install
