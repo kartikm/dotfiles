@@ -3899,7 +3899,6 @@ wicd						install
 wicd-cli					install
 wicd-curses					install
 wicd-daemon					install
-wicd-kde					install
 wireless-regdb					install
 wireless-tools					install
 wireshark					install
