@@ -609,6 +609,7 @@ hatari						install
 hdparm						install
 help2man					install
 hfst						install
+hfst-dbgsym					install
 hfst-ospell					install
 hicolor-icon-theme				install
 hiera						install
@@ -1463,6 +1464,7 @@ libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
 libhfst49					install
+libhfst49-dbgsym				install
 libhfst49-dev					install
 libhfstospell9:amd64				install
 libhogweed4:amd64				install
