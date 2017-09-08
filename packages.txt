@@ -1222,7 +1222,6 @@ libepub0					install
 liberror-perl					install
 libesd0:amd64					install
 libesd0:i386					install
-libestools2.4:amd64				install
 libestr0					install
 libetonyek-0.1-1:amd64				install
 libeval-closure-perl				install
@@ -1882,8 +1881,6 @@ liblist-compare-perl				install
 liblist-moreutils-perl				install
 liblivemedia58:amd64				install
 libllvm3.9:amd64				install
-libllvm4.0:amd64				install
-libllvm4.0:i386					install
 libllvm5.0:amd64				install
 libllvm5.0:i386					install
 liblmdb0:amd64					install
