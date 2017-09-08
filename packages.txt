@@ -114,6 +114,7 @@ at						install
 at-spi2-core					install
 atom						install
 atool						install
+attr						install
 aufs-dkms					install
 aufs-tools					install
 augeas-lenses					install
@@ -157,6 +158,8 @@ bsdiff						install
 bsdmainutils					install
 bsdtar						install
 bsdutils					install
+btrfs-progs					install
+btrfs-tools					install
 build-essential					install
 bundler						install
 busybox						install
@@ -207,6 +210,7 @@ cpufrequtils					install
 cracklib-runtime				install
 crda						install
 cron						install
+cryptsetup					install
 cryptsetup-bin					install
 cscope						install
 culmus						install
@@ -217,6 +221,8 @@ curl						install
 cvs						install
 d-shlibs					install
 dash						install
+db-util						install
+db5.3-util					install
 dbconfig-common					install
 dbconfig-mysql					install
 dbus						install
@@ -277,6 +283,7 @@ disper						install
 distro-info-data				install
 djvulibre-bin					install
 dkms						install
+dmeventd					install
 dmidecode					install
 dmsetup						install
 dns-root-data					install
@@ -324,6 +331,7 @@ exim4-base					install
 exim4-config					install
 exim4-daemon-light				install
 expect						install
+extlinux					install
 extra-xdg-menus					install
 facter						install
 fai-client					install
@@ -609,6 +617,7 @@ gzip						install
 hatari						install
 hdparm						install
 help2man					install
+hfsplus						install
 hfst						install
 hfst-dbgsym					install
 hfst-ospell					install
@@ -771,6 +780,7 @@ laptop-mode-tools				install
 lcdf-typetools					install
 ldap-utils					install
 ldapvi						install
+ldmtool						install
 less						install
 lib32asan3					install
 lib32asan4					install
@@ -796,6 +806,7 @@ libacl1-dev					install
 libacme-damn-perl				install
 libacsccid1					install
 libaec0:amd64					install
+libafflib0v5					install
 libaio1:amd64					install
 libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
@@ -921,6 +932,7 @@ libbcmail-java					install
 libbcpkix-java					install
 libbcprov-java					install
 libbdplus0:amd64				install
+libbfio1					install
 libbind9-140:amd64				install
 libbinutils:amd64				install
 libbison-dev:amd64				install
@@ -1111,6 +1123,7 @@ libdata-integer-perl				install
 libdata-optlist-perl				install
 libdata-perl-perl				install
 libdata-section-perl				install
+libdate-manip-perl				install
 libdatetime-format-builder-perl			install
 libdatetime-format-iso8601-perl			install
 libdatetime-format-strptime-perl		install
@@ -1147,6 +1160,7 @@ libdevel-caller-perl				install
 libdevel-globaldestruction-perl			install
 libdevel-lexalias-perl				install
 libdevel-stacktrace-perl			install
+libdevmapper-event1.02.1:amd64			install
 libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
@@ -1187,6 +1201,8 @@ libeatmydata1:amd64				install
 libebml4v5:amd64				install
 libedit2:amd64					install
 libedit2:i386					install
+libegl-mesa0:amd64				install
+libegl1:amd64					install
 libegl1-mesa:amd64				install
 libegl1-mesa-dev:amd64				install
 libehcache-java					install
@@ -1214,6 +1230,7 @@ libevdev2:amd64					install
 libevent-2.0-5:amd64				install
 libevent-2.1-6:amd64				install
 libevent-core-2.0-5:amd64			install
+libewf2						install
 libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
 libexception-class-perl				install
@@ -1341,6 +1358,8 @@ libgirara-gtk3-2:amd64				install
 libgirepository-1.0-1:amd64			install
 libgit-wrapper-perl				install
 libgit2-24:amd64				install
+libgl1:amd64					install
+libgl1:i386					install
 libgl1-mesa-dev:amd64				install
 libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
@@ -1350,6 +1369,7 @@ libglade2-0:amd64				install
 libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
+libgles2:amd64					install
 libgles2-mesa:amd64				install
 libgles2-mesa-dev:amd64				install
 libglew2.0:amd64				install
@@ -1366,6 +1386,14 @@ libgltf-0.1-1:amd64				install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev:amd64				install
+libglvnd-core-dev				install
+libglvnd-dev					install
+libglvnd0:amd64					install
+libglvnd0:i386					install
+libglx-mesa0:amd64				install
+libglx-mesa0:i386				install
+libglx0:amd64					install
+libglx0:i386					install
 libgme0:amd64					install
 libgmime-2.6-0:amd64				install
 libgmime-2.6-dev				install
@@ -1447,6 +1475,12 @@ libgts-bin					install
 libguard-perl					install
 libgucharmap-2-90-7:amd64			install
 libgudev-1.0-0:amd64				install
+libguestfs-hfsplus:amd64			install
+libguestfs-perl					install
+libguestfs-reiserfs:amd64			install
+libguestfs-tools				install
+libguestfs-xfs:amd64				install
+libguestfs0:amd64				install
 libgupnp-1.0-4:amd64				install
 libgupnp-av-1.0-2				install
 libgupnp-dlna-2.0-3				install
@@ -1464,10 +1498,12 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
+libhfsp0					install
 libhfst49					install
 libhfst49-dbgsym				install
 libhfst49-dev					install
 libhfstospell9:amd64				install
+libhivex0:amd64					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
 libhpdf-2.2.1					install
@@ -1833,6 +1869,7 @@ liblcms2-utils					install
 libldap-2.4-2:amd64				install
 libldap-common					install
 libldb1:amd64					install
+libldm-1.0-0:amd64				install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
 liblept5					install
@@ -1848,6 +1885,7 @@ libllvm3.9:amd64				install
 libllvm4.0:amd64				install
 libllvm4.0:i386					install
 libllvm5.0:amd64				install
+libllvm5.0:i386					install
 liblmdb0:amd64					install
 libloader-java					install
 liblocale-gettext-perl				install
@@ -1874,6 +1912,8 @@ liblua5.2-dev:amd64				install
 liblua5.3-0:amd64				install
 libluajit-5.1-2:amd64				install
 libluajit-5.1-common				install
+liblvm2app2.2:amd64				install
+liblvm2cmd2.02:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
@@ -2069,6 +2109,7 @@ libopencv-imgproc2.4v5:amd64			install
 libopencv-objdetect2.4v5:amd64			install
 libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
+libopengl0:amd64				install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
 libopenmpt-modplug1:amd64			install
@@ -2333,6 +2374,7 @@ librcd0						install
 librdf0:amd64					install
 libre2-3:amd64					install
 libreadline-dev:amd64				install
+libreadline5:amd64				install
 libreadline7:amd64				install
 librecode0:amd64				install
 libref-util-perl				install
@@ -2527,6 +2569,7 @@ libstoken1:amd64				install
 libstrictures-perl				install
 libstring-copyright-perl			install
 libstring-escape-perl				install
+libstring-shellquote-perl			install
 libsub-exporter-perl				install
 libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
@@ -2548,6 +2591,7 @@ libsynctex1:amd64				install
 libsys-cpu-perl					install
 libsys-hostname-long-perl			install
 libsys-sigaction-perl				install
+libsys-virt-perl				install
 libsysfs2:amd64					install
 libsysfs2:i386					deinstall
 libsystemd0:amd64				install
@@ -2616,6 +2660,7 @@ libtool						install
 libtool-bin					install
 libtry-tiny-perl				install
 libtsan0:amd64					install
+libtsk13					install
 libturbojpeg0:amd64				install
 libtwolame0:amd64				install
 libtwolame0:i386				install
@@ -2672,6 +2717,7 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex6:amd64				install
+libvirt0					install
 libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
@@ -2719,6 +2765,7 @@ libwebpmux3:i386				install
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi2:amd64				install
+libwin-hivex-perl				install
 libwireshark-data				install
 libwireshark10:amd64				install
 libwiretap7:amd64				install
@@ -2875,6 +2922,7 @@ libxml-sax-expat-perl				install
 libxml-sax-perl					install
 libxml-simple-perl				install
 libxml-twig-perl				install
+libxml-xpath-perl				install
 libxml-xpathengine-perl				install
 libxml2:amd64					install
 libxml2:i386					install
@@ -2975,6 +3023,7 @@ lsb-base					install
 lsb-release					install
 lshw						install
 lsof						install
+lsscsi						install
 ltrace						install
 lttoolbox					install
 lttoolbox-dev					install
@@ -2985,10 +3034,12 @@ lua-lgi:amd64					install
 lua-lpeg:amd64					install
 lua-socket:amd64				install
 lua5.2						install
+lvm2						install
 lynx						install
 lynx-common					install
 lynx-cur					install
 lzip						install
+lzop						install
 m17n-db						install
 m4						install
 macchanger					install
@@ -3029,6 +3080,7 @@ mscompress					install
 msp430-libc					install
 msp430mcu					install
 msva-perl					install
+mtools						install
 mtp-tools					install
 multiarch-support				install
 multistrap					install
@@ -3168,6 +3220,7 @@ openssh-sftp-server				install
 openssl						install
 oping						install
 os-prober					install
+osinfo-db					install
 oss-compat					install
 ostinato					install
 ovmf						install
@@ -3658,6 +3711,7 @@ realpath					install
 reaver						install
 recode						install
 recoll						install
+reiserfsprogs					install
 remind						install
 reportbug					install
 reprepro					install
@@ -3675,6 +3729,8 @@ rtmpdump					install
 ruby						install
 ruby-augeas					install
 ruby-bcrypt-pbkdf				install
+ruby-blankslate					install
+ruby-builder					install
 ruby-bundler					install
 ruby-childprocess				install
 ruby-debian					install
@@ -3683,13 +3739,20 @@ ruby-dev:amd64					install
 ruby-did-you-mean				install
 ruby-domain-name				install
 ruby-erubis					install
+ruby-excon					install
 ruby-ffi					install
+ruby-fog-core					install
+ruby-fog-json					install
+ruby-fog-libvirt				install
+ruby-fog-xml					install
+ruby-formatador					install
 ruby-gettext					install
 ruby-hitimes					install
 ruby-http-cookie				install
 ruby-httpclient					install
 ruby-i18n					install
 ruby-json					install
+ruby-libvirt					install
 ruby-listen					install
 ruby-locale					install
 ruby-log4r					install
@@ -3697,6 +3760,7 @@ ruby-mime-types					install
 ruby-mime-types-data				install
 ruby-minitest					install
 ruby-molinillo					install
+ruby-multi-json					install
 ruby-net-http-persistent			install
 ruby-net-scp					install
 ruby-net-sftp					install
@@ -3704,6 +3768,7 @@ ruby-net-ssh					install
 ruby-net-telnet					install
 ruby-netrc					install
 ruby-nokogiri					install
+ruby-oj						install
 ruby-pkg-config					install
 ruby-power-assert				install
 ruby-rb-inotify					install
@@ -3735,6 +3800,7 @@ schroot						install
 schroot-common					install
 screen						install
 scrot						install
+scrub						install
 scummvm						install
 scummvm-data					install
 sddm						install
@@ -3746,12 +3812,14 @@ seahorse-adventures				install
 seahorse-daemon					install
 sed						install
 sensible-utils					install
+sgabios						install
 sgml-base					install
 sgml-data					install
 shared-desktop-ontologies			install
 shared-mime-info				install
 signing-party					install
 sl						install
+sleuthkit					install
 sm						install
 smart-notifier					install
 smartmontools					install
@@ -3783,10 +3851,13 @@ strace						install
 subversion					install
 suckless-tools					install
 sudo						install
+supermin					install
 svn-buildpackage				install
 sweeper						install
 synaptic					install
 sysfsutils					install
+syslinux					install
+syslinux-common					install
 systemd						install
 systemd-sysv					install
 systemsettings					install
@@ -3877,6 +3948,7 @@ uuid-runtime					install
 va-driver-all:amd64				install
 va-driver-all:i386				install
 vagrant						install
+vagrant-libvirt					install
 vbetool						install
 vcsh						install
 vde2						install
@@ -3969,6 +4041,7 @@ xfonts-base					install
 xfonts-cyrillic					install
 xfonts-encodings				install
 xfonts-utils					install
+xfsprogs					install
 xinit						install
 xkb-data					install
 xkbset						install
@@ -4030,6 +4103,7 @@ zathura-pdf-poppler				install
 zathura-ps					install
 zenity						install
 zenity-common					install
+zerofree					install
 zip						install
 zlib1g:amd64					install
 zlib1g:i386					install
