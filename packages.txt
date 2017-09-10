@@ -937,7 +937,7 @@ libbind9-140:amd64				install
 libbinutils:amd64				install
 libbison-dev:amd64				install
 libblas-common					install
-libblas3					install
+libblas3:amd64					install
 libblkid1:amd64					install
 libblkid1:i386					install
 libblockdev-crypto2:amd64			install
@@ -1859,7 +1859,7 @@ libkxml2-java					install
 libkxmlrpcclient4				install
 liblangtag-common				install
 liblangtag1:amd64				install
-liblapack3					install
+liblapack3:amd64				install
 liblayout-java					install
 liblcms2-2:amd64				install
 liblcms2-2:i386					install
@@ -2093,7 +2093,7 @@ libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
-libopenblas-base				install
+libopenblas-base:amd64				install
 libopenconnect5:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
