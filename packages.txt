@@ -49,7 +49,6 @@ apertium-eo-fr					install
 apertium-es-ast					install
 apertium-es-ca					install
 apertium-es-gl					install
-apertium-es-it					install
 apertium-es-pt					install
 apertium-eu-en					install
 apertium-fr-es					install
@@ -936,7 +935,6 @@ libbfio1					install
 libbind9-140:amd64				install
 libbinutils:amd64				install
 libbison-dev:amd64				install
-libblas-common					install
 libblas3:amd64					install
 libblkid1:amd64					install
 libblkid1:i386					install
@@ -2089,7 +2087,6 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokularcore7					install
-libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
@@ -2690,7 +2687,6 @@ libusb-1.0-doc					install
 libusbmuxd-tools				install
 libusbmuxd4:amd64				install
 libusbredirparser1:amd64			install
-libustr-1.0-1:amd64				install
 libutempter0:amd64				install
 libuuid-perl					install
 libuuid1:amd64					install
@@ -2980,7 +2976,6 @@ libyaml-0-2:amd64				install
 libyaml-dev:amd64				install
 libyaml-libyaml-perl				install
 libyaml-perl					install
-libyaml-snake-java				install
 libyaml-tiny-perl				install
 libzbar0:amd64					install
 libzephyr4:amd64				install
@@ -3881,7 +3876,6 @@ tesseract-ocr					install
 tesseract-ocr-eng				install
 tesseract-ocr-equ				install
 tesseract-ocr-osd				install
-testng						install
 tex-common					install
 texlive-base					install
 texlive-binaries				install
