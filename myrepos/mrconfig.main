@@ -573,3 +573,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/apertium-tur]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-tur.git' 'apertium-tur'
+
+[development/debian/packages/apertium/apertium-cat-srd]
+checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-cat-srd.git' 'apertium-cat-srd'
