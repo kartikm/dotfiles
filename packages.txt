@@ -153,6 +153,7 @@ bluez						install
 bluez-obexd					install
 breeze						install
 breeze-cursor-theme				install
+breeze-gtk-theme				install
 breeze-icon-theme				install
 bsd-mailx					install
 bsdiff						install
@@ -1772,6 +1773,7 @@ libkf5peoplebackend5:amd64			install
 libkf5peoplewidgets5:amd64			install
 libkf5plasma5:amd64				install
 libkf5plasmaquick5:amd64			install
+libkf5prison5:amd64				install
 libkf5pty-data					install
 libkf5pty5:amd64				install
 libkf5quickaddons5:amd64			install
@@ -3103,7 +3105,7 @@ netcat-traditional				install
 netdiag						install
 netpbm						install
 netsniff-ng					install
-nettle-dev					install
+nettle-dev:amd64				install
 network-manager					install
 network-manager-pptp				install
 network-manager-vpnc				install
@@ -3635,6 +3637,7 @@ qdbus						install
 qdbus-qt5					install
 qemu						install
 qemu-efi					install
+qemu-efi-aarch64				install
 qemu-slof					install
 qemu-system					install
 qemu-system-arm					install
@@ -3656,6 +3659,7 @@ qml-module-org-kde-kcoreaddons:amd64		install
 qml-module-org-kde-kholidays:amd64		install
 qml-module-org-kde-kio:amd64			install
 qml-module-org-kde-kirigami			install
+qml-module-org-kde-kirigami2			install
 qml-module-org-kde-kquickcontrols:amd64		install
 qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
