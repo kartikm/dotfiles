@@ -3532,6 +3532,7 @@ python-toro					install
 python-traceback2				install
 python-traitlets				install
 python-tweepy					install
+python-typing					install
 python-tz					install
 python-unittest2				install
 python-uritemplate				install
