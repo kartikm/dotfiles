@@ -863,6 +863,7 @@ libassuan0:amd64				install
 libasyncns0:amd64				install
 libasyncns0:i386				install
 libatasmart4:amd64				install
+libatinject-jsr330-api-java			install
 libatk-bridge2.0-0:amd64			install
 libatk-wrapper-java				install
 libatk-wrapper-java-jni:amd64			install
@@ -1069,6 +1070,7 @@ libcommons-discovery-java			install
 libcommons-httpclient-java			install
 libcommons-io-java				install
 libcommons-lang-java				install
+libcommons-lang3-java				install
 libcommons-logging-java				install
 libcommons-net-java				install
 libcommons-parent-java				install
@@ -1284,7 +1286,9 @@ libfltk1.3:amd64				install
 libfluidsynth1:amd64				install
 libflute-java					install
 libfont-afm-perl				install
+libfontawesomefx-java				install
 libfontbox-java					install
+libfontbox2-java				install
 libfontconfig1:amd64				install
 libfontconfig1:i386				install
 libfontconfig1-dev:amd64			install
@@ -1345,7 +1349,10 @@ libgeos-3.5.1					install
 libgeos-c1v5					install
 libgeotiff2:amd64				install
 libgeronimo-jms-1.1-spec-java			install
+libgeronimo-osgi-support-java			install
+libgeronimo-validation-1.0-spec-java		install
 libgetopt-long-descriptive-perl			install
+libgettext-commons-java				install
 libgettextpo-dev:amd64				install
 libgettextpo0:amd64				install
 libgexiv2-2:amd64				install
@@ -1441,7 +1448,7 @@ libgraphicsmagick++-q16-12			install
 libgraphicsmagick-q16-3				install
 libgraphite2-3:amd64				install
 libgraphite2-3:i386				install
-libgraphite2-dev				install
+libgraphite2-dev:amd64				install
 libgravatar-url-perl				install
 libgroupsock8:amd64				install
 libgs9:amd64					install
@@ -1502,6 +1509,7 @@ libhfst49					install
 libhfst49-dbgsym				install
 libhfst49-dev					install
 libhfstospell9:amd64				install
+libhibernate-validator-java			install
 libhivex0:amd64					install
 libhogweed4:amd64				install
 libhogweed4:i386				install
@@ -1555,6 +1563,7 @@ libiksemel-dev:amd64				install
 libiksemel3:amd64				install
 libilmbase12:amd64				install
 libimage-exiftool-perl				install
+libimgscalr-java				install
 libimlib2:amd64					install
 libimobiledevice6:amd64				install
 libimport-into-perl				install
@@ -1597,6 +1606,8 @@ libitm1:amd64					install
 libiw30:amd64					install
 libjack-jackd2-0:amd64				install
 libjack-jackd2-0:i386				install
+libjackson2-core-java				install
+libjackson2-jr-java				install
 libjansi-java					install
 libjansi-native-java				install
 libjansson4:amd64				install
@@ -1609,6 +1620,7 @@ libjbig-dev:amd64				install
 libjbig0:amd64					install
 libjbig0:i386					install
 libjbig2dec0:amd64				install
+libjboss-logging-java				install
 libjcommander-java				install
 libjcommon-java					install
 libjcsp-java					install
@@ -1892,6 +1904,7 @@ liblockfile1:amd64				install
 liblog-message-perl				install
 liblog-message-simple-perl			install
 liblog4j1.2-java				install
+liblogback-java					install
 liblogging-stdlog0:amd64			install
 liblognorm5:amd64				install
 libloudmouth1-0:amd64				install
@@ -2107,6 +2120,8 @@ libopencv-objdetect2.4v5:amd64			install
 libopencv-video2.4v5:amd64			install
 libopenexr22:amd64				install
 libopengl0:amd64				install
+libopenjfx-java					install
+libopenjfx-jni					install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
 libopenmpt-modplug1:amd64			install
@@ -2122,6 +2137,9 @@ liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.12-0:amd64				install
 liboro-java					install
+libosgi-annotation-java				install
+libosgi-compendium-java				install
+libosgi-core-java				install
 libosp5						install
 libossp-uuid-perl				install
 libossp-uuid16:amd64				install
@@ -2433,6 +2451,7 @@ librygel-renderer-2.6-2				install
 librygel-server-2.6-2				install
 libsac-java					install
 libsac-java-gcj					install
+libsambox-java					install
 libsamplerate0:amd64				install
 libsamplerate0:i386				install
 libsane:amd64					install
@@ -2464,6 +2483,10 @@ libsearch-xapian-perl				install
 libseccomp2:amd64				install
 libsecret-1-0:amd64				install
 libsecret-common				install
+libsejda-eventstudio-java			install
+libsejda-injector-java				install
+libsejda-io-java				install
+libsejda-java					install
 libselinux1:amd64				install
 libselinux1:i386				install
 libselinux1-dev:amd64				install
@@ -2492,6 +2515,7 @@ libsigsegv2:amd64				install
 libslang2:amd64					install
 libslang2:i386					install
 libslang2-dev:amd64				install
+libslf4j-java					install
 libsm-dev:amd64					install
 libsm6:amd64					install
 libsm6:i386					install
@@ -2660,6 +2684,7 @@ libtry-tiny-perl				install
 libtsan0:amd64					install
 libtsk13					install
 libturbojpeg0:amd64				install
+libtwelvemonkeys-java				install
 libtwolame0:amd64				install
 libtwolame0:i386				install
 libtype-tiny-perl				install
@@ -2999,8 +3024,11 @@ linux-base					install
 linux-compiler-gcc-6-x86			install
 linux-headers-4.12.0-1-amd64			install
 linux-headers-4.12.0-1-common			install
+linux-headers-4.12.0-2-amd64			install
+linux-headers-4.12.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.12.0-1-amd64			install
+linux-image-4.12.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.12				install
 linux-libc-dev:amd64				install
@@ -3208,6 +3236,7 @@ openjdk-8-jdk:amd64				install
 openjdk-8-jdk-headless:amd64			install
 openjdk-8-jre:amd64				install
 openjdk-8-jre-headless:amd64			install
+openjfx						install
 opensc						install
 opensc-pkcs11:amd64				install
 opensp						install
