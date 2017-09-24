@@ -620,7 +620,6 @@ hdparm						install
 help2man					install
 hfsplus						install
 hfst						install
-hfst-dbgsym					install
 hfst-ospell					install
 hicolor-icon-theme				install
 hiera						install
@@ -1363,7 +1362,6 @@ libgimp2.0					install
 libgirara-gtk3-2:amd64				install
 libgirepository-1.0-1:amd64			install
 libgit-wrapper-perl				install
-libgit2-24:amd64				install
 libgit2-26:amd64				install
 libgl1:amd64					install
 libgl1:i386					install
@@ -1507,7 +1505,6 @@ libhdf4-0-alt					install
 libhdf5-100:amd64				install
 libhfsp0					install
 libhfst49					install
-libhfst49-dbgsym				install
 libhfst49-dev					install
 libhfstospell9:amd64				install
 libhibernate-validator-java			install
@@ -1626,8 +1623,6 @@ libjcommander-java				install
 libjcommon-java					install
 libjcsp-java					install
 libjdom1-java					install
-libjgoodies-common-java				install
-libjgoodies-looks-java				install
 libjim0.77:amd64				install
 libjline-java					install
 libjline2-java					install
@@ -1865,9 +1860,9 @@ libksignalplotter7				install
 libktexteditor4					install
 libkwalletbackend5-5:amd64			install
 libkwin4-effect-builtins1			install
-libkwineffects9					install
-libkwinglutils9					install
-libkwinxrenderutils9				install
+libkwineffects11				install
+libkwinglutils11				install
+libkwinxrenderutils11				install
 libkworkspace5-5				install
 libkxml2-java					install
 libkxmlrpcclient4				install
