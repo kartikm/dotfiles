@@ -18,6 +18,7 @@ akonadi-backend-mysql				install
 akonadi-server					install
 alsa-utils					install
 amd64-microcode					install
+an						install
 anacron						install
 ant						install
 ant-optional					install
