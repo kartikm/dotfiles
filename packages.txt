@@ -948,7 +948,7 @@ libblockdev-part2:amd64				install
 libblockdev-swap2:amd64				install
 libblockdev-utils2:amd64			install
 libblockdev2:amd64				install
-libbluetooth-dev				install
+libbluetooth-dev:amd64				install
 libbluetooth3:amd64				install
 libbluray2:amd64				install
 libbonobo2-0:amd64				install
@@ -2472,7 +2472,7 @@ libsdl1.2-dev					install
 libsdl1.2debian:amd64				install
 libsdl1.2debian:i386				install
 libsdl2-2.0-0:amd64				install
-libsdl2-dev					install
+libsdl2-dev:amd64				install
 libsdl2-image-2.0-0:amd64			install
 libsearch-xapian-perl				install
 libseccomp2:amd64				install
