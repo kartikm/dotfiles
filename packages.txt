@@ -352,8 +352,7 @@ firebird3.0-common				install
 firebird3.0-common-doc				install
 firebird3.0-server-core:amd64			install
 firebird3.0-utils				install
-firefox-esr					install
-firefox-esr-l10n-gu-in				install
+firefox						install
 firmware-amd-graphics				install
 firmware-linux					install
 firmware-linux-free				install
@@ -638,7 +637,6 @@ icc-profiles-free				install
 icedove						install
 icedtea-netx-common				install
 iceowl-extension				install
-iceweasel					install
 icoutils					install
 icu-devtools					install
 ieee-data					install
