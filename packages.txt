@@ -557,7 +557,7 @@ gnupg-agent					install
 gnupg-l10n					install
 gnupg-utils					install
 gnupg1						install
-gnupg1-curl					install
+gnupg1-curl					deinstall
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
@@ -1226,7 +1226,6 @@ libestr0					install
 libetonyek-0.1-1:amd64				install
 libeval-closure-perl				install
 libevdev2:amd64					install
-libevent-2.0-5:amd64				install
 libevent-2.1-6:amd64				install
 libevent-core-2.0-5:amd64			install
 libewf2						install
@@ -1347,7 +1346,6 @@ libgeos-3.5.1					install
 libgeos-c1v5					install
 libgeotiff2:amd64				install
 libgeronimo-jms-1.1-spec-java			install
-libgeronimo-osgi-support-java			install
 libgeronimo-validation-1.0-spec-java		install
 libgetopt-long-descriptive-perl			install
 libgettext-commons-java				install
@@ -1390,8 +1388,8 @@ libgltf-0.1-1:amd64				install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev:amd64				install
-libglvnd-core-dev				install
-libglvnd-dev					install
+libglvnd-core-dev:amd64				install
+libglvnd-dev:amd64				install
 libglvnd0:amd64					install
 libglvnd0:i386					install
 libglx-mesa0:amd64				install
@@ -2132,9 +2130,6 @@ liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.12-0:amd64				install
 liboro-java					install
-libosgi-annotation-java				install
-libosgi-compendium-java				install
-libosgi-core-java				install
 libosp5						install
 libossp-uuid-perl				install
 libossp-uuid16:amd64				install
@@ -3935,7 +3930,6 @@ ttf-bitstream-vera				install
 ttf-dejavu					install
 ttf-dejavu-core					install
 ttf-dejavu-extra				install
-ttf-freefont					install
 ttfautohint					install
 tuxpaint					install
 tuxpaint-config					install
