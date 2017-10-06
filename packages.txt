@@ -3016,11 +3016,15 @@ linux-headers-4.12.0-1-amd64			install
 linux-headers-4.12.0-1-common			install
 linux-headers-4.12.0-2-amd64			install
 linux-headers-4.12.0-2-common			install
+linux-headers-4.13.0-1-amd64			install
+linux-headers-4.13.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.12.0-1-amd64			install
 linux-image-4.12.0-2-amd64			install
+linux-image-4.13.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.12				install
+linux-kbuild-4.13				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
