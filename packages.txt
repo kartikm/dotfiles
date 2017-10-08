@@ -672,7 +672,6 @@ ipython						install
 ipython3					install
 irqbalance					install
 irssi						install
-irssi-plugin-xmpp				install
 irssi-scripts					install
 isc-dhcp-client					install
 isc-dhcp-common					install
