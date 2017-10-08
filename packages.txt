@@ -3012,14 +3012,12 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-6-x86			install
-linux-headers-4.12.0-1-amd64			install
-linux-headers-4.12.0-1-common			install
 linux-headers-4.12.0-2-amd64			install
 linux-headers-4.12.0-2-common			install
 linux-headers-4.13.0-1-amd64			install
 linux-headers-4.13.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.12.0-1-amd64			install
+linux-image-4.12.0-1-amd64			deinstall
 linux-image-4.12.0-2-amd64			install
 linux-image-4.13.0-1-amd64			install
 linux-image-amd64				install
