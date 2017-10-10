@@ -1116,6 +1116,7 @@ libdaemon0:amd64				install
 libdap25:amd64					install
 libdapclient6v5:amd64				install
 libdapserver7v5:amd64				install
+libdata-dump-perl				install
 libdata-entropy-perl				install
 libdata-float-perl				install
 libdata-integer-perl				install
@@ -1221,7 +1222,7 @@ libepub0					install
 liberror-perl					install
 libesd0:amd64					install
 libesd0:i386					install
-libestr0					install
+libestr0:amd64					install
 libetonyek-0.1-1:amd64				install
 libeval-closure-perl				install
 libevdev2:amd64					install
