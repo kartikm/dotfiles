@@ -344,6 +344,7 @@ fakeroot					install
 faketime					install
 fdisk						install
 feh						install
+ffmpeg						install
 figlet						install
 file						install
 filelight					install
@@ -906,6 +907,7 @@ libavc1394-0:amd64				install
 libavcodec-dev:amd64				install
 libavcodec57:amd64				install
 libavcodec57:i386				install
+libavdevice57:amd64				install
 libavfilter6:amd64				install
 libavformat-dev:amd64				install
 libavformat57:amd64				install
@@ -1016,6 +1018,8 @@ libccolamd2:amd64				install
 libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
+libcdio-cdda1:amd64				install
+libcdio-paranoia1:amd64				install
 libcdio13:amd64					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1:amd64				install
