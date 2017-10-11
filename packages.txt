@@ -38,6 +38,7 @@ apertium-br-fr					install
 apertium-ca-it					install
 apertium-cat					install
 apertium-crh					install
+apertium-crh-tur				install
 apertium-cy-en					install
 apertium-dan					install
 apertium-dan-nor				install
