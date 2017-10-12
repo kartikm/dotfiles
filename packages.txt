@@ -2286,6 +2286,8 @@ libpython3.5:amd64				install
 libpython3.5-dev:amd64				install
 libpython3.5-minimal:amd64			install
 libpython3.5-stdlib:amd64			install
+libpython3.6:amd64				install
+libpython3.6-dev:amd64				install
 libpython3.6-minimal:amd64			install
 libpython3.6-stdlib:amd64			install
 libqalculate5-data				install
@@ -3660,6 +3662,7 @@ python3.5					install
 python3.5-dev					install
 python3.5-minimal				install
 python3.6					install
+python3.6-dev					install
 python3.6-minimal				install
 qdbus						install
 qdbus-qt5					install
