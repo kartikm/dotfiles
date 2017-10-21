@@ -116,7 +116,6 @@ alias mkdir='nocorrect mkdir'   # no spelling correction on mkdir
 alias vi='vim'                  # Vi IMproved
 alias rm='nocorrect rm -i'      # interactive RM
 alias l="ls -GlAh --color"
-alias ls="ls --color=auto -Fh --group-directories-first"
 alias latest="ls -lct1"
 alias lt="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias clls="clear;ls -Glah --color"
