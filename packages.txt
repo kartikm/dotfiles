@@ -315,6 +315,7 @@ dwdiff						install
 dynamite					install
 e2fslibs:amd64					install
 e2fsprogs					install
+e2fsprogs-l10n					install
 easy-rsa					install
 eatmydata					install
 ed						install
@@ -3279,6 +3280,8 @@ openjdk-8-jdk-headless:amd64			install
 openjdk-8-jre:amd64				install
 openjdk-8-jre-headless:amd64			install
 openjfx						install
+openmpi-bin					install
+openmpi-common					install
 opensc						install
 opensc-pkcs11:amd64				install
 opensp						install
