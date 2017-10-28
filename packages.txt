@@ -533,6 +533,7 @@ gir1.2-glib-2.0:amd64				install
 gir1.2-gmime-2.6:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0:amd64				install
+gir1.2-harfbuzz-0.0				install
 gir1.2-ibus-1.0:amd64				install
 gir1.2-notify-0.7:amd64				install
 gir1.2-packagekitglib-1.0			install
@@ -605,6 +606,7 @@ gstreamer1.0-plugins-bad:amd64			install
 gstreamer1.0-plugins-base:amd64			install
 gstreamer1.0-plugins-good:amd64			install
 gstreamer1.0-plugins-ugly:amd64			install
+gstreamer1.0-pulseaudio:amd64			install
 gstreamer1.0-x:amd64				install
 gtk-update-icon-cache				install
 gtk2-engines-pixbuf:amd64			install
@@ -796,6 +798,7 @@ lib32mpx2					install
 lib32quadmath0					install
 lib32stdc++6					install
 lib32ubsan0					install
+lib32z1						install
 liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
@@ -920,7 +923,7 @@ libavutil55:i386				install
 libaxis-java					install
 libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl			install
-libbabeltrace-ctf1:amd64			install
+libbabeltrace-ctf1				install
 libbabeltrace1:amd64				install
 libbabl-0.1-0:amd64				install
 libbaloocore4					install
@@ -937,6 +940,7 @@ libbcprov-java					install
 libbdplus0:amd64				install
 libbfio1					install
 libbind9-140:amd64				install
+libbind9-141:amd64				install
 libbinutils:amd64				install
 libbison-dev:amd64				install
 libblas3:amd64					install
@@ -1033,6 +1037,7 @@ libcgi-pm-perl					install
 libcgi-session-perl				install
 libcglib-java					install
 libcgraph6					install
+libcharls1:amd64				install
 libchm-bin					install
 libchm-dev					install
 libchm1						install
@@ -1179,7 +1184,9 @@ libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export162				install
+libdns-export190				install
 libdns162:amd64					install
+libdns190:amd64					install
 libdolphinvcs5:amd64				install
 libdom4j-java					install
 libdouble-conversion1:amd64			install
@@ -1249,6 +1256,7 @@ libexporter-tiny-perl				install
 libexttextcat-2.0-0:amd64			install
 libexttextcat-data				install
 libfaad2:amd64					install
+libfabric1					install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
 libfaketime:amd64				install
@@ -1338,6 +1346,7 @@ libgd3:amd64					install
 libgdal20					install
 libgdbm-dev:amd64				install
 libgdbm3:amd64					install
+libgdcm2.8:amd64				install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-bin				install
 libgdk-pixbuf2.0-common				install
@@ -1373,6 +1382,7 @@ libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
 libgl1-mesa-glx:amd64				install
 libgl1-mesa-glx:i386				install
+libgl2ps1.4					install
 libglade2-0:amd64				install
 libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
@@ -1506,6 +1516,7 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
+libhdf5-openmpi-100:amd64			install
 libhfsp0					install
 libhfst49					install
 libhfst49-dev					install
@@ -1536,10 +1547,13 @@ libhttpclient-java				install
 libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.6-0:amd64				install
+libhwloc-plugins				install
+libhwloc5:amd64					install
 libhyphen0:amd64				install
 libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
+libibverbs1					install
 libical-dev:amd64				install
 libical2:amd64					install
 libice-dev:amd64				install
@@ -1594,9 +1608,12 @@ libipc-run-perl					install
 libipc-system-simple-perl			install
 libiptc0:amd64					install
 libisc-export160				install
+libisc-export189:amd64				install
 libisc160:amd64					install
+libisc189:amd64					install
 libisccc140:amd64				install
 libisccfg140:amd64				install
+libisccfg144:amd64				install
 libisl15:amd64					install
 libiso9660-8:amd64				install
 libisoburn1:amd64				install
@@ -2044,6 +2061,7 @@ libnet-smtp-ssl-perl				install
 libnet-ssleay-perl				install
 libnet1:amd64					install
 libnet1-dev					install
+libnetcdf-c++4					install
 libnetcdf11					install
 libnetfilter-conntrack-dev:amd64		install
 libnetfilter-conntrack3:amd64			install
@@ -2110,19 +2128,38 @@ libopenconnect5:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
 libopencv-calib3d2.4v5:amd64			install
+libopencv-calib3d3.2:amd64			install
+libopencv-contrib3.2:amd64			install
 libopencv-core2.4v5:amd64			install
+libopencv-core3.2:amd64				install
 libopencv-features2d2.4v5:amd64			install
+libopencv-features2d3.2:amd64			install
 libopencv-flann2.4v5:amd64			install
+libopencv-flann3.2:amd64			install
 libopencv-highgui2.4-deb0:amd64			install
+libopencv-highgui3.2:amd64			install
+libopencv-imgcodecs3.2:amd64			install
 libopencv-imgproc2.4v5:amd64			install
+libopencv-imgproc3.2:amd64			install
+libopencv-ml3.2:amd64				install
 libopencv-objdetect2.4v5:amd64			install
+libopencv-objdetect3.2:amd64			install
+libopencv-photo3.2:amd64			install
+libopencv-shape3.2:amd64			install
+libopencv-stitching3.2:amd64			install
+libopencv-superres3.2:amd64			install
 libopencv-video2.4v5:amd64			install
+libopencv-video3.2:amd64			install
+libopencv-videoio3.2:amd64			install
+libopencv-videostab3.2:amd64			install
+libopencv-viz3.2:amd64				install
 libopenexr22:amd64				install
 libopengl0:amd64				install
 libopenjfx-java					install
 libopenjfx-jni					install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
+libopenmpi2:amd64				install
 libopenmpt-modplug1:amd64			install
 libopenmpt0:amd64				install
 libopenobex2					install
@@ -2260,6 +2297,7 @@ libprotoc10:amd64				install
 libproxy-tools					install
 libproxy1v5:amd64				install
 libpsl5:amd64					install
+libpsm-infinipath1				install
 libpspell-dev:amd64				install
 libptexenc1:amd64				install
 libpth-dev					install
@@ -2385,6 +2423,7 @@ libraw16:amd64					install
 librcc0						install
 librcd0						install
 librdf0:amd64					install
+librdmacm1					install
 libre2-3:amd64					install
 libreadline-dev:amd64				install
 libreadline5:amd64				install
@@ -2528,6 +2567,7 @@ libsndio-dev:amd64				install
 libsndio6.1:amd64				install
 libsndio6.1:i386				install
 libsoap-lite-perl				install
+libsocket++1:amd64				install
 libsocket6-perl					install
 libsodium-dev:amd64				install
 libsodium18:amd64				install
@@ -2761,6 +2801,7 @@ libvpx4:amd64					install
 libvpx4:i386					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
+libvtk6.3					install
 libvulkan1:amd64				install
 libwacom-bin					install
 libwacom-common					install
@@ -3224,6 +3265,7 @@ ntp						install
 ntpdate						install
 ntrack-module-libnl-0				install
 obexpushd					install
+ocl-icd-libopencl1:amd64			install
 odbcinst					install
 odbcinst1debian2:amd64				install
 odbcinst1debian2:i386				install
