@@ -1455,6 +1455,7 @@ libgphoto2-port12:amd64				install
 libgpm2:amd64					install
 libgpm2:i386					install
 libgps22:amd64					install
+libgps23:amd64					install
 libgrantlee-templates5				install
 libgraph-perl					install
 libgraphicsmagick++-q16-12			install
@@ -2064,6 +2065,7 @@ libnet1:amd64					install
 libnet1-dev					install
 libnetcdf-c++4					install
 libnetcdf11					install
+libnetcdf13					install
 libnetfilter-conntrack-dev:amd64		install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
@@ -3498,6 +3500,7 @@ python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-enum34					install
 python-extras					install
+python-fasteners				install
 python-feedparser				install
 python-fixtures					install
 python-fontforge				install
@@ -3539,6 +3542,7 @@ python-markupsafe				install
 python-matplotlib-data				install
 python-mimeparse				install
 python-minimal					install
+python-monotonic				install
 python-mysqldb					install
 python-nose					install
 python-notify					install
@@ -3773,7 +3777,7 @@ qtchooser					install
 qtcore4-l10n					install
 qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
-qttools5-dev-tools:amd64			install
+qttools5-dev-tools				install
 qttranslations5-l10n				install
 quake3						install
 quake3-data					install
