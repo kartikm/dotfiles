@@ -2391,6 +2391,7 @@ libqt5quicktemplates2-5:amd64			install
 libqt5quicktest5:amd64				install
 libqt5quickwidgets5:amd64			install
 libqt5script5:amd64				install
+libqt5sensors5:amd64				install
 libqt5sql5:amd64				install
 libqt5sql5-mysql:amd64				install
 libqt5sql5-sqlite:amd64				install
@@ -3764,6 +3765,7 @@ qt4-qmake					install
 qt5-gtk-platformtheme:amd64			install
 qt5-image-formats-plugins:amd64			install
 qt5-qmake:amd64					install
+qt5-qmake-bin					install
 qt5-qmltooling-plugins:amd64			install
 qtbase5-dev:amd64				install
 qtbase5-dev-tools				install
