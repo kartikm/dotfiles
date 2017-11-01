@@ -198,3 +198,6 @@ checkout = git clone 'https://gerrit.wikimedia.org/r/oojs/ui' 'ui'
 
 [Wikibase]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/Wikibase' 'Wikibase'
+
+[parsoid/parsoid]
+checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid' 'parsoid'
