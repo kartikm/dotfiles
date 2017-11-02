@@ -102,7 +102,6 @@ apt-cacher-ng					install
 apt-file					install
 apt-listbugs					install
 apt-listchanges					install
-apt-transport-https				install
 apt-utils					install
 aptitude					install
 aptitude-common					install
@@ -1430,7 +1429,7 @@ libgnomevfs2-0:amd64				install
 libgnomevfs2-common				install
 libgnomevfs2-extra:amd64			install
 libgnupg-interface-perl				install
-libgnustep-base1.24				install
+libgnustep-base1.25				install
 libgnutls-dane0:amd64				install
 libgnutls-openssl27:amd64			install
 libgnutls28-dev:amd64				install
