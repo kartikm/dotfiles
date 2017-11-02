@@ -101,7 +101,7 @@ apt						install
 apt-cacher-ng					install
 apt-file					install
 apt-listbugs					install
-apt-listchanges					install
+apt-listchanges					deinstall
 apt-utils					install
 aptitude					install
 aptitude-common					install
