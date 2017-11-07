@@ -3691,6 +3691,7 @@ python3-tz					install
 python3-unidiff					install
 python3-uno					install
 python3-urllib3					install
+python3-virtualenv				install
 python3-wcwidth					install
 python3-webencodings				install
 python3-wheel					install
@@ -4036,6 +4037,7 @@ virt-what					install
 virtualbox					install
 virtualbox-dkms					install
 virtualbox-qt					install
+virtualenv					install
 vlc						install
 vlc-bin						install
 vlc-data					install
