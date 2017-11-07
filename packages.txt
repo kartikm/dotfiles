@@ -2749,10 +2749,16 @@ libv4l-0:amd64					install
 libv4lconvert0:amd64				install
 libva-drm1:amd64				install
 libva-drm1:i386					install
+libva-drm2:amd64				install
+libva-drm2:i386					install
 libva-x11-1:amd64				install
 libva-x11-1:i386				install
+libva-x11-2:amd64				install
+libva-x11-2:i386				install
 libva1:amd64					install
 libva1:i386					install
+libva2:amd64					install
+libva2:i386					install
 libvariable-magic-perl				install
 libvcdinfo0					install
 libvde0						install
@@ -3079,6 +3085,7 @@ lttoolbox					install
 lttoolbox-dev					install
 lua-bitop:amd64					install
 lua-expat:amd64					install
+lua-filesystem:amd64				install
 lua-json					install
 lua-lgi:amd64					install
 lua-lpeg:amd64					install
@@ -3953,6 +3960,7 @@ texlive-latex-base				install
 texlive-latex-base-doc				install
 texlive-latex-recommended			install
 texlive-latex-recommended-doc			install
+thin-provisioning-tools				install
 thunderbird					install
 time						install
 timgm6mb-soundfont				install
