@@ -1385,7 +1385,6 @@ libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libgles2:amd64					install
-libgles2-mesa:amd64				install
 libgles2-mesa-dev:amd64				install
 libglew2.0:amd64				install
 libglib-perl					install
@@ -2307,8 +2306,7 @@ libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
 libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
-libpython3.5-minimal:amd64			install
-libpython3.5-stdlib:amd64			install
+libpython3.5-minimal:amd64			deinstall
 libpython3.6:amd64				install
 libpython3.6-dev:amd64				install
 libpython3.6-minimal:amd64			install
@@ -2747,8 +2745,6 @@ libuv1:amd64					install
 libuv1-dev:amd64				install
 libv4l-0:amd64					install
 libv4lconvert0:amd64				install
-libva-drm1:amd64				install
-libva-drm1:i386					install
 libva-drm2:amd64				install
 libva-drm2:i386					install
 libva-x11-1:amd64				install
@@ -3697,8 +3693,7 @@ python3-webencodings				install
 python3-wheel					install
 python3-xdg					install
 python3-yaml					install
-python3.5					install
-python3.5-minimal				install
+python3.5-minimal				deinstall
 python3.6					install
 python3.6-dev					install
 python3.6-minimal				install
