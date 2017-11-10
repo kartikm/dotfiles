@@ -1096,6 +1096,7 @@ libcppunit-dev					install
 libcpufreq0					install
 libcrack2:amd64					install
 libcroco3:amd64					install
+libcroco3:i386					install
 libcrypt-des-perl				install
 libcrypt-dh-gmp-perl				install
 libcrypt-eksblowfish-perl			install
@@ -1345,6 +1346,7 @@ libgdbm-dev:amd64				install
 libgdbm3:amd64					install
 libgdcm2.8:amd64				install
 libgdk-pixbuf2.0-0:amd64			install
+libgdk-pixbuf2.0-0:i386				install
 libgdk-pixbuf2.0-bin				install
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
@@ -2022,6 +2024,7 @@ libmtp9:amd64					install
 libmultidimensional-perl			install
 libmultiverse-core-java				install
 libmwaw-0.3-3:amd64				install
+libmysofa0					install
 libmysql-java					install
 libmysqlclient-dev				install
 libmysqlclient20:amd64				install
@@ -2193,6 +2196,7 @@ libpango-perl					install
 libpango1.0-0:amd64				install
 libpango1.0-dev					install
 libpangocairo-1.0-0:amd64			install
+libpangocairo-1.0-0:i386			install
 libpangoft2-1.0-0:amd64				install
 libpangoft2-1.0-0:i386				install
 libpangomm-1.4-1v5:amd64			install
@@ -2459,6 +2463,7 @@ librpc-xml-perl					install
 librpm3						install
 librpmio3					install
 librsvg2-2:amd64				install
+librsvg2-2:i386					install
 librsvg2-bin					install
 librsvg2-common:amd64				install
 librtmp1:amd64					install
@@ -2685,6 +2690,7 @@ libtidy5					install
 libtie-ixhash-perl				install
 libtiff-tools					install
 libtiff5:amd64					install
+libtiff5:i386					install
 libtiff5-dev:amd64				install
 libtiffxx5:amd64				install
 libtimedate-perl				install
