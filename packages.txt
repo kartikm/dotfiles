@@ -2466,6 +2466,7 @@ librsvg2-2:amd64				install
 librsvg2-2:i386					install
 librsvg2-bin					install
 librsvg2-common:amd64				install
+librsvg2-common:i386				install
 librtmp1:amd64					install
 librubberband2:amd64				install
 libruby2.3:amd64				install
