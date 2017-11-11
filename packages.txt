@@ -844,6 +844,7 @@ libarchive-tools				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
 libarmadillo7					install
+libarmadillo8					install
 libarpack2:amd64				install
 libart-2.0-2:amd64				install
 libasan2:amd64					install
