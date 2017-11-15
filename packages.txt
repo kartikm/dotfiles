@@ -638,6 +638,7 @@ hyphen-gu					install
 i965-va-driver:amd64				install
 i965-va-driver:i386				install
 iamerican					install
+ibverbs-providers:amd64				install
 icc-profiles-free				install
 icedove						install
 icedtea-netx-common				install
@@ -1541,6 +1542,7 @@ libhttp-lite-perl				install
 libhttp-message-perl				install
 libhttp-negotiate-perl				install
 libhttp-parser2.1:amd64				install
+libhttp-parser2.7.1:amd64			install
 libhttp-server-simple-perl			install
 libhttpclient-java				install
 libhttpcore-java				install
@@ -1552,7 +1554,7 @@ libhyphen0:amd64				install
 libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
-libibverbs1					install
+libibverbs1:amd64				install
 libical-dev:amd64				install
 libical2:amd64					install
 libice-dev:amd64				install
