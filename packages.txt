@@ -1025,8 +1025,11 @@ libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
 libcdio-cdda1:amd64				install
+libcdio-cdda2:amd64				install
 libcdio-paranoia1:amd64				install
+libcdio-paranoia2:amd64				install
 libcdio13:amd64					install
+libcdio16:amd64					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1:amd64				install
 libcdt5						install
@@ -1613,6 +1616,7 @@ libisc189:amd64					install
 libisccc140:amd64				install
 libisccfg144:amd64				install
 libisl15:amd64					install
+libiso9660-10:amd64				install
 libiso9660-8:amd64				install
 libisoburn1:amd64				install
 libisofs6:amd64					install
@@ -2099,6 +2103,7 @@ libnpth0:amd64					install
 libnspr4:amd64					install
 libnspr4:i386					install
 libnss-mdns:amd64				install
+libnss-systemd:amd64				install
 libnss3:amd64					install
 libntfs-3g872					install
 libntrack-qt4-1					install
@@ -2768,7 +2773,7 @@ libva1:i386					install
 libva2:amd64					install
 libva2:i386					install
 libvariable-magic-perl				install
-libvcdinfo0					install
+libvcdinfo0:amd64				install
 libvde0						install
 libvdeplug2					install
 libvdpau-va-gl1:i386				install
