@@ -95,6 +95,7 @@ apertium-tur					install
 apertium-urd					install
 apertium-urd-hin				install
 apg						install
+apparmor					install
 apparmor-easyprof				install
 appstream					install
 apt						install
@@ -1572,7 +1573,7 @@ libidn11:amd64					install
 libidn11-dev					install
 libidn2-0:amd64					install
 libidn2-0:i386					install
-libidn2-0-dev:amd64				install
+libidn2-0-dev					install
 libidn2-dev:amd64				install
 libiec61883-0:amd64				install
 libieee1284-3:amd64				install
@@ -2952,6 +2953,7 @@ libxdot4					install
 libxen-4.8:amd64				install
 libxenstore3.0:amd64				install
 libxerces-c3.1:amd64				install
+libxerces-c3.2:amd64				install
 libxerces2-java					install
 libxext-dev:amd64				install
 libxext6:amd64					install
