@@ -845,7 +845,6 @@ libarchive-extract-perl				install
 libarchive-tools				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
-libarmadillo7					install
 libarmadillo8					install
 libarpack2:amd64				install
 libart-2.0-2:amd64				install
@@ -1025,11 +1024,8 @@ libccolamd2:amd64				install
 libcdb-dev					install
 libcdb1:amd64					install
 libcddb2					install
-libcdio-cdda1:amd64				install
 libcdio-cdda2:amd64				install
-libcdio-paranoia1:amd64				install
 libcdio-paranoia2:amd64				install
-libcdio13:amd64					install
 libcdio16:amd64					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1:amd64				install
@@ -1545,7 +1541,6 @@ libhttp-date-perl				install
 libhttp-lite-perl				install
 libhttp-message-perl				install
 libhttp-negotiate-perl				install
-libhttp-parser2.1:amd64				install
 libhttp-parser2.7.1:amd64			install
 libhttp-server-simple-perl			install
 libhttpclient-java				install
@@ -1618,7 +1613,6 @@ libisccc140:amd64				install
 libisccfg144:amd64				install
 libisl15:amd64					install
 libiso9660-10:amd64				install
-libiso9660-8:amd64				install
 libisoburn1:amd64				install
 libisofs6:amd64					install
 libisorelax-java				install
@@ -2469,9 +2463,7 @@ librhash0					install
 librhino-java					install
 librole-tiny-perl				install
 librpc-xml-perl					install
-librpm3						install
 librpm8						install
-librpmio3					install
 librpmio8					install
 librsvg2-2:amd64				install
 librsvg2-2:i386					install
@@ -2952,7 +2944,6 @@ libxdo3:amd64					install
 libxdot4					install
 libxen-4.8:amd64				install
 libxenstore3.0:amd64				install
-libxerces-c3.1:amd64				install
 libxerces-c3.2:amd64				install
 libxerces2-java					install
 libxext-dev:amd64				install
