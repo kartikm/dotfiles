@@ -3475,7 +3475,7 @@ python-blinker					install
 python-bs4					install
 python-bson					install
 python-bson-ext					install
-python-cairo					install
+python-cairo:amd64				install
 python-certifi					install
 python-cffi					install
 python-cffi-backend				install
