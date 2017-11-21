@@ -592,7 +592,6 @@ graphviz					install
 grep						install
 groff						install
 groff-base					install
-groovy						install
 grub-common					install
 grub-pc						install
 grub-pc-bin					install
@@ -685,7 +684,6 @@ isc-dhcp-common					install
 iso-codes					install
 ispell						install
 iucode-tool					install
-ivy						install
 iw						install
 java-common					install
 java-wrappers					install
@@ -1072,7 +1070,6 @@ libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcomerr2:amd64				install
 libcomerr2:i386					install
-libcommons-cli-java				install
 libcommons-codec-java				install
 libcommons-collections3-java			install
 libcommons-discovery-java			install
@@ -1441,7 +1438,6 @@ libgnutls30:i386				install
 libgnutlsxx28:amd64				install
 libgomp1:amd64					install
 libgomp1:i386					install
-libgpars-groovy-java				install
 libgpg-error-dev				install
 libgpg-error0:amd64				install
 libgpg-error0:i386				install
@@ -1636,13 +1632,10 @@ libjbig0:amd64					install
 libjbig0:i386					install
 libjbig2dec0:amd64				install
 libjboss-logging-java				install
-libjcommander-java				install
 libjcommon-java					install
-libjcsp-java					install
 libjdom1-java					install
 libjim0.77:amd64				install
 libjline-java					install
-libjline2-java					install
 libjna-java					install
 libjna-jni					install
 libjpeg-dev					install
@@ -1673,7 +1666,6 @@ libjson-glib-1.0-0:amd64			install
 libjson-glib-1.0-common				install
 libjson-perl					install
 libjsoncpp1:amd64				install
-libjsr166y-java					install
 libjte1						install
 libjxr-tools					install
 libjxr0:amd64					install
@@ -2024,7 +2016,6 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
 libmultidimensional-perl			install
-libmultiverse-core-java				install
 libmwaw-0.3-3:amd64				install
 libmysofa0:amd64				install
 libmysql-java					install
@@ -2066,7 +2057,6 @@ libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle6:amd64				install
 libnettle6:i386					install
-libnetty-3.9-java				install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
@@ -2324,7 +2314,6 @@ libqca-qt5-2:amd64				install
 libqca-qt5-2-plugins:amd64			install
 libqca2:amd64					install
 libqca2-plugins:amd64				install
-libqdox-java					install
 libqgsttools-p1:amd64				install
 libqhull7:amd64					install
 libqimageblitz4					install
@@ -2757,12 +2746,8 @@ libv4l-0:amd64					install
 libv4lconvert0:amd64				install
 libva-drm2:amd64				install
 libva-drm2:i386					install
-libva-x11-1:amd64				install
-libva-x11-1:i386				install
 libva-x11-2:amd64				install
 libva-x11-2:i386				install
-libva1:amd64					install
-libva1:i386					install
 libva2:amd64					install
 libva2:i386					install
 libvariable-magic-perl				install
