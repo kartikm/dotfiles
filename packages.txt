@@ -2026,7 +2026,7 @@ libmtp9:amd64					install
 libmultidimensional-perl			install
 libmultiverse-core-java				install
 libmwaw-0.3-3:amd64				install
-libmysofa0					install
+libmysofa0:amd64				install
 libmysql-java					install
 libmysqlclient-dev				install
 libmysqlclient20:amd64				install
