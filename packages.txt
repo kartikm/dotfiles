@@ -1116,7 +1116,6 @@ libct4:amd64					install
 libctemplate-dev				install
 libctemplate3:amd64				install
 libcups2:amd64					install
-libcups2:i386					install
 libcupsfilters1:amd64				install
 libcupsimage2:amd64				install
 libcurl3:amd64					install
@@ -1434,7 +1433,6 @@ libgnutls-dane0:amd64				install
 libgnutls-openssl27:amd64			install
 libgnutls28-dev:amd64				install
 libgnutls30:amd64				install
-libgnutls30:i386				install
 libgnutlsxx28:amd64				install
 libgomp1:amd64					install
 libgomp1:i386					install
@@ -1563,7 +1561,6 @@ libid3tag0:amd64				install
 libidn11:amd64					install
 libidn11-dev					install
 libidn2-0:amd64					install
-libidn2-0:i386					install
 libidn2-0-dev					install
 libidn2-dev:amd64				install
 libiec61883-0:amd64				install
