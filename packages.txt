@@ -1414,7 +1414,6 @@ libgmime-2.6-dev				install
 libgmime-3.0-0:amd64				install
 libgmp-dev:amd64				install
 libgmp10:amd64					install
-libgmp10:i386					install
 libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-keyring-common				install
@@ -1466,7 +1465,7 @@ libgsm1:i386					install
 libgsm1-dev:amd64				install
 libgsoap-2.8.49:amd64				install
 libgssapi-krb5-2:amd64				install
-libgssapi-krb5-2:i386				install
+libgssapi-krb5-2:i386				deinstall
 libgssdp-1.0-3:amd64				install
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base1.0-0:amd64		install
@@ -1518,7 +1517,6 @@ libhfstospell9:amd64				install
 libhibernate-validator-java			install
 libhivex0:amd64					install
 libhogweed4:amd64				install
-libhogweed4:i386				install
 libhpdf-2.2.1					install
 libhpdf-dev					install
 libhsqldb-java					install
@@ -1668,7 +1666,6 @@ libjxr-tools					install
 libjxr0:amd64					install
 libjzlib-java					install
 libk5crypto3:amd64				install
-libk5crypto3:i386				install
 libkactivities6					install
 libkate1:amd64					install
 libkatepartinterfaces4				install
@@ -1686,7 +1683,6 @@ libkemoticons4					install
 libkexiv2-11					install
 libkexiv2-data					install
 libkeyutils1:amd64				install
-libkeyutils1:i386				install
 libkf5activities5:amd64				install
 libkf5activitiesstats1:amd64			install
 libkf5akonadicore5:amd64			install
@@ -1855,9 +1851,7 @@ libkpathsea6:amd64				install
 libkprintutils4					install
 libkpty4					install
 libkrb5-3:amd64					install
-libkrb5-3:i386					install
 libkrb5support0:amd64				install
-libkrb5support0:i386				install
 libkrosscore4					install
 libksba8:amd64					install
 libkscreenlocker5:amd64				install
@@ -2053,7 +2047,6 @@ libnetfilter-conntrack-dev:amd64		install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle6:amd64				install
-libnettle6:i386					install
 libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
@@ -2161,7 +2154,6 @@ liboxygenstyle5-5				install
 liboxygenstyleconfig5-5				install
 libp11-kit-dev:amd64				install
 libp11-kit0:amd64				install
-libp11-kit0:i386				install
 libpackage-deprecationmanager-perl		install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
@@ -2719,7 +2711,6 @@ libuniconf4.6					install
 libuninameslist-dev:amd64			install
 libuninameslist1:amd64				install
 libunistring2:amd64				install
-libunistring2:i386				install
 libupnp6					install
 libupower-glib3:amd64				install
 liburcu-dev:amd64				install
