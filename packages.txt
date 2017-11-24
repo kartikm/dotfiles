@@ -321,6 +321,7 @@ easy-rsa					install
 eatmydata					install
 ed						install
 eject						install
+elfutils					install
 elpa-notmuch					install
 emacsen-common					install
 enblend						install
@@ -852,6 +853,7 @@ libasan2:amd64					install
 libasan3:amd64					install
 libasan4:amd64					install
 libasm-java					install
+libasm1:amd64					install
 libasound2:amd64				install
 libasound2:i386					install
 libasound2-data					install
@@ -1891,6 +1893,7 @@ liblirc-client0:amd64				install
 liblist-compare-perl				install
 liblist-moreutils-perl				install
 liblivemedia58:amd64				install
+liblivemedia61:amd64				install
 libllvm3.9:amd64				install
 libllvm5.0:amd64				install
 libllvm5.0:i386					install
@@ -2557,6 +2560,7 @@ libsoup2.4-dev:amd64				install
 libsox-fmt-alsa:amd64				install
 libsox-fmt-base:amd64				install
 libsox2:amd64					install
+libsox3:amd64					install
 libsoxr0:amd64					install
 libsoxr0:i386					install
 libspandsp2:amd64				install
