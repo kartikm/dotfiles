@@ -172,7 +172,6 @@ byzanz						install
 bzip2						install
 ca-certificates					install
 ca-certificates-java				install
-cabal-install					install
 cabextract					install
 calendar-google-provider			install
 catdoc						install
@@ -521,7 +520,6 @@ geoip-database					install
 geoip-database-extra				install
 gettext						install
 gettext-base					install
-ghc						install
 ghostscript					install
 ghostscript-x					install
 giblib1:amd64					install
@@ -1267,7 +1265,6 @@ libfbclient2:amd64				install
 libfcgi-perl					install
 libfdisk1:amd64					install
 libfdt1:amd64					install
-libffi-dev:amd64				install
 libffi6:amd64					install
 libffi6:i386					install
 libfftw3-double3:amd64				install
@@ -1892,7 +1889,6 @@ liblinear3:amd64				install
 liblirc-client0:amd64				install
 liblist-compare-perl				install
 liblist-moreutils-perl				install
-liblivemedia58:amd64				install
 liblivemedia61:amd64				install
 libllvm3.9:amd64				install
 libllvm5.0:amd64				install
@@ -2559,7 +2555,6 @@ libsoup2.4-1:amd64				install
 libsoup2.4-dev:amd64				install
 libsox-fmt-alsa:amd64				install
 libsox-fmt-base:amd64				install
-libsox2:amd64					install
 libsox3:amd64					install
 libsoxr0:amd64					install
 libsoxr0:i386					install
@@ -2689,7 +2684,6 @@ libtinyxml2.6.2v5:amd64				install
 libtirpc1:amd64					install
 libtk8.6:amd64					install
 libtokyocabinet9:amd64				install
-libtomcrypt0:amd64				install
 libtomcrypt1:amd64				install
 libtommath1:amd64				install
 libtonezone-dev:amd64				install
@@ -3044,7 +3038,7 @@ linux-headers-4.13.0-1-amd64			install
 linux-headers-4.13.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.12.0-1-amd64			deinstall
-linux-image-4.12.0-2-amd64			install
+linux-image-4.12.0-2-amd64			deinstall
 linux-image-4.13.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.12				install
@@ -3701,8 +3695,6 @@ python3.6-minimal				install
 qdbus						install
 qdbus-qt5					install
 qemu						install
-qemu-efi					install
-qemu-efi-aarch64				install
 qemu-slof					install
 qemu-system					install
 qemu-system-arm					install
