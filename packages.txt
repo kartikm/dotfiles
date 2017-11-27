@@ -692,6 +692,7 @@ javascript-common				install
 jsonlint					install
 junit						install
 junit4						install
+kaccounts-providers				install
 kactivities-bin					install
 kactivitymanagerd				install
 kamera						install
@@ -804,6 +805,8 @@ liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaacs0:amd64					install
 libabw-0.1-1:amd64				install
+libaccounts-glib0:amd64				install
+libaccounts-qt5-1				install
 libaccountsservice0:amd64			install
 libacl1:amd64					install
 libacl1:i386					install
@@ -1667,6 +1670,7 @@ libjxr-tools					install
 libjxr0:amd64					install
 libjzlib-java					install
 libk5crypto3:amd64				install
+libkaccounts1:amd64				install
 libkactivities6					install
 libkate1:amd64					install
 libkatepartinterfaces4				install
@@ -1786,6 +1790,8 @@ libkf5plasmaquick5:amd64			install
 libkf5prison5:amd64				install
 libkf5pty-data					install
 libkf5pty5:amd64				install
+libkf5purpose-bin:amd64				install
+libkf5purpose5:amd64				install
 libkf5quickaddons5:amd64			install
 libkf5runner5:amd64				install
 libkf5screen-bin				install
@@ -2519,6 +2525,8 @@ libsidutils0					install
 libsigc++-2.0-0c2a:i386				deinstall
 libsigc++-2.0-0v5:amd64				install
 libsigc++-2.0-dev:amd64				install
+libsignon-plugins-common1:amd64			install
+libsignon-qt5-1:amd64				install
 libsigsegv2:amd64				install
 libslang2:amd64					install
 libslang2:i386					install
@@ -2758,6 +2766,7 @@ libvlccore8:amd64				install
 libvncserver1:amd64				install
 libvo-aacenc0:amd64				install
 libvo-amrwbenc0:amd64				install
+libvoikko1:amd64				install
 libvolume-key1					install
 libvorbis-dev:amd64				install
 libvorbis0a:amd64				install
@@ -3320,6 +3329,8 @@ php-json-schema					install
 php-mbstring					install
 php-mysql					install
 php-pear					install
+php-phar-io-manifest				install
+php-phar-io-version				install
 php-php-gettext					install
 php-phpdocumentor-reflection-docblock		install
 php-phpseclib					install
@@ -3335,6 +3346,7 @@ php-tcpdf					install
 php-text-template				install
 php-timer					install
 php-token-stream				install
+php-tokenizer					install
 php-xml						install
 php-zip						install
 php7.0						install
@@ -3361,6 +3373,7 @@ phpunit-exporter				install
 phpunit-global-state				install
 phpunit-mock-object				install
 phpunit-object-enumerator			install
+phpunit-object-reflector			install
 phpunit-recursion-context			install
 phpunit-resource-operations			install
 phpunit-version					install
@@ -3721,6 +3734,7 @@ qml-module-org-kde-kquickcontrols:amd64		install
 qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
 qml-module-org-kde-newstuff			install
+qml-module-org-kde-purpose:amd64		install
 qml-module-org-kde-runnermodel			install
 qml-module-org-kde-solid:amd64			install
 qml-module-qt-labs-folderlistmodel:amd64	install
@@ -3874,6 +3888,7 @@ sgml-data					install
 shared-desktop-ontologies			install
 shared-mime-info				install
 signing-party					install
+signon-plugin-oauth2				install
 sl						install
 sleuthkit					install
 sm						install
@@ -3885,6 +3900,7 @@ socat						install
 software-properties-common			install
 software-properties-gtk				install
 software-properties-kde				install
+sonnet-plugins					install
 soprano-daemon					install
 sox						install
 spew						install
