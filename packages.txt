@@ -555,8 +555,11 @@ gitstats					install
 glib-networking:amd64				install
 glib-networking-common				install
 glib-networking-services			install
+gnome-accessibility-themes			install
 gnome-keyring					install
 gnome-mime-data					install
+gnome-themes-standard:amd64			install
+gnome-themes-standard-data			install
 gnupg						install
 gnupg-agent					install
 gnupg-l10n					install
@@ -638,6 +641,7 @@ hyphen-gu					install
 i965-va-driver:amd64				install
 i965-va-driver:i386				install
 iamerican					install
+ibus-gtk:amd64					install
 ibverbs-providers:amd64				install
 icc-profiles-free				install
 icedove						install
@@ -1017,6 +1021,7 @@ libcap-ng0:amd64				install
 libcap2:amd64					install
 libcap2-bin					install
 libcapture-tiny-perl				install
+libcaribou-gtk-module:amd64			install
 libcc1-0:amd64					install
 libccid						install
 libccolamd2:amd64				install
