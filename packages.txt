@@ -946,7 +946,6 @@ libbcpkix-java					install
 libbcprov-java					install
 libbdplus0:amd64				install
 libbfio1					install
-libbind9-141:amd64				install
 libbind9-160:amd64				install
 libbinutils:amd64				install
 libbison-dev:amd64				install
@@ -1190,7 +1189,6 @@ libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export190				install
 libdns169:amd64					install
-libdns190:amd64					install
 libdolphinvcs5:amd64				install
 libdom4j-java					install
 libdouble-conversion1:amd64			install
@@ -1607,10 +1605,7 @@ libipc-system-simple-perl			install
 libiptc0:amd64					install
 libisc-export189:amd64				install
 libisc166:amd64					install
-libisc189:amd64					install
-libisccc140:amd64				install
 libisccc160:amd64				install
-libisccfg144:amd64				install
 libisccfg160:amd64				install
 libisl15:amd64					install
 libiso9660-10:amd64				install
@@ -1936,7 +1931,6 @@ liblvm2cmd2.02:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwpx-paranoidagent-perl			install
-liblwres141:amd64				install
 liblwres160:amd64				install
 liblz4-1:amd64					install
 liblz4-1:i386					install
