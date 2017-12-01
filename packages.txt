@@ -1242,7 +1242,6 @@ libetonyek-0.1-1:amd64				install
 libeval-closure-perl				install
 libevdev2:amd64					install
 libevent-2.1-6:amd64				install
-libevent-core-2.0-5:amd64			install
 libevent-core-2.1-6:amd64			install
 libewf2						install
 libexcalibur-logger-java			install
@@ -2087,7 +2086,6 @@ libnspr4:i386					install
 libnss-mdns:amd64				install
 libnss-systemd:amd64				install
 libnss3:amd64					install
-libntfs-3g872					install
 libntfs-3g88					install
 libntrack-qt4-1					install
 libntrack0					install
