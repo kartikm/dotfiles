@@ -1468,7 +1468,6 @@ libgslcblas0:amd64				install
 libgsm1:amd64					install
 libgsm1:i386					install
 libgsm1-dev:amd64				install
-libgsoap-2.8.49:amd64				install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				deinstall
 libgssdp-1.0-3:amd64				install
@@ -2759,7 +2758,6 @@ libvisual-0.4-plugins:amd64			install
 libvlc-bin:amd64				install
 libvlc5:amd64					install
 libvlccore8:amd64				install
-libvncserver1:amd64				install
 libvo-aacenc0:amd64				install
 libvo-amrwbenc0:amd64				install
 libvoikko1:amd64				install
@@ -3036,8 +3034,6 @@ lintian						install
 linux-base					install
 linux-compiler-gcc-6-x86			install
 linux-compiler-gcc-7-x86			install
-linux-headers-4.12.0-2-amd64			install
-linux-headers-4.12.0-2-common			install
 linux-headers-4.13.0-1-amd64			install
 linux-headers-4.13.0-1-common			install
 linux-headers-4.14.0-1-amd64			install
@@ -3048,7 +3044,6 @@ linux-image-4.12.0-2-amd64			deinstall
 linux-image-4.13.0-1-amd64			install
 linux-image-4.14.0-1-amd64			install
 linux-image-amd64				install
-linux-kbuild-4.12				install
 linux-kbuild-4.13				install
 linux-kbuild-4.14				install
 linux-libc-dev:amd64				install
@@ -4040,9 +4035,6 @@ vim-common					install
 vim-runtime					install
 vim-scripts					install
 virt-what					install
-virtualbox					deinstall
-virtualbox-dkms					install
-virtualbox-qt					deinstall
 virtualenv					install
 vlc						install
 vlc-bin						install
