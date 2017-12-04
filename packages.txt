@@ -2213,6 +2213,7 @@ libpci3:amd64					install
 libpciaccess0:amd64				install
 libpciaccess0:i386				install
 libpcre16-3:amd64				install
+libpcre2-16-0:amd64				install
 libpcre2-8-0:amd64				install
 libpcre3:amd64					install
 libpcre3:i386					install
@@ -3899,6 +3900,7 @@ software-properties-gtk				install
 software-properties-kde				install
 sonnet-plugins					install
 soprano-daemon					install
+sound-theme-freedesktop				install
 sox						install
 spew						install
 sphinx-common					install
