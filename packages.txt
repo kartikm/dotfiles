@@ -1031,6 +1031,7 @@ libcddb2					install
 libcdio-cdda2:amd64				install
 libcdio-paranoia2:amd64				install
 libcdio16:amd64					install
+libcdio17:amd64					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1:amd64				install
 libcdt5						install
@@ -1187,6 +1188,7 @@ libdjvulibre21:amd64				install
 libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
+libdns-export169				install
 libdns-export190				install
 libdns169:amd64					install
 libdolphinvcs5:amd64				install
@@ -1602,6 +1604,7 @@ libip6tc0:amd64					install
 libipc-run-perl					install
 libipc-system-simple-perl			install
 libiptc0:amd64					install
+libisc-export166:amd64				install
 libisc-export189:amd64				install
 libisc166:amd64					install
 libisccc160:amd64				install
