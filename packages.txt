@@ -555,11 +555,9 @@ gitstats					install
 glib-networking:amd64				install
 glib-networking-common				install
 glib-networking-services			install
-gnome-accessibility-themes			install
+gnome-accessibility-themes			deinstall
 gnome-keyring					install
 gnome-mime-data					install
-gnome-themes-standard:amd64			install
-gnome-themes-standard-data			install
 gnupg						install
 gnupg-agent					install
 gnupg-l10n					install
@@ -641,7 +639,6 @@ hyphen-gu					install
 i965-va-driver:amd64				install
 i965-va-driver:i386				install
 iamerican					install
-ibus-gtk:amd64					install
 ibverbs-providers:amd64				install
 icc-profiles-free				install
 icedove						install
@@ -1021,7 +1018,6 @@ libcap-ng0:amd64				install
 libcap2:amd64					install
 libcap2-bin					install
 libcapture-tiny-perl				install
-libcaribou-gtk-module:amd64			install
 libcc1-0:amd64					install
 libccid						install
 libccolamd2:amd64				install
@@ -1030,7 +1026,6 @@ libcdb1:amd64					install
 libcddb2					install
 libcdio-cdda2:amd64				install
 libcdio-paranoia2:amd64				install
-libcdio16:amd64					install
 libcdio17:amd64					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1:amd64				install
@@ -1189,7 +1184,6 @@ libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export169				install
-libdns-export190				install
 libdns169:amd64					install
 libdolphinvcs5:amd64				install
 libdom4j-java					install
@@ -1605,7 +1599,6 @@ libipc-run-perl					install
 libipc-system-simple-perl			install
 libiptc0:amd64					install
 libisc-export166:amd64				install
-libisc-export189:amd64				install
 libisc166:amd64					install
 libisccc160:amd64				install
 libisccfg160:amd64				install
@@ -2838,7 +2831,6 @@ libx11-xcb1:i386				install
 libx264-148:amd64				install
 libx264-148:i386				install
 libx265-130:amd64				install
-libx265-130:i386				install
 libx265-146:amd64				install
 libx265-146:i386				install
 libx32asan3					install
