@@ -534,7 +534,7 @@ gir1.2-glib-2.0:amd64				install
 gir1.2-gmime-2.6:amd64				install
 gir1.2-gtk-2.0					install
 gir1.2-gtk-3.0:amd64				install
-gir1.2-harfbuzz-0.0				install
+gir1.2-harfbuzz-0.0:amd64			install
 gir1.2-ibus-1.0:amd64				install
 gir1.2-notify-0.7:amd64				install
 gir1.2-packagekitglib-1.0			install
@@ -2839,6 +2839,8 @@ libx264-148:amd64				install
 libx264-148:i386				install
 libx265-130:amd64				install
 libx265-130:i386				install
+libx265-146:amd64				install
+libx265-146:i386				install
 libx32asan3					install
 libx32asan4					install
 libx32atomic1					install
