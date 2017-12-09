@@ -3470,7 +3470,6 @@ python-configobj				install
 python-configparser				install
 python-coverage					install
 python-crypto					install
-python-cryptography				install
 python-cssselect				install
 python-dateutil					install
 python-dbus					install
@@ -3501,7 +3500,6 @@ python-glade2					install
 python-gnupg					install
 python-gobject					install
 python-gobject-2				install
-python-googleapi				install
 python-gridfs					install
 python-gtk2					install
 python-gtkmvc					install
@@ -3536,11 +3534,7 @@ python-monotonic				install
 python-mysqldb					install
 python-nose					install
 python-numpy					install
-python-oauth2client				install
-python-oauthlib					install
 python-olefile					install
-python-openssl					install
-python-paramiko					install
 python-pathlib2					install
 python-pbr					install
 python-pexpect					install
@@ -3572,7 +3566,6 @@ python-qt4					install
 python-recoll					install
 python-repoze.lru				install
 python-requests					install
-python-requests-oauthlib			install
 python-roman					install
 python-rsa					install
 python-scandir					install
@@ -3600,7 +3593,6 @@ python-tornado					install
 python-toro					install
 python-traceback2				install
 python-traitlets				install
-python-tweepy					install
 python-typing					install
 python-tz					install
 python-unittest2				install
