@@ -3467,6 +3467,7 @@ python-cffi-backend				install
 python-chardet					install
 python-concurrent.futures			install
 python-configobj				install
+python-configparser				install
 python-coverage					install
 python-crypto					install
 python-cryptography				install
@@ -3523,6 +3524,7 @@ python-libhfst					install
 python-librdf					install
 python-libxml2					install
 python-linecache2				install
+python-logilab-common				install
 python-lxml					install
 python-lzma					install
 python-magic					install
