@@ -3660,6 +3660,7 @@ python3-minimal					install
 python3-nose					install
 python3-numpy					install
 python3-olefile					install
+python3-openssl					install
 python3-pexpect					install
 python3-pickleshare				install
 python3-pil:amd64				install
