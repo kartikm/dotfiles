@@ -1546,8 +1546,9 @@ libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
 libibverbs1:amd64				install
-libical-dev:amd64				install
+libical-dev					install
 libical2:amd64					install
+libical3:amd64					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
@@ -2375,6 +2376,7 @@ libqt5webkit5-dev:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
 libqt5xml5:amd64				install
+libqt5xmlpatterns5:amd64			install
 libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
 libqtcore4:i386					install
@@ -3713,6 +3715,7 @@ qemu-user-binfmt				install
 qemu-utils					install
 qml-module-org-kde-activities:amd64		install
 qml-module-org-kde-bluezqt:amd64		install
+qml-module-org-kde-charts			install
 qml-module-org-kde-draganddrop:amd64		install
 qml-module-org-kde-extensionplugin		install
 qml-module-org-kde-kconfig:amd64		install
