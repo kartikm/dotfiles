@@ -1761,6 +1761,7 @@ libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
 libkf5kipi-data					install
 libkf5kipi31.0.0				install
+libkf5kipi32.0.0				install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
