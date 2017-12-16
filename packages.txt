@@ -1547,7 +1547,6 @@ libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
 libibverbs1:amd64				install
 libical-dev					install
-libical2:amd64					install
 libical3:amd64					install
 libice-dev:amd64				install
 libice6:amd64					install
@@ -1760,7 +1759,6 @@ libkf5kiofilewidgets5:amd64			install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
 libkf5kipi-data					install
-libkf5kipi31.0.0				install
 libkf5kipi32.0.0				install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
@@ -2248,7 +2246,6 @@ libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
-libpoppler68:amd64				install
 libpoppler72:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
@@ -2833,7 +2830,6 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-148:amd64				install
 libx264-148:i386				install
-libx265-130:amd64				install
 libx265-146:amd64				install
 libx265-146:i386				install
 libx32asan3					install
@@ -3451,7 +3447,6 @@ python-all-dev					install
 python-appindicator				install
 python-apt					install
 python-apt-common				install
-python-asn1crypto				install
 python-astroid					install
 python-babel					install
 python-babel-localedata				install
@@ -3459,7 +3454,6 @@ python-backports-abc				install
 python-backports-shutil-get-terminal-size	install
 python-backports.functools-lru-cache		install
 python-beautifulsoup				install
-python-blinker					install
 python-bs4					install
 python-bson					install
 python-bson-ext					install
@@ -3472,7 +3466,6 @@ python-concurrent.futures			install
 python-configobj				install
 python-configparser				install
 python-coverage					install
-python-crypto					install
 python-cssselect				install
 python-dateutil					install
 python-dbus					install
@@ -3491,7 +3484,6 @@ python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-enum34					install
 python-extras					install
-python-fasteners				install
 python-feedparser				install
 python-fixtures					install
 python-fontforge				install
@@ -3519,7 +3511,6 @@ python-ipython					install
 python-ipython-genutils				install
 python-isort					install
 python-jinja2					install
-python-jwt					install
 python-lazy-object-proxy			install
 python-libhfst					install
 python-librdf					install
@@ -3533,7 +3524,6 @@ python-markupsafe				install
 python-matplotlib-data				install
 python-mimeparse				install
 python-minimal					install
-python-monotonic				install
 python-mysqldb					install
 python-nose					install
 python-numpy					install
@@ -3570,11 +3560,9 @@ python-recoll					install
 python-repoze.lru				install
 python-requests					install
 python-roman					install
-python-rsa					install
 python-scandir					install
 python-setuptools				install
 python-simplegeneric				install
-python-simplejson				install
 python-singledispatch				install
 python-sip					install
 python-six					install
@@ -3599,7 +3587,6 @@ python-traitlets				install
 python-typing					install
 python-tz					install
 python-unittest2				install
-python-uritemplate				install
 python-urllib3					install
 python-urwid					install
 python-utidylib					install
@@ -3761,7 +3748,6 @@ qtbase5-dev:amd64				install
 qtbase5-dev-tools				install
 qtchooser					install
 qtcore4-l10n					install
-qtdeclarative4-kqtquickcharts-1			install
 qtdeclarative5-dev:amd64			install
 qttools5-dev-tools				install
 qttranslations5-l10n				install
