@@ -3636,6 +3636,7 @@ python3-debian					install
 python3-debianbts				install
 python3-decorator				install
 python3-dev					install
+python3-distutils				install
 python3-dnspython				install
 python3-formencode				install
 python3-gi					install
@@ -3697,6 +3698,7 @@ python3-xdg					install
 python3-yaml					install
 python3.5-minimal				deinstall
 python3.6					install
+python3.6-2to3					install
 python3.6-dev					install
 python3.6-minimal				install
 qdbus						install
