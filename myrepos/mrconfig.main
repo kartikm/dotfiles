@@ -579,3 +579,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/debian/packages/apertium/apertium-crh-tur]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-crh-tur.git' 'apertium-crh-tur'
+
+[development/l10n/tuxfamily/tuxpaint-tuxpaint]
+checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/tuxpaint/tuxpaint' 'tuxpaint-tuxpaint'
