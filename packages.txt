@@ -848,6 +848,7 @@ libarchive-extract-perl				install
 libarchive-tools				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
+libaribb24-0:amd64				install
 libarmadillo8					install
 libarpack2:amd64				install
 libart-2.0-2:amd64				install
@@ -1961,6 +1962,7 @@ libmetadata-extractor-java			install
 libmetis5:amd64					install
 libmhash-dev					install
 libmhash2:amd64					install
+libmicrodns0:amd64				install
 libmikmod3:amd64				install
 libmime-charset-perl				install
 libmime-lite-perl				install
@@ -2052,6 +2054,7 @@ libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
 libnfnetlink0:amd64				install
+libnfs8:amd64					install
 libnfsidmap2:amd64				install
 libnghttp2-14:amd64				install
 libnginx-mod-http-auth-pam			install
@@ -2265,6 +2268,7 @@ libprocessui7					install
 libprocps6:amd64				install
 libproj12:amd64					install
 libprotobuf-c1:amd64				install
+libprotobuf-lite10:amd64			install
 libprotobuf10:amd64				install
 libprotoc10:amd64				install
 libproxy-tools					install
@@ -2651,6 +2655,7 @@ libterm-size-perl				install
 libterm-ui-perl					install
 libtesseract-data				install
 libtesseract3					install
+libtesseract4					install
 libtest-fatal-perl				install
 libtevent0:amd64				install
 libtexlua52:amd64				install
@@ -2736,6 +2741,7 @@ libv4l-0:amd64					install
 libv4lconvert0:amd64				install
 libva-drm2:amd64				install
 libva-drm2:i386					install
+libva-wayland2:amd64				install
 libva-x11-2:amd64				install
 libva-x11-2:i386				install
 libva2:amd64					install
@@ -2756,6 +2762,7 @@ libvisual-0.4-plugins:amd64			install
 libvlc-bin:amd64				install
 libvlc5:amd64					install
 libvlccore8:amd64				install
+libvlccore9:amd64				install
 libvo-aacenc0:amd64				install
 libvo-amrwbenc0:amd64				install
 libvoikko1:amd64				install
