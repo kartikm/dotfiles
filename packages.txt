@@ -1604,7 +1604,6 @@ libisc166:amd64					install
 libisccc160:amd64				install
 libisccfg160:amd64				install
 libisl15:amd64					install
-libiso9660-10:amd64				install
 libisoburn1:amd64				install
 libisofs6:amd64					install
 libisorelax-java				install
@@ -2232,7 +2231,7 @@ libpipeline1:amd64				install
 libpixie-java					install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				install
-libpixman-1-dev					install
+libpixman-1-dev:amd64				install
 libplasma-geolocation-interface5		install
 libplasma3					install
 libplist3:amd64					install
@@ -2718,7 +2717,7 @@ libuniconf4.6					install
 libuninameslist-dev:amd64			install
 libuninameslist1:amd64				install
 libunistring2:amd64				install
-libupnp6					install
+libupnp6:amd64					install
 libupower-glib3:amd64				install
 liburcu-dev:amd64				install
 liburcu6:amd64					install
@@ -2748,7 +2747,6 @@ libva-x11-2:i386				install
 libva2:amd64					install
 libva2:i386					install
 libvariable-magic-perl				install
-libvcdinfo0:amd64				install
 libvde0						install
 libvdeplug2					install
 libvdpau-va-gl1:i386				install
@@ -3945,7 +3943,6 @@ tdc						install
 telnet						install
 tesseract-ocr					install
 tesseract-ocr-eng				install
-tesseract-ocr-equ				install
 tesseract-ocr-osd				install
 tex-common					install
 tex-gyre					install
