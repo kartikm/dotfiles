@@ -1371,6 +1371,7 @@ libgif-dev					install
 libgif7:amd64					install
 libgimp2.0					install
 libgirara-gtk3-2:amd64				install
+libgirara-gtk3-3:amd64				install
 libgirepository-1.0-1:amd64			install
 libgit-wrapper-perl				install
 libgit2-26:amd64				install
@@ -2548,6 +2549,7 @@ libsocket++1:amd64				install
 libsocket6-perl					install
 libsodium-dev:amd64				install
 libsodium18:amd64				install
+libsodium23:amd64				install
 libsoftware-license-perl			install
 libsolid4					install
 libsombok3:amd64				install
@@ -3042,11 +3044,14 @@ linux-headers-4.13.0-1-amd64			install
 linux-headers-4.13.0-1-common			install
 linux-headers-4.14.0-1-amd64			install
 linux-headers-4.14.0-1-common			install
+linux-headers-4.14.0-2-amd64			install
+linux-headers-4.14.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.12.0-1-amd64			deinstall
 linux-image-4.12.0-2-amd64			deinstall
 linux-image-4.13.0-1-amd64			install
 linux-image-4.14.0-1-amd64			install
+linux-image-4.14.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.13				install
 linux-kbuild-4.14				install
