@@ -1370,7 +1370,6 @@ libgfortran4:amd64				install
 libgif-dev					install
 libgif7:amd64					install
 libgimp2.0					install
-libgirara-gtk3-2:amd64				install
 libgirara-gtk3-3:amd64				install
 libgirepository-1.0-1:amd64			install
 libgit-wrapper-perl				install
@@ -2655,8 +2654,6 @@ libterm-readline-gnu-perl			install
 libterm-readline-perl-perl			install
 libterm-size-perl				install
 libterm-ui-perl					install
-libtesseract-data				install
-libtesseract3					install
 libtesseract4					install
 libtest-fatal-perl				install
 libtevent0:amd64				install
@@ -2762,7 +2759,6 @@ libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
 libvlc-bin:amd64				install
 libvlc5:amd64					install
-libvlccore8:amd64				install
 libvlccore9:amd64				install
 libvo-aacenc0:amd64				install
 libvo-amrwbenc0:amd64				install
@@ -3038,10 +3034,7 @@ licensecheck					install
 lightning					install
 lintian						install
 linux-base					install
-linux-compiler-gcc-6-x86			install
 linux-compiler-gcc-7-x86			install
-linux-headers-4.13.0-1-amd64			install
-linux-headers-4.13.0-1-common			install
 linux-headers-4.14.0-1-amd64			install
 linux-headers-4.14.0-1-common			install
 linux-headers-4.14.0-2-amd64			install
@@ -3049,11 +3042,10 @@ linux-headers-4.14.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.12.0-1-amd64			deinstall
 linux-image-4.12.0-2-amd64			deinstall
-linux-image-4.13.0-1-amd64			install
+linux-image-4.13.0-1-amd64			deinstall
 linux-image-4.14.0-1-amd64			install
 linux-image-4.14.0-2-amd64			install
 linux-image-amd64				install
-linux-kbuild-4.13				install
 linux-kbuild-4.14				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
