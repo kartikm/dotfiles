@@ -1519,7 +1519,8 @@ libhibernate-validator-java			install
 libhivex0:amd64					install
 libhogweed4:amd64				install
 libhpdf-2.2.1					install
-libhpdf-dev					install
+libhpdf-2.3.0:amd64				install
+libhpdf-dev:amd64				install
 libhsqldb-java					install
 libhtml-form-perl				install
 libhtml-format-perl				install
@@ -2614,6 +2615,7 @@ libsub-install-perl				install
 libsub-name-perl				install
 libsub-quote-perl				install
 libsuitesparseconfig4:amd64			install
+libsuitesparseconfig5:amd64			install
 libsuperlu5:amd64				install
 libsvm-tools					install
 libsvn-perl					install
@@ -3637,6 +3639,7 @@ python3-ipython					install
 python3-ipython-genutils			install
 python3-keyring					install
 python3-keyrings.alt				install
+python3-lib2to3					install
 python3-libapparmor				install
 python3-libhfst					install
 python3-lxml					install
