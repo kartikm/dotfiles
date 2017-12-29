@@ -729,6 +729,7 @@ kdelibs5-data					install
 kdelibs5-plugins				install
 kdepasswd					install
 kdeplasma-addons-data				install
+kdialog						install
 kdiff3						install
 kdiff3-doc					install
 kdoctools					install
@@ -1357,7 +1358,8 @@ libgeoclue-2-0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
 libgeos-3.5.1					install
-libgeos-c1v5					install
+libgeos-3.6.2:amd64				install
+libgeos-c1v5:amd64				install
 libgeotiff2:amd64				install
 libgeronimo-jms-1.1-spec-java			install
 libgeronimo-validation-1.0-spec-java		install
@@ -1757,10 +1759,12 @@ libkf5khtml-data				install
 libkf5khtml5:amd64				install
 libkf5kiocore5:amd64				install
 libkf5kiofilewidgets5:amd64			install
+libkf5kiogui5:amd64				install
 libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
 libkf5kipi-data					install
 libkf5kipi32.0.0				install
+libkf5konq6					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
