@@ -756,12 +756,10 @@ kmix						install
 kmod						install
 konq-plugins					install
 konqueror					install
-konqueror-nsplugins				install
 konsole						install
 konsole-kpart					install
 kpackagelauncherqml				install
 kpackagetool5					install
-kpart-webkit					install
 krb5-locales					install
 kross						install
 kscreen						install
@@ -1357,7 +1355,6 @@ libgegl-0.3-0:amd64				install
 libgeoclue-2-0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
-libgeos-3.5.1					install
 libgeos-3.6.2:amd64				install
 libgeos-c1v5:amd64				install
 libgeotiff2:amd64				install
@@ -1514,13 +1511,12 @@ libhdf4-0-alt					install
 libhdf5-100:amd64				install
 libhdf5-openmpi-100:amd64			install
 libhfsp0					install
-libhfst49					install
-libhfst49-dev					install
+libhfst-dev					install
+libhfst50					install
 libhfstospell9:amd64				install
 libhibernate-validator-java			install
 libhivex0:amd64					install
 libhogweed4:amd64				install
-libhpdf-2.2.1					install
 libhpdf-2.3.0:amd64				install
 libhpdf-dev:amd64				install
 libhsqldb-java					install
@@ -1852,7 +1848,6 @@ libkntlm4					install
 libkonq-common					install
 libkonq5-templates				install
 libkonq5abi1					install
-libkonqsidebarplugin4a				install
 libkparts4					install
 libkpathsea6:amd64				install
 libkprintutils4					install
@@ -2552,7 +2547,6 @@ libsoap-lite-perl				install
 libsocket++1:amd64				install
 libsocket6-perl					install
 libsodium-dev:amd64				install
-libsodium18:amd64				install
 libsodium23:amd64				install
 libsoftware-license-perl			install
 libsolid4					install
@@ -2618,7 +2612,6 @@ libsub-identify-perl				install
 libsub-install-perl				install
 libsub-name-perl				install
 libsub-quote-perl				install
-libsuitesparseconfig4:amd64			install
 libsuitesparseconfig5:amd64			install
 libsuperlu5:amd64				install
 libsvm-tools					install
@@ -3695,7 +3688,6 @@ python3-xdg					install
 python3-yaml					install
 python3.5-minimal				deinstall
 python3.6					install
-python3.6-2to3					install
 python3.6-dev					install
 python3.6-minimal				install
 qdbus						install
