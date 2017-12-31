@@ -2049,7 +2049,7 @@ libnet-ssleay-perl				install
 libnet1:amd64					install
 libnet1-dev					install
 libnetcdf-c++4					install
-libnetcdf13					install
+libnetcdf13:amd64				install
 libnetfilter-conntrack-dev:amd64		install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
