@@ -582,3 +582,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 
 [development/l10n/tuxfamily/tuxpaint-tuxpaint]
 checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/tuxpaint/tuxpaint' 'tuxpaint-tuxpaint'
+
+[development/l10n/tuxfamily/tuxpaint-tuxpaint-stamps]
+checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/tuxpaint/tuxpaint-stamps' 'tuxpaint-tuxpaint-stamps'
