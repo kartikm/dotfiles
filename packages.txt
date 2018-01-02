@@ -392,6 +392,7 @@ fonts-guru					install
 fonts-guru-extra				install
 fonts-hack-ttf					install
 fonts-inconsolata				install
+fonts-indic					install
 fonts-kalapi					install
 fonts-knda					install
 fonts-lao					install
@@ -415,6 +416,7 @@ fonts-lohit-telu				install
 fonts-lyx					install
 fonts-mathjax					install
 fonts-meera-taml				install
+fonts-mlym					install
 fonts-nakula					install
 fonts-nanum					install
 fonts-navilu					install
@@ -455,6 +457,7 @@ fonts-smc-suruma				install
 fonts-smc-uroob					install
 fonts-stix					install
 fonts-symbola					install
+fonts-taml					install
 fonts-telu					install
 fonts-telu-extra				install
 fonts-texgyre					install
