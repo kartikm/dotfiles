@@ -1167,6 +1167,7 @@ libde265-0:amd64				install
 libdebconfclient0:amd64				install
 libdebian-installer-extra4:amd64		install
 libdebian-installer4:amd64			install
+libdevel-callchecker-perl			install
 libdevel-caller-perl				install
 libdevel-globaldestruction-perl			install
 libdevel-lexalias-perl				install
@@ -1206,6 +1207,7 @@ libdvbpsi10:amd64				install
 libdvdnav4:amd64				install
 libdvdread4:amd64				install
 libdw1:amd64					install
+libdynaloader-functions-perl			install
 libdynamite0					install
 libe-book-0.1-1:amd64				install
 libeatmydata1:amd64				install
@@ -2205,7 +2207,7 @@ libpasswdqc0					install
 libpath-iterator-rule-perl			install
 libpath-tiny-perl				install
 libpathplan4					install
-libpcap-dev					install
+libpcap-dev:amd64				install
 libpcap0.8:amd64				install
 libpcap0.8-dev:amd64				install
 libpci3:amd64					install
