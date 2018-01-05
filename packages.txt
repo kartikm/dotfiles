@@ -710,7 +710,6 @@ kcalc						install
 kcharselect					install
 kde-baseapps					install
 kde-baseapps-bin				install
-kde-baseapps-data				install
 kde-cli-tools					install
 kde-cli-tools-data				install
 kde-config-gtk-style:amd64			install
@@ -730,7 +729,6 @@ kded5						install
 kdelibs-bin					install
 kdelibs5-data					install
 kdelibs5-plugins				install
-kdepasswd					install
 kdeplasma-addons-data				install
 kdialog						install
 kdiff3						install
@@ -1685,8 +1683,7 @@ libkdeui5					install
 libkdewebkit5					install
 libkdnssd4					install
 libkemoticons4					install
-libkexiv2-11					install
-libkexiv2-data					install
+libkexiv2-11					deinstall
 libkeyutils1:amd64				install
 libkf5activities5:amd64				install
 libkf5activitiesstats1:amd64			install
@@ -1858,7 +1855,6 @@ libkonq5-templates				install
 libkonq5abi1					install
 libkparts4					install
 libkpathsea6:amd64				install
-libkprintutils4					install
 libkpty4					install
 libkrb5-3:amd64					install
 libkrb5support0:amd64				install
@@ -2111,7 +2107,6 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokular5core7					install
-libokularcore7					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
@@ -2256,7 +2251,6 @@ libpolkit-gobject-1-0:amd64			install
 libpolkit-qt-1-1:amd64				install
 libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
-libpoppler-qt4-4:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler72:amd64				install
 libpopt-dev:amd64				install
@@ -2320,12 +2314,10 @@ libqca2:amd64					install
 libqca2-plugins:amd64				install
 libqgsttools-p1:amd64				install
 libqhull7:amd64					install
-libqimageblitz4					install
 libqjson-dev					install
 libqjson0:amd64					install
 libqmi-glib5:amd64				install
 libqmi-proxy					install
-libqmobipocket1					install
 libqmobipocket2:amd64				install
 libqrencode3:amd64				install
 libqt4-dbus:amd64				install
