@@ -737,6 +737,7 @@ kdiff3						install
 kdiff3-doc					install
 kdoctools					install
 kdoctools5					install
+keditbookmarks					install
 keepassx					install
 kernel-wedge					install
 kerneloops					install
@@ -1314,7 +1315,7 @@ libformula-java					install
 libfreehand-0.1-1				install
 libfreetype6:amd64				install
 libfreetype6:i386				install
-libfreetype6-dev				install
+libfreetype6-dev:amd64				install
 libfreexl1:amd64				install
 libfreezethaw-perl				install
 libfribidi0:amd64				install
@@ -1748,6 +1749,7 @@ libkf5itemviews5:amd64				install
 libkf5jobwidgets-data				install
 libkf5jobwidgets5:amd64				install
 libkf5js5:amd64					install
+libkf5jsapi5:amd64				install
 libkf5jsembed-data				install
 libkf5jsembed5:amd64				install
 libkf5kcmutils-data				install
@@ -1756,6 +1758,7 @@ libkf5kdcraw5					install
 libkf5kdelibs4support-data			install
 libkf5kdelibs4support5:amd64			install
 libkf5kdelibs4support5-bin			install
+libkf5kexiv2-15.0.0				install
 libkf5khtml-data				install
 libkf5khtml5:amd64				install
 libkf5kiocore5:amd64				install
@@ -2107,6 +2110,7 @@ libogdi3.2					install
 libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
+libokular5core7					install
 libokularcore7					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -2322,6 +2326,7 @@ libqjson0:amd64					install
 libqmi-glib5:amd64				install
 libqmi-proxy					install
 libqmobipocket1					install
+libqmobipocket2:amd64				install
 libqrencode3:amd64				install
 libqt4-dbus:amd64				install
 libqt4-dbus:i386				install
