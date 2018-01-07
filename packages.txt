@@ -3038,8 +3038,6 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-7-x86			install
-linux-headers-4.14.0-1-amd64			install
-linux-headers-4.14.0-1-common			install
 linux-headers-4.14.0-2-amd64			install
 linux-headers-4.14.0-2-common			install
 linux-headers-4.14.0-3-amd64			install
@@ -3048,7 +3046,7 @@ linux-headers-amd64				install
 linux-image-4.12.0-1-amd64			deinstall
 linux-image-4.12.0-2-amd64			deinstall
 linux-image-4.13.0-1-amd64			deinstall
-linux-image-4.14.0-1-amd64			install
+linux-image-4.14.0-1-amd64			deinstall
 linux-image-4.14.0-2-amd64			install
 linux-image-4.14.0-3-amd64			install
 linux-image-amd64				install
@@ -3536,7 +3534,6 @@ python-minimal					install
 python-mysqldb					install
 python-nose					install
 python-numpy					install
-python-olefile					install
 python-pathlib2					install
 python-pbr					install
 python-pexpect					install
@@ -3652,7 +3649,6 @@ python3-matplotlib				install
 python3-minimal					install
 python3-nose					install
 python3-numpy					install
-python3-olefile					install
 python3-openssl					install
 python3-pexpect					install
 python3-pickleshare				install
