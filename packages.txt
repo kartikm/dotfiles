@@ -1573,6 +1573,7 @@ libijs-0.35:amd64				install
 libiksemel-dev:amd64				install
 libiksemel3:amd64				install
 libilmbase12:amd64				install
+libilmbase23:amd64				install
 libimage-exiftool-perl				install
 libimgscalr-java				install
 libimlib2:amd64					install
@@ -1641,6 +1642,7 @@ libjpeg-turbo-progs				install
 libjpeg62-turbo:amd64				install
 libjpeg62-turbo:i386				install
 libjpeg62-turbo-dev:amd64			install
+libjs-async					install
 libjs-bootstrap					install
 libjs-excanvas					install
 libjs-inherits					install
