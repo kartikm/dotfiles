@@ -1572,7 +1572,6 @@ libieee1284-3:i386				install
 libijs-0.35:amd64				install
 libiksemel-dev:amd64				install
 libiksemel3:amd64				install
-libilmbase12:amd64				install
 libilmbase23:amd64				install
 libimage-exiftool-perl				install
 libimgscalr-java				install
