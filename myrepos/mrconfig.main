@@ -115,9 +115,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git
 [development/debian/packages/ostinato/git/ostinato]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/ostinato.git' 'ostinato'
 
-[development/debian/packages/recoll/git/recoll]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/recoll.git' 'recoll'
-
 [development/debian/packages/xdaliclock/xdaliclock]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xdaliclock.git' 'xdaliclock'
 
@@ -585,3 +582,6 @@ checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/tuxpaint/tuxpaint' 'tuxpa
 
 [development/l10n/tuxfamily/tuxpaint-tuxpaint-stamps]
 checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/tuxpaint/tuxpaint-stamps' 'tuxpaint-tuxpaint-stamps'
+
+[development/debian/packages/recoll/recoll]
+checkout = git clone 'git@salsa.debian.org:debian/recoll.git' 'recoll'

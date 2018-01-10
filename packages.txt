@@ -692,6 +692,7 @@ java-common					install
 java-wrappers					install
 javahelper					install
 javascript-common				install
+jq						install
 jsonlint					install
 junit						install
 junit4						install
@@ -1641,6 +1642,7 @@ libjpeg-turbo-progs				install
 libjpeg62-turbo:amd64				install
 libjpeg62-turbo:i386				install
 libjpeg62-turbo-dev:amd64			install
+libjq1:amd64					install
 libjs-async					install
 libjs-bootstrap					install
 libjs-excanvas					install
@@ -2109,6 +2111,7 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokular5core7					install
+libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
