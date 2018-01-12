@@ -3033,6 +3033,7 @@ libzip4:amd64					install
 libzmf-0.0-0:amd64				install
 libzmq3-dev:amd64				install
 libzmq5:amd64					install
+libzstd1					install
 libzvbi-common					install
 libzvbi0:amd64					install
 libzvbi0:i386					install
