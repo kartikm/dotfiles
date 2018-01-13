@@ -547,9 +547,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 [development/github/pybib]
 checkout = git clone 'https://github.com/kartikm/pybib' 'pybib'
 
-[development/debian/packages/fontypython]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/fontypython' 'fontypython'
-
 [development/debian/packages/apertium/hfst-ospell]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/hfst-ospell' 'hfst-ospell'
 
@@ -585,3 +582,6 @@ checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/tuxpaint/tuxpaint-stamps'
 
 [development/debian/packages/recoll/recoll]
 checkout = git clone 'git@salsa.debian.org:debian/recoll.git' 'recoll'
+
+[development/debian/packages/fontypython]
+checkout = git clone 'git@salsa.debian.org:debian/fontypython.git' 'fontypython'
