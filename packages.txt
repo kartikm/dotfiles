@@ -827,7 +827,7 @@ libann0						install
 libantlr-java					install
 libanyevent-perl				install
 libao-common					install
-libao4						install
+libao4:amd64					install
 libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
@@ -978,6 +978,7 @@ libboost-regex1.62.0:amd64			install
 libboost-system1.62.0:amd64			install
 libboost1.62-dev:amd64				install
 libbrlapi0.6:amd64				install
+libbrotli1:amd64				install
 libbs2b0:amd64					install
 libbsd-dev:amd64				install
 libbsd0:amd64					install
@@ -3745,6 +3746,7 @@ qmlscene					install
 qprint						install
 qrencode					install
 qt4-qmake					install
+qt5-assistant					install
 qt5-gtk-platformtheme:amd64			install
 qt5-image-formats-plugins:amd64			install
 qt5-qmake:amd64					install
