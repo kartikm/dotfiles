@@ -308,7 +308,8 @@ dosfstools					install
 doxygen						install
 dpkg						install
 dpkg-dev					install
-dput-ng						install
+dput						install
+dput-ng						deinstall
 dunst						install
 dwdiff						install
 dynamite					install
@@ -3632,6 +3633,7 @@ python3-distutils				install
 python3-dnspython				install
 python3-formencode				install
 python3-gi					install
+python3-gpg					install
 python3-html5lib				install
 python3-httplib2				install
 python3-idna					install
