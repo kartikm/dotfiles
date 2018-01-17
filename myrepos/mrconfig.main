@@ -97,15 +97,6 @@ update = fork_update
 [development/debian/packages/aria2/aria2]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/aria2.git' 'aria2'
 
-[development/debian/packages/falconpl/falcon]
-checkout = git clone 'git+ssh://git.debian.org/git/collab-maint/falconpl.git' 'falcon'
-
-[development/debian/packages/gwibber/gwibber]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/gwibber.git' 'gwibber'
-
-[development/debian/packages/netsniff-ng/git/netsniff-ng]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/netsniff-ng.git' 'netsniff-ng'
-
 [development/debian/packages/nginx/git/nginx]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git' 'nginx'
 
@@ -585,3 +576,6 @@ checkout = git clone 'git@salsa.debian.org:debian/fontypython.git' 'fontypython'
 
 [development/debian/packages/fortunes-debian-hints/fortunes-debian-hints]
 checkout = git clone 'git@salsa.debian.org:debian/fortunes-debian-hints.git' 'fortunes-debian-hints'
+
+[development/debian/packages/netsniff-ng/netsniff-ng]
+checkout = git clone 'git@salsa.debian.org:debian/netsniff-ng.git' 'netsniff-ng'
