@@ -1604,6 +1604,7 @@ libip6tc0:amd64					install
 libipc-run-perl					install
 libipc-system-simple-perl			install
 libiptc0:amd64					install
+libirs160:amd64					install
 libisc-export166:amd64				install
 libisc166:amd64					install
 libisccc160:amd64				install

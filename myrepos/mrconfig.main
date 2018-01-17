@@ -100,9 +100,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/aria2.git
 [development/debian/packages/falconpl/falcon]
 checkout = git clone 'git+ssh://git.debian.org/git/collab-maint/falconpl.git' 'falcon'
 
-[development/debian/packages/fortunes-debian-hints/git/fortunes-debian-hints]
-checkout = git clone git+ssh://kartik@git.debian.org/git/collab-maint/fortunes-debian-hints.git
-
 [development/debian/packages/gwibber/gwibber]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/gwibber.git' 'gwibber'
 
@@ -551,7 +548,7 @@ checkout = git clone 'https://github.com/kartikm/pybib' 'pybib'
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/hfst-ospell' 'hfst-ospell'
 
 [development/debian/packages/chmlib/chmlib]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/chmlib.git' 'chmlib'
+checkout = git clone 'git@salsa.debian.org:debian/chmlib.git' 'chmlib'
 
 [development/debian/packages/apertium/apertium-bel]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-bel' 'apertium-bel'
@@ -585,3 +582,6 @@ checkout = git clone 'git@salsa.debian.org:debian/recoll.git' 'recoll'
 
 [development/debian/packages/fontypython]
 checkout = git clone 'git@salsa.debian.org:debian/fontypython.git' 'fontypython'
+
+[development/debian/packages/fortunes-debian-hints/fortunes-debian-hints]
+checkout = git clone 'git@salsa.debian.org:debian/fortunes-debian-hints.git' 'fortunes-debian-hints'
