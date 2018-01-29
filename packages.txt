@@ -850,6 +850,7 @@ libarchive-extract-perl				install
 libarchive-tools				install
 libarchive-zip-perl				install
 libarchive13:amd64				install
+libargon2-0:amd64				install
 libaribb24-0:amd64				install
 libarmadillo8					install
 libarpack2:amd64				install
@@ -1115,6 +1116,7 @@ libcrypt-ssleay-perl				install
 libcrypt-unixcrypt-xs-perl			install
 libcrypt-x509-perl				install
 libcryptsetup-dev:amd64				install
+libcryptsetup12:amd64				install
 libcryptsetup4:amd64				install
 libcrystalhd3:amd64				install
 libcrystalhd3:i386				install
