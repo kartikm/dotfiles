@@ -3900,6 +3900,7 @@ sonnet-plugins					install
 soprano-daemon					install
 sound-theme-freedesktop				install
 sox						install
+spectre-meltdown-checker			install
 spew						install
 sphinx-common					install
 sphinx-doc					install
