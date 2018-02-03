@@ -398,6 +398,7 @@ fonts-knda					install
 fonts-lao					install
 fonts-lato					install
 fonts-liberation				install
+fonts-liberation2				install
 fonts-linuxlibertine				install
 fonts-lklug-sinhala				install
 fonts-lmodern					install
@@ -748,6 +749,7 @@ khelpcenter					install
 khelpcenter4					install
 khotkeys					install
 khotkeys-data					install
+kimageformat-plugins				install
 kinfocenter					install
 kinit						install
 kio						install
@@ -832,6 +834,7 @@ libao4:amd64					install
 libapache-mime4j-java				install
 libapache-poi-java				install
 libapache-pom-java				install
+libapache2-mod-php7.2				install
 libapertium3-3.4-0:amd64			install
 libapparmor1:amd64				install
 libappindicator1:amd64				install
@@ -969,14 +972,17 @@ libbonobo2-0:amd64				install
 libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
+libboost-chrono1.62.0:amd64			install
 libboost-date-time1.62.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.62.0:amd64			install
 libboost-iostreams1.62.0:amd64			install
+libboost-locale1.62.0:amd64			install
 libboost-program-options1.62.0:amd64		install
 libboost-python1.62.0				install
 libboost-regex1.62.0:amd64			install
 libboost-system1.62.0:amd64			install
+libboost-thread1.62.0:amd64			install
 libboost1.62-dev:amd64				install
 libbrlapi0.6:amd64				install
 libbrotli1:amd64				install
@@ -1239,6 +1245,7 @@ libepoxy0:amd64					install
 libepsilon1:amd64				install
 libept1.5.0:amd64				install
 libepub0					install
+libepubgen-0.1-1				install
 liberror-perl					install
 libesd0:i386					install
 libestr0:amd64					install
@@ -1351,6 +1358,7 @@ libgd3:amd64					install
 libgdal20					install
 libgdbm-dev:amd64				install
 libgdbm3:amd64					install
+libgdbm5:amd64					install
 libgdcm2.8:amd64				install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-0:i386				install
@@ -1488,7 +1496,7 @@ libgtk2.0-bin					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
 libgtkmm-2.4-1v5:amd64				install
-libgtkspell0					install
+libgtkspell0:amd64				install
 libgts-0.7-5:amd64				install
 libgts-bin					install
 libguard-perl					install
@@ -2008,6 +2016,7 @@ libmpdec2:amd64					install
 libmpeg2-4:amd64				install
 libmpeg2encpp-2.1-0				install
 libmpfr4:amd64					install
+libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
 libmplex2-2.1-0					install
@@ -2160,6 +2169,7 @@ liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.12-0:amd64				install
+liborcus-0.13-0:amd64				install
 liboro-java					install
 libosp5						install
 libossp-uuid-perl				install
@@ -2176,6 +2186,7 @@ libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
 libpackagekit-glib2-18:amd64			install
 libpackagekitqt5-0:amd64			install
+libpackagekitqt5-1:amd64			install
 libpadwalker-perl				install
 libpagemaker-0.0-0:amd64			install
 libpam-cap:amd64				install
@@ -2403,6 +2414,7 @@ libqtwebkit4:amd64				install
 libquadmath0:amd64				install
 libquvi-0.9-0.9.3:amd64				install
 libquvi-scripts-0.9				install
+libqxp-0.0-0					install
 libraptor2-0:amd64				install
 librarian0					install
 librasqal3:amd64				install
@@ -2710,6 +2722,7 @@ libtool-bin					install
 libtry-tiny-perl				install
 libtsan0:amd64					install
 libtsk13					install
+libttfautohint1:amd64				install
 libturbojpeg0:amd64				install
 libtwelvemonkeys-java				install
 libtwolame0:amd64				install
@@ -2847,6 +2860,7 @@ libx11-xcb1:i386				install
 libx264-148:amd64				install
 libx264-148:i386				install
 libx264-152:amd64				install
+libx264-152:i386				install
 libx265-146:amd64				install
 libx265-146:i386				install
 libx32asan3					install
@@ -3372,6 +3386,19 @@ php7.0-opcache					install
 php7.0-readline					install
 php7.0-xml					install
 php7.0-zip					install
+php7.2						install
+php7.2-bz2					install
+php7.2-cli					install
+php7.2-common					install
+php7.2-curl					install
+php7.2-gd					install
+php7.2-json					install
+php7.2-mbstring					install
+php7.2-mysql					install
+php7.2-opcache					install
+php7.2-readline					install
+php7.2-xml					install
+php7.2-zip					install
 phpmyadmin					install
 phpunit						install
 phpunit-code-unit-reverse-lookup		install
@@ -3535,6 +3562,7 @@ python-lzma					install
 python-magic					install
 python-markupsafe				install
 python-matplotlib-data				install
+python-mccabe					install
 python-mimeparse				install
 python-minimal					install
 python-mysqldb					install
