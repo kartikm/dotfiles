@@ -426,7 +426,6 @@ fonts-noto-cjk					install
 fonts-noto-hinted				install
 fonts-noto-mono					install
 fonts-noto-unhinted				install
-fonts-open-sans					install
 fonts-opensymbol				install
 fonts-orya					install
 fonts-orya-extra				install
@@ -493,10 +492,8 @@ gawk						install
 gcc						install
 gcc-5						install
 gcc-5-base:amd64				install
-gcc-5-base:i386					install
 gcc-6						install
 gcc-6-base:amd64				install
-gcc-6-base:i386					install
 gcc-6-multilib					install
 gcc-7						install
 gcc-7-base:amd64				install
@@ -1413,7 +1410,6 @@ libglib2.0-dev:amd64				install
 libglib2.0-dev-bin				install
 libglibmm-2.4-1v5:amd64				install
 libglibmm-2.4-dev:amd64				install
-libgltf-0.1-1:amd64				install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev:amd64				install
@@ -1909,7 +1905,6 @@ liblinear3:amd64				install
 liblirc-client0:amd64				install
 liblist-compare-perl				install
 liblist-moreutils-perl				install
-liblivemedia61:amd64				install
 liblivemedia62:amd64				install
 libllvm3.9:amd64				install
 libllvm5.0:amd64				install
@@ -2015,7 +2010,6 @@ libmpcdec6:amd64				install
 libmpdec2:amd64					install
 libmpeg2-4:amd64				install
 libmpeg2encpp-2.1-0				install
-libmpfr4:amd64					install
 libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
@@ -2168,7 +2162,6 @@ libopusfile0					install
 liborbit-2-0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
-liborcus-0.12-0:amd64				install
 liborcus-0.13-0:amd64				install
 liboro-java					install
 libosp5						install
@@ -2256,7 +2249,6 @@ libpixie-java					install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				install
 libpixman-1-dev:amd64				install
-libplacebo2:amd64				install
 libplacebo3:amd64				install
 libplasma-geolocation-interface5		install
 libplasma3					install
@@ -2857,8 +2849,6 @@ libx11-protocol-perl				install
 libx11-xcb-dev:amd64				install
 libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
-libx264-148:amd64				install
-libx264-148:i386				install
 libx264-152:amd64				install
 libx264-152:i386				install
 libx265-146:amd64				install
@@ -3519,7 +3509,6 @@ python-distro-info				install
 python-distutils-extra				install
 python-dnspython				install
 python-docutils					install
-python-dput					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-enum34					install
@@ -3595,7 +3584,6 @@ python-pyqt5.qtsvg				install
 python-pyqt5.qtwebkit				install
 python-pysimplesoap				install
 python-qrtools					install
-python-qt4					install
 python-recoll					install
 python-repoze.lru				install
 python-requests					install
@@ -3630,7 +3618,6 @@ python-unittest2				install
 python-urllib3					install
 python-urwid					install
 python-utidylib					install
-python-validictory				install
 python-wcwidth					install
 python-webencodings				install
 python-webunit					install
