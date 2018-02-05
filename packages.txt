@@ -3851,7 +3851,7 @@ ruby-net-ssh					install
 ruby-net-telnet					install
 ruby-netrc					install
 ruby-nokogiri					install
-ruby-oj						install
+ruby-oj:amd64					install
 ruby-pkg-config					install
 ruby-power-assert				install
 ruby-rb-inotify					install
