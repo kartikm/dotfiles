@@ -153,6 +153,7 @@ blt						install
 bluedevil					install
 bluez						install
 bluez-obexd					install
+bmon						install
 breeze						install
 breeze-cursor-theme				install
 breeze-gtk-theme				install
@@ -167,13 +168,16 @@ btrfs-tools					install
 build-essential					install
 bundler						install
 busybox						install
+byobu						install
 byzanz						install
 bzip2						install
 ca-certificates					install
 ca-certificates-java				install
 cabextract					install
+caca-utils					install
 calendar-google-provider			install
 catdoc						install
+ccze						install
 cdbs						install
 cdebootstrap					install
 cg3						install
@@ -630,6 +634,7 @@ hfst						install
 hfst-ospell					install
 hicolor-icon-theme				install
 hiera						install
+hollywood					install
 hopenpgp-tools					install
 host						install
 hostname					install
@@ -691,6 +696,7 @@ java-common					install
 java-wrappers					install
 javahelper					install
 javascript-common				install
+jp2a						install
 jq						install
 jsonlint					install
 junit						install
@@ -1096,6 +1102,8 @@ libconfig-doc					install
 libconfig-general-perl				install
 libconfig-inifiles-perl				install
 libconfig9:amd64				install
+libconfuse-common				install
+libconfuse2:amd64				install
 libconvert-asn1-perl				install
 libconvert-binhex-perl				install
 libcpan-changes-perl				install
@@ -1186,6 +1194,7 @@ libdevmapper1.02.1:amd64			install
 libdigest-crc-perl				install
 libdigest-hmac-perl				install
 libdigest-md4-perl				install
+libdirectfb-1.7-7:amd64				install
 libdiscover2					install
 libdistro-info-perl				install
 libdjvulibre-text				install
@@ -2017,6 +2026,7 @@ libmplex2-2.1-0					install
 libmpx0:amd64					install
 libmpx2:amd64					install
 libmro-compat-perl				install
+libmrss0:amd64					install
 libmspack0:amd64				install
 libmspub-0.1-1:amd64				install
 libmsv-java					install
@@ -2106,6 +2116,7 @@ libnuma1:amd64					install
 libnuma1:i386					install
 libnumber-compare-perl				install
 libnumber-range-perl				install
+libnxml0:amd64					install
 libobjc4:amd64					install
 libobjenesis-java				install
 libodbc1:amd64					install
@@ -2618,6 +2629,7 @@ libstdc++-7-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
 libstemmer0d:amd64				install
+libstfl0					install
 libstoken1:amd64				install
 libstrictures-perl				install
 libstring-copyright-perl			install
@@ -2788,6 +2800,7 @@ libvorbisenc2:amd64				install
 libvorbisenc2:i386				install
 libvorbisfile3:amd64				install
 libvorbisfile3:i386				install
+libvorbisidec1					install
 libvpb-dev					install
 libvpb1						install
 libvpx4:amd64					install
@@ -3132,6 +3145,7 @@ mosh						install
 mount						install
 mozilla-devscripts				install
 mpg123						install
+mplayer						install
 mscompress					install
 msp430-libc					install
 msp430mcu					install
@@ -3169,6 +3183,7 @@ nettle-dev:amd64				install
 network-manager					install
 network-manager-pptp				install
 network-manager-vpnc				install
+newsbeuter					install
 nfs-common					install
 nfs-kernel-server				install
 nginx						install
@@ -3299,6 +3314,7 @@ pandoc-data					install
 parted						install
 passwd						install
 passwdqc					install
+pastebinit					install
 patch						install
 patchutils					install
 pbuilder					install
@@ -3555,6 +3571,7 @@ python-mccabe					install
 python-mimeparse				install
 python-minimal					install
 python-mysqldb					install
+python-newt:amd64				install
 python-nose					install
 python-numpy					install
 python-pathlib2					install
@@ -3806,6 +3823,7 @@ rig						install
 rlwrap						install
 rpcbind						install
 rpm-common					install
+rsstail						install
 rsync						install
 rsyslog						install
 rtmpdump					install
@@ -3918,6 +3936,7 @@ soprano-daemon					install
 sound-theme-freedesktop				install
 sox						install
 spectre-meltdown-checker			install
+speedometer					install
 spew						install
 sphinx-common					install
 sphinx-doc					install
@@ -3981,6 +4000,7 @@ texlive-latex-recommended			install
 texlive-latex-recommended-doc			install
 thin-provisioning-tools				install
 thunderbird					install
+ticker						install
 time						install
 timgm6mb-soundfont				install
 tinycdb						install
@@ -4070,6 +4090,7 @@ vpb-driver-source				install
 vpnc						install
 vpnc-scripts					install
 w3m						install
+wallstreet					install
 wamerican					install
 watchdog					install
 wdiff						install
