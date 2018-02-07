@@ -1977,6 +1977,7 @@ libmath-random-isaac-xs-perl			install
 libmatroska6v5:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
+libmcrypt4					install
 libmd0:amd64					install
 libmeanwhile1:amd64				install
 libmecab2:amd64					install
@@ -3353,6 +3354,7 @@ php-file-iterator				install
 php-gd						install
 php-json-schema					install
 php-mbstring					install
+php-mcrypt					install
 php-mysql					install
 php-pear					install
 php-phar-io-manifest				install
@@ -3387,6 +3389,7 @@ php7.0-fpm					install
 php7.0-gd					install
 php7.0-json					install
 php7.0-mbstring					install
+php7.0-mcrypt					install
 php7.0-mysql					install
 php7.0-opcache					install
 php7.0-readline					install
