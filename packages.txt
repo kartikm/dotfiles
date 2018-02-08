@@ -503,6 +503,7 @@ gcc-7						install
 gcc-7-base:amd64				install
 gcc-7-base:i386					install
 gcc-7-multilib					install
+gcc-8-base:amd64				install
 gcc-avr						install
 gcc-msp430					install
 gcc-multilib					install
