@@ -317,7 +317,7 @@ dput-ng						deinstall
 dunst						install
 dwdiff						install
 dynamite					install
-e2fslibs:amd64					install
+e2fslibs					install
 e2fsprogs					install
 e2fsprogs-l10n					install
 easy-rsa					install
@@ -784,6 +784,8 @@ ktouch-data					install
 kturtle						install
 kvkbd						install
 kwalletmanager					install
+kwayland-data					install
+kwayland-integration:amd64			install
 kwin-common					install
 kwin-data					install
 kwin-style-breeze				install
@@ -1086,8 +1088,8 @@ libcmis-0.5-5v5					install
 libcolamd2:amd64				install
 libcolord2:amd64				install
 libcolorhug2:amd64				install
-libcomerr2:amd64				install
-libcomerr2:i386					install
+libcom-err2:amd64				install
+libcomerr2					install
 libcommons-codec-java				install
 libcommons-collections3-java			install
 libcommons-discovery-java			install
@@ -1234,6 +1236,7 @@ libeatmydata1:amd64				install
 libebml4v5:amd64				install
 libedit2:amd64					install
 libedit2:i386					install
+libeditorconfig0:amd64				install
 libegl-mesa0:amd64				install
 libegl1:amd64					install
 libegl1-mesa:amd64				install
@@ -1274,6 +1277,7 @@ libexpat1:i386					install
 libexpat1-dev:amd64				install
 libexporter-lite-perl				install
 libexporter-tiny-perl				install
+libext2fs2:amd64				install
 libexttextcat-2.0-0:amd64			install
 libexttextcat-data				install
 libfaad2:amd64					install
@@ -1787,6 +1791,7 @@ libkf5kiontlm5:amd64				install
 libkf5kiowidgets5:amd64				install
 libkf5kipi-data					install
 libkf5kipi32.0.0				install
+libkf5kirigami2-5				install
 libkf5konq6					install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
@@ -1835,6 +1840,7 @@ libkf5syntaxhighlighting-data			install
 libkf5syntaxhighlighting5:amd64			install
 libkf5sysguard-bin				install
 libkf5sysguard-data				install
+libkf5texteditor-bin				install
 libkf5texteditor5:amd64				install
 libkf5textwidgets-data				install
 libkf5textwidgets5:amd64			install
@@ -2399,6 +2405,8 @@ libqt5sql5-mysql:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5svg5:amd64				install
 libqt5test5:amd64				install
+libqt5waylandclient5:amd64			install
+libqt5waylandcompositor5:amd64			install
 libqt5webchannel5:amd64				install
 libqt5webengine-data				install
 libqt5webenginecore5:amd64			install
@@ -3801,6 +3809,7 @@ qtcore4-l10n					install
 qtdeclarative5-dev:amd64			install
 qttools5-dev-tools				install
 qttranslations5-l10n				install
+qtwayland5:amd64				install
 quake3						install
 quake3-data					install
 quilt						install
