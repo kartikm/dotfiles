@@ -314,6 +314,7 @@ dpkg						install
 dpkg-dev					install
 dput						install
 dput-ng						deinstall
+drkonqi						install
 dunst						install
 dwdiff						install
 dynamite					install
@@ -1085,6 +1086,7 @@ libclucene-contribs1v5:amd64			install
 libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
 libcolamd2:amd64				install
+libcolorcorrect5				install
 libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcom-err2:amd64				install
@@ -3763,6 +3765,7 @@ qml-module-org-kde-bluezqt:amd64		install
 qml-module-org-kde-charts			install
 qml-module-org-kde-draganddrop:amd64		install
 qml-module-org-kde-extensionplugin		install
+qml-module-org-kde-kcm:amd64			install
 qml-module-org-kde-kconfig:amd64		install
 qml-module-org-kde-kcoreaddons:amd64		install
 qml-module-org-kde-kholidays:amd64		install
@@ -3774,6 +3777,7 @@ qml-module-org-kde-kquickcontrolsaddons:amd64	install
 qml-module-org-kde-kwindowsystem:amd64		install
 qml-module-org-kde-newstuff			install
 qml-module-org-kde-purpose:amd64		install
+qml-module-org-kde-qqc2desktopstyle		install
 qml-module-org-kde-runnermodel			install
 qml-module-org-kde-solid:amd64			install
 qml-module-qt-labs-folderlistmodel:amd64	install
