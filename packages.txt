@@ -501,7 +501,6 @@ gcc-6-base:amd64				install
 gcc-6-multilib					install
 gcc-7						install
 gcc-7-base:amd64				install
-gcc-7-base:i386					install
 gcc-7-multilib					install
 gcc-8-base:amd64				install
 gcc-8-base:i386					install
@@ -2794,7 +2793,6 @@ libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex6:amd64				install
 libvirt0					install
-libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
 libvlc-bin:amd64				install
