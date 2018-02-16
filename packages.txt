@@ -434,7 +434,6 @@ fonts-noto-unhinted				install
 fonts-opensymbol				install
 fonts-orya					install
 fonts-orya-extra				install
-fonts-oxygen					install
 fonts-pagul					install
 fonts-roboto					install
 fonts-roboto-hinted				install
@@ -2199,7 +2198,6 @@ libpackage-deprecationmanager-perl		install
 libpackage-stash-perl				install
 libpackage-stash-xs-perl			install
 libpackagekit-glib2-18:amd64			install
-libpackagekitqt5-0:amd64			install
 libpackagekitqt5-1:amd64			install
 libpadwalker-perl				install
 libpagemaker-0.0-0:amd64			install
@@ -3764,7 +3762,6 @@ qml-module-org-kde-activities:amd64		install
 qml-module-org-kde-bluezqt:amd64		install
 qml-module-org-kde-charts			install
 qml-module-org-kde-draganddrop:amd64		install
-qml-module-org-kde-extensionplugin		install
 qml-module-org-kde-kcm:amd64			install
 qml-module-org-kde-kconfig:amd64		install
 qml-module-org-kde-kcoreaddons:amd64		install
