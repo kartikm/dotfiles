@@ -1973,7 +1973,10 @@ libmagic-mgc					install
 libmagic1:amd64					install
 libmagickcore-6.q16-3:amd64			install
 libmagickcore-6.q16-3-extra:amd64		install
+libmagickcore-6.q16-5:amd64			install
+libmagickcore-6.q16-5-extra:amd64		install
 libmagickwand-6.q16-3:amd64			install
+libmagickwand-6.q16-5:amd64			install
 libmail-java					install
 libmail-sendmail-perl				install
 libmailtools-perl				install
