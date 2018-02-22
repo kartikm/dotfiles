@@ -2755,6 +2755,7 @@ libuniconf4.6					install
 libuninameslist-dev:amd64			install
 libuninameslist1:amd64				install
 libunistring2:amd64				install
+libunwind8					install
 libupnp6:amd64					install
 libupower-glib3:amd64				install
 liburcu-dev:amd64				install
@@ -2814,6 +2815,8 @@ libvpb-dev					install
 libvpb1						install
 libvpx4:amd64					install
 libvpx4:i386					install
+libvpx5:amd64					install
+libvpx5:i386					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
 libvtk6.3					install
@@ -3079,11 +3082,15 @@ linux-headers-4.14.0-2-amd64			install
 linux-headers-4.14.0-2-common			install
 linux-headers-4.14.0-3-amd64			install
 linux-headers-4.14.0-3-common			install
+linux-headers-4.15.0-1-amd64			install
+linux-headers-4.15.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.14.0-2-amd64			install
 linux-image-4.14.0-3-amd64			install
+linux-image-4.15.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.14				install
+linux-kbuild-4.15				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -3789,6 +3796,7 @@ qml-module-qtquick-dialogs:amd64		install
 qml-module-qtquick-layouts:amd64		install
 qml-module-qtquick-privatewidgets:amd64		install
 qml-module-qtquick-templates2:amd64		install
+qml-module-qtquick-virtualkeyboard		install
 qml-module-qtquick-window2:amd64		install
 qml-module-qtquick2:amd64			install
 qmlscene					install
@@ -4220,6 +4228,7 @@ xvt						install
 xxd						install
 xz-utils					install
 youtube-dl					install
+yudit-common					install
 zathura						install
 zathura-cb					install
 zathura-djvu					install
