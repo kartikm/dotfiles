@@ -1368,6 +1368,7 @@ libgcrypt20:i386				install
 libgcrypt20-dev					install
 libgd3:amd64					install
 libgdal20					install
+libgdbm-compat4:amd64				install
 libgdbm-dev:amd64				install
 libgdbm3:amd64					install
 libgdbm5:amd64					install
@@ -2138,6 +2139,7 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokular5core7					install
+libokular5core8					install
 libonig4:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
