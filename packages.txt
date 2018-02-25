@@ -395,6 +395,7 @@ fonts-gujr					install
 fonts-gujr-extra				install
 fonts-guru					install
 fonts-guru-extra				install
+fonts-hack					install
 fonts-hack-ttf					install
 fonts-inconsolata				install
 fonts-indic					install
