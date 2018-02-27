@@ -38,7 +38,6 @@ apertium-br-fr					install
 apertium-ca-it					install
 apertium-cat					install
 apertium-crh					install
-apertium-crh-tur				install
 apertium-cy-en					install
 apertium-dan					install
 apertium-dan-nor				install
@@ -102,7 +101,6 @@ apt						install
 apt-cacher-ng					install
 apt-file					install
 apt-listbugs					install
-apt-listchanges					deinstall
 apt-utils					install
 aptitude					install
 aptitude-common					install
@@ -313,7 +311,6 @@ doxygen						install
 dpkg						install
 dpkg-dev					install
 dput						install
-dput-ng						deinstall
 drkonqi						install
 dunst						install
 dwdiff						install
@@ -562,7 +559,6 @@ gitstats					install
 glib-networking:amd64				install
 glib-networking-common				install
 glib-networking-services			install
-gnome-accessibility-themes			deinstall
 gnome-keyring					install
 gnome-mime-data					install
 gnupg						install
@@ -570,7 +566,6 @@ gnupg-agent					install
 gnupg-l10n					install
 gnupg-utils					install
 gnupg1						install
-gnupg1-curl					deinstall
 gnupg2						install
 gnuplot						install
 gnuplot-data					install
@@ -649,9 +644,7 @@ i965-va-driver:i386				install
 iamerican					install
 ibverbs-providers:amd64				install
 icc-profiles-free				install
-icedove						install
 icedtea-netx-common				install
-iceowl-extension				install
 icoutils					install
 icu-devtools					install
 ieee-data					install
@@ -1024,7 +1017,7 @@ libcairo-perl					install
 libcairo-script-interpreter2:amd64		install
 libcairo2:amd64					install
 libcairo2:i386					install
-libcairo2-dev					install
+libcairo2-dev:amd64				install
 libcairomm-1.0-1v5:amd64			install
 libcamd2:amd64					install
 libcanberra-gtk-module:amd64			install
@@ -1090,7 +1083,7 @@ libcolorcorrect5				install
 libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcom-err2:amd64				install
-libcomerr2					install
+libcomerr2:amd64				install
 libcommons-codec-java				install
 libcommons-collections3-java			install
 libcommons-discovery-java			install
@@ -1579,7 +1572,6 @@ libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
 libicu-dev					install
-libicu52:i386					deinstall
 libicu57:amd64					install
 libicu57:i386					install
 libid3tag0:amd64				install
@@ -1709,7 +1701,6 @@ libkdeui5					install
 libkdewebkit5					install
 libkdnssd4					install
 libkemoticons4					install
-libkexiv2-11					deinstall
 libkeyutils1:amd64				install
 libkf5activities5:amd64				install
 libkf5activitiesstats1:amd64			install
@@ -2334,7 +2325,6 @@ libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
 libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
-libpython3.5-minimal:amd64			deinstall
 libpython3.6:amd64				install
 libpython3.6-dev:amd64				install
 libpython3.6-minimal:amd64			install
@@ -2629,7 +2619,8 @@ libssh-4:amd64					install
 libssh-gcrypt-4:amd64				install
 libssh2-1:amd64					install
 libssh2-1-dev:amd64				install
-libssl1.0-dev:amd64				install
+libssl-dev:amd64				install
+libssl-doc					install
 libssl1.0.2:amd64				install
 libssl1.1:amd64					install
 libstaroffice-0.0-0:amd64			install
@@ -3082,7 +3073,6 @@ linux-headers-4.14.0-3-common			install
 linux-headers-4.15.0-1-amd64			install
 linux-headers-4.15.0-1-common			install
 linux-headers-amd64				install
-linux-image-4.14.0-2-amd64			deinstall
 linux-image-4.14.0-3-amd64			install
 linux-image-4.15.0-1-amd64			install
 linux-image-amd64				install
@@ -3129,7 +3119,6 @@ maint-guide					install
 make						install
 makedev						install
 man-db						install
-mango-lassi					install
 manpages					install
 manpages-dev					install
 mariadb-common					install
@@ -3557,8 +3546,6 @@ python-gobject					install
 python-gobject-2				install
 python-gridfs					install
 python-gtk2					install
-python-gtkmvc					install
-python-gtkmvc-doc				install
 python-html2text				install
 python-html5lib					install
 python-httplib2					install
@@ -3743,7 +3730,6 @@ python3-webencodings				install
 python3-wheel					install
 python3-xdg					install
 python3-yaml					install
-python3.5-minimal				deinstall
 python3.6					install
 python3.6-dev					install
 python3.6-minimal				install
@@ -4010,9 +3996,7 @@ texlive-binaries				install
 texlive-fonts-recommended			install
 texlive-fonts-recommended-doc			install
 texlive-latex-base				install
-texlive-latex-base-doc				install
 texlive-latex-recommended			install
-texlive-latex-recommended-doc			install
 thin-provisioning-tools				install
 thunderbird					install
 ticker						install
