@@ -216,7 +216,7 @@ cpufrequtils					install
 cracklib-runtime				install
 crda						install
 cron						install
-cryptsetup					install
+cryptsetup					deinstall
 cryptsetup-bin					install
 cscope						install
 culmus						install
@@ -227,7 +227,6 @@ curl						install
 cvs						install
 d-shlibs					install
 dash						install
-db-util						install
 db5.3-util					install
 dbconfig-common					install
 dbconfig-mysql					install
@@ -303,7 +302,6 @@ docker-engine					install
 docutils-common					install
 docutils-doc					install
 dolphin						install
-dolphin4					install
 dosbox						install
 dose-extra					install
 dosfstools					install
@@ -626,14 +624,12 @@ gzip						install
 hatari						install
 hdparm						install
 help2man					install
-hfsplus						install
 hfst						install
 hfst-ospell					install
 hicolor-icon-theme				install
 hiera						install
 hollywood					install
 hopenpgp-tools					install
-host						install
 hostname					install
 html2text					install
 htop						install
@@ -670,7 +666,6 @@ intltool-debian					install
 ioquake3					install
 ioquake3-server					install
 iotop						install
-iproute						install
 iproute2					install
 iptables					install
 iputils-arping					install
@@ -790,7 +785,6 @@ laptop-mode-tools				install
 lcdf-typetools					install
 ldap-utils					install
 ldapvi						install
-ldmtool						install
 less						install
 lib32asan3					install
 lib32asan4					install
@@ -819,7 +813,6 @@ libacl1-dev					install
 libacme-damn-perl				install
 libacsccid1					install
 libaec0:amd64					install
-libafflib0v5					install
 libaio1:amd64					install
 libalgorithm-c3-perl				install
 libalgorithm-diff-perl				install
@@ -905,7 +898,6 @@ libauthen-dechpwd-perl				install
 libauthen-passphrase-perl			install
 libauthen-sasl-perl				install
 libautodie-perl					install
-libavahi-client-dev:amd64			install
 libavahi-client3:amd64				install
 libavahi-client3:i386				install
 libavahi-common-data:amd64			install
@@ -916,8 +908,6 @@ libavahi-common3:i386				install
 libavahi-core7:amd64				install
 libavahi-glib-dev:amd64				install
 libavahi-glib1:amd64				install
-libavahi-ui-dev:amd64				install
-libavahi-ui0:amd64				install
 libavalon-framework-java			install
 libavc1394-0:amd64				install
 libavcodec-dev:amd64				install
@@ -949,7 +939,6 @@ libbcmail-java					install
 libbcpkix-java					install
 libbcprov-java					install
 libbdplus0:amd64				install
-libbfio1					install
 libbind9-160:amd64				install
 libbinutils:amd64				install
 libbison-dev:amd64				install
@@ -1148,7 +1137,6 @@ libdata-integer-perl				install
 libdata-optlist-perl				install
 libdata-perl-perl				install
 libdata-section-perl				install
-libdate-manip-perl				install
 libdatetime-format-builder-perl			install
 libdatetime-format-iso8601-perl			install
 libdatetime-format-strptime-perl		install
@@ -1257,7 +1245,6 @@ libeval-closure-perl				install
 libevdev2:amd64					install
 libevent-2.1-6:amd64				install
 libevent-core-2.1-6:amd64			install
-libewf2						install
 libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
 libexception-class-perl				install
@@ -1506,12 +1493,7 @@ libgts-bin					install
 libguard-perl					install
 libgucharmap-2-90-7:amd64			install
 libgudev-1.0-0:amd64				install
-libguestfs-hfsplus:amd64			install
-libguestfs-perl					install
-libguestfs-reiserfs:amd64			install
-libguestfs-tools				install
-libguestfs-xfs:amd64				install
-libguestfs0:amd64				install
+libguestfs-tools				deinstall
 libgupnp-1.0-4:amd64				install
 libgupnp-av-1.0-2				install
 libgupnp-dlna-2.0-3				install
@@ -1530,12 +1512,10 @@ libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
 libhdf5-openmpi-100:amd64			install
-libhfsp0					install
 libhfst-dev					install
 libhfst50					install
 libhfstospell9:amd64				install
 libhibernate-validator-java			install
-libhivex0:amd64					install
 libhogweed4:amd64				install
 libhpdf-2.3.0:amd64				install
 libhpdf-dev:amd64				install
@@ -1902,7 +1882,6 @@ liblcms2-utils					install
 libldap-2.4-2:amd64				install
 libldap-common					install
 libldb1:amd64					install
-libldm-1.0-0:amd64				install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
 liblept5					install
@@ -2495,7 +2474,6 @@ librygel-db-2.6-2				install
 librygel-renderer-2.6-2				install
 librygel-server-2.6-2				install
 libsac-java					install
-libsac-java-gcj					install
 libsambox-java					install
 libsamplerate0:amd64				install
 libsane:amd64					install
@@ -2636,7 +2614,6 @@ libstoken1:amd64				install
 libstrictures-perl				install
 libstring-copyright-perl			install
 libstring-escape-perl				install
-libstring-shellquote-perl			install
 libsub-exporter-perl				install
 libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
@@ -2658,7 +2635,6 @@ libsynctex1:amd64				install
 libsys-cpu-perl					install
 libsys-hostname-long-perl			install
 libsys-sigaction-perl				install
-libsys-virt-perl				install
 libsysfs2:amd64					install
 libsysfs2:i386					deinstall
 libsystemd0:amd64				install
@@ -2727,7 +2703,6 @@ libtool						install
 libtool-bin					install
 libtry-tiny-perl				install
 libtsan0:amd64					install
-libtsk13					install
 libttfautohint1:amd64				install
 libturbojpeg0:amd64				install
 libtwelvemonkeys-java				install
@@ -2785,7 +2760,6 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex6:amd64				install
-libvirt0					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
 libvlc-bin:amd64				install
@@ -2834,7 +2808,6 @@ libwebpmux3:i386				install
 libwebrtc-audio-processing1:amd64		install
 libwildmidi-config				install
 libwildmidi2:amd64				install
-libwin-hivex-perl				install
 libwireshark-data				install
 libwireshark10:amd64				install
 libwiretap7:amd64				install
@@ -3094,7 +3067,6 @@ lsb-base					install
 lsb-release					install
 lshw						install
 lsof						install
-lsscsi						install
 ltrace						install
 lttoolbox					install
 lttoolbox-dev					install
@@ -3109,7 +3081,6 @@ lua5.2						install
 lvm2						install
 lynx						install
 lynx-common					install
-lynx-cur					install
 lzip						install
 lzop						install
 m17n-db						install
@@ -3301,7 +3272,6 @@ os-prober					install
 osinfo-db					install
 oss-compat					install
 ostinato					install
-ovmf						install
 oxygen-icon-theme				install
 oxygen-sounds					install
 p11-kit						install
@@ -3540,7 +3510,6 @@ python-formencode				install
 python-gflags					install
 python-gi					install
 python-gi-cairo					install
-python-glade2					install
 python-gnupg					install
 python-gobject					install
 python-gobject-2				install
@@ -3808,7 +3777,6 @@ rake						install
 rarian-compat					install
 ratt						install
 readline-common					install
-realpath					install
 reaver						install
 recode						install
 recoll						install
@@ -3833,8 +3801,6 @@ rtmpdump					install
 ruby						install
 ruby-augeas					install
 ruby-bcrypt-pbkdf				install
-ruby-blankslate					install
-ruby-builder					install
 ruby-bundler					install
 ruby-childprocess				install
 ruby-debian					install
@@ -3843,20 +3809,13 @@ ruby-dev:amd64					install
 ruby-did-you-mean				install
 ruby-domain-name				install
 ruby-erubis					install
-ruby-excon					install
 ruby-ffi					install
-ruby-fog-core					install
-ruby-fog-json					install
-ruby-fog-libvirt				install
-ruby-fog-xml					install
-ruby-formatador					install
 ruby-gettext					install
 ruby-hitimes					install
 ruby-http-cookie				install
 ruby-httpclient					install
 ruby-i18n					install
 ruby-json					install
-ruby-libvirt					install
 ruby-listen					install
 ruby-locale					install
 ruby-log4r					install
@@ -3864,16 +3823,12 @@ ruby-mime-types					install
 ruby-mime-types-data				install
 ruby-minitest					install
 ruby-molinillo					install
-ruby-multi-json					install
 ruby-net-http-persistent			install
 ruby-net-scp					install
 ruby-net-sftp					install
 ruby-net-ssh					install
 ruby-net-telnet					install
 ruby-netrc					install
-ruby-nokogiri					install
-ruby-oj:amd64					install
-ruby-pkg-config					install
 ruby-power-assert				install
 ruby-rb-inotify					install
 ruby-rbnacl					install
@@ -3902,7 +3857,6 @@ schroot						install
 schroot-common					install
 screen						install
 scrot						install
-scrub						install
 scummvm						install
 scummvm-data					install
 sddm						install
@@ -3922,7 +3876,6 @@ shared-mime-info				install
 signing-party					install
 signon-plugin-oauth2				install
 sl						install
-sleuthkit					install
 sm						install
 smart-notifier					install
 smartmontools					install
@@ -3958,12 +3911,10 @@ strace						install
 subversion					install
 suckless-tools					install
 sudo						install
-supermin					install
 svn-buildpackage				install
 sweeper						install
 synaptic					install
 sysfsutils					install
-syslinux					install
 syslinux-common					install
 systemd						install
 systemd-sysv					install
@@ -4057,7 +4008,6 @@ uuid-runtime					install
 va-driver-all:amd64				install
 va-driver-all:i386				install
 vagrant						install
-vagrant-libvirt					install
 vbetool						install
 vcsh						install
 vde2						install
@@ -4214,7 +4164,6 @@ zathura-pdf-poppler				install
 zathura-ps					install
 zenity						install
 zenity-common					install
-zerofree					install
 zip						install
 zlib1g:amd64					install
 zlib1g:i386					install
