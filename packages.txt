@@ -888,7 +888,6 @@ libattr1:amd64					install
 libattr1:i386					install
 libattr1-dev:amd64				install
 libaudio2:amd64					install
-libaudiofile1:i386				install
 libaudit-common					install
 libaudit-dev:amd64				install
 libaudit1:amd64					install
@@ -1292,7 +1291,6 @@ libfile-slurp-perl				install
 libfile-stripnondeterminism-perl		install
 libfile-which-perl				install
 libfilesys-df-perl				install
-libfl2:amd64					install
 libflac8:amd64					install
 libflac8:i386					install
 libflite1:amd64					install
@@ -1851,7 +1849,6 @@ libknotifyconfig4				install
 libkntlm4					install
 libkonq-common					install
 libkonq5-templates				install
-libkonq5abi1					install
 libkparts4					install
 libkpathsea6:amd64				install
 libkpty4					install
@@ -3269,7 +3266,6 @@ openssh-sftp-server				install
 openssl						install
 oping						install
 os-prober					install
-osinfo-db					install
 oss-compat					install
 ostinato					install
 oxygen-icon-theme				install
