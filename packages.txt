@@ -1550,6 +1550,7 @@ libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
 libicu-dev					install
+libicu4j-java					install
 libicu57:amd64					install
 libicu57:i386					install
 libid3tag0:amd64				install
@@ -1576,6 +1577,7 @@ libindicator7:amd64				install
 libindirect-perl				install
 libinput-bin					install
 libinput10:amd64				install
+libintellij-annotations-java			install
 libintl-perl					install
 libintl-xs-perl					install
 libio-html-perl					install
@@ -2236,6 +2238,7 @@ libpixman-1-0:amd64				install
 libpixman-1-0:i386				install
 libpixman-1-dev:amd64				install
 libplacebo3:amd64				install
+libplacebo4:amd64				install
 libplasma-geolocation-interface5		install
 libplasma3					install
 libplist3:amd64					install
@@ -2757,6 +2760,7 @@ libvdpau1:amd64					install
 libvdpau1:i386					install
 libvecmath-java					install
 libvigraimpex6:amd64				install
+libvisio-0.1-1:amd64				install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-plugins:amd64			install
 libvlc-bin:amd64				install
