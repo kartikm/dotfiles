@@ -812,6 +812,7 @@ libacl1:i386					install
 libacl1-dev					install
 libacme-damn-perl				install
 libacsccid1					install
+libactivation-java				install
 libaec0:amd64					install
 libaio1:amd64					install
 libalgorithm-c3-perl				install
