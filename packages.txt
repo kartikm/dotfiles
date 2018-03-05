@@ -2238,7 +2238,6 @@ libpixie-java					install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				install
 libpixman-1-dev:amd64				install
-libplacebo3:amd64				install
 libplacebo4:amd64				install
 libplasma-geolocation-interface5		install
 libplasma3					install
