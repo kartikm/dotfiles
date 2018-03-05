@@ -2257,6 +2257,7 @@ libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler72:amd64				install
+libpoppler73:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
 libpopt0:i386					install
@@ -2274,6 +2275,7 @@ libprocesscore7					install
 libprocessui7					install
 libprocps6:amd64				install
 libproj12:amd64					install
+libproj13:amd64					install
 libprotobuf-c1:amd64				install
 libprotobuf-lite10:amd64			install
 libprotobuf10:amd64				install
