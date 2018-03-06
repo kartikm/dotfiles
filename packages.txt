@@ -2470,6 +2470,7 @@ librsvg2-common:i386				install
 librtmp1:amd64					install
 librubberband2:amd64				install
 libruby2.3:amd64				install
+libruby2.5:amd64				install
 librxtx-java					install
 librygel-core-2.6-2				install
 librygel-db-2.6-2				install
@@ -3849,6 +3850,9 @@ ruby-unicode					install
 ruby-xmlparser					install
 ruby2.3						install
 ruby2.3-dev:amd64				install
+ruby2.5						install
+ruby2.5-dev:amd64				install
+ruby2.5-doc					install
 rubygems-integration				install
 rygel						install
 rygel-gst-launch				install
