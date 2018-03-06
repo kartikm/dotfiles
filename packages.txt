@@ -1850,7 +1850,6 @@ libkmod2:amd64					install
 libknewstuff3-4					install
 libknotifyconfig4				install
 libkntlm4					install
-libkonq-common					install
 libkonq5-templates				install
 libkparts4					install
 libkpathsea6:amd64				install
@@ -2273,7 +2272,6 @@ libpri1.4					install
 libprocesscore7					install
 libprocessui7					install
 libprocps6:amd64				install
-libproj12:amd64					install
 libproj13:amd64					install
 libprotobuf-c1:amd64				install
 libprotobuf-lite10:amd64			install
