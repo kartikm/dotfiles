@@ -961,12 +961,14 @@ libbonobo2-0:amd64				install
 libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
+libboost-atomic1.62.0:amd64			install
 libboost-chrono1.62.0:amd64			install
 libboost-date-time1.62.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.62.0:amd64			install
 libboost-iostreams1.62.0:amd64			install
 libboost-locale1.62.0:amd64			install
+libboost-log1.62.0				install
 libboost-program-options1.62.0:amd64		install
 libboost-python1.62.0				install
 libboost-regex1.62.0:amd64			install
@@ -1095,6 +1097,7 @@ libconvert-asn1-perl				install
 libconvert-binhex-perl				install
 libcpan-changes-perl				install
 libcpan-meta-perl				install
+libcpp-hocon0.1.6:amd64				install
 libcppunit-1.14-0:amd64				install
 libcppunit-dev					install
 libcpufreq0					install
@@ -1261,6 +1264,7 @@ libexttextcat-2.0-0:amd64			install
 libexttextcat-data				install
 libfaad2:amd64					install
 libfabric1					install
+libfacter3.10.0:amd64				install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
 libfaketime:amd64				install
@@ -1881,6 +1885,8 @@ liblcms2-utils					install
 libldap-2.4-2:amd64				install
 libldap-common					install
 libldb1:amd64					install
+libleatherman-data				install
+libleatherman1.4.0:amd64			install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
 liblept5					install
@@ -2527,7 +2533,7 @@ libsgmls-perl					install
 libshine3:amd64					install
 libshine3:i386					install
 libshout3:amd64					install
-libsidplay1v5					install
+libsidplay1v5:amd64				install
 libsidplay2					install
 libsidutils0					install
 libsigc++-2.0-0c2a:i386				deinstall
@@ -3022,6 +3028,7 @@ libxxf86vm1:amd64				install
 libxxf86vm1:i386				install
 libyajl2:amd64					install
 libyaml-0-2:amd64				install
+libyaml-cpp0.5v5:amd64				install
 libyaml-dev:amd64				install
 libyaml-libyaml-perl				install
 libyaml-perl					install
