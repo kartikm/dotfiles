@@ -582,3 +582,6 @@ checkout = git clone 'git@salsa.debian.org:debian/netsniff-ng.git' 'netsniff-ng'
 
 [development/debian/packages/scanmem/scanmem]
 checkout = git clone 'git@salsa.debian.org:debian/scanmem.git' 'scanmem'
+
+[development/debian/packages/apertium/apertium-rus-ukr]
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-rus-ukr.git' 'apertium-rus-ukr'
