@@ -2719,6 +2719,7 @@ libtwolame0:amd64				install
 libtwolame0:i386				install
 libtype-tiny-perl				install
 libtype-tiny-xs-perl				install
+libu2f-udev					install
 libubsan0:amd64					install
 libudev-dev:amd64				install
 libudev1:amd64					install
