@@ -316,7 +316,7 @@ checkout = git clone 'https://gitlab.com/misandrist/HaskellWeb.git' 'HaskellWeb'
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/hfst.git' 'hfst'
 
 [development/debian/packages/apertium/libtoolbox/lttoolbox]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/lttoolbox.git' 'lttoolbox'
+checkout = git clone 'git@salsa.debian.org:science-team/lttoolbox.git' 'lttoolbox'
 
 [development/debian/packages/apertium/apertium/apertium]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium.git' 'apertium'
