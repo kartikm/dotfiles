@@ -1052,6 +1052,7 @@ libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclang1-3.9:amd64				install
 libclang1-5.0:amd64				install
+libclang1-6.0:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
@@ -1903,6 +1904,7 @@ liblivemedia62:amd64				install
 libllvm3.9:amd64				install
 libllvm5.0:amd64				install
 libllvm5.0:i386					install
+libllvm6.0:amd64				install
 liblmdb0:amd64					install
 libloader-java					install
 liblocale-gettext-perl				install
@@ -2142,6 +2144,7 @@ libopencv-videoio3.2:amd64			install
 libopencv-videostab3.2:amd64			install
 libopencv-viz3.2:amd64				install
 libopenexr22:amd64				install
+libopenexr23:amd64				install
 libopengl0:amd64				install
 libopenjfx-java					install
 libopenjfx-jni					install
