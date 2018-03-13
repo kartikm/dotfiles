@@ -1051,7 +1051,6 @@ libchromaprint1:amd64				install
 libcilkrts5:amd64				install
 libck-connector0:amd64				install
 libclang1-3.9:amd64				install
-libclang1-5.0:amd64				install
 libclang1-6.0:amd64				install
 libclass-accessor-perl				install
 libclass-c3-perl				install
@@ -1857,7 +1856,6 @@ libkmod2:amd64					install
 libknewstuff3-4					install
 libknotifyconfig4				install
 libkntlm4					install
-libkonq5-templates				install
 libkparts4					install
 libkpathsea6:amd64				install
 libkpty4					install
@@ -1923,7 +1921,8 @@ liblsan0:amd64					install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
-liblttoolbox3-3.3-0v5:amd64			install
+liblttoolbox3-3.3-0v5				install
+liblttoolbox3-3.4-1:amd64			install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
 liblua5.1-0-dev:amd64				install
@@ -2143,7 +2142,6 @@ libopencv-video3.2:amd64			install
 libopencv-videoio3.2:amd64			install
 libopencv-videostab3.2:amd64			install
 libopencv-viz3.2:amd64				install
-libopenexr22:amd64				install
 libopenexr23:amd64				install
 libopengl0:amd64				install
 libopenjfx-java					install
@@ -2265,7 +2263,6 @@ libpolkit-qt-1-1:amd64				install
 libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt5-1:amd64				install
-libpoppler72:amd64				install
 libpoppler73:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
@@ -2417,7 +2414,6 @@ librcc0						install
 librcd0						install
 librdf0:amd64					install
 librdmacm1:amd64				install
-libre2-3:amd64					install
 libre2-4:amd64					install
 libreadline-dev:amd64				install
 libreadline5:amd64				install
@@ -4037,7 +4033,6 @@ vim						install
 vim-common					install
 vim-runtime					install
 vim-scripts					install
-virt-what					install
 virtualenv					install
 vlc						install
 vlc-bin						install
