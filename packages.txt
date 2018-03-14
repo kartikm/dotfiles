@@ -560,6 +560,7 @@ glib-networking:amd64				install
 glib-networking-common				install
 glib-networking-services			install
 gnome-keyring					install
+gnome-keyring-pkcs11:amd64			install
 gnome-mime-data					install
 gnupg						install
 gnupg-agent					install
