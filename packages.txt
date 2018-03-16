@@ -31,6 +31,7 @@ apertium					install
 apertium-apy					install
 apertium-dev					install
 apertium-spa-cat				install
+apertium-spa-ita				install
 apg						install
 apparmor					install
 apparmor-easyprof				install
