@@ -1282,7 +1282,6 @@ libgcj17:amd64					install
 libgck-1-0:amd64				install
 libgconf-2-4:amd64				install
 libgconf-2-4:i386				install
-libgcr-3-common					install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
 libgcrypt20:amd64				install
@@ -1455,7 +1454,6 @@ libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
 libhdf5-openmpi-100:amd64			install
-libhfst-dev					install
 libhfst50					install
 libhfstospell9:amd64				install
 libhibernate-validator-java			install
