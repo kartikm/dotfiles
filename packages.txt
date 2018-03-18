@@ -3204,6 +3204,10 @@ openjdk-8-jdk:amd64				install
 openjdk-8-jdk-headless:amd64			install
 openjdk-8-jre:amd64				install
 openjdk-8-jre-headless:amd64			install
+openjdk-9-jdk:amd64				install
+openjdk-9-jdk-headless:amd64			install
+openjdk-9-jre:amd64				install
+openjdk-9-jre-headless:amd64			install
 openjfx						install
 openmpi-bin					install
 openmpi-common					install
@@ -3621,6 +3625,7 @@ python3-pyparsing				install
 python3-pyqt4					install
 python3-pyqt5					install
 python3-pysimplesoap				install
+python3-pyxattr					install
 python3-recoll					install
 python3-reportbug				install
 python3-requests				install
