@@ -1546,6 +1546,7 @@ libisc166:amd64					install
 libisccc160:amd64				install
 libisccfg160:amd64				install
 libisl15:amd64					install
+libisl19:amd64					install
 libisoburn1:amd64				install
 libisofs6:amd64					install
 libisorelax-java				install
