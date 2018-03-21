@@ -3050,6 +3050,8 @@ mercurial					install
 mercurial-common				install
 mesa-common-dev:amd64				install
 mesa-utils					install
+mesa-va-drivers:amd64				install
+mesa-va-drivers:i386				install
 mesa-vdpau-drivers:amd64			install
 mesa-vdpau-drivers:i386				install
 milou						install
