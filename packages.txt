@@ -1862,7 +1862,6 @@ liblsan0:amd64					install
 libltdl-dev:amd64				install
 libltdl7:amd64					install
 libltdl7:i386					install
-liblttoolbox3-3.3-0v5				install
 liblttoolbox3-3.4-1:amd64			install
 liblua5.1-0:amd64				install
 liblua5.1-0:i386				install
