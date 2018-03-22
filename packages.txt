@@ -30,6 +30,7 @@ apache2-utils					install
 apertium					install
 apertium-apy					install
 apertium-dev					install
+apertium-lex-tools				install
 apertium-spa-cat				install
 apertium-spa-ita				install
 apg						install
