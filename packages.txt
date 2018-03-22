@@ -542,6 +542,7 @@ grub2-splashimages				install
 gsettings-desktop-schemas			install
 gsfonts						install
 gsfonts-x11					install
+gstreamer1.0-gl:amd64				install
 gstreamer1.0-libav:amd64			install
 gstreamer1.0-nice:amd64				install
 gstreamer1.0-plugins-bad:amd64			install
@@ -1400,6 +1401,7 @@ libgpm2:i386					install
 libgps23:amd64					install
 libgrantlee-templates5				install
 libgraph-perl					install
+libgraphene-1.0-0:amd64				install
 libgraphicsmagick++-q16-12			install
 libgraphicsmagick-q16-3				install
 libgraphite2-3:amd64				install
@@ -1417,6 +1419,7 @@ libgsm1-dev:amd64				install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				deinstall
 libgssdp-1.0-3:amd64				install
+libgstreamer-gl1.0-0:amd64			install
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base1.0-0:amd64		install
 libgstreamer1.0-0:amd64				install
@@ -2536,6 +2539,7 @@ libsqlite3-dev:amd64				install
 libsratom-0-0:amd64				install
 libsrtp0					install
 libsrtp0-dev					install
+libsrtp2-1:amd64				install
 libss2:amd64					install
 libss7-2.0:amd64				install
 libss7-dev:amd64				install
@@ -2762,6 +2766,7 @@ libwiretap7:amd64				install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
+libwoff1:amd64					install
 libwpd-0.10-10:amd64				install
 libwpg-0.3-3:amd64				install
 libwps-0.4-4:amd64				install
