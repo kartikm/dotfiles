@@ -31,6 +31,7 @@ apertium					install
 apertium-apy					install
 apertium-dev					install
 apertium-lex-tools				install
+apertium-separable				install
 apertium-spa-cat				install
 apertium-spa-ita				install
 apg						install
