@@ -1134,6 +1134,7 @@ libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export169				install
+libdns1100:amd64				install
 libdns169:amd64					install
 libdolphinvcs5:amd64				install
 libdom4j-java					install
@@ -1265,6 +1266,7 @@ libfreetype6-dev:amd64				install
 libfreexl1:amd64				install
 libfreezethaw-perl				install
 libfribidi0:amd64				install
+libfribidi0:i386				install
 libftdi1:amd64					install
 libfuse2:amd64					install
 libfyba0:amd64					install
@@ -1548,6 +1550,7 @@ libiptc0:amd64					install
 libirs160:amd64					install
 libisc-export166:amd64				install
 libisc166:amd64					install
+libisc169:amd64					install
 libisccc160:amd64				install
 libisccfg160:amd64				install
 libisl15:amd64					install
@@ -2402,7 +2405,7 @@ libresample1-dev				install
 libresid-builder0c2a				install
 librest-0.7-0:amd64				install
 librevenge-0.0-0:amd64				install
-librhash0					install
+librhash0:amd64					install
 librhino-java					install
 librole-tiny-perl				install
 librpc-xml-perl					install
@@ -4031,6 +4034,7 @@ x11-xserver-utils				install
 x11proto-composite-dev				install
 x11proto-core-dev				install
 x11proto-damage-dev				install
+x11proto-dev					install
 x11proto-dri2-dev				install
 x11proto-fixes-dev				install
 x11proto-gl-dev					install
