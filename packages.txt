@@ -1820,6 +1820,7 @@ libkwinxrenderutils11				install
 libkworkspace5-5				install
 libkxml2-java					install
 libkxmlrpcclient4				install
+liblab-gamut1					install
 liblangtag-common				install
 liblangtag1:amd64				install
 liblapack3:amd64				install
@@ -3002,9 +3003,12 @@ linux-headers-4.14.0-3-amd64			install
 linux-headers-4.14.0-3-common			install
 linux-headers-4.15.0-1-amd64			install
 linux-headers-4.15.0-1-common			install
+linux-headers-4.15.0-2-amd64			install
+linux-headers-4.15.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.14.0-3-amd64			install
 linux-image-4.15.0-1-amd64			install
+linux-image-4.15.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.14				install
 linux-kbuild-4.15				install
