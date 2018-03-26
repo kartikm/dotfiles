@@ -398,7 +398,7 @@ update = fork_update
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-hbs' 'apertium-hbs'
 
 [development/debian/packages/apertium/apertium-fra]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-fra' 'apertium-fra'
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-fra.git' 'apertium-fra'
 
 [development/debian/packages/apertium/apertium-sme-nob]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-sme-nob' 'apertium-sme-nob'
