@@ -255,7 +255,6 @@ drkonqi						install
 dunst						install
 dwdiff						install
 dynamite					install
-e2fslibs:amd64					install
 e2fsprogs					install
 e2fsprogs-l10n					install
 easy-rsa					install
@@ -1136,7 +1135,6 @@ libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export169				install
 libdns1100:amd64				install
-libdns169:amd64					install
 libdolphinvcs5:amd64				install
 libdom4j-java					install
 libdouble-conversion1:amd64			install
@@ -2072,7 +2070,6 @@ libopenconnect5:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
 libopencv-calib3d3.2:amd64			install
-libopencv-contrib3.2:amd64			install
 libopencv-core3.2:amd64				install
 libopencv-features2d3.2:amd64			install
 libopencv-flann3.2:amd64			install
@@ -2895,7 +2892,6 @@ libxext6:i386					install
 libxfixes-dev:amd64				install
 libxfixes3:amd64				install
 libxfixes3:i386					install
-libxfont1:amd64					install
 libxfont2:amd64					install
 libxft-dev					install
 libxft2:amd64					install
