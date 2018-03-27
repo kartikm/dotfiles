@@ -1193,6 +1193,7 @@ libeval-closure-perl				install
 libevdev2:amd64					install
 libevent-2.1-6:amd64				install
 libevent-core-2.1-6:amd64			install
+libevent-pthreads-2.1-6:amd64			install
 libexcalibur-logger-java			install
 libexcalibur-logkit-java			install
 libexception-class-perl				install
