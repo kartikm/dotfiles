@@ -1097,7 +1097,7 @@ libdb5.3-dev					install
 libdb5.3-java					install
 libdb5.3-java-jni:amd64				install
 libdbd-mysql-perl				install
-libdbi-perl					install
+libdbi-perl:amd64				install
 libdbus-1-3:amd64				install
 libdbus-1-3:i386				install
 libdbus-1-dev:amd64				install
@@ -3093,6 +3093,7 @@ network-manager					install
 network-manager-pptp				install
 network-manager-vpnc				install
 newsbeuter					install
+newsboat					install
 nfs-common					install
 nfs-kernel-server				install
 nginx						install
