@@ -1134,7 +1134,6 @@ libdlrestrictions1				install
 libdmtx-dev:amd64				install
 libdmtx0a:amd64					install
 libdns-export1100				install
-libdns-export169				install
 libdns1100:amd64				install
 libdolphinvcs5:amd64				install
 libdom4j-java					install
@@ -1548,7 +1547,6 @@ libipc-run-perl					install
 libipc-system-simple-perl			install
 libiptc0:amd64					install
 libirs160:amd64					install
-libisc-export166:amd64				install
 libisc-export169:amd64				install
 libisc169:amd64					install
 libisccc160:amd64				install
