@@ -3474,7 +3474,7 @@ python-librdf					install
 python-libxml2					install
 python-linecache2				install
 python-logilab-common				install
-python-lxml					install
+python-lxml:amd64				install
 python-lzma					install
 python-magic					install
 python-markupsafe				install
@@ -3594,7 +3594,7 @@ python3-keyrings.alt				install
 python3-lib2to3					install
 python3-libapparmor				install
 python3-libhfst					install
-python3-lxml					install
+python3-lxml:amd64				install
 python3-magic					install
 python3-matplotlib				install
 python3-minimal					install
