@@ -21,6 +21,7 @@ amd64-microcode					install
 an						install
 anacron						install
 ant						install
+ant-contrib					install
 ant-optional					install
 antlr						install
 apache2						install
