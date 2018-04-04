@@ -33,6 +33,7 @@ apertium-apy					install
 apertium-cat					install
 apertium-dev					install
 apertium-fra					install
+apertium-fra-cat				install
 apertium-lex-tools				install
 apertium-separable				install
 apertium-spa-cat				install
