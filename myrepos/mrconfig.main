@@ -588,3 +588,6 @@ checkout = git clone 'git@salsa.debian.org:science-team/apertium-rus-ukr.git' 'a
 
 [development/debian/packages/apertium/apertium-spa-ita]
 checkout = git clone 'git@salsa.debian.org:science-team/apertium-spa-ita.git' 'apertium-spa-ita'
+
+[development/debian/packages/apertium/apertium-eo-fr]
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-eo-fr.git' 'apertium-eo-fr'
