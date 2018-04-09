@@ -1212,7 +1212,6 @@ libexttextcat-2.0-0:amd64			install
 libexttextcat-data				install
 libfaad2:amd64					install
 libfabric1					install
-libfacter3.10.0:amd64				install
 libfacter3.11.0:amd64				install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
