@@ -44,6 +44,8 @@ apparmor-easyprof				install
 appstream					install
 apt						install
 apt-cacher-ng					install
+apt-config-icons				install
+apt-config-icons-large				install
 apt-file					install
 apt-listbugs					install
 apt-utils					install
@@ -1211,6 +1213,7 @@ libexttextcat-data				install
 libfaad2:amd64					install
 libfabric1					install
 libfacter3.10.0:amd64				install
+libfacter3.11.0:amd64				install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
 libfaketime:amd64				install
@@ -1267,6 +1270,7 @@ libfreetype6:i386				install
 libfreetype6-dev:amd64				install
 libfreexl1:amd64				install
 libfreezethaw-perl				install
+libfribidi-dev					install
 libfribidi0:amd64				install
 libfribidi0:i386				install
 libftdi1:amd64					install
@@ -2765,6 +2769,7 @@ libwww-perl					install
 libwww-robotrules-perl				install
 libwxbase3.0-0v5:amd64				install
 libwxgtk3.0-0v5:amd64				install
+libwxgtk3.0-gtk3-0v5:amd64			install
 libx11-6:amd64					install
 libx11-6:i386					install
 libx11-data					install
