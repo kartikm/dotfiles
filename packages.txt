@@ -294,6 +294,7 @@ faketime					install
 fdisk						install
 feh						install
 ffmpeg						install
+fig2dev						install
 figlet						install
 file						install
 filelight					install
@@ -605,6 +606,7 @@ init-system-helpers				install
 initramfs-tools					install
 initramfs-tools-core				install
 initscripts					install
+inkscape					install
 insserv						install
 install-info					install
 installation-report				install
@@ -1521,6 +1523,8 @@ libiksemel-dev:amd64				install
 libiksemel3:amd64				install
 libilmbase23:amd64				install
 libimage-exiftool-perl				install
+libimage-magick-perl				install
+libimage-magick-q16-perl			install
 libimgscalr-java				install
 libimlib2:amd64					install
 libimobiledevice6:amd64				install
@@ -1897,6 +1901,7 @@ libmaa3:amd64					install
 libmad0:amd64					install
 libmagic-mgc					install
 libmagic1:amd64					install
+libmagick++-6.q16-8:amd64			install
 libmagickcore-6.q16-5:amd64			install
 libmagickcore-6.q16-5-extra:amd64		install
 libmagickwand-6.q16-5:amd64			install
@@ -2750,6 +2755,7 @@ libwildmidi2:amd64				install
 libwireshark-data				install
 libwireshark10:amd64				install
 libwiretap7:amd64				install
+libwmf-bin					install
 libwmf0.2-7:amd64				install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
@@ -3492,6 +3498,7 @@ python-mysqldb					install
 python-newt:amd64				install
 python-nose					install
 python-numpy					install
+python-olefile					install
 python-pathlib2					install
 python-pbr					install
 python-pexpect					install
@@ -3524,6 +3531,7 @@ python-repoze.lru				install
 python-requests					install
 python-roman					install
 python-scandir					install
+python-scour					install
 python-setuptools				install
 python-simplegeneric				install
 python-singledispatch				install
@@ -3606,6 +3614,7 @@ python3-matplotlib				install
 python3-minimal					install
 python3-nose					install
 python3-numpy					install
+python3-olefile					install
 python3-openssl					install
 python3-pexpect					install
 python3-pickleshare				install
@@ -3626,6 +3635,7 @@ python3-pyxattr					install
 python3-recoll					install
 python3-reportbug				install
 python3-requests				install
+python3-scour					install
 python3-secretstorage				install
 python3-setuptools				install
 python3-simplegeneric				install
@@ -3806,6 +3816,7 @@ samba-libs:amd64				install
 sbuild						install
 schroot						install
 schroot-common					install
+scour						install
 screen						install
 scrot						install
 scummvm						install
