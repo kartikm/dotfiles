@@ -1511,7 +1511,7 @@ libicu57:amd64					install
 libicu57:i386					install
 libid3tag0:amd64				install
 libidn11:amd64					install
-libidn11-dev					install
+libidn11-dev:amd64				install
 libidn2-0:amd64					install
 libidn2-0-dev					install
 libidn2-dev:amd64				install
@@ -2018,7 +2018,7 @@ libnewt-dev:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink-dev				install
 libnfnetlink0:amd64				install
-libnfs8:amd64					install
+libnfs11:amd64					install
 libnfsidmap2:amd64				install
 libnghttp2-14:amd64				install
 libnginx-mod-http-auth-pam			install
@@ -2295,7 +2295,9 @@ libqt5gui5:amd64				install
 libqt5help5:amd64				install
 libqt5multimedia5:amd64				install
 libqt5multimedia5-plugins:amd64			install
+libqt5multimediagsttools5:amd64			install
 libqt5multimediaquick-p5:amd64			install
+libqt5multimediaquick5:amd64			install
 libqt5multimediawidgets5:amd64			install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
@@ -2665,7 +2667,7 @@ libuniconf4.6					install
 libuninameslist-dev:amd64			install
 libuninameslist1:amd64				install
 libunistring2:amd64				install
-libunwind8					install
+libunwind8:amd64				install
 libupnp6:amd64					install
 libupower-glib3:amd64				install
 liburcu-dev:amd64				install
@@ -3705,7 +3707,7 @@ qml-module-qtquick-dialogs:amd64		install
 qml-module-qtquick-layouts:amd64		install
 qml-module-qtquick-privatewidgets:amd64		install
 qml-module-qtquick-templates2:amd64		install
-qml-module-qtquick-virtualkeyboard		install
+qml-module-qtquick-virtualkeyboard:amd64	install
 qml-module-qtquick-window2:amd64		install
 qml-module-qtquick2:amd64			install
 qmlscene					install
