@@ -782,6 +782,7 @@ libapache2-mod-php7.2				install
 libapertium3-3.5-1:amd64			install
 libapparmor1:amd64				install
 libappindicator1:amd64				install
+libappindicator3-1:amd64			install
 libappstream4:amd64				install
 libappstreamqt2:amd64				install
 libapr1:amd64					install
@@ -1111,6 +1112,7 @@ libdbus-1-dev:amd64				install
 libdbus-glib-1-2:amd64				install
 libdbus-glib-1-2:i386				install
 libdbusmenu-glib4:amd64				install
+libdbusmenu-gtk3-4:amd64			install
 libdbusmenu-gtk4:amd64				install
 libdbusmenu-qt2:amd64				install
 libdbusmenu-qt5-2:amd64				install
@@ -1531,6 +1533,7 @@ libimobiledevice6:amd64				install
 libimport-into-perl				install
 libindicate-gtk3				install
 libindicate5					install
+libindicator3-7:amd64				install
 libindicator7:amd64				install
 libindirect-perl				install
 libinput-bin					install
