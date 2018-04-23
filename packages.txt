@@ -1644,7 +1644,6 @@ libkf5activities5:amd64				install
 libkf5activitiesstats1:amd64			install
 libkf5akonadi-data				install
 libkf5akonadicore5abi1:amd64			install
-libkf5akonadiprivate5:amd64			install
 libkf5akonadiprivate5abi1:amd64			install
 libkf5akonadiwidgets5abi1:amd64			install
 libkf5archive5:amd64				install
