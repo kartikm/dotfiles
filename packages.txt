@@ -588,7 +588,6 @@ hyphen-gu					install
 i965-va-driver:amd64				install
 i965-va-driver:i386				install
 iamerican					install
-ibverbs-providers:amd64				install
 icc-profiles-free				install
 icedtea-netx-common				install
 icoutils					install
@@ -1217,7 +1216,6 @@ libext2fs2:amd64				install
 libexttextcat-2.0-0:amd64			install
 libexttextcat-data				install
 libfaad2:amd64					install
-libfabric1					install
 libfacter3.11.0:amd64				install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
@@ -1250,6 +1248,7 @@ libfile-slurp-perl				install
 libfile-stripnondeterminism-perl		install
 libfile-which-perl				install
 libfilesys-df-perl				install
+libfl2:amd64					install
 libflac8:amd64					install
 libflac8:i386					install
 libflite1:amd64					install
@@ -1345,7 +1344,6 @@ libgl1-mesa-dri:amd64				install
 libgl1-mesa-dri:i386				install
 libgl1-mesa-glx:amd64				install
 libgl1-mesa-glx:i386				install
-libgl2ps1.4					install
 libglade2-0:amd64				install
 libglade2-dev:amd64				install
 libglapi-mesa:amd64				install
@@ -1470,7 +1468,6 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
-libhdf5-openmpi-100:amd64			install
 libhfst50					install
 libhfstospell9:amd64				install
 libhibernate-validator-java			install
@@ -1491,20 +1488,16 @@ libhttp-date-perl				install
 libhttp-lite-perl				install
 libhttp-message-perl				install
 libhttp-negotiate-perl				install
-libhttp-parser2.7.1:amd64			install
 libhttp-parser2.8:amd64				install
 libhttp-server-simple-perl			install
 libhttpclient-java				install
 libhttpcore-java				install
 libhttpmime-java				install
 libhunspell-1.6-0:amd64				install
-libhwloc-plugins				install
-libhwloc5:amd64					install
 libhyphen0:amd64				install
 libib-util:amd64				install
 libibus-1.0-5:amd64				install
 libibus-1.0-dev:amd64				install
-libibverbs1:amd64				install
 libical-dev					install
 libical3:amd64					install
 libice-dev:amd64				install
@@ -1649,9 +1642,11 @@ libkemoticons4					install
 libkeyutils1:amd64				install
 libkf5activities5:amd64				install
 libkf5activitiesstats1:amd64			install
-libkf5akonadicore5:amd64			install
+libkf5akonadi-data				install
+libkf5akonadicore5abi1:amd64			install
 libkf5akonadiprivate5:amd64			install
-libkf5akonadiwidgets5:amd64			install
+libkf5akonadiprivate5abi1:amd64			install
+libkf5akonadiwidgets5abi1:amd64			install
 libkf5archive5:amd64				install
 libkf5attica5:amd64				install
 libkf5auth-data					install
@@ -1728,7 +1723,7 @@ libkf5kiowidgets5:amd64				install
 libkf5kipi-data					install
 libkf5kipi32.0.0				install
 libkf5kirigami2-5				install
-libkf5konq6					install
+libkf5konq6:amd64				install
 libkf5krosscore5:amd64				install
 libkf5krossui5:amd64				install
 libkf5modemmanagerqt6:amd64			install
@@ -2014,7 +2009,6 @@ libnet-smtp-ssl-perl				install
 libnet-ssleay-perl				install
 libnet1:amd64					install
 libnet1-dev					install
-libnetcdf-c++4					install
 libnetcdf13:amd64				install
 libnetfilter-conntrack-dev:amd64		install
 libnetfilter-conntrack3:amd64			install
@@ -2089,8 +2083,6 @@ libopenjfx-java					install
 libopenjfx-jni					install
 libopenjp2-7:amd64				install
 libopenjp2-7:i386				install
-libopenmpi2:amd64				install
-libopenmpi3:amd64				install
 libopenmpt-modplug1:amd64			install
 libopenmpt0:amd64				install
 libopenobex2					install
@@ -2205,7 +2197,6 @@ libpolkit-qt-1-1:amd64				install
 libpolkit-qt5-1-1:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt5-1:amd64				install
-libpoppler73:amd64				install
 libpoppler74:amd64				install
 libpopt-dev:amd64				install
 libpopt0:amd64					install
@@ -2231,7 +2222,6 @@ libprotoc10:amd64				install
 libproxy-tools					install
 libproxy1v5:amd64				install
 libpsl5:amd64					install
-libpsm-infinipath1				install
 libpspell-dev:amd64				install
 libptexenc1:amd64				install
 libpth-dev					install
@@ -2265,7 +2255,6 @@ libqca-qt5-2:amd64				install
 libqca-qt5-2-plugins:amd64			install
 libqca2:amd64					install
 libqca2-plugins:amd64				install
-libqgsttools-p1:amd64				install
 libqhull7:amd64					install
 libqjson-dev					install
 libqjson0:amd64					install
@@ -2304,7 +2293,6 @@ libqt5help5:amd64				install
 libqt5multimedia5:amd64				install
 libqt5multimedia5-plugins:amd64			install
 libqt5multimediagsttools5:amd64			install
-libqt5multimediaquick-p5:amd64			install
 libqt5multimediaquick5:amd64			install
 libqt5multimediawidgets5:amd64			install
 libqt5network5:amd64				install
@@ -2358,7 +2346,6 @@ libraw16:amd64					install
 librcc0						install
 librcd0						install
 librdf0:amd64					install
-librdmacm1:amd64				install
 libre2-4:amd64					install
 libreadline-dev:amd64				install
 libreadline5:amd64				install
@@ -2567,6 +2554,7 @@ libstoken1:amd64				install
 libstrictures-perl				install
 libstring-copyright-perl			install
 libstring-escape-perl				install
+libstring-shellquote-perl			install
 libsub-exporter-perl				install
 libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
@@ -2584,7 +2572,6 @@ libswresample2:amd64				install
 libswresample2:i386				install
 libswscale4:amd64				install
 libsybdb5:amd64					install
-libsynctex1:amd64				install
 libsynctex2:amd64				install
 libsys-cpu-perl					install
 libsys-hostname-long-perl			install
@@ -2740,7 +2727,6 @@ libvpx5:amd64					install
 libvpx5:i386					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
-libvtk6.3					install
 libvulkan1:amd64				install
 libwacom-bin					install
 libwacom-common					install
@@ -3001,15 +2987,12 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-7-x86			install
-linux-headers-4.15.0-1-amd64			install
-linux-headers-4.15.0-1-common			install
 linux-headers-4.15.0-2-amd64			install
 linux-headers-4.15.0-2-common			install
 linux-headers-4.15.0-3-amd64			install
 linux-headers-4.15.0-3-common			install
 linux-headers-amd64				install
 linux-image-4.14.0-3-amd64			deinstall
-linux-image-4.15.0-1-amd64			install
 linux-image-4.15.0-2-amd64			install
 linux-image-4.15.0-3-amd64			install
 linux-image-amd64				install
@@ -3244,8 +3227,6 @@ openjdk-9-jdk-headless:amd64			install
 openjdk-9-jre:amd64				install
 openjdk-9-jre-headless:amd64			install
 openjfx						install
-openmpi-bin					install
-openmpi-common					install
 opensc						install
 opensc-pkcs11:amd64				install
 opensp						install
