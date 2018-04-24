@@ -984,6 +984,7 @@ libcdio17:amd64					install
 libcdparanoia0:amd64				install
 libcdr-0.1-1:amd64				install
 libcdt5						install
+libcfitsio5:amd64				install
 libcg3-1:amd64					install
 libcg3-dev:amd64				install
 libcgi-fast-perl				install
