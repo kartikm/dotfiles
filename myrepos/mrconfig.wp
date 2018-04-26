@@ -19,6 +19,13 @@ lib =
 		git pull
 	}
 
+lib = 
+	clean_module_update() {
+		git checkout master &&
+		git pull &&
+		git submodule update --init --recursive
+	}
+
 # Analytics
 [analytics/limn-language-data]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/analytics/limn-language-data' 'limn-language-data'
@@ -78,7 +85,7 @@ update = fork_update
 # VE and friends
 [VE/VisualEditor]
 checkout = git clone 'https://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
-update = clean_update
+update = clean_module_update
 
 [VE/deploy]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid/deploy' 'deploy'
