@@ -523,7 +523,6 @@ gnustep-common					install
 gnutls-bin					install
 google-chrome-stable				install
 google-talkplugin				install
-googletest:amd64				install
 gource						install
 gparted						install
 gperf						install
@@ -1881,8 +1880,6 @@ liblua5.1-0-dev:amd64				install
 liblua5.2-0:amd64				install
 liblua5.2-dev:amd64				install
 liblua5.3-0:amd64				install
-libluajit-5.1-2:amd64				install
-libluajit-5.1-common				install
 liblvm2app2.2:amd64				install
 liblvm2cmd2.02:amd64				install
 liblwp-mediatypes-perl				install
