@@ -1984,10 +1984,13 @@ libmythes-1.2-0:amd64				install
 libnacl-dev					install
 libnamespace-autoclean-perl			install
 libnamespace-clean-perl				install
+libncurses-dev:amd64				install
 libncurses5:amd64				install
 libncurses5:i386				install
 libncurses5-dev:amd64				install
+libncurses6:amd64				install
 libncursesw5:amd64				install
+libncursesw6:amd64				install
 libndp0:amd64					install
 libneon27-gnutls:amd64				install
 libnepomuk4					install
@@ -2631,6 +2634,7 @@ libtimedate-perl				install
 libtinfo-dev:amd64				install
 libtinfo5:amd64					install
 libtinfo5:i386					install
+libtinfo6:amd64					install
 libtinyxml2.6.2v5:amd64				install
 libtirpc1:amd64					install
 libtk8.6:amd64					install
