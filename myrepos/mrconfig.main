@@ -47,9 +47,6 @@ checkout = cvs -d ':pserver:anonymous@cvs.savannah.gnu.org:/sources/aspell' co -
 [development/upstreams/CHMLib]
 checkout = git clone git://github.com/jedwing/CHMLib.git
 
-[development/upstreams/falcon]
-checkout = git clone 'http://git.falconpl.org/falcon.git' 'falcon'
-
 [development/upstreams/fontypython/SVN/trunk]
 checkout = svn co svn://svn.savannah.nongnu.org/fontypython/trunk
 
