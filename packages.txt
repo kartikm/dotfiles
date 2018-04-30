@@ -2791,6 +2791,8 @@ libx264-152:amd64				install
 libx264-152:i386				install
 libx265-146:amd64				install
 libx265-146:i386				install
+libx265-151:amd64				install
+libx265-151:i386				install
 libx32asan3					install
 libx32asan4					install
 libx32atomic1					install
