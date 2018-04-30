@@ -295,6 +295,6 @@ cdl () {
 source ~/.oh-my-zsh/plugins/debian/debian.plugin.zsh
 source ~/.oh-my-zsh/lib/git.zsh
 source ~/.oh-my-zsh/plugins/cp/cp.plugin.zsh
-source ~/.oh-my-zsh/themes/apple.zsh-theme
+source  /usr/share/powerlevel9k/powerlevel9k.zsh-theme
 
 umask 022

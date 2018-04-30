@@ -379,6 +379,7 @@ fonts-opensymbol				install
 fonts-orya					install
 fonts-orya-extra				install
 fonts-pagul					install
+fonts-powerline					install
 fonts-roboto					install
 fonts-roboto-hinted				install
 fonts-sahadeva					install
@@ -608,6 +609,7 @@ initscripts					install
 inkscape					install
 insserv						install
 install-info					install
+installation-birthday				install
 installation-report				install
 intel-microcode					install
 intltool					install
@@ -4154,4 +4156,5 @@ zlib1g:i386					install
 zlib1g-dev:amd64				install
 zsh						install
 zsh-common					install
+zsh-theme-powerlevel9k				install
 zutils						install
