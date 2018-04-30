@@ -292,8 +292,7 @@ cdl () {
 }
 
 #Theme
-export TERM="xterm-256color"
-source ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
+source ~/.oh-my-zsh/themes/apple.zsh-theme
 
 # misc
 source ~/.oh-my-zsh/plugins/debian/debian.plugin.zsh
