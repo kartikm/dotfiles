@@ -291,10 +291,13 @@ cdl () {
  cd $1; ls;
 }
 
+#Theme
+export TERM="xterm-256color"
+source ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
+
 # misc
 source ~/.oh-my-zsh/plugins/debian/debian.plugin.zsh
 source ~/.oh-my-zsh/lib/git.zsh
 source ~/.oh-my-zsh/plugins/cp/cp.plugin.zsh
-source  /usr/share/powerlevel9k/powerlevel9k.zsh-theme
 
 umask 022
