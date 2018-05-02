@@ -3667,6 +3667,7 @@ python3-sip					install
 python3-six					install
 python3-software-properties			install
 python3-sqlobject				install
+python3-streamparser				install
 python3-tk:amd64				install
 python3-tornado					install
 python3-toro					install
