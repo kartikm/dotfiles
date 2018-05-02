@@ -588,3 +588,6 @@ checkout = git clone 'git@salsa.debian.org:science-team/apertium-spa-ita.git' 'a
 
 [development/debian/packages/apertium/apertium-eo-fr]
 checkout = git clone 'git@salsa.debian.org:science-team/apertium-eo-fr.git' 'apertium-eo-fr'
+
+[.oh-my-zsh]
+checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' '.oh-my-zsh'
