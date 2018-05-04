@@ -525,6 +525,8 @@ gnustep-common					install
 gnutls-bin					install
 google-chrome-stable				install
 google-talkplugin				install
+googletest:amd64				install
+googletest-tools:amd64				install
 gource						install
 gparted						install
 gperf						install
