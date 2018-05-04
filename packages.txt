@@ -1860,6 +1860,7 @@ libllvm3.9:amd64				install
 libllvm5.0:amd64				install
 libllvm5.0:i386					install
 libllvm6.0:amd64				install
+libllvm6.0:i386					install
 liblmdb0:amd64					install
 libloader-java					install
 liblocale-gettext-perl				install
@@ -2076,6 +2077,7 @@ libogg0:amd64					install
 libogg0:i386					install
 libokular5core8					install
 libonig4:amd64					install
+libonig5:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
@@ -2744,6 +2746,7 @@ libwayland-bin					install
 libwayland-client0:amd64			install
 libwayland-cursor0:amd64			install
 libwayland-dev:amd64				install
+libwayland-egl1:amd64				install
 libwayland-egl1-mesa:amd64			install
 libwayland-server0:amd64			install
 libwbclient0:amd64				install
@@ -3000,12 +3003,16 @@ linux-headers-4.15.0-2-amd64			install
 linux-headers-4.15.0-2-common			install
 linux-headers-4.15.0-3-amd64			install
 linux-headers-4.15.0-3-common			install
+linux-headers-4.16.0-1-amd64			install
+linux-headers-4.16.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.14.0-3-amd64			deinstall
 linux-image-4.15.0-2-amd64			install
 linux-image-4.15.0-3-amd64			install
+linux-image-4.16.0-1-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.15				install
+linux-kbuild-4.16				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
 live-build					install
@@ -3227,6 +3234,10 @@ okular-extra-backends				install
 openbios-ppc					install
 openbios-sparc					install
 openhackware					install
+openjdk-10-jdk:amd64				install
+openjdk-10-jdk-headless:amd64			install
+openjdk-10-jre:amd64				install
+openjdk-10-jre-headless:amd64			install
 openjdk-8-jdk:amd64				install
 openjdk-8-jdk-headless:amd64			install
 openjdk-8-jre:amd64				install
