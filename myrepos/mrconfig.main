@@ -158,11 +158,6 @@ checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/languages' 
 [development/apertium/apertium-packaging]
 checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/branches/packaging' 'apertium-packaging'
 
-# Configs
-
-[development/configs/oh-my-zsh]
-checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' 'oh-my-zsh'
-
 # Books
 [development/books/penguin-can-fly]
 checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-fly'
@@ -172,9 +167,6 @@ checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-f
 
 [development/books/progit]
 checkout = git clone 'git://github.com/progit/progit.git' 'progit'
-
-[development/books/hgbook]
-checkout = hg clone 'http://bitbucket.org/bos/hgbook' 'hgbook'
 
 [development/books/gitmagic]
 checkout = git clone 'git@github.com:blynn/gitmagic.git' 'gitmagic'
