@@ -124,9 +124,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/yokadi.gi
 #CVS_ROOT = :ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint
 #checkout = cvs -d ':ext:kartik_m@tuxpaint.cvs.sourceforge.net:/cvsroot/tuxpaint' co -d 'tuxpaint-stamps' 'tuxpaint-stamps'
 
-[development/l10n/inscript2]
-checkout = git clone 'git://git.fedorahosted.org/inscript2.git' 'inscript2'
-
 [development/l10n/silpa]
 checkout = git clone 'http://git.savannah.gnu.org/r/silpa.git' 'silpa'
 
