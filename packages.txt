@@ -1065,6 +1065,7 @@ libcrypt-dh-gmp-perl				install
 libcrypt-eksblowfish-perl			install
 libcrypt-mysql-perl				install
 libcrypt-openssl-bignum-perl			install
+libcrypt-openssl-random-perl			install
 libcrypt-openssl-rsa-perl			install
 libcrypt-passwdmd5-perl				install
 libcrypt-random-seed-perl			install
@@ -2610,7 +2611,7 @@ libterm-readline-gnu-perl			install
 libterm-readline-perl-perl			install
 libterm-size-perl				install
 libterm-ui-perl					install
-libtesseract4					install
+libtesseract4:amd64				install
 libtest-fatal-perl				install
 libtevent0:amd64				install
 libtexlua52:amd64				install
