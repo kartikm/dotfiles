@@ -1510,10 +1510,11 @@ libical3:amd64					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
-libicu-dev					install
+libicu-dev:amd64				install
 libicu4j-java					install
 libicu57:amd64					install
 libicu57:i386					install
+libicu60:amd64					install
 libid3tag0:amd64				install
 libidn11:amd64					install
 libidn11-dev:amd64				install
@@ -1670,6 +1671,7 @@ libkf5codecs-data				install
 libkf5codecs5:amd64				install
 libkf5completion-data				install
 libkf5completion5:amd64				install
+libkf5config-bin				install
 libkf5config-data				install
 libkf5configcore5:amd64				install
 libkf5configgui5:amd64				install
@@ -1997,6 +1999,7 @@ libncurses5:amd64				install
 libncurses5:i386				install
 libncurses5-dev:amd64				install
 libncurses6:amd64				install
+libncurses6:i386				install
 libncursesw5:amd64				install
 libncursesw6:amd64				install
 libndp0:amd64					install
@@ -2644,6 +2647,7 @@ libtinfo-dev:amd64				install
 libtinfo5:amd64					install
 libtinfo5:i386					install
 libtinfo6:amd64					install
+libtinfo6:i386					install
 libtinyxml2.6.2v5:amd64				install
 libtirpc1:amd64					install
 libtk8.6:amd64					install
