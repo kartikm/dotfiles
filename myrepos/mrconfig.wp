@@ -208,3 +208,6 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/extensio
 
 [parsoid/parsoid]
 checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/services/parsoid' 'parsoid'
+
+[forks/restbase]
+checkout = git clone 'git@github.com:kartikm/restbase.git' 'restbase'
