@@ -1857,7 +1857,6 @@ libleatherman1.4.0:amd64			install
 liblensfun-data-v1				install
 liblensfun1:amd64				install
 liblept5					install
-liblexical-sealrequirehints-perl		install
 liblilv-0-0					install
 liblinear-tools					install
 liblinear3:amd64				install
@@ -1866,8 +1865,6 @@ liblist-compare-perl				install
 liblist-moreutils-perl				install
 liblivemedia62:amd64				install
 libllvm3.9:amd64				install
-libllvm5.0:amd64				install
-libllvm5.0:i386					install
 libllvm6.0:amd64				install
 libllvm6.0:i386					install
 liblmdb0:amd64					install
@@ -2000,7 +1997,6 @@ libnamespace-autoclean-perl			install
 libnamespace-clean-perl				install
 libncurses-dev:amd64				install
 libncurses5:amd64				install
-libncurses5:i386				install
 libncurses5-dev:amd64				install
 libncurses6:amd64				install
 libncurses6:i386				install
@@ -2086,7 +2082,6 @@ libogg-dev:amd64				install
 libogg0:amd64					install
 libogg0:i386					install
 libokular5core8					install
-libonig4:amd64					install
 libonig5:amd64					install
 libopenal-data					install
 libopenal1:amd64				install
@@ -2647,7 +2642,6 @@ libtiff5:i386					install
 libtiff5-dev:amd64				install
 libtiffxx5:amd64				install
 libtimedate-perl				install
-libtinfo-dev:amd64				install
 libtinfo5:amd64					install
 libtinfo5:i386					install
 libtinfo6:amd64					install
@@ -2806,8 +2800,6 @@ libx11-xcb1:amd64				install
 libx11-xcb1:i386				install
 libx264-152:amd64				install
 libx264-152:i386				install
-libx265-146:amd64				install
-libx265-146:i386				install
 libx265-151:amd64				install
 libx265-151:i386				install
 libx32asan3					install
@@ -3010,15 +3002,13 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-7-x86			install
-linux-headers-4.15.0-2-amd64			install
-linux-headers-4.15.0-2-common			install
 linux-headers-4.15.0-3-amd64			install
 linux-headers-4.15.0-3-common			install
 linux-headers-4.16.0-1-amd64			install
 linux-headers-4.16.0-1-common			install
 linux-headers-amd64				install
 linux-image-4.14.0-3-amd64			deinstall
-linux-image-4.15.0-2-amd64			install
+linux-image-4.15.0-2-amd64			deinstall
 linux-image-4.15.0-3-amd64			install
 linux-image-4.16.0-1-amd64			install
 linux-image-amd64				install
