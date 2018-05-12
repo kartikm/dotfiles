@@ -1510,11 +1510,15 @@ libical3:amd64					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
-libicu-dev:amd64				install
+libicu-dev					install
+libicu-le-hb-dev:amd64				install
+libicu-le-hb0:amd64				install
+libicu-le-hb0:i386				install
 libicu4j-java					install
 libicu57:amd64					install
 libicu57:i386					install
 libicu60:amd64					install
+libicu60:i386					install
 libid3tag0:amd64				install
 libidn11:amd64					install
 libidn11-dev:amd64				install

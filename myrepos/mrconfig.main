@@ -313,9 +313,6 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 [development/debian/packages/apertium/apertium-lex-tools]
 checkout = git clone 'git@salsa.debian.org:science-team/apertium-lex-tools.git' 'apertium-lex-tools'
 
-[development/debian/packages/apertium/apertium-apy]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-apy.git' 'apertium-apy'
-
 [development/debian/packages/apertium/apertium-spa-cat]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-spa-cat.git' 'apertium-spa-cat'
 
@@ -580,3 +577,12 @@ checkout = git clone 'git@salsa.debian.org:science-team/apertium-eo-fr.git' 'ape
 
 [.oh-my-zsh]
 checkout = git clone 'http://github.com/robbyrussell/oh-my-zsh.git' '.oh-my-zsh'
+
+[development/debian/packages/apertium/apertium-apy]
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-apy.git' 'apertium-apy'
+
+[development/debian/packages/apertium/apertium-streamparser]
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-streamparser.git' 'apertium-streamparser'
+
+[development/debian/packages/apertium/apertium-separable]
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-separable.git' 'apertium-separable'
