@@ -299,7 +299,7 @@ checkout = git clone 'ssh://kartik@gerrit.wikimedia.org:29418/mediawiki/core.git
 checkout = git clone 'https://gitlab.com/misandrist/HaskellWeb.git' 'HaskellWeb'
 
 [development/debian/packages/apertium/hfst/hfst]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/hfst.git' 'hfst'
+checkout = git clone 'git@salsa.debian.org:science-team/hfst.git' 'hfst'
 
 [development/debian/packages/apertium/libtoolbox/lttoolbox]
 checkout = git clone 'git@salsa.debian.org:science-team/lttoolbox.git' 'lttoolbox'
@@ -417,7 +417,7 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 checkout = svn co 'https://github.com/goavki/apertium-apy/trunk' 'apertium-apy'
 
 [development/debian/packages/apertium/apertium-af-nl]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-af-nl.git' 'apertium-af-nl'
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-af-nl.git' 'apertium-af-nl'
 
 [development/debian/packages/apertium/apertium-br-fr]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-br-fr.git' 'apertium-br-fr'
@@ -432,13 +432,13 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/package
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-eo-en.git' 'apertium-eo-en'
 
 [development/debian/packages/apertium/apertium-arg]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-arg' 'apertium-arg'
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-arg.git' 'apertium-arg'
 
 [development/debian/packages/apertium/apertium-spa]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-spa' 'apertium-spa'
 
 [development/debian/packages/apertium/apertium-arg-cat]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-arg-cat' 'apertium-arg-cat'
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-arg-cat.git' 'apertium-arg-cat'
 
 [development/debian/packages/apertium/apertium-spa-arg]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-spa-arg' 'apertium-spa-arg'
