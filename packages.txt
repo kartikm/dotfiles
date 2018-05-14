@@ -2327,6 +2327,7 @@ libqt5sql5-mysql:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5svg5:amd64				install
 libqt5test5:amd64				install
+libqt5texttospeech5:amd64			install
 libqt5waylandclient5:amd64			install
 libqt5waylandcompositor5:amd64			install
 libqt5webchannel5:amd64				install
