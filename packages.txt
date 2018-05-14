@@ -32,6 +32,7 @@ apertium					install
 apertium-apy					install
 apertium-cat					install
 apertium-dev					install
+apertium-en-es					install
 apertium-fra					install
 apertium-fra-cat				install
 apertium-lex-tools				install
