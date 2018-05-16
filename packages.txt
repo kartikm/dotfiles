@@ -23,6 +23,8 @@ anacron						install
 ant						install
 ant-contrib					install
 ant-optional					install
+anthy						install
+anthy-common					install
 antlr						install
 apache2						install
 apache2-bin					install
@@ -650,6 +652,7 @@ kaccounts-providers				install
 kactivities-bin					install
 kactivitymanagerd				install
 kamera						install
+kasumi						install
 kate						install
 kate-data					install
 kate5-data					install
@@ -776,6 +779,8 @@ libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
 libamd2:amd64					install
 libann0						install
+libanthy1:amd64					install
+libanthyinput0:amd64				install
 libantlr-java					install
 libanyevent-perl				install
 libao-common					install
