@@ -3400,6 +3400,7 @@ pinentry-gnome3					install
 pinentry-gtk2					install
 piuparts					install
 piuparts-common					install
+pixiewps					install
 pkg-config					install
 pkg-kde-tools					install
 pkg-php-tools					install
@@ -3642,6 +3643,7 @@ python3-decorator				install
 python3-dev					install
 python3-distutils				install
 python3-dnspython				install
+python3-entrypoints				install
 python3-formencode				install
 python3-gi					install
 python3-gpg					install
