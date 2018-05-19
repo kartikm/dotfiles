@@ -101,10 +101,10 @@ checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/ostinato.git' 'ostinato'
 
 [development/debian/packages/xdaliclock/xdaliclock]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xdaliclock.git' 'xdaliclock'
+checkout = git clone 'git@salsa.debian.org:debian/xdaliclock.git' 'xdaliclock'
 
 [development/debian/packages/xosview/git/xosview]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/xosview.git' 'xosview'
+checkout = git clone 'git@salsa.debian.org:debian/xosview.git' 'xosview'
 
 [development/debian/packages/yokadi/git/yokadi]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/yokadi.git' 'yokadi'
@@ -586,3 +586,6 @@ checkout = git clone 'git@salsa.debian.org:science-team/apertium-streamparser.gi
 
 [development/debian/packages/apertium/apertium-separable]
 checkout = git clone 'git@salsa.debian.org:science-team/apertium-separable.git' 'apertium-separable'
+
+[development/debian/packages/xmountains/git/xmountains]
+checkout = git clone 'git@salsa.debian.org:debian/xmountains.git' 'xmountains'
