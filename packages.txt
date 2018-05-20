@@ -2228,7 +2228,7 @@ libportaudio2:amd64				install
 libportmidi0:amd64				install
 libposix-strptime-perl				install
 libpostproc54:amd64				install
-libpotrace0					install
+libpotrace0:amd64				install
 libpowerdevilcore2				install
 libpowerdevilui5				install
 libpq5:amd64					install
