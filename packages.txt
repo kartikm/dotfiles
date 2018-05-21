@@ -2237,6 +2237,7 @@ libpri1.4					install
 libprocesscore7					install
 libprocessui7					install
 libprocps6:amd64				install
+libprocps7:amd64				install
 libproj13:amd64					install
 libprotobuf-c1:amd64				install
 libprotobuf-lite10:amd64			install
