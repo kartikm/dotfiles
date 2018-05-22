@@ -127,6 +127,7 @@ cabextract					install
 caca-utils					install
 calendar-google-provider			install
 catdoc						install
+catimg						install
 ccze						install
 cdbs						install
 cdebootstrap					install
