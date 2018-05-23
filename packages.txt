@@ -265,6 +265,7 @@ dput						install
 drkonqi						install
 dunst						install
 dwdiff						install
+dwz						install
 dynamite					install
 e2fsprogs					install
 e2fsprogs-l10n					install
@@ -1480,6 +1481,7 @@ libharfbuzz0b:i386				install
 libhawtjni-runtime-java				install
 libhdf4-0-alt					install
 libhdf5-100:amd64				install
+libheif1:amd64					install
 libhfst50					install
 libhfstospell9:amd64				install
 libhibernate-validator-java			install
