@@ -100,9 +100,6 @@ binutils-msp430					install
 binutils-x86-64-linux-gnu			install
 bison						install
 blt						install
-bluedevil					install
-bluez						install
-bluez-obexd					install
 bmon						install
 breeze						install
 breeze-cursor-theme				install
@@ -2007,7 +2004,6 @@ libncurses5:amd64				install
 libncurses5-dev:amd64				install
 libncurses6:amd64				install
 libncurses6:i386				install
-libncursesw5:amd64				install
 libncursesw6:amd64				install
 libndp0:amd64					install
 libneon27-gnutls:amd64				install
@@ -3726,14 +3722,12 @@ qemu-user					install
 qemu-user-binfmt				install
 qemu-utils					install
 qml-module-org-kde-activities:amd64		install
-qml-module-org-kde-bluezqt:amd64		install
 qml-module-org-kde-charts			install
 qml-module-org-kde-draganddrop:amd64		install
 qml-module-org-kde-kcm:amd64			install
 qml-module-org-kde-kconfig:amd64		install
 qml-module-org-kde-kcoreaddons:amd64		install
 qml-module-org-kde-kholidays:amd64		install
-qml-module-org-kde-kio:amd64			install
 qml-module-org-kde-kirigami2			install
 qml-module-org-kde-kquickcontrols:amd64		install
 qml-module-org-kde-kquickcontrolsaddons:amd64	install
