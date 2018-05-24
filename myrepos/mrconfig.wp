@@ -78,10 +78,6 @@ update = fork_update
 checkout = git clone 'git@github.com:kartikm/CLDRPluralRuleParser.git' 'CLDRPluralRuleParser'
 update = fork_update
 
-[forks/Elastica]
-checkout = git clone 'git@github.com:kartikm/Elastica.git' 'Elastica'
-update = fork_update
-
 # VE and friends
 [VE/VisualEditor]
 checkout = git clone 'https://kartik@gerrit.wikimedia.org:29418/mediawiki/extensions/VisualEditor' 'VisualEditor'
