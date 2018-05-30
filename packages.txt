@@ -1001,6 +1001,7 @@ libcgi-pm-perl					install
 libcgi-session-perl				install
 libcglib-java					install
 libcgraph6					install
+libcharls1:amd64				install
 libchm-bin					install
 libchm-dev					install
 libchm1						install
