@@ -3013,8 +3013,11 @@ linux-headers-4.15.0-3-amd64			install
 linux-headers-4.15.0-3-common			install
 linux-headers-4.16.0-1-amd64			install
 linux-headers-4.16.0-1-common			install
+linux-headers-4.16.0-2-amd64			install
+linux-headers-4.16.0-2-common			install
 linux-headers-amd64				install
 linux-image-4.16.0-1-amd64			install
+linux-image-4.16.0-2-amd64			install
 linux-image-amd64				install
 linux-kbuild-4.15				install
 linux-kbuild-4.16				install
@@ -3711,6 +3714,8 @@ qemu-slof					install
 qemu-system					install
 qemu-system-arm					install
 qemu-system-common				install
+qemu-system-data				install
+qemu-system-gui					install
 qemu-system-mips				install
 qemu-system-misc				install
 qemu-system-ppc					install
