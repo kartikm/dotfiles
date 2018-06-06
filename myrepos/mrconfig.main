@@ -18,9 +18,6 @@ lib =
 [/home/kartik/development/debian/debian-in]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-in/debian-in.git' 'debian-in'
 
-[development/debian/planet-debian]
-checkout = svn co svn+ssh://kartik@svn.debian.org/svn/planet-debian
-
 [development/debian/d-i/level1/po]
 checkout = svn co svn+ssh://kartik@svn.debian.org/svn/d-i/trunk/packages/po
 
@@ -83,7 +80,7 @@ update = fork_update
 checkout = git clone 'git@salsa.debian.org:debian/aria2.git' 'aria2'
 
 [development/debian/packages/nginx/git/nginx]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git' 'nginx'
+checkout = git clone 'git@salsa.debian.org:debian/nginx.git' 'nginx'
 
 [development/debian/packages/ostinato/git/ostinato]
 checkout = git clone 'git@salsa.debian.org:debian/ostinato.git' 'ostinato'
@@ -95,7 +92,7 @@ checkout = git clone 'git@salsa.debian.org:debian/xdaliclock.git' 'xdaliclock'
 checkout = git clone 'git@salsa.debian.org:debian/xosview.git' 'xosview'
 
 [development/debian/packages/yokadi/git/yokadi]
-checkout = git clone 'git@salsa.debian.org/debian/yokadi.git' 'yokadi'
+checkout = git clone 'git@salsa.debian.org:debian/yokadi.git' 'yokadi'
 
 # l10n
 #[development/l10n/KDE/gu]
