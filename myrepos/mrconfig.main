@@ -27,18 +27,9 @@ checkout = svn co svn+ssh://kartik@svn.debian.org/svn/d-i/trunk/packages/po
 [development/debian/d-i/level2/tasksel]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/tasksel/tasksel.git' 'tasksel'
 
-[development/debian/release-notes]
-checkout = svn co svn+ssh://kartik@svn.debian.org/svn/ddp/manuals/trunk/release-notes
-
 # Disabled: 20140625
 #[development/debian/talks/packaging-tutorial]
 #checkout = git clone 'git://git.debian.org/users/lucas/packaging-tutorial.git' 'packaging-tutorial'
-
-[development/debian/debci]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/debci.git' 'debci'
-
-[development/debian/debian-quiz]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/debian-quiz.git' 'debian-quiz'
 
 # Upstreams
 [development/upstreams/aspell-lang]
@@ -53,9 +44,6 @@ checkout = svn co svn://svn.savannah.nongnu.org/fontypython/trunk
 [development/upstreams/mango-lassi]
 checkout = git clone 'git://github.com/herzi/mango-lassi.git' 'mango-lassi'
 
-#[development/upstreams/ostinato]
-#checkout = hg clone 'https://code.google.com/p/ostinato/' 'ostinato'
-
 [development/upstreams/xosview]
 checkout = git clone 'git@github.com:hills/xosview.git' 'xosview'
 
@@ -69,8 +57,8 @@ checkout = git clone 'git@github.com:kartikm/fonts-rekha.git' 'fonts-rekha'
 [development/fonts/font-kalapi]
 checkout = git clone 'git@github.com:gujaratilexicon/font-kalapi.git' 'font-kalapi'
 
-[development/fonts/lohit]
-checkout = git clone 'git://git.fedorahosted.org/lohit.git' 'lohit'
+#[development/fonts/lohit]
+#checkout = git clone 'git://git.fedorahosted.org/lohit.git' 'lohit'
 
 [development/fonts/tofudetector]
 checkout = git clone 'git@github.com:kartikm/tofudetector.git' 'tofudetector'
@@ -92,13 +80,13 @@ update = fork_update
 
 # Packages
 [development/debian/packages/aria2/aria2]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/aria2.git' 'aria2'
+checkout = git clone 'git@salsa.debian.org:debian/aria2.git' 'aria2'
 
 [development/debian/packages/nginx/git/nginx]
 checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/nginx.git' 'nginx'
 
 [development/debian/packages/ostinato/git/ostinato]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/ostinato.git' 'ostinato'
+checkout = git clone 'git@salsa.debian.org:debian/ostinato.git' 'ostinato'
 
 [development/debian/packages/xdaliclock/xdaliclock]
 checkout = git clone 'git@salsa.debian.org:debian/xdaliclock.git' 'xdaliclock'
@@ -107,7 +95,7 @@ checkout = git clone 'git@salsa.debian.org:debian/xdaliclock.git' 'xdaliclock'
 checkout = git clone 'git@salsa.debian.org:debian/xosview.git' 'xosview'
 
 [development/debian/packages/yokadi/git/yokadi]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/yokadi.git' 'yokadi'
+checkout = git clone 'git@salsa.debian.org/debian/yokadi.git' 'yokadi'
 
 # l10n
 #[development/l10n/KDE/gu]
@@ -146,21 +134,9 @@ checkout = git clone 'git@github.com:gujaratilexicon/GujaratiLexicon-extension.g
 checkout = git clone 'git@github.com:kartikm/gtts.git' 'gtts'
 update = fork_update
 
-[development/apertium/apertium-svn]
-checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/trunk' 'apertium-svn'
-
-[development/apertium/languages]
-checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/languages' 'languages'
-
-[development/apertium/apertium-packaging]
-checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/branches/packaging' 'apertium-packaging'
-
 # Books
 [development/books/penguin-can-fly]
 checkout = git clone 'git@github.com:kartikm/penguin-can-fly.git' 'penguin-can-fly'
-
-#[development/books/svnbook/trunk]
-#checkout = svn co 'http://svnbook.googlecode.com/svn/trunk' 'trunk'
 
 [development/books/progit]
 checkout = git clone 'git://github.com/progit/progit.git' 'progit'
@@ -305,197 +281,11 @@ checkout = git clone 'git@salsa.debian.org:science-team/hfst.git' 'hfst'
 checkout = git clone 'git@salsa.debian.org:science-team/lttoolbox.git' 'lttoolbox'
 
 [development/debian/packages/apertium/apertium/apertium]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium.git' 'apertium'
-
-[development/debian/packages/apertium/cg3/cg3]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/cg3.git' 'cg3'
-
-[development/debian/packages/apertium/apertium-lex-tools]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-lex-tools.git' 'apertium-lex-tools'
-
-[development/debian/packages/apertium/apertium-spa-cat]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-spa-cat.git' 'apertium-spa-cat'
-
-[development/debian/packages/apertium/apertium-en-ca]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-en-ca.git' 'apertium-en-ca'
-
-[development/debian/packages/apertium/apertium-en-es/apertium-en-es]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-en-es.git' 'apertium-en-es'
-
-[development/debian/packages/apertium/apertium-es-pt/apertium-es-pt]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-es-pt.git' 'apertium-es-pt'
-
-[development/debian/packages/apertium/apertium-pt-ca/apertium-pt-ca]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-pt-ca.git' 'apertium-pt-ca'
-
-[development/debian/packages/apertium/apertium-eo-es]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-eo-es.git' 'apertium-eo-es'
-
-[development/debian/packages/apertium/apertium-es-gl]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-es-gl.git' 'apertium-es-gl'
-
-[development/debian/packages/apertium/apertium-es-ro]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-es-ro.git' 'apertium-es-ro'
-
-[development/debian/packages/apertium/apertium-eu-es]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-eu-es.git' 'apertium-eu-es'
-
-[development/debian/packages/apertium/apertium-fra-cat]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-fra-cat.git' 'apertium-fra-cat'
-
-[development/debian/packages/apertium/apertium-fr-es]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-fr-es.git' 'apertium-fr-es'
-
-[development/debian/packages/apertium/apertium-oc-ca]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-oc-ca.git' 'apertium-oc-ca'
-
-[development/debian/packages/apertium/apertium-oc-es]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-oc-es.git' 'apertium-oc-es'
-
-[development/debian/packages/apertium/apertium-pt-gl]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-pt-gl.git' 'apertium-pt-gl'
-
-[development/debian/packages/apertium/apertium-cy-en]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-cy-en.git' 'apertium-cy-en'
-
-[development/debian/packages/apertium/apertium-ca-it]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-ca-it.git' 'apertium-ca-it'
-
-[development/debian/packages/apertium/apertium-dan]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-dan.git' 'apertium-dan'
-
-[development/debian/packages/apertium/apertium-dan-nor]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-dan-nor.git' 'apertium-dan-nor'
-
-[development/debian/packages/apertium/apertium-kaz]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-kaz.git' 'apertium-kaz'
-
-[development/apertium/apertium-guj]
-checkout = svn co 'svn+ssh://kartik_m@svn.code.sf.net/p/apertium/svn/incubator/apertium-guj' 'apertium-guj'
+checkout = git clone 'git@salsa.debian.org:science-team/apertium.git' 'apertium'
 
 [development/wikipedia/OCR4wikisource]
 checkout = git clone 'git@github.com:kartikm/OCR4wikisource.git' 'OCR4wikisource'
 update = fork_update
-
-[development/debian/packages/apertium/apertium-hbs]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-hbs' 'apertium-hbs'
-
-[development/debian/packages/apertium/apertium-fra]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-fra.git' 'apertium-fra'
-
-[development/debian/packages/apertium/apertium-sme-nob]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-sme-nob' 'apertium-sme-nob'
-
-[development/debian/packages/apertium/apertium-swe]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-swe' 'apertium-swe'
-
-[development/debian/packages/apertium/apertium-nno]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-nno.git' 'apertium-nno'
-
-[development/debian/packages/apertium/apertium-nob]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-nob.git' 'apertium-nob'
-
-[development/debian/packages/apertium/apertium-nno-nob]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-nno-nob' 'apertium-nno-nob'
-
-[development/debian/packages/apertium/apertium-swe-dan]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-swe-dan' 'apertium-swe-dan'
-
-[development/debian/packages/libmng/libmng]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/libmng.git' 'libmng'
-
-[development/debian/packages/apertium/apertium-swe-nor]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-swe-nor' 'apertium-swe-nor'
-
-[development/debian/packages/apertium/giellas/giella-sme]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/giella-sme' 'giella-sme'
-
-[development/debian/packages/apertium/giellas/giella-core]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/giella-core' 'giella-core'
-
-[development/apertium/apertium-apy]
-checkout = svn co 'https://github.com/goavki/apertium-apy/trunk' 'apertium-apy'
-
-[development/debian/packages/apertium/apertium-af-nl]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-af-nl.git' 'apertium-af-nl'
-
-[development/debian/packages/apertium/apertium-br-fr]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-br-fr.git' 'apertium-br-fr'
-
-[development/debian/packages/apertium/apertium-cat]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-cat.git' 'apertium-cat'
-
-[development/debian/packages/apertium/apertium-eo-ca]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-eo-ca.git' 'apertium-eo-ca'
-
-[development/debian/packages/apertium/apertium-eo-en]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-eo-en.git' 'apertium-eo-en'
-
-[development/debian/packages/apertium/apertium-arg]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-arg.git' 'apertium-arg'
-
-[development/debian/packages/apertium/apertium-spa]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-spa' 'apertium-spa'
-
-[development/debian/packages/apertium/apertium-arg-cat]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-arg-cat.git' 'apertium-arg-cat'
-
-[development/debian/packages/apertium/apertium-spa-arg]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-spa-arg' 'apertium-spa-arg'
-
-[development/debian/packages/apertium/foma]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/foma' 'foma'
-
-[development/debian/packages/apertium/apertium-es-it]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-es-it.git' 'apertium-es-it'
-
-[development/debian/packages/apertium/apertium-eu-en]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-eu-en.git' 'apertium-eu-en'
-
-[development/debian/packages/apertium/apertium-hin]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-hin' 'apertium-hin'
-
-[development/debian/packages/apertium/apertium-urd]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-urd' 'apertium-urd'
-
-[development/debian/packages/apertium/apertium-tat]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-tat' 'apertium-tat'
-
-[development/debian/packages/apertium/apertium-hbs-eng]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-hbs-eng.git' 'apertium-hbs-eng'
-
-[development/debian/packages/apertium/apertium-hbs-mkd]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-hbs-mkd.git' 'apertium-hbs-mkd'
-
-[development/debian/packages/apertium/apertium-id-ms]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-id-ms' 'apertium-id-ms'
-
-[development/debian/packages/apertium/apertium-hbs-slv]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-hbs-slv.git' 'apertium-hbs-slv'
-
-[development/debian/packages/apertium/apertium-mk-bg]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-mk-bg' 'apertium-mk-bg'
-
-[development/debian/packages/apertium/apertium-kaz-tat]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-kaz-tat.git' 'apertium-kaz-tat'
-
-[development/debian/packages/python-toro]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/collab-maint/python-toro.git' 'python-toro'
-
-[development/debian/packages/apertium/apertium-isl-eng]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-isl-eng' 'apertium-isl-eng'
-
-[development/debian/packages/apertium/apertium-mk-en]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-mk-en' 'apertium-mk-en'
-
-[development/debian/packages/apertium/apertium-urd-hin]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-urd-hin' 'apertium-urd-hin'
-
-[development/debian/packages/apertium/apertium-is-sv]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-is-sv' 'apertium-is-sv'
-
-[development/debian/packages/apertium/apertium-mlt-ara]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-mlt-ara' 'apertium-mlt-ara'
 
 [development/fonts/woff2]
 checkout = git clone 'https://github.com/google/woff2.git' 'woff2'
@@ -503,47 +293,11 @@ checkout = git clone 'https://github.com/google/woff2.git' 'woff2'
 [development/fonts/sfntly]
 checkout = git clone 'https://github.com/googlei18n/sfntly.git' 'sfntly'
 
-[development/debian/packages/apertium/apertium-isl]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-isl' 'apertium-isl'
-
-[development/debian/packages/apertium/apertium-ita]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-ita' 'apertium-ita'
-
-[development/debian/packages/apertium/apertium-srd]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-srd' 'apertium-srd'
-
-[development/debian/packages/apertium/apertium-srd-ita]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-srd-ita' 'apertium-srd-ita'
-
 [development/github/pybib]
 checkout = git clone 'https://github.com/kartikm/pybib' 'pybib'
 
-[development/debian/packages/apertium/hfst-ospell]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/hfst-ospell' 'hfst-ospell'
-
 [development/debian/packages/chmlib/chmlib]
 checkout = git clone 'git@salsa.debian.org:debian/chmlib.git' 'chmlib'
-
-[development/debian/packages/apertium/apertium-bel]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-bel' 'apertium-bel'
-
-[development/debian/packages/apertium/apertium-rus]
-checkout = git clone 'git@salsa.debian.org:science-team/apertium-rus.git' 'apertium-rus'
-
-[development/debian/packages/apertium/apertium-bel-rus]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-bel-rus' 'apertium-bel-rus'
-
-[development/debian/packages/apertium/apertium-crh]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-crh.git' 'apertium-crh'
-
-[development/debian/packages/apertium/apertium-tur]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-tur.git' 'apertium-tur'
-
-[development/debian/packages/apertium/apertium-cat-srd]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-cat-srd.git' 'apertium-cat-srd'
-
-[development/debian/packages/apertium/apertium-crh-tur]
-checkout = git clone 'git+ssh://kartik@git.debian.org/git/debian-science/packages/apertium-crh-tur.git' 'apertium-crh-tur'
 
 [development/l10n/tuxfamily/tuxpaint-tuxpaint]
 checkout = git clone 'ssh://kartik_m@git.code.sf.net/p/tuxpaint/tuxpaint' 'tuxpaint-tuxpaint'
