@@ -2912,7 +2912,7 @@ libxi-dev:amd64					install
 libxi6:amd64					install
 libxinerama-dev:amd64				install
 libxinerama1:amd64				install
-libxkbcommon-dev				install
+libxkbcommon-dev:amd64				install
 libxkbcommon-x11-0:amd64			install
 libxkbcommon0:amd64				install
 libxkbfile1:amd64				install
