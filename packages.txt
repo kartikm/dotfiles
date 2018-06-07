@@ -1328,7 +1328,6 @@ libgdraw5					install
 libgee-0.8-2:amd64				install
 libgegl-0.4-0:amd64				install
 libgegl-common					install
-libgeoclue-2-0:amd64				install
 libgeoip-dev					install
 libgeoip1:amd64					install
 libgeos-3.6.2:amd64				install
@@ -1844,7 +1843,6 @@ libkwinglutils11				install
 libkwinxrenderutils11				install
 libkworkspace5-5				install
 libkxml2-java					install
-libkxmlrpcclient4				install
 liblab-gamut1					install
 liblangtag-common				install
 liblangtag1:amd64				install
@@ -2262,6 +2260,7 @@ libpython2.7:amd64				install
 libpython2.7-dev:amd64				install
 libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
+libpython3-all-dev:amd64			install
 libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
 libpython3.6:amd64				install
@@ -2650,7 +2649,6 @@ libtiff5-dev:amd64				install
 libtiffxx5:amd64				install
 libtimedate-perl				install
 libtinfo5:amd64					install
-libtinfo5:i386					install
 libtinfo6:amd64					install
 libtinfo6:i386					install
 libtinyxml2.6.2v5:amd64				install
@@ -3009,8 +3007,6 @@ lightning					install
 lintian						install
 linux-base					install
 linux-compiler-gcc-7-x86			install
-linux-headers-4.15.0-3-amd64			install
-linux-headers-4.15.0-3-common			install
 linux-headers-4.16.0-1-amd64			install
 linux-headers-4.16.0-1-common			install
 linux-headers-4.16.0-2-amd64			install
@@ -3019,7 +3015,6 @@ linux-headers-amd64				install
 linux-image-4.16.0-1-amd64			install
 linux-image-4.16.0-2-amd64			install
 linux-image-amd64				install
-linux-kbuild-4.15				install
 linux-kbuild-4.16				install
 linux-libc-dev:amd64				install
 live-boot-doc					install
@@ -3621,6 +3616,8 @@ python2.7					install
 python2.7-dev					install
 python2.7-minimal				install
 python3						install
+python3-all					install
+python3-all-dev					install
 python3-apparmor				install
 python3-apt					install
 python3-asn1crypto				install
