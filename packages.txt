@@ -31,6 +31,7 @@ apache2-bin					install
 apache2-data					install
 apache2-utils					install
 apertium					install
+apertium-af-nl					install
 apertium-apy					install
 apertium-cat					install
 apertium-dev					install
@@ -3452,6 +3453,8 @@ puppet						install
 puppet-lint					install
 pv						install
 pydb						install
+pyflakes					install
+pyflakes3					install
 pylint						install
 python						install
 python-alabaster				install
@@ -3461,6 +3464,7 @@ python-appindicator				install
 python-apt					install
 python-apt-common				install
 python-astroid					install
+python-autopep8					install
 python-babel					install
 python-babel-localedata				install
 python-backports-abc				install
@@ -3542,6 +3546,7 @@ python-olefile					install
 python-packaging				install
 python-pathlib2					install
 python-pbr					install
+python-pep8					install
 python-pexpect					install
 python-pexpect-doc				install
 python-pickleshare				install
@@ -3554,10 +3559,12 @@ python-prompt-toolkit				install
 python-ptyprocess				install
 python-pyasn1					install
 python-pyasn1-modules				install
+python-pycodestyle				install
 python-pycparser				install
 python-pycurl					install
 python-pydispatch				install
 python-pyexiv2					install
+python-pyflakes					install
 python-pygame					install
 python-pygments					install
 python-pymongo					install
@@ -3624,9 +3631,11 @@ python2.7-minimal				install
 python3						install
 python3-all					install
 python3-all-dev					install
+python3-altgraph				install
 python3-apparmor				install
 python3-apt					install
 python3-asn1crypto				install
+python3-autopep8				install
 python3-bs4					install
 python3-certifi					install
 python3-cffi-backend				install
@@ -3642,8 +3651,10 @@ python3-decorator				install
 python3-dev					install
 python3-distutils				install
 python3-dnspython				install
+python3-docutils				install
 python3-entrypoints				install
 python3-formencode				install
+python3-future					install
 python3-gi					install
 python3-gpg					install
 python3-html5lib				install
@@ -3651,6 +3662,7 @@ python3-httplib2				install
 python3-idna					install
 python3-ipython					install
 python3-ipython-genutils			install
+python3-jedi					install
 python3-keyring					install
 python3-keyrings.alt				install
 python3-kiwisolver				install
@@ -3658,6 +3670,7 @@ python3-lib2to3					install
 python3-libapparmor				install
 python3-libhfst					install
 python3-lxml:amd64				install
+python3-macholib				install
 python3-magic					install
 python3-matplotlib				install
 python3-minimal					install
@@ -3665,6 +3678,9 @@ python3-nose					install
 python3-numpy					install
 python3-olefile					install
 python3-openssl					install
+python3-parso					install
+python3-pefile					install
+python3-pep8					install
 python3-pexpect					install
 python3-pickleshare				install
 python3-pil:amd64				install
@@ -3672,8 +3688,10 @@ python3-pip					install
 python3-pkg-resources				install
 python3-prompt-toolkit				install
 python3-ptyprocess				install
+python3-pycodestyle				install
 python3-pycurl					install
 python3-pydispatch				install
+python3-pyflakes				install
 python3-pygments				install
 python3-pyocr					install
 python3-pyparsing				install
@@ -3684,6 +3702,7 @@ python3-pyxattr					install
 python3-recoll					install
 python3-reportbug				install
 python3-requests				install
+python3-roman					install
 python3-scour					install
 python3-secretstorage				install
 python3-setuptools				install
@@ -3978,6 +3997,7 @@ ttf-dejavu					install
 ttf-dejavu-core					install
 ttf-dejavu-extra				install
 ttfautohint					install
+turing						install
 tuxpaint					install
 tuxpaint-config					install
 tuxpaint-data					install
