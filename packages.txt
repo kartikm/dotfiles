@@ -1910,6 +1910,7 @@ liblzo2-2:amd64					install
 liblzo2-2:i386					install
 libm17n-0:amd64					install
 libmaa3:amd64					install
+libmaa4:amd64					install
 libmad0:amd64					install
 libmagic-mgc					install
 libmagic1:amd64					install
@@ -2256,6 +2257,8 @@ libpwquality1:amd64				install
 libpython-all-dev:amd64				install
 libpython-dev:amd64				install
 libpython-stdlib:amd64				install
+libpython2-dev:amd64				install
+libpython2-stdlib:amd64				install
 libpython2.7:amd64				install
 libpython2.7-dev:amd64				install
 libpython2.7-minimal:amd64			install
@@ -3612,6 +3615,9 @@ python-xdg					install
 python-yaml					install
 python-zbar					install
 python-zmq					install
+python2						install
+python2-dev					install
+python2-minimal					install
 python2.7					install
 python2.7-dev					install
 python2.7-minimal				install
