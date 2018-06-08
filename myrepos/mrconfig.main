@@ -91,7 +91,7 @@ checkout = git clone 'git@salsa.debian.org:debian/xdaliclock.git' 'xdaliclock'
 [development/debian/packages/xosview/git/xosview]
 checkout = git clone 'git@salsa.debian.org:debian/xosview.git' 'xosview'
 
-[development/debian/packages/yokadi/git/yokadi]
+[development/debian/packages/yokadi]
 checkout = git clone 'git@salsa.debian.org:debian/yokadi.git' 'yokadi'
 
 # l10n
@@ -340,3 +340,6 @@ checkout = git clone 'git@salsa.debian.org:science-team/apertium-separable.git' 
 
 [development/debian/packages/xmountains/git/xmountains]
 checkout = git clone 'git@salsa.debian.org:debian/xmountains.git' 'xmountains'
+
+[development/debian/packages/apertium/apertium-af-nl]
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-af-nl.git' 'apertium-af-nl'
