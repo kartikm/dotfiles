@@ -343,3 +343,6 @@ checkout = git clone 'git@salsa.debian.org:debian/xmountains.git' 'xmountains'
 
 [development/debian/packages/apertium/apertium-af-nl]
 checkout = git clone 'git@salsa.debian.org:science-team/apertium-af-nl.git' 'apertium-af-nl'
+
+[development/debian/packages/apertium/apertium-arg]
+checkout = git clone 'git@salsa.debian.org:science-team/apertium-arg.git' 'apertium-arg'
