@@ -59,6 +59,8 @@ aptitude-common					install
 arch-test					install
 arduino						install
 arduino-core					install
+argyll						install
+argyll-ref					install
 aria2						install
 ark						install
 aspell						install
@@ -145,6 +147,7 @@ coinor-libcoinutils3v5				install
 coinor-libosi1v5				install
 colord						install
 colord-data					install
+colord-kde					install
 colordiff					install
 colortail					install
 comix						install
@@ -510,6 +513,7 @@ gitstats					install
 glib-networking:amd64				install
 glib-networking-common				install
 glib-networking-services			install
+gnome-color-manager				install
 gnome-keyring					install
 gnome-keyring-pkcs11:amd64			install
 gnome-mime-data					install
@@ -973,6 +977,8 @@ libcairomm-1.0-1v5:amd64			install
 libcamd2:amd64					install
 libcanberra-gtk-module:amd64			install
 libcanberra-gtk0:amd64				install
+libcanberra-gtk3-0:amd64			install
+libcanberra-gtk3-module:amd64			install
 libcanberra0:amd64				install
 libcap-dev:amd64				install
 libcap-ng-dev					install
@@ -1033,6 +1039,7 @@ libclucene-core1v5:amd64			install
 libcmis-0.5-5v5					install
 libcolamd2:amd64				install
 libcolorcorrect5				install
+libcolord-gtk1:amd64				install
 libcolord2:amd64				install
 libcolorhug2:amd64				install
 libcom-err2:amd64				install
