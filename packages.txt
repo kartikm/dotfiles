@@ -2818,6 +2818,8 @@ libx264-152:amd64				install
 libx264-152:i386				install
 libx265-151:amd64				install
 libx265-151:i386				install
+libx265-160:amd64				install
+libx265-160:i386				install
 libx32asan3					install
 libx32asan4					install
 libx32atomic1					install
@@ -3871,6 +3873,7 @@ ruby-thor					install
 ruby-timers					install
 ruby-unf					install
 ruby-unf-ext					install
+ruby-xmlrpc					install
 ruby2.3						install
 ruby2.3-dev:amd64				install
 ruby2.5						install
